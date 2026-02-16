@@ -44,7 +44,7 @@ msgstr "TerranovaTeam: https://github.com/orgs/colobot/members"
 #: ../E/authors.txt:8
 #, no-wrap
 msgid "Contributors on GitHub: https://github.com/colobot/colobot/graphs/contributors"
-msgstr "Contribuidores en GitHub: https://github.com/colobot/colobot/graphs/contributors"
+msgstr "Contribuidores en GitHub: https://github.com/colobot/colobot/graphs/contributors                    Traducción al Español: Ricardo Rodríguez García"
 
 #. type: \b; header
 #: ../E/cbot.txt:1
