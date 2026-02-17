@@ -56,7 +56,7 @@ msgstr "Vuelve a tu nave lo más rápido posible e intenta transmitir informaci�
 #: ../help/help.E.txt:8
 #, no-wrap
 msgid "There is nothing we can really do to guide you but don't forget that you're following in the footsteps of a previous expedition. If what happened to you is what happened to them, chances are they may have left some clues along the way back to their own spaceship which landed in roughly the same area as yours. Use those clues."
-msgstr "No hay mucho que podamos hacer para guiarte, pero no forget que estás siguiendo los pasos de una expedición anterior. Si lo que te sucedió es lo que les sucedió a ellos, es posible que hayan dejado algunas pistas en el camino de regreso a su propia nave espacial que aterrizó en aproximadamente la misma área que la tuya. Usa esas pistas."
+msgstr "No hay mucho que podamos hacer para guiarte, pero no olvides que estás siguiendo los pasos de una expedición anterior. Si lo que te sucedió es lo que les sucedió a ellos, es posible que hayan dejado algunas pistas en el camino de regreso a su propia nave espacial que aterrizó en aproximadamente la misma área que la tuya. Usa esas pistas."
 
 #. type: Plain text
 #: ../help/help.E.txt:10
