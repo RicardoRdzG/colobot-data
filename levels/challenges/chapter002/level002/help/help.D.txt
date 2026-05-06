@@ -1,0 +1,20 @@
+\b;Übung
+Folgen Sie der \l;mobilen Zielscheibe\u object\bottr; mit dem Übungsfahrzeug, ohne sie zu berühren. Immer wenn die mobile Zielscheibe anhält, müssen Sie sich in ihrer Nähe befinden (weniger als 10m Abstand). Sobald Sie geschafft haben, sich während 10 aufeinanderfolgenden Stopps nahe der mobilen Zielscheibe zu befinden, wird sie Sie zur Zielfläche führen und die Übung ist beendet. Bei jedem Stopp prüft die mobile Zielscheibe, ob Sie in der Nähe sind. Ist das nicht der Fall, müssen Sie noch einmal von vorn anfangen.
+
+\b;Vorgehensweise
+Wiederholen Sie immer:
+o  Suchen Sie nach der mobilen Zielscheibe.
+o  Berechnen Sie die Entfernung zu ihr.
+o  Ist die Entfernung zur mobilen Zielscheibe geringer als 5m, fahren Sie rückwärts.
+o  Ansonsten berechnen Sie die Richtung der mobilen Zielscheibe und fahren auf sie zu.
+
+\b;Nützliche Anweisungen
+\c;\l;radar\u cbot\radar;\n; um nach dem Roboter zu suchen (Kategorie \c;\l;TargetBot\u object\bottarg;\n;)
+\c;\l;radar\u cbot\radar;\n; um Hindernisse zu erkennen
+\c;\l;distance\u cbot\dist;\n; um die Entfernung zu berechnen
+\c;\l;direction\u cbot\direct;\n; um die Richtung zu berechnen
+\c;\l;if\u cbot\if;\n; um eine Bedingung zu prüfen
+\c;\l;motor\u cbot\motor;\n; um die Geschwindigkeit des Motors einzustellen
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, \l;Variablentypen\u cbot\type; und \l;Kategorien\u cbot\category;.

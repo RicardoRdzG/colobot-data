@@ -1,0 +1,57 @@
+\b;Übung
+Lassen Sie den Roboter alle \l;blauen Kreuze\u object\waypoint; auf dem Boden finden. Sobald der Roboter ein Kreuz passiert hat, verschwindet es. Hier das allgemeine Prinzip nach dem Sie vorgehen müssen:
+
+Wiederhole immer wieder:
+	o  Suche nach einem Kreuz.
+	o  Falls keines mehr existiert, beende das Programm.
+	o  Berechne die Richtung des Kreuzes.
+	o  Stelle passende Motorgeschwindigkeiten ein, um das Kreuz zu erreichen.
+
+\b;Das Programm
+Benutzen Sie eine \c;\l;while\u cbot\while;\n;-Schleife, um einige Anweisungen immer und immer wieder auszuführen:
+\s;\c;\l;while\u cbot\while; ( \l;true\u cbot\true; )
+\s;{
+\s;	\n;Anweisungen...\c;
+\s;}
+\n;
+Die Anweisung \c;\l;radar\u cbot\radar;\n; findet die blauen Kreuze und schreibt ihre Beschreibung in eine Variable, zum Beispiel \c;spot\n;. In diesem Fall benötigt \c;\l;radar\u cbot\radar;()\n; nur einen Parameter, und zwar die Kategorie des Objekts, nach dem gesucht werden soll:
+\s;\c;spot = \l;radar\u cbot\radar;(\l;WayPoint\u cbot\category;);
+\n;
+Wenn alle Kreuze gefunden wurden, gibt \c;\l;radar\u cbot\radar;\n; den Wert \c;\l;null\u cbot\null;\n; zurück. Sie müssen diesen Fall prüfen und entsprechend reagieren. Benutzen Sie hierfür eine \c;\l;if\u cbot\if;\n;-Anweisung:
+\s;\c;\l;if\u cbot\if; ( spot == \l;null\u cbot\null; )  // keine mehr ?
+\s;{
+\s;	\l;motor\u cbot\motor;(0, 0);  // Motoren stoppen
+\s;	\l;break\u cbot\break;;        // Schleife verlassen
+\s;}
+\n;Die Anweisung \c;\l;break\u cbot\break;\n; setzt der Endlosschleife \c;\l;while\u cbot\while; (true)\n; ein Ende.
+
+Verwenden Sie die Anweisung \c;\l;direction\u cbot\direct;()\n;, um den Winkel zu berechnen, der für die Drehung des Roboters in die Richtung des Kreuzes erforderlich ist. Die Koordinaten dieses Objekts sind gegeben durch \c;spot.\l;position\u cbot\object;\n;. Folgende Zeile schreibt den Winkels der erforderlichen Drehung in die \l;Variable\u cbot\var; \c;dir\n;:
+\s;\c;dir = \l;direction\u cbot\direct;(spot.\l;position\u cbot\object;);
+\n;
+Der Winkel ist positiv, wenn das Kreuz sich linkerhand befindet und negativ, wenn es sich rechts befindet. Wenn das Kreuz sich auf der linken Seite befindet, setzen Sie den rechten Motor auf Höchstgeschwindigkeit und den linken Motor auf eine geringere Geschwindigkeit, je nach Winkel:
+
+    Richtung = \c;  0\n; -> Geschw. = \c; 1.0\n;
+    Richtung = \c; 45\n; -> Geschw. = \c; 0.5\n;
+    Richtung = \c; 90\n; -> Geschw. = \c; 0.0\n;
+    Richtung = \c;135\n; -> Geschw. = \c;-0.5\n;
+    Richtung = \c;180\n; -> Geschw. = \c;-1.0\n;
+
+Die untere Abbildung zeigt die Geschwindigkeiten des rechten und linken Motors, wie sie durch die Anweisung \c;\l;motor\u cbot\motor;\n; in Abhängigkeit vom Winkel gesetzt werden:
+
+\image radar2 14 10;
+Befindet sich das Kreuz genau in Fahrtrichtung, dann ist der Winkel 0 Grad. Die Motoren bekommen die Geschwindigkeiten 1 und 1, was für Höchstgeschwindigkeit voraus steht. Liegt das Kreuz hinter dem Roboter, wird die Geschwindigkeit des rechten Motors auf -1 gesetzt: der Roboter dreht sich. Sie können den \l;Ausdruck\u cbot\expr; \c;1+dir/90\n; verwenden, um die erforderlichen Geschwindigkeiten für die Motoren zu berechnen:
+\s;\c;\l;if\u cbot\if; ( dir < 0 )  // auf rechter Seite?
+\s;{
+\s;	\l;motor\u cbot\motor;(1, 1+dir/90);  // mehr oder weniger drehen
+\s;}
+\n;
+Benutzen Sie das gleiche Prinzip, falls der Winkel einen positiven Wert zwischen 0 und 180 Grad hat. Es ist Ihre Aufgabe, die exakten Anweisungen zu erarbeiten:
+\s;\c;\l;else\u cbot\if;  // auf linker Seite?
+\s;{
+\s;	\n;Füllen Sie dies aus...\c;
+\s;}
+\n;
+Ganz am Anfang des Programms müssen Sie alle verwendeten Variablen deklarieren. \c;spot\n; ist vom Typ \c;\l;object\u cbot\object;\n;, wogegen \c;dir\n; vom Typ \c;\l;float\u cbot\float;\n; ist.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

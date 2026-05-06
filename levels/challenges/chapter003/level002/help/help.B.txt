@@ -1,0 +1,11 @@
+\b;Exercício
+Mova o \l;cubo de titânio\u object\titan; no bloco alvo. Você não sabe a posição do titânio, mas podemos dizer-lhe a posição do bloco alvo: x = 10 e y = -60.
+
+\b;Instruções úteis
+\c;\l;radar\u cbot\radar;\n; para encontrar o cubo de titânio (categoria \c;\l;Titanium\u object\titan;\n;)
+\c;\l;goto\u cbot\goto;\n; para mover o robô
+\c;\l;grab\u cbot\grab;\n; para pegar um objeto
+\c;\l;drop\u cbot\drop;\n; para largar um objeto
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

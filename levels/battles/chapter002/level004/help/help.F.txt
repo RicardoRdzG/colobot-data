@@ -1,0 +1,5 @@
+\b;Bataille de code (tirer sur un autre tireur)
+Il s'agit d'un niveau de \l;bataille de codes\u battles;, où vous affrontez contre un programme simple pour tireur, écrit par les développeurs du jeu, afin d'améliorer votre stratégie.
+
+\b;Vos objectifs
+Détruisez l'autre \l;tireur\u object/botfj; situé de l'autre côté de la rivière.

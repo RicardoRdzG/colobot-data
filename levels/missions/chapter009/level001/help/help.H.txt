@@ -1,0 +1,15 @@
+\b;A Küldetésirányítástól
+Épp most kaptunk információt arról, hogy az első expedíció egy vadonatúj fegyvert tervezett Terranovára. Ezt biztonságosan elzárták az ellenség elől egy \l;széfben\u object\safe;, amit csak négy \l;kulcs\u object\key; segítségével lehet kinyitni. A kulcsok a bolygó felszínén vagy alatta vannak szétszórva.
+
+A megfigyelő műhold északra, a jelenlegi pozíciódtól egy kulcsot (A) azonosított.
+
+A Kongresszus előírásainak megfelelően mérnökeink kifejlesztettek egy újabb szigorúan "védelmi" robotot: ez a \l;védőrobot\u object\botshld;, amely megfelelő védelmet nyújt egy adott körzeten belül. Az adatok és néhány kapcsolódó program át lett küldve a \l;kutatóközpontodba\u object\research;.
+
+Mint ahogy talán tudod, az uránérc a talajban erőteljes növekedést serkentő tápanyagként hat a különféle gombákra. Fontos megjegyezni, hogy a \l;titánérc\u object\titanore; gyakran a tavak fenekén található ezen a bolygón.
+
+Miután a küldetésed teljesült, és mielőtt felszállnál, vigyél magaddal a hajóra egy \l;védőrobotot\u object\botshld; és egy \l;búvárrobotot\u object\botsub; is.
+
+A \key;\key help;\norm; segítségével bármikor újra megtekintheted ezeket az utasításokat a személyes SatCom \button 63;-on.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

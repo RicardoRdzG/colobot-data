@@ -1,0 +1,11 @@
+\b;A Küldetésirányítástól
+Találj még néhány \l;szerves anyagot\u object\bullet;, és megfelelő kutatási programot indítva a \l;laborodban\u object\labo;, \l;készíthetsz\u object\human; magadnak orga lőfegyvereket.
+
+Készíts egy \l;lábas orga lőfegyvert\u object\botos;, és hozd vissza a \l;űrhajódra\u object\base;.
+
+Ne feledd, hogy ezen a bolygón alacsony az energiaforrások mennyisége.
+
+\key;\key help;\norm; lehetőséget ad arra, hogy bármikor megnézhesd ezeket az utasításokat a személyes SatCom \button 63; eszközödön.
+
+\t;Lásd még
+\l;Vezérlés\u command; és \l;CBOT Nyelv\u cbot;

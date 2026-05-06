@@ -1,0 +1,19 @@
+\b;Pár slov ohledně nové směrnice
+Neradi Vás o tom informujeme, ale teď je podle nás vhodná doba říct Vám o jedné nepříjemnosti, kterou teď řešíme. Veřejným míněním i Kongresem značně otřásly zprávy, že systematicky likvidujete "domorodé obyvatele" planet, které jste navštívili. Kongres se proto rozhodl předvést, že naslouchá názorům lidu.
+
+Tímto Vám tedy posíláme jejich novou směrnici, která Vám nařizuje omezit ztráty na životech, jak jen to bude možné. Jinými slovy, od teď se snažte co nejvíce vyhýbat násilným střetům s organizmy, na které narazíte. Tento nový postup samozřejmě nesmí nijak ohrozit Vaši misi.
+
+\b;Zpráva z řídícího střediska
+Vaše výzbroj i zásoby energie jsou v tuto chvíli podle všeho nebezpečně omezené, ale přesto musíte najít a vyzvednout \l;černou skříňku\u object\bbox; po předchozí výpravě, abyste mohli pokračovat na další planetu.
+
+Od Vašich předchůdců jsme prostřednictvím průzkumného satelitu dostali popis nového typu zbraně, kterou vyvinuli přesně pro takovéto situace.
+
+Tato zbraň představuje příležitost názorně předvést své nově nabyté milosrdenství vůči \l;domorodým tvorům\u object\ant;, protože to není zbraň hromadného ničení. Podle všech dostupných informací naopak díky ní můžete nepřátele ochromit, čímž je alespoň dočasně zneškodníte. Pokud je to skutečně tak, budete pak muset jednat rychle, než budou mít čas Vás znovu napadnout.
+
+\b;Postup
+Proveďte potřebný \l;výzkumný program\u object\research; a praktickou zkoušku, ale nezapomeňte tuto novou zbraň vzít s sebou na palubu. Chceme pak důkladně prostudovat její fungování.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

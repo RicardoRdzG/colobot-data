@@ -1,0 +1,51 @@
+\b;Úkol
+Vezměte hroudu \l;titanové rudy\u object\titanore;, jejíž přesnou polohu neznáme. Najděte ji pomocí robotova radaru. Pak ji odvezte do \l;konvertoru\u object\convert;.
+
+\t;Program
+Jak jste si jistě všimli, programy napsané v předchozích cvičeních fungovaly zcela "naslepo": kdyby byla titanová ruda, baterie nebo pavouci někde jinde, robot by je nenašel.
+
+Radar představuje "oči" robota. Pomocí radaru může hledat objekty v okolí. Například příkaz \c;\l;radar\u cbot\radar;(TitaniumOre);\n; vrátí informace o nejbližší hroudě \l;titanové rudy\u object\titanore;. Jenže informace vrácené příkazem \c;\l;radar\u cbot\radar;(TitaniumOre);\n; budeme muset někam uložit. K tomu slouží \l;proměnné\u cbot\var;.
+
+\l;Proměnná\u cbot\var; je jako malá pojmenovaná krabička, kde si můžete nějakou informaci odložit, prohlédnout, upravit, atd. Před použitím proměnné ji musíte nejprve deklarovat. Nejdříve musíte určit \l;datový typ\u cbot\type; proměnné, v tomto případě \c;object\n;. Do proměnné tohoto typu můžete uložit všechny informace popisující nějaký objekt, například hroudu titanové rudy, pavouka, mravence, robota, baterii, atd. Pak musíte napsat jméno, které chcete nové proměnné přidělit, například \c;item\n;. Když to dáme dohromady, vyjde nám následující řádek:
+\c;
+\s;\l;object\u cbot\type; item;
+\n;
+Pak do této proměnné musíme uložit informace vrácené příkazem \c;\l;radar\u cbot\radar;(TitaniumOre)\n;:
+\c;
+\s;item = \l;radar\u cbot\radar;(TitaniumOre);
+\n;
+Proměnná \c;item\n; obsahuje několik různých informací: obsahuje polohu, azimut, náklon, atd. Pokud chcete zjistit polohu hroudy titanové rudy, napište \c;item.position\n;. Pak na dané místo můžeme s robotem dojet příkazem \c;goto();\n;. Shrnuto do jednoho řádku:
+\c;
+\s;\l;goto\u cbot\goto;(item.position);
+\n;
+Když to "přeložíme" do češtiny, znamená to: dojeď k pozici objektu popsaného v proměnné \c;item\n;.
+
+Pak můžete příkazem \c;\l;grab\u cbot\grab;();\n; zvednout to, co na daném místě leží.
+
+Když to vše dáme dohromady, vyjde nám následující program:
+\c;
+\s;extern void object::Titan2( )
+\s;{
+\s;	
+\s;	\l;object\u cbot\type; item;
+\s;	item = \l;radar\u cbot\radar;(TitaniumOre);
+\s;	\l;goto\u cbot\goto;(item.position);
+\s;	grab();
+\s;	
+\s;}
+\n;
+Pak musíte najít \l;konvertor\u object\convert; a uložit informace o něm do proměnné \c;item\n;:
+\c;
+\s;item = \l;radar\u cbot\radar;(Converter);
+\n;
+Dojeďte ke konvertoru opět příkazem \c;\l;goto\u cbot\goto;(item.position);\n; jako předtím, položte rudu a zacouvejte. Konvertor zařídí zbytek.
+
+Pokud se chcete dozvědět více o "názvech" různých druhů objektů v tomto programovacím jazyce, přečtěte si \l;popis kategorií\u cbot\category;.
+
+\t;Poznámky
+\l;Proměnnou\u cbot\var; musíte deklarovat pouze jednou na začátku programu. Pak ji můžete použít, kolikrát budete chtít.
+
+Abyste příkazy popsané výše nemuseli přepisovat ručně, můžete je vybrat myší a zkopírovat \button 61; do editoru programu.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

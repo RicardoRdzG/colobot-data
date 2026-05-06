@@ -1,0 +1,8 @@
+\b;Ejercicio
+En este ejercicio, un "bot loco" coloca muchas \l;cruces azules\u object\waypoint; en el suelo. Para encontrarlas, puedes reutilizar el programa escrito en el ejercicio anterior. Esto puede mostrarte la flexibilidad de tal programa: se adapta a cualquier entorno que encuentre.
+
+\t;Nota
+No esperes demasiado, porque el bot loco comienza a trabajar inmediatamente. Afortunadamente, mientras estés en el editor de programas, el juego se pausará.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

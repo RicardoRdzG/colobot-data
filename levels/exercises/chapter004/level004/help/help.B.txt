@@ -1,0 +1,18 @@
+\b;Exercício
+Você deve encontrar uma maneira de destruir os quatro \l;robôs alvos\u object\bottarg; em movimento sem perder um tiro. Observe que após cada movimento, os alvos permanecerão imóveis durante um segundo.
+
+\b;Princípio geral
+1) Detectar um alvo com a instrução \c;\l;radar\u cbot\radar;(TargetBot);\n;.
+2) Vire para o alvo com \c;\l;turn\u cbot\turn;(direction());\n;.
+3) Após a rotação, verifique se o alvo não se moveu.
+4) Caso contrário, aguarde 0.2 segundos com \c;\l;wait\u cbot\wait;(0.2);\n;.
+5) Verifique novamente se o alvo não se moveu.
+6) Caso contrário, atire com \c;\l;fire\u cbot\fire;(2);\n; e espere 2 segundos para que o alvo seja atingido pelas balas e destruído.
+
+Existem outras maneiras de alcançar o objetivo.
+
+\b;Observação
+Para aumentar a eficiência de suas rajadas, aponte um pouco para baixo com \c;\l;aim\u cbot\aim;(-3);\n;.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

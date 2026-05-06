@@ -1,0 +1,34 @@
+\b;Exercício
+Siga o caminho em forma de espiral. O robô deve mover-se 2 vezes 25m para a frente e virar, e então mover 2 vezes 20m para a frente e virar, e assim por diante.
+\image tproc2 8 8;
+\b;Função
+Você deve ter notado que o caminho é feito de peças em forma de "L" que se encaixam umas nas outras. O primeiro (azul escuro) mede duas vezes 25 metros. O segundo (azul claro) mede 5 metros a menos. Vamos começar escrevendo a \l;função\u cbot\function; que moverá o robô em uma parte em "L" cujo comprimento será dado como um parâmetro:
+\c;
+\s;void object::Parte(float comprimento)
+\s;{
+\s;	for ( int i=0 ; i<2 ; i=i+1 )
+\s;	{
+\s;		move(comprimento);
+\s;		turn(90);
+\s;	}
+\s;}
+\n;
+Agora você só precisa escrever a função principal, que irá chamar a função \c;Parte\n;. No início, a variável \c;rest\n; será configurada para 25m. O laço \c;while\n; irá então repetir as instruções dentro do bloco, contanto que \c;rest</ code> seja maior que zero. Dentro do laço, primeiro chame a função <code>Parte\n; (veja acima), então subtraia 5m ao comprimento do L.
+\c;
+\s;extern void object::Funcao2( )
+\s;{
+\s;	float	rest = 25;
+\s;	while ( rest > 0 )
+\s;	{
+\s;		Parte(rest);
+\s;		rest = rest-5;
+\s;	}
+\s;}
+\n;
+A função \c;Parte\n; será chamada pela última vez com o valor \c;5\n;. Então a expressão \c;rest-5\n; irá setar o valor da variável \c;rest\n; para zero, e o laço \c;while\n; irá parar.
+
+\b;Observação
+Você deve ter notado que no exercício anterior, a função principal estava no início do programa, enquanto que neste exercício, é no final do programa, após a função \c;Parte\n;. A ordem de classificação das funções no programa não importa, você pode escrever um programa de qualquer maneira.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

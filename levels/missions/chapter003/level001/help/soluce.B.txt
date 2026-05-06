@@ -1,0 +1,5 @@
+\b;Passo a passo
+Siga o caminho mostrado no seu mini mapa. O explosivo fica no fundo de um pequeno vale povoado por formigas gigantes. Elas provavelmente irão atacar você e você provavelmente perderá a consciência. Não há nada que você possa realmente fazer sobre isso.
+
+\t;Veja também
+\l;Controles\u command;.

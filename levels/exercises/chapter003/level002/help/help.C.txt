@@ -1,0 +1,66 @@
+\b;Cvičení
+Toto cvičení je velmi podobné jako to předchozí. Robot musí projet naprosto stejnou trasu, ale tentokrát musíte při psaní programu použít nový koncept, který je v programování zcela nezbytný: \l;proměnné\u cbot\var;.
+Už jsme si řekli, že jednotlivé kontrolní body jsou od sebe vzdálené 20 metrů a každá zatáčka je o 90 stupňů. Abyste tato čísla v programu nemuseli opisovat pořád dokola, můžete si je uložit do proměnné: 
+
+Místo:
+\c;\s;	move(20);
+\s;	turn(90);
+\s;	move(20);
+\s;	turn(-90);
+\s;	...
+\n;
+Můžete napsat:
+\c;\s;	dist = 20;
+\s;	dir = 90;
+\s;	move(dist);
+\s;	turn(dir);
+\s;	move(dist);
+\s;	turn(-dir);
+\s;	...
+\n;
+\b;Proměnné
+\l;Proměnná\u cbot\var; se skládá ze tří prvků: 
+1) Názvu,
+2) Datového typu,
+3) Obsahu.
+
+\t;Název
+Na proměnnou se odkazuje pomocí jejího názvu. Například místo \c;move(20);\n; můžete napsat \c;move(dist);\n;, kde "dist" je název proměnné. Proměnnou můžete nazvat v podstatě libovolně, například \c;dist\n;, \c;dir\n;, \c;p2\n;, \c;a\n;, \c;x\n;, \c;neni_co_sebrat\n;, atd.
+
+\t;Datový typ
+Datový typ proměnné určuje, jaký druh informací do ní lze uložit. V závislosti na datovém typu může proměnná obsahovat celé číslo, reálné číslo, textový řetězec, souřadnice bodu, atd. Zde je seznam nejběžnějších datových typů: 
+  o  \c;\l;int\u cbot\int;\n; pro celá čísla (12, -500, atd.)
+  o  \c;\l;float\u cbot\float;\n; pro reálná čísla (3.14, 0.2, -99.98, atd.)
+  o  \c;\l;string\u cbot\string;\n; pro textové řetězce ("Ahoj!", "Neni co sebrat", atd.)
+  o  \c;\l;point\u cbot\point;\n; pro souřadnice bodu v prostoru (x, y, z)
+  o  \c;\l;object\u cbot\object;\n; pro informace o objektu (robot, budova, atd.) 
+
+\t;Obsah
+Obsah proměnné může být číslo, řetězec, souřadnice, atd., záleží na typu proměnné. Obsah proměnné můžete za běhu programu libovolně měnit. 
+
+Před použitím proměnné ji musíte deklarovat. Například před použitím proměnných \c;dist\n; a \c;dir\n; je musíte deklarovat takto: 
+\c;
+\s;	float  dist;
+\s;	float  dir;
+\n;
+Teď můžete obě proměnné začít používat. Abyste uložili hodnotu 20 do proměnné \c;dist\n; a 90 do proměnné \c;dir\n;, napište:
+\c;
+\s;	dist = 20;
+\s;	dir = 90;
+\n;
+A teď už můžete robota řídit pomocí příkazů \c;\l;move\u cbot\move;\n; a \c;\l;turn\u cbot\turn;\n; i takto:
+\c;
+\s;	move(dist);
+\s;	turn(dir);
+\n;
+Místo pouhé proměnné můžete použít i složitější \l;matematický výraz\u cbot\expr;:
+\c;
+\s;	move(dist+100);
+\s;	turn(-dir);
+\n;
+Ten poslední příkaz bude třeba na otáčení robota doprava. 
+
+Teď napište stejný program jako v předchozím cvičení, ale pro zadání vzdálenosti a úhlu otočení použijte proměnné. 
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

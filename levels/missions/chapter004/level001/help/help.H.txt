@@ -1,0 +1,13 @@
+\b;A küldetésirányítástól
+Építsen egy \l;radart\u object\radar; a környék legmagasabb pontjára. Győződjön meg róla, hogy a radar biztonságosan működik, még akkor is, ha elhagyja a bolygót, és más bolygókra utazik. A \l;kutatóközpontjának\u object\research; képesnek kell lennie megoldást nyújtani.
+
+Lehetséges, hogy az észlelt organizmusok valójában azok a \l;férgek\u object\worm;, amelyekre az első expedíció utalt. Ha valóban így van, ne essen túlzott pánikba: úgy tűnik, hogy az élő organizmusok számára teljesen ártalmatlanok, de a vírusok kibocsátásával zűrzavart okozhatnak a robotok és épületek programjaiban.
+
+A radar nemcsak értékes információkat ad az adott térségben lévő objektumokról és élőlényekről, hanem információkat is közvetít a Föld és a bolygók között, amint Ön más bolygókra indul. Nagyon valószínű, hogy az első expedíció által épített radarállomások problémái okozták a közvetítési problémákat, amikről tudomásunk van.
+
+Annak érdekében, hogy megkönnyítsük az unalmas feladatot, hogy összegyűjtse a szükséges nyersanyagot, egy programot fejlesztettünk, amely arra utasítja a \l;kerekes grabbert\u object\botgr;, hogy önállóan keressen \l;titánércet\u object\titanore; (lásd a programozási oldalt \button 53;).
+
+\key;\key help;\norm; lehetővé teszi, hogy bármikor újra megtekintse ezeket az utasításokat a saját SatCom \button 63; eszközén.
+
+\t;Lásd még
+\l;Parancsok\u command; és \l;CBOT nyelv\u cbot;

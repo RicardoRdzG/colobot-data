@@ -1,0 +1,11 @@
+\b;Avispa
+\image wasp 8 8;
+La avispa es un enemigo formidable, muy difícil de derribar ya que su vuelo es particularmente rápido. Las avispas cargan bolas de \l;materia orgánica\u object\bullet; que lanzarán a tus bots, edificios y a ti mismo desde arriba.
+
+La \l;torre de defensa\u object\tower; es la forma más fácil de deshacerte de ellas.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;AlienWasp\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

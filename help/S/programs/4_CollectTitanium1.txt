@@ -1,0 +1,29 @@
+\b;Programas enviados por Houston
+A continuación se muestra uno de los programas desarrollados por nuestros ingenieros.
+Instruye a un \l;bot agarrador\u object\botgr; a recuperar el trozo más cercano de \l;mineral de titanio\u object\titanore; y colocarlo en el \l;convertidor\u object\convert;.
+
+Para ejecutar este programa, selecciona el programa \c;CollectTitanium1\n; en la lista de programas disponibles en el bot (en la esquina inferior izquierda de tu pantalla), y haz clic en el símbolo de flecha \button 21;. En cualquier momento puedes detener el programa y tomar el control con el botón de detener \button 8;.
+\c;
+\s;extern void object::CollectTitanium1()
+\s;{
+\s;	// 1) Definición de variables.
+\s;	\l;object\u cbot\type;  item;            // información sobre objetos
+\s;	
+\s;	// 2) Ir al mineral de titanio y agarrarlo.
+\s;	item = \l;radar\u cbot\radar;(\l;TitaniumOre\u cbot\category;);// buscar mineral de titanio
+\s;	\l;goto\u cbot\goto;(item.position);     // ir a la posición
+\s;	\l;grab\u cbot\grab;();                  // agarrar el titanio
+\s;	
+\s;	// 3) Ir al convertidor y soltarlo.
+\s;	item = \l;radar\u cbot\radar;(\l;Converter\u cbot\category;); // buscar convertidor
+\s;	\l;goto\u cbot\goto;(item.position);     // ir a la posición
+\s;	\l;drop\u cbot\drop;();                  // soltar el titanio
+\s;	\l;move\u cbot\move;(-2.5);              // retroceder 2.5 m
+\s;}
+\n;
+\b;Archivos
+Índice de los programas enviados en misiones anteriores:
+
+o  \c;\l;Recargar2\u programs/3_Recharge2;\n;
+o  \c;\l;Recargar1\u programs/2_Recharge1;\n;
+o  \c;\l;CambiarCelda1\u programs/1_SwitchCell1;\n;

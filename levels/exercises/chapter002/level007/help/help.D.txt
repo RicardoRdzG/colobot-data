@@ -1,0 +1,84 @@
+\b;Ziel
+Holen Sie die Wespen mit einem effizienteren Programm als dem davor herunter.
+
+\b;Programm
+Hier sehen Sie noch einmal das Programm der vorherigen Übung, welches zwar alle Wespen trifft, aber erst nach vielen erfolglosen Versuchen:
+\c;
+\s;extern void object::Wasp1()
+\s;{
+\s;	\l;object\u cbot\type;    item;
+\s;	
+\s;	\l;aim\u cbot\aim;(0);
+\s;	
+\s;	\l;while\u cbot\while; (true)
+\s;	{
+\s;		\l;while\u cbot\while; (\l;radar\u cbot\radar;(AlienWasp, 0, 360, 0, 20) == null)
+\s;		{
+\s;			item = \l;radar\u cbot\radar;(AlienWasp);
+\s;			\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;			\l;motor\u cbot\motor;(1,1);
+\s;			
+\s;			\l;jet\u cbot\jet;(0);
+\s;			\l;if\u cbot\if; (position.z > item.position.z)
+\s;			{
+\s;				\l;jet\u cbot\jet;(-0.3);
+\s;			}
+\s;			
+\s;			\l;if\u cbot\if; (position.z < item.position.z - 1)
+\s;			{
+\s;				\l;jet\u cbot\jet;(0.3);
+\s;			}
+\s;			
+\s;			\l;wait\u cbot\wait;(0.2);
+\s;		}
+\s;		item = \l;radar\u cbot\radar;(AlienWasp);
+\s;		\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;		\l;fire\u cbot\fire;(1);
+\s;	}
+\s;}
+\n;
+Die vielen Fehlschläge kommen dadurch zustande, dass die Wespen schon ein Stück weiter geflogen sind, wenn die Geschosse sie erreichen würden. Der einzige Weg, dieses Programm zu verbessern, ist es, die Geschwindigkeiten der Motoren und des Jets so einzustellen, dass die Kanone der Bewegung des Ziels folgt, während sie schießt. 
+
+Kurz vor dem Schuss passt das Programm ein letztes Mal die Richtung des Roboters mittels \c;\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));\n; an. Um dem Ziel während der Salve zu folgen, müssen Sie sich den Winkel dieser letzten Drehung "merken": wenn der Winkel positiv war (Drehung nach links), muss sich der Roboter während der Salve weiter nach links drehen; wenn der Winkel negativ war, muss sich der Roboter weiter nach rechts drehen.
+
+Um sich den Winkel zu "merken", braucht das Programm eine Variable, die gerade eine Zahl enthalten kann. Wenn wir sie \c;winkel\n; nennen, müssen wir die Variable mit folgender Zeile am Anfang des Programms deklarieren:
+\c;
+\s;	\l;float\u cbot\type; winkel;
+\n;
+Der Variablentyp \l;float\u cbot\float; ist der Typ, der jede beliebige Zahl enthalten kann, also ganze Zahlen oder Kommazahlen. Lesen Sie die \l;Beschreibung der Variablentypen\u cbot\type;, wenn Sie mehr darüber erfahren wollen, was die verschiedenen Variablentypen enthalten können.
+
+Vor der Anweisung \c;\l;fire\u cbot\fire;(1);\n; schreiben wir anstatt \c;\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));\n; eine Anweisung, die den Rotationswinkel in der Variablen \c;winkel\n; ablegt:
+\c;
+\s;	winkel = direction(item.position);
+\n;
+Dann führen wir die Drehung aus und setzen die Geschwindigkeiten der Motoren so, dass die Drehung fortgesetzt wird:
+\c;
+\s;	\l;turn\u cbot\turn;(winkel);
+\s;	\l;if\u cbot\if; (winkel < 0)
+\s;	{
+\s;		\l;motor\u cbot\motor;(1,0.5);
+\s;	}
+\s;	\l;else\u cbot\if;
+\s;	{
+\s;		\l;motor\u cbot\motor;(0.5,1);
+\s;	}
+\n;
+Das \c;\l;else\u cbot\if;\n; bestimmt, welche Anweisungen das Programm ausführen soll, wenn die Bedingung in der \c;\l;if\u cbot\if;\n;-Anweisung nicht wahr ist.
+
+Dann müssen wir die Leistung des Jetantriebs so einstellen, dass der Roboter auch in vertikaler Richtung der Wespe folgt:
+\c;
+\s;	jet(0);
+\s;	if(position.z > item.position.z)
+\s;	{
+\s;		jet(-0.3);
+\s;	}
+\s;	
+\s;	if(position.z < item.position.z - 1)
+\s;	{
+\s;		jet(0.3);
+\s;	}
+\n;
+Wie Sie sehen werden, ist dieses Programm viel wirksamer als das vorherige!
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

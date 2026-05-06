@@ -1,0 +1,54 @@
+\b;Instrucción \c;this\n;
+Ocasionalmente, un método de \l;clase\u cbot\class; necesita conocer la referencia a la instancia en la que esta actuando. Por ejemplo la instancia podría querer pasar su propia referencia a otra función. Una referencia implícita llamada \c;this\n; (esto) esta disponible a métodos y \c;this\n; es una referencia a la instancia actual.
+\c;
+\s;public class MiClase
+\s;{
+\s;	int    m_int;
+\s;	string m_str;
+\s;	void MiFuncion()
+\s;	{
+\s;		OtraFuncion(this);
+\s;		m_int = 2;
+\s;	}
+\s;}
+\s;
+\s;void OtraFuncion(MiClase obj)
+\s;{
+\s;	message(obj.m_str);
+\s;}
+\s;
+\s;extern void object::Test()
+\s;{
+\s;	MiClase item();
+\s;	item.m_str = "Hola";
+\s;	item.MiFuncion();  // muestra "Hola"
+\s;}
+\n;
+También puedes colocar \c;this\n; antes del nombre de un campo en un método, pero no es necesario. En el ejemplo anterior, en el método \c;MiFuncion()\n;, las dos líneas siguientes tienen exactamente el mismo significado:
+\c;
+\s;	m_int = 2;
+\s;	this.m_int = 2; // idéntico
+\n;
+En un método de la clase \c;\l;object\u cbot\object;\n;, también puedes utilizar \c;this.\n; antes de un nombre de campo.
+\c;
+\s;extern void object::Display()
+\s;{
+\s;	message(orientation);
+\s;	message(this.orientation); // lo mismo pero
+\s;	                           // más explicito
+\s;}
+\n;
+Sin embargo, si un nombre de campo está oculto por una declaración de parámetro o una declaración de variable, debes usar \c;this\n;. En el siguiente ejemplo, el \c;valor\n; del nombre del parámetro es el mismo que el nombre del \c;valor\n; del campo de la \l;clase\u cbot\class; \c;MiClase\n;, por lo que debemos escribir \c;this.valor\n; para distinguir el campo del parámetro.
+\c;
+\s;clase pública MiClase
+\s;{
+\s;	int valor;
+\s;	void Pon( int valor )
+\s;	{
+\s;		 this.valor = valor;
+\s;	}
+\s; }
+\n;
+\t;Ver también
+\c;\l;class\u cbot\class;\n;, \c;\l;super\u cbot\super;\n;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

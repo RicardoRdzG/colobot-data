@@ -1,0 +1,9 @@
+\b;Do Centro de Controle de Missões
+Construa um \l;radar\u object\radar; em um dos pontos mais altos acessíveis e certifique-se de que nenhum organismo possa destruí-lo depois que \l;você \u object\human; for embora.
+
+A destruição de um radar anterior montado pela primeira expedição foi provavelmente a causa de uma falha de comunicação, que levou à completa perda de contato.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

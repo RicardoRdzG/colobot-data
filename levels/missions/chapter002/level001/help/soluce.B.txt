@@ -1,0 +1,15 @@
+\b;Passo a passo
+Para construir o \l;centro de pesquisa\u object\research;, coloque um \l;cubo de titânio\u object\titan; em uma superfície plana não muito distante da espaçonave. \l;Você\u object\ human; pode carregar o cubo sozinho, ou usar o \l;agarrador\u object\botgr; disponível.
+
+Se você usou o robô, afaste-o do cubo para não interferir na construção. Para mudar a seleção do robô para si mesmo (lembre-se de que somente você pode construir), use \key;\key human;\norm;.
+
+Posicione-se perto do \l;cubo de titânio\u object\titan; e construa um \l;centro de pesquisa\u object\research; \button 163;. Coloque uma \l;célula de energia\u object\power; no \l;centro de pesquisa\u object\research;, selecione a construção e clique no símbolo \button 65; para executar a <winged bots research program>.
+
+Construa uma \l;fábrica de robôs\u object\factory; da mesma forma, e coloque um \l;cubo de titânio\u object\titan; no centro. Construa um \l;agarrador alado\u object\botgj; com o símbolo \button 139;, e ligue-o com uma \l;célula de energia\u object\power;.
+
+Pode ser preferível explorar a área você mesmo para economizar energia. Você encontrará os pedaços de minério de titânio no fundo de algumas crateras localizadas ao norte da espaçonave. Uma \l;bandeira\u object\flag; pode ajudá-lo a fixar o local mais rapidamente em viagens subsequentes.
+
+Colete 4 pedaços de minério de titânio e traga-os de volta a bordo de sua nave espacial. Pegue o \l;agarrador alado\u object\botgj; e o \l;agarrador com rodas\u object\botgr; junto com você e decole \button 28;.
+
+\t;Veja também
+\l;Controles\u command;.

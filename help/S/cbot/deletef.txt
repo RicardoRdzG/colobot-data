@@ -1,0 +1,10 @@
+\b;Instrucción \c;deletefile\n;
+La instrucción deletefile elimina un archivo existente en la carpeta files/. 
+
+Los archivos solo se pueden eliminar en la carpeta files/ que se encuentra en la carpeta dentro del directorio de almacenamiento de Colobot. No puedes eliminar archivos que se encuentren en otra ubicación que no sea la carpeta files/.
+
+Sintaxis:
+\s;\c;deletefile ( nombre_de_archivo );\n;
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,11 @@
+\b;Návod
+Všechno kolem Vás vybuchuje. Staré tábořiště musíte co nejrychleji opustit. Prostě se vraťte stejnou cestou, kudy jste přišli.
+
+\l;Mravencům\u object\ant; se dá celkem snadno vyhnout. Pokud Vás těžce zraní, najděte si klidné místo a počkejte, než se Vám doplní štít.
+
+\l;Pavouci\u object\spider; jsou trochu nebezpečnější, ale také hloupější. Jakmile Vás zahlédnou, odpálí se a zemřou. Pokud Vás zasáhne některý úlomek jejich těla, zemřete také. Jeden riskantní ale účinný způsob, jak se pavouků zbavit, je přiblížit se k nim nebezpečně blízko, a pak rychle uletět do bezpečí, když začnou nafukovat břicho.
+
+Až se dostanete na nějaký bezpečný ostrůvek, můžete si pomocí \l;létajícího biokanónu\u object\botoj; vyčistit cestu od nepřátelského hmyzu. Ale dávejte pozor, ať o něj nepřijdete, jinak byla celá mise zbytečná.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

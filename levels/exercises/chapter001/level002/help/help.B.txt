@@ -1,0 +1,38 @@
+\b;Objetivo
+Programe o \l;robô agarrador\u object\botgr; para trocar a \l;célula de energia\u object\power; do \l;atirador alado\u object\botfj;. O atirador alado pode atirar nas aranhas.
+
+\t;Procedimento
+1) Programe o \l;robô agarrador\u object\botgr;.
+2) Execute o programa com o botão de seta \button 21;.
+O \l;atirador alado\u object\botfj; já está programado, ele fará seu trabalho assim que tiver uma nova célula de energia.
+
+\t;Programa
+Você precisará das seguintes instruções:
+\c;
+\s;grab();\n;
+\n;Pega o que há na frente do robô.
+\c;
+\s;drop();\n;
+\n;Solta tudo o que o robô estiver carregando na frente.
+\c;
+\s;turn();\n;
+\n; Já vimos esta instrução no exercício anterior: ela executa uma rotação de um certo ângulo, dado em graus.
+
+Vamos ver o começo do programa:
+o  pegue a célula de energia vazia com \c;grab();\n;
+o  vire 90 graus para a esquerda com <code>turn(90);</code>
+o  Solte a célula vazia com \c;drop();\n;
+o  etc.
+
+Cabe a você agora escrever o resto do programa!
+
+Se você tiver um problema, você sempre pode olhar para a solução: selecione o programa <code>Solucao</ code>, e clique no botão de chaves \button 22;.
+
+\t;Observações
+Tenha o cuidado de escrever as instruções com precisão, respeitando letras maiúsculas e minúsculas.
+
+Sempre escreva uma instrução por linha, terminando cada linha com um ponto e vírgula.
+
+Caso o seu programa não faça exatamente o que você queria, você pode colocar o robô de volta no ponto de partida com o botão \button 59;. Você também pode começar de novo desde o início (aperte a tecla "Esc", clique em "Reiniciar"). O programa que você escreveu não será perdido.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal 

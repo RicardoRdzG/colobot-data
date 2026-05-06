@@ -1,0 +1,11 @@
+\b;Játszási útmutató
+1) Töltsön fel egy \l;lábú lövőt\u object\botfs;. Még egy \l;atomcellát\u object\atomic; is hagytak a \l;robotgyár\u object\factory; mögött.
+
+2) Mászzon fel az északi sziklára és öljön meg néhány \l;hangyát\u object\ant;. A legjobb hozzáférés keletről van.
+
+3) Folytassa, amíg az összes hangya el nem tűnik az útról.
+
+4) Mászzon fel az északi sziklára egy \l;lábas megfogóval\u object\botgs; és hozza el a \l;fekete dobozt\u object\bbox;, amit a romos robotgyárban talál.
+
+\t;További információk
+\l;Iránymutatás\u command;

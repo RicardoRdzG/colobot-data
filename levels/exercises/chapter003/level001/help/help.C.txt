@@ -1,0 +1,33 @@
+\b;Cvičení
+Naprogramujte robota, aby projel přes tři modré kříže a zastavil na cílové značce.
+
+\b;Postup
+1) Zvedněte baterii a položte ji do zdířky v zadní části robota.
+2) Projděte se po okolí, abyste měli přehled, kudy má robot jet. 
+3) Naprogramujte robota. Musíte ho vybrat, a pak kliknutím na tlačítko se složenými závorkami \button 22; otevřete editor programu.
+4) Až dopíšete program, klikněte na "OK" a spusťte ho kliknutím na tlačítko se šipkou \button 21;.
+
+\b;Program
+Kontrolní body jsou od sebe vzdálené 20 metrů.
+Příkaz \c;move(20);\n; říká robotovi, aby popojel 20 metrů vpřed.
+Příkaz \c;turn(90);\n; otočí robota o 90 stupňů vlevo.
+Příkaz \c;turn(-90);\n; otočí robota o 90 stupňů vpravo. 
+
+Základ prázdného programu vypadá takto:
+\c;
+\s;	extern void object::Trasa( )
+\s;	{
+\s;		\n;// veškeré příkazy napište sem...\c;
+\s;	}
+\n;
+Hlavičku programu nijak neupravujte. Pouze dopište příkazy pro ovládání robota mezi složené závorky \c;{ }\n;.
+
+\b;Pozor
+Dávejte pozor na velká a malá písmena!
+Každý příkaz musíte ukončit středníkem. 
+
+\b;Užitečný trik
+Během psaní programu můžete kliknout na tlačítko Minimalizovat \button 51; a prohlédnout si okolí. Kameru můžete otáčet najetím myší na kraj obrazovky. 
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

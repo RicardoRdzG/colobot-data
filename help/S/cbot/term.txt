@@ -1,0 +1,31 @@
+\b;Punto y coma
+Utiliza siempre un punto y coma \c;;\n; después de una expresión simple. Por ejemplo: 
+\c;
+\s;	int contador = 0;
+\n;
+Sin embargo, después de un \l;bloque\u cbot\bloc;, nunca pongas un punto y coma:
+\c;
+\s;	{
+\s;		float dist;
+\s;		dist = distance(p1, p2);
+\s;	} \n;// ¡no punto y coma aquí!\c;
+\n;
+No utilices un punto y coma inmediatamente después de las instrucciones \c;\l;while\u cbot\while;\n;, \c;\l;if\u cbot\if;\n; o \c;\l;for\u cbot\for;\n;:
+\c;
+\s;	if ( a < b ) \n;//  ¡no punto y coma aquí!\c;
+\s;	{
+\s;		b = 100-a;
+\s;	}
+\n;
+Una instrucción siempre termina con un punto y coma, y no con el final de la línea. Por lo tanto, puedes poner varias instrucciones en la misma línea: 
+\c;
+\s;	int d=20;
+\s;	move(d);
+\s;	turn(90);
+\n;
+Es equivalente a:
+\c;
+\s;	int d=20; move(d); turn(90);
+\n;
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

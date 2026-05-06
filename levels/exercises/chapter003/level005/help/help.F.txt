@@ -1,0 +1,36 @@
+\b;Exercice
+Plusieurs \l;stations relais\u object\exchange; sont placées le long d'un chemin. Lorsque le \l;robot\u object\bottr; est proche d'une station, il peut lire les informations qu'elle contient et qui donnent la direction et la distance jusqu'à la station relais suivante.
+
+\b;Idée générale
+	Répéter à l'infini:
+	o  Lire la direction dans la \l;station relais\u object\exchange;.
+	o  Lire la longueur dans la \l;station relais\u object\exchange;.
+	o  Si vous ne recevez plus d'information, arrêtez le programme.
+	o  Tourner dans la direction obtenue.
+	o  Avancer de la longueur obtenue.
+
+Pour répéter toujours, utilisez une boucle \c;\l;while\u cbot\while; (true)\n;. Les instructions entre les accolades \c;{ }\n; seront répétées encore et encore, ou jusqu'à ce qu'une instruction \c;\l;break\u cbot\break;\n; soit exécutée.
+\s;\c;	while ( true )
+\n;
+Il faut définir deux \l;variables\u cbot\var; \c;dir\n; et \c;len\n;:
+\s;\c;	float  dir, len;
+\n;
+Et ensuite leur assigner la direction à prendre et la distance à avancer:
+\s;\c;	dir = receive("Direction");
+\s;\c;	len = receive("Length");
+\n;
+Une variable de \l;type\u cbot\type; \c;\l;float\u cbot\float;\n; peut prendre une valeur spéciale appelée \c;\l;nan\u cbot\nan;\n;. Cette valeur signifie que la variable ne contient aucun nombre (Not A Number). 
+Quand il n'y a pas de\l;station relais\u object\exchange; à proximité, soit parce que le robot a atteint son but, soit parce qu'il a pris le mauvais chemin, les deux variables \c;dir\n; et \c;len\n; contiennent cette valeur. Vous pouvez tester ceci avec l'instruction \c;\l;if\u cbot\if;\n;, et arrêter le programme si nécessaire avec l'instruction \c;\l;break\u cbot\break;\n; :
+\s;\c;	if ( dir == nan )  break;
+\n;
+If les informations récupérées depuis une \l;station relais\u object\exchange; a été correctement récupérée, commencez par exécuter la rotation :
+\s;\c;	turn(dir);
+\n;
+Puis avancer avec:
+\s;\c;	move(len);
+\n;
+\b;Remarque
+En cliquant sur une \l;station relais\u object\exchange; pour la sélectionner, vous pouvez voir les paramètres qu'elle contient. Dans cet exercice, chaque station relais contient deux informations appelées \c;"Direction"\n; et \c;"Length"\n;.
+
+\t;Voir aussi
+\l;Exercice précédent\u texch1;, \l;programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

@@ -1,0 +1,58 @@
+\b;Cvičení
+Vyrobte z \l;titanové rudy\u object\titanore; dvě \l;kostky titanu\u object\titan; a položte je na cílové značky na souřadnicích:
+\c;
+	x=10, y=-60
+	x=10, y=-65
+\n;
+\image derrick 8 8;
+\l;Vrtná věž\u object\derrick; těží titanovou rudu z podzemí; hroudu rudy pak stačí jen zvednout ze země.
+
+\image convert 8 8;
+\l;Konvertor\u object\convert; vyrábí z rudy titanové kostky. Jednoduše položte hroudu rudy na podložku, zacouvejte a počkejte na dokončení výroby.
+
+\b;Obecný postup
+Opakovat dvakrát:
+o  Počkat na vytěžení titanové rudy.
+o  Dojet k hroudě rudy.
+o  Zvednout ji.
+o  Dojet ke konvertoru.
+o  Položit rudu.
+o  Zacouvat 2,5 metru.
+o  Počkat na vyrobení kostky titanu.
+o  Zvednout kostku titanu.
+o  Dojet na cílovou značku.
+o  Položit kostku titanu.
+
+\b;Program
+Cyklus \c;\l;for\u cbot\for;\n; umožňuje dvakrát zopakovat zadané příkazy.
+Titanová ruda není dostupná hned od začátku. Budete muset počkat, než ji vrtná věž vytěží. Na to použijte cyklus \c;\l;do\u cbot\do;\n; takto:
+\c;
+\s;do
+\s;{
+\s;	obj = radar(TitaniumOre);
+\s;}
+\s;while ( obj == null );
+\n;
+Po skončení cyklu (když radar našel nějakou titanovou rudu) zjistíte její polohu výrazem \c;obj.position\n; a můžete k ní dojet příkazem \c;\l;goto\u cbot\goto;\n;. Pro zvednutí rudy použijte příkaz \c;\l;grab\u cbot\grab;\n;.
+Pro nalezení konvertoru použijte následující příkaz:
+\c;
+\s;obj = radar(Converter);
+\n;
+Po položení rudy do konvertoru zacouvejte 2,5 metru příkazem \c;\l;move\u cbot\move;(-2.5)\n;.
+Dalším cyklem \c;do\n; pak můžete počkat na vyrobení kostky titanu. Dosah radaru musíte omezit na 5m, jinak by okamžitě našel kostku titanu, kterou jste už předtím položili na cílovou značku:
+\c;
+\s;do
+\s;{
+\s;	obj = radar(Titanium, 0, 360, 0, 5);
+\s;}
+\s;while ( obj == null );
+\n;
+Obě cílové značky mají souřadnici \c;x\n; rovnu 10. Souřadnice \c;y\n; mají hodnotu -60 a -65. Nejpohodlnější způsob, jak získat souřadnice další cílové značky, je využít řídící proměnnou \c;for\n; cyklu "\c;i\n;", která bude v jednotlivých opakováních cyklu postupně nabývat hodnot 0 a 1:
+\c;
+\s;dest.x = 10;
+\s;dest.y = -60-5*i;
+\n;
+Dopsat zbytek programu už je na Vás...
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

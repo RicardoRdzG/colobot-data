@@ -1,0 +1,7 @@
+\b;Návod
+Někde na severovýchodě byste v údolí měli najít plně funkční \l;nabíječku\u object\station;. Na severozápadě najdete několik \l;baterií\u object\power;.
+
+V téže části údolí a okolo je několik opuštěných funkčních kanónů; zlikvidujte s nimi všechny mravence. Pak můžete poslat \l;létající rameno\u object\botgj; pro \l;černou skříňku\u object\bbox;, která leží za vrakem rakety, a odletět.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

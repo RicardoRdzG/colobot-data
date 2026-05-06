@@ -1,0 +1,28 @@
+\b;Végigjátszás
+Felszállás előtt a következő dolgokat kell az űrhajóra vinni:
+
+1) \l;Fekete doboz\u object\bbox;.
+2) \l;Kerekes\u object\botgr; és \l;lánctalpas\u object\botgc; fogók.
+3) \l;Te magad\u object\human;.
+
+Íme a műveletek részletes lebontása:
+1) Lásd el árammal a \l;kutatóközpontot\u object\research; egy zöld \l;energia cellával\u object\power;.
+2) Aktiváld a \l;kutatóközpontot\u object\research;, majd kattints a \button 64; <lánctalpas robot kutatási program> gombra.
+3) Helyezz egy \l;titánkockát\u object\titan; a \l;robotgyárba\u object\factory;.
+4) Lépj ki, és aktiváld a \l;robotgyárat\u object\factory;.
+5) Kattints a \button 138; <építs egy \l;lánctalpas fogót\u object\botgc;> gombra.
+6) Lásd el árammal a \l;lánctalpas fogót\u object\botgc; egy vadonatúj \l;energia cellával\u object\power;.
+7) Irányítsd távirányítással a \l;lánctalpas fogót\u object\botgc; a délnyugati hegy tetejére.
+8) Vidd vissza a \l;fekete dobozt\u object\bbox; az \l;űrhajóra\u object\base;.
+9) Irányítsd távirányítással mind a \l;lánctalpas\u object\botgc;, mind a \l;kerekes\u object\botgr; fogót a platformra.
+10) Szállj be az \l;űrhajóba\u object\base;.
+11) Szállj fel!
+
+A felszálláshoz válaszd ki az \l;űrhajót\u object\base;, ha látható, úgy hogy rákattintasz. Ha nem látható, kattints a képernyő bal felső sarkában lévő egyik gombra. A kék háromszög \button 130; lehetővé teszi a robotok és az épületek szimbólumai közötti váltást. Kattints egyszer a <buildings> listához való váltáshoz. Megjelenik egy \button 171; <űrhajó> szimbólum. Kattints rá a kiválasztáshoz.
+
+Ha az űrhajó ki van választva, kattints a képernyő alsó közepén lévő nagy \button 28; <felszállás> gombra. Ha a fent említett tárgyak és te magad is a fedélzeten vagytok, a felszállás megtörténik.
+
+No object or bot should hinder the closing of the eight large panel doors.
+
+\t;Lásd még
+\l;Irányítás\u command;

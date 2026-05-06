@@ -1,0 +1,20 @@
+\b;Exercício
+O \l;robô\u object\bottr; deve passar por todas as \l;cruzes azuis\u object\waypoint; no solo. O caminho que deve ser coberto é feito de dois quadrados. O primeiro mede 15 metros, o segundo 25 metros.
+
+\image tproc1a 8 8;
+\b;Princípio geral
+Para resolver esse problema, a solução mais eficiente consiste em criar uma \l;função\u cbot\function; que instrui o robô a se mover em uma forma quadrada de um determinado tamanho. O programa principal torna-se então muito simples: \c;
+\c;
+\s;\extern void object::Funcao3( )
+\s;{
+\s;	Quadrado(15);
+\s;	Quadrado(25);
+\s;}
+\n;
+\b;Instruções úteis
+\c;\l;for\u cbot\for;\n; laço para repetir algumas instruções
+\c;\l;move\u cbot\for;\n; para mover o robô 
+\c;\l;turn\u cbot\turn;\n; para girar o robô
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

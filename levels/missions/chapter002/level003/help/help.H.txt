@@ -1,0 +1,7 @@
+\b;A Misszióirányításból
+Hasonló gyakorlat, mint előzőleg, csak most a fedélzeti kamerán keresztül nézheted.
+
+\key;\key help;\norm; lehetőséget ad arra, hogy bármikor újra megtekintsd ezeket az utasításokat a személyes SatComodon \button 63;.
+
+\t;Lásd még
+A \l;Vezérlés\u command; és a \l;CBOT nyelv\u cbot;

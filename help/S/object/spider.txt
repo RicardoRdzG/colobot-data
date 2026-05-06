@@ -1,0 +1,9 @@
+\b;Araña
+\image spider 8 8;
+Las arañas funcionan como comandantes suicidas: cuando una araña se acerca lo suficiente a su objetivo, infla su abdomen y estalla en una multitud de pequeños fragmentos ardientes. Estos fragmentos prenderán fuego a todo lo que toquen. Afortunadamente la araña no sobrevivirá.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;AlienSpider\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

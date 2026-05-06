@@ -1,0 +1,53 @@
+\b;Instrucción \c;for\n; (para)
+Sintaxis:
+\s;\c;for ( antes ; condición ; fin )
+\s;{
+\s;	\n;Instrucciones ...\c;
+\s;}
+\n;
+Esta instrucción te permite ejecutar un número determinado de veces las instrucciones contenidas en el \l;bloque\u cbot\bloc;.
+
+\t;\c;antes\n;
+Este conjunto de instrucciones se ejecuta antes de la primera instancia del bucle.
+
+\t;\c;condición\n;
+Esta \l;condición\u cbot\cond; determina si debe ejecutarse otra instancia del bucle. Se prueba antes de cada instancia del bucle. 
+
+\t;\c;fin\n;
+Este conjunto de instrucciones se ejecuta al final de cada instancia del bucle. 
+
+Ejemplo: cuenta de 1 a 4
+\c;\s;\c;for ( i = 1 ; i <= 4 ; i++ )
+\s;{
+\s;	message(i) ;
+\s;}
+\n;
+El siguiente ejemplo es estrictamente equivalente a un bucle-\c;for\n;, pero utiliza la instrucción \c;\l;while\u cbot\while;\n;:
+\s;\c;antes;
+\s;while ( condición )
+\s;{
+\s;	\n;Instrucciones ...\c;
+\s;\fin;
+\s;}
+\n;
+\t;Atención
+No pongas un \l;punto y coma\u cbot\term; al final de la línea \c;for ( )\n;.
+
+Las instrucciones \c;\l;break\u cbot\break;\n; y \c;\l;continue\u cbot\continue;\n; pueden ser útiles dentro de un bloque que sigue a la instrucción \c;for \n;.
+
+\t;Ejecutando más instrucciones
+En la parte \c;antes\n; y \c;fin\n; de un bucle \c;for\n; puedes especificar más de una instrucción usando coma. Ejemplo:
+\c;
+\s;int i = 0;
+\s;int j;
+\s;for (i++, j = 2; i < 3 && j > 0; i++, j--)
+\s;{
+\s;    message(i);
+\s;    message(j);
+\s;}
+\n;
+El resultado del código anterior es \c;1 2 2 1\n;.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.
+

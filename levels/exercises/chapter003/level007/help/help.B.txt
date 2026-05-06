@@ -1,0 +1,55 @@
+\b;Exercício
+Este exercício é muito semelhante ao anterior. Desta vez, o robô deve encontrar o caminho sozinho desde o início até o objetivo; você terá que executar o programa apenas uma vez.
+
+\b;Observação
+O labirinto não é exatamente o mesmo, mas isso não deve ser importante, pois o programa se adapta ao que "vê".
+
+\image tlaby1 10 10;
+\b;Princípio geral
+Use um laço infinito \c;\l;while\u cbot\while;\n; para executar o programa anterior várias vezes:
+\s;\c;while (true) 
+\s;{
+\s;	\n; Se não houver nada na frente, avance \c; 
+\s;	\n; Se não houver nada à sua esquerda, vire à esquerda \c; 
+\s;	\n; Se não houver nada à sua direita, vire à direita \c; 
+\s;}
+\n;
+Dentro deste laço \c;while\n;, substitua as instruções de \c;return\n; por instruções \c;\l;continue\u cbot\continue;\n;. \c;return\n; sairia do programa, o que não é o que queremos aqui. \c;continue\n; apenas retomará a execução no início do laço \c;\l;while\u cbot\while;\n;:
+\s;\c;if ( frente == null )
+\s;{
+\s;	move(5);
+\s;	continue;
+\s;}
+\n;
+\b;Lembre-se
+Aqui está novamente o programa do exercício anterior:
+\c;
+\s;object   frente, esquerda, direita;
+\s;
+\s;frente = radar(Barrier,   0, 45, 0, 5);
+\s;esquerda  = radar(Barrier,  90, 45, 0, 5);
+\s;direita = radar(Barrier, -90, 45, 0, 5);
+\s;
+\s;if ( frente == null )
+\s;{
+\s;	move(5);
+\s;	return;
+\s;}
+\s;if ( esquerda == null )
+\s;{
+\s;	turn(90);
+\s;	move(5);
+\s;	return;
+\s;}
+\s;if ( direita == null )
+\s;{
+\s;	turn(-90);
+\s;	move(5);
+\s;	return;
+\s;}
+\n;
+\b;Ajuda
+Se você precisar de alguma ajuda, basta clicar nos hyperlinks das instruções \c;\l;radar\u cbot\radar;\n;, \c;\l;if\u cbot\if;\n;, \c;\l;move\u cbot\move;\n; ou \c;\l;turn\u cbot\turn;\n;.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

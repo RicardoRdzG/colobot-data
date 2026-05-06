@@ -1,0 +1,22 @@
+\b;Schritt für Schritt
+1) Sie finden einen \l;Titanwürfel\u object\titan; in einer zerstörten Roboterfabrik. Verwenden Sie diesen, um ein \l;Kraftwerk\u object\station; zu bauen.
+
+2) Der \l;Recycler\u object\botrecy; ist dazu vorgesehen, Roboterwracks in nutzbare Titanwürfel umzuwandeln.
+
+3) Bauen Sie ein \l;Reparaturzentrum\u object\repair; sowie ein \l;Radar\u object\radar;.
+
+4) Laden Sie eine der \l;Batterien\u object\power; auf und rüsten Sie damit einen \l;Jetshooter\u object\botfj; aus.
+
+5) Eliminieren Sie alle \l;Ameisen\u object\ant;. Beachten Sie, dass Sie den Shooter regelmäßig aufladen und reparieren sollten. Achten Sie auf die Anzeigen.
+
+6) Laden Sie die Batterie des \l;Transporters\u object\botgr; voll auf und steuern Sie ihn per Funk auf den Gipfel des Berges.
+      a) Die erste Ebene erreichen Sie über die Rampe im Westen;
+      b) Fahren Sie nach Osten, um die zweite Rampe zu finden;
+      c) Die dritte Rampe finden Sie im Süden;
+      d) Fahren Sie nach Westen um dort den Gipfel zu erreichen;
+Nehmen Sie den Brocken und fahren Sie auf dem direktesten Weg zum Raumschiff zurück, um die noch verbliebene Energie zu sparen.
+
+7) Gehen Sie an Bord und heben Sie ab.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

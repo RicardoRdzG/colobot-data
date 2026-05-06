@@ -1,0 +1,20 @@
+\b;Satellitenbericht
+Gegenwärtig in einer geostationären Umlaufbahn um Volcano.
+\c;
+\s;-> Oberfläche\c;
+\tab;Temperatur:     84.6C
+\tab;Atmosphäre:     CO2. SO2. HCN, HS, CH4. NH3
+\tab;Wind:           2.2 m/s
+\tab;Titanerz:       überall
+\tab;Platinerz:      vereinzelt
+
+\s;-> Untergrund\c;
+\tab;Energiefelder:  überall
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Zusätzliche Informationen\c;
+\tab;Entdeckt:       wiederverwertbare Roboterwracks 
+\tab;Entdeckt:       unbekannte Lebensformen
+\tab;  - Gefahr:     ?
+\n;

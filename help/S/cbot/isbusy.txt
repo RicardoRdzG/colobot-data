@@ -1,0 +1,15 @@
+\b;Instrucción \c;isbusy\n; ( esta ocupado )
+Sintaxis:
+\s;\c;isbusy ( objeto );\n;
+
+Comprueba si un objeto determinado está ocupado.
+
+\t;\l;object\u cbot\object;
+Cualquier edificio que pueda realizar alguna acción (por ejemplo, \l;un convertidor\u cbot\convert;).
+
+\t;Valor de retorno: \c;\l;bool\u cbot\bool;\n;
+\c;\const;verdadero\norm;\n; si el objeto está haciendo algo (p. ej. convirtiendo)
+\c;\const;falso\norm;\n; si el objeto no está haciendo nada
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

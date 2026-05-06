@@ -1,0 +1,21 @@
+\b;Relatório do satélite
+Atualmente em uma órbita geo-estacionária de Volcano.
+\c;
+\s;-> SUPERFÍCIE\c;
+\tab;Temperatura:      96.6C
+\tab;Atmosfera:       CO2, SO2, HCN, HS, CH4, NH3
+\tab;Vento:             2.7 mps
+\tab;Minério de titânio:     nenhum
+\tab;Minério de urânio:      nenhum
+
+\s;-> SUBSOLO\c;
+\tab; Fonte de energia: nenhuma 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> INFORMAÇÃO ADICIONAL\c;
+\tab; Detectado: formigas gigantes 
+\tab; - Perigo: imediato 
+\tab; Detectado: aranhas gigantes 
+\tab; - Perigo: não imediato
+\n;

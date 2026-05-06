@@ -1,0 +1,17 @@
+\b;Instrucción \c;sniff\n; (Rastrear)
+Sintaxis:
+\s;\c;sniff ( );\n;
+
+Explora el subsuelo delante del \l;rastreador\u object\botsr;. Según las materias primas detectadas, se crearán los siguientes objetos: 
+
+\c;TitaniumSpot\n;  ->  \l;Cruz roja\u object\stonspot;
+\c;UraniumSpot \n;  ->  \l;Círculo amarillo\u object\uranspot;
+\c;PowerSpot   \n;  ->  \l;Cruz verde\u object\enerspot;
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Cero si todo está bien, o un valor diferente de cero si ocurrió un error. 
+\c;== 0 \n;sondeo realizado
+\c;!= 0 \n;sondeo imposible
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

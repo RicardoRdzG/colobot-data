@@ -1,0 +1,11 @@
+\b;Návod
+1) Vložte baterii do \l;chodícího kanónu\u object\botfs;. Za \l;továrnou na roboty\u object\factory; dokonce zůstala jedna \l;jaderná baterie\u object\atomic;.
+
+2) Vyšplhejte na severní útes a zlikvidujte několik \l;mravenců\u object\ant;. Nejlepší přístup je z východu.
+
+3) Pokračujte, dokud se nezbavíte všech mravenců.
+
+4) Vyšplhejte na severní útes s \l;chodícím ramenem\u object\botgs; a vyzvedněte \l;černou skříňku\u object\bbox;, kterou najdete v rozbořené továrně na roboty.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

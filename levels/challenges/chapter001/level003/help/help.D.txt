@@ -1,0 +1,19 @@
+\b;Übung
+Entlang des Weges stehen einige \l;Infoserver\u object\exchange;. Wenn sich der Roboter nahe genug an einem der Server befindet, kann er die Informationen, die darin gespeichert sind, lesen. Jeder \l;Infoserver\u object\exchange; auf dem Weg enthält die Richtung und Entfernung des nächsten Servers. Sie wissen nicht, wie viele Infoserver Sie passieren müssen, um die Aufgabe zu erfüllen.
+
+\b;Vorgehensweise
+Immer wieder auszuführen:
+	o  Empfangen Sie die Richtung vom \l;Infoserver\u object\exchange;.
+	o  Empfangen Sie die Entfernung vom \l;Infoserver\u object\exchange;.
+	o  Wenn keine Information geholt werden konnte, dann stoppen Sie das Programm.
+	o  Führen Sie die Drehung aus.
+	o  Bewegen Sie sich vorwärts zum nächsten Server.
+
+\b;Nützliche Anweisungen
+\c;\l;while\u cbot\while;\n; um die Anweisungen zu wiederholen
+\c;\l;receive\u cbot\receive;\n; um Informationen von einem Infoserver zu erhalten
+\c;\l;move\u cbot\move;\n; um den Roboter zu bewegen
+\c;\l;turn\u cbot\turn;\n; um den Roboter zu drehen
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, \l;Variablentypen\u cbot\type; und \l;Kategorien\u cbot\category;.

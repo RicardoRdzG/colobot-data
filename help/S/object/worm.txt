@@ -1,0 +1,11 @@
+\b;Gusano
+\image worm 8 8;
+Los gusanos transmiten virus a los bots programados. El virus altera la programación hasta tal punto que el bot funciona de manera muy errática o deja de funcionar por completo.
+
+Los gusanos viven en el subsuelo pero a veces emergen y se arrastran en la superficie. Cuando están bajo tierra son indetectables e indestructibles.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;AlienWorm\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

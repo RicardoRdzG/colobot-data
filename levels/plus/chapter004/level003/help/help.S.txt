@@ -1,0 +1,9 @@
+\b;Del Control de Misiones
+Acabamos de recibir esta advertencia del satélite de observación: un bot rebelde de la expedición anterior ha tomado la caja negra de tu nave espacial.
+ 
+Vamos a investigar este incidente más a fondo, pero es de vital importancia que recuperes tu caja negra de inmediato.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

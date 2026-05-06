@@ -1,0 +1,24 @@
+\b;\button 166; Autolab
+\image labo 8 8;
+El laboratorio está destinado al análisis de \l;materia orgánica\u object\bullet;. Ayudará \l;a ti\u object\human; a familiarizarte con la propia tecnología de los insectos y quizás incluso usarla en tu ventaja. Coloca un trozo de \l;materia orgánica\u object\bullet; en la plataforma, selecciona el laboratorio y haz clic en el botón correspondiente al programa de investigación deseado.
+
+\t;Requisitos para construir
+Cualquier superficie plana de al menos 6 metros de ancho.
+
+\t;Entrada
+Materia orgánica.
+
+\t;Salida
+Tecnologías nuevas y mejoradas.
+
+\t;Fuente de energía
+Ninguno.
+
+\t;Duración de operación
+20 segundos.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;AutoLab\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

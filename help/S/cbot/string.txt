@@ -1,0 +1,33 @@
+\b;Tipo \c;string\n; (cadena de caracteres)
+Utiliza una variable de este tipo para almacenar caracteres o cadenas de caracteres.
+
+Por ejemplo: 
+\s;\c;	"¡Hola!"
+\s;	"Esta es una cadena de caracteres"
+\s;	"x"
+\s;	""  // cadena vacía
+\n;
+Puedes unir dos cadenas con el operador \c;+\n;:
+\s;\c;	"Buenos días," + " " + "Señor"
+\n;
+Devuelve la cadena:
+\s;\c;	"Buenos días, Señor"
+\n;
+Si deseas incluir una comilla (") o una barra invertida (\) en una cadena, debes escribir:
+\s;\c;"Esto es \"muy\" importante
+\n;lo que dará como resultado la cadena \c; Esto es "muy" importante.
+\s;\c;"%user%\\ant.txt"
+\n;dará como resultado \c;%user%\ant.txt
+\n;
+Las siguientes instrucciones se pueden usar con cadenas:
+\c;\l;strlen\u cbot\strlen;     \n;Obtener la longitud de la cadena
+\c;\l;strleft\u cbot\strleft;    \n;Extraer la parte izquierda
+\c;\l;strright\u cbot\strright;   \n;Extraer la parte derecha
+\c;\l;strmid\u cbot\strmid;     \n;Extraer la parte central
+\c;\l;strfind\u cbot\strfind;    \n;Encontrar una subcadena.
+\c;\l;strval\u cbot\strval;     \n;Convertir cadena a número
+\c;\l;strupper\u cbot\strupper;   \n;Convertir a mayúsculas
+\c;\l;strlower\u cbot\strlower;   \n;Convertir a minúsculas
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

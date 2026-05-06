@@ -1,0 +1,20 @@
+\b;Zpráva z řídícího střediska
+Nasbírejte 4 hroudy \l;titanové rudy\u object\titanore; a přivezte je na palubu \l;rakety\u object\base;. Vyrobte si vybavení nezbytné pro splnění úkolu (\l;létající roboty\u object\botgj;).
+
+Než se pustíte do práce, měli byste se vždy podívat na informace ze satelitu \button 186;.
+
+Poslali jsme Vám program, který Vám může s tímto úkolem pomoci. Podrobnosti si můžete přečíst ve svém SatKomu tlačítkem \button 53;.
+
+\b;Postup
+1) Abyste mohli v továrně vyrábět létající roboty, musíte nejprve spustit další výzkumný program ve \l;výzkumné stanici\u object\research;. Tento program navíc zprovozní tryskový motor, který je součástí Vašeho vybavení pro přežití.
+2) Vyrobte \l;létající rameno\u object\botgj; a nasbírejte 4 hroudy \l;titanové rudy\u object\titanore;.
+3) Nastupte spolu s \l;létajícím ramenem\u object\botgj; a \l;pojízdným ramenem\u object\botgr; do rakety a odleťte. 
+
+Dávejte pozor, aby Vašemu létajícímu robotu nedošla baterie někde daleko od základny. Pokud to bude třeba, vyměňte mu \l;baterii\u object\power; ještě před odletem od rakety. Můžete to udělat ručně, nebo můžete využít program poslaný z Houstonu \button 53;.
+
+Abyste se v bezpočtu kráterů na povrchu Měsíce neztratili, používejte minimapu v pravém dolním rohu obrazovky.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

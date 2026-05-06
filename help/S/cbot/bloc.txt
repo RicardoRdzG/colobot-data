@@ -1,0 +1,49 @@
+\b;Bloques
+Puedes usar llaves \c;{ }\n; para agrupar varias instrucciones juntas con el fin de hacer un solo bloque con ellas, por ejemplo: 
+\c;
+\s;	{
+\s;		float  t;
+\s;		t = a;
+\s;		a = b;
+\s;		b = t;  // intercambia a y b
+\s;	}
+\n;
+Cada instrucción en el bloque va seguida de un \l;punto y coma\u cbot\term;, pero el bloque en sí no. 
+Tomemos el siguiente ejemplo con la instrucción \c;\l;if\u cbot\if;\n; para ilustrar el uso de bloques en un programa:
+\c;
+\s;	if ( a < b )
+\s;		\n;instrucción 1\c;;
+\s;		\n;instrucción 2\c;;
+\s;	\n;instrucción 3\c;;
+\n;
+Si la \l;condición\u cbot\cond; es verdadera, se ejecutan las instrucciones 1, 2 y 3. Si la condición es falsa, solo se ignora la instrucción 1, se ejecutan las instrucciones 2 y 3. El hecho de que la instrucción 2 esté alineada con la instrucción 1 no importa. 
+Si quieres ejecutar las instrucciones 1 y 2 solo si la condición es verdadera, tienes que agruparlas en un bloque: 
+\c;
+\s;	if ( a < b )
+\s;	{
+\s;		\n;instrucción 1\c;;
+\s;		\n;instrucción 2\c;;
+\s;	}
+\s;	\n;instrucción 3\c;;
+\n;
+Los bloques pueden ser necesarios con las instrucciones \c;\l;if\u cbot\if;\n;, \c;\l;while\u cbot\while;\n; y \c;\l;for\u cbot\for;\n;, para agrupar varias instrucciones que deben ejecutarse solo si una condición es verdadera, o repetidas varias veces. 
+Puedes anidar bloques dentro de otros bloques, en tantos niveles como necesites. Aquí tienes un ejemplo de anidamiento en dos niveles:
+\c;
+\s;	if ( a > b )
+\s;	{
+\s;		int  i = 0;
+\s;		while ( i < 18 )
+\s;		{
+\s;			move(10);
+\s;			turn(5);
+\s;			i = i+1;
+\s;		}
+\s;	}
+\n;
+Es mejor alinear la llave de apertura \c;{\n; con la llave de cierre \c;}\n; para mejorar la legibilidad, pero no es obligatorio. El siguiente ejemplo ocupa menos espacio, es equivalente al ejemplo anterior, pero no es aconsejable escribir tus programas en el siguiente estilo: 
+\c;
+\s;	if(a>b) { int i=0; while(i<18) {
+\s;	move(10);turn(5);i=i+1; }}
+\n;
+\t;Ver también
+\l;Instrucciones\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,21 @@
+\b;Rapport du satellite
+En orbite géostationnaire autour de Terranova.
+\c;
+\s;-> SURFACE\c;
+\tab;Température:      23.7 degrés
+\tab;Atmosphère:       oxygène
+\tab;Vent:             0.5 m/s
+\tab;Minerai de titane:par endroits
+\tab;Minerai d'uranium:par endroits
+
+\s;-> SOUS-SOL\c;
+\tab;Energie:          près du vaisseau
+\tab;Minerai de titane:aucun
+\tab;Minerai d'uranium:aucun
+
+\s;-> INFORMATIONS SPÉCIFIQUES\c;
+\tab;Détecté:          fourmis géantes
+\tab;  - Danger:       Immédiat
+\tab;Détecté:          pondeuse géante
+\tab;  - Danger:       ?
+\n;

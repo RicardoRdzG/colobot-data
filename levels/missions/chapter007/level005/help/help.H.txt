@@ -1,0 +1,9 @@
+\b;A Küldetésirányítástól
+Támadás alatt állsz, ez most nem a könyörület ideje...
+
+Az új \l;csapódód\u object\bottump; nagyon hasznos lehet. Viszont hangsúlyozzuk, hogy ne kockáztasd a felszállást, ha még élő hangyák vannak az űrhajó közelében.
+
+A \key;\key help;\norm; segítségével bármikor újra megtekintheted ezeket az utasításokat a személyes SatCom \button 63; eszközödön.
+
+\t;Lásd még
+\l;Vezérlés\u command; és \l;CBOT nyelv\u cbot;

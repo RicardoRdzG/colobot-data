@@ -1,0 +1,9 @@
+\b;Do Centro de Controle de Missões
+Acabamos de receber essa advertência do satélite de observação: um robô trapaceiro da expedição anterior pegou a caixa preta de sua espaçonave.
+ 
+Vamos investigar esse incidente ainda mais, mas é de vital importância que você recupere sua caixa preta de uma só vez.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

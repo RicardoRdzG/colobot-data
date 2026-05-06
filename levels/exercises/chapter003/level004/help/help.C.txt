@@ -1,0 +1,31 @@
+\b;Cvičení
+Uprostřed \l;minového pole\u object\mine; stojí několik \l;komunikačních stanic\u object\exchange;. Když robot přijede dost blízko ke komunikační stanici, může z ní číst uložené informace. Každá stanice řekne robotovi úhel, o který se musí otočit, aby bezpečně dojel k další stanici a nenajel při tom na \l;minu\u object\mine;.
+Komunikační stanice jsou od sebe vzdálené 20 metrů.
+
+\b;Obecný postup
+Opakovat pětkrát:
+	o  Popojet o 20m vpřed.
+	o  Načíst směrový úhel k další \l;komunikační stanici\u object\exchange;.
+	o  Otočit o daný úhel.
+
+\image tinfo1 8 8;
+Pro opakování výše uvedených kroků použijte \c;\l;for\u cbot\for;\n; cyklus jako v předchozím cvičení.
+\s;\c;	for ( int i=0 ; i<5 ; i=i+1 )
+\n;
+Popojeďte vpřed příkazem \c;move(20);\n;.
+
+Pro přečtení informace uložené v \l;komunikační stanici\u object\exchange; použijte příkaz \c;\l;receive\u cbot\receive;("Direction");\n;. Ten samozřejmě bude fungovat jen když je robot ke stanici dostatečně blízko.
+Pro uložení hodnoty přečtené z komunikační stanice budete potřebovat \l;proměnnou\u cbot\var;. Nazvěme ji \c;dir\n; a musíte ji deklarovat následujícím řádkem:
+\s;\c;	float  dir;
+\n;
+Pak přečtěte směrový úhel z komunikační stanice a uložte ho do proměnné:
+\s;\c;	dir = receive(...);
+\n;
+Pak můžete robota otočit:
+\s;\c;	turn(dir);
+\n;
+\b;Poznámky
+Když kliknete na \l;komunikační stanici\u object\exchange;, můžete se podívat, jaké informace obsahuje. Všechny stanice v tomto cvičení obsahují pouze jedinou hodnotu nazvanou \c;"Direction"\n;, ale mohou obsahovat až 10 různých hodnot, jak uvidíte v dalších cvičeních.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

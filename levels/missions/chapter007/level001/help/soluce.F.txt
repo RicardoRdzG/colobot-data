@@ -1,0 +1,20 @@
+\b;Solution
+Dans un creux au nord-est se trouvent plusieurs objets précieux au milieu de ruines:
+o  Un \l;robot recycleur\u object\botrecy;, qui permet d'obtenir le premier \l;bloc de titane\u object\titan;.
+o  Un \l;robot préhenseur à pattes\u object\botgs;, très utile pour gravir les fortes pentes.
+o  Une \l;pile atomique\u object\atomic; presque pleine.
+
+1) Equipez le \l;préhenseur à pattes\u object\botgs; de la \l;pile atomique\u object\atomic;, et faites-lui porter un \l;bloc de titane\u object\titan; vers le \l;vaisseau spatial\u object\base; en prenant le chemin direct par les montagnes.
+
+2) Vous pourrez alors construire une \l;raffinerie\u object\convert;. Puis exécutez le programme \c;ApporteTitane3\n; sur le \l;préhenseur à pattes\u object\botgs; et vous aurez tout le titane nécessaire.
+
+3) Stoppez le programme, et allez chercher du \l;minerai d'uranium\u object\uranore; dans un deuxième creux plus à l'est. Là encore, ne parcourez pas la vallée qui y mène, elle est infestée de fourmis, mais passez par les montagnes.
+
+4) Construisez un \l;tireur volant\u object\botfj; et équipez-le d'une pile atomique. En empruntant le col qui se trouve au sud-est du vaisseau, vous arriverez rapidement vers le nid des fourmis. Eliminez toutes les fourmis, et vous pourrez ramener une bulle de \l;matière organique\u object\bullet; vers la base.
+
+5) Construisez un \l;laboratoire\u object\labo;, posez-y la \l;matière organique\u object\bullet; et cliquez sur le bouton \button 110; pour développer les plans pour le tireur organique.
+
+6) Lorsque la \l;matière organique\u object\bullet; a été analysée, construisez un \l;tireur organique à pattes\u object\botos;, amenez-le sur votre \l;vaisseau spatial\u object\base; puis décollez.
+
+\t;Voir aussi
+\l;Commandes\u command;.

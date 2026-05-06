@@ -1,0 +1,18 @@
+\b;Tipo \c;file\n;
+Este tipo se utiliza para acceder a los archivos de la carpeta files/.
+\c;
+\s;	file handle();
+\n;
+Utiliza la sintaxis anterior para declarar un identificador de archivo. Debes utilizar () para crear una instancia de la clase \c;file\n;. Sin los paréntesis (), el identificador tendría el valor \c;\l;null\u cbot\null;\n;.
+
+Los archivos solo se pueden crear y abrir en la carpeta files/ que se encuentra en la carpeta dentro del directorio de almacenamiento de Colobot. No puedes crear ni abrir archivos en ningún otro lugar que no sea la carpeta files/.
+
+\b;Para especialistas
+El archivo (\c;file\n;) no es en realidad un tipo simple, sino una clase. \c;open\n;, \c;close\n;, \c;writeln\n;, etc. son métodos de la clase \c;file\n;. Esta es la razón por la que siempre escribimos \c;handle.method()\n;:
+\c;
+\s;	handle.open("test.txt", "w");
+\s;	handle.close();
+\n;
+\t;Ver también
+\c;\l;open\u cbot\open;\n;, \c;\l;close\u cbot\close;\n;, \c;\l;readln\u cbot\readln;\n;, \c;\l;writeln\u cbot\writeln;\n; y \c;\l;eof\u cbot\eof;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

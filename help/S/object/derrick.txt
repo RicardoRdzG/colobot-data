@@ -1,0 +1,29 @@
+\b;\button 161; Derrick
+\image derrick 8 8;
+El derrick está destinado a la extracción de materias primas.
+
+Para determinar el mejor sitio para erected un derrick, se debe usar un \l;detector\u object\botsr; para prospectar el subsuelo. Las marcas que deja proporcionan información sobre lo que el derrick podrá extraer:
+
+- una \l;cruz roja\u object\stonspot; -> \l;mineral de titanio\u object\titanore;.
+- un \l;círculo amarillo\u object\uranspot; -> \l;mineral de uranio\u object\uranore;.
+
+\t;Requisitos para construir
+Cualquier superficie plana y geológicamente adecuada de al menos 2,5 metros de ancho.
+
+\t;Entrada
+Mineral de titanio o uranio en el subsuelo.
+
+\t;Salida
+Trozos de mineral de titanio o uranio.
+
+\t;Fuente de energía
+Ninguno.
+
+\t;Duración de operación
+10 segundos para titanio y 30 para uranio.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Derrick\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

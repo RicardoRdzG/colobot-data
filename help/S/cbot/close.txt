@@ -1,0 +1,8 @@
+\b;Instrucción \c;close\n; (cerrar)
+Cierra un archivo abierto previamente con \c;\l;open\u cbot\open;\n;. Este es un método de la clase \c;\l;file\u cbot\file;\n;; por lo tanto, no puedes escribir \c;close()\n;, sino solo \c;handle.close()\n;:
+\c;
+\s;	handle.close();
+\n;
+\t;Ver también
+\c;\l;file\u cbot\file;\n;, \c;\l;open\u cbot\open;\n;, \c;\l;readln\u cbot\readln;\n;, \c;\l;writeln\u cbot\writeln;\n; y \c;\l;eof\u cbot\eof;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

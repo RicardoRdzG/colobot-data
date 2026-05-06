@@ -1,0 +1,15 @@
+\b;Informace ze satelitu
+Aktuálně na stacionární oběžné dráze Kentaura.
+\c;
+\s;-> POVRCH\c;
+\tab;Teplota:           25,4 °C
+\tab;Atmosféra:         kyslík, dusík, čpavek
+\tab;Vítr:              1,2 m/s
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+
+\s;-> PODZEMNÍ LOŽISKA\c;
+\tab;Zdroj energie:     žádný
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+\n;

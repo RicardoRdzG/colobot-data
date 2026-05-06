@@ -1,0 +1,7 @@
+\b;Návod
+Pokud Váš robot z ničeho nic vybuchne, znamená to, že jste mockrát narazili do ocelových konstrukcí kolem. Leťte pomaleji, aby se Váš robot nepoškodil ani při nárazu do překážky.
+
+Pokud po dokončení cvičení nemůžete odletět, znamená to, že jste některý kontrolní bod vynechali. Dejte si ještě jedno kolečko a proleťte skrz kruhy, ve kterých zůstal křížek uprostřed.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

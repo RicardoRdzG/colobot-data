@@ -1,0 +1,64 @@
+\b;Ejercicio
+Llega a la plataforma de meta (25m frente a ti) lo más rápido posible, usando la instrucción \c;motor( , )\n;. Tendrás que desacelerar progresivamente al final del movimiento, de lo contrario el bot explotará en las \l;minas\u object\mine;.
+
+Podrías muy bien escribir solo \c;\l;move\u cbot\move;(25);\n;, esto funcionaría perfectamente. Sin embargo, el objetivo de este ejercicio es aprender a usar la instrucción \c;\l;motor\u cbot\motor;\n;.
+
+Esta instrucción pide dos valores:
+1) La velocidad del motor izquierdo.
+2) La velocidad del motor derecho.
+
+\s;\c;	motor( izquierdo, derecho );
+\n;
+Los valores deben estar entre -1 y 1:
+--1 = acelerador completo hacia atrás
+ 0 = detenerse
+ 1 = acelerador completo hacia adelante
+
+Por ejemplo, \c;motor(0.5, 0.5);\n; moverá el motor hacia adelante a media velocidad, hasta que se den nuevas instrucciones a los motores.
+
+Con la instrucción \c;motor(0.5, 0.6);\n;, el bot se moverá hacia adelante a media velocidad, girando al mismo tiempo ligeramente hacia la izquierda: el motor derecho se mueve un poco más rápido (\c;0.6\n;) que el motor izquierdo (\c;0.5\n;).
+
+\b;Principio general
+Para avanzar exactamente 25 metros y no más, debes moverte a máxima velocidad durante los primeros 23 metros, luego reducir la velocidad de los motores progresivamente durante los últimos dos metros.
+La \l;variable\u cbot\var; \l;position\u cbot\object; te da en cualquier momento la posición actual del bot, y la instrucción \c;\l;distance\u cbot\dist;( , );\n; devuelve la distancia entre dos puntos. La mejor manera de saber dónde estás consiste en guardar la posición actual antes del inicio en una \l;variable\u cbot\var;, por ejemplo una variable llamada \c;start\n;. Luego puedes calcular la distancia entre la posición inicial y tu posición actual con \c;distance(position, start)\n;.
+
+\b;El programa
+1) declarar las variables
+\s;\c;	point start;
+\s;	float len;
+\n;
+2) guardar la posición inicial
+\s;\c;	start = position;
+\n;
+3) iniciar a toda velocidad :
+\s;\c;	motor(1, 1);
+\n;
+4) Realizar un bucle \c;\l;while\u cbot\while;\n; infinito:
+\s;\c;	while ( true )
+\s;	{
+\s;		len = distance(position, start);
+\s;		if ( len > 25-2 )
+\s;		{
+\s;			motor( menor que antes ! );
+\s;		}
+\s;	}
+\n;
+Mientras la distancia entre el inicio y la posición actual sea menor que 23m, la instrucción entre llaves después de la instrucción \c;\l;if\u cbot\if;\n; no se ejecutará, por lo que los motores mantienen su velocidad máxima según lo indicado por la instrucción \c;\l;motor\u cbot\motor;(1,1);\n;.
+
+Para desacelerar progresivamente, la velocidad de los motores debe ser proporcional a la distancia restante:
+o  \c;2.0\n; metros restantes -> velocidad = \c;1.00\n; (máximo)
+o  \c;1.5\n; metros restantes -> velocidad = \c;0.75\n;
+o  \c;1.0\n; metro restante -> velocidad = \c;0.50\n;
+o  \c;0.5\n; metros restantes -> velocidad = \c;0.25\n;
+o  \c;0.0\n; metros restantes -> velocidad = \c;0.00\n; (detenerse)
+
+\image tdragst1 12 6;
+Puedes usar la siguiente \l;expresión\u cbot\expr; \c;(25-len)/2\n; para calcular el valor de la instrucción de velocidad que debe darse a los motores.
+
+Ahora depende de ti juntar todo y probar el programa.
+
+\b;Nota
+Puedes usar valores mayores que 1 para la instrucción \c;\l;motor\u cbot\motor;();\n;, pero el bot no se moverá más rápido.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

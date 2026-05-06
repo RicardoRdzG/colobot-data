@@ -1,0 +1,11 @@
+\b;Guía Paso a Paso
+Camina por la calle que pasa junto al \l;Control de Misiones\u object\Huston;. Encontrarás un \l;cubo de titanio\u object\titan; en el lado izquierdo del camino, justo después del \l;bot recogedor\u object\botgr;.
+
+1) Mira hacia el cubo. Haz clic en el primer botón en la parte inferior izquierda de tu pantalla: \button 163; <construir un \l;centro de investigación\u object\research;>.
+2) Continúa caminando por el camino. El segundo cubo está a la derecha después de las cuatro \l;celdas de energía\u object\power; verdes.
+3) Repite 1) pero haz clic en el segundo botón: \button 160; <construir una \l;fábrica de bots\u object\factory;>.
+
+Tan pronto como ambos edificios estén completados, la misión habrá terminado.
+
+\t;Ver también
+\l;Controles\u command;

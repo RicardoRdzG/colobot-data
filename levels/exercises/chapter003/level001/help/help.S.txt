@@ -1,0 +1,33 @@
+\b;Ejercicio
+Programa el robot de manera que llegue a la plataforma de meta, después de haber pasado por las tres cruces azules.
+
+\b;Procedimiento
+1) Toma la celda de energía y colócala en la parte trasera del bot.
+2) Camina alrededor en reconocimiento para entender lo que debe hacer el bot. 
+3) Programa el bot. Para hacerlo, selecciónalo y luego haz clic en el botón de llaves \button 22;; entrarás en el editor de programas.
+4) Una vez que termines de escribir el programa, haz clic en "OK" y ejecuta el programa con la tecla de flecha \button 21;.
+
+\b;Programa
+Las plataformas están a una distancia de 20 metros entre sí.
+La instrucción \c;move(20);\n; avanza 20 metros. 
+La instrucción \c;turn(90);\n; gira a la izquierda con un ángulo de 90 grados. 
+La instrucción \c;turn(-90);\n; gira a la derecha con un ángulo de 90 grados. 
+
+El marco del programa consiste en:
+\c;
+\s;	extern void object::MoveBot( )
+\s;	{
+\s;		\n;\\escribe las instrucciones necesarias aquí ...\c;
+\s;	}
+\n;
+Por ahora, no debes cambiar el marco del programa. Solo inserta las instrucciones que necesitas para mover el bot entre las llaves \c;{ }\n;.
+
+\b;Atención
+¡Ten mucho cuidado con las mayúsculas y minúsculas!
+Cada instrucción debe terminar con un punto y coma. 
+
+\b;Truco útil
+Cuando escribas el programa, puedes ver la escena haciendo clic en el botón <Reduce> \button 51; y moviendo el mouse a los bordes de la ventana para girar la cámara. 
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

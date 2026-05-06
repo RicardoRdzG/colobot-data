@@ -1,0 +1,7 @@
+\b;Játékmenet
+Ha a robotod hirtelen felrobban, az azt jelenti, hogy túl gyakran ütköztél a fémszerkezetekkel. Menj lassabban, így a robotod nem sérül meg akkor sem, ha akadályba ütközöl.
+
+Ha nem tudsz felszállni a gyakorlat befejezése után, az azt jelenti, hogy nem repültél át minden célpont felett. Menj még egy kört, és repülj át azokon a célpontokon, ahol a kereszt a közepén maradt.
+
+\t;Lásd még
+A \l;Vezérlés\u command;

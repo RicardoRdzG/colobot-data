@@ -1,0 +1,57 @@
+\b;Ejercicio
+Destruye los seis \l;objetivos\u object\bottarg; con un programa usando un bucle. El bot debe avanzar 5m para pasar de un objetivo a otro.
+
+\b;Principio general
+El programa debe ejecutar el siguiente esquema:
+Repite 6 veces:
+	o  avanzar 5m
+	o  girar 90 grados a la izquierda
+	o  disparar
+	o  girar 90 grados a la derecha
+
+\image tfor1 14 5;
+\b;Instrucción \c;for ( )\n;
+La instrucción \c;\l;for\u cbot\for;\n; pide 3 expresiones:
+1) Inicializar la variable de conteo.
+2) La condición de \l;fin\u cbot\cond;.
+3) La \l;expresión\u cbot\expr; de conteo.
+
+Aquí está el bucle una vez integrado en el marco del programa:
+\s;\c;extern void object::Massacre( )
+\s;{
+\s;	for ( int i=0 ; i<6 ; i=i+1 )
+\s;	{
+\s;		\n;instrucciones repetidas 6 veces ...\c;
+\s;	}
+\s;}
+\n;
+ATENCIÓN: La línea \c;for ( )\n; no debe ser seguida por un \l;punto y coma\u cbot\term; !
+
+\b;Explicación de la instrucción \c;for ( )\n;
+1) \c;int i=0\n;
+    La \l;variable\u cbot\var; i se establece en cero antes del inicio del bucle.
+
+2) \c;i<6\n;
+    El bucle se ejecutará siempre que i sea menor que 6.
+
+3) \c;i=i+1\n;
+    Al final de cada bucle, añade 1 a la variable i.
+
+\b;Bloques
+Usa llaves \c;{ }\n; para crear un \l;bloque\u cbot\bloc;. Todas las instrucciones que deben ejecutarse en el bucle \c;for\n; se mantienen juntas en un bloque. Todo el programa en sí está compuesto por un bloque:
+\c;
+\s;extern void object::massacre( )
+\s;{
+\s;	\n;rellena aquí ...\c;
+\s;}
+\n;
+Nunca cambies estos caracteres. Solo añade las instrucciones del programa entre las llaves.
+Puedes meter varios bloques unos dentro de otros. Por ejemplo, el bloque \c;for\n; se mete dentro del bloque de todo el programa. Para mejorar la legibilidad, el editor alinea las llaves que pertenecen a los diferentes bloques.
+
+\b;Recuerda
+La instrucción usada para avanzar es \c;\l;move\u cbot\move;();\n;.
+La instrucción usada para girar el bot es \c;\l;turn\u cbot\turn;();\n;. Un ángulo positivo gira a la izquierda.
+La instrucción usada para disparar el cañón es \c;\l;fire\u cbot\fire;(1);\n;. Una ráfaga de un segundo permite destruir los seis \l;objetivos\u object\bottarg;.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

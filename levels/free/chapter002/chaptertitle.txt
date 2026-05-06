@@ -1,1 +1,8 @@
 Title.E text="On the Moon" resume="Moon"
+Title.C text="Na Měsíci" resume="Měsíc"
+Title.D text="Auf dem Mond" resume="Mond"
+Title.S text="En la Luna" resume="Luna"
+Title.F text="Sur la Lune" resume="Lune"
+Title.P text="Na Księżycu" resume="Księżyc"
+Title.B text="Na lua" resume="Lua"
+Title.R text="На Луне" resume="Луна"

@@ -1,0 +1,25 @@
+\b;Tipo \c;float\n; (flotante)
+Utiliza este tipo para la mayoría de las variables que contienen números. Las variables de este tipo pueden contener números positivos y negativos, enteros o reales, por ejemplo: 
+\c;
+\s;	12.9
+\s;	1.125
+\s;	0.002
+\s;	-4.1
+\n;
+Si solo necesitas números enteros (por ejemplo, 12 o -5000), es mejor que utilices el tipo \c;\l;int\u cbot\int;\n;.
+
+\t;Atención
+No insertes espacios, comas(,), ni caracteres de dos puntos(:) en un número. Para separar la parte entera de la parte fraccionaria, usa un punto. 
+\c;
+\s;   Escribe       y no
+\s;   12.56       12 . 56
+\s;  -54.34       -54,34
+\s;12895.69    12,895.69
+\n;
+\t;Para especialistas
+Los números de punto flotante se representan en Colobot con 32 bits.
+El valor más alto que se puede representar es 3.4E+38.
+El valor más bajo que se puede representar es 3.4E-38.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

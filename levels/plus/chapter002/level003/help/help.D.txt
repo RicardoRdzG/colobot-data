@@ -1,0 +1,18 @@
+\b;Vom Kontrollzentrum
+Wir wissen weder, wo die vorhergehende Expedition hin wollte, als sie die Oberfläche des Mondes verließ, noch wieso sie dieses Ziel wählte.
+
+Suchen Sie den \l;Flugschreiber\u object\bbox;, den sie zurückgelassen haben, und bringen Sie ihn an Bord Ihres Raumschiffes. Der Flugschreiber sollte die Koordinaten des Planeten enthalten, den die Expedition als nächstes anfliegen wollte.
+
+Die \l;Batterien\u object\power; Ihrer Roboter sind oft leer. Es ist eine Ihrer wichtigsten Aufgaben, sie wieder aufzuladen. Der Beobachtungssatellit in der Umlaufbahn hat ermittelt, dass der Boden in diesem Bereich mit Energie geladen ist. Sie sollten daher in der Lage sein, ein funktionierendes \l;Kraftwerk\u object\station; auf einer ebenen Fläche zu bauen.
+
+Wir haben ein Programm entwickelt, um die \l;elektrolytische Batterie\u object\power; eines Roboters wieder aufzuladen. Sehen Sie sich die entsprechende Seite in Ihrem SatCom an \button 53;.
+
+\b;Vorgehensweise
+1) Als erstes müssen Sie einen \l;Titankonverter\u object\convert; bauen, um Ihr Titanerz in verwendbare \l;Titanwürfel\u object\titan; umzuwandeln.
+2) Sie sollten dann ein \l;Kraftwerk\u object\station; und ein \l;Radar\u object\radar; errichten, welches Ihnen die Position des Flugschreibers auf der Mini-Karte anzeigen wird.
+3) Mit den vollständig geladenen Batterien können Sie nun den Flugschreiber holen. Sobald er an Bord Ihres \l;Raumschiffes\u object\base; ist, können Sie starten.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

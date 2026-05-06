@@ -1,0 +1,14 @@
+\b;Objetivo
+Mova-se em direção as aranhas que estão fora do alcance de tiro.
+
+\t;Programa
+O programa será parecido com o anterior, mas antes de disparar, use a instrução \c;\l;move\u cbot\move;();\n; para chegar perto o suficiente.
+
+A questão é quantos metros o robô deve mover. A instrução \c;\l;distance\u cbot\dist;( , )\n; calcula a distância entre duas posições. Nesse caso, precisamos saber a distância entre o robô e o alvo. A posição do alvo é dada por \c;item.position\n;, a posição do robô é dada por \c;position\n;. A distância entre o robô e o alvo é dada por \c;\l;distance\u cbot\dist;(position, item.position)\n;. O alcance de um canhão de bola de fogo é de 40 metros. Para se aproximar o suficiente, o robô deve avançar \c;\l;distância\u cbot\dist;(position, item.position) -40\n; metros. A linha a seguir fará isso:
+\c;
+\s;	\l;move\u cbot\move;(\l;distance\u cbot\dist;(position, item.position)-40);
+\n;
+Apenas insira esta linha no programa antes da instrução \c;fire(1);\n;, e o robô começará a se mover.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

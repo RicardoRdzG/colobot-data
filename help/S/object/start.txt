@@ -1,0 +1,8 @@
+\b;Plataforma de Inicio
+La plataforma de inicio es una plataforma usada en algunos ejercicios.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;StartArea\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

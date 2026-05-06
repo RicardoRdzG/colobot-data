@@ -1,0 +1,9 @@
+\b;Hongo Verde
+\image hongoverde 8 8;
+Estos hongos verdes venenosos expulsan pequeñas bolas corrosivas al ser aproximados. Se recomienda no acercarse a menos de 12 metros a menos que estés protegido por un \l;escudo\u object\botshld;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;HongoVerde\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

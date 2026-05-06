@@ -1,0 +1,9 @@
+\b;Del Control de Misiones
+La tercera \l;llave\u object\key; (C) está enterrada en un área Infestada de hongos. Un \l;sniffer\u object\botss; debería poder localizarla y una \l;torre de perforación\u object\derrick; debería poder extraerla.
+
+Cuando tu misión esté completa y antes de despegar, bring both \l;shielder\u object\botshld; and \l;subber\u object\botsub; aboard your spaceship.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

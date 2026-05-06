@@ -18,9 +18,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.3\n"
 "X-Language: hu_HU\n"
-"X-Source-Language: en_US\n"
 "X-POOTLE-MTIME: 1406536037.000000\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Source-Language: en_US\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -110,9 +110,15 @@ msgstr ""
 "\\tab;Titánérc:        nincs\n"
 "\\tab;Uránérc:         nincs"
 
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
 msgid "-> SUBSOIL<c/>"
 msgstr "-> ALTALAJ<c/>"
 
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
 msgid ""
 "\\tab;Energy source:    isolated (close to the spaceship)\n"
 "\\tab;Titanium ore:     scattered\n"
@@ -122,9 +128,15 @@ msgstr ""
 "\\tab;Titánérc:       szétszórva\n"
 "\\tab;Uránérc:        nincs"
 
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
 msgstr "-> TOVÁBBI INFORMÁCIÓK<c/>"
 
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
 msgid ""
 "\\tab;Detected:         worms\n"
 "\\tab;  - Danger:       no"
@@ -132,27 +144,51 @@ msgstr ""
 "\\tab;Észlelve:       férgek\n"
 "\\tab;  - Veszély:     nincs"
 
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
 msgid "Walkthrough"
 msgstr "Végigjátszás"
 
+#. type: Bullet: '1)'
+#: ../help/soluce.E.txt:2
+#, no-wrap
 msgid "Build a <a object|factory>bot factory</a>."
 msgstr "Építs egy <a object|factory>robotgyárat</a>."
 
+#. type: Bullet: '2)'
+#: ../help/soluce.E.txt:3
+#, no-wrap
 msgid "Produce a <a object|botsj>winged sniffer</a>."
 msgstr "Gyárts egy <a object|botsj>szárnyas szimatolót</a>."
 
+#. type: Bullet: '3)'
+#: ../help/soluce.E.txt:4
+#, no-wrap
 msgid "Sniff the ground near the large crystals until you get a <a object|stonspot>red cross</a>."
 msgstr "Szimatold meg a földet a nagy kristályok közelében, amíg egy <a object|stonspot>piros kereszt</a> meg nem jelenik."
 
+#. type: Bullet: '4)'
+#: ../help/soluce.E.txt:5
+#, no-wrap
 msgid "Build a <a object|derrick>derrick</a> near the red cross."
 msgstr "Építs egy <a object|derrick>fúrótornyot</a> a piros kereszt közelében."
 
+#. type: Bullet: '5)'
+#: ../help/soluce.E.txt:6
+#, no-wrap
 msgid "Build a <a object|convert>converter</a>."
 msgstr "Építs egy <a object|convert>átalakítót</a>."
 
+#. type: Plain text
+#: ../help/soluce.E.txt:8
+#, no-wrap
 msgid "The pairing of a derrick and a converter allows for an unlimited supply of <a object|titan>titanium</a>. In order to leave this task to a bot, execute the program <code>CollectTitanium2</code>."
 msgstr "A fúrótorony és az átalakító együttműködése korlátlan <a object|titan>titán</a> ellátást biztosít. Hogy ezt a feladatot egy robot végezze el, futtasd a <code>CollectTitanium2</code> programot."
 
+#. type: Bullet: '6)'
+#: ../help/soluce.E.txt:10
+#, no-wrap
 msgid "Sniff the area at the foot of the spaceship. A <a object|enerspot>green cross</a> means you can build a <a object|station>power station</a> on the spot."
 msgstr "Szimatold meg a talajt az űrhajó lábánál. Egy <a object|enerspot>zöld kereszt</a> azt jelzi, hogy ott építhetsz egy <a object|station>erőművet</a>."
 

@@ -1,0 +1,9 @@
+\b;Schritt für Schritt
+Sie sollten zuerst ein \l;Radar\u object\radar; bauen.
+
+The \l;ants\u object\ant; appear to be running away from you. Try to circle around each one of them until they find themselves trapped between you and a \l;mine\u object\mine;. They'll opt for the mine and blow themselves up.
+
+Bringen Sie dann den \l;Flugschreiber\u object\bbox; an Bord Ihres Schiffes. Er liegt neben dem verfallenen Raumschiff.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

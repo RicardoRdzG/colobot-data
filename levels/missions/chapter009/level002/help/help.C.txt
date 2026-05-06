@@ -1,0 +1,9 @@
+\b;Zpráva z řídícího střediska
+Vyzvedněte druhý \l;klíč\u object\key; (B). Měl by se nacházet poblíž Vaší současné polohy.
+
+Po dokončení mise naložte před odletem do rakety také \l;mobilní štít\u object\botshld; a \l;ponorku\u object\botsub;.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

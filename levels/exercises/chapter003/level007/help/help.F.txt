@@ -1,0 +1,55 @@
+\b;Exercice
+Le programme écrit dans l'\l;exercice précédent\u tlaby1; doit fonctionner quel que soit la disposition du labyrinthe. Pour vérifier cela, exécutez le même programme. Le \l;robot\u object\bottr; devrait se déplacer correctement dans ce nouveau labyrinthe qu'il ne connaît pas.
+
+\b;Remarque
+Ce labyrinthe n'est pas exactement le même que précédemment, mais cela n'a pas d'importance, car le programme s'adapte à ce qu'il "voit".
+
+\image tlaby1 10 10;
+\b;Idée générale
+Utiliser une boucle infinie \c;\l;while\u cbot\while;\n; pour exécuter plusieurs fois le programme précédent :
+\s;\c;while ( true )
+\s;{
+\s;	\n;//S'il n'y a rien devant, avancer\c;
+\s;	\n;// Sinon, s'il n'y a rien sur le coté gauche, tourner à gauche.\c;
+\s;	\n;// Sinon, s'il n'y a rien sur le coté droit,  tourner à droite.\c;
+\s;}
+\n;
+À l'intérieur de la boucle \c;while\n;, remplacez l'instruction \c;return\n; par l'instruction \c;\l;continue\u cbot\continue;\n;. \c;return\n; aurait quitté le programme, ce qui n'est pas ce qu'on souhaite ici. \c;continue\n; reprend l'exécution au début de de la boucle, à l'étape \c;\l;while\u cbot\while;\n; en réévaluant la condition :
+\s;\c;if ( front == null )
+\s;{
+\s;	move(5);
+\s;	continue;
+\s;}
+\n;
+\b;Bien se rappeler :
+Voici à nouveau le programme de l'exercice précédent :
+\c;
+\s;object   front, left, right;
+\s;
+\s;front = radar(Barrier,   0, 45, 0, 5);
+\s;left  = radar(Barrier,  90, 45, 0, 5);
+\s;right = radar(Barrier, -90, 45, 0, 5);
+\s;
+\s;if ( front == null )
+\s;{
+\s;	move(5);
+\s;	return;
+\s;}
+\s;if ( left == null )
+\s;{
+\s;	turn(90);
+\s;	move(5);
+\s;	return;
+\s;}
+\s;if ( right == null )
+\s;{
+\s;	turn(-90);
+\s;	move(5);
+\s;	return;
+\s;}
+\n;
+\b;Aide
+Si vous avez besoin d'aide, consultez la documentation des instructions \c;\l;while\u cbot\while;\n;, \c;\l;radar\u cbot\radar;\n;, \c;\l;if\u cbot\if;\n;, \c;\l;move\u cbot\move;\n; et \c;\l;turn\u cbot\turn;\n;.
+
+\t;Voir aussi
+\l;Exercice précédent\u tlaby1;, \l;programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

@@ -1,0 +1,13 @@
+\b;Zpráva z řídícího střediska
+Postavte \l;radar\u object\radar; na nejvyšším místě v oblasti. Postarejte se, aby radar mohl dál bezpečně fungovat i po Vašem odletu na další planety. \l;Výzkumná stanice\u object\research; by mohla poskytnout řešení.
+
+Je možné, že nalezené organizmy jsou ve skutečnosti \l;červi\u object\worm; zmiňovaní první výpravou. Pokud je to opravdu tak, zbytečně se nelekejte: Pro živé organizmy jsou v podstatě neškodní, ale roznášejí viry, které mohou programům robotů a budov způsobit poruchu.
+
+Radary Vám nedávají jen cenné informace o objektech a organizmech v oblasti, ale po odletu na další planety zajišťují také přenos informací mezi Vámi a Zemí. Je velmi pravděpodobné, že dříve zjištěné výpadky spojení způsobilo selhání radarů postavených první výpravou.
+
+Abychom Vám ušetřili otravnou práci se sběrem surovin, vyvinuli jsme program, který pošle \l;pojízdné rameno\u object\botgr; samostatně hledat \l;titanovou rudu\u object\titanore; (podrobnosti najdete v seznamu programů \button 53;).
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

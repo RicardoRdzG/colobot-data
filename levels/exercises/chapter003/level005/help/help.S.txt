@@ -1,0 +1,36 @@
+\b;Ejercicio
+En este ejercicio, los \l;puestos de intercambio de información\u object\exchange; a lo largo del camino contienen la dirección del siguiente puesto y la distancia. Y no sabes cuántos puestos de intercambio debes contactar antes de llegar a tu objetivo.
+
+\b;Principio general
+	Repite para siempre:
+	o  Recupera la dirección del \l;puesto de intercambio\u object\exchange;.
+	o  Recupera la distancia del \l;puesto de intercambio\u object\exchange;.
+	o  Si no se pudo recuperar información, detén el programa.
+	o  Ejecuta la rotación.
+	o  Avanza hacia el siguiente puesto.
+
+Para repetir siempre, usa un bucle \c;\l;while\u cbot\while; (true)\n;. Las instrucciones entre las llaves \c;{ }\n; se repetirán una y otra vez, o hasta que se ejecute una instrucción \c;\l;break\u cbot\break;\n;.
+\s;\c;	while ( true )
+\n;
+Esta vez necesitas 2 \l;variables\u cbot\var;, una para el ángulo de rotación, otra para la distancia, por ejemplo \c;dir\n; y \c;len\n;:
+\s;\c;	float  dir, len;
+\n;
+Entonces puedes recuperar la información:
+\s;\c;	dir = receive("Direction");
+\s;\c;	len = receive("Length");
+\n;
+Una variable del \l;tipo\u cbot\type; \c;\l;float\u cbot\float;\n; puede tomar un valor especial llamado \c;\l;nan\u cbot\nan;\n;. Este valor significa que la variable no contiene ningún número (Not A Number).
+Cuando no hay ningún \l;puesto de intercambio\u object\exchange; cerca, ya sea porque el bot ha llegado a la meta, o porque tomó el camino equivocado, las dos variables \c;dir\n; y \c;len\n; contienen este valor. Puedes probar esto con la instrucción \c;\l;if\u cbot\if;\n;, y detener el programa si es necesario con la instrucción \c;\l;break\u cbot\break;\n;:
+\s;\c;	if ( dir == nan )  break;
+\n;
+Si la recuperación de información del \l;puesto de intercambio\u object\exchange; se ha realizado correctamente, ejecuta la rotación:
+\s;\c;	turn(dir);
+\n;
+Y avanza:
+\s;\c;	move(len);
+\n;
+\b;Observación
+Puedes hacer clic en un \l;puesto de intercambio de información\u object\exchange; para leer qué información contiene. En este ejercicio, cada puesto de intercambio contiene dos valores llamados \c;"Direction"\n; y \c;"Length"\n;.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

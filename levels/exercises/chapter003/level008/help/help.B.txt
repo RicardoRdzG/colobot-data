@@ -1,0 +1,43 @@
+\b;Exercício
+Pesquise toda a zona dentro das barreiras com o \l;robô farejador\u object\botsr; para locais adequados para um extrator. Quando o robô toca no subsolo e descobre um local adequado para um extrator, ele o marcará com uma cruz vermelha.
+
+\b;Descrição
+A zona dentro das barreiras é um quadrado de 25 metros. A maneira mais eficiente é verificar a cada 5 metros.
+
+\image sniff1 12 12;
+Uma maneira de conseguir isso é encaixar dois laços \c;\l;for\u cbot\for;\n; um no outro:
+\c;
+\s;for ( int y=0 ; y<6 ; y=y+1 )
+\s;{
+\s;	for ( int x=0 ; x<5 ; x=x+1 )
+\s;	{
+\s;		\n;sonda o subsolo\c;
+\s;		\n;move 5 m para frente\c;
+\s;	}
+\s;	\n;sonda o subsolo\c;
+\s;	\n;gira um quarto a esquerda\c;
+\s;	\n;move 5 metros para frente\c;
+\s;	\n;gira um quarto a esquerda\c;
+\s;}
+\n;
+Este programa funciona bem apenas no começo. Após a primeira linha, o robô gira corretamente para a esquerda e soa a segunda linha. Mas depois da segunda linha, deve virar à direita! 
+Você deve ter notado que, se \c;y</ code> for par, o robô deve virar à esquerda, e se <code>y</ code> for ímpar, o robô deve virar à direita. 
+A \l;expressão\u cbot\expr; <code>y%2\n; retorna o resto da divisão de \c;y</ code> por <code>2</ code>. Por exemplo, se <code>y = 3</ code>, a expressão retorna <code>1</ code>. 
+O teste <code>\l;if\u cbot\if; { }\n; pode ser seguido por um \c;else { }\n;. Se o teste for verdadeiro, o primeiro \l;bloco\u cbot\bloc; \c;{ }\n; será executado. Caso contrário, o segundo bloco \c;{ }\n; será executado.
+\c;
+\s;if ( y%2 == 0 )
+\s;{
+\s;	y \n;é par\c;
+\s;}
+\s;else
+\s;{
+\s;	y \n;é ímpar\c;
+\s;}
+\n;
+Cabe a você terminar o programa.
+
+\b;Observação
+Use a instrução \c;\l;sniff\u cbot\sniff;( )\n; para sondar o subsolo, e \c;\l;move\u cbot\move;( )\n; e \c;\l;turn\u cbot\turn;( )\n; para mover o bot.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

@@ -1,0 +1,8 @@
+\b;Bataille de code (tirer sur un autre joueur)
+Il s'agit d'un niveau de \l;bataille de codes\u battles;, où vous affrontez un autre programme, idéalement écrit par un autre joueur, afin d'améliorer votre stratégie.
+
+\b;Vos objectifs
+Détruisez l'autre \l;tireur\u object/botfj; situé de l'autre côté de la rivière.
+
+\b;Notes\m notes;
+o Vous pouvez essayer de trouver un programme adversaire dans la communauté internationale Colobot (\c;http://colobot.info\n;).

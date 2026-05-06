@@ -1,0 +1,10 @@
+Desarrolladores y betatesters internos del juego original COLOBOT de EPSITEC
+-Daniel Roux     -Denis Dumoulin  -Otto Kölbl    -Michael Walz  -Didier Gertsch
+-Adrien Roux     -Daniel Sauthier -Didier Raboud -Nicolas Stubi
+-Nicolas Beuchat -Patrick Thévoz  -Joël Roux     -Michael Jubin
+
+Desarrolladores de Colobot: Gold Edition
+- TerranovaTeam: https://github.com/orgs/colobot/members
+- Contribuidores en GitHub: https://github.com/colobot/colobot/graphs/contributors
+
+Traducción al Español: Ricardo Rodríguez García

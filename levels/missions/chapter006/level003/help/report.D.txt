@@ -1,0 +1,19 @@
+\b;Satellitenbericht
+Gegenwärtig in einer geostationären Umlaufbahn um Volcano.
+\c;
+\s;-> Oberfläche\c;
+\tab;Temperatur:     83.5C
+\tab;Atmosphäre:     CO2. SO2. HCN, HS, CH4. NH3
+\tab;Wind:           3.4 m/s
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Untergrund\c;
+\tab;Energiefelder:  überall
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Zusätzliche Informationen\c;
+\tab;Entdeckt:       Riesenameisen
+\tab;  - Gefahr:     nicht unmittelbar
+\n;

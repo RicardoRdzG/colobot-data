@@ -1,0 +1,19 @@
+\b;Relatório do satélite
+Atualmente em uma órbita geo-estacionária de Crystalium.
+\c;
+\s;-> SUPERFÍCIE\c;
+\tab; Temperatura: 5.4C 
+\tab; Atmosfera: nitrogênio 
+\tab; Vento: 0,0 mps 
+\tab; Minério de titânio: alguns 
+\tab; Minério de urânio: nenhum
+
+\s;-> SUBSOLO\c;
+\tab; Fonte de energia: nenhuma 
+\tab; Minério de titânio: dados não disponíveis 
+\tab; Minério de urânio: nenhum
+
+\s;-> INFORMAÇÕES ADICIONAIS \c;
+\tab; Detectado: organismos não identificados 
+\tab; - Perigo: ?
+\n;

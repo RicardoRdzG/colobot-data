@@ -1,0 +1,7 @@
+\b;Guía Paso a Paso
+Si pierdes al bot, dejará caer la caja negra en algún lugar al suroeste de tu nave espacial en una región rodeada de cristales.
+
+En caso de que tu energía se agote antes de poder traer la caja negra de vuelta, usa el segundo recogedor dejado en la nave espacial.
+
+\t;Ver también
+\l;Controles\u command;

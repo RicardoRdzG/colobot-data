@@ -1,0 +1,13 @@
+\b;Útmutató
+Egy rés az északnyugati hegyben vezet el egy forró lávától hemzsegő tóhoz.
+
+Csak ugorj egyik sziklás szigetről a másikra. Folyamatosan ellenőrizd a reaktort, hagyd teljesen lehűlni, mielőtt újra felszállsz. A mini térkép segít megtalálni a legközelebbi szigetet.
+
+Amegasztikus támadás esetén ne aggódj túlzottan. Csak hagyd, hogy a reaktor lehűljön, ne tartózkodj tovább a szükségesnél, és az beépített páncél elvégzi a dolgát. Azonban javasoljuk, hogy időnként mentsd el a játékot (Esc billentyű, majd "Mentés"), hogy ne kelljen a kezdettől újraindítani, ha a lávás tóba landolsz.
+
+A robot a térképeden a legnyugatibb ponton található, de egy kerülőúton kell odajutnod. Egy \l;atomenergia-akkumulátor\u object\atomic; van a közelben.
+
+Nem kell ugyanazon az úton rádióval irányítani a robotot vissza az űrhajóhoz, mint ahogyan jöttél, mert a reaktora nagyobb hatótávolsággal rendelkezik, mint a tiéd. Egy-két megállóra még szükség lehet, és vigyázz azokra a hangyákra.
+
+\t;Lásd még
+\l;Irányítás\u command;

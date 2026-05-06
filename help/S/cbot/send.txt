@@ -1,0 +1,19 @@
+\b;Instrucción \c;send\n; ( enviar )
+Sintaxis:
+\s;\c;send ( nombre, valor, potencia );\n;
+
+Envía una información al \l;puesto de intercambio de información\u object\exchange; más cercano.
+
+\t;nombre: \c;string\n;
+Nombre de la información que se va a enviar al puesto de intercambio. Este nombre es una cadena: debe escribirse entre comillas "".
+Si ya existe alguna información con este nombre, se crea una nueva entrada, siempre que el número total de entradas no supere 10. Si ya existe una información con este nombre, el valor simplemente se reemplaza por el nuevo.
+
+\t;valor: \c;float\n;
+Valor de la información que se va a enviar.
+
+\t;potencia: \c;float\n;
+Potencia del transmisor, que corresponde a la distancia máxima a la que se puede enviar la información. El valor predeterminado es 10 metros.
+
+\t;Ver también
+\c;\l;receive\u cbot\receive;\n;, \c;\l;testinfo\u cbot\testinfo;\n; y \c;\l;deleteinfo\u cbot\delinfo;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

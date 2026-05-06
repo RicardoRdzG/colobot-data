@@ -1,0 +1,15 @@
+\b;Reina Alienígena
+\image mother 8 8;
+Este enorme insecto es la madre de todos. Pone \l;huevos\u object\egg; y de estos huevos nacerán todos los diversos tipos de insectos que \l;tú\u object\human; es probable que encuentre. Todos son extremadamente peligrosos para ti y tu misión. La coraza protectora de la reina es particularmente resistente a los ataques.
+
+Da a luz a los siguientes insectos:
+o  \l;hormigas\u object\ant;
+o  \l;arañas\u object\spider;
+o  \l;avispas\u object\wasp;
+o  \l;gusanos\u object\worm;
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;AlienQueen\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

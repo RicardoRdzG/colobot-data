@@ -1,0 +1,12 @@
+\b;Guía Paso a Paso
+1) Busca en el área \l;titanio\u object\titan;.
+2) Construye un \l;convertidor\u object\convert;.
+3) Construye un \l;centro de investigación\u object\research;.
+4) Ejecuta el <programa de investigación thumper> \button 66;.
+5) Fabrica un \l;thumper\u object\bottump;.
+6) Posiciona el thumper cerca de la nave espacial derelict y "golpea" el suelo.
+7) Recupera rápidamente la \l;caja negra\u object\bbox; y llévala de vuelta a bordo de tu \l;nave espacial\u object\base;.
+8) Llévate el thumper y despega.
+
+\t;Ver también
+\l;Controles\u command;

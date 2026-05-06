@@ -1,0 +1,5 @@
+\b;Condiciones
+Una condición es una \l;expresión\u cbot\expr; especial que devuelve un valor \l;booleano\u cbot\bool;, que solo puede ser \c;\l;verdadero\u cbot\true;\n; o \c;\l;falso\u cbot\false;\n;. Con una condición, puedes elegir, por ejemplo, si las instrucciones de un bucle \c;\l;while\u cbot\while;\n; deben repetirse de nuevo o si debe ejecutarse la instrucción de un bloque \c;\l;if\u cbot\if;\n;.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

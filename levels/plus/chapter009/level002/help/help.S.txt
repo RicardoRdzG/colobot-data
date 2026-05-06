@@ -1,0 +1,9 @@
+\b;Del Control de Misiones
+Recupera la segunda \l;llave\u object\key; (B). Debería estar ubicada cerca de tu posición actual.
+
+Cuando tu misión esté completada y antes de despegar, trae tanto el \l;escudero\u object\botshld; como el \l;subber\u object\botsub; a bordo de tu nave espacial.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

@@ -1,0 +1,43 @@
+\b;Übung
+Untersuchen Sie die Fläche zwischen den Abschrankungen mit einem \l;Schnüffler\u object\botsr; auf einen geeigneten Standort für einen Bohrturm. Findet er eine eine solche Stelle, markiert er sie mit einem roten Kreuz.
+
+\b;Beschreibung
+Das Gebiet innerhalb der Abschrankung ist ein Quadrat mit 25 Metern Seitenlänge. Der effektivste Weg ist, alle 5 Meter den Boden zu untersuchen.
+
+\image sniff1 12 12;
+Eine Möglichkeit, dies zu erreichen ist die Verschachtelung zweier \c;\l;for\u cbot\for;\n;-Schleifen:
+\c;
+\s;\l;for\u cbot\for; ( int y=0 ; y<6 ; y=y+1 )
+\s;{
+\s;	\l;for\u cbot\for; ( int x=0 ; x<5 ; x=x+1 )
+\s;	{
+\s;		\n;Boden untersuchen\c;
+\s;		\n;5m vorwärts fahren\c;
+\s;	}
+\s;	\n;Boden untersuchen\c;
+\s;	\n;Vierteldrehung nach links\c;
+\s;	\n;5m vorwärts fahren\c;
+\s;	\n;Vierteldrehung nach links\c;
+\s;}
+\n;
+Dieses Programm funktioniert nur am Anfang gut. Nach der ersten untersuchten Zeile dreht sich der Roboter korrekter Weise nach links und untersucht die zweite Zeile. Aber nach der zweiten Zeile muss er sich nach rechts drehen!
+Sie haben wahrscheinlich bemerkt, dass wenn \c;y\n; gerade ist, der Roboter sich nach links drehen muss und andernfalls nach rechts.
+Der \l;Ausdruck\u cbot\expr; \c;y%2\n; liefert den Rest der Division von \c;y\n; durch \c;2\n;. Wenn beispielsweise \c;y=3\n;, dann ergibt der Ausdruck \c;1\n;.
+Dem Test mittels \c;\l;if\u cbot\if; { }\n; kann ein \c;else { }\n; folgen. Wenn der Test positiv ausfällt, wird der erste \l;Block\u cbot\bloc; \c;{ }\n; ausgeführt. Andernfalls wird der zweite Block \c;{ }\n; ausgeführt.
+\c;
+\s;if ( y%2 == 0 )
+\s;{
+\s;	y \n;ist gerade\c;
+\s;}
+\s;else
+\s;{
+\s;	y \n;ist ungerade\c;
+\s;}
+\n;
+Es ist nun Ihre Aufgabe, das Programm fertigzustellen.
+
+\b;Hinweis
+Benutzen Sie die Anweisung \c;\l;sniff\u cbot\sniff;( )\n;, um den Boden zu untersuchen und \c;\l;move\u cbot\move;( )\n; sowie \c;\l;turn\u cbot\turn;( )\n;, um den Roboter zu bewegen.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

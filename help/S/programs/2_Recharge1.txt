@@ -1,0 +1,23 @@
+\b;Programas enviados por Houston
+A continuación se muestra un programa desarrollado por nuestros ingenieros. Te permite recargar la \l;celda de energía\u object\power; de un bot: va a la \l;estación de energía\u object\station; más cercana, espera 5 segundos y regresa a la posición inicial.
+
+Nota: Si haces clic en un elemento del programa subrayado en azul, tu SatCom mostrará un texto que explica este elemento. Los textos que siguen a una doble barra \c;//\n; no son parte del programa, sino comentarios que te ayudan a entender el programa.
+\c;
+\s;extern void object::Recharge1()
+\s;{
+\s;	\l;point\u cbot\type;  start;          // variable para pos. inicial
+\s;	\l;object\u cbot\type; item;           // información sobre estación
+\s;	
+\s;	start = position;      // guardar posición inicial
+\s;	
+\s;	item = \l;radar\u cbot\radar;(\l;PowerStation\u cbot\category;); // buscar estación
+\s;	\l;goto\u cbot\goto;(item.position);   // ir a la estación de energía
+\s;	\l;wait\u cbot\wait;(5);               // esperar 5 segundos
+\s;	
+\s;	\l;goto\u cbot\goto;(start);           // volver a pos. inicial
+\s;}
+\n;
+\b;Archivos
+Índice de los programas enviados en misiones anteriores:
+
+o  \c;\l;CambiarCelda1\u programs/1_SwitchCell1;\n;

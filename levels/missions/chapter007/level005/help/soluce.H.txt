@@ -1,0 +1,8 @@
+\b;Végigjátszás
+1) Dübögtesd meg a \l;űrhajó\u object\base; fedélzetét. Nem szükséges a \l;dübögtetőt\u object\bottump; máshová mozgatni.
+2) Keresd meg az \l;orga lövőt\u object\botoj; körülbelül 70 méterre keletre.
+3) Semmisítsd meg a \l;hangyákat\u object\ant;, amíg a hátukon fekszenek.
+4) Indulj el.
+
+\t;Lásd még
+\l;Irányítás\u command;

@@ -1,0 +1,16 @@
+\b;Úkol
+Zlikvidujte několik pavouků, jejichž přesnou polohu neznáme. Najděte je pomocí robotova radaru.
+
+\t;Program
+Najděte nejbližšího pavouka příkazem \c;\l;radar\u cbot\radar;(AlienSpider);\n;, stejně jako jsme v předchozích cvičeních hledali titanovou rudu nebo baterie. Ale nejezděte k němu, protože pavouk by robota zničil. Jen se k pavoukovi otočte. Příkaz \c;\l;direction\u cbot\direct;(item.position)\n; spočítá úhel, o jaký se robot musí otočit, aby mířil na pavouka. A aby se robot skutečně otočil, jednoduše napište:
+\c;
+\s;	\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\n;
+Všimněte si, že na konci řádku před středníkem jsou dvě pravé závorky. Na řádku jsou dvě levé závorky, takže k nim musejí být i dvě pravé závorky do páru.
+
+Pak vystřelte příkazem \c;\l;fire\u cbot\fire;(1);\n;.
+
+Navíc tu můžete použít i cyklus \c;\l;while\u cbot\while; (true)\n;, abyste program nemuseli spouštět pro každého pavouka zvlášť, stejně jako v předchozím cvičení.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

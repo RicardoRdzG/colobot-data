@@ -1,0 +1,28 @@
+\b;Guía Paso a Paso
+Antes de despegar, necesitas traer lo siguiente a bordo de tu nave espacial:
+
+1) \l;Caja negra\u object\bbox;.
+2) \l;Recogedores con ruedas\u object\botgr; y \l;recogedores oruga\u object\botgc;.
+3) \l;Tú mismo\u object\human;.
+
+Aquí hay un desglose detallado de las operaciones:
+1) Energiza el \l;centro de investigación\u object\research; con una de las \l;celdas de energía\u object\power; verdes.
+2) Activa el \l;centro de investigación\u object\research; y luego haz clic en el botón \button 64; <programa de investigación de bots oruga>.
+3) Coloca un \l;cubo de titanio\u object\titan; dentro de la \l;fábrica de bots\u object\factory;.
+4) Sal y activa la \l;fábrica de bots\u object\factory;.
+5) Haz clic en el botón \button 138; <construir un \l;recogedor oruga\u object\botgc;>.
+6) Energiza el \l;recogedor oruga\u object\botgc; con una \l;celda de energía\u object\power; nueva.
+7) Controla por radio el \l;recogedor oruga\u object\botgc; hasta la cima de la montaña en el suroeste.
+8) Trae la \l;caja negra\u object\bbox; de vuelta a bordo de tu \l;nave espacial\u object\base;.
+9) Controla por radio tanto el \l;recogedor oruga\u object\botgc; como el \l;recogedor con ruedas\u object\botgr; hasta la plataforma.
+10) Sube a bordo de la \l;nave espacial\u object\base; tú mismo.
+11) Despega!
+
+Para despegar, selecciona la \l;nave espacial\u object\base;, siempre que sea visible, haciendo clic en ella. Si no es visible, necesitas hacer clic en uno de los botones en la esquina superior izquierda de tu pantalla. El triángulo azul \button 130; te permite alternar entre símbolos para bots y símbolos para edificios. Haz clic una vez para cambiar a la lista de <buildings>. Ahora aparecerá un símbolo \button 171; <spaceship>. Haz clic en el botón para seleccionarlo.
+
+Una vez seleccionada la nave espacial, haz clic en el botón más grande \button 28; <despegue> en el centro inferior de tu pantalla. Si los objetos mencionados anteriormente así como tú mismo están efectivamente de pie en la cubierta, tendrá lugar el despegue.
+
+Ningún objeto o bot debe obstaculizar el cierre de las ocho grandes puertas de los paneles.
+
+\t;Ver también
+\l;Controles\u command;

@@ -1,0 +1,66 @@
+\b;Objetivo
+Escreva um pequeno programa para matar três aranhas.
+
+\t;Procedimento
+1) Para programar o robô, selecione-o.
+2) Os números 1 a 4 correspondentes aos programas contidos no robô aparecem no canto inferior esquerdo da tela. Selecione a primeira linha.
+3) Clique no botão com as chaves \button 22; e você chegará em um editor onde poderá escrever o programa.
+4) Enquanto você estiver escrevendo o programa, a tecla \key;\key help;\norm; exibirá o texto que você está lendo no momento. Quando terminar de escrever o programa, clique no botão "OK".
+5) Para executar o programa, clique no botão de seta \button 21;.
+
+\t;Programa
+Você deve dizer ao robô exatamente o que deve fazer para matar as três aranhas. O robô entende apenas instruções precisas, que serão executadas uma após a outra.
+
+Quando você clica no botão de chaves \button 22; para escrever o programa, uma parte do programa já estará lá:
+\c;
+\s;extern void object::Aranha1( )
+\s;{
+\s;	
+\s;	\n;escreva seu programa aqui...\c;
+\s;	
+\s;}
+\n;
+Tudo o que já está escrito quando você chega ao editor não deve ser alterado. Apenas introduza as instruções necessárias no cursor.
+
+Você precisará das seguintes instruções:
+\c;
+\s;aim(0);\n;
+\n; Coloca o canhão em linha reta.
+\c;
+\s;turn();\n;
+\n;Executa uma rotação de um determinado ângulo, dado entre parênteses em graus. Por exemplo, \c;turn (90);\n; irá girar o robô 90 graus para a esquerda, ou seja, um quarto para a esquerda. \c;turn(-90);\n; irá girar o robô 90 graus para a direita (quarto de volta à direita). Valores positivos vire à esquerda, valores negativos vire à direita. \c;turn(180);\n; fará com que o robô fique na direção oposta.
+\c;
+\s;fire(1);
+\n; Atira o canhão. O número entre parênteses indica a duração da rajada. Na maioria dos casos, dispare uma rajada de 1 segundo.
+
+Vamos ver o começo do programa:
+o  coloque o canhão em linha reta com \c;aim(0);\n;
+o  atire na aranha em frente com \c;fire(1);\n;
+o  vire 90 graus para a esquerda com <code>turn(90);</code>
+o  atire com \c;fire(1);\n;
+o  etc.
+
+Aqui está o programa que faz tudo isso:
+\c;
+\s;extern void object::Aranha1( )
+\s;{
+\s;	
+\s;	aim(0);
+\s;	fire(1);
+\s;	turn(90);
+\s;	fire(1);
+\s;	
+\s;}
+\n;
+Cabe a você agora escrever o resto do programa!
+
+Se você tiver um problema, pode sempre ver a solução: selecione o programa <code>Solucao</ code> no canto inferior esquerdo da tela e clique no botão de chaves \button 22;. Você pode até mesmo executar o programa de solução com o botão de seta \button 21;.
+
+\t;Observações
+Tenha o cuidado de escrever as instruções com precisão, respeitando letras maiúsculas e minúsculas.
+
+Sempre escreva uma instrução por linha, terminando cada linha com um ponto e vírgula.
+
+Caso seu programa não faça exatamente o que você queria, você pode colocar o robô de volta no ponto inicial com o botão \button 59;. Você também pode começar tudo de novo desde o começo (aperte a tecla "Esc", depois clique em "Reiniciar"). O programa que você escreveu não será perdido.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal 

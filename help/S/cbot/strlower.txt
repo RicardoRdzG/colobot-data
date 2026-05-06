@@ -1,0 +1,12 @@
+\b;Instrucción \c;strlower\n;
+Convierte todos los caracteres de una cadena a minúsculas.
+
+Sintaxis:
+\s;\c;strlower (cadena);\n;
+
+Ejemplos:
+\s;\c;	string s = strlower("Abc");  // s es "abc"
+\n;
+\t;Ver también
+\c;\l;strlen\u cbot\strlen;\n;, \c;\l;strleft\u cbot\strleft;\n;, \c;\l;strright\u cbot\strright;\n;, \c;\l;strmid\u cbot\strmid;\n;, \c;\l;strfind\u cbot\strfind;\n;, \c;\l;strval\u cbot\strval;\n;, \c;\l;strupper\u cbot\strupper;\n;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

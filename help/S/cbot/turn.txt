@@ -1,0 +1,33 @@
+\b;Instrucción \c;turn\n; (girar)
+\n; Utiliza la instrucción « \c;turn();» () para indicar al bot que realice una rotación sobre sí mismo de un determinado número de grados.
+
+\b;Uso básico
+90 grados significa un cuarto de vuelta, 180 grados significa media vuelta. Un ángulo positivo realizará una rotación en sentido antihorario, un ángulo negativo significa una rotación en sentido horario. Aquí hay algunos ejemplos con \c;turn();\n;:
+
+\c;turn(90);\n;  quarto de vuelta a la izquierda
+\c;turn(-90);\n; quarto de vuelta a la derecha (ángulo negativo)
+\c;turn(180);\n; media vuelta
+
+Para girar el bot hacia un objeto encontrado con la instrucción \c;\l;radar\u cbot\radar;();\n;, debes calcular el ángulo de rotación con la instrucción \c;\l;direction\u cbot\direct;()\n;:
+\c;
+\s;	item = \l;radar\u cbot\radar;(AlienSpider);
+\s;	 turn(\l;direction\u cbot\direct;(item.position));
+\n;
+Después de estas líneas, solo tienes que disparar el cañón y habrá un elemento hostil menos.
+
+\b;Para especialistas
+Sintaxis:
+\s;\c;turn ( ángulo );\n;
+
+Gira el bot con un ángulo dado, a la derecha o a la izquierda, sin moverse ni hacia adelante ni hacia atrás. 
+
+\t;angulo: \c;\l;float\u cbot\float;\n;
+Ángulo de la rotación requerida, en grados. Un valor positivo gira a la izquierda, un valor negativo gira a la derecha. \c;turn(180)\n; gira media vuelta completa. 
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Cero si todo está bien, o un valor diferente de cero si ocurrió un error.
+\c;== 0 \n;rotación realizada
+\c;!= 0 \n;rotación imposible
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

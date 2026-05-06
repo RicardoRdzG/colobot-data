@@ -1,0 +1,5 @@
+\b;Végigjátszás
+Kövesd a mini térképen látható utat. A robbanószerkezet egy kis völgy alján található, amelyet óriás hangyák népesítenek be. Valószínűleg megtámadnak, és elveszíted az eszméleted. Ezzel nem tudsz igazán mit tenni.
+
+\t;Lásd még
+\l;Irányítás\u command;

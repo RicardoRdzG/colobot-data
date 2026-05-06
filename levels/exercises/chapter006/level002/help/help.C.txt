@@ -1,0 +1,34 @@
+\b;Cvičení
+Projeďte spirálovou dráhu. Robot musí dvakrát popojet 25m vpřed a zatočit, pak dvakrát 20m vpřed a zatočit, a tak dále.
+\image tproc2 8 8;
+\b;Funkce
+Jistě jste si všimli, že se trasa skládá ze segmentů ve tvaru "L" poskládaných do sebe. Rovné úseky prvního segmentu (tmavě modrý) měří 25 metrů. V druhém segmentu (světle modrý) měří o 5 metrů méně. Nejprve napíšeme \l;funkci\u cbot\function;, která robota pošle projet dráhu ve tvaru "L" s úseky zadané délky:
+\c;
+\s;void object::Segment(float length)
+\s;{
+\s;	for ( int i=0 ; i<2 ; i=i+1 )
+\s;	{
+\s;		move(length);
+\s;		turn(90);
+\s;	}
+\s;}
+\n;
+Dále už zbývá jen napsat hlavní funkci, která bude volat funkci \c;Segment\n;. Na začátku se do proměnné \c;rest\n; uloží hodnota 25. Cyklus \c;while\n; pak bude příkazy uvnitř bloku opakovat, dokud proměnná \c;rest\n; bude větší než nula. Uvnitř cyklu nejprve zavolejte funkci \c;Segment\n; (viz výše), a pak odečtěte 5m z délky úseku.
+\c;
+\s;extern void object::Trasa( )
+\s;{
+\s;	float	rest = 25;
+\s;	while ( rest > 0 )
+\s;	{
+\s;		Segment(rest);
+\s;		rest = rest-5;
+\s;	}
+\s;}
+\n;
+Funkce \c;Segment\n; se bude naposledy volat s hodnotou \c;5\n;. Pak výraz \c;rest-5\n; sníží hodnotu proměnné \c;rest\n; na nulu a cyklus \c;while\n; skončí.
+
+\b;Poznámky
+Jistě jste si všimli, že v předchozím cvičení byla hlavní funkce na začátku programu, zatímco v tomto cvičení je až na konci za funkcí \c;Segment\n;. Na pořadí funkcí v programu nezáleží, fungovat budou obě možnosti.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

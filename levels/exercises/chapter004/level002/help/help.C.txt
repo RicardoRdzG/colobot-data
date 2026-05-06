@@ -1,0 +1,57 @@
+\b;Cvičení
+Pošlete robota najít všechny \l;modré křížky\u object\waypoint; na zemi. Každý křížek zmizí, když přes něj robot přejede. Zde je obecný postup, jak úkol vyřešit:
+
+Opakovat stále dokola:
+	o  Najít křížek.
+	o  Pokud žádný neexistuje, ukončit program.
+	o  Vypočítat směr ke křížku.
+	o  Nastavit výkon motorů, aby robot ke křížku postupně dojel.
+
+\b;Program
+Opakujte několik příkazů stále dokola pomocí cyklu \c;\l;while\u cbot\while;\n;:
+\s;\c;while ( true )
+\s;{
+\s;	\n;příkazy...\c;
+\s;}
+\n;
+Najděte modré křížky pomocí příkazu \c;\l;radar\u cbot\radar;\n; a uložte si jejich popis do proměnné, nazvěme ji například \c;spot\n;. V tomto případě potřebuje příkaz \c;\l;radar\u cbot\radar;()\n; pouze jeden parametr, tj. kategorii objektu, který má hledat:
+\s;\c;spot = radar(WayPoint);
+\n;
+Po nalezení posledního křížku vrátí příkaz \c;radar\n; hodnotu \c;\l;null\u cbot\null;\n;. Tuto možnost musíte vhodně ošetřit příkazem \c;\l;if\u cbot\if;\n;:
+\s;\c;if ( spot == null )  // už žádné křížky?
+\s;{
+\s;	motor(0, 0);  // zastavit motory
+\s;	break;        // ukončit cyklus
+\s;}
+\n;Příkaz \c;\l;break\u cbot\break;\n; ukončí nekonečný cyklus \c;while (true)\n;.
+
+Úhel, o který se robot musí otočit směrem ke křížku, vypočítejte příkazem \c;\l;direction\u cbot\direct;()\n;. Polohu objektu udává výraz \c;spot.position\n;. Následující řádek uloží potřebný úhel do \l;proměnné\u cbot\var; \c;dir\n;:
+\s;\c;dir = direction(spot.position);
+\n;
+Pokud bude modrý křížek nalevo od robota, úhel bude kladný, naopak pro křížek napravo bude záporný. Pokud je křížek nalevo od robota, musíte pravý motor spustit na plný výkon a levý motor na nižší výkon podle úhlu:
+
+    úhel = \c;  0\n; -> výkon = \c; 1.0\n;
+    úhel = \c; 45\n; -> výkon = \c; 0.5\n;
+    úhel = \c; 90\n; -> výkon = \c; 0.0\n;
+    úhel = \c;135\n; -> výkon = \c;-0.5\n;
+    úhel = \c;180\n; -> výkon = \c;-1.0\n;
+
+Obrázek níže ilustruje, jaký výkon jednotlivých motorů má příkaz \c;\l;motor\u cbot\motor;\n; nastavit v závislosti na úhlu:
+
+\image radar2_cs 14 10;
+Pokud je křížek rovně před robotem, úhel bude 0 stupňů. Motorům se zadá výkon 1 a 1, což znamená plnou rychlostí vpřed. Pokud je křížek za robotem, pravému motoru se zadá výkon -1: robot se otočí. Vhodný výkon motorů můžete vypočítat \l;výrazem\u cbot\expr; \c;1+dir/90\n;:
+\s;\c;if ( dir < 0 )  // je křížek napravo?
+\s;{
+\s;	motor(1, 1+dir/90);  // zatočit podle úhlu
+\s;}
+\n;
+Podobně postupujte, pokud je úhel kladný, v rozsahu od 0 do 180 stupňů. Vymyslet správné příkazy pro robota už je na Vás:
+\s;\c;else  // je křížek nalevo?
+\s;{
+\s;	\n;sem doplňte příkazy...\c;
+\s;}
+\n;
+Na začátku programu samozřejmě musíte deklarovat všechny proměnné. Proměnná \c;spot\n; musí mít typ \c;\l;object\u cbot\object;\n;, \c;dir\n; musí mít typ \c;\l;float\u cbot\float;\n;.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

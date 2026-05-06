@@ -1,0 +1,21 @@
+\b;Návod
+Zde je podrobný postup, jak se dostat zpět k raketě.
+
+1) Běžte kolem jezera směrem k průhledné zelené kouli. Tuto kouli generuje rostlina provizorně nazvaná přízemnice. Uvnitř koule nemůžete létat.
+
+2) Pokračujte podél levé strany údolí, obejděte tůni po levém břehu a vyšplhejte po nízkém svahu. Nahoře narazíte na několik obřích mravenců: Co nejrychleji prchejte k další přízemnici kousek dál napravo, zranění se Vám za chvíli zahojí.
+
+3) Přeleťte pomocí tryskového motoru přes jezero před přízemnicí napravo.
+
+4) Až projdete skrz silové pole přízemnice, pokračuje podél levého břehu, až dojdete na poloostrov porostlý kapradinami.
+
+5) Velké jezero přehopsejte po malých ostrůvcích. Snažte se trefit do stromů, abyste nepřelétli přes ostrůvek až do vody. Poslední ostrůvek je 50 cm pod hladinou, ale pořád na něm budete mít hlavu nad vodou. 
+
+6) Cesta pokračuje doleva. Čeká tam na Vás obří mravenec, ale moc Vám neublíží.
+
+7) Nechte tryskový motor vychladnout a přeleťte malé jezírko. Snažte se přistát co nejvýše vpravo, ať nespadnete do druhého jezera.
+
+8) Přeleťte druhé jezero, nastupte do rakety a odleťte.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

@@ -1,0 +1,7 @@
+\b;Végigjátszás
+Valahol északkeleten, a völgyben egy teljesen működőképes \l;erőművet\u object\station; találhatsz. Északnyugaton több \l;energiaelemet\u object\power; is találsz.
+
+Néhány működőképes lövőt hagytak hátra a völgy azon részén és környékén; használd őket az összes hangya kilövésére. A \l;szárnyas markolóval\u object\botgj; ezután megszerezheted a \l;fekete dobozt\u object\bbox;, amely a roncs űrhajó mögött található, és felszállhatsz.
+
+\t;Lásd még
+\l;Irányítás\u command;

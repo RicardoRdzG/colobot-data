@@ -18,9 +18,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.3\n"
 "X-Language: hu_HU\n"
-"X-Source-Language: en_US\n"
 "X-POOTLE-MTIME: 1406536037.000000\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Source-Language: en_US\n"
 
 #. type: Title-text
 #: ../scene.txt:1
@@ -110,9 +110,15 @@ msgstr ""
 "\\tab;Titánérc:        nincs\n"
 "\\tab;Uránérc:         nincs"
 
+#. type: Source code
+#: ../help/report.E.txt:11
+#, no-wrap
 msgid "-> SUBSOIL<c/>"
 msgstr "-> ALTALAJ<c/>"
 
+#. type: Plain text
+#: ../help/report.E.txt:12
+#, no-wrap
 msgid ""
 "\\tab;Energy source:    none\n"
 "\\tab;Titanium ore:     none\n"
@@ -122,9 +128,15 @@ msgstr ""
 "\\tab;Titánérc:        nincs\n"
 "\\tab;Uránérc:         nincs"
 
+#. type: Source code
+#: ../help/report.E.txt:16
+#, no-wrap
 msgid "-> ADDITIONAL INFORMATION<c/>"
 msgstr "-> TOVÁBBI INFORMÁCIÓK<c/>"
 
+#. type: Plain text
+#: ../help/report.E.txt:17
+#, no-wrap
 msgid ""
 "\\tab;Detected:         electromagnetic smog\n"
 "\\tab;Detected:         reusable derelicts"
@@ -132,14 +144,26 @@ msgstr ""
 "\\tab;Észlelve:         elektromágneses szmog\n"
 "\\tab;Észlelve:         újrahasznosítható roncsok"
 
+#. type: \b; header
+#: ../help/soluce.E.txt:1
+#, no-wrap
 msgid "Walkthrough"
 msgstr "Végigjátszás"
 
+#. type: Plain text
+#: ../help/soluce.E.txt:2
+#, no-wrap
 msgid "Somewhere northeast in the valley itself you should come across a fully functional <a object|station>power station</a>. Northwest you will find several <a object|power>power cells</a>."
 msgstr "Valahol északkeleten, a völgyben egy teljesen működőképes <a object|station>erőművet</a> találhatsz. Északnyugaton több <a object|power>energiaelemet</a> is találsz."
 
+#. type: Plain text
+#: ../help/soluce.E.txt:4
+#, no-wrap
 msgid "A few shooters in working condition have been abandoned in and around the same area in the valley; use them to shoot all the ants. With the <a object|botgj>winged grabber</a>, you can then retrieve the <a object|bbox>black box</a> that is located behind the derelict spaceship and take off."
 msgstr "Néhány működőképes lövőt hagytak hátra a völgy azon részén és környékén; használd őket az összes hangya kilövésére. A <a object|botgj>szárnyas markolóval</a> ezután megszerezheted a <a object|bbox>fekete dobozt</a>, amely a roncs űrhajó mögött található, és felszállhatsz."
 
+#. type: Plain text
+#: ../help/soluce.E.txt:7
+#, no-wrap
 msgid "<a command>Controls</a>"
 msgstr "<a command>Irányítás</a>"

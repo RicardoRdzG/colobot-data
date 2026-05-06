@@ -1,0 +1,18 @@
+\b;Informe Satelital
+Actualmente en órbita geoestacionaria de la Luna.
+\c;
+\s;-> SUPERFICIE\c;
+\tab;Temperatura:      -53.1C
+\tab;Atmósfera:        ninguna
+\tab;Viento:           0.0 mps
+\tab;Mineral de titanio: algo
+\tab;Mineral de uranio:  ninguno
+
+\s;-> SUBSUELO\c;
+\tab;Fuente de energía:  ninguna
+\tab;Mineral de titanio: ninguno
+\tab;Mineral de uranio:  ninguno
+
+\s;-> INFORMACIÓN ADICIONAL\c;
+\tab;Terreno en lugares demasiado irregular para bots con ruedas.
+\n;

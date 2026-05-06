@@ -1,0 +1,19 @@
+\b;Informace ze satelitu
+Aktuálně na stacionární oběžné dráze Saari.
+\c;
+\s;-> POVRCH\c;
+\tab;Teplota:           38,4 °C
+\tab;Atmosféra:         CO2, kyslík, dusík
+\tab;Vítr:              1,4 m/s
+\tab;Titanová ruda:     trocha
+\tab;Uranová ruda:      žádná
+
+\s;-> PODZEMNÍ LOŽISKA\c;
+\tab;Zdroj energie:     všude
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+
+\s;-> DOPLŇUJÍCÍ INFORMACE\c;
+\tab;Nalezeno:          blížící se obří mravenci
+\tab;  - Nebezpečí:     ano, bezprostřední
+\n;

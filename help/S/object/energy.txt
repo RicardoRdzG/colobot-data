@@ -1,0 +1,28 @@
+\b;\button 167; Planta de Energía
+\image energy 8 8;
+La planta de energía es una fábrica de \l;celdas de energía\u object\power;. Transforma un \l;cubo de titanio\u object\titan; en una celda de energía regular completamente cargada y lista para usar.
+
+Una planta de energía requiere algo de energía en el subsuelo. Si el informe satelital dice que la energía solo está disponible en algunos lugares, necesitarás un \l;bot detector\u object\botsr; para prospectar el subsuelo. Las marcas que deja proporcionan información sobre lo que encuentra: una \l;cruz verde\u object\enerspot; significa que hay un depósito de energía en ese lugar bajo la superficie, indispensable para la construcción de una planta de energía o una \l;central eléctrica\u object\station;.
+
+Si la gran celda de energía en la base de la planta permanece roja después de completar la construcción, significa que el sitio no es geológicamente adecuado.
+
+\t;Requisitos para construir
+Cualquier superficie plana y geológicamente adecuada de al menos 4 metros de ancho.
+
+\t;Entrada
+Titanio.
+
+\t;Salida
+Celda de energía regular.
+
+\t;Fuente de energía
+Energía del subsuelo.
+
+\t;Duración de operación
+12 segundos.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;PowerPlant\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

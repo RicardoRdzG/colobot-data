@@ -1,0 +1,9 @@
+\b;Végigjátszás
+Egy \l;radart\u object\radar;, egy \l;energiagyűjtőt\u object\captor;, egy \l;energia cellát\u object\power; és egy \l;szárnyas orga lövőt\u object\botoj; találhatsz a völgyben, a űrhajótól délre. Ezek segítségével megölheted az űrhajó közelében lévő hangyákat, és megtalálhatod az \l;adatdobozt\u object\bbox; északon, az első expedíció űrhajójának maradványai mellett.
+
+Építs egy sor \l;energiagyűjtőt\u object\captor; az északi hegycsúcsok által kijelölt természetes ösvény mentén. 5 vagy 6 gyűjtő elegendő védelmet nyújt a villámok ellen.
+
+Vidd vissza az adatdobozt az \l;űrhajód\u object\base; fedélzetére, és szállj fel.
+
+\t;Lásd még
+\l;Irányítás\u command;

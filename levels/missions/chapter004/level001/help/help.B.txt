@@ -1,0 +1,13 @@
+\b;Do Centro de Controle de Missões
+Construa um \l;radar\u object\radar; no ponto mais alto da área. Certifique-se de que o radar funcionará com segurança, mesmo após sua partida para outros planetas. Seu \l;centro de pesquisa\u object\research; deve ser capaz de fornecer uma solução.
+
+É possível que os organismos detectados sejam, de fato, os vermes comuns, aludidos pela primeira expedição. Se este é realmente o caso, não fique excessivamente alarmado: eles parecem bastante inofensivos aos organismos vivos, mas podem causar o mau funcionamento dos programas de robôs e edifícios através da emissão de vírus.
+
+Os radares não apenas fornecem informações preciosas sobre objetos e organismos presentes na região, como também transmitem informações para e da Terra depois que você decola para outros planetas. É altamente provável que problemas com as estações de radar construídas pela primeira expedição causaram os problemas de transmissão de que estamos cientes.
+
+A fim de ajudá-lo com a tarefa chata de reunir a matéria-prima necessária, desenvolvemos um programa que instrui o \l;agarrador com rodas \u object\botgr; a procurar \l;minério de titânio\u object\titanore; sozinho (veja a página de programação \button 53 ;).
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

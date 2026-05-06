@@ -1,0 +1,14 @@
+\b;Instrucción <conde>topo</code>
+Sintaxis:
+\s;\c;topo ( posición );\n;
+
+Devuelve la altitud del terreno en una posición dada. La altitud cero corresponde al nivel del mar. Un valor negativo indica que en esta posición el terreno está cubierto de agua. 
+
+\t;posición: \c;\l;point\u cbot\point;\n;
+Coordenadas de la posición cuya altitud quieres conocer. 
+
+\t;Valor de retorno: \c;\l;float\u cbot\float;\n;
+Altitud del terreno en la posición indicada.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

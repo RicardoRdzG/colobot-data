@@ -1,0 +1,27 @@
+\b;Instrucción \c;build\n; ( construye )
+La instrucción \c;build();\n; indica al bot que construya un edificio de una \l;categoría\u cbot\category; determinada.
+
+\b;Uso básico
+Aquí hay un programa que busca el \l;cubo de titanio\u object\titan; más cercano, se acerca a él y construye una \l;fábrica de bots\u object\factory;.
+\c;
+\s; \l;object\u cbot\object; item = \l;radar\u cbot\radar;(\l;Titanium\u object\titan;);
+\s; \l;goto\u cbot\goto;(item.position);
+\s; build(\l;BotFactory\u object\factory;);
+\n;
+\b;Para especialistas
+Sintaxis:
+\s;\c;build ( cat );\n;
+
+Construye un edificio utilizando un cubo de titanio delante del \l;constructor\u object\botbr;.
+
+\t;cat: \c;\l;int\u cbot\int;\n;
+\l;Categoría\u cbot\category; de una construcción.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Normalmente un error detiene el programa. Puedes evitar que el programa se detenga en errores usando la instrucción \c;\l;errmode\u cbot\errmode;(0)\n;. Se devuelve un valor diferente de cero si ocurrió un error. Se devuelve por \c;build()\n;.
+\c;== 0 \n;Construido correctamente
+\c;!= 0 \n;Imposible construir (por ejemplo, el cubo de titanio más cercano está demasiado lejos o el edificio especificado no está disponible en la misión)
+
+\t;Ver también
+\c;\l;canbuild\u cbot\canbuild;\n;, \c;\l;buildingenabled\u cbot\buildingenabled;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

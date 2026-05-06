@@ -1,0 +1,10 @@
+\b;A küldetésirányítótól
+A megfigyelő műhold egy újfajta robbanószerkezetet észlelt, amelyet feltehetően az előző expedíció tervezett. Meg kell találnod, és vissza kell vinned az \l;űrhajódra\u object\base;.
+
+\b;Eljárás
+A robbanószerkezet helyét egy piros kereszt jelöli a mini térképen.
+
+A \key;\key help;\norm; megnyomásával bármikor újra megtekintheted ezeket az utasításokat a SatCom \button 63; eszközödön.
+
+\t;Lásd még
+\l;Irányítás\u command;

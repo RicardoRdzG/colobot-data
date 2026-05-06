@@ -1,0 +1,9 @@
+\b;Schritt für Schritt
+Führen Sie sofort das Programm \c;KillAnt1\n; auf dem \l;Radshooter\u object\botfr; aus; er wird sich um die erste Angriffswelle, die von Westen kommen wird, kümmern.
+
+Bauen Sie nun 2 \l;Geschütztürme\u object\tower;, einen nördlich vom \l;Raumschiff\u object\base;, den anderen im Süden (Sie müssen das SEHR schnell erledigen). Während \l;Sie\u object\human; die Gebäude bauen, können Sie den \l;Transporter\u object\botgr; verwenden, um eine \l;Batterie\u object\power; zu besorgen.
+
+Sobald die aufeinanderfolgenden Angriffswellen, geführt von etwa fünfzehn \l;Ameisen\u object\ant;, vorüber sind, haben Sie Zeit, sich um die Ameisen zu kümmern, die nicht angegriffen haben. Errichten Sie ein \l;Radar\u object\radar;, um sie aufzuspüren sowie einen \l;Konverter\u object\convert;, eine \l;Roboterfabrik\u object\factory;, ein \l;Kraftwerk\u object\station; und einen \l;Jetshooter\u object\botfj;, um sie loszuwerden.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

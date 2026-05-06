@@ -1,0 +1,11 @@
+\b;Do Centro de Controle de Missões
+Recupere a caixa preta.
+
+Relâmpagos eletromagnéticos parecem atacar com mais frequência agora do que anteriormente. Você precisa proteger seu equipamento.
+
+Por favor, note que sua espaçonave também atua naturalmente como pára-raios, e nossos engenheiros nos asseguram que seu traje espacial não atrai raios.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

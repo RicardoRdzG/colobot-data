@@ -1,0 +1,85 @@
+\b;Tipo \c;object\n; ( objeto )
+Usa este tipo para variables que contienen las características de un objeto, ya sea un bot, un edificio, alguna materia prima, un enemigo, etc. Aquí están todas las propiedades de un objeto: 
+
+\c;\l;int\u cbot\int;    object.category     \n;\l;Categoría\u cbot\category; del objeto
+\c;\l;point\u cbot\point;  object.position     \n;Posición del objeto (x,y,z)
+\c;\l;float\u cbot\float;  object.orientation  \n;Orientación del objeto (0..360)
+\c;\l;float\u cbot\float;  object.pitch        \n;ángulo frontal/trasero del objeto
+\c;\l;float\u cbot\float;  object.roll         \n;ángulo derecho/izquierdo del objeto
+\c;\l;float\u cbot\float;  object.energyLevel  \n;Nivel de energía (0..1)
+\c;\l;float\u cbot\float;  object.shieldLevel  \n;Nivel de escudo (0..1)
+\c;\l;float\u cbot\float;  object.temperature  \n;Temperatura del reactor (0..1)
+\c;\l;float\u cbot\float;  object.altitude     \n;Altitud sobre el suelo
+\c;\l;float\u cbot\float;  object.lifeTime     \n;Tiempo de vida del objeto
+\c;object object.energyCell   \n;Celda de energía en el bot
+\c;object object.load         \n;Objeto transportado por el bot
+\c;\l;int\u cbot\int;    object.team         \n;Equipo del objeto (ver \l;batallas de código\u battles;)
+\c;\l;point\u cbot\point;  object.velocity     \n;Velocidad del objeto
+\c;\l;bool\u cbot\bool;   object.dead         \n;¿Está el objeto muerto?
+
+Además, algunos objetos tienen métodos adicionales (instrucciones). Puedes consultarlos en \l;la lista principal\u cbot; de la sección "Instrucciones específicas para algunos objetos"\c;.
+
+\s;\c;category\n; (categoría)
+La \n;categoría (\l;category\u cbot\category;) de un objeto te permite saber qué es, p. ej., qué tipo de bot, edificio, enemigo, etc.
+
+\s;\c;position\n; (posición)
+Posición del objeto en el planeta, en metros. Las coordenadas \c;x\n; y \c;y\n; corresponden a la ubicación en un mapa, la coordenada \c;z\n; corresponde a la altitud sobre (respectivamente bajo) el nivel del mar. 
+
+\s;\c;orientation\n; (orientación)
+Orientación del objeto, en grados. La orientación te indica en qué dirección está mirando el objeto. Una orientación de \c;0\n; corresponde a un objeto mirando hacia el este, siguiendo así el eje \c;x\n; positivo. La orientación se mide en sentido antihorario. 
+
+\s;\c;pitch\n; (inclinación)
+Ángulo frontal/trasero del robot. Un cabeceo de \c;0\n; significa que el bot está en terreno plano. Una inclinación positiva significa que está mirando hacia arriba, una inclinación negativa significa que está mirando hacia abajo. 
+
+\s;\c;roll\n; (giro)
+Ángulo izquierdo/derecho del bot, en grados. Un valor positivo significa que el bot está inclinado hacia el lado izquierdo, un valor negativo significa que está inclinado hacia el lado derecho. 
+
+\s;\c;energyLevel\n; (nivel de energía)
+Nivel de energía, entre 0 y 1. Una \l;celda de energía\u object\power; normal que está completamente cargada devuelve el valor \c;1\n;. Una \l;celda de energía nuclear\u object\atomic; nunca devuelve un valor mayor que 1, solo dura más tiempo. Atención: El nivel de energía de un bot siempre es cero, porque la energía no está contenida en el bot, sino en la celda de energía. Para saber el nivel de energía de la celda de energía de un bot, debes escribir \c;energyCell.energyLevel\n;. 
+
+\s;\c;shieldLevel\n; (nivel de blindaje)
+Nivel de escudo de un robot o edificio. Un nivel \c;1\n; indica que el escudo todavía es perfecto. Cada vez que el bot o edificio recibe una bala o colisiona con otro objeto, el nivel de escudo disminuye. Cuando el nivel alcanza \c;0\n;, la siguiente bala o colisión destruirá el bot o edificio.
+Los bots pueden volver a energizar su escudo en un \l;centro de reparación\u object\repair;. El escudo de un edificio se repara si está dentro de la esfera de protección de un \l;blindado\u object\botshld;.
+
+\s;\c;temperature\n; (temperatura)
+Temperatura del reactor de los \l;bots alados\u object\botgj;. \c;0\n; corresponde a un reactor frío. Cuando se usa, la temperatura aumenta progresivamente. Cuando alcanza el valor \c;1\n;, el reactor está sobrecalentado y deja de funcionar, hasta que se enfría un poco. 
+
+\s;\c;altitude\n; (altitud)
+La coordenada \c;z\n; de la posición indica la altitud sobre el nivel del mar, mientras que la \c;altitud\n; indica la altura sobre el suelo. Este valor solo es significativo para \l;bots alados\u object\botgj; y para \l;avispas\u object\wasp;. Para todos los demás objetos, este valor es cero. 
+
+\s;\c;lifeTime\n; (tiempo de vida)
+La edad del objeto en segundos desde su creación.
+
+\s;\c;energyCell\n; (Celda de energía)
+Esta información es especial, porque devuelve la información sobre otro objeto, en este caso la batería. Esto significa que energyCell contiene todas las características de un objeto normal, por ejemplo \c;category\n; (PowerCell o NuclearCell), \c;position\n; (la posición de la celda), etc.
+Si quieres saber el nivel de energía de un robot, no debes verificar \c;energyLevel\n;, sino \c;energyCell.energyLevel\n;.
+Si el bot no tiene ninguna celda de energía, \c;energyCell\n; devuelve \c;null\n;.
+
+\s;\c;load\n; (carga)
+Esta información también devuelve la descripción de un objeto completo: la descripción del objeto que lleva un \l;sujetador\u object\botgr;. Si no lleva nada, \c;load\n; devuelve \c;null\n;.
+
+\s;\c;team\n; (equipo)
+El equipo del bot. Se utiliza en \l;batallas de código\u battles;. Si el objeto no tiene ningún equipo asignado (por ejemplo, en niveles que no se basan en equipos, el objeto es un recurso), este valor es igual a \c;0\n;.
+
+\s;\c;velocity\n; (velocidad)
+Velocidad actual del objeto. Debe tratarse como un vector tridimensional.
+
+\s;\c;dead\n; (muerto)
+Verdadero si el objeto ha sido eliminado recientemente (mientras se reproduce la animación de muerte). Ten en cuenta que acceder a esta propiedad o a cualquier otra propiedad después de que finalice la animación de muerte provocará un error que detendrá el programa.
+
+\b;Ejemplos
+El tipo \c;object\n; devuelve el valor especial \c;\l;null\u cbot\null;\n; cuando el objeto no existe. Por ejemplo:
+\c;
+\s;	object a;
+\s;	a = radar(BotGrabberRoller);
+\s;	if ( a == null )  // ¿ el objeto no existe  ?
+\s;	{
+\s;	}
+\s;	if ( a.position.z > 50 )  // ¿ esta en una montaña ?
+\s;	{
+\s;	}
+\n;
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.
+

@@ -1,0 +1,43 @@
+\b;Úkol
+Sestřelte létající vosy.
+
+\t;Program
+Zde je opět program z předchozího cvičení, který zlikviduje všechny mravence a za letu kopíruje terén:
+\c;
+\s;extern void object::Stihacka2()
+\s;{
+\s;	\l;object\u cbot\type; item;
+\s;	
+\s;	\l;aim\u cbot\aim;(-20);
+\s;	
+\s;	\l;while\u cbot\while; (true)
+\s;	{
+\s;		\l;while\u cbot\while; (\l;radar\u cbot\radar;(AlienAnt, 0, 360, 0, 20) == null)
+\s;		{
+\s;			item = \l;radar\u cbot\radar;(AlienAnt);
+\s;			\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;			\l;motor\u cbot\motor;(1,1);
+\s;			
+\s;			\l;jet\u cbot\jet;(0);
+\s;			\l;if\u cbot\if; (position.z-topo(position) < 6)
+\s;			{
+\s;				\l;jet\u cbot\jet;(1);
+\s;			}
+\s;			
+\s;			\l;if\u cbot\if; (position.z-topo(position) > 9)
+\s;			{
+\s;				\l;jet\u cbot\jet;(-1);
+\s;			}
+\s;			\l;wait\u cbot\wait;(0.2);
+\s;		}
+\s;		\l;fire\u cbot\fire;(1);
+\s;	}
+\s;}
+\n;
+Aby tento program fungoval proti vosám, je třeba několik úprav. Změňte všechny příkazy \c;radar(AlienAnt)\n; na \c;radar(AlienWasp)\n;. Kanón musí mířit rovně před sebe místo dolů, takže změňte \c;aim(-20);\n; na \c;aim(0);\n;. A robot musí letět ve stejné výšce jako vosa. Musíte tedy porovnávat letovou výšku robota danou výrazem \c;position.z\n; s letovou výškou vosy danou výrazem \c;item.position.z\n;: Když bude \c;position.z > item.position.z\n;, pomalu klesejte příkazem \c;jet(-0.3);\n;. Když bude \c;position.z < item.position.z-1\n;, pomalu stoupejte příkazem \c;jet(0.3);\n;. Létající kanón je vyšší než vosa, takže je výhodnější letět trochu níže. V tomto případě přiznáváme, že robot se bude snažit letět nejvýše ve stejné výšce jako vosa a nejníže metr pod ní.
+
+\t;Další vylepšení
+Vosy se pohybují velmi rychle. Pro lepší šanci na zásah byste tedy před palbou příkazem \c;fire(1);\n; měli ještě naposledy upravit směr pomocí příkazů \c;radar\n; a \c;turn\n;.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

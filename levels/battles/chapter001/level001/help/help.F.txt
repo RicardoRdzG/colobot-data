@@ -1,0 +1,10 @@
+\b;Bataille de code (contre d'autres joueurs)
+Il s'agit d'un niveau de \l;bataille de codes\u battles;, où vous affrontez un autre programme, un autre programme, supposé écrit par un autre joueur.
+
+\b;Vos objectifs
+Détruisez l'autre équipe située de l'autre côté de la rivière.
+
+\b;Notes\m notes;
+o Il y a une \l;source d'énergie sous-terraine\u object/enerspot; uniquement sous la zone de démarrage.
+o Les éléments initiaux (\l;derrick\u object\derrick; et \l;station radar\u object\radar; sont indestructibles.
+o Vous pouvez essayer de trouver un programme adversaire dans la communauté internationale Colobot (\c;http://colobot.info\n;).

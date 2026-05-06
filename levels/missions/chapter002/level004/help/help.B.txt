@@ -1,0 +1,18 @@
+\b;Do Centro de Controle de Missões
+Não temos como ter certeza para onde a expedição anterior estava indo quando deixou a superfície da Lua, nem por que escolheu ir para onde quer que fosse.
+
+Localize a \l;caixa preta\u object\bbox; que eles devem ter deixado e traga-a de volta a bordo de sua nave. A caixa preta deve conter as coordenadas do próximo planeta que a expedição estava planejando visitar.
+
+As \l;células de energia\u object\power; dos seus robôs estão quase inteiramente vazias. Recarregá-las deve ser sua prioridade. O satélite de observação em órbita indica que o subsolo nessa área específica está carregado de energia. Você deve, portanto, ser capaz de construir uma \l;estação de energia\u object\station; funcional em qualquer superfície plana.
+
+Nós desenvolvemos um programa que irá recarregar a \l;célula de energia\u object\power; de um robô. Consulte a página de programas do seu SatCom \button 53;.
+
+\b;Procedimento
+1) Primeiro você precisa construir um \l;conversor\u object\convert; que converta os pedaços de minério de titânio já em sua posse em \l;cubos de titânio\u object\titan; utilizáveis.
+2) Você deve então construir uma \l;estação de energia\u object\station; e um \l;radar\u object\radar; que indicará a localização da caixa preta em seu mini-mapa.
+3) Com suas células de energia totalmente carregadas, recupere a caixa preta. Ela precisa ser colocada na plataforma de sua \l;espaçonave \u object\base; para você poder decolar.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

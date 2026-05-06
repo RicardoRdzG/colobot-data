@@ -1,0 +1,63 @@
+\b;Instrucción \c;factory\n;
+Sintaxis:
+\s;\c;factory ( categoría, programa, objeto );\n;
+
+Inicia la construcción de un bot de una \l;categoría\u cbot\category; determinada y ejecuta un programa específico en él una vez finalizada la construcción.
+
+\t;cat: \c;\l;int\u cbot\int;\n;
+\l;Categoría\u cbot\category; del robot que se va a construir.
+
+\t;programa: \c;\l;string\u cbot\string;\n; (valor predeterminado: \c;""\n;)
+Programa que se ejecutará en el bot una vez que la fábrica haya terminado la construcción. Puede ser una \l;función\u cbot\function; \l;pública\u cbot\public;, un nombre de archivo o código sin procesar.
+
+\t;\l;object\u cbot\object;
+\l;BotFactory\u object\factory;, más cercano por defecto.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Normalmente un error detiene el programa. Puedes evitar que el programa se detenga ante errores usando la instrucción \c;\l;errmode\u cbot\errmode;(0)\n;. Si ocurre un error, \c;factory()\n; devuelve un valor diferente de cero.
+\c;== 0 \n;La construcción se inició correctamente
+\c;!= 0 \n;No se pudo iniciar la construcción (ej. no hay \l;Titanio\u object\titan; en la fábrica, el bot no está investigado)
+
+\t;Ejemplos
+
+Código sin procesar:
+\c;
+\s; extern void Nuevo()
+\s; {
+\s;     factory(WheeledGrabber, "extern void Say123() { message(123); }");
+\s; }
+\n;
+
+Función pública:
+\c;
+\s; extern void Nuevo()
+\s; {
+\s;     factory(WheeledGrabber, "DiHola");
+\s; }
+\s;
+\s; public void DiHola()
+\s; {
+\s;     message("hola");
+\s; }
+\n;
+
+Nombre del archivo:
+
+Guarda esto como say-foo.cbot. Nota: asegúrate de marcar la casilla "Público" al guardar; esto hará que say-foo.cbot se guarde dentro de la carpeta program/.
+\c;
+\s; extern void Nuevo()
+\s;{
+\s; 	message("Foo");
+\s;}
+\n;
+
+Ejecuta la fábrica de esta manera:
+\c;
+\s; extern void Nuevo()
+\s;{
+\s;	factory(WheeledGrabber, "program/say-foo.cbot");
+\s;}
+\n;
+\t;Ver también
+\c;\l;researched\u cbot\researched;\n;, \c;\l;wait\u cbot\wait;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

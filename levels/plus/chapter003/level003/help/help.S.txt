@@ -1,0 +1,9 @@
+\b;Desde Control de Misión
+Localiza y recupera otra \l;caja negra\u object\bbox; de la expedición anterior.
+
+El satélite de observación parece haberla detectado bajo el agua. El agua es inofensiva para ti mientras lleves puesto tu casco, pero ten en cuenta que no puedes cargar objetos bajo el agua. Un \l;submarino\u object\botsub; puede resultar útil.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

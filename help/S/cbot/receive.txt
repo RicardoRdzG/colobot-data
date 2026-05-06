@@ -1,0 +1,18 @@
+\b;Instrucción \c;receive\n;
+Sintaxis:
+\s;\c;receive ( nombre, potencia );\n;
+
+Recupera información del \l;puesto de intercambio de información\u object\exchange; más cercano.
+
+\t;nombre: \c;string\n;
+Nombre de la información requerida por el puesto de intercambio. Este nombre es una cadena: debe escribirse entre comillas "".
+
+\t;potencia: \c;float\n;
+Potencia del receptor, que corresponde a la distancia máxima entre el receptor y el poste de intercambio. Si la distancia es mayor, no se recibe información. El valor predeterminado es 10 metros.
+
+\t;Valor de retorno: \c;\l;float\u cbot\float;\n;
+Valor de la información recuperada. Si no hay ningún punto de intercambio lo suficientemente cercano, o si el nombre de la información solicitada no existe en el punto de intercambio, se devuelve el valor \c;nan\n;.
+
+\t;Ver también
+\c;\l;send\u cbot\send;\n;, \c;\l;testinfo\u cbot\testinfo;\n; y \c;\l;deleteinfo\u cbot\delinfo;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

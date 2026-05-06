@@ -1,0 +1,10 @@
+\b;Batalha de Código (vs Jogador)
+Este é um nível de \l;batalhas de código\u battles; onde você luta contra outro programa, presumivelmente escrito por algum outro jogador.
+
+\b;Objetivo
+Destrua o outro time localizado no lado oposto do rio.
+
+\b;Notas\m notas;
+o Existe \l; uma fonte de energia subterrânea \u object/enerspot; apenas nas áreas de base iniciais.
+o O pré-construído \l;Extrator\u object\derrick; e \l;Estação de radar\u \object\radar; são indestrutíveis.
+o Você pode tentar encontrar um programa para lutar na comunidade internacional de Colobot (<code> http://colobot.info </ code>).

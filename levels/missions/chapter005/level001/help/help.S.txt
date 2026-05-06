@@ -1,0 +1,7 @@
+\b;Del Control de Misiones
+El satélite de observación ha detectado un trozo de \l;mineral de uranio\u object\uranore; en la cima de la montaña principal. Necesitas traerlo de vuelta a tu nave espacial.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

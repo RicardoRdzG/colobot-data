@@ -1,0 +1,9 @@
+\b;Vehículo Lunar Apollo
+
+
+
+\c;< no hay imagen de archivo disponible >\n;
+
+
+
+El Jeep Lunar (LRV) fue llevado a la luna el 30 de julio de 1971 por los astronautas David Scott y Jim Irwin de la misión Apollo 15. Sus baterías todavía están parcialmente cargadas, lo que te permite controlarlo remotamente. Pero esta tecnología anticuada no te será de ninguna utilidad.

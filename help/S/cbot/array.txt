@@ -1,0 +1,42 @@
+\b;Arrays
+Un array (arreglo o matriz en español) es básicamente una colección de variables del mismo tipo o clase. Puedes usar arrays de N dimensiones en el lenguaje CBOT. Cada dimensión está limitada a 9999 elementos. Debes usar corchetes \c;[]\n; después del nombre del tipo o de la variable para declarar un array.
+\c;
+\s;int    [ ] a;   // un array de int
+\s;int    a [12];  // un array de int limitado a 12 elementos
+\s;string s[3];    // un array de 3 cadenas
+\s;float  xy[][];  //  un array bidimensional de floats
+\n;
+De hecho, cuando el intérprete de CBOT encuentra una declaración de array, solo crea una \l;referencia\u cbot\pointer; nula  (\c;\l;null\u cbot\null;\n;):
+\c;
+\s;int a[5];  // es ahora una referencia nula
+\n;
+En cuanto pones valores en el array, los elementos se crean y la referencia es inicializada:
+\c;
+\s;a[2] = 213;  // a apunta a 
+\s;             // 3 elementos [0], [1] y [2]
+\n;
+Después de esta operación, \c;a\n; contiene una referencia a los elementos del array. Los elementos \c;[0]\n; y \c;[1]\n; se crean pero no se inicializan porque un array no puede contener elementos vacíos. La instrucción \c;\l;sizeof\u cbot\sizeof;\n; te permite obtener el número de elementos contenidos en un array.
+
+Cuando se declara un array con un tamaño máximo, el programa se detendrá tan pronto como haya un acceso más allá del tamaño máximo del array. No se señala ningún error durante la compilación incluso si el error es obvio:
+\c;
+\s;{
+\s;	int a[5];
+\s;	a[7] = 123;  // sin error en tiempo de compilación
+\s;	             // pero error en tiempo de ejecución
+\s;}
+\n;
+Si pasas un array como parámetro a una \l;función\u cbot\function;, la función solo recibe una \l;referencia\u cbot\pointer; al array. Eso significa que si modificas un elemento del array en la función, el elemento del array que se ha pasado a la función se modificará.
+
+\b;Sintaxis de inicialización
+Puedes inicializar un nuevo array utilizando la siguiente sintaxis:
+\c;
+\s;tipo nombreArray[] = { valor0, valor1, valor2, ..., valorN };
+\n;
+Ejemplos:
+\c;
+\s;int numeros[] = { 10, 20, 30 }
+\s;; objetos MiClase[] = { new MiClase(1), new MiClase(2) };
+\n;
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

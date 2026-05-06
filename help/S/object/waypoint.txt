@@ -1,0 +1,12 @@
+\b;Punto de Control
+\image waypoint 4 4;
+En los ejercicios, las cruces azules indican posiciones que deben cruzarse. Desaparecen tan pronto como un \l;robot de práctica\u object\bottr; las cruza.
+
+\t;Transporte
+Imposible.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;WayPoint\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

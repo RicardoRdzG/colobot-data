@@ -1,0 +1,9 @@
+\b;Vom Kontrollzentrum
+Finden Sie den zweiten \l;Schlüssel\u object\key; (B). Er sollte in der Nähe Ihrer derzeitigen Position zu finden sein.
+
+Wenn Sie Ihre Mission erfüllt haben, nehmen Sie, bevor Sie starten, den \l;Schutzschild\u object\botshld; und den \l;Kettentaucher\u object\botsub; mit auf Ihr Raumschiff.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

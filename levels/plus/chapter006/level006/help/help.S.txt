@@ -1,0 +1,7 @@
+\b;Del Control de Misiones
+Necesitas repeler un ataque de hormigas de última hora antes de despegar.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

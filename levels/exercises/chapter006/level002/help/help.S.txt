@@ -1,0 +1,34 @@
+\b;Ejercicio
+Sigue el camino en forma de espiral. El bot debe avanzar 2 veces 25m y girar, luego avanzar 2 veces 20m y girar, y así sucesivamente.
+\image tproc2 8 8;
+\b;Función
+Habrás notado que el camino está compuesto por partes en forma de "L" que encajan una dentro de otra. La primera (azul oscuro) mide dos veces 25 metros. La segunda (azul claro) mide 5 metros menos. Comencemos escribiendo la \l;función\u cbot\function; que moverá al bot en una parte en forma de "L" cuya longitud se dará como parámetro:
+\c;
+\s;void object::Part(float length)
+\s;{
+\s;	for ( int i=0 ; i<2 ; i=i+1 )
+\s;	{
+\s;		move(length);
+\s;		turn(90);
+\s;	}
+\s;}
+\n;
+Ahora solo necesitas escribir la función principal, que llamará a la función \c;Part\n;. Al principio la variable \c;rest\n; se establecerá en 25m. El bucle \c;while\n; repetirá las instrucciones dentro del bloque mientras \c;rest\n; sea mayor que cero. Dentro del bucle, primero llama a la función \c;Part\n; (ver arriba), luego resta 5m a la longitud de la L.
+\c;
+\s;extern void object::Function2( )
+\s;{
+\s;	float	rest = 25;
+\s;	while ( rest > 0 )
+\s;	{
+\s;		Part(rest);
+\s;		rest = rest-5;
+\s;	}
+\s;}
+\n;
+La función \c;Part\n; será llamada una última vez con el valor \c;5\n;. Entonces la expresión \c;rest-5\n; establecerá el valor de la variable \c;rest\n; a cero, y el bucle \c;while\n; se detendrá.
+
+\b;Nota
+Habrás notado que en el ejercicio anterior, la función principal estaba al principio del programa, mientras que en este ejercicio, está al final del programa, después de la función \c;Part\n;. El orden de las funciones en el programa no importa, puedes escribir un programa de cualquiera de las dos formas.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

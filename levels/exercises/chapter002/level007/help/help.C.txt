@@ -1,0 +1,84 @@
+\b;Úkol
+Napište efektivnější program na likvidaci létajících vos než byl ten předchozí.
+
+\b;Program
+Zde je opět program z předchozího cvičení, který po spoustě neúspěšných pokusů nakonec sestřelí všechny vosy:
+\c;
+\s;extern void object::Vosa1()
+\s;{
+\s;	\l;object\u cbot\type;    item;
+\s;	
+\s;	\l;aim\u cbot\aim;(0);
+\s;	
+\s;	\l;while\u cbot\while; (true)
+\s;	{
+\s;		\l;while\u cbot\while; (\l;radar\u cbot\radar;(AlienWasp, 0, 360, 0, 20) == null)
+\s;		{
+\s;			item = \l;radar\u cbot\radar;(AlienWasp);
+\s;			\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;			\l;motor\u cbot\motor;(1,1);
+\s;			
+\s;			\l;jet\u cbot\jet;(0);
+\s;			\l;if\u cbot\if; (position.z > item.position.z)
+\s;			{
+\s;				\l;jet\u cbot\jet;(-0.3);
+\s;			}
+\s;			
+\s;			\l;if\u cbot\if; (position.z < item.position.z - 1)
+\s;			{
+\s;				\l;jet\u cbot\jet;(0.3);
+\s;			}
+\s;			
+\s;			\l;wait\u cbot\wait;(0.2);
+\s;		}
+\s;		item = \l;radar\u cbot\radar;(AlienWasp);
+\s;		\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;		\l;fire\u cbot\fire;(1);
+\s;	}
+\s;}
+\n;
+Robot se často nedokáže trefit, protože vosa stihne uletět pryč, než ji střela zasáhne. Tomu lze zabránit jedině tak, že budete přímo ovládat výkon všech motorů, aby robot během palby stále držel cíl na mušce.
+
+Robot těsně před výstřelem ještě naposledy upraví směr příkazem \c;turn(direction(item.position));\n;. Abyste mohli během palby držet vosu na mušce, musíte si tento úhel "zapamatovat": pokud byl úhel kladný (otočení doleva), robot musí během palby dále točit doleva, pokud byl záporný, robot musí dále točit doprava.
+
+Na "zapamatování" daného úhlu potřebujeme proměnnou, do které lze uložit jedno číslo. Když ji nazveme \c;angle\n;, musíme ji na začátku programu deklarovat následujícím řádkem kódu:
+\c;
+\s;	\l;float\u cbot\type; angle;
+\n;
+Proměnná typu \l;float\u cbot\type; může obsahovat libovolné číslo, t.j. celá čísla nebo reálná čísla. Pokud se chcete dozvědět více o různých typech proměnných a co mohou obsahovat, přečtěte si \l;popis datových typů\u cbot\type;.
+
+Těsně před příkazem \c;fire(1);\n; místo příkazu \c;\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));\n; uložíme úhel pro otočení do proměnné \c;angle\n;:
+\c;
+\s;	angle = direction(item.position);
+\n;
+Pak robota otočíme a nastavíme výkon motorů, aby robot zatáčel dále:
+\c;
+\s;	turn(angle);
+\s;	if (angle < 0)
+\s;	{
+\s;		motor(1,0.5);
+\s;	}
+\s;	else
+\s;	{
+\s;		motor(0.5,1);
+\s;	}
+\n;
+Příkaz \c;else\n; označuje blok, který se provede v případě, když podmínka v příkazu \c;if\n; neplatí.
+
+Nakonec musíme nastavit i výkon tryskového motoru, aby robot udržoval stejnou letovou výšku jako vosa:
+\c;
+\s;	jet(0);
+\s;	if(position.z > item.position.z)
+\s;	{
+\s;		jet(-0.3);
+\s;	}
+\s;	
+\s;	if(position.z < item.position.z - 1)
+\s;	{
+\s;		jet(0.3);
+\s;	}
+\n;
+Uvidíte, že tento programu bude mnohem úspěšnější než ten předchozí!
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

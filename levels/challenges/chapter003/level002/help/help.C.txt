@@ -1,0 +1,11 @@
+\b;Cvičení
+Dovezte \l;kostku titanu\u object\titan; na cílovou značku. Polohu titanu neznáte, ale prozradíme Vám souřadnice cílové značky: x=10; y=-60.
+
+\b;Užitečné příkazy
+\c;\l;radar\u cbot\radar;\n; pro nalezení kostky titanu (kategorie \c;\l;Titanium\u object\titan;\n;)
+\c;\l;goto\u cbot\goto;\n; pro dojetí s robotem k cíli
+\c;\l;grab\u cbot\grab;\n; pro zvednutí předmětu
+\c;\l;drop\u cbot\drop;\n; pro položení předmětu
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

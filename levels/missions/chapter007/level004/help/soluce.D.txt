@@ -1,0 +1,12 @@
+\b;Schritt für Schritt
+1) Search the area for \l;titanium\u object\titan;.
+2) Errichten Sie einen \l;Konverter\u object\convert;.
+3) Bauen Sie ein \l;Forschungszentrum\u object\research;.
+4) Starten Sie das <Forschungsprogramm Stampfer> \button 66;.
+5) Konstruieren Sie einen \l;Stampfer\u object\bottump;.
+6) Positionieren Sie den Stampfer in der Nähe des zerstörten Raumschiffes und "stampfen" Sie den Boden.
+7) Quickly retrieve the \l;black box\u object\bbox; and bring it back aboard your \l;spaceship\u object\base;.
+8) Vergessen Sie nicht, den Stampfer mitzunehmen, bevor Sie abheben.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

@@ -1,0 +1,15 @@
+\b;Relatório do satélite
+Atualmente em uma órbita geo-estacionária da lua.
+\c;
+\s;-> SUPERFÍCIE\c;
+\tab; Temperatura: -38.2°C 
+\tab; Atmosfera: nenhuma 
+\tab; Vento: 0,0 mps 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> SUBSOLO\c;
+\tab; Fonte de energia: em todos os lugares 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+\n;

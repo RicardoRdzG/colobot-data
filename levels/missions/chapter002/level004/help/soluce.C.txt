@@ -1,0 +1,19 @@
+\b;Návod
+1) Z jediné dostupné kostky titanu postavte konvertor \button 162;.
+
+2) Doprostřed plošinky konvertoru pokládejte jednu hroudu titanové rudy po druhé a nechte konvertor udělat zbytek.
+
+3) Z jedné čerstvě vyrobené kostky titanu postavte nabíječku \button 164;.
+
+4) Pokud se Vám nechce hledat černou skříňku sami, postavte radar \button 168; a uvidíte ji na minimapě někde na sever od Vaší aktuální pozice, na dně jednoho kráteru poblíž několika vraků a trosek po předchozí výpravě.
+
+5) Dojeďte s robotickými rameny doprostřed plošinky nabíječky, abyste je nabili. V bateriích by jim mělo zbývat ještě dost energie, abyste s nimi dojeli na nabíječku.
+
+6) Doleťte s létajícím ramenem pro černou skříňku a zpět.
+
+7) Postavte robotická ramena i černou skříňku na palubu rakety a sami také nastupte.
+
+8) Odleťte.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

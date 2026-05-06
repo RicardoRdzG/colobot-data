@@ -1,0 +1,11 @@
+\b;Passo a passo
+Tudo está explodindo ao seu redor. Você precisa deixar o antigo campo de base o mais rápido possível. Apenas recue da mesma maneira que você veio.
+
+\l;Formigas\u object\ant; são bastante fáceis de evitar. Se você for gravemente atingido, encontre um local silencioso e espere até que seu escudo tenha se regenerado.
+
+\l;Aranhas\u object\spider; são um pouco mais difíceis, mas também mais estúpidas. Assim que te veem, estouram o abdômen, morrendo no processo. Se um fragmento bater em você, você também morrerá. Um método arriscado, mas eficiente, de se livrar de uma aranha consiste em se mover perigosamente para perto e, quando o abdome da aranha começa a se inflar, voa rapidamente para trás, para a segurança.
+
+Assim que você chegar a uma ilha tranquila, você pode usar o \l;atirador orgânico alado\u object\botoj; para limpar seu caminho de insetos hostis. Tenha cuidado para não perdê-lo, caso contrário, toda a missão seria em vão.
+
+\t;Veja também
+\l;Controles\u command;.

@@ -1,0 +1,64 @@
+\b;Exercício
+Alcance o bloco de acabamento (25m à sua frente) o mais rápido possível, usando a instrução \c;motor ( , ) \n;. Você terá que desacelerar progressivamente no final do movimento, caso contrário, o robô será explodido nas \l;minas\u object\mine;.
+
+Você poderia muito bem escrever não mais que \c;\l;move\u cbot\move;(25);\n;, isso funcionaria perfeitamente bem. No entanto, o objetivo deste exercício é aprender como usar a instrução \c;\l;motor\u cbot\motor;\n;.
+
+Esta instrução pede dois valores:
+1) A velocidade do motor esquerdo.
+2) A velocidade do motor direito.
+
+\s;\c;	motor( esquerda, direita );
+\n;
+Os valores devem variar entre -1 e 1:
+--1 = aceleração total para trás
+  0 = parar 
+  1 = aceleração total para frente
+
+Por exemplo,  \c;motor(0.5, 0.5);\n; moverá o motor para a frente com meia velocidade, até que novas instruções sejam dadas aos motores.
+
+Com a instrução \c;motor(0.5, 0.6);\n;, o robô avançará com meia velocidade, girando ao mesmo tempo ligeiramente para a esquerda: o motor da direita se move um pouco mais rápido (\c;0.6\n;) que o motor da esquerda (\c;0.5\n;).
+
+\b;Princípio geral
+Para avançar por exatamente 25 metros e não mais, você deve mover a velocidade máxima durante os primeiros 23 metros, depois reduzir a velocidade dos motores progressivamente durante os últimos dois metros. 
+A  \l;variável\u cbot\var; \l;position\u cbot\object; dá a você a qualquer momento a posição atual do robô, e a instrução \c;\l;distance\u cbot\dist;( , );\n; retorna a distância entre dois pontos. A melhor maneira de saber onde você está consiste em salvar a posição atual antes do início em uma \l;variável\u cbot\var;, por exemplo, uma variável chamada \c;inicio\n;. Então você pode calcular a distância entre a posição inicial e sua posição atual com \c;distance (position, inicio)\n;.
+
+\b;O programa
+1) declarar as variáveis
+\s;\c;	point inicio;
+\s;	float dist;
+\n;
+2) salve a posição inicial
+\s;\c;	inicio = position;
+\n;
+3) iniciar aceleração máxima:
+\s;\c;	motor(1, 1);
+\n;
+4) Realize um laço \c;\l;while\u cbot\while;\n; infinito:
+\s;\c;	while ( true )
+\s;	{
+\s;		dist = distance(position, inicio);
+\s;		if ( dist > 25-2 )
+\s;		{
+\s;			motor( menos que antes! );
+\s;		}
+\s;	}
+\n;
+Enquanto a distância entre o início e a posição atual for menor que 23m, a instrução entre chaves após a instrução  \c;\l;if\u cbot\if;\n; não será executada, então os motores mantém sua velocidade máxima como foi dito pela instrução \c;\l;motor\u cbot\motor;(1,1);\n;.
+
+Para diminuir progressivamente, a velocidade dos motores deve ser proporcional à distância restante:
+o  \c;2.0\n; metros restantes -> velocidade = \c;1.00\n; (máximo)
+o  \c;1.5\n; metros restantes -> velocidade = \c;0.75\n;
+o  \c;1.0\n; metro restante -> velocidade = \c;0.50\n;
+o  \c;0.5\n; metro restante -> velocidade = \c;0.25\n;
+o  \c;0.0\n; metro restante -> velocidade = \c;0.00\n; (parado)
+
+\image tdragst1 12 6;
+Você pode usar a seguinte \l;expressão\u cbot\expr; \c;(25-dist)/2\n; para calcular o valor da instrução de velocidade que deve ser dada aos motores.
+
+Cabe agora a você colocar tudo junto e testar o programa.
+
+\b;Observação
+Você pode usar valores maiores que 1 para a instrução \c;\l;motor\u cbot\motor;();\n;, mas o robô não se moverá mais rápido.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

@@ -1,0 +1,38 @@
+\b;Objectif
+Programmez un \l;robot préhenseur\u object\botgr; pour qu'il change la \l;batterie\u object\power; du robot \l;tireur\u object\botfj;, afin qu'il puisse partir à la chasse aux nuisibles. 
+
+\t;Marche à suivre
+1) Programmez le \l;robot préhenseur\u object\botgr;.
+2) Exécutez le programme en cliquant sur la flèche \button 21;.
+Le \l;robot tireur\u object\botfj; est déjà programmé, et entrera en action dès qu'il aura une batterie neuve.
+
+\t;Programme
+Vous aurez besoin des instructions suivantes:
+\c;
+\s;\l;grab\u cbot\grab;();\n;
+\n;Prend ce qui se trouve devant le robot.
+\c;
+\s;\l;drop\u cbot\drop;();\n;
+\n;Pose ce que le robot porte devant lui.
+\c;
+\s;\l;turn\u cbot\turn;();\n;
+\n;Cette instruction a déjà été vue dans l'exercice précédent: elle tourne le robot d'un certain angle, donné en degrés entre les parenthèses.
+
+Voyons le début du programme:
+o  on prend la batterie vide avec \c;\l;grab\u cbot\grab;();\n;
+o  on tourne à gauche de 90 degrés \c;turn(90)\n;
+o  on pose la batterie vide \c;\l;drop\u cbot\drop;();\n;
+o  etc.
+
+A vous de faire la suite!
+
+Si vous avez un problème, vous pouvez toujours regarder la solution : sélectionnez le programme \c;Solution\n; et cliquez sur le bouton des accolades \button 22;.
+
+\t;Remarques
+Veillez à écrire les instructions avec précision, en respectant les minuscules et les majuscules.
+
+Prenez l'habitude de toujours n'écrire qu'une instruction par ligne, en terminant bien chaque ligne par un point-virgule.
+
+Si votre programme ne fait pas exactement ce que vous voulez, vous pouvez remettre le robot au point de départ avec le bouton \button 59;. Vous pouvez également recommencer depuis le début (appuyez sur la touche "Esc", cliquez sur "Redémarrer"). Le programme que vous avez écrit ne sera pas perdu.
+
+\key;\key help;\norm; permet de revoir les instructions générales en tout temps. De même, \key;\key prog;\norm; accède aux explications du langage de programmation CBOT.

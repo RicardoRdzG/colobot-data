@@ -1,0 +1,19 @@
+\b;Satellitenbericht
+Gegenwärtig in einer geostationären Umlaufbahn um Saari.
+\c;
+\s;-> Oberfläche\c;
+\tab;Temperatur:     38.4C
+\tab;Atmosphäre:     CO2. Sauerstoff, Stickstoff
+\tab;Wind:           1.4 m/s
+\tab;Titanerz:       vereinzelt
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Untergrund\c;
+\tab;Energiefelder:  überall
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Zusätzliche Informationen\c;
+\tab;Entdeckt:       Riesenameisen kommen näher 
+\tab;  - Gefahr:     ja, unmittelbar
+\n;

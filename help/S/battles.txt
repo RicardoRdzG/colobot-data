@@ -1,0 +1,54 @@
+\b;Batallas de código
+La batalla de código es un modo de juego completamente nuevo en Colobot: Gold Edition. La idea es que configures dos programas (el tuyo y el del oponente) para que luchen entre sí. El jugador no puede interactuar con el mundo manualmente.
+
+\b;Cómo controlar el nivel
+
+\t;Iniciar una batalla de código
+Para iniciar una batalla de código necesitas:
+1. Ejecutar todos los programas necesarios para tu(s) equipo(s).
+2. Pulsar el botón \button 21; sobre el mini-mapa.
+
+\t;Controlar la vista del espectador
+Después de iniciar una batalla de código, la cámara cambia a un modo especial:
+o Puedes seleccionar objetos como lo haría normalmente un jugador, pero no verás su interfaz y la cámara no gira cuando el objeto gira. También puedes usar el teclado numérico en lugar del ratón para girar la cámara centrada en el objeto.
+o También puedes cambiar a la vista de cámara libre haciendo clic en algún lugar del mapa. Puedes moverte en esta vista usando el teclado numérico y las teclas \key;RePág\norm;/\key;AvPág\norm;.
+o Puedes volver a la vista normal pulsando el botón \button 13; sobre el mini-mapa.
+
+\b;Conceptos básicos de línea de producción\m producción;
+Con las nuevas funciones proporcionadas en la Gold Edition, puedes crear una base completamente automatizada, que no necesita ninguna influencia del \l;humano\u object\human;. Todas ellas están descritas en la \l;documentación CBOT\u cbot;.
+
+La línea de producción se explica en Misiones y Ejercicios, pero quizás quieras saltar directamente a las batallas de código sin completar todo el juego. Así que aquí hay una breve descripción de cómo funcionan las cosas en Colobot.
+
+\t;Lo que quieres lograr
+Básicamente, quieres destruir al oponente. Para hacerlo, necesitarás algo letal, por ejemplo, un bot, específicamente, un \l;disparador\u object\botfr;. Pero probablemente los perderás con bastante frecuencia, así que quizás deberías mantener la producción en marcha. Por ejemplo, más \l;recogedores\u object\botgr; o más \l;fábricas\u object\factory;, \l;convertidores\u object\convert; y así sucesivamente serían útiles para eso. Recuerda que los robots necesitan \l;celdas de energía\u object\power;. De todos modos, antes de que puedas comenzar, también debes hacer algunas \l;investigaciones\u object\research; para obtener mejores tecnologías. Y aquí estamos al principio, con un solo \l;bot\u object\botgr; y \l;Titanio\u object\titan;.
+
+\image lineaproduccion1 22 10;
+
+\t;Producción de titanio
+1. \l;Encuentra\u cbot\radar; Titanio (\l;Titanium\u object\titan;).
+2. \l;Construye\u cbot\build; un Convertidor (\l;Converter\u object\convert;).
+3. Encuentra mineral de titanio (\l;TitaniumOre\u object\titanore;).
+4. Colócalo en el convertidor. Aléjate y espera a que el convertidor termine.
+5. Usa o mueve tu nuevo Titanio a algún lugar.
+Repite los pasos 3-5 para mantener tu producción en marcha.
+
+\t;Investigaciones
+1. \l;Construye\u cbot\build; un Centro De Investigación (\l;ResearchCenter\u object\research;).
+2. Aliméntalo con una Celda De Energía\l;PowerCell\u object\power;.
+3. \l;Solicita\u cbot\research; una \l;investigación\u cbot\researches; y espera a que el centro de investigación termine.
+
+\t;Producción de robots
+1. \l;Construye\u cbot\build; una FábricaDeBots (\l;BotFactory\u object\factory;).
+2. Coloca Titanio (\l;Titanium\u object\titan;) dentro y retrocede.
+3. Solicita (\l;Request\u cbot\factory;) la construcción de un bot y espera a que la fábrica de bots termine.
+4. Alimenta el bot con una Celda De Energía (\l;PowerCell\u object\power;).
+
+\t;Producción de celdas de energía
+1. \l;Construye\u cbot\build; una PlantaDeEnergía (\l;PowerPlant\u object\energy;).
+2. Coloca Titanio (\l;Titanium\u object\titan;) en ella y espera a que la planta termine.
+
+\t;Hay más
+Hay muchas más opciones, pero esta es la base. Lee la documentación, juega y piensa creativamente para desarrollar nuevas ideas. ¡Buena suerte y diviértete!
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

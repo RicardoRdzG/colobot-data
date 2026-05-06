@@ -1,0 +1,9 @@
+\b;Naléhavá zpráva z řídícího střediska
+Zatímco jste se chystali k odletu, dostali jsme ze satelitu následující informaci: Na Vulkánu byl objeven robot prozatím neznámého typu. Pokuste se ho přivézt na palubu rakety k dalšímu zkoumání.
+
+Naši inženýři na Zemi právě vymysleli vylepšení, díky kterému by měly tryskové motory alespoň na kratší lety řádně fungovat i za vysokých teplot. Data jsme Vám poslali.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

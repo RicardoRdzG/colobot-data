@@ -1,0 +1,14 @@
+\b;Titanio
+\image titan 4 4;
+El titanio es indispensable para la construcción de edificios, \l;bots\u object\factory; y \l;celdas de energía regulares\u object\energy;. Suele haber algo restante en la \l;nave espacial\u object\base; cuando emprendes una nueva misión.
+
+Si se necesita más, tendrás que \l;convertir\u object\convert; trozos de \l;mineral de titanio\u object\titanore; en cubos de titanio utilizables.
+
+\t;Transporte
+Todos los \l;recogedores\u object\botgr; y el \l;astronauta\u object\human;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Titanium\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

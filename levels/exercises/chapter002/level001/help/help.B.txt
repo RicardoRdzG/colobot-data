@@ -1,0 +1,16 @@
+\b;Objetivo
+Como uma defesa contra várias formigas gigantes atacando do norte, gire o robô quando estiver atirando para executar fogo de barragem.
+
+\t;Programa
+Quando você está controlando um robô, você pode girar o canhão durante a rajada para varrer uma zona inteira. Você também pode fazer isso ao programar o robô, mas você tem que girar o robô inteiro com a instrução <code>\l;motor\u cbot\motor;(,)</ code>. Esta instrução pede dois números: a velocidade do motor do lado esquerdo e a velocidade do motor do lado direito. Estes números devem variar entre -1 e +1. \c; motor (1,1); <n /> move o robô para a frente com velocidade máxima (ambos motores com potência máxima). \c; motor (-1, -1); \n; move o robô para trás com velocidade máxima. \c; motor (1, 0.9);\n; move o robô para a frente com um leve giro para a direita: o motor da mão esquerda vira um pouco mais rápido que o motor da direita. E \c;motor (1, -1);\n; irá girar o robô no sentido horário no ponto: o motor da esquerda se move para frente, o motor da direita se move para trás.
+
+Depois de uma instrução \l;motor\u cbot\motor; os motores manterão esta velocidade até a próxima instrução \c;motor\n;, \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n; ou \c;\l;goto\u cbot\goto;\n;. Por exemplo, se você executar uma rotação no local com \c;motor(1,-1);\n; e depois você atirar com \c;fire(1);\n;, o robô irá continuar a girar durante a rajada e varrer uma zona inteira.
+
+As formigas atacam do norte. Para varrer toda a zona ao norte do robô, primeiro gire 90 graus para a esquerda com \c;turn(90);\n;, depois repita sempre com \c;\l;while\u cbot\while; (true)\n; as seguintes instruções:
+o  gire no sentido horário com \c;motor(1,-1);\n;
+o  uma rajada de 2 segundos com \c;fire(2);\n;
+o  gire no sentido anti-horário com \c;motor(-1,1);\n;
+o  uma rajada de 2 segundos.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

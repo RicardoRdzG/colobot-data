@@ -1,0 +1,20 @@
+\b;Informe del Satélite
+Actualmente en órbita geoestacionaria de Orpheon.
+\c;
+\s;-> SUPERFICIE\c;
+\tab;Temperatura:      -72.8C
+\tab;Atmósfera:        ninguna
+\tab;Viento:           0.0 mps
+\tab;Mineral titanio:  ninguno
+\tab;Mineral uranio:   ninguno
+
+\s;-> SUBSUELO\c;
+\tab;Fuente energía:   ninguna
+\tab;Mineral titanio:  algo (bandera azul)
+\tab;Mineral uranio:   ninguno
+
+\s;-> INFORMACIÓN ADICIONAL\c;
+\tab;Detectado:        hormigas gigantes
+\tab;  - Peligro:      no inmediato
+\tab;Detectado:       tormentas electromagnéticas feroces
+\n;

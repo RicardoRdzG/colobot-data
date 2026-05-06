@@ -1,0 +1,59 @@
+\b;Ejercicio
+El \l;bot\u object\bottr; debe pasar sobre todas las \l;cruces azules\u object\waypoint; en el suelo. El camino que debe cubrirse está compuesto por dos cuadrados. El primero mide 15 metros, el segundo 25 metros.
+
+\image tproc1a 8 8;
+\b;Principio general
+Para resolver este problema, la solución más eficiente consiste en crear una \l;función\u cbot\function; que ordene al bot moverse en forma de cuadrado de un tamaño determinado. El programa principal se vuelve entonces muy simple:\c;
+\s;extern void object::Function1( )
+\s;{
+\s;	Square(15);
+\s;	Square(25);
+\s;}
+\n;
+Todavía tienes que definir la función llamada \c;Square\n;. Para hacer esto, tendrás que escribir algunas instrucciones fuera del \l;bloque\u cbot\bloc; que hasta ahora era el marco de cada uno de tus programas. Al final del programa, después de la última llave de cierre, definiremos la función \c;Square\n;. El programa tomará la siguiente forma:
+\c;
+\s;extern void object::Function1( )
+\s;{
+\s;	\n;función principal ...\c;
+\s;}
+\s;
+\s;void object::Square(float length)
+\s;{
+\s;	\n;nueva función ...\c;
+\s;}
+\n;
+Veamos en detalle los diferentes elementos de la declaración de la función \c;Square\n;:
+
+\c;\l;void\u cbot\void;\n;
+Esto significa que esta función no devolverá ningún valor.
+
+\c;\l;object\u cbot\object;::\n;
+Cuando escribes esto delante del nombre de la función, puedes tener acceso en la función a todas las características del bot, como \c;position\n;, \c;orientation\n;, etc. En este ejercicio, este elemento no es obligatorio, ya que no necesitaremos las características del bot en la función.
+
+\c;Square (  )\n;
+Este es el nombre de la función. Puedes llamarla Square, o cualquier otro nombre.
+
+\c;\l;float\u cbot\float; length\n;
+Aquí defines los parámetros que la función recibirá cuando se llame. La primera vez que la función se llame con \c;Square(15)\n;, la variable \c;length\n; contendrá el valor \c;15\n;. La segunda vez, \c;length\n; contendrá \c;25\n;.
+
+Aquí está en detalle lo que sucederá cuando se ejecute el programa:
+- Primero se ejecutará la función principal \c;Function\n;.
+- En la línea \c;Square(15)\n;, el programa seguirá la flecha roja y entrará en la función \c;Square\n; una primera vez, \c;length\n; conteniendo \c;15\n;.
+- Al final de la función \c;Square\n;, el programa sigue la flecha naranja y vuelve a la función principal.
+- En la línea \c;Square(25)\n;, el programa seguirá la flecha azul y entrará en la función \c;Square\n; una segunda vez.
+- Al final de la función \c;Square\n;, el programa sigue la flecha azul claro y vuelve a la función principal.
+
+\image tproc1b 17 12;
+En la función \c;Square\n;, usa las instrucciones \c;\l;move\u cbot\move;\n; y \c;\l;turn\u cbot\turn;\n;. Para hacerla más corta, puedes usar un bucle \c;\l;for\u cbot\for;\n;, que repetirá las instrucciones \c;\l;move\u cbot\move;\n; y \c;\l;turn\u cbot\turn;\n; 4 veces; sin embargo, esto no es obligatorio.
+\c;
+\s;void object::Square(float length)
+\s;{
+\s;	for ( int i=0 ; i<4 ; i=i+1 )
+\s;	{
+\s;		move(length);
+\s;		turn(90);
+\s;	}
+\s;}
+\n;
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

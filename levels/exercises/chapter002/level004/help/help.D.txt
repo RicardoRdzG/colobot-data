@@ -1,0 +1,10 @@
+\b;Das Ziel
+Programmieren Sie einen \l;Jetshooter\u object\botfj; zur Jagd auf alle Ameisen in der Gegend.
+
+\t;Program
+In diesem Sumpf ist ein Rad- oder Kettenshooter von geringem Wert. Und im Gegensatz zu Spinnen bleiben Ameisen immer in Bewegung: Sie können den Roboter nicht einfach in Richtung der nächsten Ameise drehen, ihn vorwärts bewegen und dann schießen.
+
+Der einfachste Weg, dieses Problem zu lösen besteht darin, in einer Höhe von 10 Metern zu fliegen, mittels \c;\l;aim\u cbot\aim;(-20);\n; nach unten zu zielen und sich der Ameise mit einer bedingten Schleife zu nähern solange der Abstand (\l;distance\u cbot\dist;) größer als 20m ist. Innerhalb der Schleife müssen Sie nach der nächsten Ameise suchen, sich in ihre Richtung drehen, die Motoren auf Höchstgeschwindigkeit stellen (mit \c;\l;motor\u cbot\motor;(1,1);\n;) und eine kleine Weile \l;warten\u cbot\wait;, zum Beispiel 0,2 Sekunden. Diese Anweisungen müssen solange wiederholt werden, bis der Abstand der Ameise unter 20 Meter sinkt. Danach eröffnen Sie das Feuer.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

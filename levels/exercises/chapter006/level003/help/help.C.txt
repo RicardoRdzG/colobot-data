@@ -1,0 +1,50 @@
+\b;Cvičení
+Ovládejte robota na dálku prostřednictvím \l;komunikační stanice\u object\exchange;, aby projel přes 6 modrých kontrolních bodů.
+Hlavní role v tomto cvičení hrají:
+ 
+1) \l;Pojízdné rameno\u object\botgr; bez baterie. To je velitel, kterého budete programovat.
+2) \l;Komunikační stanice\u object\exchange;, která přijme informace od odesílatele a pošle je příjemci.
+3) \l;Cvičný robot\u object\bottr;, který čeká na povely od komunikační stanice. Tento robot už je naprogramovaný.
+
+\image tremot2a_cs 16 8;
+Do komunikační stanice lze ukládat informace v podobě dvojice "název-hodnota". K ovládání "dělníka" budeme potřebovat dvě takové dvojice:
+
+1) název="order", hodnota=číslo povelu
+2) název="param", hodnota=parametr pro daný povel
+
+Povel #1 znamená "move" a povel #2 znamená "turn". Parametr je pak délka jízdy v metrech nebo úhel otočení. Například aby dělník popojel o 20 metrů, napište:
+\c;\s;	\l;send\u cbot\send;("order",  1, 100);  // příkaz "move"
+\s;	\l;send\u cbot\send;("param", 20, 100);  // vzdálenost 20 metrů
+\n;
+Výše uvedené příkazy pošlou komunikační stanici dvě informace:
+\c;    order=1
+    param=20
+\n;
+Dělník čeká na povel, a pak ho vykoná. Po splnění povelu ho dělník z komunikační stanice vymaže. Než velitel pošle další povel, musí čekat, až dělník splní ten předchozí. Musíte tedy kontrolovat, jestli je v komunikační stanici stále nějaký povel uložený. Jednoduše napište:
+\c;\s;	while ( \l;testinfo\u cbot\testinfo;("order", 100) )  // čekat na splnění povelu
+\s;	{
+\s;		wait(1);
+\s;	}
+\n;
+Protože budeme posílat několik povelů za sebou, hodilo by se na to napsat \l;funkci\u cbot\function; \c;SendToPost\n;, která odešle povel a počká na jeho splnění:
+\c;\s;void object::SendToPost(float order, float param)
+\s;{
+\s;	send("param", param, 100);  // odeslat parametr
+\s;	send("order", order, 100);  // odeslat povel
+\s;
+\s;	while ( testinfo("order", 100) )  // čekat na splnění povelu
+\s;	{
+\s;		wait(1);
+\s;	}
+\s;}
+\n;
+Když má pak dělník popojet o 20 metrů, napište v hlavním programu:
+\c;\s;	SendToPost(1, 20);  // move(20);
+\n;
+Zde je trasa, kterou musí dělník projet:
+
+\image tremot2b 8 8;
+Dopsat zbytek programu už je na Vás.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

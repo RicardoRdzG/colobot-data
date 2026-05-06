@@ -1,0 +1,15 @@
+\b;Útmutató
+Ahhoz, hogy megépítsd a \l;kutatóközpontot\u object\research;, helyezz egy \l;titánkockát\u object\titan; egy sík területre, nem túl messze az űrhajótól. \l;Te\u object\human; magad is viheted a kockát, vagy használhatod a rendelkezésre álló \l;szállítórobotot\u object\botgr;.
+
+Ha a robotot használtad, távolítsd el a kockától, hogy ne zavarja az építkezést. Hogy a kijelölést a robotról magadra váltsd (emlékezz, csak te tudsz építeni), használd a \key;\key human;\norm; billentyűt.
+
+Állj közel a \l;titánkockához\u object\titan;, és építs egy \l;kutatóközpontot\u object\research; \button 163;. Helyezz el egy \l;energiacellát\u object\power; a \l;kutatóközpontban\u object\research;, jelöld ki az épületet, majd kattints a \button 65; szimbólumra a <szárnyas robotok kutatási program> végrehajtásához.
+
+Építs egy \l;robotgyárat\u object\factory; ugyanígy, és helyezz egy \l;titánkockát\u object\titan; az épület közepébe. Készíts egy \l;szárnyas szállítót\u object\botgj; a \button 139; szimbólummal, és láss el egy \l;energiacellával\u object\power;.
+
+Energiát spórolhatsz, ha te magad deríted fel a területet. A titánérc darabokat néhány, az űrhajótól északra található kráter alján találod meg. Egy \l;zászló\u object\flag; segíthet gyorsabban megtalálni ezeket a helyeket későbbi utak során.
+
+Gyűjts össze 4 darab \l;titánércet\u object\titanore;, és vidd vissza őket az \l;űrhajód\u object\base; fedélzetére. Vidd magaddal a \l;szárnyas szállítót\u object\botgj; és a \l;kerekes szállítót\u object\botgr;, majd szállj fel \button 28;.
+
+\t;Lásd még
+\l;Irányítás\u command;

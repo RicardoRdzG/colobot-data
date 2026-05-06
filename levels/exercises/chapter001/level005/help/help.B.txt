@@ -1,0 +1,48 @@
+\b;Objetivo
+Alimente os \l;atiradores alados\u object\botfj; com \l;células de energia\u object\power;, para que eles possam matar as formigas no formigueiro localizado em um buraco ao norte de sua posição.
+
+\t;Programa
+O \l;agarrador com rodas\u object\botgr; deve ir para uma \l;célula de energia\u object\power;, pegá-la, ir para um \l;atirador alado\u object\botfj;, e soltar a célula. Essa tarefa é muito semelhante à tarefa executada no exercício anterior. Aqui está este programa novamente:
+\c;
+\s;extern void object::Titanio2()
+\s;{
+\s;	object    item;
+\s;	
+\s;	item = radar(TitaniumOre);
+\s;	goto(item.position);
+\s;	grab();
+\s;	
+\s;	item = radar(Converter);
+\s;	goto(item.position);
+\s;	drop();
+\s;}
+\n;
+A melhor maneira de resolver o presente exercício é copiar \button 61; o programa acima para a área de transferência (de <code>object</ code> para \c;drop();\n;), e colar \button 62; no editor do programa. Então você só precisa fazer as alterações necessárias para adaptá-lo à nova tarefa.
+
+Em vez de procurar minério de titânio (\c;TitaniumOre\n;), procure por uma célula de energia (\c;PowerCell\n;). Em vez de ir para um conversor (\c;Converter\n;), vá para um atirador alado (\c;WingedShooter\n;). Assim que o atirador alado tiver uma nova célula de potência, ela começará a funcionar.
+
+Se você quiser saber mais sobre os "nomes" dos diferentes objetos na linguagem de programação, consulte o \l;texto sobre as categorias\u cbot\category;.
+
+\t;Melhoria adicional: laços
+Depois que o programa explicado acima funcionar corretamente, você poderá melhorá-lo para repetir a tarefa várias vezes. Assim você não terá que executar o programa várias vezes para alimentar vários robôs.
+
+Todos os programas escritos até agora executam todas as instruções apenas uma vez, uma após a outra, do começo ao fim do programa. Você também pode dizer ao robô para repetir algumas instruções: basta escrever \c;while(true)\n;, uma chave aberta, as instruções a serem repetidas e uma chave de fechamento. Repetir algumas instruções várias vezes dessa maneira é chamado de laço (loop). Aqui está um exemplo de um programa que repete várias vezes as instruções que buscam uma célula de energia, agarra-a e solta-a em um atirador alado:
+\c;
+\s;	while (true)
+\s;	{
+\s;		item = radar(PowerCell);
+\s;		goto(item.position);
+\s;		grab();
+\s;		
+\s;		item = radar(WingedShooter);
+\s;		goto(item.position);
+\s;		drop();
+\s;	}
+\n;
+É claro que a declaração da variável \c;object item;\n; não deve estar dentro do loop, mas antes: declarar uma variável apenas uma vez.
+
+\t;Observação
+Um robô pode executar um programa perfeitamente por conta própria. Enquanto você pode, por exemplo, selecionar o astronauta e dar uma olhada no que está acontecendo no ninho, o show vale a pena. Mas tenha cuidado para não levar um tiro com seus próprios robôs ...
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

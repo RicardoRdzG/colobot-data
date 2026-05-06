@@ -1,0 +1,84 @@
+\b;Objetivo
+Derriba a las avispas voladoras de una manera más eficiente que con el programa anterior.
+
+\b;Programa
+Aquí está nuevamente el programa del ejercicio anterior que derriba a todas las avispas después de muchos, muchos intentos fallidos:
+\c;
+\s;extern void object::Wasp1()
+\s;{
+\s;	\l;object\u cbot\type;    item;
+\s;	
+\s;	\l;aim\u cbot\aim;(0);
+\s;	
+\s;	\l;while\u cbot\while; (true)
+\s;	{
+\s;		\l;while\u cbot\while; (\l;radar\u cbot\radar;(AlienWasp, 0, 360, 0, 20) == null)
+\s;		{
+\s;			item = \l;radar\u cbot\radar;(AlienWasp);
+\s;			\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;			\l;motor\u cbot\motor;(1,1);
+\s;			
+\s;			\l;jet\u cbot\jet;(0);
+\s;			\l;if\u cbot\if; (position.z > item.position.z)
+\s;			{
+\s;				\l;jet\u cbot\jet;(-0.3);
+\s;			}
+\s;			
+\s;			\l;if\u cbot\if; (position.z < item.position.z - 1)
+\s;			{
+\s;				\l;jet\u cbot\jet;(0.3);
+\s;			}
+\s;			
+\s;			\l;wait\u cbot\wait;(0.2);
+\s;		}
+\s;		item = \l;radar\u cbot\radar;(AlienWasp);
+\s;		\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;		\l;fire\u cbot\fire;(1);
+\s;	}
+\s;}
+\n;
+Los muchos fracasos se deben al hecho de que la avispa ya se ha ido antes de que las balas puedan alcanzarla. La única forma de mejorar el programa consiste en ajustar la potencia de los dos motores y del chorro de manera que el bot siga el movimiento del objetivo durante la ráfaga.
+
+Justo antes del disparo, el programa ajusta una última vez la dirección con \c;turn(direction(item.position));\n;. Para seguir a la avispa durante la ráfaga, tienes que "recordar" el ángulo de esta última rotación: si el ángulo fue positivo (rotación a la izquierda), el bot debe continuar girando a la izquierda durante la ráfaga; si el ángulo fue negativo, el bot debe continuar girando a la derecha.
+
+Para "recordar" el ángulo de la última rotación, necesitamos una variable que pueda contener solo un número. Si elegimos llamarla \c;angle\n;, debemos definir la variable con la siguiente línea al principio del programa:
+\c;
+\s;	\l;float\u cbot\type; angle;
+\n;
+El tipo de variable \l;float\u cbot\type; es el tipo de variable que puede contener cualquier número, es decir, números enteros o números reales. Consulta el \l;texto sobre tipos de variables\u cbot\type; si quieres saber más sobre los diferentes tipos de variables y lo que pueden contener.
+
+Justo antes de la instrucción \c;fire(1);\n;, en lugar de escribir \c;\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));\n;, pondremos el ángulo de rotación en la variable \c;angle\n;:
+\c;
+\s;	angle = direction(item.position);
+\n;
+Luego realizamos la rotación y ajustamos la potencia de los motores para que el bot continúe el movimiento:
+\c;
+\s;	turn(angle);
+\s;	if (angle < 0)
+\s;	{
+\s;		motor(1,0.5);
+\s;	}
+\s;	else
+\s;	{
+\s;		motor(0.5,1);
+\s;	}
+\n;
+La instrucción \c;else\n; determina qué instrucciones debe ejecutar el programa si la condición stated in the \c;if\n; instruction es falsa.
+
+Luego debemos ajustar la potencia del chorro para que el bot siga a la avispa también en la dirección vertical:
+\c;
+\s;	jet(0);
+\s;	if(position.z > item.position.z)
+\s;	{
+\s;		jet(-0.3);
+\s;	}
+\s;	
+\s;	if(position.z < item.position.z - 1)
+\s;	{
+\s;		jet(0.3);
+\s;	}
+\n;
+Como verás, este programa es mucho más eficiente que el anterior!
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

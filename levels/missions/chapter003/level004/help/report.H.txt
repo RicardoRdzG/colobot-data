@@ -1,0 +1,15 @@
+\b;Műholdjelentés
+Jelenleg geostacionárius pályán a Tropica bolygó körül.
+\c;
+\s;-> FELSZÍN\c;
+\tab;Hőmérséklet:      32,2 °C
+\tab;Légkör:           hélium, oxigén
+\tab;Szél:             0,7 m/s
+\tab;Titánérc:         nincs
+\tab;Uránérc:          nincs
+
+\s;-> ALTALAJ\c;
+\tab;Energiaforrás:    nincs
+\tab;Titánérc:         nincs
+\tab;Uránérc:          nincs
+\n;

@@ -1,0 +1,16 @@
+\b;Objectif
+Tuez plusieurs araignées dont la localisation précise n'est pas connue. Utilisez le radar de votre robot pour les trouver.
+
+\t;Programme
+Trouvez l'araignée la plus proche avec l'instruction \c;\l;radar\u cbot\radar;(AlienSpider);\n;, comme nous l'avons fait dans l'exercice précédent avec le minerai de titane et les batteries. Mais n'allez pas jusqu'à la position de l'araignée, le robot serait détruit avant d'atteindre cette position. Simplement, tournez vous vers l'arraignée. L'instruction \c;\l;direction\u cbot\direct;(item.position)\n; permet d'obtenir l'angle de rotation que le robot doit réaliser afin de viser l'araignée. Afin de viser l'araignée, simplement écrire:
+\c;
+\s;	\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\n;
+Remarquez les deux parenthèses fermantes à la fin de la ligne, avant le point-virgule. Il y a deux parenthèses ouvrantes, donc il faut deux parenthèses fermantes.
+
+Puis tirez avec l'instruction : \c;\l;fire\u cbot\fire;(1);\n;.
+
+Ici aussi, vous pouvez utiliser une boucle \c;\l;while\u cbot\while; (true)\n; afin de ne pas avoir à ré-exécuter le programme à nouveau pour chaque araignée, comme nous l'avons fait lors du dernier exercice.
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

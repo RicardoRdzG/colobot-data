@@ -1,0 +1,16 @@
+\b;Das Ziel
+Um die Attacke einiger Ameisen abzuwehren, die aus dem Norden kommen, drehen Sie den Roboter beim Schießen und bilden Sie so ein Sperrfeuer.
+
+\t;Programm
+Wenn Sie den Roboter über Funk selbst steuern, dann können Sie die Kanone während einer Salve bewegen, um so gleich ein ganzes Gebiet abzudecken. Sie können das gleiche auch tun, wenn Sie den Roboter programmieren; dabei müssen Sie aber den ganzen Roboter drehen, und zwar mit der Anweisung \c;\l;motor\u cbot\motor;( , )\n;. Diese Anweisung erwartet zwei Zahlen: die Geschwindigkeit des linken Motors und die des rechten Motors. Diese Werte müssen zwischen -1 und 1 liegen. \c; motor(1,1);\n; bewegt den Roboter mit Maximalgeschwindigkeit vorwärts (beide Motoren auf voller Kraft). \c; motor(-1,-1);\n; bewegt den Roboter mit Maximalgeschwindigkeit rückwärts. \c; motor(1,0.9);\n; bewegt den Roboter nach vorn, wobei er eine schwache Rechtskurve vollführt: der linke Motor läuft schneller als der rechte. Und \c;motor(1,-1);\n; dreht den Roboter im Uhrzeigersinn und auf der Stelle: der linke Motor bewegt sich vorwärts, der rechte rückwärts.
+
+Nach einer \l;motor\u cbot\motor;-Anweisung behalten die Motoren diese Geschwindigkeit bis zur nächsten \c;motor\n;-, \c;\l;move\u cbot\move;\n;-, \c;\l;turn\u cbot\turn;\n;- oder \c;\l;goto\u cbot\goto;\n;-Anweisung bei. Wenn Sie zum Beispiel mittels \c;motor(1,-1);\n; eine Rotation auf der Stelle durchführen und anschließend mit \c;\l;fire\u cbot\fire;(1);\n; die Waffe abfeuern, dann dreht sich der Roboter auch während er schießt und deckt so einen ganzen Bereich mit seinem Feuer ab.
+
+Die Ameisen greifen von Norden her an. Um den ganzen Bereich nördlich des Roboters zu beschießen, drehen Sie ihn zuerst mit \c;\l;turn\u cbot\turn;(90);\n; um 90 Grad nach links und wiederholen Sie folgende Anweisungen mittels \c;\l;while\u cbot\while; (true)\n; immer und immer wieder:
+o  nach rechts drehen mit \c;motor(1,-1);\n;
+o  ein 2-Sekunden-Schuss mit \c;\l;fire\u cbot\fire;(2);\n;
+o  nach links drehen mit \c;motor(-1,1);\n;
+o  ein 2-Sekunden-Schuss
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

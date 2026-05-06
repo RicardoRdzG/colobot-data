@@ -1,0 +1,19 @@
+\b;Solution
+1) Construisez une \l;raffinerie\u object\convert; \button 162; avec le seul bloc de titane disponible.
+
+2) Déposez un morceau de minerai de titane à la fois au centre de la platforme et laissez la \l;raffinerie\u object\convert; effectuer le reste.
+
+3) Construisez une station de recharge \button 164; avec le nouveau bloc de titane.
+
+4) Si vous n'avez pas envie de chercher vous-même la boîte noire, construisez un radar \button 168; et la boîte apparaîtra sur votre mini-carte quelque part au nord de votre position actuelle, au fond d'un cratère, à côté d'un vaisseau spatial abandonné et des débris de l'expédition précédente.
+
+5) Placez les préhenseurs au centre de la plate-forme de la station de recharge pour les recharger. Les cellules devraient encore avoir un peu d'énergie à l'intérieur, juste assez pour télécommander les robots sur la plate-forme.
+
+6) Télécommandez le préhenseur volant vers la boîte noire et faites la rapporter.
+
+7) Rassemblez les deux préhenseurs et la boîte noire sur la plate-forme du vaisseau spatial et montez à bord vous-même.
+
+8) Décollez.
+
+\t;Voir aussi
+\l;Commandes\u command;.

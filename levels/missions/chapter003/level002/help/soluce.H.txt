@@ -1,0 +1,21 @@
+\b;Végigjátszás
+Íme a lépések, amelyeket követned kell, hogy visszatalálj az űrhajódhoz.
+
+1) Kerüld meg a tavat, és haladj a zöld fluoreszkáló gömb felé. Ezt a gömböt egy gravitációs növény hozza létre, amelyen belül lehetetlenné válik a repülés.
+
+2) Haladj a völgy bal oldalán, elhaladva egy tó mellett jobbról, majd mássz fel egy kis emelkedőn. Fent hatalmas hangyákkal találkozol majd: fuss, amilyen gyorsan csak tudsz, egy másik gravitációs növény felé, amely kissé jobbra található. A sebeid majd később begyógyulnak.
+
+3) Használd a reaktorodat, hogy átrepülj a tó felett, még mielőtt eléred a jobb oldali gravitációs növényt.
+
+4) Amikor elhagyod a gravitációs növényt, maradj a tó bal oldalán, és kövesd a partvonalat, amíg el nem érsz egy páfrányszerű növényekkel borított félszigethez.
+
+5) Ugrálj szigetről szigetre a nagyobb tavon keresztül. Igyekezz a fákra célozni, hogy elkerüld, hogy a túloldalon a vízbe ess. Az utolsó sziget 50 cm-rel víz alatt van, de még így is leszállhatsz rá anélkül, hogy a fejed víz alá kerülne.
+
+6) Az út balra folytatódik. Egy óriáshangya vár ott rád, de nem okoz komoly sérülést.
+
+7) Hagyd, hogy a reaktorod lehűljön, majd repülj át a kis tavon. Próbálj meg minél magasabban leszállni a jobb oldalon – így a legkisebb az esélye, hogy a második tóba ess.
+
+8) Kel át a második tavon, szállj be az űrhajóba, és emelkedj fel.
+
+\t;Lásd még
+\l;Irányítás\u command;

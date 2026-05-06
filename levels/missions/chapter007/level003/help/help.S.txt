@@ -1,0 +1,9 @@
+\b;Del Control de Misiones
+Construye un \l;radar\u object\radar; en uno de los puntos más altos accesibles y asegúrate de que ningún organismo pueda destruirlo después de que \l;tú\u object\human; te hayas ido.
+
+La destrucción de un radar anterior instalado por la primera expedición fue probablemente la causa de una interrupción de las comunicaciones, que llevó a la pérdida total de contacto.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

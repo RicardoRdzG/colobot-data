@@ -1,0 +1,55 @@
+\b;Cvičení
+Toto cvičení je velmi podobné jako to předchozí. Tentokrát by měl robot najít cestu od startu až do cíle úplně sám; program musí stačit spustit pouze jednou.
+
+\b;Poznámka
+Bludiště je trochu jiné než minule, ale to by mělo být jedno, protože program se řídí tím, co "vidí".
+
+\image tlaby1 10 10;
+\b;Obecný postup
+Opakujte předchozí program stále dokola pomocí nekonečného cyklu \c;\l;while\u cbot\while;\n;:
+\s;\c;while ( true )
+\s;{
+\s;	\n;Pokud je před robotem volno, popojeďte vpřed\c;
+\s;	\n;Pokud je volno nalevo, zahněte doleva\c;
+\s;	\n;Pokud je volno napravo, zahněte doprava\c;
+\s;}
+\n;
+Příkazy \c;return\n; uvnitř cyklu \c;while\n; přepište na příkaz \c;\l;continue\u cbot\continue;\n;. Příkaz \c;return\n; by ukončil program, což v tomto případě nechceme. Příkaz \c;continue\n; místo toho přeskočí zpět na začátek cyklu \c;\l;while\u cbot\while;\n;:
+\s;\c;if ( front == null )
+\s;{
+\s;	move(5);
+\s;	continue;
+\s;}
+\n;
+\b;Pamatujte
+Zde je opět program z předchozího cvičení:
+\c;
+\s;object   front, left, right;
+\s;
+\s;front = radar(Barrier,   0, 45, 0, 5);
+\s;left  = radar(Barrier,  90, 45, 0, 5);
+\s;right = radar(Barrier, -90, 45, 0, 5);
+\s;
+\s;if ( front == null )
+\s;{
+\s;	move(5);
+\s;	return;
+\s;}
+\s;if ( left == null )
+\s;{
+\s;	turn(90);
+\s;	move(5);
+\s;	return;
+\s;}
+\s;if ( right == null )
+\s;{
+\s;	turn(-90);
+\s;	move(5);
+\s;	return;
+\s;}
+\n;
+\b;Nápověda
+Pokud potřebujete nápovědu, prostě klikněte na odkazy k příkazům \c;\l;radar\u cbot\radar;\n;, \c;\l;if\u cbot\if;\n;, \c;\l;move\u cbot\move;\n; nebo \c;\l;turn\u cbot\turn;\n; na této stránce.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

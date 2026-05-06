@@ -1,0 +1,16 @@
+\b;Objetivo
+Como defensa contra varias hormigas gigantes atacando desde el norte, gira el bot mientras disparas para realizar un fuego de barrage.
+
+\t;Programa
+Cuando estás controlando por radio un bot, puedes rotar el cañón durante la ráfaga para barrer toda una zona. También puedes hacer esto cuando programas el bot, pero tienes que girar todo el bot con la instrucción \c;\l;motor\u cbot\motor;( , )\n;. Esta instrucción pide dos números: la velocidad del motor izquierdo y la velocidad del motor derecho. Estos números deben estar entre -1 y +1.\c; motor(1,1);\n; mueve el bot hacia adelante a máxima velocidad (ambos motores a máxima potencia).\c; motor(-1,-1);\n; mueve el bot hacia atrás a máxima velocidad.\c; motor(1,0.9);\n; mueve el bot hacia adelante con un giro slight to the right: el motor izquierdo gira un poco más rápido que el motor derecho. Y \c;motor(1,-1);\n; girará el bot en el sentido de las agujas del reloj en el sitio: el motor izquierdo se mueve hacia adelante, el motor derecho se mueve hacia atrás.
+
+Después de una instrucción \l;motor\u cbot\motor; los motores mantendrán esta velocidad hasta la siguiente instrucción \c;motor\n;, \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n; o \c;\l;goto\u cbot\goto;\n;. Por ejemplo, si realizas una rotación en el lugar con \c;motor(1,-1);\n; y luego disparas con \c;fire(1);\n;, el bot continuará girando durante la ráfaga, y barrerá toda una zona.
+
+Las hormigas atacan desde el norte. Para barrer toda la zona al norte del bot, primero gira 90 grados a la izquierda con \c;turn(90);\n;, luego repite siempre con \c;\l;mientras\u cbot\while; (true)\n; las siguientes instrucciones:
+o  gira en el sentido de las agujas del reloj con \c;motor(1,-1);\n;
+o  una ráfaga de 2 segundos con \c;fire(2);\n;
+o  gira en sentido contrario a las agujas del reloj con \c;motor(-1,1);\n;
+o  una ráfaga de 2 segundos.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

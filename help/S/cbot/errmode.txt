@@ -1,0 +1,33 @@
+\b;Instrucción \c;errmode\n;
+La instrucción \c;errmode();\n; te permite elegir si el programa debe detenerse cuando se produce un error en una de las siguientes instrucciones: \c;\l;goto\u cbot\goto;\n;, \c;\l;move\u cbot\move;\n;, \c;\l;grab\u cbot\grab;\n;, \c;\l;drop\u cbot\drop;\n;, etc.
+
+\b;Para especialistas
+Sintaxis:
+\s;\c;errmode ( modo );\n;
+
+Normalmente, el programa se detiene cuando se produce un error. Si utilizas la instrucción \c;errmode(0);\n; al principio del programa, las instrucciones mencionadas anteriormente devuelven un valor distinto de cero si la instrucción no se ha podido ejecutar.
+
+\t;modo: \c;\l;float\u cbot\float;\n; (\c;1\n; por defecto)
+Modo de tratamiento de errores.
+\c;0\n; -> continúa la ejecución del programa y devuelve un valor diferente de cero
+\c;1\n; -> detiene el programa (comportamiento predeterminado)
+
+Ejemplo 1:
+\s;\c;errmode(0);
+\s;while ( goto(pos) != 0 )
+\s;{
+\s;	wait(2);
+\s;}
+\n;
+Ejemplo 2:
+\s;\c;errmode(0);
+\s;int err;
+\s;err = goto(pos);
+\s;if ( err != 0 )
+\s;{
+\s;	\n;goto no terminó correctamente ...\c;
+\s;	\n;toma acciones apropiadas ...\c;
+\s;}
+\n;
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

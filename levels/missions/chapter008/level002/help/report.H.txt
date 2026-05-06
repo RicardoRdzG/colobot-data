@@ -1,0 +1,20 @@
+\b;Műholdjelentés
+Jelenleg geostacionárius pályán kering az Orpheon körül.
+\c;
+\s;-> FELSZÍN\c;
+\tab;Hőmérséklet:     -64.7°C
+\tab;Légkör:          nincs
+\tab;Szél:            0.0 m/s
+\tab;Titánérc:        nincs
+\tab;Uránérc:         nincs
+
+\s;-> Talaj alatt\c;
+\tab;Energiaforrás:    nincs
+\tab;Titánérc:         nincs
+\tab;Uránérc:          nincs
+
+\s;-> További információk\c;
+\tab;Észlelve:          óriás hangyák
+\tab;  - Veszély:       nem azonnali
+\tab;Észlelve:          heves elektromágneses viharok
+\n;

@@ -1,0 +1,14 @@
+\b;Exercício
+Siga o caminho em forma de espiral. O robô deve mover-se 2 vezes 25m para a frente e virar, e então mover 2 vezes 20m para a frente e virar, e assim por diante.
+\image tproc2 8 8;
+
+\b;Função
+Você deve ter notado que o caminho é feito de peças em forma de "L" que se encaixam umas nas outras. O primeiro (azul escuro) mede duas vezes 25 metros. O segundo (azul claro) mede 5 metros a menos. Vamos começar escrevendo a \l;função\u cbot\function; que moverá o robô em uma parte em "L" cujo comprimento será dado como um parâmetro.
+
+\b;Instruções úteis
+\c;\l;for\u cbot\for;\n; laço para repetir algumas instruções
+\c;\l;move\u cbot\for;\n; para mover o robô 
+\c;\l;turn\u cbot\turn;\n; para girar o robô
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

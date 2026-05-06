@@ -1,0 +1,8 @@
+\b;Exercise
+In dieser Übung platziert ein "verrückt gewordener Roboter" viele \l;blaue Kreuze\u object\waypoint; auf dem Boden. Um sie zu finden, können Sie das Programm aus der letzten Übung wiederverwenden. Dies demonstriert die Flexibilität eines solchen Programmes: Es passt sich der Umgebung an.
+
+\t;Hinweis
+Warten Sie nicht zu lange, denn der verrückte Roboter beginnt sofort mit seiner Arbeit. Glücklicherweise wird das Spiel jedoch angehalten, solange Sie sich im Programmeditor befinden.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

@@ -1,0 +1,20 @@
+\b;Návod
+V malém údolí na severovýchodě najdete několik užitečných věcí.
+o  \l;Recyklátor\u object\botrecy;, kterým si vyrobíte první \l;kostku titanu\u object\titan;.
+o  \l;Chodící rameno\u object\botgs;, které umí šplhat i po prudkých svazích.
+o  Skoro plnou \l;jadernou baterii\u object\atomic;.
+
+1) \l;Jadernou baterii\u object\atomic; vložte do \l;chodícího ramena\u object\botgs; a odvezte s ním \l;kostku titanu\u object\titan; zpět k \l;raketě\u object\base;. Jeďte přímou čarou přes kopec.
+
+2) Z titanu postavte \l;konvertor\u object\convert;. Na \l;chodícím rameně\u object\botgs; spusťte program \c;CollectTitanium3\n;, a budete mít titanu víc než dost.
+
+3) Vypněte program a pošlete chodící rameno posbírat trochu \l;uranové rudy\u object\uranore; do druhého malého údolí na východě. Opět nejezděte po cestě skrz údolí, která se hemží mravenci, ale jeďte přímou čarou přes hory.
+
+4) Vyrobte \l;létající kanón\u object\botfj; a vložte do něj \l;jadernou baterii\u object\atomic;. Když proletíte průsmykem na jihovýchodě, dostanete se přímo k mravenčímu hnízdu. Zlikvidujte všechny mravence a zpět k \l;raketě\u object\base; přivezte vzorek \l;organické hmoty\u object\bullet;.
+
+5) Postavte \l;laboratoř\u object\labo;, položte \l;organickou hmotu\u object\bullet; na její plošinku a klikněte na tlačítko \button 110;, abyste spustili vývoj výrobních plánů pro biokanóny.
+
+6) Vyrobte \l;chodící biokanón\u object\botos;, naložte ho do rakety a odleťte.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

@@ -1,0 +1,9 @@
+\b;Kódcsata (számítógép ellen)
+Ez egy \l;a kódcsata\u battles; szint, ahol egy egyszerű program ellen harcolsz, amelyet a játék fejlesztői írtak.
+
+\b;A célod
+Semmisítsd meg a piros csapatot, amely a folyó túloldalán található.
+
+\b;Jegyzetek\m jegyzetek;
+o Csak a kezdő bázis területek alatt található \l;alattomos energiaforrás\u object/enerspot;.
+o Az előre épített \l;olajfúró tornyok\u object\derrick; és \l;Radarállomások\u \object\radar; nem megsemmisíthetők.

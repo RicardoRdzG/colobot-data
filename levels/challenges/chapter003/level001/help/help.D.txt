@@ -1,0 +1,35 @@
+\b;Übung
+Wandeln Sie einige Einheiten \l;Titanerz\u object\titanore; in \l;Titanwürfel\u object\titan; um. Bringen Sie die Würfel dann zu den Flächen mit den Koordinaten:
+\c;
+	x=10, y=-60
+	x=10, y=-65
+\n;
+\image derrick 8 8;
+Der \l;Bohrturm\u object\derrick; fördert Titanerz aus dem Boden; Sie müssen es nur einsammeln.
+
+\image convert 8 8;
+Der \l;Titankonverter\u object\convert; wandelt das Titanerz in verwendbare Titanwürfel um. Nehmen Sie einfach das Titanerz, legen Sie es auf die Plattform, gehen Sie einen Schritt zurück und warten Sie bis es umgewandelt ist.
+
+\b;Vorgehensweise
+Wiederholen Sie 2 mal :
+o  Warten Sie bis etwas Titanerz herumliegt.
+o  Bewegen Sie sich zum Titanerz.
+o  Heben Sie es auf.
+o  Fahren Sie zum Konverter.
+o  Legen Sie das Titanerz ab.
+o  Bewegen Sie sich 2,5 Meter zurück.
+o  Warten Sie, bis der Titanwürfel fertig ist.
+o  Greifen Sie den Titanwürfel.
+o  Fahren Sie zu einer Plattform.
+o  Legen Sie den Titanwürfel ab.
+
+\b;Nützliche Anweisungen
+\c;\l;for\u cbot\for;\n; um einige Anweisungen zu wiederholen
+\c;\l;do - while\u cbot\do;\n; um einige Anweisungen zu wiederholen
+\c;\l;radar\u cbot\radar;\n; um verschiedene Objekte zu orten
+\c;\l;goto\u cbot\goto;\n; um den Roboter zu bewegen
+\c;\l;grab\u cbot\grab;\n; um ein Objekt zu greifen
+\c;\l;drop\u cbot\drop;\n; um ein Objekt abzulegen
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, \l;Variablentypen\u cbot\type; und \l;Kategorien\u cbot\category;.

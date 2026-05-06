@@ -1,0 +1,28 @@
+\b;Instrucción \c;do - while\n;
+Sintaxis:
+\s;\c;do
+\s;{
+\s;	\n;Instrucciones ...\c;
+\s;}
+\s;while ( condición );
+\n;
+Esta instrucción te permite realizar varias veces las instrucciones dentro del \l;bloque\u cbot\bloc;. Las instrucciones se ejecutan al menos una vez, porque la condición se prueba solo después.
+Ten cuidado de no confundir la instrucción \c;do { } while ( );\n; con la instrucción \c;\l;while\u cbot\while; ( ) { }\n;; esta última prueba la condición antes de que se ejecuten las instrucciones en el bloque. 
+
+\t;\c;condición\n;
+Las instrucciones del bloque se ejecutan una y otra vez, siempre y cuando la \l;condición\u cbot\cond; sea verdadera. 
+
+Aquí tienes un ejemplo:
+\s;\c;do
+\s;{
+\s;    p = radar(TitaniumOre);
+\s;}
+\s;while ( p == null );
+\n;
+\t;Atención
+Siempre pon un \l;punto y coma\u cbot\term; al final de la línea \c;while ( )\n;.
+
+Las instrucciones \c;\l;break\u cbot\break;\n; y \c;\l;continue\u cbot\continue;\n; pueden ser útiles dentro de un bloque que sigue a la instrucción \c;do { }\n;.
+
+\t;Ver también
+\l;Instrucciones\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

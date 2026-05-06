@@ -1,0 +1,19 @@
+\b;Műholdas jelentés
+Jelenleg geostacionárius pályán a Crystalium körül.
+\c;
+\s;-> FELSZÍN\c;
+\tab;Hőmérséklet:     3.2C
+\tab;Légkör:          nitrogén
+\tab;Szél:            0.0 m/s
+\tab;Titánérc:        nincs
+\tab;Uránérc:         nincs
+
+\s;-> ALTALAJ\c;
+\tab;Energiaforrás:  elszórt (az űrhajó közelében)
+\tab;Titánérc:       szétszórva
+\tab;Uránérc:        nincs
+
+\s;-> TOVÁBBI INFORMÁCIÓK\c;
+\tab;Észlelve:       férgek
+\tab;  - Veszély:     nincs
+\n;

@@ -1,0 +1,39 @@
+\b;Instrucción \c;motor\n;
+La instrucción \c;motor( , );\n; establece la velocidad de los motores izquierdo y derecho del bot.
+
+\b;Uso básico
+La velocidad dada a los motores permanecerá constante durante la ejecución de las siguientes instrucciones. Gracias a esta característica, es posible realizar una rotación durante la instrucción \c;\l;fire\u cbot\fire;();\n;. Esto barrerá toda una zona con una sola ráfaga. Aquí hay un ejemplo que barrerá la zona frente al bot:
+\c;
+\s;	\l;turn\u cbot\turn;(45);         // gira 45 grados izquierda
+\s;	motor(0.5, -0.5); // rotación lenta a la derecha
+\s;	\l;fire\u cbot\fire;(2);          // dispara
+\s;	motor(0,0);       // detiene la rotación
+\n;
+Con el motor izquierdo girando a media velocidad hacia delante y el motor derecho girando a media velocidad hacia atrás, el robot girará lentamente sobre sí mismo durante los 2 segundos de ráfaga.
+
+\b;Para especialistas
+Sintaxis :
+\s;\c;motor ( izq, der );\n;
+
+Da instrucciones de velocidad a los motores derecho e izquierdo del robot. Los motores mantendrán esta velocidad hasta que se ejecute una nueva instrucción para los motores, o hasta que se ejecute una instrucción de movimiento ( \c;\l;move\u cbot\move;\n; ), giro ( \c;\l;turn\u cbot\turn;\n; ) o desplazamiento ( \c;\l;goto\u cbot\goto;\n; ).
+
+\t;izq: \c;\l;float\u cbot\float;\n;
+Instrucción de velocidad para el motor izquierdo; el valor debe estar entre -1 y 1. 
+
+\t;der: \c;\l;float\u cbot\float;\n;
+Instrucción de velocidad para el motor derecho; el valor debe estar entre -1 y 1. 
+
+Ejemplos:
+\c;motor(1, 1);\n; se mueve hacia adelante con la velocidad máxima posible.
+\c;motor(-0.5, -0.5);\n; se mueve hacia atrás con media velocidad.
+\c;motor(1, -1);\n; gira a la derecha lo más rápido posible. 
+
+Nota:
+\c;motor(2, 2);\n; no se moverá hacia adelante más rápido que \c;motor(1, 1)\n; 
+\c;motor(-2, -2);\n; no se moverá hacia atrás más rápido que \c;motor(-1, -1)\n;
+
+\t;Valor de retorno: \c;\l;void\u cbot\void;\n;
+Ninguno.
+
+\t;Ver también
+\l;Instrucciones\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,14 @@
+\b;Objetivo
+Escreva um programa que pegue um pedaço de \l;minério de titânio\u object\titanore; e coloque no \l;conversor\u object\convert; para produzir um \l;cubo de titânio\u object\titan;.
+
+\t;Programa
+Você precisará de uma nova instrução:
+\c;
+\s;move();\n;
+Instrui o robô a avançar ou retroceder. A distância do movimento é dada entre parênteses em metros: \c;move(10);\n; move o robô 10 m para frente, \c;move(-1);\n; move o robô 1 m para trás .
+
+As instruções \c;\l;turn\u cbot\turn;()\n;, \c;\l;grab\u cbot\grab;()\n; e \c;\l;drop\u cbot\drop;()\n; já foram explicadas nos exercícios anteriores. Se você tiver alguma dúvida sobre essas instruções, clique no nome da instrução sublinhada em azul e uma explicação da instrução será exibida.
+
+O \l;minério de titânio\u object\titanore; está 20 m à frente do robô, o \l;conversor\u object\convert; está 10 m atrás do robô. Depois de soltar o minério de titânio no conversor, não se esqueça de voltar (por exemplo,  \c;move(-2.5);\n;) para permitir que o conversor funcione.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal 

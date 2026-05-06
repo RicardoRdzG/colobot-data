@@ -1,0 +1,39 @@
+\b;Exercício
+Controlar remotamente um robô usando um \l;posto de troca de informações\u object\exchange;, para que ele transporte \l;minério de urânio\u object\uranore;. 
+Os principais atores deste exercício são:
+
+1) Um \l;farejador\u object\botsr; (não pode carregar nada).
+2) Um \l;posto de troca de informações\u object\exchange; que recebe informações de um remetente e as transmite para um destinatário.
+3) Um \l;agarrador\u object\botgr; que aguarda ordens do posto de troca. Você não tem como controlar esse robô diretamente.
+
+\image tremot1a 16 8;
+Um posto de troca de informações armazena casais de "nome / valor". Para controlar o robô "escravo", usamos apenas um par:
+
+    nome="order", valor=número da ordem
+
+O robô escravo entende as seguintes ordens:
+\c;
+    1 -> grab (); // pega um objeto 
+     2 -> drop (); // solta um objeto 
+     3 -> move (10); // move 10 metros para frente 
+     4 -> move (-10); // move 10 metros para trás
+\n;
+Para instruir o escravo a avançar 10 metros, tudo o que você precisa fazer é: 
+\c;\s;	\l;send\u cbot\send;("order", 3, 100);  // order 3 -> "move(10)"
+\n;
+Após a instrução de envio, esperamos 5 segundos para garantir que a movimentação seja feita. 
+\c;\s;	\l;wait\u cbot\wait;(5);
+\n;
+Observação: Existe uma maneira melhor de esperar que o pedido tenha sido executado, mas veremos isso mais tarde no exercício "Controle Remoto # 2".
+
+Para terminar o exercício, você deve:
+
+1) Pegar o minério de urânio
+2) Mover em frente por 10 metros
+3) Soltar o minério de urânio
+4) Mover para trás por 10 metros
+
+Cabe a você escrever o programa.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

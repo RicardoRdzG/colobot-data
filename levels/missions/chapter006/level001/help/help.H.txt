@@ -1,0 +1,13 @@
+\b;A Küldetésirányítástól
+Egy \l;robbanóeszközt\u object\tnt; kell megszereznie, amit egy mély völgyben és egy forró lávától szomszédos tó közelében láttak.
+
+A magas hőmérsékletek miatt a reaktorok már nem működnek, tehát a repülés lehetetlen. Hosszú az út, és robotjait \l;nukleáris akkumulátorokkal\u object\atomic; kell felszerelnie. A nukleáris akkumulátorokat \l;uranércből\u object\uranore; készítik.
+
+Egy hatékonyabb program a nyersanyagok gyűjtésére mellékelve van ehhez az üzenethez.
+
+Figyelmeztetés: a robbanóeszköz rendkívül instabil. Használjon fokozott óvatosságot.
+
+\key;\key help;\norm; lehetővé teszi, hogy ezeket az utasításokat bármikor megtekintse személyes SatCom készülékén \button 63;.
+
+\t;Lásd még
+\l;Parancsok\u command; és \l;CBOT Nyelv\u cbot;

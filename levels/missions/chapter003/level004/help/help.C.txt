@@ -1,0 +1,13 @@
+\b;Zpráva z řídícího střediska
+Toto je další výcviková dráha přichystaná Vašimi předchůdci, tentokrát určená pro testování a nácvik bojových schopností \l;létajících robotů\u object\botfj;. Naučte se na ní pilotovat robota a střílet současně.
+
+Co nejrychleji proleťte skrz všechny kontrolní body a zničte všech 10 cvičných cílů roztroušených podél trasy. Snažte se úkol splnit bez mezipřistání. Hlídejte si ale teplotu motoru: Když se začne přehřívat, prostě přistaňte a nechte ho vychladnout.
+
+Jednou rukou na klávesnici pilotujte robota a druhou rukou na myši miřte a střílejte (levým tlačítkem).
+
+Pokud chcete své reflexy dále zlepšovat, mohli byste si tato cvičení čas od času zopakovat.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

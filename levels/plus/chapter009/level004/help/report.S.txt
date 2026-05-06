@@ -1,0 +1,21 @@
+\b;Reporte del Satélite
+Actualmente en órbita geoestacionaria de Terranova.
+\c;
+\s;-> SUPERFICIE\c;
+\tab;Temperatura:      23.7C
+\tab;Atmósfera:        oxígeno
+\tab;Viento:           0.5 m/s
+\tab;Mineral de titanio:   algo
+\tab;Mineral de uranio:    algo
+
+\s;-> SUBSUELO\c;
+\tab;Fuente de energía:  en algunos lugares (nave espacial)
+\tab;Mineral de titanio:   ninguno
+\tab;Mineral de uranio:    ninguno
+
+\s;-> INFORMACIÓN ADICIONAL\c;
+\tab;Detectado:        hormigas gigantes
+\tab;  - Peligro:      inmediato
+\tab;Detectado:        ponedora gigante
+\tab;  - Peligro:      ?
+\n;

@@ -1,0 +1,7 @@
+\b;Návod
+Pokud Vám stíhaný robot uletí, černou skříňku položí někde na jihozápad od Vaší rakety v oblasti obklopené krystaly.
+
+Pokud Vám dojde baterie, než černou skříňku stačíte dovézt zpět, použijte druhé létající rameno, které čeká u rakety.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

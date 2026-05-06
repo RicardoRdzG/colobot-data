@@ -1,0 +1,9 @@
+\b;Objetivo1
+\image target1 8 8;
+Estos edificios aparecen en las misiones de ejercicio de vuelo y su altura puede variar. En el centro se coloca \l;Target2\u object\target2;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Target1\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

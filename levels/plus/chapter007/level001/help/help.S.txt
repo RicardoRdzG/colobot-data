@@ -1,0 +1,11 @@
+\b;Del Control de Misiones
+Encuentra más \l;materia orgánica\u object\bullet; y, dado un programa de investigación apropiado realizado por tu \l;autolaboratorio\u object\labo;, \l;tú\u object\human; deberías poder fabricar lanzadores orgánicos tú mismo.
+
+Produce un \l;lanzador orgánico con patas\u object\botos; y tráelo de vuelta a tu \l;nave espacial\u object\base;.
+
+Por favor ten en cuenta que los recursos energéticos escasos son una preocupación mayor en este planeta.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

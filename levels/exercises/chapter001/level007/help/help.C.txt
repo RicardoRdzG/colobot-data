@@ -1,0 +1,14 @@
+\b;Úkol
+Přibližte se k pavoukům, kteří jsou mimo dostřel.
+
+\t;Program
+Program bude vypadat podobně jako v předchozím cvičení, ale před výstřelem se přibližte na dostřel příkazem \c;\l;move\u cbot\move;();\n;.
+
+Otázka zní, o kolik metrů musí robot popojet. Příkaz \c;\l;distance\u cbot\dist;( , )\n; počítá vzdálenost mezi dvěma body. V tomto případě potřebujeme znát vzdálenost mezi robotem a cílem. Polohu cíle nám řekne výraz \c;item.position\n;, polohu robota nám řekne prostě \c;position\n;. Vzdálenost mezi robotem a cílem tak spočítáme příkazem \c;\l;distance\u cbot\dist;(position, item.position)\n;. Dostřel plazmového kanónu je 40 metrů. Robot tedy musí ujet \c;\l;distance\u cbot\dist;(position, item.position)-40\n; metrů vpřed, aby se dostal dost blízko. To zajistí následující řádek:
+\c;
+\s;	\l;move\u cbot\move;(\l;distance\u cbot\dist;(position, item.position)-40);
+\n;
+Prostě tento řádek vložte do programu před příkaz \c;fire(1);\n; a robot začne jezdit.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

@@ -1,0 +1,9 @@
+\b;Zpráva z řídícího střediska
+Vetřelci útočí a tentokrát není čas na milosrdenství...
+
+Teď se Vám bude zvlášť hodit Váš nový \l;buchar\u object\bottump;. Zdůrazňujeme však, že byste neměli riskovat odlet, dokud budou v okolí rakety někteří mravenci stále naživu.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

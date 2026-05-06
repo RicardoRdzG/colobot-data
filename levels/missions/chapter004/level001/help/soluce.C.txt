@@ -1,0 +1,12 @@
+\b;Návod
+1) Postavte \l;továrnu na roboty\u object\factory;.
+2) Vyrobte \l;létající rameno\u object\botgj;.
+3) Odvezte \l;kostku titanu\u object\titan; na nejvyšší bod.
+4) Postavte tam \l;radar\u object\radar;.
+5) Vedle rakety postavte \l;výzkumnou stanici\u object\research;.
+6) Spusťte výzkum obranných věží \button 68;.
+7) Vedle radaru postavte \l;obrannou věž\u object\tower;.
+8) Po likvidaci všech červů se můžete vrátit do rakety a odletět.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

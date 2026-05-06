@@ -1,0 +1,28 @@
+\b;\button 164; Central Eléctrica
+\image station 8 8;
+La central eléctrica extrae energía del subsuelo y recarga \l;celdas de energía regular\u object\power; por inducción. Para recargar una celda de energía cargada en la parte trasera de un bot, simplemente mueve el bot al centro de la plataforma y espera unos segundos. Una \l;celda de energía\u object\power; cargada a la distancia de un brazo también puede recargarse. Las \l;celdas de energía nuclear\u object\atomic; no son recargables.
+
+Una planta de energía necesita algo de energía en el subsuelo. Si el informe satelital dice que la energía solo está disponible en algunos lugares, necesitarás un \l;bot detector\u object\botsr; para prospectar el subsuelo. Las marcas que deja proporcionan información sobre lo que encuentra: una \l;cruz verde\u object\enerspot; significa que hay un depósito de energía en ese lugar bajo la superficie, indispensable para la construcción de una central eléctrica o una \l;planta de energía\u object\energy;.
+
+La gran celda de energía en la parte superior de la central que permanece roja después de completar la construcción solo puede significar que el sitio no es geológicamente adecuado.
+
+\t;Requisitos para construir
+Cualquier superficie plana y geológicamente adecuada de al menos 6 metros de ancho.
+
+\t;Entrada
+Celda de energía vacía.
+
+\t;Salida
+Celda de energía recargada.
+
+\t;Fuente de energía
+Energía del subsuelo.
+
+\t;Duración de operación
+Algunos segundos, dependiendo de la capacidad a recargar.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;PowerStation\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

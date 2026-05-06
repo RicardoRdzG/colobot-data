@@ -1,0 +1,15 @@
+\b;Relatório do satélite
+Atualmente em uma órbita geo-estacionária de Centaury.
+\c;
+\s;-> SUPERFÍCIE\c;
+\tab; Temperatura: 25.4C 
+\tab; Atmosfera: oxigênio, nitrogênio, amônia 
+\tab; Vento: 1.2 mps 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> SUBSOLO\c;
+\tab; Fonte de energia: nenhuma 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+\n;

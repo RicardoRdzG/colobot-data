@@ -1,0 +1,11 @@
+\b;Ejercicio
+Programa el bot para que encuentre su camino sin golpearse con las paredes del laberinto. Suponemos que no conoces la configuración del laberinto, pero no hay bifurcaciones ni callejones sin salida. El laberinto está hecho de cuadrados de 5m cada uno.
+
+\b;Instrucciones útiles
+\c;\l;radar\u cbot\radar;\n; para detectar obstáculos
+\c;\l;if\u cbot\if;\n; para probar una condición
+\c;\l;move\u cbot\move;\n; para mover el bot
+\c;\l;turn\u cbot\turn;\n; para girar el bot
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

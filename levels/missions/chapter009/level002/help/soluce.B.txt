@@ -1,0 +1,6 @@
+\b;Passo a passo
+Infelizmente, nenhum passo a passo foi fornecido para esta missão. 
+Você está por sua conta...
+
+\t;Veja também
+\l;Controles\u command;.

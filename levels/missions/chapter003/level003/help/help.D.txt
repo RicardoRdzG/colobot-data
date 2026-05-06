@@ -1,0 +1,16 @@
+\b;Vom Kontrollzentrum
+Eliminieren Sie alle feindlichen Lebensformen.
+Führen Sie das benötigte \l;Forschungsprogramm\u object\research; aus, um ein Offensivwaffensystem zu entwickeln.
+
+Der Satellit hat eine Energiequelle an einer von der letzten Expedition mit einer blauen Fahne markierten Stelle entdeckt (blaues Kreuz auf der Mini-Karte).
+
+Vergessen Sie nicht, zuvor einen Blick auf den Satellitenbericht \button 186; zu werfen; wir glauben dass Sie das bisher nicht immer getan haben.
+
+Wir haben das Aufladeprogramm verbessert. Bitte schauen Sie sich die Seite \button 53; an.
+
+Ein Hinweis zur Warnung: Roboter können nicht tauchen. Im Zweifelsfall testen Sie das Wasser besser selbst bevor Sie einen Roboter hinüber schicken der nicht fliegen kann - das Wasser darf höchstens knietief sein.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

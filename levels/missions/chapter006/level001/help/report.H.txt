@@ -1,0 +1,20 @@
+\b;Műholdjelentés
+Jelenleg geostacionárius pályán a Volcano körül.
+\c;
+\s;-> FELÜLET\c;
+\tab;Hőmérséklet:     84.6C
+\tab;Atmoszféra:     CO2, SO2, HCN, HS, CH4, NH3
+\tab;Szél:           2.2 m/s
+\tab;Titánérc:       mindenütt
+\tab;Uranérc:        néhány
+
+\s;-> Földalatti\c;
+\tab;Energiforrás:  mindenhol
+\tab;Titaniumérc:  nincs
+\tab;Uraniumérc:   nincs
+
+\s;-> További információk\c;
+\tab;Felfedezve:     újrahasznosítható roncsok 
+\tab;Felfedezve:     ismeretlen organizmusok
+\tab;  - Veszély:    ?
+\n;

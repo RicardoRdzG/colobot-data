@@ -1,0 +1,9 @@
+\b;Schritt für Schritt
+Es ist sicherer für \l;Sie\u object\human;, auf dem \l;Raumschiff\u object\base; zu bleiben. Sie können zwar auch dort ein paar Mal getroffen werden, aber nicht so schwer, dass Sie dadurch in Lebensgefahr gerieten.
+
+Setzen Sie Ihren neuen \l;Jetorgashooter\u object\botoj; ein und verschwenden Sie keine Zeit. Vernichten Sie zuerst die Ameisen zu Ihrer Rechten, dann im Uhrzeigersinn um das Raumschiff herum. Fliegen Sie dabei in geringer Höhe.
+
+Falls Sie es auf diese Weise nicht schaffen, bringen Sie den \l;Jetorgashooter\u object\botoj; und danach sich selbst an einen sicheren Ort nördlich des Schiffes. Danach können Sie sich die Zeit nehmen, eine Ameise nach der anderen zu töten; sie können das Raumschiff oder den Flugschreiber nicht beschädigen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

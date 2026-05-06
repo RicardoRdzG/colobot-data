@@ -1,0 +1,17 @@
+\b;Návod
+1) Postavte \l;továrnu na roboty\u object\factory;.
+2) Vyrobte \l;létající detektor\u object\botsj;.
+3) Hledejte podzemní zdroje kolem velkých krystalů, dokud robot nepoloží \l;červený křížek\u object\stonspot;.
+4) Poblíž červeného křížku postavte \l;vrtnou věž\u object\derrick;.
+5) Postavte \l;konvertor\u object\convert;.
+
+Kombinace vrtné věže a konvertoru představuje nevyčerpatelný zdroj \l;titanu\u object\titan;. Spusťte program \c;CollectTitanium2\n;, aby se o zpracování rudy postaral robot.
+
+6) Prozkoumejte podzemní zdroje kolem rakety. \l;Zelený křížek\u object\enerspot; znamená, že na daném místě můžete postavit \l;nabíječku\u object\station;.
+7) Postavte \l;radar\u object\radar;.
+8) Vyrobte \l;létající kanón\u object\botfj;.
+9) Zlikvidujte všechny červy.
+10) Vraťte se do rakety a odleťte.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

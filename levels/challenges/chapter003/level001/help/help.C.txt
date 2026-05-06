@@ -1,0 +1,35 @@
+\b;Cvičení
+Vyrobte z \l;titanové rudy\u object\titanore; několik \l;kostek titanu\u object\titan; a 2 kostky pak položte na značky na souřadnicích:
+\c;
+	x=10, y=-60
+	x=10, y=-65
+\n;
+\image derrick 8 8;
+\l;Vrtná věž\u object\derrick; těží titanovou rudu z podzemí; stačí ji pak jen sebrat.
+
+\image convert 8 8;
+\l;Konvertor\u object\convert; z titanové rudy vyrábí kostky titanu. Jednoduše položte titanovou rudu na plošinku, zacouvejte a počkejte na dokončení výroby.
+
+\b;Obecný postup
+Opakovat dvakrát:
+o  Počkat, dokud se neobjeví titanová ruda.
+o  Dojet k titanové rudě.
+o  Zvednout ji.
+o  Dojet do konvertoru.
+o  Položit titanovou rudu.
+o  Zacouvat 2,5 metru.
+o  Počkat, dokud se neobjeví kostka titanu.
+o  Zvednout kostku titanu.
+o  Dojet na plošinku.
+o  Položit kostku titanu.
+
+\b;Užitečné příkazy
+\c;\l;for\u cbot\for;\n; pro opakování několika příkazů
+\c;\l;do - while\u cbot\do;\n; pro opakování několika příkazů
+\c;\l;radar\u cbot\radar;\n; pro hledání různých objektů
+\c;\l;goto\u cbot\goto;\n; pro dojetí s robotem k cíli
+\c;\l;grab\u cbot\grab;\n; pro zvednutí předmětu
+\c;\l;drop\u cbot\drop;\n; pro položení předmětu
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

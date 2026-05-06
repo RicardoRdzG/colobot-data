@@ -1,0 +1,26 @@
+\b;Ejercicio
+Instruye al bot para que encuentre todas las \l;cruces azules\u object\waypoint; en el suelo, pero no te acerques demasiado a las \l;minas\u object\mine;. Cuando el bot pasa sobre una cruz, desaparece. Aquí está el principio general:
+
+	Repetir para siempre:
+	o  Busca una mina
+	o  Si se ha encontrado una mina, calcula la dirección opuesta
+	o  Busca una cruz
+	o  Si no se ha encontrado nada, detén el programa
+	o  Calcula la dirección de la cruz
+	o  Calcula el valor medio de las dos direcciones
+	o  Establece las velocidades del motor para ir en la dirección media
+
+\b;La instrucción \c;radar\n;
+Para detectar una mina con el \c;\l;radar\u cbot\radar;\n;, recomendamos los siguientes parámetros:
+\c;\s;	radar(Mine, 0, 180, 0, 5);\n;
+Con el ángulo de apertura de 180 grados, las minas que están detrás del bot no se encontrarán. Las minas que están a más de 5 metros también se ignoran.
+
+Para encontrar una cruz azul, simplemente escribe:
+\c;\s;	radar(WayPoint);\n;
+Las cruces azules se encontrarán por todas partes.
+
+Para calcular una dirección, usa \c;\l;direction\u cbot\direct;\n;.
+Para establecer las velocidades del motor, usa \c;\l;motor\u cbot\motor;\n;.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

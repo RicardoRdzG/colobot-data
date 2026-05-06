@@ -1,0 +1,12 @@
+\b;Návod
+1) Najděte v okolí \l;titan\u object\titan;.
+2) Postavte \l;konvertor\u object\convert;.
+3) Postavte \l;výzkumnou stanici\u object\research;.
+4) Spusťte výzkum bucharu \button 66;. 
+5) Vyrobte \l;buchar\u object\bottump;.
+6) Dojeďte s bucharem poblíž vraku rakety a udeřte do země.
+7) Rychle vyzvedněte \l;černou skříňku\u object\bbox; a odvezte ji zpět na palubu \l;rakety\u object\base;.
+8) Naložte buchar a odleťte.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

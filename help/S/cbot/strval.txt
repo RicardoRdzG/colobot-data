@@ -1,0 +1,19 @@
+\b;Instrucción \c;strval\n;
+Convierte una cadena a numero. No confundir la cadena \c;"45"\n; que realmente contiene dos caracteres \c;4\n; y \c;5\n; y el numero \c;45\n;.
+
+Ejemplos:
+\s;\c;	string s = "45"+"12";  // s contiene "4512"
+\s;	float  n =  45 + 12;   // n contiene 67
+\n;
+Sintaxis:
+\s;\c;strval ( cadena );\n;
+\n;
+Ejemplos:
+\s;\c;	float n = strval("1.23");     // n es 1.23
+\s;	float n = strval("12abc45");  // n es 12
+\s;	float n = strval("abc");      // n es 0
+\s;	float n = strval("100")+2;    // n es 102
+\n;
+\t;Ver también
+\c;\l;strlen\u cbot\strlen;\n;, \c;\l;strleft\u cbot\strleft;\n;, \c;\l;strright\u cbot\strright;\n;, \c;\l;strmid\u cbot\strmid;\n;, \c;\l;strfind\u cbot\strfind;\n;, \c;\l;strupper\u cbot\strupper;\n;, \c;\l;strlower\u cbot\strlower;\n;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

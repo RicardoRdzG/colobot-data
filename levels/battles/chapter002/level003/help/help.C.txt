@@ -1,0 +1,5 @@
+\b;Souboj programátorů (střelba na cíl)
+Toto je mapa pro \l;souboj programátorů\u battles;, kde musíte zničit neškodný terč, abyste se naučili pořádně mířit.
+
+\b;Úkol
+Zničte cíl nacházející se na protějším břehu řeky.

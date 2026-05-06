@@ -1,0 +1,9 @@
+\b;Uma notificação urgente do Centro de Controle de Missões
+Quando você estava prestes a decolar, recebemos do satélite a seguinte informação: um robô de um tipo ainda desconhecido foi localizado no vulcão. Tente trazê-lo de volta para sua nave espacial para um estudo mais aprofundado.
+
+Nossos engenheiros na Terra recentemente elaboraram uma fórmula que deveria permitir que os reatores funcionassem adequadamente, pelo menos por um curto período, apesar das altas temperaturas. Os dados foram transmitidos para você.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

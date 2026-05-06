@@ -1,0 +1,50 @@
+\b;Programas enviados por Houston
+A continuación se muestra un programa desarrollado por nuestros ingenieros.
+
+Instruye al \l;bot escudo\u object\botshld; a seguir y proteger al \l;bot fásico\u object\botphaz;.
+\c;
+\s;extern void object::FollowPhazer()
+\s;{
+\s;	\l;object\u cbot\type;    item;              // información sobre el fásico
+\s;	\l;point\u cbot\type;     dest;              // posición a donde ir
+\s;	\l;float\u cbot\type;     dist;              // distancia al fásico
+\s;	
+\s;	item = \l;radar\u cbot\radar;(\l;PhazerShooter\u cbot\category;);
+\s;	\l;if\u cbot\if; ( item == null )
+\s;	{
+\s;		\l;message\u cbot\message;("No se encontró fásico");
+\s;		\l;return\u cbot\return;;                  // detener el programa
+\s;	}
+\s;	\l;shield\u cbot\shield;(1, 25);               // activar el escudo
+\s;	
+\s;	\l;while\u cbot\while; ( true )               // repetir siempre
+\s;	{
+\s;		item = \l;radar\u cbot\radar;(PhazerShooter);// buscar fásico
+\s;		\l;if\u cbot\if; ( item == null )  break;
+\s;		
+\s;		dist = \l;distance\u cbot\dist;(item.position, position);
+\s;		\l;if\u cbot\if; ( dist < 5 )
+\s;		{                        // si está a menos de 5 m:
+\s;			\l;wait\u cbot\wait;(1);             // esperar
+\s;		}
+\s;		\l;else\u cbot\if;                     // de lo contrario:
+\s;		{ // Calcular una posición 5 m antes del fásico
+\s;			dest.x = (item.position.x-position.x)*((dist-5)/dist)+position.x;
+\s;			dest.y = (item.position.y-position.y)*((dist-5)/dist)+position.y;
+\s;			dest.z = (item.position.z-position.z)*((dist-5)/dist)+position.z;
+\s;			\l;goto\u cbot\goto;(dest, 0, 1, 1); // e ir allí
+\s;		}
+\s;	}
+\s;}
+\n;
+\b;Archivos
+Índice de los programas enviados en misiones anteriores:
+
+o  \c;\l;ServirTorre1\u programs/8_ServiceTower1;\n;
+o  \c;\l;RecolectarTitanio3\u programs/7_CollectTitanium3;\n;
+o  \c;\l;MatarHormiga1\u programs/6_KillAnt1;\n;
+o  \c;\l;RecolectarTitanio2\u programs/5_CollectTitanium2;\n;
+o  \c;\l;RecolectarTitanio1\u programs/4_CollectTitanium1;\n;
+o  \c;\l;Recargar2\u programs/3_Recharge2;\n;
+o  \c;\l;Recargar1\u programs/2_Recharge1;\n;
+o  \c;\l;CambiarCelda1\u programs/1_SwitchCell1;\n;

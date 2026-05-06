@@ -1,0 +1,16 @@
+\b;Objetivo
+Mate várias aranhas cuja localização exata não sabemos. Use o radar do robô para encontrá-las.
+
+\t;Programa
+Encontre a aranha mais próxima com a instrução \c;\l;radar\u cbot\radar;(AlienSpider);\n;, como fizemos nos exercícios anteriores com minério de titânio e células de energia. Mas não vá para a posição da aranha, o robô seria destruído antes de chegar lá. Apenas vire para a aranha. A instrução \c;\l;direction\u cbot\direct;(item.position)\n; calcula o ângulo de rotação que o robô deve executar para mirar na aranha. Para realmente mirar na aranha, basta escrever:
+\c;
+\s;	\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\n;
+Observe os dois parênteses no final da linha, antes do ponto e vírgula. Existem dois parênteses abertos, portanto, deve haver dois parênteses de fechamento.
+
+Então atire com a instrução \c;\l;fire\u cbot\fire;(1);\n;.
+
+Aqui também, você pode usar um loop com  \c;\l;while\u cbot\while; (true)\n; para não ter que executar o programa novamente para cada aranha, como fizemos no último exercício.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

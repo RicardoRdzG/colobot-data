@@ -1,0 +1,24 @@
+\b;\button 162; Convertidor
+\image convert 8 8;
+Este edificio fue diseñado para convertir trozos de \l;mineral de titanio\u object\titanore; en \l;cubos de titanio\u object\titan; utilizables. Todo lo que \l;tú\u object\human; necesitas hacer es colocar un trozo en el centro de la plataforma y retroceder. El convertidor se encarga del resto.
+
+\t;Requisitos para construir
+Cualquier superficie plana de al menos 6 metros de ancho.
+
+\t;Entrada
+Mineral de titanio.
+
+\t;Salida
+Titanio.
+
+\t;Fuente de energía
+Ninguno.
+
+\t;Duración de operación
+15 segundos.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Converter\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

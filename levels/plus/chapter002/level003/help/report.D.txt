@@ -1,0 +1,15 @@
+\b;Satellitenbericht
+Gegenwärtig in einer geostationären Umlaufbahn um den Mond.
+\c;
+\s;-> Oberfläche\c;
+\tab;Temperatur:     -38.2°C
+\tab;Atmosphäre:     nicht vorhanden
+\tab;Wind:           0.0 m/s
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Untergrund\c;
+\tab;Energiefelder:  überall
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      nicht vorhanden
+\n;

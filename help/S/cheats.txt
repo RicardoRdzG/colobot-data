@@ -1,0 +1,55 @@
+\b;Trucos
+Genial, has encontrado esta página secreta. Esperamos que uses la información aquí contenida solo para fines distintos a hacer trampa. Como probar el juego o grabar un vídeo genial sobre Colobot.
+
+\b;Consola
+Puedes abrir la consola pulsando el botón \key;\c;~\n;\norm; de tu teclado. Pulsa \key;\c;INTRO\n;\norm; para ocultarla o introduce uno de los comandos de abajo.
+
+\t;Misiones
+o \c;winmission   \n;Gana inmediatamente la misión actual
+o \c;lostmission  \n;Pierde inmediatamente la misión actual
+o \c;allmission   \n;Todas las misiones están desbloqueadas, funciona también en el menú principal
+o \c;showsoluce   \n;Todas las soluciones están desbloqueadas, funciona también en el menú principal
+
+\t;Juego
+o \c;allresearch  \n;Todas las investigaciones están completadas
+o \c;allbuildings \n;Todos los edificios están habilitados
+o \c;all          \n;\c;allbuildings\n; + \c;allresearch\n;
+o \c;fullenergy   \n;Restaura energía en el bot seleccionado
+o \c;fullshield   \n;Restaura escudo en el objeto seleccionado
+o \c;fullrange    \n;El reactor de vuelo está frío
+o \c;fullpower    \n;\c;fullenergy\n; + \c;fullshield\n; + \c;fullrange\n;
+o \c;selectinsect \n;Puedes seleccionar y controlar alienígenas, funciona también en el menú principal, escribe de nuevo para desactivar
+o \c;fly          \n;Puedes volar incluso si el vuelo está deshabilitado en la misión actual
+o \c;invradar     \n;El mini-mapa funciona como si hubieras construido un \l;radar\u object\radar;, funciona también en el menú principal, escribe de nuevo para desactivar
+o \c;addfreezer   \n;El reactor de vuelo se calienta más despacio
+o \c;addhusky     \n;Recibes menos daño de lo normal
+o \c;nolimit      \n;Puedes volar más alto
+o \c;trainerpilot \n;Puedes controlar bots que anteriormente solo podían ser controlados por programas
+o \c;noclip       \n;El objeto seleccionado puede atravesar objetos
+o \c;clip         \n;Desactiva \c;noclip\n; en el objeto seleccionado
+o \c;speed        \n;Establece la velocidad del juego al número dado, por ejemplo \c;speed 2\n; - dos veces más rápido, \c;speed 0.5\n; - dos veces más lento, funciona también en el menú principal
+
+\t;Depuración
+Estos comandos funcionan también en el menú principal. Escríbelos de nuevo para desactivarlos.
+o \c;showstat     \n;Muestra estadísticas de depuración en pantalla, la tecla \key;F12\norm; tiene el mismo efecto
+o \c;debugmode    \n;Activa modo de depuración (útil para desarrolladores): depuración detallada de eventos y otras cosas; asegúrate de ejecutar el juego con \c;-loglevel trace\n; para ver el efecto; ver también el parámetro de línea de comandos \c;-debug\n;
+
+\t;Estética
+o \c;photo1       \n;Cámara libre, puedes cambiar el ángulo con las teclas \key;\c;+\n;\norm; y \key;\c;-\n;\norm;, escribe de nuevo para desactivar
+o \c;photo2       \n;Igual que \c;photo1\n;, excepto que oculta la interfaz, escribe de nuevo para desactivar
+
+\b;CBOT
+Hay comandos ocultos en CBOT que ni siquiera están resaltados en el editor. Se consideran trucos, así que no los uses para programas "legales". Debería estar bien usarlos para crear niveles si no hay otra forma.
+Los números indican el orden de los parámetros.
+
+o \c;\l;produce\u cbot\produce;      \n;Crea inmediatamente un objeto
+o \c;ipf          \n;Establece el número de instrucciones por fotograma, \c;1\n;: el número, por defecto es \c;100\n;
+o \c;delete       \n;Daña el objeto, \c;1\n;: ID del objeto, \c;2\n;: magnifyDamage ( multiplicador de daño ), sin \c;2\n; el objeto explota
+o \c;setbuild     \n;Establece máscara de edificios, \c;1\n;: nueva máscara
+o \c;setresearchenable \n;Establece máscara de investigaciones habilitadas, \c;1\n;: nueva máscara
+o \c;setresearchdone \n;Establece máscara de investigaciones completadas, \c;1\n;: nueva máscara
+o \c;getbuild     \n;Devuelve máscara de edificios
+o \c;getresearchenable \n;Devuelve máscara de investigaciones habilitadas
+o \c;getresearchdone \n;Devuelve máscara de investigaciones completadas
+o \c;playmusic    \n;Reproduce música, \c;1\n;: nombre de archivo, \c;2\n;: repetir
+o \c;stopmusic    \n;Detiene música

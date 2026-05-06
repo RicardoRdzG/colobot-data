@@ -1,0 +1,12 @@
+\b;Instrucción \c;atan\n;
+Sintaxis:
+\s;\c;atan (valor);\n;
+
+\t;valor: \c;\l;float\u cbot\float;\n;
+Número.
+
+\t;Valor de retorno: \c;\l;float\u cbot\float;\n;
+Arco tangente (en grados) del valor.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;expresiones\u cbot\expr;.

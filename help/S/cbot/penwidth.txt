@@ -1,0 +1,15 @@
+\b;Instrucción \c;penwidth\n; (ancho lápiz)
+Sintaxis:
+\s;\c;penwidth ( color );\n;
+La instrucción \c;penwidth();\n; indica al bot que cambie el grosor del lápiz.
+
+\t;width (ancho): \c;\l;float\u cbot\float;\n;
+Ancho del lápiz. El ancho no puede ser superior a \c;1.0\n; ni inferior a \c;0.0\n;. Si se pasa un valor superior, el ancho será el máximo posible, y si se pasa un valor inferior, el ancho será el mínimo posible.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Normalmente un error detiene el programa. Puedes evitar que el programa se detenga ante errores usando la instrucción \c;\l;errmode\u cbot\errmode;(0)\n;. Se devuelve un valor diferente de cero si se produjo un error mediante \c;penwidth();\n;.
+\c;== 0 \n;El ancho se cambió
+\c;!= 0 \n;La instrucción no funcionó
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

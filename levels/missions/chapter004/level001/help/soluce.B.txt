@@ -1,0 +1,12 @@
+\b;Passo a passo
+1) Construa uma \l;fábrica de robôs\u object\factory;.
+2) Produza um \l;agarrador alado\u object\botgj;.
+3) Carregue um \l;cubo de titânio\u object\titan; ao ponto mais alto.
+4) Construa um \l;radar\u object\radar; no local.
+5) Construa um \l;centro de pesquisa\u object\research; ao lado da espaçonave.
+6) Inicie o <defense tower research program> \button 68;.
+7) Construa a \l;torre de defesa\u object\tower; ao lado do radar.
+8) Quando todos os vermes forem destruídos, você pode voltar para a sua nave e decolar.
+
+\t;Veja também
+\l;Controles\u command;.

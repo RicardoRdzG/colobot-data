@@ -1,0 +1,7 @@
+\b;Do Centro de Controle de Missões
+Este planeta é obviamente inadequado para uma colonização duradoura. Recupere a \l;caixa preta\u object\bbox; da expedição anterior e decole.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

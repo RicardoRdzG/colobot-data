@@ -1,0 +1,13 @@
+\b;Do Centro de Controle de Missões
+Parece óbvio que este planeta não será um refúgio para a humanidade.
+
+Construa um radar para transmitir futuras transmissões.
+
+Também ... lamentamos informar que você pode precisar exterminar todos os organismos hostis.
+
+A primeira expedição localizou \l;minério de titânio\u object\titanore; sob a superfície de Orpheon. O local está marcado com uma bandeira \l;azul\u object\flag;.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

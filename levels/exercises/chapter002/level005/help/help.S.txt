@@ -1,0 +1,52 @@
+\b;Objetivo
+Adapta la altura de vuelo del \l;disparador alado\u object\botfj; al terreno.
+
+\t;Programa
+Aquí está una vez más el programa del ejercicio anterior que caza hormigas:
+\c;
+\s;extern void object::JetFighter1()
+\s;{
+\s;	object    item;
+\s;	
+\s;	aim(-20);
+\s;	jet(0.2);
+\s;	while (position.z < 10)
+\s;	{
+\s;		wait(0.2);
+\s;	}
+\s;	jet(0);
+\s;	
+\s;	while (true)
+\s;	{
+\s;		while (radar(AlienAnt, 0, 360, 0, 20) == null)
+\s;		{
+\s;			item = radar(AlienAnt);
+\s;			turn(direction(item.position));
+\s;			motor(1,1);
+\s;			wait(0.2);
+\s;		}
+\s;		fire(1);
+\s;	}
+\s;}
+\n;
+El bot siempre se mantiene a una altitud de 10m sobre el nivel del mar. Esto no está adaptado al terreno montañoso del presente ejercicio, el bot tiene que adaptarse al terreno. La mejor manera de hacerlo es insertar justo antes del \c;wait(0.2);\n; una prueba para ver si la altura sobre el suelo es demasiado baja o demasiado alta, y reaccionar en consecuencia.
+
+Ya vimos que \c;position.z\n; da la altitud sobre el nivel del mar. \c;\l;topo\u cbot\topo;(position)\n; da la altitud del suelo en la posición del bot. Si queremos que el bot se mantenga a una altitud entre 6 y 9m sobre el suelo, debemos tratar los siguientes casos: si \c;position.z-topo(position)\n; es menor que 6, el bot debe subir con \c;jet(1);\n;. Si \c;position.z-topo(position)\n; es mayor que 9, el bot debe bajar con \c;jet(-1);\n;. Para programar estas pruebas, usa la instrucción \c;\l;if\u cbot\if;\n;, que ejecuta las instrucciones entre llaves solo una vez si la condición es verdadera:
+\c;
+\s;	jet(0);
+\s;	if (position.z-topo(position) < 6)
+\s;	{
+\s;		jet(1);
+\s;	}
+\s;	
+\s;	if (position.z-topo(position) > 9)
+\s;	{
+\s;		jet(-1);
+\s;	}
+\n;
+Antes de comenzar las pruebas, estabiliza la altitud con \c;jet(0);\n;: en caso de que la altura sobre el suelo esté entre 6 y 9m, el bot no debe subir ni bajar. Si después se ejecuta \c;jet(1);\n; o \c;jet(-1);\n;, cancelará el \c;jet(0);\n; anterior.
+
+Simplemente inserta estas líneas antes del \c;wait(0.2)\n;, y el bot se adaptará al terreno. Luego puedes eliminar las primeras líneas del programa que establecen la altitud inicial en 10m.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

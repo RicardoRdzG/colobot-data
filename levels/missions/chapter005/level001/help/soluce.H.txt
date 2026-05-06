@@ -1,0 +1,22 @@
+\b;Végigjátszás
+1) Egy \l;titánkockát\u object\titan; találhatsz egy lerombolt robotgyárban. Használd fel, hogy építs egy \l;erőművet\u object\station;.
+
+2) A \l;újrahasznosító\u object\botrecy; a roncsokat használható titánkockákká alakítja vissza.
+
+3) Építs egy \l;javítóközpontot\u object\repair; és egy \l;radart\u object\radar;.
+
+4) Tölts fel egyet az elérhető \l;akkumulátorok\u object\power; közül, és lásd el energiával a \l;szárnyas lövőt\u object\botfj;.
+
+5) Semmisíts meg minden \l;hangyát\u object\ant;. Ne felejtsd el rendszeresen feltölteni és javítani a lövőt. Figyeld az energiaszintedet.
+
+6) Töltsd fel teljesen a \l;markoló\u object\botgr; akkumulátorát, majd irányítsd rádión a csúcsra...
+      a) Az első szintet a nyugati rámpán keresztül éred el;
+      b) Az első szinten menj keletre, hogy megtaláld a második rámpát;
+      c) A második szinten menj délre, hogy megtaláld a harmadik rámpát;
+      d) A harmadik szinten menj nyugatra, hogy elérd a csúcsot;
+...ezután a darabbal a lehető legközvetlenebb úton térj vissza az űrhajóhoz, hogy megőrizd a maradék energiát.
+
+7) Szállj be az űrhajóba és szállj fel.
+
+\t;Lásd még
+\l;Irányítás\u command;

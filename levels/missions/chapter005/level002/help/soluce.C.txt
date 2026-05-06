@@ -1,0 +1,9 @@
+\b;Návod
+Na \l;pojízdném kanónu\u object\botfr; okamžitě spusťte program \c;KillAnt1\n;; ten se postará o první vlnu útoku ze západu.
+
+Pak postavte dvě \l;obranné věže\u object\tower;, jednu na sever a druhou na jih od \l;rakety\u object\base; (musíte si POŘÁDNĚ pospíšit). Zatímco \l;Vy\u object\human; budete stavět, přivezte s \l;pojízdným ramenem\u object\botgr; \l;baterii\u object\power;.
+
+Až zlikvidujete celkem asi patnáct útočících \l;mravenců\u object\ant;, budete mít čas vyřídit i mravence, kteří nezaútočili. Postavte \l;radar\u object\radar;, abyste je našli, a dále \l;konvertor\u object\convert;, \l;továrnu na roboty\u object\factory;, \l;nabíječku\u object\station; a vyrobte \l;létající kanón\u object\botfj;, který na ně pošlete...
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

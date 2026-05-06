@@ -1,0 +1,11 @@
+\b;Cvičení
+Naprogramujte robota, aby našel cestu skrz bludiště a nenarazil při tom do zdi. Předpokládejme, že neznáte přesnou mapu bludiště, ale nejsou v něm žádná rozcestí ani slepé uličky. Bludiště se skládá ze čtvercových polí o rozměrech 5x5 metrů.
+
+\b;Užitečné příkazy
+\c;\l;radar\u cbot\radar;\n; pro hledání překážek
+\c;\l;if\u cbot\if;\n; pro testování podmínek
+\c;\l;move\u cbot\move;\n; pro popojetí s robotem
+\c;\l;turn\u cbot\turn;\n; pro otočení robota
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

@@ -1,0 +1,58 @@
+\b;Ejercicio
+Convierte algo de \l;mineral de titanio\u object\titanore; en \l;cubos de titanio\u object\titan;, luego deja 2 cubos de titanio en las plataformas cuyas coordenadas son:
+\c;
+	x=10, y=-60
+	x=10, y=-65
+\n;
+\image derrick 8 8;
+El \l;derrick\u object\derrick; extrae mineral de titanio del subsuelo; solo tienes que recogerlo.
+
+\image convert 8 8;
+El \l;convertidor\u object\convert; convierte mineral de titanio en cubos de titanio. Solo deja el mineral de titanio en la plataforma, retrocede, y espera hasta que se haya convertido.
+
+\b;Principio general
+Repetir dos veces :
+o  Esperar hasta que haya mineral de titanio.
+o  Ir al mineral de titanio.
+o  Recogerlo.
+o  Ir al convertidor.
+o  Dejar el mineral de titanio.
+o  Retroceder 2.5 metros.
+o  Esperar hasta que haya un cubo de titanio.
+o  Recoger el cubo de titanio.
+o  Ir a la plataforma.
+o  Dejar el cubo de titanio.
+
+\b;El programa
+Un bucle \c;\l;for\u cbot\for;\n; te permite repetir 2 veces todas las instrucciones.
+El mineral de titanio no está disponible inmediatamente. Tendrás que esperar hasta que el derrick lo extraiga. Usa un bucle \c;\l;do\u cbot\do;\n;, de la siguiente manera:
+\c;
+\s;do
+\s;{
+\s;	obj = radar(TitaniumOre);
+\s;}
+\s;while ( obj == null );
+\n;
+Después del bucle (cuando el radar haya encontrado un mineral de titanio), puedes ir a su ubicación \c;obj.position\n; con la instrucción \c;\l;goto\u cbot\goto;\n;. Usa la instrucción \c;\l;grab\u cbot\grab;\n; para recoger el mineral de titanio.
+Usa la siguiente instrucción para encontrar el convertidor:
+\c;
+\s;obj = radar(Converter);
+\n;
+Después de dejar el mineral en el convertidor, retrocede 2.5 metros con \c;\l;move\u cbot\move;(-2.5)\n;.
+Un segundo bucle \c;do\n; te permite esperar hasta que el cubo de titanio esté disponible. Debes limitar el alcance del radar a 5m, de lo contrario encontrarías inmediatamente el cubo de titanio que ya dejaste en una plataforma:
+\c;
+\s;do
+\s;{
+\s;	obj = radar(Titanium, 0, 360, 0, 5);
+\s;}
+\s;while ( obj == null );
+\n;
+Las coordenadas \c;x\n; de las 2 plataformas son todas iguales a 10. Las coordenadas \c;y\n; son respectivamente -60 y -65. La manera más eficiente de obtener las coordenadas de las plataformas es usar el valor de \c;i\n; del bucle \c;for\n; que tomará sucesivamente los valores 0 y 1:
+\c;
+\s;dest.x = 10;
+\s;dest.y = -60-5*i;
+\n;
+Depende de ti terminar el programa...
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

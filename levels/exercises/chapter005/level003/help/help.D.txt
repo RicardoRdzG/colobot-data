@@ -1,0 +1,58 @@
+\b;Übung
+Wandeln Sie \l;Titanerz\u object\titanore; in \l;Titanwürfel\u object\titan; um und legen Sie 2 Würfel auf die Zielflächen, die sich bei folgenden Koordinaten befinden:
+\c;
+	x=10, y=-60
+	x=10, y=-65
+\n;
+\image derrick 8 8;
+Der \l;Bohrturm\u object\derrick; extrahiert Titanerz aus der Erde; Sie müssen es nur aufheben.
+
+\image convert 8 8;
+Der \l;Konverter\u object\convert; wandelt Titanerz in Titanwürfel um. Legen Sie einfach das Titanerz auf die Plattform, gehen Sie ein Stück zurück und warten Sie auf das Ende des Umwandlungsvorgangs.
+
+\b;Vorgehensweise
+Wiederhole zwei mal :
+o  Warten, bis Titanerz vorhanden.
+o  Zum Titanerz fahren.
+o  Titanerz aufheben.
+o  Zum Konverter fahren.
+o  Titanerz ablegen.
+o  2,5m zurück fahren.
+o  Warten, bis Titanwürfel entstanden.
+o  Titanwürfel aufheben.
+o  Zur Zielplattform fahren.
+o  Titanwürfel ablegen.
+
+\b;Programm
+Eine \c;\l;for\u cbot\for;\n;-Schleife ermöglicht Ihnen, alle Anweisungen zweimal auszuführen.
+Das Titanerz ist nicht sofort verfügbar. Sie werden warten müssen, bis der Bohrturm einen Klumpen davon extrahiert hat. Benutzen Sie eine \c;\l;do\u cbot\do;\n;-Schleife wie folgt:
+\c;
+\s;\l;do\u cbot\do;
+\s;{
+\s;	obj = \l;radar\u cbot\radar;(\l;TitaniumOre\u cbot\category;);
+\s;}
+\s;\l;while\u cbot\do; ( obj == \l;null\u cbot\null; );
+\n;
+Nach der Schleife (wenn das Radar Titanerz gefunden hat) können Sie mit der Anweisung \c;\l;goto\u cbot\goto;\n; zu seiner Position \c;obj.\l;position\u cbot\object;\n; fahren. Benutzen Sie \c;\l;grab\u cbot\grab;\n;, um das Titanerz aufzunehmen.
+Benutzen Sie folgende Anweisung, um den Konverter zu finden:
+\c;
+\s;obj = \l;radar\u cbot\radar;(\l;Converter\u cbot\category;);
+\n;
+Nachdem Sie das Erz auf dem Konverter abgelegt haben, bewegen Sie sich mittels \c;\l;move\u cbot\move;(-2.5)\n; um 2,5 Meter zurück.
+Eine weitere \c;\l;do\u cbot\do;\n;-Schleife ermöglicht es, solange zu warten, bis der Titanwürfel erzeugt wurde. Sie müssen die Reichweite des Radars auf 5m begrenzen, denn andernfalls finden Sie den Würfel, den Sie schon auf eine Zielfläche gestellt haben:
+\c;
+\s;\l;do\u cbot\do;
+\s;{
+\s;	obj = \l;radar\u cbot\radar;(\l;Titanium\u cbot\category;, 0, 360, 0, 5);
+\s;}
+\s;\l;while\u cbot\do; ( obj == \l;null\u cbot\null; );
+\n;
+Die \c;x\n;-Koordinaten der beiden Zielflächen sind gleich 10. Die \c;y\n;-Kordinaten sind -60 und -65. Die effektivste Methode, die Koordinaten zu bestimmen, ist die Einbeziehung des Wertes der Laufvariablen \c;i\n; in eine Berechnung. \c;i\n; nimmt nacheinander die Werte 0 und 1 an.
+\c;
+\s;dest.x = 10;
+\s;dest.y = -60-5*i;
+\n;
+Es ist nun Ihre Aufgabe, das Programm fertigzustellen.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

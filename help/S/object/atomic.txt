@@ -1,0 +1,15 @@
+\b;Celda de Energía Nuclear
+\image atomic 4 4;
+Una celda de energía nuclear sirve como fuente de energía para los bots y algunos edificios.
+Su capacidad es 100 veces mayor que la de una \l;celda de energía regular\u object\power;.
+
+Las celdas de energía nuclear no pueden recargarse ni reciclarse. Se necesita una \l;planta nuclear\u object\nuclear; y algo de \l;mineral de uranio\u object\uranore; para producir una nueva celda de energía nuclear completamente cargada.
+
+\t;Transporte
+Todos los \l;recogedores\u object\botgr; y el \l;astronauta\u object\human;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;NuclearCell\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

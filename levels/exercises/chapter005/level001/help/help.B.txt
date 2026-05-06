@@ -1,0 +1,38 @@
+\b;Exercício
+Mova o \l;cubo de titânio\u object\titan; no bloco alvo. Você não sabe a posição do titânio, mas podemos dizer-lhe a posição do bloco alvo: x = 10 e y = -60.
+
+\b;A instrução \c;goto\n;
+Para resolver este problema facilmente, usaremos uma nova maneira de pinça o robô com a instrução \c;\l;goto\u cbot\goto;\n;. Com esta instrução, você pode facilmente alcançar todas as posições, se você souber a localização exata na forma de suas coordenadas x e y. O robô irá girar em direção ao alvo, seguir em frente e até mesmo virar qualquer obstáculo.
+
+Se resumirmos, as diferentes formas de pinça um robô são as seguintes:
+
+\s;\c;motor(esquerdo, direito)\n;
+Permite um controle direto e preciso dos dois motores e permite que você permaneça no controle dos motores a cada fração de segundo.
+
+\s;\c;move(distancia)\n; e \c;turn(angulo)\n;
+Use estas instruções para avançar de uma determinada distância ou para executar uma rotação de um determinado ângulo. Todos os parâmetros são relativos à posição atual do robô.
+
+\s;\c;goto(posicao)\n;
+Permite que você alcance facilmente uma determinada posição absoluta.
+
+\b;O programa
+Use a instrução  \c;\l;radar\u cbot\radar;(Titanium);\n; para encontrar o cubo de titânio. Em seguida, teste se um cubo de titânio foi realmente encontrado. Neste exercício, essa linha não é muito útil, porque sabemos que existe um cubo de titânio em algum lugar. No entanto, é melhor ter o hábito de testar o que seu radar retorna:
+\c;
+\s;object  item;
+\s;item = radar(Titanium);
+\s;if ( item == null )  return;
+\s;goto(item.position);
+\n;
+A variável \c;item\n; é do tipo \c;\l;object\u cbot\object;\n;. Para saber a localização exata do objeto descrito pela variável, apenas escreva \c;item.position\n;.
+
+Para pegar o cubo de titânio, use a instrução \c;\l;grab\u cbot\grab;()\n; sem nenhum parâmetro.
+
+Para eliminar o titânio, use a instrução \c;\l;drop\u cbot\drop;()\n; sem nenhum parâmetro.
+
+Conhecemos as coordenadas do bloco alvo: x = 10 e y = -60. Você deve declarar uma \l;variável\u cbot\var; do tipo \l;point\u cbot\point;, depois preenchê-la com as coordenadas corretas. Então você pode dar essa variável como um parâmetro para a instrução \c;\l;goto\u cbot\goto;\n;.
+Observação: Você não precisa cuidar da coordenada \c;z\n; no caso de um robô que não pode voar.
+
+Agora cabe a você terminar o programa ...
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

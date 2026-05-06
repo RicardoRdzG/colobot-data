@@ -1,0 +1,14 @@
+\b;Übung
+In dieser Übung platziert ein "verrückter Roboter" viele \l;blaue Kreuze\u object\waypoint; auf dem Boden. Versuchen Sie, alle zu finden.
+
+\b;Nützliche Anweisungen
+\c;\l;radar\u cbot\radar;\n; um die blauen Kreuze zu orten (Kategorie \c;\l;Checkpoint\u object\waypoint;\n;)
+\c;\l;direction\u cbot\direct;\n; um die Richtung zu berechnen
+\c;\l;if\u cbot\if;\n; um eine Bedingung zu prüfen
+\c;\l;motor\u cbot\motor;\n; um die Geschwindigkeit der Motoren einzustellen
+
+\t;Bemerkung
+Warten Sie nicht zu lange, denn der verrückte Roboter arbeitet ununterbrochen weiter. So lange wie Sie sich in der Programmierumgebung aufhalten, hält das Spiel glücklicher Weise an.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, \l;Variablentypen\u cbot\type; und \l;Kategorien\u cbot\category;.

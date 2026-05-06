@@ -1,0 +1,19 @@
+\b;Informace ze satelitu
+Aktuálně na stacionární oběžné dráze Terranovy.
+\c;
+\s;-> POVRCH\c;
+\tab;Teplota:           24,3 °C
+\tab;Atmosféra:         kyslík
+\tab;Vítr:              0,8 m/s
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+
+\s;-> PODZEMNÍ LOŽISKA\c;
+\tab;Zdroj energie:     žádný
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+
+\s;-> DOPLŇUJÍCÍ INFORMACE\c;
+\tab;Nalezeno:          obří mravenci
+\tab;  - Nebezpečí:     bezprostřední
+\n;

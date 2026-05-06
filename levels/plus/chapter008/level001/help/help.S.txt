@@ -1,0 +1,13 @@
+\b;Desde Control de Misión
+Parece bastante obvio que este planeta no será un refugio para la humanidad.
+
+Construye un radar para retransmitir futuras transmisiones.
+
+También... lamentamos informarte que es posible que necesites exterminar todos los organismos hostiles.
+
+La primera expedición localizó \l;mineral de titanio\u object\titanore; bajo la superficie de Orpheon. El lugar está marcado con una \l;bandera\u object\flag; azul.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

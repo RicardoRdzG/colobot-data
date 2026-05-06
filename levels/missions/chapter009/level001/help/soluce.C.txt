@@ -1,0 +1,6 @@
+\b;Návod
+Bohužel, pro tuto misi není k dispozici žádný návod.
+Musíte si poradit sami...
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

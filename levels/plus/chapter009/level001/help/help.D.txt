@@ -1,0 +1,15 @@
+\b;Vom Kontrollzentrum
+Wir haben die Information erhalten, dass die erste Expedition eine nagelneue Waffe entworfen hat, um sie auf Terranova einzusetzen. Sie wurde außerhalb der Reichweite von Feinden sicher aufbewahrt. Sie finden die Waffe innerhalb eines \l;Bunkers\u object\safe;, der nur mit Hilfe von vier \l;Schlüsseln\u object\key; geöffnet werden kann. Die Schlüssel sind auf und unter der Oberfläche des Planeten verstreut.
+
+Der Beobachtungssatellit hat einen der Schlüssel (A) nördlich Ihrer derzeitigen Position lokalisiert.
+
+Entsprechend den Anweisungen des Kongresses haben unsere Ingenieure einen anderen sehr "defensiven" Roboter entwickelt: er wird \l;Schutzschild\u object\botshld; genannt und bietet ausreichend Schutz in einer bestimmten Reichweite. Die Daten wurden zusammen mit einigen dazugehörigen Programmen zu Ihrem \l;Forschungszentrum\u object\research; übertragen.
+
+Wie Sie vielleicht wissen, ist Platinerz im Boden ein guter Nährstoff für Pilze. Bitte nehmen Sie auch zur Kenntnis, dass sich das \l;Titanerz\u object\titanore; auf diesem Planeten oft auf dem Grund von Seen finden lässt.
+
+Wenn Sie Ihre Mission erfüllt haben, nehmen Sie, bevor Sie starten, einen \l;Schutzschild\u object\botshld; und einen \l;Kettentaucher\u object\botsub; mit auf Ihr Raumschiff.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

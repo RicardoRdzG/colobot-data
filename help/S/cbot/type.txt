@@ -1,0 +1,33 @@
+\b;Tipos de variables
+Cuando defines una \l;variable\u cbot\var;, debes dar dos elementos: 
+
+1) un nombre
+2) un tipo
+
+Una vez definida una variable, puedes utilizarla para introducir información en ella. Sin embargo, la información que puede contener una variable debe ser siempre del tipo correcto: una variable de tipo \l;float\u cbot\float; no puede contener una cadena, etc.
+
+En un programa, el nombre de un tipo siempre se muestra así: \type;tipo\norm;. Si el nombre de un tipo no está resaltado, esto significa que el nombre está mal escrito. Los nombres de tipo siempre se escriben con caracteres en minúscula. Aquí tienes una lista de los diferentes tipos: 
+
+\s;\c;\l;int\u cbot\int;\n;
+Para un número entero (12, -500, etc.).
+
+\s;\c;\l;float\u cbot\float;\n;
+Para un número real (12, 3.14, 0.2, -99.98, etc.).
+
+\s;\c;\l;bool\u cbot\bool;\n;
+Para una variable booleana, que solo puede tomar los valores \c;verdadero\n; o \c;falso\n;.
+
+\s;\c;\l;string\u cbot\string;\n;
+Para textos ("¡Hola!", "No se ha encontrado ningún objeto", etc.)
+
+\s;\c;\l;point\u cbot\point;\n;
+Para las coordenadas de un punto en el espacio, una variable de este tipo consta de tres partes denominadas 'x', 'y' y 'z'.
+
+\s;\c;\l;object\u cbot\object;\n;
+Una variable de este tipo contiene la información sobre un objeto (bot, edificio, enemigo, etc.).
+
+\s;\c;\l;void\u cbot\void;\n;
+Este tipo es un "tipo vacío", que se utiliza cuando no se desea especificar un tipo.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

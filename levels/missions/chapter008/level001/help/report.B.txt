@@ -1,0 +1,20 @@
+\b;Relatório do satélite
+Atualmente em uma órbita geo-estacionária de Orpheon.
+\c;
+\s;-> SUPERFÍCIE\c;
+\tab;Temperatura:      -72.8C
+\tab;Atmosfera:       nenhuma
+\tab;Vento:             0.0 mps
+\tab;Minério de titânio:     nenhum
+\tab;Minério de urânio:      nenhum
+
+\s;-> SUBSOLO\c;
+\tab; Fonte de energia: nenhuma 
+\tab; Minério de titânio: algum (bandeira azul) 
+\tab; Minério de urânio: nenhum
+
+\s;-> INFORMAÇÃO ADICIONAL\c;
+\tab; Detectado: formigas gigantes 
+\tab; - Perigo: não imediato 
+\tab; Detectado: tempestades eletromagnéticas violentas
+\n;

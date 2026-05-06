@@ -1,0 +1,57 @@
+\b;Cvičení
+Zničte šest \l;cílů\u object\bottarg; pomocí programu s cyklem. Robot musí od jednoho cíle k dalšímu popojet vždy 5 metrů vpřed.
+
+\b;Obecný postup
+Program musí provést následující plán:
+Opakovat šestkrát:
+	o  popojet 5m vpřed
+	o  otočit o 90 stupňů vlevo
+	o  vystřelit
+	o  otočit o 90 stupňů vpravo
+
+\image tfor1 14 5;
+\b;Příkaz \c;for ( )\n;
+Příkaz \c;\l;for\u cbot\for;\n; vyžaduje 3 výrazy:
+1) Inicializaci řídící proměnné cyklu.
+2) Koncovou \l;podmínku\u cbot\cond;.
+3) \l;Výraz\u cbot\expr; na počítání běhů cyklu.
+
+Zde je příklad cyklu vloženého do základu programu:
+\s;\c;extern void object::Ohnostroj( )
+\s;{
+\s;	for ( int i=0 ; i<6 ; i=i+1 )
+\s;	{
+\s;		\n;příkazy, které se mají šestkrát opakovat...\c;
+\s;	}
+\s;}
+\n;
+POZOR: Na konci řádku za příkazem \c;for ( )\n; nesmí být \l;středník\u cbot\term;!
+
+\b;Vysvětlení příkazu \c;for ( )\n;
+1) \c;int i=0\n;
+    Před začátkem cyklu se \l;proměnná\u cbot\var; "i" nastaví na nulu.
+
+2) \c;i<6\n;
+    Cyklus se bude opakovat, dokud bude proměnná "i" menší než 6.
+
+3) \c;i=i+1\n;
+    Na konci každého opakování cyklus se k proměnné "i" přičte 1.
+
+\b;Bloky
+Pomocí složených závorek \c;{ }\n; můžete vytvořit \l;blok příkazů\u cbot\bloc;. Příkazy, které se mají opakovat ve \c;for\n; cyklu, jsou uzavřené do bloku. I tělo samotného programu je uzavřené do bloku:
+\c;
+\s;extern void object::Ohnostroj( )
+\s;{
+\s;	\n;sem pište příkazy...\c;
+\s;}
+\n;
+Tyto znaky nikdy nemažte. Pouze dopište příkazy svého programu mezi složené závorky.
+Můžete také zanořit více bloků do sebe. Například blok \c;for\n; cyklu je zanořený do bloku hlavního programu. Editor programu pro lepší čitelnost zarovnává složené závorky, které patří k sobě.
+
+\b;Pamatujte
+Příkaz pro jízdu vpřed je \c;\l;move\u cbot\move;();\n;.
+Příkaz pro otočení robota je \c;\l;turn\u cbot\turn;();\n;. Kladný úhel otáčí doleva.
+Příkaz pro výstřel z kanónu je \c;\l;fire\u cbot\fire;(1);\n;. Dávka dlouhá jednu sekundu je na zničení všech šesti \l;cílů\u object\bottarg; tak akorát.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

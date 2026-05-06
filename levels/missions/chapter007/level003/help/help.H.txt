@@ -1,0 +1,9 @@
+\b;A Küldetésirányítástól
+Építs egy \l;radart\u object\radar; az egyik legmagasabb elérhető pontra, és gondoskodj róla, hogy semmilyen élőlény ne tudja elpusztítani, miután \l;elhagytad\u object\human; a területet.
+
+Az első expedíció által felállított radar megsemmisülése valószínűleg kommunikációs zavarhoz vezetett, ami a kapcsolat teljes elvesztését okozta.
+
+A \key;\key help;\norm; billentyűvel bármikor újra megtekintheted ezeket az utasításokat a saját SatCom \button 63; eszközödön.
+
+\t;Lásd még
+\l;Vezérlés\u command; és \l;CBOT nyelv\u cbot;

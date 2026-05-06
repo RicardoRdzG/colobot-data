@@ -1,0 +1,48 @@
+\b;Das Ziel
+Bestücken Sie die \l;Jetshooter\u object\botfj; mit \l;Batterien\u object\power;, sodass sie die Ameisen, die sich in dem Nest nördlich von Ihrer Position befinden, vernichten können.
+
+\t;Programm
+Der \l;Radtransporter\u object\botgr; soll zu einer \l;Batterie\u object\power; fahren, sie nehmen, dann zu einem \l;Jetshooter\u object\botfj; fahren und die Batterie ablegen. Diese Aufgabe ist sehr ähnlich zu der der letzten Übung. Hier noch einmal das Programm:
+\c;
+\s;extern void object::Titanium2()
+\s;{
+\s;	object    item;
+\s;	
+\s;	item = radar(TitaniumOre);
+\s;	goto(item.position);
+\s;	grab();
+\s;	
+\s;	item = radar(Converter);
+\s;	goto(item.position);
+\s;	drop();
+\s;}
+\n;
+Die beste Möglichkeit, die vorliegende Übung zu lösen, besteht darin, obiges Programm in die Zwischenablage zu kopieren \button 61; (von \c;object\n; bis \c;drop();\n;), und im Programmeditor einzufügen \button 62;. Danach müssen Sie nur noch die Änderungen vornehmen, die für die Anpassung an die neue Aufgabe nötig sind.
+
+Suchen Sie anstelle von Titan (\c;TitaniumOre\n;) nach einer Batterie (\c;PowerCell\n;). Und gehen Sie nicht zu einem Konverter (\c;Converter\n;), sondern zu einem Jetshooter (\c;WingedShooter\n;). Sobald der Jetshooter eine frische Batterie hat, wird er sich an die Arbeit machen.
+
+Mehr Informationen zu den "Namen" der verschiedenen Objekte in der Programmiersprache finden Sie hier: \l;Kategorienbeschreibungen\u cbot\category;.
+
+\t;Der Debugger
+Um mehr über den genauen Ablauf des Programms zu erfahren, können Sie das Programm auch ausführen, wenn der Editor noch offen ist. Klicken Sie auf den Pfeil, und anschließend auf die Schaltfläche <Pause/Weitermachen>. So wird ständig der Wert der Variablen angezeigt, und ein Rechteck zeigt an, welche Anweisung gerade ausgeführt wird. Sie können auch eine Anweisung nach der anderen ausführen (Schaltfläche <Ein Schritt>).
+
+Alle Programme, die Sie bisher geschrieben haben, enthielten nur Anweisungen, die genau einmal ausgeführt wurden, eine nach der anderen, vom Anfang des Programms bis zu seinem Ende. Sie können den Roboter aber auch anweisen, einige Anweisungen mehrmals zu wiederholen: Schreiben Sie einfach \c;while (true)\n;, eine öffnende geschweifte Klammer, die zu wiederholenden Anweisungen und eine schließende geschweifte Klammer. Man nennt dies eine Schleife. Hier ein Beispiel eines Programmes, das ständig Anweisungen wiederholt, die nach einer Batterie suchen, sie aufnehmen und auf einem Jetshooter ablegen:
+\c;
+\s;	while (true)
+\s;	{
+\s;		item = radar(PowerCell);
+\s;		goto(item.position);
+\s;		grab();
+\s;		
+\s;		item = radar(WingedShooter);
+\s;		goto(item.position);
+\s;		drop();
+\s;	}
+\n;
+Die Variablendeklaration \c;object item;\n; darf natürlich nicht innerhalb der Schleife stehen, sondern davor. Deklarieren Sie Variablen immer nur einmal.
+
+\t;Hinweis
+Ein Roboter kann sein Programm völlig selbständig ausführen. In der Zwischenzeit können Sie den Astronaut selektieren und nachsehen, was beim Nest passiert. Dort wird Ihnen eine tolle Show geboten. Geben Sie aber darauf Acht, nicht von Ihren eigenen Robotern beschossen zu werden.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

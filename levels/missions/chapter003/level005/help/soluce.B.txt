@@ -1,0 +1,15 @@
+\b;Passo a passo
+1) Localize a \l;caixa preta\u object\bbox; sozinha. Você pode tentar localizá-la de cima, usando seu motor a jato, ou mergulhar na água.
+2) Construa um \l;conversor\u object\convert; perto dos pedaços de minério de titânio. Você os encontrará nas proximidades da espaçonave a leste.
+3) Produza dois \l;cubos de titânio\u object\titan;.
+4) Construa uma \l;fábrica de robôs\u object\factory; não muito longe da caixa preta.
+5) Fabrique um \l;mergulhador\u object\botsub;.
+6) Traga a caixa preta de volta a bordo.
+7) Decole.
+
+A caixa preta está no fundo de um pequeno lago, a nordeste da espaçonave.
+
+Você pode construir a fábrica de robôs ao lado do lago, na margem sul.
+
+\t;Veja também
+\l;Controles\u command;

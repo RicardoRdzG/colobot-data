@@ -1,0 +1,22 @@
+\b;Passo a passo
+1) Você encontrará um \l;cubo de titânio\u object\titan; deixado em uma fábrica de robôs esmagados. Use-o para construir uma \l;estação de energia\u object\station;.
+
+2) O \l;reciclador\u object\botrecy; foi projetado para converter os abandonados de volta em cubos de titânio utilizáveis.
+
+3) Construa um \l;centro de reparo\u object\repair; e um \l;radar\u object\radar;.
+
+4) Recarregue uma das \l;células de energia\u object\power; disponíveis e energize um \l;atirador alado\u object\botfj;.
+
+5) Elimine todas as \l;formigas\u object\ant;. Note que você deve recarregar e reparar o atirador regularmente. Verifique seus níveis.
+
+6) Carregue totalmente a célula de energia do \l;agarrador\u object\botgr;, depois controle-o por rádio até o cume...
+       a) Acesse o primeiro nível por rampa no oeste; 
+       b) No primeiro nível, viaje para o leste para encontrar a segunda rampa; 
+       c) No segundo nível, siga para o sul para encontrar a terceira rampa; 
+       d) No terceiro nível, viaje para o oeste para acesso ao cume; 
+...então, com o pedaço, volte direto para a espaçonave pela rota mais direta, de modo a economizar a energia restante.
+
+7) Suba a bordo da nave e decole.
+
+\t;Veja também
+\l;Controles\u command;.

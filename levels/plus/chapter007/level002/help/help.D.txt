@@ -1,0 +1,7 @@
+\b;Vom Kontrollzentrum
+Es ist nun an der Zeit, \l;Ihr\u object\human; Geschick beim Schießen noch einmal zu verbessern. Treffen Sie in der folgenden Übung alle \l;Sprengstoffkörper\u object\tnt;, aber passen Sie auf, denn Ihr \l;Orgashooter\u object\botos; hat nur noch sehr wenig Energie übrig, sie reicht gerade noch um die Übung zu beenden.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

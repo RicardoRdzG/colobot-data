@@ -1,0 +1,20 @@
+\b;Informace ze satelitu
+Aktuálně na stacionární oběžné dráze Vulkánu.
+\c;
+\s;-> POVRCH\c;
+\tab;Teplota:           84,6 °C
+\tab;Atmosféra:         CO2, SO2, HCN, HS, CH4, NH3
+\tab;Vítr:              2,2 m/s
+\tab;Titanová ruda:     všude
+\tab;Uranová ruda:      trocha
+
+\s;-> PODZEMNÍ LOŽISKA\c;
+\tab;Zdroj energie:     všude
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+
+\s;-> DOPLŇUJÍCÍ INFORMACE\c;
+\tab;Nalezeno:          recyklovatelné vraky
+\tab;Nalezeno:          neznámé organizmy
+\tab;  - Nebezpečí:     ?
+\n;

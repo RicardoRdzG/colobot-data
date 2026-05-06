@@ -1,0 +1,12 @@
+\b;Instrucción \c;asin\n;
+Sintaxis:
+\s;\c;asin ( valor );\n;
+
+\t;valor: \c;\l;float\u cbot\float;\n;
+Número entre -1 y 1 (ambos incluidos).
+
+\t;Valor de retorno: \c;\l;float\u cbot\float;\n;
+Arco seno (en grados) del valor.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;expresiones\u cbot\expr;.

@@ -1,0 +1,48 @@
+\b;Úkol
+Rozdejte \l;létajícím kanónům\u object\botfj; \l;baterie\u object\power;, aby mohly zlikvidovat mravenčí hnízdo na sever od Vaší pozice.
+
+\t;Program
+\l;Pojízdné rameno\u object\botgr; musí dojet k \l;baterii\u object\power;, zvednout ji, odjet k \l;létajícímu kanónu\u object\botfj; a položit baterii. Tento úkol je velmi podobný jako v předchozím cvičení. Zde je opět program z minula:
+\c;
+\s;extern void object::Titan2()
+\s;{
+\s;	object    item;
+\s;	
+\s;	item = radar(TitaniumOre);
+\s;	goto(item.position);
+\s;	grab();
+\s;	
+\s;	item = radar(Converter);
+\s;	goto(item.position);
+\s;	drop();
+\s;}
+\n;
+Nejjednodušší způsob, jak toto cvičení vyřešit, je zkopírovat \button 61; výše uvedený program do schránky (od slova \c;object\n; až po \c;drop();\n;) a vložit \button 62; ho do editoru programu. Pak stačí jen udělat potřebné úpravy, aby plnil trochu jiný úkol.
+
+Místo titanové rudy (\c;TitaniumOre\n;) hledejte baterii (\c;PowerCell\n;). Místo ke konvertoru (\c;Converter\n;) jeďte k létajícímu kanónu (\c;WingedShooter\n;). Hned jak kanóny dostanou novou baterii, pustí se do práce.
+
+Pokud se chcete dozvědět více o "názvech" různých druhů objektů v tomto programovacím jazyce, přečtěte si \l;popis kategorií\u cbot\category;.
+
+\t;Další vylepšení: cykly
+Až bude výše popsaný program správně fungovat, můžete ho ještě dále vylepšit, aby svůj úkol prováděl pořád dokola. Pak ho nebudete muset ručně spouštět několikrát za sebou, aby obsloužil více robotů.
+
+Všechny předchozí programy prováděly každý příkaz pouze jednou, jeden po druhém od začátku do konce programu. Robotovi ale můžete říct, aby některé příkazy opakoval: prostě napište \c;while (true)\n;, levou složenou závorku, příkazy, které se mají opakovat, a pravou složenou závorku. Tomuto opakování příkazů se říká cyklus. Tady je příklad pogramu, který pořád dokola opakuje příkazy na vyhledání baterie, její zvednutí a položení do létajícího kanónu:
+\c;
+\s;	while (true)
+\s;	{
+\s;		item = radar(PowerCell);
+\s;		goto(item.position);
+\s;		grab();
+\s;		
+\s;		item = radar(WingedShooter);
+\s;		goto(item.position);
+\s;		drop();
+\s;	}
+\n;
+Deklarace proměnné \c;object item;\n; je před cyklem, ale mohla by být i na jeho začátku. Ale pozor, pokud ji deklarujete uvnitř cyklu, pak se při každém opakování její obsah na začátku vymaže, a po skončení cyklu už nebude dostupná vůbec.
+
+\t;Poznámky
+Robot může svůj program stejně dobře vykonávat i bez Vašeho dohledu. Mezitím můžete přepnout na kosmonauta a jít se podívat, co se bude dít v hnízdě, ta podívaná za to stojí. Ale dávejte pozor, aby Vás netrefili Vaši vlastní roboti...
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

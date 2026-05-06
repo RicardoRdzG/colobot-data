@@ -1,0 +1,15 @@
+\b;Végigjátszás
+1) Építs gyorsan egy \l;villámfelfogót\u object\captor; a kék zászló közelébe.
+A további épületeket a <range> \button 41; hatókörén belül építsd meg, amit a villámfelfogó lefed.
+2) Helyezz néhány üres \l;energiacellát\u object\power; a villámfelfogó alá. Amikor becsap a villám, feltöltődnek.
+3) Építs egy \l;fúrótornyot\u object\derrick;.
+4) Építs egy \l;konvertert\u object\convert;.
+5) Futtasd a \c;CollectTitanium3\n; programot titán \l;kitermeléséhez\u object\titan;.
+6) Építs egy \l;robotgyárat\u object\factory;.
+7) Gyárts egy \l;szárnyas orga lövőt\u object\botoj;.
+8) Építs egy \l;radart\u object\radar;.
+9) Keresd meg és semmisítsd meg az összes \l;hangyát\u object\ant;.
+10) Térj vissza az \l;űrhajódhoz\u object\base;, és szállj fel.
+
+\t;Lásd még
+\l;Irányítás\u command;

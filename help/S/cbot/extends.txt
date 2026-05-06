@@ -1,0 +1,107 @@
+\b;La palabra clave \c;extends\n; ( extiende )
+Esta palabra clave se utiliza en la definición de una \c;\l;clase\u cbot\class;\n; cuando queremos que la clase herede miembros de otra clase. La clase que se extiende se suele denominar clase padre o base, mientras que la clase que la extiende se denomina clase hija.
+
+\t;Ejemplo
+\c;
+\s;public class Padre
+\s;{
+\s;	void foo()
+\s;	{
+\s;		message("foo");
+\s;	}
+\s;}
+\s;
+\s;public class Hijo extends Padre
+\s;{
+\s;	void bar()
+\s;	{
+\s;		message("bar");
+\s;	}
+\s;}
+\s;
+\s;extern void object::Prueba()
+\s;{
+\s;	Hijo hijo();
+\s;	hijo.foo(); // Mostrará "foo"
+\s;	hijo.bar(); // Mostrará "bar"
+\s;}
+\n;
+
+\b;Miembros Heredados
+Solo se heredan los miembros \c;\l;públicos\u cbot\public;\n; y \c;\l;protegidos\u cbot\protected;\n;. Los miembros \c;\l;privados\u cbot\private;\n; son directamente inaccesibles incluso para un hijo, aunque se puede acceder a ellos indirectamente a través de métodos heredados.
+
+Los constructores y destructores no se heredan, sin embargo, pueden ser sobrescritos ( overriden ).
+
+\b;Sobrescritura De Métodos (Overriding)
+Los métodos heredados pueden sobrescribirse (redefinirse) en la definición de la clase hija. Ejemplo:
+\c;
+\s;public class Padre
+\s;{
+\s;	void foo()
+\s;	{
+\s;		message("foo");
+\s;	}
+\s;}
+\s;
+\s;public class Hijo extends Padre
+\s;{
+\s;	void foo()
+\s;	{
+\s;		message("bar");
+\s;	}
+\s;}
+\s;
+\s;extern void object::Test()
+\s;{
+\s;	Hijo hijo();
+\s;	hijo.foo(); // Mostrará "bar"
+\s;}
+\n;
+El método de un padre se puede llamar dentro de un método sobrescrito utilizando la palabra clave \c;\l;super\u cbot\super;\n;.
+
+\b;Polimorfismo
+Una \c;\l;referencia\u cbot\pointer;\n; de tipo Padre puede apuntar a un objeto de tipo Hijo. Sin embargo, dicho puntero no se puede usar para acceder a un miembro hijo. Para acceder a un miembro hijo, debe asegurarse que la referencia Padre realmente apunte a un objeto Hijo. Si ese es el caso, se puede copiar de forma segura a un puntero de tipo Hijo, que tiene acceso a los miembros hijo.
+
+\t;Ejemplo
+\c;
+\s;public class Padre
+\s;{
+\s;	void foo()
+\s;	{
+\s;		message("foo");
+\s;	}
+\s;}
+\s;
+\s;public class Hijo extends Padre
+\s;{
+\s;	void foo()
+\s;	{
+\s;		message("bar");
+\s;	}
+\s;	void bar()
+\s;	{
+\s;		message("foo bar");
+\s;	}
+\s;}
+\s;
+\s;extern void object::Test()
+\s;{
+\s;	Padre gente[2];
+\s;	gente[0] = new Padre();
+\s;	gente[1] = new Hijo();
+\s;	for (int i = 0; i < 2; ++i)
+\s;	{
+\s;		gente[i].foo();
+\s;	}
+\s;	//gente[1].bar(); // Error
+\s;	Hijo hijo = gente[1];
+\s;	hijo.bar(); // OK
+\s;}
+\n;
+
+\b;Herencia múltiple
+Un hijo no puede tener varios padres, sin embargo, un padre puede tener muchos hijos.
+
+\t;Ver también
+\c;\l;class\u cbot\class;\n;, \c;\l;public\u cbot\public;\n;, \c;\l;private\u cbot\private;\n;, \c;\l;protected\u cbot\protected;\n;, \c;\l;new\u cbot\new;\n;, \c;\l;referencia\u cbot\pointer;\n;, \c;\l;this\u cbot\this;\n;, \c;\l;super\u cbot\super;\n;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

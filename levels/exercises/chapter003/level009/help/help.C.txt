@@ -1,0 +1,39 @@
+\b;Cvičení
+Ovládejte robota na dálku prostřednictvím \l;komunikační stanice\u object\exchange;, aby převážel \l;uranovou rudu\u object\uranore;.
+Hlavní role v tomto cvičení hrají:
+
+1) \l;Pojízdný detektor\u object\botsr; (nemůže nic převážet).
+2) \l;Komunikační stanice\u object\exchange;, která přijme informace od odesílatele a pošle je příjemci.
+3) \l;Pojízdné rameno\u object\botgr;, které čeká na povely od komunikační stanice. Tohoto robota nemůžete ovládat přímo.
+
+\image tremot1a_cs 16 8;
+Do komunikační stanice lze ukládat informace v podobě dvojice "název-hodnota". K ovládání "dělníka" bude stačit jen jedna taková dvojice:
+
+    název="order", hodnota=číslo povelu
+
+Dělník rozumí následujícím povelům:
+\c;
+    1 -> grab();     // zvednout předmět
+    2 -> drop();     // položit předmět
+    3 -> move(10);   // popojet o 10 metrů vpřed
+    4 -> move(-10);  // zacouvat o 10 metrů
+\n;
+Když chcete dělníkovi dát povel, aby popojel o 10 metrů vpřed, stačí napsat toto:
+\c;\s;	\l;send\u cbot\send;("order", 3, 100);  // povel 3 -> "move(10)"
+\n;
+Po příkazu send počkáme 5 sekund, aby dělník měl čas daný povel vykonat.
+\c;\s;	\l;wait\u cbot\wait;(5);
+\n;
+Poznámka: Na vykonání povelu se dá čekat i lepším způsobem, ale to si ukážeme později ve cvičení "Dálkové ovládání #2".
+
+Pro splnění cvičné úlohy musíte:
+
+1) Zvednout uranovou rudu
+2) Popojet vpřed o 10 metrů
+3) Položit uranovou rudu
+4) Zacouvat o 10 metrů
+
+Napsat vhodný program už je na Vás.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

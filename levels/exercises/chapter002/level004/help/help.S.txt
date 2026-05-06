@@ -1,0 +1,10 @@
+\b;Objetivo
+Programa un \l;disparador alado\u object\botfj; para cazar todas las hormigas en la región.
+
+\t;Programa
+En este pantano, un disparador con ruedas u orugas tiene poco uso. Y las hormigas, a diferencia de las arañas, siguen moviéndose: no puedes simplemente girar hacia la hormiga más cercana, avanzar y disparar.
+
+La forma más fácil de resolver el problema consiste en volar a una altura de 10 metros, apuntando hacia abajo con \c;aim(-20);\n;, y acercarse a la hormiga con un bucle condicional mientras la \l;distancia\u cbot\dist; sea mayor que 20m. En este bucle condicional, debes buscar la hormiga más cercana, girar hacia ella, poner los motores a máxima velocidad con \c;motor(1,1);\n;, y esperar un poco, por ejemplo 0.2 segundos. Todas estas instrucciones deben repetirse hasta que la hormiga esté a menos de 20 metros. Luego simplemente dispara.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

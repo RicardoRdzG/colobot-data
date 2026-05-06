@@ -1,0 +1,8 @@
+\b;Cvičení
+V tomto cvičení za sebou "pomatený robot" nechává na zemi spoustu \l;modrých křížků\u object\waypoint;. Využijte program z předchozího cvičení, abyste je uklidili. Ověříte si tím flexibilitu takového programu: dokáže se přizpůsobit libovolnému prostředí.
+
+\t;Poznámky
+Zbytečně neotálejte, protože pomatený robot už začal řádit. Naštěstí se hra během psaní programu pozastaví.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

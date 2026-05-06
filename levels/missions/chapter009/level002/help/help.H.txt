@@ -1,0 +1,9 @@
+\b;A küldetésirányítástól
+Szerezd meg a második \l;kulcsot\u object\key; (B). Valószínűleg a közeledben található.
+
+Miután a küldetést teljesítetted, és mielőtt felszállnál, vidd a \l;védőrobotot\u object\botshld; és a \l;alámerülőt\u object\botsub; a hajódra.
+
+A \key;\key help;\norm; segítségével bármikor újra megnézheted ezeket az utasításokat a személyes SatCom \button 63; eszközödön.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

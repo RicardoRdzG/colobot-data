@@ -1,0 +1,7 @@
+\b;Cvičení
+Pošlete \l;robota\u object\bottr; najít všechny \l;modré křížky\u object\waypoint; na zemi, ale nepřibližujte se k \l;minám\u object\mine;.
+
+Když se robot přiblíží na méně než 2 metry ke středu miny (tedy k bodu vrácenému příkazem radar), mina vybuchne. Jenže musíte počítat i se setrvačností robota. Udržovat vzdálenost alespoň 3 až 3,5 metru bude bezpečnější.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

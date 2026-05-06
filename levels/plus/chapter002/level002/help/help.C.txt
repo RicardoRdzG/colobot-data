@@ -1,0 +1,17 @@
+\b;Zpráva z řídícího střediska
+Toto zařízení přichystala předchozí výprava pro testování a nácvik leteckých schopností robotů.
+
+\b;Úkol
+Pořádně těchto cvičení využijte. Vaše přežití v budoucích kritických situacích může záviset na obratnosti, kterou Vám pomohou získat.
+
+\b;Postup
+Co nejrychleji proleťte skrz všechny kontrolní body. Snažte se to stihnout dřív, než se Vám přehřeje tryskový motor. Pokud to nepůjde, prostě na chvíli přistaňte a nechte motor vychladnout.
+
+Robota byste měli řídit pomocí šipek na klávesnici, ale jednu ruku nechte na myši. V tomto cvičení nemůžete myší nic ovládat, ale v pozdějších misích ji budete potřebovat.
+
+Pokud chcete své reflexy dále zlepšovat, mohli byste si tato cvičení čas od času zopakovat.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

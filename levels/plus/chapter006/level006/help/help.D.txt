@@ -1,0 +1,7 @@
+\b;Vom Kontrollzentrum
+Sie müssen einen letzten Angriff der Insekten abwehren, bevor Sie abheben können.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

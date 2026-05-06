@@ -1,0 +1,7 @@
+\b;Schritt für Schritt
+Wenn Ihr Roboter plötzlich explodiert, ist die Ursache dafür, dass Sie zu oft gegen ein Hinderniss geprallt sind. Fliegen Sie langsamer, damit Ihr Roboter nicht beschädigt wird, wenn Sie gegen ein Hinderniss fliegen.
+
+Wenn Sie nicht abheben können, nachdem Sie die Übung absolviert haben, bedeutet das, dass sie nicht alle Ringe durchflogen haben. Drehen Sie noch eine Runde und suchen Sie nach übrig gebliebenen Kreuzen in den Ringen und nach Sprengkörpern.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

@@ -1,0 +1,11 @@
+\b;Vom Kontrollzentrum
+Es hat sich herausgestellt, dass die Besiedlung dieses Planeten sehr unwahrscheinlich ist. Es ist besser, ihn für immer zu verlassen. Finden Sie den \l;Flugschreiber\u object\bbox; der letzten Expedition und fliegen Sie zum nächsten Planeten.
+
+Der Beobachtungssatellit zeigt seine gegenwärtige Position am Boden eines Tals an. Allerdings könnten die Informationen vom Satelliten durch die Schicht aus elektromagnetischem Smog recht unzuverlässig sein.
+
+Passen Sie auf.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

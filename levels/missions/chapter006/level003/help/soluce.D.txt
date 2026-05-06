@@ -1,0 +1,11 @@
+\b;Schritt für Schritt
+1) Laden Sie einen \l;Krabbelshooter\u object\botfs;. Eine hinterlassene \l;Brennstoffzelle\u object\fuelcell; finden Sie hinter der \l;Roboterfabrik\u object\factory;.
+
+2) Klettern Sie an den nördlichen Felsen hoch und töten Sie ein paar \l;Ameisen\u object\ant;. Der beste Zugang bietet sich aus dem Osten.
+
+3) Machen Sie weiter, bis alle Ameisen aus dem Weg sind.
+
+4) Erklettern Sie die nördlichen Felsen mit einem \l;Krabbeltransporter\u object\botgs; und holen Sie den \l;Flugschreiber\u object\bbox;, den Sie in der verfallenen Roboterfabrik finden.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

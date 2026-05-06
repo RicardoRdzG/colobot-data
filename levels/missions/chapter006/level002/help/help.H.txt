@@ -1,0 +1,17 @@
+\b;A Misszióirányításból
+Az előző expedíció néhány információt adott nekünk egy \l;szerves anyagról\u object\bullet;, amely úgy tűnik, hogy az \l;hangyák\u object\ant; által termelt, és amely megdöbbentő új lehetőségeket nyitott meg. Ez látszólag lehetővé teszi egy új típusú mutáns robot létrehozását, amely a rovarrészek felhasználásával fokozott teljesítménnyel bír.
+
+A feladatod, hogy kísérletezz a "zöld arany" első gyakorlati alkalmazásával. Építs egy \l;lábas grabber robotot\u object\botgs;, tedd fel a űrhajóra és indítsd el.
+
+\b;Eljárás
+Vegyél egy mintát a szerves anyagból egy óriás hangyák fészkéből. Az elemzést egy \l;autolab\u object\labo; végzi el, amely a szükséges kutatásokat is elvégzi a gyakorlati alkalmazás lehetővé tétele érdekében.
+
+A védelmi képességed javítása érdekében egy programot továbbítottunk a \l;grabber robotjaid\u object\botgr;-nak, amely gondoskodik egy \l;védőtorony\u object\tower; akkumulátorának feltöltéséről (lásd \button 53; ).
+
+\b;Megjegyzés
+A hőmérséklet jelentősen csökkent, ezért most már lehetséges a repülés.
+
+\key;\key help;\norm; allows you to review these instructions at all times on your personal SatCom \button 63;.
+
+\t;See also
+A \l;Vezérlés\u command; és a \l;CBOT Nyelv\u cbot;

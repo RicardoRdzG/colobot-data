@@ -1,0 +1,7 @@
+\b;Exercício
+Instrua seu \l;robô\u object\bottr; para encontrar todas as \l;cruzes azuis\u object\waypoint; no chão, mas não se aproxime demais das \l;minas\u object\mine;.
+
+Se um robô ficar a menos de 2m do centro de uma mina (que é a posição retornada pela instrução de radar), ela explodirá. No entanto, você deve levar em conta a inércia do robô. Provavelmente, uma distância de segurança de 3 a 3,5 m seria mais apropriada.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

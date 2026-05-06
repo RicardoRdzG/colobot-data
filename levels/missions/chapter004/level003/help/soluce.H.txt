@@ -1,0 +1,7 @@
+\b;Végigjátszás
+Ha elveszíted a robotot, a fekete dobozt valahol a űrhajód délnyugati részén, kristályokkal körülvett területen ejti le.
+
+Ha kifogysz az energiából, mielőtt visszavinnéd a fekete dobozt, használd a második fogót, ami az űrhajón maradt.
+
+\t;Lásd még
+\l;Irányítás\u command;

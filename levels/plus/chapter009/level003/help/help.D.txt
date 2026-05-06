@@ -1,0 +1,9 @@
+\b;Vom Kontrollzentrum
+Der dritte \l;Schlüssel\u object\key; (C) ist in einer Gegend vergraben, die mit vielen Pilzen bewachsen ist. Ein \l;Schnüffler\u object\botss; sollte in der Lage sein, ihn zu finden und ein \l;Bohrturm\u object\derrick; kann ihn herausholen.
+
+When your mission is completed and before taking off, bring both \l;shielder\u object\botshld; and \l;subber\u object\botsub; aboard your spaceship.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

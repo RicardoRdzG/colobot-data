@@ -1,0 +1,103 @@
+\b;Exercício
+Controle remotamente um robô escravo sem usar um \l;posto de troca de informações\u object\exchange;. O robô deve passar pelas 6 cruzes azuis. Você deve usar uma \l;string\u cbot\string; para passar as ordens para o robô escravo. Esta string contém a ordem que o escravo deve executar, por exemplo \c;"move (20)"\n;. Você pode ver que esta é a mesma sintaxe usada na linguagem CBOT, mas poderíamos ter escolhido qualquer outra sintaxe para exemplo algo como \c;"avance = 20" </ code>. A string será um membro de classe <code>\l;static\u cbot\static;\n; que será usada para se comunicar do mestre para o escravo.
+
+Os dois principais atores deste exercício são:
+1) O \l;agarrador com rodas\u object\botgr; sem uma célula de energia e, portanto, imóvel. Este é o mestre que você deve programar para transmitir ordens ao escravo.
+2) O \l;robô de prática\u object\bottr; escravo que já está programado e apenas aguarda ordens do mestre.
+
+\b;O escravo
+Primeiro de tudo, devemos entender como funciona o programa do escravo. A \l;classe\u cbot\class; \c;troca\n; contém o mecanismo de troca dos pedidos. Nós declaramos um \c;membro de classe \l;estático\u cbot\static;\n; \c;m_ordem\n; que conterá a ordem a ser executada. A palavra \c;static\n; assegura que o membro \c;m_ordem\n; seja compartilhado entre todas as instâncias da classe \l;troca\u cbot\class;.
+
+\c;\s;\l;public\u cbot\public; \l;class\u cbot\class; troca
+\s;{
+\s;	\l;static\u cbot\static; \l;private\u cbot\private; \l;string\u cbot\string; m_ordem = "";
+
+\n; O método \c;colocar\n; será usado pelo robô mestre para transmitir um pedido. Contanto que a string \c;m_ordem\n; não esteja vazia, o escravo não terminou a ordem e o método \c;colocar</ code> retornará <code>false\n; e não fará nada....
+
+\c;\s;	\l;synchronized\u cbot\synchro; \l;bool\u cbot\bool; colocar(string ordem)
+\s;	{
+\s;		if ( m_ordem == "" )
+\s;		{
+\s;			m_ordem = ordem;
+\s;			return true;
+\s;		}
+\s;		else
+\s;		{
+\s;			return false;
+\s;		}
+\s;	}
+\n;
+Outro método \c;pegar\n; será usado pelo escravo para recuperar as ordens. Este método retorna a string contida em \c;m_ordem\n; e a esvazia, então um novo pedido pode ser aceito:
+
+\c;\s;	\l;synchronized\u cbot\synchro; string pegar()
+\s;	{
+\s;		string retorno = m_ordem;
+\s;		m_ordem = "";
+\s;		return retorno;
+\s;	}
+\s;}
+\n;
+O programa principal do escravo contém uma instância da classe \c;troca\n; chamada \c;lista\n;.
+
+\c;\s;\l;extern\u cbot\extern; void object::Escravo3( )
+\s;{
+\s;	troca lista();
+\s;	string   para_fazer;
+\n;
+O laço externo \c;while\n; dura para sempre. O laço interno \c;while\n; espera por uma ordem usando o método \c;pegar\n; da classe \c;troca\n;. Assim que \c;pegar\n; retorna uma string não vazia, o laço while para.
+
+\c;\s;	\l;while\u cbot\while; ( true )
+\s;	{
+\s;		\l;while\u cbot\while; ( true )
+\s;		{
+\s;			para_fazer = lista.pegar();
+\s;			if ( para_fazer != "" )  break;
+\s;			wait(1);
+\s;		}
+\n;
+Agora recebemos a ordem na variável \c;para_fazer\n;. Tudo o que temos a fazer é executá-la:
+
+\c;\s;		if ( \l;strfind\u cbot\strfind;(para_fazer, "move") == 0 )
+\s;		{
+\s;			move(\l;strval\u cbot\strval;(\l;strmid\u cbot\strmid;(para_fazer,5)));
+\s;		}
+\s;		if ( strfind(para_fazer, "turn") == 0 )
+\s;		{
+\s;			turn(strval(strmid(para_fazer,5)));
+\s;		}
+\s;	}
+\s;}
+\n;
+\b;O mestre
+No mestre nós escrevemos uma função chamada \c;EnviarOrdem\n; que irá enviar um pedido para o escravo:
+
+\c;\s;void object::EnviarOrdem(string ordem)
+\s;{
+\s;	troca lista();
+\s;	
+\s;	while ( lista.colocar(ordem) == false )
+\s;	{
+\s;		wait(1);
+\s;	}
+\s;}
+\n;
+O laço \c;while\n; aguarda até que uma ordem pendente seja terminada, ou seja, o escravo saiu do método \c;pegar\n;. 
+Agora o programa principal do mestre é muito simples:
+
+\c;\s;extern void object::Remoto3( )
+\s;{
+\s;	EnviarOrdem("move(20)");
+\s;	EnviarOrdem("turn(90)");
+\s;	EnviarOrdem("move(20)");
+\s;	EnviarOrdem("turn(90)");
+\s;	EnviarOrdem("move(10)");
+\s;	EnviarOrdem("turn(90)");
+\s;	EnviarOrdem("move(10)");
+\s;	EnviarOrdem("turn(-90)");
+\s;	EnviarOrdem("move(10)");
+\s;}
+\n;
+\key;\key help;\norm; mostra essas instruções a qualquer momento.
+
+\t;Veja também
+\l;Controles e <a cbot>Linguagem CBOT\u command;

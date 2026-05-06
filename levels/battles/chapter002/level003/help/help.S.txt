@@ -1,0 +1,5 @@
+\b;Batalla de Código (disparando a un objetivo)
+Este es un nivel de \l;batalla de código\u battles;, donde necesitas disparar a un objetivo inofensivo, para aprender a apuntar correctamente.
+
+\b;Objetivo
+Destruye el objetivo ubicado en el lado opuesto del río.

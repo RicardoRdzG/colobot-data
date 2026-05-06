@@ -1,0 +1,8 @@
+\b;Plataforma de Meta
+La plataforma de meta es un objetivo que se debe alcanzar en algunos ejercicios.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;GoalArea\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

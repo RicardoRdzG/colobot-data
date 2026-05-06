@@ -1,0 +1,17 @@
+\b;Souboj programátorů (proti vetřelcům)
+Toto je cvičná mapa pro souboj programátorů, abyste se seznámili s tímto \l;herním režimem\u battles;.
+
+\t;Stručný úvod
+Souboj programátorů je zcela nový herní režim přidaný v Colobotu: Zlaté edici. Několik týmů v něm bojuje proti sobě a zvítězí ten, který přežije nejdéle. Jak název napovídá, v tomto herním režimu musíte vše ovládat pouze pomocí programů.
+
+Doporučujeme Vám přečít si \l;poznámky\u %lvl%/help/help.%lng% notes; níže.
+
+\b;Váš úkol
+Zlikvidujte všechny vetřelce na protějším břehu řeky.
+
+\b;Poznámky\m notes;
+o \l;Vetřelci\u object\ant; na Vás nezaútočí, pokud se k nim moc nepřiblížíte.
+o V malém okruhu kolem počátečních základen jsou jediné \l;podzemní zdroje energie\u object\enerspot;.
+o \l;Vrtná věž\u object\derrick; a \l;radar\u object\radar; stojící na mapě od začátku jsou nezničitelné.
+o Mohla by se Vám hodit \l;dokumentace jazyka CBOT\u cbot;.
+o Pokud hrajete Colobot poprvé, doporučujeme přečíst si \l;základy výrobního řetězce\u battles production;.

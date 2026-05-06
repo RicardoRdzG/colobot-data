@@ -1,0 +1,13 @@
+\b;Do Centro de Controle de Missões
+Este é outro curso de formação criado pelos seus antecessores e destina-se a testar e treinar a capacidade de disparo de \l;robôs alados\u object\botfj;. Use-o para se familiarizar com as duas ações simultâneas de tiro ao voar.
+
+Voe rapidamente por todos os alvos e atire nos 10 dispositivos explosivos espalhados pelo caminho. Tente completar o exercício sem tocar o chão. Observe seu reator: se ele superaquecer, basta pousar o robô e deixar esfriar.
+
+Use uma mão no teclado para pilotar o robô e a outra mão no mouse para mirar e atirar (botão esquerdo).
+
+Pode ser útil voltar a esses treinos de vez em quando se quiser melhorar ainda mais os seus reflexos.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

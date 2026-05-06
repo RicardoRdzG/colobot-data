@@ -1,0 +1,64 @@
+\b;Objectif
+Ecrire un petit programme pour tuer trois araignées.
+
+\t;Marche à suivre
+1) Pour programmer le robot, sélectionnez-le.
+2) Les chiffres 1 à 4 correspondant aux programmes contenus dans le robot apparaissent dans le coin inférieur gauche de votre écran. Sélectionnez la première ligne.
+3) Cliquez sur le bouton avec les accolades \button 22;, et vous arriverez dans un éditeur où vous pourrez écrire le programme.
+4) Pendant que vous écrivez le programme, la touche \key;\key help;\norm; affiche le texte que vous êtes en train de lire. Lorsque vous avez terminé d'écrire le programme, cliquez sur le bouton "OK".
+5) Exécutez le programme en cliquant sur la flèche \button 21;.
+
+\t;Programme
+Vous devez expliquer au robot, étape par étape, ce qu'il doit faire pour tuer les trois araignées. Le robot ne comprend que des instructions simples et précises, qu'il exécutera l'une après l'autre.
+
+Lorsque vous cliquez sur le bouton \button 22; pour écrire le programme, une partie sera déjà là pour vous aider :
+\c;
+\s;extern void object::Spider1( )
+\s;{
+\s;	
+\s;	\n;//... écrire votre programme ici...\c;
+\s;	
+\s;}
+\n;
+Tout ce qui est déjà écrit lorsque vous arrivez dans l'éditeur ne doit pas être modifié. Il suffit d'introduire les instructions nécessaires au niveau du curseur.
+
+Vous aurez besoin des instructions suivantes:
+\c;
+\s;aim(0);\n;
+\n;Positionner le canon bien droit.
+\c;
+\s;turn();\n;
+\n;Tourner le robot d'un certain angle, donné en degrés entre les parenthèses. Par exemple \c;turn(90);\n; tourne le robot à gauche de 90 degrés, c'est-à-dire d'un quart de tour à gauche. \c;turn(-90);\n; tourne le robot à droite de 90 degrés (quart de tour à droite). Les valeurs négatives font tourner à droite. \c;turn(180);\n; fait faire un demi-tour.
+\c;
+\s;fire(1);
+\n;Tire avec le canon. La valeur entre parenthèses indique la durée de la rafale. En général, on tire toujours des rafales d'une seconde. (Après, un tir d'un dizième de seconde est très efficiace également et plus économique)
+
+Voyons le début du programme:
+o  on met le canon bien droit avec \c;aim(0);\n;
+o  on tire sur la cible qui est droit devant avec \c;fire(1);\n;
+o  on tourne à gauche de 90 degrés avec \c;turn(90)\n;
+o  on tire avec \c;fire(1);\n;
+o  etc.
+
+Voici le programme correspondant:
+\c;
+\s;extern void object::Go( )
+\s;{
+\s;	aim(0);
+\s;	fire(1);
+\s;	turn(90);
+\s;	fire(1);
+\s;}
+\n;
+A vous de faire la suite!
+
+Si vous avez un problème, vous pouvez toujours regarder la solution : sélectionnez le programme \c;Solution\n; dans le coin inférieur gauche de l'écran, et cliquez sur le bouton avec les accolades \button 22;. Vous pouvez même exécuter le programme de solution avec le bouton flèche \button 21;. (Parfois, le bouton est désactivé pour la solution, il suffit de copier-coller le code dans un nouveau programme que vous pourrez exécuter et partir de cette base pour vos tests et futurs évolutions)
+
+\t;Remarques
+Veillez à écrire les instructions avec précision, en respectant les minuscules et les majuscules. Vous pouvez changer les noms des variables et du programme pour que ce soit plus parlant pour vous. Vous pouvez également ajouter des commentaires après un double slash :"//", cela ne changera pas le programme pour vos robots.
+
+Toujours écrire une instruction par ligne, en terminant chaque ligne par un point-virgule. Ensuite vous pouvez mettre un commentaire avec double slash "//" suivi de ce que vous voulez. (ces explications vous permettront de reprendre directement reprendre facilement vos programmes, même plusieurs mois après...)
+
+Si votre programme ne fait pas exactement ce que vous voulez, vous pouvez remettre le robot au point de départ avec le bouton \button 59;. Vous pouvez également recommencer depuis le début (appuyez sur la touche "Esc", puis cliquez sur "Redémarrer"). Le programme que vous avez écrit ne sera pas perdu.
+
+\key;\key help;\norm; permet de revoir les instructions générales en tout temps. De même, \key;\key prog;\norm; accède aux explications du langage de programmation CBOT.

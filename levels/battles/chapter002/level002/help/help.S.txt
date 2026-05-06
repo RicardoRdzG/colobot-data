@@ -1,0 +1,9 @@
+\b;Batalla de Código (vs Computadora)
+Este es un nivel de \l;batalla de código\u battles;, donde fightes contra un simple programa escrito por los desarrolladores del juego.
+
+\b;Tu objetivo
+Destruye al equipo rojo ubicado en el lado opuesto del río.
+
+\b;Notas\m notas;
+o Solo hay \l;una fuente de energía subterránea\u object/enerspot; debajo de las áreas de la base inicial.
+o Los \l;Derricks\u object\derrick; y \l;RadarStations\u \object\radar; pre-construidos son indestructibles.

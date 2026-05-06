@@ -1,0 +1,53 @@
+\b;Programas enviados por Houston
+Hemos desarrollado un programa que se encarga de recargar la celda de energía de una \l;torre de defensa\u object\tower;:
+
+1) Ir a una \l;torre de defensa\u object\tower;.
+2) Esperar hasta que la \l;celda de energía\u object\power; esté al 80% vacía.
+3) Agarrar la \l;celda de energía\u object\power; y recargarla en una \l;estación de energía\u object\station;.
+4) Colocarla de nuevo en la \l;torre de defensa\u object\tower;.
+
+Construye la \l;estación de energía\u object\station; lo más cerca posible de la torre para reducir el tiempo en que la torre no tiene celda de energía. Un buen truco es colocar una celda de energía en el suelo frente a la torre. La avispa atacará la celda de energía, y si el primer disparo falla o una avispa llega cuando la torre de defensa no tiene energía, solo se destruirá la celda de energía y no la torre de defensa.
+\c;
+\s;extern void object::ServiceTower1()
+\s;{
+\s;	\l;object\u cbot\object;  tower;               // información sobre torre
+\s;	\l;object\u cbot\object;  station;             // información sobre estación
+\s;	
+\s;	// 1) ir a la torre de defensa
+\s;	tower = \l;radar\u cbot\radar;(DefenseTower); // buscar torre
+\s;	\l;goto\u cbot\goto;(tower.position);        // ir allí
+\s;	
+\s;	\l;while\u cbot\while; ( true )               // repetir siempre
+\s;	{
+\s;		// 2) esperar hasta que la celda esté vacía
+\s;		\l;while\u cbot\while; ( tower.energyCell.energyLevel > 0.2 )
+\s;		{
+\s;			\l;wait\u cbot\wait;(2);
+\s;		}
+\s;		\l;grab\u cbot\grab;();                  // agarrar la celda de energía
+\s;		
+\s;		// 3) ir a la estación de energía para recargar
+\s;		station = \l;radar\u cbot\radar;(PowerStation);
+\s;		\l;goto\u cbot\goto;(station.position);  // ir allí
+\s;		\l;while\u cbot\while; ( load.energyLevel < 1 )
+\s;		{
+\s;			\l;wait\u cbot\wait;(1);             // esperar hasta recargar
+\s;		}
+\s;		
+\s;		// 4) volver a la torre de defensa
+\s;		\l;goto\u cbot\goto;(tower.position);    // ir a la torre
+\s;		\l;drop\u cbot\drop;();                  // soltar la celda de energía
+\s;	}
+\s;}
+\n;
+\b;Archivos
+Índice de los programas enviados en misiones anteriores:
+
+o  \c;\l;RecolectarTitanio3\u programs/7_CollectTitanium3;\n;
+o  \c;\l;MatarHormiga1\u programs/6_KillAnt1;\n;
+o  \c;\l;RecolectarTitanio2\u programs/5_CollectTitanium2;\n;
+o  \c;\l;RecolectarTitanio1\u programs/4_CollectTitanium1;\n;
+o  \c;\l;Recargar2\u programs/3_Recharge2;\n;
+o  \c;\l;Recargar1\u programs/2_Recharge1;\n;
+o  \c;\l;CambiarCelda1\u programs/1_SwitchCell1;\n;
+

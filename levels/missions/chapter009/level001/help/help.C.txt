@@ -1,0 +1,15 @@
+\b;Zpráva z řídícího střediska
+Právě jsme dostali zprávu, že první výprava vyvinula zcela novou zbraň pro boj na Terranově. Aby ji ochránili před nepřáteli, uložili ji do \l;trezoru\u object\safe;, který lze otevřít pouze pomocí čtyř \l;klíčů\u object\key;. Tyto klíče pak ukryli na různých místech na povrchu i pod povrchem planety.
+
+Průzkumný satelit objevil jeden z těchto klíčů (A) na sever od Vaší současné polohy.
+
+Naši inženýři v souladu se směrnicí Kongresu vyvinuli dalšího čistě "obranného" robota: Nazýváme ho \l;mobilní štít\u object\botshld; a na omezeném prostoru dokáže vytvořit neproniknutelné ochranné pole. Poslali jsme Vám potřebná data pro \l;výzkumnou stanici\u object\research; včetně několika souvisejících programů.
+
+Jak možná víte, podzemní ložiska uranové rudy představují vynikající hnojivo pro různé druhy hub. Dále pamatujte, že na této planetě se \l;titanová ruda\u object\titanore; nejčastěji vyskytuje na dně jezer.
+
+Po dokončení mise naložte před odletem do rakety také \l;mobilní štít\u object\botshld; a \l;ponorku\u object\botsub;.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

@@ -1,0 +1,84 @@
+\b;Objetivo
+Derrube as vespas voadoras de uma maneira mais eficiente do que com o programa anterior.
+
+\b;Programa
+Aqui está novamente o programa do exercício anterior que abate todas as vespas depois de muitas, muitas tentativas malsucedidas:
+\c;
+\s;extern void object::Vespa1()
+\s;{
+\s;	\l;object\u cbot\type;    item;
+\s;	
+\s;	\l;aim\u cbot\aim;(0);
+\s;	
+\s;	\l;while\u cbot\while; (true)
+\s;	{
+\s;		\l;while\u cbot\while; (\l;radar\u cbot\radar;(AlienWasp, 0, 360, 0, 20) == null)
+\s;		{
+\s;			item = \l;radar\u cbot\radar;(AlienWasp);
+\s;			\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;			\l;motor\u cbot\motor;(1,1);
+\s;			
+\s;			\l;jet\u cbot\jet;(0);
+\s;			\l;if\u cbot\if; (position.z > item.position.z)
+\s;			{
+\s;				\l;jet\u cbot\jet;(-0.3);
+\s;			}
+\s;			
+\s;			\l;if\u cbot\if; (position.z < item.position.z - 1)
+\s;			{
+\s;				\l;jet\u cbot\jet;(0.3);
+\s;			}
+\s;			
+\s;			\l;wait\u cbot\wait;(0.2);
+\s;		}
+\s;		item = \l;radar\u cbot\radar;(AlienWasp);
+\s;		\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;		\l;fire\u cbot\fire;(1);
+\s;	}
+\s;}
+\n;
+As muitas falhas se devem ao fato de que a vespa já se foi antes que as balas possam alcançá-la. A única maneira de melhorar o programa consiste em ajustar a potência dos dois motores e do jato de tal maneira que o robô siga o movimento do alvo durante a rajada.
+
+Pouco antes do disparo, o programa ajusta pela última vez a direção com \c;turn(direction(item.position));\n;. Para acompanhar a vespa durante a rajada, você deve "lembrar" o ângulo desta última rotação: se o ângulo foi positivo (rotação para a esquerda), o robô deve continuar a virar à esquerda durante a rajada; Se o ângulo foi negativo, o robô deve continuar a virar à direita.
+
+Para "lembrar" o ângulo da última rotação, precisamos de uma variável que possa conter apenas um número. Se escolhermos chamá-lo de <code>angulo</ code>, devemos definir a variável com a seguinte linha no início do programa:
+\c;
+\s;	\l;float\u cbot\type; angulo;
+\n;
+O tipo de variável \l;float\u cbot\type; é o tipo de variável que pode conter qualquer número, ou seja, números inteiros ou reais. Por favor, consulte o texto \l;sobre tipos de variáveis\u cbot\type; se você quiser saber mais sobre os diferentes tipos de variáveis e o que elas podem conter.
+
+Pouco antes da instrução \c;fire(1);\n;, em vez de escrever \c;\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));\n;, vamos colocar o ângulo de rotação na variável \c;angulo\n;:
+\c;
+\s;	angulo = direction(item.position);
+\n;
+Em seguida, realizamos a rotação e definimos a potência dos motores para que o robô continue o movimento:
+\c;
+\s;	turn(angulo);
+\s;	if (angulo < 0)
+\s;	{
+\s;		motor(1,0.5);
+\s;	}
+\s;	else
+\s;	{
+\s;		motor(0.5,1);
+\s;	}
+\n;
+A instrução \c;else\n; determina quais instruções o programa deve executar se a condição declarada na instrução \c;if\n; for falsa.
+
+Então devemos definir o poder do jato para que o robô siga a vespa também na direção vertical:
+\c;
+\s;	jet(0);
+\s;	if(position.z > item.position.z)
+\s;	{
+\s;		jet(-0.3);
+\s;	}
+\s;	
+\s;	if(position.z < item.position.z - 1)
+\s;	{
+\s;		jet(0.3);
+\s;	}
+\n;
+Como você verá, este programa é muito mais eficiente que o anterior!
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

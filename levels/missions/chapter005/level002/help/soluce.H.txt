@@ -1,0 +1,9 @@
+\b;Útmutató
+Azonnal futtassa a \c;KillAnt1\n; programot a \l;kerekes lövőn\u object\botfr;; ő fogja kezelni az első támadási hullámot, ami nyugatról jön.
+
+Ezután építsen két \l;védő tornyot\u object\tower;, egyet az \l;űrhajó\u object\base; északán, a másikat délre (ezt SOKKAL gyorsabban kell megtennie). Amíg \l;ön\u object\human; épít, használja a \l;fogót\u object\botgr; egy \l;akkumulátor\u object\power; megszerzésére.
+
+Amint a következő támadási hullámok, körülbelül tizenöt \l;hangyából\u object\ant;, elmúlnak, lesz időd foglalkozni azokkal a hangyákkal, amelyek nem támadtak. Építs egy \l;radart\u object\radar;, hogy megtaláld őket, és egy \l;konvertert\u object\convert;, egy \l;robotgyárat\u object\factory;, egy \l;erőművet\u object\station; és egy \l;szárnyas lövőt\u object\botfj;, hogy megszabadulj tőlük...
+
+\t;Lásd még
+A \l;vezérlés\u command;

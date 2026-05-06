@@ -1,0 +1,25 @@
+\b;\button 174; Captor de Energía
+\image captor 8 8;
+El captor de energía funciona tanto como conductor de rayos como conversor de energía.
+Ofrece protección en un radio de 50 metros contra los peligrosos rayos de las tormentas magnéticas. Además, cuando el captor es alcanzado por un rayo, todas las \l;celdas de energía\u object\power; de los bots dentro del radio (excepto las \l;celdas de energía nuclear\u object\atomic;) se recargan.
+
+Para visualizar la zona protegida por un captor de energía, selecciónalo y presiona el botón <range> \button 41;. Puntos rojos delimitarán la zona circular durante 20 segundos.
+
+En la inmensidad del espacio, pocos planetas sufren tormentas magnéticas. Entre los que visitarás, solo Orpheon está sujeto a este fenómeno.
+
+Ten en cuenta que tu \l;nave espacial\u object\base; también puede actuar como conductor de rayos. Sin embargo, no recargará las celdas de energía.
+
+\t;Requisitos para construir
+Cualquier superficie plana de al menos 10 metros de ancho.
+
+\t;Fuente de energía
+Rayos.
+
+\t;Duración de operación
+1 segundo.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;PowerCaptor\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

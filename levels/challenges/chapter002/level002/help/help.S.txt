@@ -1,0 +1,20 @@
+\b;Ejercicio
+Debes seguir al \l;bot objetivo\u object\bottr; con el dispositivo explosivo, pero sin tocarlo, de lo contrario explotará. Cada vez que el bot objetivo se detiene, debes estar cerca (menos de 10m). Después de lograr mantenerse cerca del bot objetivo en 10 paradas sucesivas, te llevará a la plataforma de llegada y el ejercicio termina. En cada parada, el bot objetivo comprueba que estás ahí. Si no estás, debes empezar de nuevo.
+
+\b;Principio general
+Repetir para siempre:
+o  Busca el bot objetivo.
+o  Calcula la distancia hasta el bot.
+o  si la distancia al bot objetivo es menor de 5m, retrocede.
+o  De lo contrario, calcula la dirección del bot objetivo, y muévete hacia él.
+
+\b;Instrucciones útiles
+\c;\l;radar\u cbot\radar;\n; para buscar el bot (categoría \c;\l;TargetBot\u object\bottarg;\n;)
+\c;\l;radar\u cbot\radar;\n; para detectar obstáculos
+\c;\l;distance\u cbot\dist;\n; para calcular una distancia
+\c;\l;direction\u cbot\direct;\n; para calcular una dirección
+\c;\l;if\u cbot\if;\n; para probar una condición
+\c;\l;motor\u cbot\motor;\n; para establecer las velocidades del motor
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

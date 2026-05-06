@@ -1,0 +1,209 @@
+\b;Expresiones
+Las expresiones se utilizan para realizar diversos cálculos con muchas variables diferentes, que devuelven el resultado deseado. Lo que las distingue de las instrucciones estándar son los operadores, que se describen a continuación.
+
+Concretamente, una expresión es una serie ordenada de operaciones que dan un resultado. Las operaciones consisten en operadores, que son \l;funciones\u cbot\function; especiales \c;T f(t1 x1, t2 x2, ..., tn xn)\n;, donde \c;xi\n; es un valor del tipo \c;ti\n;, y \c;T\n; es el tipo de resultado. Por ejemplo, \c;float +(float a, float b)\n; devuelve la suma de los valores \c;a\n; y \c;b\n;. Nota: Los operadores forman parte del lenguaje CBOT y no se pueden definir en el programa. Además, los operadores no se pueden utilizar como \l;funciones\u cbot\function; habituales, sino que deben escribirse utilizando una notación especial dependiendo del operador, por ejemplo \c;a+b\n;.
+
+En casi todas las operaciones, \l;las constantes\u cbot;, \l;las variables\u cbot\var;, \l;las funciones\u cbot\function; que devuelven tipos\l;no vacios\u cbot\void; y otras operaciones pueden utilizarse como valores.
+
+\b;Operaciones binarias
+Suponiendo que \c;a\n; y \c;b\n; pueden ser valores de variables declaradas e inicializadas de tipos \c;t1\n; y \c;t2\n;, las operaciones binarias se pueden describir de la siguiente manera:
+\s;\c;r = a op b\n;
+Donde \c;r\n; es el resultado de la operación y \c;op\n; es un operador binario que funciona con valores de los tipos \c;t1\n; y \c;t2\n;.
+
+\t;Orden de las operaciones
+Si \c;op1 b op2 c\n; es una expresión legal, se aplican las siguientes reglas:
+o Si \c;op1 == op2\n; o \c;op1\n; es tan fuerte como \c;op2\n; o \c;op1\n; es más fuerte que \c;op2\n;, primero calcula \c;a op1 b\n; y almacena el resultado en una variable temporal \c;r\n;, luego calcula \c;r op2 c\n;, que es el resultado final de la expresión.
+o Si \c;op1\n; es más débil que \c;op2\n;, primero calcula \c;b op2 c\n; y almacena el resultado en una variable temporal \c;r\n;, luego calcula \c;a op1 r\n;, que es el resultado final de la expresión.
+
+Nota: una operación puede hacerse más fuerte rodeándola entre corchetes, por lo que, por ejemplo, suponiendo que \c;op1\n; es más débil que \c;op2\n;, en una expresión \c;(a op1 b) op2 c\n;, la operación \c;a op1 b\n; se ejecutará primero.
+
+Sugerencia: siempre usa corchetes si no estás seguro del orden de las operaciones, no intentes recordar cuán fuerte es cada uno de los operadores. Generalmente debería ser bastante obvio.
+
+Aquí tienes un ejemplo complicado, que usa operaciones aritméticas descritas a continuación, mostrando cómo se calculan las expresiones:
+\c;Supón que a, b, c, d, x, y, z, e son todas variables inicializadas de tipo float o int. Entonces la siguiente expresión debe calcularse de la siguiente manera:
+  a * b + c - d / x % (y * z) - e =
+= r1 + c - d / x % (y * z) - e    = , r1 = a * b
+= r2 - d / x % (y * z) - e        = , r2 = r1 + c
+= r2 - r3 % (y * z) - e           = , r3 = d / x
+= r2 - r3 % r4 - e                = , r4 = y * z
+= r2 - r5 - e                     = , r5 = r3 % r4
+= r6 - e                          = , r6 = r2 - r5
+= r7                                , r7 = r6 - e
+r7 es el resultado final de esta expresión.Aquí tienes un ejemplo complicado, que usa operaciones aritméticas descritas a continuación, mostrando cómo se calculan las expresiones:
+\c;Supón que a, b, c, d, x, y, z, e son todas variables inicializadas de tipo float o int. Entonces la siguiente expresión debe calcularse de la siguiente manera:
+  a * b + c - d / x % (y * z) - e =
+= r1 + c - d / x % (y * z) - e    = , r1 = a * b
+= r2 - d / x % (y * z) - e        = , r2 = r1 + c
+= r2 - r3 % (y * z) - e           = , r3 = d / x
+= r2 - r3 % r4 - e                = , r4 = y * z
+= r2 - r5 - e                     = , r5 = r3 % r4
+= r6 - e                          = , r6 = r2 - r5
+= r7                                , r7 = r6 - e
+r7 es el resultado final de esta expresión.
+\n;
+
+\b;Operador de asignación
+\c;=\n; es el operador de asignación. Se utiliza para almacenar el resultado de una expresión en una variable.
+
+A la izquierda de este operador debe haber lo que se denomina un valor l, y a la derecha, un valor r. Los valores l son simplemente \l;variables\u cbot\var; (\n;), mientras que los valores r son expresiones o valores normales. Esto hace que el operador de asignación sea especial, ya que lo que se considera un valor l es bastante restrictivo (no puede ser una expresión, una constante, etc., solo una variable única). Además, el tipo del valor l debe coincidir con el tipo del valor r (a menos que sea posible una conversión, por ejemplo, asignar un \c;\l;float\u cbot\float;\n; a \c;\l;un int\u cbot\int;\n;).
+
+Nota: puede que no resulte obvio al principio, pero ten en cuenta que \c;=\n; es un *operador*, no una instrucción. ¡Esto significa que se puede utilizar en medio de otra expresión. El resultado de \c;=\n; es el valor que se ha asignado al valor l, es decir, el resultado de la expresión de la derecha. Ejemplo:
+\c;
+\s; float a;
+\s; float b = 2.0 * (a = 4.0); // b == 8.0
+\n;
+Este ejemplo es realmente confuso, pero esta propiedad es realmente útil, porque permite hacer algo como esto:
+\c;
+\s; float a, b, c, d, e;
+\s; a = b = c = d = e = 1.0; // a == b == c == d == e == 1.0
+\n;
+\b;Operaciones aritméticas básicas
+Los operadores binarios que se muestran a continuación funcionan con tipos de números fundamentales (\c;\l;int\u cbot\int;\n;, \c;\l;float\u cbot\float;\n;).
+
+\t;Lista
+\c;+\n;  suma
+\c;-\n;  resta
+\c;*\n;  multiplicación
+\c;/\n;  división
+\c;%\n;  resto o modulo de la división (funciona para \c;\l;int\u cbot\int;\n; así como para \c;\l;float\u cbot\float;\n;)
+
+\t;Notas
+o Los signos \c;*\n;, \c;/\n; y \c;%\n; son más fuertes que \c;+\n; y \c;-\n;.
+o \l;El tipo de\u cbot\type; resultado es siempre \c;\l;float\u cbot\float;\n;. Si \c;a\n; o \c;b\n; son de tipo \c;\l;int\u cbot\int;\n;, se convierten automáticamente a \c;\l;float\u cbot\float;\n;. Nota: esto significa que los resultados de los cálculos intermedios tienden a ser lo más precisos posible, la precisión solo se pierde durante la conversión del resultado final (\c;\l;float\u cbot\float;\n;) a \c;\l;int\u cbot\int;\n;, por ejemplo, mediante el operador de asignación \c;=\n;.
+
+\t;Ejemplos de la vida real
+\c;
+\s; int    i = 12 + 3;      // i == 15
+\s; int    i = 2 - 5;       // i == -3
+\s; 
+\s; float  f = 3.01 * 10;   // f == 30.1
+\s; 
+\s; int    i = 5 / 3;       // i == 1 ( conversión automática a int)
+\s; float  f = 5 / 3;       // f == 1.67
+\s; float  f = 5 / 0;       // devuelve un error (división por cero)
+\s; 
+\s; int    i = 13 % 5;      // i == 3
+\s; int    i = -8 % 3;      // i == -2
+\s; float  f = -4.5 % 2.75; // f == -1.75
+\s; 
+\s; float  f = sin(90) * i; // f == -2.0
+\s; 
+\n;
+\t;Operadores de asignación compuestos
+Además del operador \c;=\n; para la asignación de variables, existen varios operadores de asignación compuesta.
+
+Los operadores de asignación compuestos combinan el operador de asignación \c;=\n; con otro operador binario, como \c;+\n; o \c;-.\n; Los operadores de asignación compuestos realizan la operación especificada por el operador adicional y, a continuación, asignan el resultado al operando izquierdo. Por ejemplo, una expresión de asignación compuesta como
+\s;\c;lvalue += expresión\n;
+es equivalente a
+\s;\c;lvalue = lvalue + expresión\n;
+
+\t;Lista
+\c;+=\n;  suma
+\c;-=\n;  resta
+\c;*=\n;  multiplicación
+\c;/=\n;  división
+\c;%=\n;  resto de la división
+
+\b;Concatenación de cadenas
+Si al menos uno de los valores utilizados con el operador \c;+\n; es una \l;cadena\u cbot\string;, se realiza la operación de concatenación. El resultado del operador es entonces una cadena, que se crea uniendo de extremo a extremo la cadena y el otro valor. Si el otro valor no es una cadena, se convierte previamente en cadena.
+
+\t;Ejemplos
+\c;
+\s;	string s = "a" + "bc";  // devuelve "abc"
+\s;	string s = 1 + "bc";    // devuelve "1bc"
+\s;	string s = 2.5 + "bc";  // devuelve "2.5bc"
+\s;	string s = "a" + true;  // devuelve "atrue"
+\n;
+Consejo: las propiedades del operador de concatenación \c;+\n; son útiles con la función \l;message();\u cbot\message;, ya que no funciona con otros tipos que no sean cadenas. Se puede utilizar una cadena vacía junto con un valor para crear una cadena, que en realidad se puede pasar a la función \l;message();\u cbot\message;:
+\c;
+\s; float pi = 3.14;
+\s; // message(pi); // no funciona
+\s; message(""+pi);
+\n;
+\b;Operadores de comparación
+Los operadores de comparación funcionan con valores de tipo \l;float\u cbot\bool; y siempre devuelven un valor \l;boole\u cbot\bool;. Se utilizan principalmente en \l;condiciones\u cbot\cond;.
+
+\t;Lista
+\c;a == b  \n;\c;a\n; es igual a \c;b\n;
+\c;a != b  \n;\c;a\n; es diferente de \c;b\n;
+\c;a <  b  \n;\c;a\n; es menor que \c;b\n;
+\c;a <= b  \n;\c;a\n; es menor o igual que \c;b\n;
+\c;a >  b  \n;\c;a\n; es mayor que \c;b\n;
+\c;a >= b  \n;\c;a\n; es mayor o igual que \c;b\n;
+
+\t;Ejemplos
+\c;12 == 12  \n;devuelve true
+\c;45 != 47  \n;devuelve true 
+\c;99 == 98  \n;devuelve false
+\c;12 <  -1  \n;devuelve false
+\c;12 >= 10  \n;devuelve true 
+\c;12 >= 12  \n;devuelve true 
+
+\t;Observación
+Ten cuidado de no confundir la comparación de igualdad \c;==\n; con la asignación de una \l;variable\u cbot\var; \c;=\n;.
+
+\c;a == b\n; es una expresión que compara \c;a\n; con \c;b\n;.
+\c;a = b\n; es una expresión que copia el valor de \c;b\n; en \c;a\n;.
+
+\b;Operadores lógicos
+Los operadores lógicos funcionan con valores de tipo \l;bool\u cbot\bool; y siempre devuelven un \l;bool\u cbot\bool;. Se utilizan principalmente en \l;condiciones\u cbot\cond;.
+
+\t;Lista
+\c;!a      \n;no \c;a\n;
+\c;a && b  \n;\c;a\n; y \c;b\n;
+\c;a || b  \n;\c;a\n; o \c;b\n;
+
+\t;Ejemplos
+\c;!false        \n;devuelve true
+\c;true && false \n;devuelve false 
+\c;true || false \n;devuelve true
+
+\b;Operador ternario
+El operador ternario no es más que azúcar sintáctica. También se conoce como "if en línea". Puede ser confuso al principio, porque su sintaxis es un poco más complicada que otros operadores. Se puede describir de la siguiente manera:
+\c;(condición) ? (resultado cuando es true) : (resultado cuando es false)\n;
+Los corchetes no son necesarios.
+
+En primer lugar, se evalúa la condición y, a continuación, se devuelve el primer resultado si la condición es verdadera; de lo contrario, se devuelve el segundo resultado.
+
+\t;Ejemplo
+\s;\c;float c = ((3.0 > 2.0) ? 10.0 : -10.0); // c == 10.0\n;
+
+\b;Operadores bit a bit
+Los operadores bit a bit son similares al operador lógico, ya que operan con bits (que solo pueden ser 0 o 1, las condiciones solo pueden tener un valor falso o verdadero). Por lo tanto, en teoría, deberían funcionar con prácticamente cualquier tipo de variable, ya que cada valor del ordenador debe almacenarse como una secuencia de bits.
+
+\t;Lista
+\c;a & b  \n;\c;a\n; AND \c;b\n;
+\c;a | b  \n;\c;a\n; OR \c;b\n;
+\c;a ^ b  \n;\c;a\n; XOR \c;b\n;
+\c;a >> b  \n;desplaza los bits de \c;a\n; a la derecha \c;b\n; veces
+\c;a << b  \n;desplaza los bits de \c;a\n; a la izquierda \c;b\n; veces
+
+\t;Ejemplos
+\c;2 & 1         \n;devuelve 0
+\c;2 | 1         \n;devuelve 3
+\c;2 ^ 2         \n;devuelve 0
+\c;2 >> 1        \n;devuelve 1
+\c;2 << 1        \n;devuelve 4
+
+\b;Operadores de incremento y decremento prefijos y posfijos
+Los operadores \c;++\n; y \c;--\n; permiten incrementar (++) o decrementar (--) una variable de forma muy compacta y eficiente.
+
+Por ejemplo, para incrementar la variable \c;a\n;, puedes escribir
+\s;\c;a++;\n;
+en lugar de
+\s;\c;a = a + 1;\n;
+
+El resultado de la operación \c;a++\n; es el valor de la variable \c;a\n; *antes* del incremento. Si usas el operador prefijo \c;++a\n;, el resultado de la operación es el valor de la variable \c;a\n; *después* del incremento. Lo mismo ocurre con el operador de decremento \c;--\n;.
+
+\t;Ejemplos
+\c;
+\s; a = 2;
+\s; b = a++;
+\s; // ahora b contiene 2 y a contiene 3
+
+\s; a = 2;
+\s; b = ++a;
+\s; // ahora b contiene 3 y a contiene 3
+\n;
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

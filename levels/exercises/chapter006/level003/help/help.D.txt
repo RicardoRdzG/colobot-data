@@ -1,0 +1,50 @@
+\b;Übung
+Steuern Sie einen Roboter mittels eines \l;Infoservers\u object\exchange; so fern, dass er alle 6 blauen Wegpunkte passiert.
+Die Hauptakteure dieser Übung sind:
+ 
+1) Ein \l;Radtransporter\u object\botgr; ohne Batterie. Dies ist der Master (dt.: Herr, Meister), den Sie programmieren müssen.
+2) Ein \l;Infoserver\u object\exchange;, der Informationen vom Master empfängt und zum Slave (dt.: Sklave) weiterleitet.
+3) Ein \l;Übungsroboter\u object\bottr;, der auf Befehle vom Infoserver wartet. Dieser Roboter ist schon programmiert.
+
+\image tremot2a 16 8;
+Ein Infoserver speichert "Name/Wert"-Paare. Für die Steuerung des "Slave"-Roboters benutzen wir 2 verschiedene Paare:
+
+1) Name="order", Wert=Befehlsnummer
+2) Name="param", Wert=Parameter für den Befehl
+
+Befehl Nr. 1 bedeutet "move" und Befehl Nr. 2 bedeutet "turn". Der Parameter ist entweder die Entfernung, die zurückzulegen ist, oder ein Winkel. Um den Slave beispielsweise um 20 Meter nach vorn fahren zu lassen, tun Sie folgendes:
+\c;\s;	\l;send\u cbot\send;("order",  1, 100);  // Befehl "move"
+\s;	\l;send\u cbot\send;("param", 20, 100);  // Entfernung: 20 Meter
+\n;
+Diese beiden Anweisungen senden 2 Informationen zum Infoserver:
+\c;    order=1
+    param=20
+\n;
+Der Slave-Roboter wartet auf einen Befehl und führt ihn dann aus. Sobald der Befehl vollständig abgearbeitet wurde, entfernt er ihn vom Infoserver. Nachdem er einen Befehl gesendet hat, muss der Master darauf warten, dass der Slave ihn ausgeführt hat. Erst dann darf der nächste Befehl gesendet werden. Dies wird erreicht, indem geprüft wird, ob der Befehl noch im Infoserver vorliegt:
+\c;\s;	\l;while\u cbot\while; ( \l;testinfo\u cbot\testinfo;("order", 100) )
+\s;	{ // wartet bis Befehl ausgeführt
+\s;		\l;wait\u cbot\wait;(1);
+\s;	}
+\n;
+Da wir mehrere Befehle geben müssen, ist es sinnvoll, eine \l;Funktion\u cbot\function; \c;SendToPost\n; zu schreiben, die den Befehl sendet und auf das Ende seiner Ausführung wartet:
+\c;\s;void object::SendToPost(\l;float\u cbot\type; order, \l;float\u cbot\type; param)
+\s;{
+\s;	send("param", param, 100);  // Parameter senden
+\s;	send("order", order, 100);  // Befehl senden
+\s;
+\s;	\l;while\u cbot\while; ( \l;testinfo\u cbot\testinfo;("order", 100) )
+\s;	{ // wartet bis Befehl ausgeführt
+\s;		\l;wait\u cbot\wait;(1);
+\s;	}
+\s;}
+\n;
+Für eine Bewegung um 20m nach vorn schreiben Sie folgendes ins Hauptprogramm:
+\c;\s;	SendToPost(1, 20);  // move(20);
+\n;
+Den Weg, den der Roboter nehmen muss, sehen Sie hier:
+
+\image tremot2b 8 8;
+Es ist nun Ihre Aufgabe, die Programmierung abzuschließen.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

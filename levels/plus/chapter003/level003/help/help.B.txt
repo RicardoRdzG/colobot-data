@@ -1,0 +1,9 @@
+\b;Do Centro de Controle de Missões
+Localize e recupere outra \l;caixa preta\u object\bbox; da expedição anterior.
+
+O satélite de observação parece tê-la visto debaixo d'água. A água é inofensiva para você, desde que você use seu capacete, mas tenha em mente que você não pode carregar objetos debaixo d'água. Um \l;mergulhador\u object\botsub; pode ser útil.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

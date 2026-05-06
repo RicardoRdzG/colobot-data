@@ -1,0 +1,18 @@
+\b;Satellitenbericht
+Gegenwärtig in einer geostationären Umlaufbahn um den Mond.
+\c;
+\s;-> Oberfläche\c;
+\tab;Temperatur:     -53.1C
+\tab;Atmosphäre:     nicht vorhanden
+\tab;Wind:           0.0 m/s
+\tab;Titanerz:       vereinzelt
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Untergrund\c;
+\tab;Energiefelder:  nicht vorhanden
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Zusätzliche Informationen\c;
+\tab;Das Gelände ist für Radroboter teilweise zu uneben.
+\n;

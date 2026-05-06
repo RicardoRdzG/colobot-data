@@ -1,0 +1,7 @@
+\b;A Misszióirányító Központból
+Ez a bolygó nyilvánvalóan alkalmatlan a hosszú távú kolonizációra. Vegye el a \l;fekete ládát\u object\bbox; az előző expedícióból, majd induljon el.
+
+A \key;\key help;\norm; lehetővé teszi, hogy bármikor áttekintse ezeket az utasításokat a személyes SatCom készülékén \button 63;.
+
+\t;További információk
+\l;Vezérlés\u command; és \l;CBOT Nyelv\u cbot;

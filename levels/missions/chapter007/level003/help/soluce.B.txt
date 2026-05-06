@@ -1,0 +1,11 @@
+\b;Passo a passo
+Para matar todas as formigas e aranhas nesta grande e montanhosa região, você precisará de um \l;atirador orgânico alado\u object\botfj; alimentado com \l;células nucleares\u object\atomic;. Em um pequeno vale ao sudeste, você encontrará tudo o que precisa: \l;cubos de titânio\u object\titan;, \l;células de energia\u object\power; e até mesmo um \l;agarrador alado\u object\botgj; em condições de trabalho.
+
+1)  Construa um \l;radar\u object\radar; e um \l;atirador alado\u object\botfj; e ligue-o. Mate a formiga que está observando o \l;minério de urânio\u object\uranore; mais ao norte.
+
+2)  Use a \l;planta nuclear\u object\nuclear; abandonada na colina acima e o \l;agarrador alado\u object\botgj; para produzir várias \l;células de energia nuclear\u object\atomic;, e use uma para alimentar o \l;atirador alado\u object\botfj;.
+
+3)  Limpe todos os insetos da região. Há uma formiga isolada a noroeste escondida em um buraco: uma aproximação do oeste através do vale profundo tornará mais fácil atingi-la.
+
+\t;Veja também
+\l;Controles\u command;.

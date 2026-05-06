@@ -1,0 +1,15 @@
+\b;Relatório do Satélite
+Atualmente em uma órbita geo-estacionária de Tropica.
+\c;
+\s;-> SUPERFÍCIE\c;
+\tab; Temperatura: 32.2C 
+\tab; Atmosfera: hélio, oxigênio 
+\tab; Vento: 0,7 mps 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> SUBSOLO\c;
+\tab; Fonte de energia: nenhuma 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+\n;

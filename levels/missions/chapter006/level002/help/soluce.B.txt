@@ -1,0 +1,19 @@
+\b;Passo a passo
+1) Construa rapidamente uma \l;torre de defesa\u object\tower; ao norte de sua nave espacial. Depois de \l;energizá-la\u object\power;, execute o programa <code>ServicoTorre1</ code> em um dos \l;agarradores\u object\botgr; que recarregará a célula de energia quando ela estiver vazia. Coloque outra célula de energia 2 m ao norte da torre como primeiro alvo para as vespas atacantes.
+
+2) Construa uma \l;estação de energia\u object\station; perto da torre de defesa.
+
+3) Construa um \l;conversor\u object\convert; ao sul da espaçonave e execute o programa <code>ColetarTitanio3</ code> no segundo \l;agarrador\u object\botgr; para produzir alguns \l;cubos de titânio\u object\titan;.
+
+4) Construa uma \l;fábrica de robôs\u object\factory; e um \l;atirador alado\u object\botfj; para eliminar as \l;formigas\u object\nt;.
+
+5) Use um \l;agarrador alado\u object\botgj; para trazer de volta alguma \l;matéria orgânica\u object\bullet; da ilha no meio do lago de lava.
+
+6) Construa um \l;autolab\u object\labo;, solte a \l;matéria orgânica\u object\bullet; na plataforma e clique no botão \button 109; para desenvolver os diagramas para robôs com pernas.
+
+7) Assim que a matéria orgânica for analisada, faça um \l;agarrador com pernas\u object\botgs; e leve-o a bordo da espaçonave.
+
+8) Decole.
+
+\t;Veja também
+\l;Controles\u command;.

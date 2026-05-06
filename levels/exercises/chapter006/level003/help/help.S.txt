@@ -1,0 +1,50 @@
+\b;Ejercicio
+Controla remotamente un robot usando un \l;puesto de intercambio de información\u object\exchange;, para que pase sobre las 6 balizas azules.
+Los actores principales de este ejercicio son:
+ 
+1) Un robot \l;recolector con ruedas\u object\botgr; sin una celda de energía. Este es el maestro que debes programar.
+2) Un \l;puesto de intercambio de información\u object\exchange; que recibe información del maestro y luego la transmite al esclavo.
+3) Un \l;bot de práctica\u object\bottr; que espera órdenes del puesto de intercambio. Este robot ya ha sido programado.
+
+\image tremot2a 16 8;
+Un puesto de intercambio de información almacena pares "nombre/valor". Para controlar el robot "esclavo" usamos dos pares:
+
+1) name="order", value=número de orden
+2) nom="param", valuer=parámetro para la operación
+
+El orden #1 significa "mover" y el orden #2 significa "girar". El parámetro es la distancia a mover o el ángulo de giro. Por ejemplo, para hacer que el esclavo se mueva 20 metros escribe:
+\c;\s;	\l;send\u cbot\send;("order",  1, 100);  // orden "mover"
+\s;	\l;send\u cbot\send;("param", 20, 100);  // distance 20 meters
+\n;
+Estas dos instrucciones envían 2 piezas de información al puesto de intercambio:
+\c;    order=1
+    param=20
+\n;
+El robot esclavo espera una orden y la ejecuta. Una vez que el esclavo ha ejecutado la orden, elimina la orden del puesto de intercambio. Una vez enviada una orden, el maestro debe esperar a que el esclavo termine la orden antes de enviar la siguiente. Esto se hace probando si la orden todavía está dentro del puesto de intercambio. Simplemente escribe:
+\c;\s;	while ( \l;testinfo\u cbot\testinfo;("order", 100) )  // esperar fin del trabajo
+\s;	{
+\s;		wait(1);
+\s;	}
+\n;
+Como debemos dar más de una orden, es más conveniente escribir una \l;función\u cbot\function; \c;SendToPost\n;, que envía la orden y espera su finalización:
+\c;\s;void object::SendToPost(float order, float param)
+\s;{
+\s;	send("param", param, 100);  // send the parameter
+\s;	send("order", order, 100);  // send the order
+\s;
+\s;	while ( testinfo("order", 100) )  // wait for end of work
+\s;	{
+\s;		wait(1);
+\s;	}
+\s;}
+\n;
+Para avanzar 20 metros, debes escribir en el programa principal:
+\c;\s;	SendToPost(1, 20);  // move(20);
+\n;
+Esta es la ruta que el robot debe recorrer:
+
+\image tremot2b 8 8;
+Depende de ti terminar la programación.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

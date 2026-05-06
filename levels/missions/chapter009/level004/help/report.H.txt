@@ -1,0 +1,21 @@
+\b;Műholdjelentés
+Jelenleg geostacionárius pályán kering a Terranova felett.
+\c;
+\s;-> FELSZÍN\c;
+\tab;Hőmérséklet:      23.7°C
+\tab;Légkör:           oxigén
+\tab;Szél:             0.5 m/s
+\tab;Titánérc:         kevés
+\tab;Uránérc:          kevés
+
+\s;-> ALTALAJ\c;
+\tab;Energiaforrás:   néhol (űrhajó)
+\tab;Titánérc:        nincs
+\tab;Uránérc:         nincs
+
+\s;-> TOVÁBBI INFORMÁCIÓK\c;
+\tab;Észlelve:        óriáshangyák
+\tab;  - Veszély:     azonnali
+\tab;Észlelve:        óriás peterakó
+\tab;  - Veszély:     ?
+\n;

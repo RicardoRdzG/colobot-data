@@ -1,0 +1,5 @@
+\b;Guía Paso a Paso
+Mueve el \l;disparador de orgánica con patas\u object\botos; a cada una de las plataformas frente a los objetivos, y golpea todos los objetivos que veas con una sola ráfaga, moviendo el mouse durante la ráfaga. Con 4 ráfagas, debes ser capaz de golpear todos los objetivos.
+
+\t;Ver también
+\l;Controles\u command;

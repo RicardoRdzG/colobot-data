@@ -1,0 +1,17 @@
+\b;Do Centro de Controle de Missões
+Este aparelho foi montado pela expedição anterior para testar e treinar a capacidade de voar de robôs alados.
+
+\b;Objetivo
+Use esses exercícios para sua vantagem. Sua capacidade de sobreviver a situações críticas futuras pode depender da destreza que eles ajudaram a desenvolver.
+
+\b;Procedimento
+Voe o mais rápido possível através de cada alvo. Tente realizar isso sem causar superaquecimento do motor. Se isso parecer muito difícil, basta pousar e deixar o motor esfriar.
+
+Você deve usar as setas do teclado para pilotar o robô, mas mantenha uma mão no mouse. O mouse é inútil neste exercício, mas será essencial em missões posteriores.
+
+Pode ser útil voltar a esses treinos de vez em quando se quiser melhorar ainda mais os seus reflexos.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

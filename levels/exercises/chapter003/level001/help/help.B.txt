@@ -1,0 +1,33 @@
+\b;Exercício
+Programe o robô de tal maneira que ele chegue ao finalizador, depois de passar pelas três cruzes azuis.
+
+\b;Procedimento
+1) Pegue a célula de energia e coloque-a na parte de trás do robô.
+2) Ande por aí em reconhecimento para entender o que o robô deve fazer.
+3) Programe o robô. Para fazer isso, você deve selecioná-lo e, em seguida, clicar no botão de chaves \button 22;; você entrará no editor do programa.
+4) Quando terminar de escrever o programa, clique em "OK" e execute o programa com a tecla de seta \button 21;.
+
+\b;Programa
+As almofadas estão a uma distância de 20 metros uma da outra. 
+A instrução \c; move (20); <n /> move-se 20 metros para a frente. 
+A instrução \c; gira (90); <n /> vira à esquerda com um ângulo de 90 graus. 
+A instrução \c; gira (-90); <n /> vira à direita com um ângulo de 90 graus.
+
+O quadro do programa consiste em:
+\c;
+\s;	extern void object::MoverRobo( )
+\s;	{
+\s;		\n;\\escreva as instruções necessárias aqui...\c;
+\s;	}
+\n;
+Por enquanto, você não deve alterar o quadro do programa. Basta inserir as instruções necessárias para mover o robô entre as chaves \c;{ }\n;.
+
+\b;Atenção
+Tenha muito cuidado com letras maiúsculas e minúsculas! 
+Toda instrução deve ser terminada com um ponto e vírgula.
+
+\b;Truque Útil
+Ao escrever o programa, você pode assistir a cena clicando no botão <Reduce> \button 51;, e movendo o mouse até as bordas da janela para girar a câmera.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

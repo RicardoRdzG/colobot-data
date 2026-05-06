@@ -1,0 +1,11 @@
+\b;Do Centro de Controle de Missões
+Elimine toda a presença hostil da região.
+
+Sua situação atual é de extrema preocupação para nós. O satélite detectou uma presença inimiga extremamente forte se aproximando de sua nave espacial de todas as direções. Use seu melhor julgamento e a defesa mais rápida e eficiente: \l;torres\u object\tower; ou \l;atiradores\u object\botfr;.
+
+Para aumentar suas chances de sobrevivência, desenvolvemos um programa que protegerá seu flanco oeste se você o executar em seu \l;atirador com rodas\u object\botfr;; veja a página do programa \button 53;.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

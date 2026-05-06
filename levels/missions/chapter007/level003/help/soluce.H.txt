@@ -1,0 +1,11 @@
+\b;Végigjátszás
+Ahhoz, hogy kiirts minden hangyát és pókot ebben a nagy, hegyvidékes régióban, szükséged lesz egy \l;szárnyas orga-lövőre\u object\botfj;, amelyet \l;nukleáris energiacellák\u object\atomic; működtetnek. Egy délkeleti kis völgyben mindent megtalálsz: \l;titánkockákat\u object\titan;, \l;energiacellákat\u object\power;, sőt még egy működőképes \l;szárnyas szállítót\u object\botgj; is.
+
+1)  Építs egy \l;radart\u object\radar; és egy \l;szárnyas lövőt\u object\botfj;, majd láss el energiával. Öld meg a hangyát, amely az északabbra található \l;uránércet\u object\uranore; őrzi.
+
+2)  Használd a domb tetején lévő elhagyott \l;nukleáris üzemet\u object\nuclear; és a \l;szárnyas szállítót\u object\botgj;, hogy több \l;nukleáris energiacellát\u object\atomic; gyárts. Egyet ezek közül használj fel a \l;szárnyas lövő\u object\botfj; működtetéséhez.
+
+3)  Irtasd ki az összes rovart a régióból. Egy magányos hangya rejtőzik az északnyugati részen, egy lyukban: ha nyugatról, a mély völgyön keresztül közelítesz, könnyebb lesz eltalálni.
+
+\t;Lásd még
+\l;Irányítás\u command;

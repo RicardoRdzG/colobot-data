@@ -1,0 +1,10 @@
+\b;Kódcsata (a játékos ellen)
+Ez egy \l;a kódcsata\u battles; szint, ahol egy másik program ellen küzdesz, amely valószínűleg egy másik játékos által írt.
+
+\b;Cél
+Semmisítsd meg a másik csapatot, amely a folyó túloldalán található.
+
+\b;Megjegyzések\m megjegyzések;
+o Csak az alap területek alatt található \l;egy földalatti energiaforrás\u object/enerspot;.
+o A készre épített \l;Derrickek\u object\derrick; és \l;Radarállomások\u \object\radar; elpusztíthatatlanok.
+o Próbálhatsz találni egy programot, akivel harcolhatsz a Nemzetközi Colobot Közösségben (\c;http://colobot.info\n;).

@@ -1,0 +1,10 @@
+\b;Ejercicio
+Programa el robot de tal manera que llegue a la plataforma de meta, después de haber pasado por las tres cruces azules.
+Las plataformas y las cruces están todas a 20m de distancia entre sí.
+
+\b;Instrucciones útiles
+\c;\l;move\u cbot\move;\n; para mover el bot
+\c;\l;turn\u cbot\turn;\n; para girar el bot
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,19 @@
+\b;\button 136; Astronauta
+\image human 8 8;
+El astronauta eres tú dentro del juego.
+
+Si mueres, la misión falla inmediatamente.
+
+Puedes construir edificios con la ayuda de la pistola de neutrones almacenada en tu kit de supervivencia. El kit de supervivencia te permite, en la mayoría de las misiones, volar gracias al reactor situado debajo, o nadar sin límite de tiempo. Puedes transportar la mayoría de los objetos pero el peso ralentizará considerablemente tus movimientos. Volar, nadar y caminar bajo el agua también se hacen imposibles si llevas un objeto. Se recomienda el uso de un \l;recogedor\u object\botgr; o un \l;submersible\u object\botsub; para tareas como estas.
+
+No puedes transportar \l;mineral de uranio\u object\uranore; debido a los riesgos asociados con la radioactividad.
+
+Un botón especial \button 111; te permite asegurarte de que el suelo a tu alrededor está plano. Esto es importante ya que la construcción solo es posible en una superficie plana. Una superficie plana se designa verde mientras que una inclinada es roja.
+
+Un botón \button 118; te permite marcar una ubicación con \l;banderas\u object\flag; de varios colores. Esto puede ayudarte a no perderte, a encontrar posiciones importantes de nuevo, o a indicar una posición a un bot. Tienes 5 banderas de 5 colores diferentes a tu disposición. Puedes quitar una bandera usando el siguiente botón \button 119; y guardarla para uso futuro.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Me\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

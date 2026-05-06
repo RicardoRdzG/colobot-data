@@ -1,0 +1,15 @@
+\b;Übung
+Wehren Sie alle feindlichen Angriffe ab.
+
+\b;Vorschlag
+Die Reichweite Ihrer Kanone beträgt ungefähr 40m. Ihre Feinde sind von der Gattung \c;Ameise\n;. Drehen Sie sich in Richtung der Ameise, die Ihnen am nächsten ist. Warten Sie, bis sie weniger als 40m von Ihnen entfernt ist. Schießen Sie nur, wenn der Abstand geringer als 40m ist, um keine Energie zu verschwenden.
+
+\b;Nützliche Anweisungen
+\c;\l;radar\u cbot\radar;\n; um Ihre Feinde aufzuspüren (Kategorie \c;\l;AlienAnt\u object\ant;\n;)
+\c;\l;direction\u cbot\direct;\n; um die Richtung zu berechnen
+\c;\l;distance\u cbot\dist;\n; um die Entfernung zu berechnen
+\c;\l;fire\u cbot\fire;\n; um die Kanone abzufeuern
+\c;\l;wait\u cbot\wait;\n; um zu warten
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, \l;Variablentypen\u cbot\type; und \l;Kategorien\u cbot\category;.

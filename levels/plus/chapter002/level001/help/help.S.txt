@@ -1,0 +1,20 @@
+\b;Desde Control de Misión
+Recolecta 4 trozos de \l;mineral de titanio\u object\titanore; y tráelos de vuelta a tu \l;nave espacial\u object\base;. Construye el equipo necesario para esta tarea (\l;bots voladores\u object\botgj;).
+
+Antes de aventurarte más allá, siempre deberías echar un vistazo al informe del satélite \button 186;.
+
+Hemos transmitido a tu \l;nave espacial\u object\base; un programa que podría ayudarte en esta tarea; consulta la página correspondiente de tu SatCom con el botón \button 53;.
+
+\b;Procedimiento
+1) Se requiere un nuevo \l;programa de investigación\u object\research; para que los bots alados sean añadidos a la lista de bots que puede producir la fábrica. Este programa de investigación también hará operativo el reactor de propulsión en tu kit de supervivencia personal.
+2) Produce un \l;recogedor alado\u object\botgj; y recolecta los 4 trozos de \l;mineral de titanio\u object\titanore;.
+3) Lleva contigo el \l;recogedor alado\u object\botgj; y el \l;recogedor con ruedas\u object\botgr; y despega. 
+
+Ten cuidado de que tu bot alado no se quede sin energía cuando estés lejos de la base. Si es necesario, reemplaza la \l;celda de energía\u object\power; antes de salir de la nave espacial. Puedes hacer esto manualmente o ejecutar el programa adjunto proporcionado por Houston \button 53;.
+
+Para no perder el camino entre los numerosos cráteres en la superficie de la Luna, usa el mini mapa en la esquina inferior derecha de tu pantalla.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal.
+
+\t;Ver también
+\l;Controles\u command;

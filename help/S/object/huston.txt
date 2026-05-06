@@ -1,0 +1,11 @@
+\b;\button 176; Control de Misiones
+\image huston 8 8;
+Centro de control de la Tierra para todas las \l;tus\u object\human; misiones espaciales. Aunque todavía lleva el nombre del conocido centro de control de misiones de los viejos tiempos, "Houston" está realmente ubicado en el medio del Desierto de Nevada, el nuevo centro para actividades de exploración espacial.
+
+El Centro de Control de Misiones te cuida día y noche, y todo un equipo de científicos e ingenieros está trabajando duro intentando encontrar una solución a todos los problemas que encuentras.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Houston\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

@@ -1,0 +1,15 @@
+\b;Schritt für Schritt
+1) Finden Sie den \l;Flugschreiber\u object\bbox; selbst. Sie können versuchen, ihn aus der Höhe auszumachen, indem Sie Ihr Jetpack benutzen, oder Sie tauchen unter Wasser, um Ihn dort zu finden .
+2) Errichten Sie einen \l;Konverter\u object\convert; in der Nähe der Titanerzklumpen. Diese finden Sie unweit östlich Ihres Raumschiffes.
+3) Produce two \l;cubes\u object\titan;.
+4) Build a \l;bot factory\u object\factory; not too far from the black box.
+5) Manufacture a \l;subber\u object\botsub;.
+6) Bring the black box back on board.
+7) Take off.
+
+The black box is lying at the bottom of a small lake, northeast of the spaceship.
+
+You can build the bot factory right beside the lake, on the south bank.
+
+\t;Siehe auch
+\l;Controls\u command;

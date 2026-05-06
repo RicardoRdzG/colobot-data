@@ -1,0 +1,20 @@
+\b;Cvičení
+Držte se blízko \l;cvičného cíle\u object\bottarg; naloženého výbušninami, ale nesmíte se ho dotknout, jinak vybuchne. Pokaždé, když se cvičný cíl zastaví, musíte k němu být blíže než 10 metrů. Když s ním udržíte krok 10 zastávek po sobě, zavede Vás na cílovou značku a cvičení skončí. Cvičný cíl při každé zastávce kontroluje, kde jste. Pokud budete moc daleko, budete muset začít znovu od začátku.
+
+\b;Obecný postup
+Opakovat stále dokola:
+o  Najít cvičný cíl.
+o  Vypočítat vzdálenost k cíli.
+o  Pokud je vzdálenost menší než 5m, zacouvat.
+o  Jinak spočítat směrový úhel a popojet k cvičnému cíli.
+
+\b;Užitečné příkazy
+\c;\l;radar\u cbot\radar;\n; pro nalezení druhého robota (kategorie \c;\l;TargetBot\u object\bottarg;\n;)
+\c;\l;radar\u cbot\radar;\n; pro hledání překážek
+\c;\l;distance\u cbot\dist;\n; pro výpočet vzdálenosti
+\c;\l;direction\u cbot\direct;\n; pro výpočet směrového úhlu
+\c;\l;if\u cbot\if;\n; pro testování podmínek
+\c;\l;motor\u cbot\motor;\n; pro nastavení výkonu motorů
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

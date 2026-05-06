@@ -1,0 +1,7 @@
+\b;Do Centro de Controle de Missões
+É hora de \l;você\u object\human; melhorar suas habilidades de tiro novamente. No exercício a seguir, acerte todos os \l; dispositivos explosivos\u object\tnt;, mas cuidado: o \l;atirador orgânico\u object\botoj; possui pouca energia, apenas o suficiente para completar o exercício.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

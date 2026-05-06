@@ -1,0 +1,7 @@
+\b;Passo a passo
+Se você perder o robô, ele derrubará a caixa preta em algum lugar a sudoeste de sua nave espacial em uma região cercada por cristais.
+
+Caso a sua energia acabe antes que você possa trazer a caixa preta de volta, use o segundo agarrador deixado na espaçonave.
+
+\t;Veja também
+\l;Controles\u command;.

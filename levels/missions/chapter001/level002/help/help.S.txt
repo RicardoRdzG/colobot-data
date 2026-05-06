@@ -1,0 +1,14 @@
+\b;Del Control de Misiones
+Este es tu segundo ejercicio. \l;Tú\u object\human; deberías ahora familiarizarte con el manejo del equipo básico. Esto podría resultar ser tu mejor aliado durante el curso de esta expedición.
+
+La construcción de edificios y la fabricación de bots requieren el uso de \l;titanio\u object\titan;. El titanio es un mineral que se encuentra en la mayoría de los sistemas solares del universo.
+
+\b;Procedimiento
+1) Posiciónate cerca del primer \l;cubo de titanio\u object\titan;.
+2) Construye un \l;centro de investigación\u object\research; \button 163;. Ten en cuenta que solo \l;tú\u object\human; puedes realizar la tarea de construcción; ningún bot puede sustituirte.
+3) Con un segundo \l;cubo de titanio\u object\titan;, construye una \l;fábrica de bots\u object\factory; \button 160;.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command;

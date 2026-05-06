@@ -1,0 +1,35 @@
+\b;Übung
+Diese Übung ist der vorhergehenden ziemlich ähnlich. Dieses Mal gibt es 3 \l;Titanwürfel\u object\titan;, die Sie zu 3 verschiedenen Zielflächen transportieren müssen. Hier die Koordinaten der Zielflächen:
+\c;
+	x=10, y=-60
+	x=10, y=-65
+	x=10, y=-70
+\n;
+\b;Vorgehensweise
+Wiederhole 3 mal:
+o  Suche den Titanwürfel mit der größten Entfernung mittels \c;\l;radar\u cbot\radar;\n;.
+o  Nimm ihn mit \c;\l;grab\u cbot\grab;\n; auf.
+o  Gehe mit \c;\l;goto\u cbot\goto;\n; zu einer der Zielflächen.
+o  Lege den Würfel mit \c;\l;drop\u cbot\drop;\n; ab.
+
+Wenn Sie nach dem Würfel mit der geringsten Entfernung suchen würden, dann fände das Radar den Würfel, den Sie gerade erst auf einer Zielfläche abgelegt haben. Daher müssen Sie nach dem Würfel suchen, der die größte Entfernung hat.
+
+\b;Das Programm
+Benutzen Sie eine \c;\l;for\u cbot\for;\n;-Schleife, um die Anweisungen 3 mal zu wiederholen, die dazu nötig sind, einen Würfel zu holen. Benutzen Sie innerhalb der Schleife die Anweisung \c;\l;radar\u cbot\radar;(\l;Titanium\u cbot\category;, 0, 360, 0, 1000, -1);\n;, um den Titanwürfel mit der größten Entfernung zu finden. Der letzte Wert, \c;-1\n;, gibt an, dass das Radar nicht den Gegenstand mit der geringsten, sondern den mit der größten Entfernung zurückgeben soll.
+\c;
+\s;\l;object\u cbot\type;  item;
+\s;item = \l;radar\u cbot\radar;(\l;Titanium\u cbot\category;, 0, 360, 0, 1000, -1);
+\s;\l;if\u cbot\if; ( item == \l;null\u cbot\null; )  \l;return\u cbot\return;;
+\s;\l;goto\u cbot\goto;(item.\l;position\u cbot\object;);
+\n;
+Die Variable \c;item\n; ist vom Typ \c;\l;object\u cbot\object;\n;. Um die Position des durch die Variable beschriebenen Objekts zu bestimmen, schreiben Sie \c;item.position\n;.
+
+Die \c;x\n;-Koordinaten der 3 Flächen sind alle gleich 10. Die \c;y\n;-Koordinaten sind -60, -65 und -70. Die effektivste Methode, die Koordinaten zu bestimmen, ist die Einbeziehung des Wertes der Laufvariablen \c;i\n; in eine Berechnung. \c;i\n; nimmt nacheinander die Werte 0,1 und 2 an:
+\c;
+\s;ziel.x = 10;
+\s;ziel.y = -60-5*i;
+\n;
+Es ist nun Ihre Aufgabe, das Programm fertigzustellen.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

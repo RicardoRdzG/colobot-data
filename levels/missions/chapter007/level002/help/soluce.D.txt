@@ -1,0 +1,5 @@
+\b;Schritt für Schritt
+Bewegen Sie den \l;Krabbelorgashooter\u object\botos; zu jeder der Flächen, die sich vor den Zielscheiben befinden und treffen Sie, wenn möglich, alle Ziele, die Sie sehen können, mit einer Salve, wobei Sie während der Salve die Maus bewegen. Sie müssen es schaffen, mit 4 Salven alle Ziele zu treffen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

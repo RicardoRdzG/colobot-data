@@ -1,0 +1,17 @@
+\b;Vom Kontrollzentrum
+Diese Vorrichtung wurde bei der letzten Expedition zum Testen und Trainieren der Flugfähigkeit von Jettransportern errichtet.
+
+\b;Ziel
+Nutzen Sie diese Gelegenheit, um sich zu verbessern. Ihre Fähigkeit, in zukünftigen kritischen Situationen zu überleben, hängt besonders von den Fertigkeiten ab, die Sie hier entwickelt haben.
+
+\b;Vorgehensweise
+Fliegen Sie so schnell wie möglich durch alle Ringe. Versuchen Sie, das zu absolvieren ohne dass der Antrieb überhitzt. Wenn es zu eng wird, landen Sie einfach und lassen den Antrieb abkühlen.
+
+Benutzen Sie die Pfeiltasten, um den Roboter zu steuern, aber lassen Sie eine Hand auf der Maus. Die Maus ist in dieser Übung zwar überflüssig, wird aber in späteren Missionen lebenswichtig sein.
+
+Es wäre ratsam, später noch einmal hierher zurückzukehren um die Übung zu wiederholen und Ihre Reflexe zu trainieren.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

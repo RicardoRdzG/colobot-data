@@ -1,0 +1,9 @@
+\b;Del Control de Misiones
+Tu satélite ha localizado los restos de la expedición anterior. Deberías encontrar una \l;caja negra\u object\bbox; no muy lejos de allí. Te dará las coordenadas de tu próximo destino.
+
+Extermina las pocas hormigas que quedan. Nos han notificado que tu cañón de neutrones está fuera de servicio actualmente, por lo que no podrás construir nuevos bots. Estamos seguros de que eres lo suficientemente ingenioso en este punto para encontrar una solución.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

@@ -1,0 +1,24 @@
+\b;Del Control de Misiones
+Tu \l;nave espacial\u object\base; ahora está en la plataforma de lanzamiento, lista para despegar.
+
+El último ejercicio que queda para que \l;tú\u object\human; realices antes de embarcarte en tu viaje es equipar tu nave espacial con su \l;caja negra\u object\bbox;. La única forma de alcanzar la \l;caja negra\u object\bbox; es por un camino empinado que solo puede ser subido por un \l;recogedor oruga\u object\botgc; que necesitas construir.
+
+Desafortunadamente tu \l;fábrica de bots\u object\factory; aún no tiene la capacidad para ensamblar este tipo de bot. Necesitas solicitar a tu \l;centro de investigación\u object\research; que desarrolle un plano para esta hélice en particular.
+
+\b;Procedimiento
+1) Energiza el centro de investigación con una de las \l;celdas de energía\u object\power; verdes.
+2) Haz clic en el botón <programa de investigación de bots oruga> \button 64;.
+3) Coloca un \l;cubo de titanio\u object\titan; en el centro de la \l;fábrica de bots\u object\factory; y construye un \l;recogedor oruga\u object\botgc;.
+4) Energiza y controla por radio el \l;recogedor oruga\u object\botgc; hasta la cima de la montaña orientada al suroeste.
+5) Trae la caja negra de vuelta a bordo de tu nave espacial.
+6) No olvides llevar el \l;recogedor con ruedas\u object\botgr;. Estos bots pueden resultar muy útiles en el futuro.
+7) Sube a bordo de la \l;nave espacial\u object\base;.
+8) Selecciona la \l;nave espacial\u object\base; y despega \button 28;.
+
+
+Ten en cuenta: Para trabajar con más eficiencia, puedes usar el \l;recogedor con ruedas\u object\botgr;.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command;

@@ -1,0 +1,17 @@
+\b;Vom Kontrollzentrum
+Die letzte Expedition hinterließ uns ein paar Informationen über einen \l;Orgastoff\u object\bullet;, der scheinbar von den \l;Ameisen\u object\ant; produziert wird und uns interessante neue Möglichkeiten eröffnet. Scheinbar können wir damit einen neuen veränderten Robotertyp mit erhöhter Leistungsfähigkeit durch die Verwendung von Insektenteilen erschaffen.
+
+Ihre Aufgabe ist es, mit der ersten praktischen Anwendung des "grünen Goldes" zu experimentieren. Bauen Sie einen \l;Krabbeltransporter\u object\botgs;, laden Sie Ihn auf das Raumschiff und starten Sie.
+
+\b;Vorgehensweise
+Nehmen Sie eine Probe des organischen Materials aus einem Nest der Riesenameisen. Die Analyse soll von einem \l;automatischen Labor\u object\labo; durchgeführt werden, welches auch die notwendige Forschung für eine praktische Anwendung vornimmt.
+
+Um Ihre Verteidigung zu verbessern, haben wir Ihnen ein Programm übermittelt, mit dem Ihre \l;Transportroboter\u object\botgr; die Batterien der \l;Geschütztürme\u object\tower; selbständig aufladen. (siehe \button 53; ).
+
+\b;Beachten Sie:
+Die Temperatur ist hier erheblich tiefer, es sollte wieder möglich sein zu fliegen.
+
+\key;\key help;\norm; allows you to review these instructions at all times on your personal SatCom \button 63;.
+
+\t;See also
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

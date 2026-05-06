@@ -1,0 +1,19 @@
+\b;Schritt für Schritt
+1) Bauen Sie einen Konverter \button 162; mit dem einzigen Titanwürfel, den Sie haben.
+
+2) Setzen Sie einen Brocken Titanerz in die Mitte der Plattform und lassen Sie den Konverter seine Arbeit verrichten.
+
+3) Bauen Sie ein Kraftwerk \button 164; mit einem der hergestellten Titanwürfel.
+
+4) Falls Sie nicht selbst nach dem Flugschreiber suchen wollen, bauen Sie ein Radar \button 168; und der Flugschreiber erscheint auf der Mini-Karte nördlich von Ihrer momentanen Position, am Grund eines Kraters neben einigen alten Raumfahrzeugen und Trümmern der letzten Expedition.
+
+5) Bewegen Sie die Transporter in die Mitte der Plattform des Kraftwerks um ihre Batterien aufzuladen. Die Batterien sollten gerade noch genug Energie enthalten, damit Sie die Roboter funkfernsteuern können. 
+
+6) Steuern Sie den Jettransporter zum Flugschreiber und zurück zum Schiff.
+
+7) Versammeln Sie beide Transporter und den Flugschreiber auf dem Raumschiff. Gehen Sie an Bord.
+
+8) Heben Sie ab.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

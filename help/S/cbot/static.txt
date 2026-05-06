@@ -1,0 +1,22 @@
+\b;Instrucción \c;static\n; (para especialistas)
+Los miembros de \l;clase\u cbot\class; declarados con \c;static\n; se comparten entre todas las instancias de la clase.
+\c;
+\s;public class MiClase
+\s;{
+\s;	static int nb = 1;
+\s;	static string [ ] list = null;
+\s;}
+\s;void Test ()
+\s;{
+\s;	MiClase item1();
+\s;	MiClase item2();
+\s;	item1.nb = 3;
+\s;	item1.list[item1.nb] = "Hola";
+\s;	message( item2.list[item2.nb] ); // muestra "Hola"
+\s;}
+\n;
+Los miembros estáticos ( \c;static\n;) pueden declararse privados ( \c;\l;private\u cbot\private;\n; ), de modo que solo sean accesibles desde dentro de los miembros de la clase (incluidos los constructores y destructores).
+
+\t;Ver también
+\c;\l;class\u cbot\class;\n;, \c;\l;synchronized\u cbot\synchro;\n;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,50 @@
+\b;Palabra clave \c;super\n;
+Esta palabra clave es similar a \c;\l;this\u cbot\this;\n;, sin embargo, concede acceso a los métodos de la clase padre (véase la palabra clave \c;\l;extends\u cbot\extends;\n; ), lo que resulta especialmente útil para la sobressobrescrituracritura de métodos.
+
+\t;Ejemplo
+\c;
+\s;public class Padre
+\s;{
+\s;	protected int campo;
+\s;	
+\s;	void Padre()
+\s;	{
+\s;	
+\s;campo = 0;
+\s;	}
+\s;	
+\s;	void Imprimir()
+\s;	{
+\s; 		message("Campo de Parent: " + campo);
+\s;	}
+\s;}
+\s;
+\s;	}
+\s;}
+\s;public class Hijo extends Padre
+\s;{
+\s;	privato int campoHijo;
+\s;	
+\s;	void Hijo()
+\s;	{
+\s;		super.Padre();
+\s;		campoHijo = campo + 1;
+\s;	}
+\s;	
+\s;	void Imprimir()
+\s;	{
+\s;		super.Imprimir();
+\s;		mensaje("Campo de Hijo: " + campoHijo);
+\s;	}
+\s;}
+\s;
+\s;extern void objeto::Prueba()
+\s;{
+\s;Hijo hijo();
+\s;	hijo.Imprimir(); // Mostrará tanto 0 como 1 
+\s;}
+\n;
+
+\t;Ver también
+\c;\l;class\u cbot\class;\n;, \c;\l;this\u cbot\this;\n;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

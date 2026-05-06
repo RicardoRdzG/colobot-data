@@ -1,0 +1,9 @@
+\b;Do Centro de Controle de Missões
+Recupere a segunda chave \l; \u object\key; (B). Deve estar perto da sua posição atual.
+
+Quando a sua missão estiver concluída e antes de decolar, traga o \l;defensor\u object\botshld; e o \l;mergulhador\u object\botsub; a bordo da sua espaçonave....
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

@@ -1,0 +1,20 @@
+\b;\button 155; Disparador Orga Alado
+\image botoj 8 8;
+Bot volador propulsado por chorro equipado con un cañón de orgabola.
+
+El cañón de orgabola es más efectivo que el \l;cañón de bolas de fuego\u object\botfj;. Dispara pequeñas esferas de \l;materia orgánica\u object\bullet; corrosiva. Una \l;celda de energía regular\u object\power; te permitirá disparar 11 ráfagas de orgabola.
+
+El indicador en la parte inferior de tu pantalla muestra la temperatura del reactor. Mantén un ojo en él. Si el reactor se sobrecalienta, el motor se detendrá y el bot caerá.
+
+Los bots alados pueden volar a través de obstáculos naturales como montañas o lagos pero su energía se agota rápidamente. Son lentos en el suelo. Para cubrir distancias cortas sin necesidad de volar, se recomienda usar un \l;disparador orga con ruedas\u object\botor; en su lugar.
+
+\t;Programación
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;jet\u cbot\jet;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Para programar el cañón de orgabola, usa \c;\l;fire\u cbot\fire;\n;. Para elevar o bajar la puntería, usa \c;\l;aim\u cbot\aim;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;WingedOrgaShooter\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

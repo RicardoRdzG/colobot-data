@@ -1,0 +1,20 @@
+\b;Relatório do satélite
+Atualmente em uma órbita geo-estacionária de Tropica.
+\c;
+\s;-> SUPERFÍCIE\c;
+\tab; Temperatura: 32,4C 
+\tab; Atmosfera: hélio, oxigênio 
+\tab; Vento: 1,2 mps 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> SUBSOLO\c;
+\tab; Fontes de energia: nenhuma 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> INFORMAÇÃO ADICIONAL\c;
+\tab; Detectado:         explosivo 
+\tab; - Tipo:         desconhecido \ n\tab; Detectado:         organismos não identificados 
+\tab; - Perigo:         ?
+\n;

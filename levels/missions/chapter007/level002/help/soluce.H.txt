@@ -1,0 +1,5 @@
+\b;Végigjátszás
+Vezesd a \l;lábakon járó orga lövőt\u object\botos; mindegyik cél előtti padra, és próbáld egyetlen sorozattal eltalálni az összes látható célt, miközben a sorozat közben mozgatod az egeret. Négy sorozatból el kell találnod az összes célt.
+
+\t;Lásd még
+\l;Irányítás\u command;

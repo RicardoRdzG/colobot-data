@@ -1,0 +1,29 @@
+\b;Instrucción \c;grab\n; (sujetar)
+La instrucción \c;grab();\n; indica al bot que utilice el brazo operativo para sujetar un objeto situado en el suelo, en la plataforma de un edificio o en la ubicación de la celda de energía de un bot.
+
+\b;Uso básico
+La instrucción \c;grab();\n; escrita de esta forma sujeta el objeto situado delante del bot. Aquí tienes un pequeño programa que sujeta un objeto situado delante del bot y lo suelta 5 metros más adelante:
+\c;
+\s;	grab();  //  sujetar
+\s;	\l;move\u cbot\move;(5);  // avanzar 5m
+\s;	\l;drop\u cbot\drop;();  //  soltar
+\n;
+\b;Para especialistas
+Sintaxis:
+\s;\c;grab (oper);\n;
+
+Esta instrucción se dirige al brazo operativo de un \l;robot sujetador\u object\botgr; para que agarre el objeto más cercano.
+
+\t;oper: \c;\l;int\u cbot\int;\n; (valor predeterminado \c;InFront\n;)
+Oper indica dónde debería buscar el bot un objeto para recoger. Si no se da ninguna indicación, el objeto se recoge delante del bot.
+\c;InFront   \n;  Recoge delante (valor predeterminado).
+\c;Behind    \n;  Recoge detrás.
+\c;EnergyCell\n;  Recoge la propia celda de energía del bot.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Normalmente un error detiene el programa. Puedes evitar que el programa se detenga ante errores usando la instrucción \c;\l;errmode\u cbot\errmode;(0)\n;. Se devuelve un valor diferente de cero si se produjo un error mediante \c;grab();\n;.
+\c;== 0 \n;se recogió un objeto
+\c;!= 0 \n;error, no se recogió ningún objeto
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

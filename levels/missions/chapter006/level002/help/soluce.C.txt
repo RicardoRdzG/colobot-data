@@ -1,0 +1,19 @@
+\b;Návod
+1) Na sever od rakety rychle postavte \l;obrannou věž\u object\tower;. Až do ní vložíte \l;baterii\u object\power;, spusťte na jednom \l;robotickém rameni\u object\botgr; program \c;ServiceTower1\n;, aby jí pravidelně nabíjelo vybitou baterii. Další baterii položte 2 metry na sever od věže jako klamný cíl pro útočící vosy.
+
+2) Poblíž obranné věže postavte \l;nabíječku\u object\station;.
+
+3) Na jih od rakety postavte \l;konvertor\u object\convert; a na druhém \l;robotickém rameni\u object\botgr; spusťte program \c;CollectTitanium3\n;, aby vyrábělo \l;titan\u object\titan;.
+
+4) Postavte \l;továrnu na roboty\u object\factory; a vyrobte \l;létající kanón\u object\botfj; na likvidaci \l;mravenců\u object\ant;.
+
+5) Pomocí \l;létajícího ramena\u object\botgj; přivezte trochu \l;organické hmoty\u object\bullet; z ostrůvku uprostřed lávového jezera.
+
+6) Postavte \l;laboratoř\u object\labo;, na plošinku položte \l;organickou hmotu\u object\bullet; a klikněte na tlačítko \button 109;, abyste vyvinuli výrobní plány pro chodící roboty.
+
+7) Po dokončení analýzy vyrobte \l;chodící rameno\u object\botgs; a naložte ho do rakety.
+
+8) Odleťte.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

@@ -1,0 +1,14 @@
+\b;Cvičení
+Projeďte spirálovou dráhu. Robot musí dvakrát popojet 25m vpřed a zatočit, pak dvakrát 20m vpřed a zatočit, a tak dále.
+\image tproc2 8 8;
+
+\b;Funkce
+Jistě jste si všimli, že se trasa skládá ze segmentů ve tvaru "L" poskládaných do sebe. Rovné úseky prvního segmentu (tmavě modrý) měří 25 metrů. V druhém segmentu (světle modrý) měří o 5 metrů méně. Nejprve napíšeme \l;funkci\u cbot\function;, která robota pošle projet dráhu ve tvaru "L" s úseky zadané délky.
+
+\b;Užitečné příkazy
+\c;\l;for\u cbot\for;\n; cyklus pro opakování několika příkazů
+\c;\l;move\u cbot\move;\n; pro popojetí s robotem
+\c;\l;turn\u cbot\turn;\n; pro otočení robota
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

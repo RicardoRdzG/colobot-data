@@ -1,0 +1,21 @@
+\b;Satellitenbericht
+Gegenwärtig in einer geostationären Umlaufbahn um Volcano.
+\c;
+\s;-> Oberfläche\c;
+\tab;Temperatur:     96.7C
+\tab;Atmosphäre:     CO2. SO2. HCN, HS, CH4. NH3
+\tab;Wind:           2.8 m/s
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Untergrund\c;
+\tab;Energiefelder:  nicht vorhanden
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Zusätzliche Informationen\c;
+\tab;Entdeckt:       Roboter
+\tab;  - Typ:         unbekannt
+\tab;Entdeckt:       Riesenameisen
+\tab;  - Gefahr:     nicht unmittelbar
+\n;

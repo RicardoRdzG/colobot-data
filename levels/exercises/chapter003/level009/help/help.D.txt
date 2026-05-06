@@ -1,0 +1,39 @@
+\b;Übung
+Steuern Sie einen Roboter mittels eines \l;Infoservers\u object\exchange; so fern, dass er \l;Platinerz\u object\platore; transportiert.
+Die Hauptakteure dieser Übung sind:
+
+1) Ein \l;Schnüffler\u object\botsr; (Master), der nichts transportieren kann, aber programmierbar ist.
+2) Ein \l;Infoserver\u object\exchange; (post), der Information von einem Sender empfängt und zu einem Empfänger überträgt.
+3) Ein \l;Transporter\u object\botgr; (slave), der auf Befehle vom Infoserver wartet. Es gibt keine Mglichkeit, diesen Roboter direkt zu steuern oder zu programmieren.
+
+\image tremot1a 16 8;
+Ein Infoserver speichert "Name/Wert"-Paare. Um den "Sklaven"-Roboter zu steuern, benutzen wir nur ein Paar:
+
+    Name="order", Wert=Befehlsnummer
+
+Folgende Befehle werden verstanden:
+\c;
+    1 -> grab();     // ein Objekt aufnehmen
+    2 -> drop();     // ein Objekt fallen lassen
+    3 -> move(10);   // 10m vorwärts fahren
+    4 -> move(-10);  // 10m rückwärts fahren
+\n;
+Um den Roboter anzuweisen, sich 10 Meter nach vorn zu bewegen, müssen Sie nur folgendes tun:
+\c;\s;	\l;send\u cbot\send;("order", 3, 100);  // Befehl 3 -> "move(10)"
+\n;
+Nach der send-Anweisung warten wir 5 Sekunden lang, um sicher zu gehen, dass die Bewegung ausgeführt wurde.
+\c;\s;	\l;wait\u cbot\wait;(5);
+\n;
+Hinweis: Es gibt einen besseren Weg, auf die Beendigung der Ausführung des gegebenen Befehls zu warten. Wir werden das in einer späteren Übung, "Fernsteuerung 2", noch sehen.
+
+Um die Übung abzuschließen, müssen Sie:
+
+1) Das Uranerz aufnehmen
+2) 10 Meter vorwärts fahren
+3) Das Uranerz ablegen
+4) 10 Meter zurück fahren
+
+Es ist Ihre Aufgabe, nun das Programm zu schreiben
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

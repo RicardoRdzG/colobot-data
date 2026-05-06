@@ -1,0 +1,64 @@
+\b;Übung
+Erreichen Sie die Zielfläche (25m vor Ihnen) so schnell Sie können, indem Sie die Anweisung \c;\l;motor\u cbot\motor;( , )\n; benutzen. Sie werden die Geschwindigkeit langsam reduzieren müssen, bevor Sie das Ziel erreichen, denn sonst werden Sie durch die \l;Minen\u object\mine; in die Luft gejagt.
+
+Sie können die Übung bestehen indem Sie einfach nur \c;\l;move\u cbot\move;(25);\n; benutzen, was perfekt funktionieren würde. Das Ziel dieser Übung besteht aber darin, den Gebrauch der Anweisung \c;\l;motor\u cbot\motor;\n; kennen zu lernen.
+
+Diese Anweisung erwartet zwei Werte:
+1) Die Geschwindigkeit des linken Motors.
+2) Die Geschwindigkeit des rechten Motors.
+
+\s;\c;	\l;motor\u cbot\motor;( links, rechts );
+\n;
+Die Werte müssen zwischen -1 und 1 liegen:
+-1 = Volle Kraft zurück
+ 0 = Stopp
+ 1 = Volle Kraft voraus
+
+Zum Beispiel bewegt \c;\l;motor\u cbot\motor;(0.5, 0.5);\n; den Roboter mit halber Geschwindigkeit vorwärts bis den Motoren andere Befehle erteilt werden.
+
+Die Anweisung \c;\l;motor\u cbot\motor;(0.5, 0.6);\n; lässt den Roboter mit halber Geschwindigkeit vorwärts fahren, wobei er eine leichte Linkskurve nimmt: der rechte Motor dreht sich ein wenig schneller (\c;0.6\n;) als der linke Motor (\c;0.5\n;).
+
+\b;Vorgehensweise
+Um genau 25 Meter vorwärts zu fahren, fahren Sie die ersten 23 Meter mit Höchstgeschwindigkeit und reduzieren Sie die Geschwindigkeit auf den letzten 2 Metern kontinuierlich auf 0.
+Die \l;Variable\u cbot\var; \l;position\u cbot\object; gibt Ihnen jederzeit die aktuelle Position des Roboters an und die Anweisung \c;\l;distance\u cbot\dist;( , );\n; gibt den Abstand zwischen zwei Punkten zurück. Die beste Möglichkeit, in Erfahrung zu bringen, wo Sie sind, besteht darin, bevor Sie losfahren die momentane Position in einer \l;Variable\u cbot\var; zu speichern, zum Beispiel in einer Variable namens \c;start\n;. Sie können dann den Abstand zwischen dieser Startposition und Ihrer aktuellen Position mit \c;distance(position, start)\n; berechnen.
+
+\b;Das Programm
+1) Deklarieren Sie die Variablen
+\s;\c;	\l;point\u cbot\type; start;
+\s;	\l;float\u cbot\type; length;
+\n;
+2) Speichern Sie die Startposition
+\s;\c;	start = position;
+\n;
+3) Starten Sie mit Höchstgeschwindigkeit :
+\s;\c;	\l;motor\u cbot\motor;(1, 1);
+\n;
+4) Führen Sie eine endlose \c;\l;while\u cbot\while;\n;-Schleife aus:
+\s;\c;	\l;while\u cbot\while; ( \l;true\u cbot\true; )
+\s;	{
+\s;		length = \l;distance\u cbot\dist;(position, start);
+\s;		\l;if\u cbot\if; ( length > 25-2 )
+\s;		{
+\s;			\l;motor\u cbot\motor;( weniger als vorher ! );
+\s;		}
+\s;	}
+\n;
+Solange der Abstand zwischen der Start- und der aktuellen Position kleiner als 23m ist, werden die Anweisungen in den geschweiften Klammern nach der \c;\l;if\u cbot\if;\n;-Anweisung nicht ausgeführt, sodass die Motoren ihre Maximalgeschwindigkeit beibehalten, was ihnen durch die \c;\l;motor\u cbot\motor;(1,1);\n;-Anweisung befohlen wurde.
+
+Um kontinuierlich abzubremsen müssen die Motoreinstellungen proportional zur verbleibenden Distanz sein:
+o  noch \c;2.0\n; Meter -> Geschw. = \c;1.00\n; (Maximum)
+o  noch \c;1.5\n; Meter -> Geschw. = \c;0.75\n;
+o  noch \c;1.0\n; Meter -> Geschw. = \c;0.50\n;
+o  noch \c;0.5\n; Meter -> Geschw. = \c;0.25\n;
+o  noch \c;0.0\n; Meter -> Geschw. = \c;0.00\n; (Halt)
+
+\image tdragst1 12 6;
+Sie können folgenden \l;Ausdruck\u cbot\expr; verwenden: \c;(25-length)/2\n;, um den Wert für die Geschwindigkeit zu berechnen, den Sie den Motoren zuweisen müssen.
+
+Es ist jetzt Ihre Aufgabe, alles zusammenzusetzen und das Programm zu testen.
+
+\b;Hinweis
+Sie können Werte größer als 1 für die \c;\l;motor\u cbot\motor;();\n;-Anweisung verwenden, aber der Roboter wird dadurch nicht schneller.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

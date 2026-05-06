@@ -1,0 +1,10 @@
+\b;Zpráva z řídícího střediska
+Průzkumný satelit objevil nový typ výbušniny zřejmě vyvinutý předchozí výpravou. Musíte ji najít a přinést zpět do \l;rakety\u object\base;.
+
+\b;Postup
+Poloha výbušniny je na Vaší minimapě vyznačena červeným křížkem.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

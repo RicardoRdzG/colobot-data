@@ -1,0 +1,13 @@
+\b;Instrucción \c;thump\n; (golpear)
+Sintaxis:
+\s;\c;thump ( );\n;
+
+Activa el sistema de armas del \l;golpeador\u object\bottump;, que pone boca arriba a las hormigas y arañas y las deja completamente inofensivas durante un rato.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Cero si todo está bien, un valor diferente de cero si ocurrió un error. 
+\c;== 0 \n;Golpeo realizado
+\c;!= 0 \n;Operación imposible
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

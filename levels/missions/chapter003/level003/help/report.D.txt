@@ -1,0 +1,20 @@
+\b;Satellitenbericht
+Gegenwärtig in einer geostationären Umlaufbahn um Tropica.
+\c;
+\s;-> Oberfläche\c;
+\tab;Temperatur:     29.6C
+\tab;Atmosphäre:     Helium, Sauerstoff
+\tab;Wind:           1.5 m/s
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Untergrund\c;
+\tab;Energiefelder:  vereinzelt (blaue Fahne)
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Zusätzliche Informationen\c;
+\tab;Entdeckt:       Riesenameisen
+\tab;  - Gefahr:     nicht unmittelbar
+\tab;Entdeckt:       wiederverwertbare Roboterwracks
+\n;

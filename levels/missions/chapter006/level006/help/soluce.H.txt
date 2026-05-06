@@ -1,0 +1,9 @@
+\b;Lépésről lépésre
+Biztonságosabb, ha \l;ön\u object\human; a \l;űrhajón\u object\base; marad. Előfordulhat, hogy néhányszor eltalálják, de nem életveszélyesen.
+
+Használja ki jól az új \l;szárnyas orga puskát\u object\botoj;, és ne pazaroljon időt. Először lője le a jobboldali hangyákat, majd forduljon az űrhajó körül az óramutató járásával megegyezően, alacsony magasságban repülve.
+
+Ha így nem sikerül, helyezze a \l;szárnyas orga puskát\u object\botoj; egy biztonságos helyre az űrhajó északi részén, majd meneküljön el. Ezután nyugodtan lelőheti a hangyákat egyesével; nem okozhatnak kárt az űrhajóban vagy a fekete dobozban.
+
+\t;Lásd még
+A \l;vezérlés\u command;

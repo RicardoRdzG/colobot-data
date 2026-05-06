@@ -1,0 +1,5 @@
+\b;Batalha de Código (atirando em outro atirador)
+Este é um nível de \l;batalha de código\u battles; onde você luta contra um programa simples para Atiradores, escrito pelos desenvolvedores do jogo, para melhorar sua pontaria.
+
+\b;Objetivo
+Destrua o outro \l;Atirador\u object/botfj; localizado no lado oposto do rio.

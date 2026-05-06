@@ -1,0 +1,9 @@
+\b;A Küldetésirányító Központból
+A harmadik \l;kulcs\u object\key; (C) egy gombákkal benőtt területen van elásva. Egy \l;szimatoló\u object\botss; képes lehet megtalálni, és egy \l;fúrótorony\u object\derrick; ki tudja emelni.
+
+Miután a küldetést teljesítetted, és mielőtt felszállnál, vidd fel az űrhajóra a \l;védőrobotot\u object\botshld; és a \l;búvárrobotot\u object\botsub; is.
+
+A \key;\key help;\norm; billentyű segítségével bármikor újra megtekintheted ezeket az utasításokat a saját SatCom \button 63; eszközödön.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

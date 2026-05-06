@@ -1,0 +1,15 @@
+\b;Návod
+1) Poblíž modré vlajky rychle postavte \l;hromosvod\u object\captor;.
+Všechny další budovy byste měli stavět uvnitř oblasti \button 41; chráněné hromosvodem.
+2) Dovnitř hromosvodu přivezte několik prázdných \l;baterií\u object\power;. Až udeří blesk, nabijí se.
+3) Postavte \l;vrtnou věž\u object\derrick;.
+4) Postavte \l;konvertor\u object\convert;.
+5) Spusťte program \c;CollectTitanium3\n; na výrobu \l;titanu\u object\titan;.
+6) Postavte \l;továrnu na roboty\u object\factory;.
+7) Vyrobte \l;létající biokanón\u object\botoj;.
+8) Postavte \l;radar\u object\radar;.
+9) Najděte a zlikvidujte všechny \l;mravence\u object\ant;.
+10) Vraťte se do \l;rakety\u object\base; a odleťte.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

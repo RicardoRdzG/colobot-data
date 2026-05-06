@@ -1,0 +1,19 @@
+\b;Lépésről lépésre
+1) Gyorsan építsen egy \l;védőtornyot\u object\tower; északra a hajójától. Miután \l;felhajtotta\u object\power;, futtassa a \c;ServiceTower1\n; programot az egyik \l;felvevőn\u object\botgr;, amely feltölti az akkumulátort, ha az lemerül. Helyezzen el egy másik akkumulátort 2 méterre a torony északi részén, mint első célpontot a támadó darazsak számára.
+
+2) Építsen egy \l;erőművet\u object\station; a védőtornyhoz közel.
+
+3) Építsen egy \l;konvertert\u object\convert; a hajó déli részén, és futtassa a \c;CollectTitanium3\n; programot a második \l;felvevőn\u object\botgr;, hogy titánt \l;titaniumot\u object\titan; állítson elő.
+
+4) Építsen egy \l;robotgyárat\u object\factory; és egy \l;szárnyas lövőt\u object\botfj; az \l;hangyák\u object\ant; eltüntetésére.
+
+5) Használjon egy \l;szárnyas fogót\u object\botgj;, hogy szerves anyagot \l;szerves anyagot\u object\bullet; hozzon vissza a lávafolyó közepén lévő szigetről.
+
+6) Építsen egy \l;autolab\u object\labo;-ot, helyezze az \l;szerves anyagot\u object\bullet; a platformra, majd kattintson a \button 109; gombra a lábakkal rendelkező robotok tervrajzának kifejlesztéséhez.
+
+7) Miután a szerves anyagot elemezték, készítsen egy \l;lábakkal rendelkező fogót\u object\botgs; és vigye azt a hajóra.
+
+8) Induljon el.
+
+\t;See also
+\l;Szabályozás\u command;

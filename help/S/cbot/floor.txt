@@ -1,0 +1,13 @@
+\b;Instrucción \c;floor\n; ( piso )
+Sintaxis:
+\s;\c;floor ( valor );\n;
+Redondea un número hacia abajo.
+
+\t;valor: \c;\l;float\u cbot\float;\n;
+Número.
+
+\t;Valor de retorno: \c;\l;float\u cbot\float;\n;
+Piso del valor, es decir, el entero más grande que no sea mayor que \c;el valor\n;. Por ejemplo, \c;floor(2.9)\n; es \c;2.00\n;.
+
+\t;Ver también
+\l;round\u cbot\round;, \l;programación\u cbot;, \l;tipos\u cbot\type; y \l;expresiones\u cbot\expr;.

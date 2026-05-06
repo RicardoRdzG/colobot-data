@@ -1,0 +1,59 @@
+\b;Exercício
+O \l;robô\u object\bottr; deve passar por todas as \l;cruzes azuis\u object\waypoint; no solo. O caminho que deve ser coberto é feito de dois quadrados. O primeiro mede 15 metros, o segundo 25 metros.
+
+\image tproc1a 8 8;
+\b;Princípio geral
+Para resolver esse problema, a solução mais eficiente consiste em criar uma \l;função\u cbot\function; que instrui o robô a se mover em uma forma quadrada de um determinado tamanho. O programa principal torna-se então muito simples: \c;
+\s;extern void object::Funcao1( )
+\s;{
+\s;	Quadrado(15);
+\s;	Quadrado(25);
+\s;}
+\n;
+Você ainda precisa definir a função chamada \c;Quadrado\n;. Para fazer isso, você terá que escrever algumas instruções fora do \l;bloco\u cbot\bloc; que até agora era o quadro de cada um dos seus programas. No final do programa, após a última chave de fechamento, definiremos a função \c;Quadrado\n;. O programa terá a seguinte forma:
+\c;
+\s;extern void object::Funcao1( )
+\s;{
+\s;	\n;função principal...\c;
+\s;}
+\s;
+\s;void object::Quadrado(float comprimento)
+\s;{
+\s;	\n;nova função...\c;
+\s;}
+\n;
+Vamos olhar detalhadamente os diferentes elementos da declaração da função \c;Quadrado\n;:
+
+\c;\l;void\u cbot\void;\n;
+Isso significa que essa função não retornará nenhum valor.
+
+\c;\l;object\u cbot\object;::\n;
+Quando você escreve isso na frente do nome da função, você pode ter acesso na função a todas as características do robô, como \c;position\n;, \c;orientation\n;, etc. Neste exercício, este elemento não é obrigatório, pois não precisaremos das características do robô na função.
+
+\c;Quadrado (  )\n;
+Este é o nome da função. Você pode chamá-lo de Quadrado ou qualquer outro nome.
+
+\c;\l;float\u cbot\float; comprimento\n;
+Aqui você define os parâmetros que a função receberá quando for chamada.  A primeira vez que a função é chamada com \c;Quadrado(15)\n;,  a variável \c;comprimento\n; conterá o valor \c;15\n;. A  segunda vez, \c;comprimento\n; conterá \c;25\n;.
+
+Aqui está em detalhes o que acontecerá quando o programa for executado:
+- Primeiro a função principal \c;Funcao1\n; será executada.
+- Na linha \c;Quadrado(15)\n;, o programa seguirá a seta vermelha e entrará na função \c;Quadrado\n; pela primeira vez, \c;comprimento\n; contendo \c;15\n;.
+- No final da função \c;Quadrado\n;, o programa segue a seta laranja e volta para a função principal.
+- Na linha \c;Quadrado(25)\n;, o programa seguirá a seta azul e entrará na função \c;Quadrado\n; uma segunda vez.
+- No final da função \c;Quadrado\n;, o programa segue a seta azul clara e volta para a função principal.
+
+\image tproc1b 17 12;
+Na função \c;Quadrado\n;, use as instruções \c;\l;move\u cbot\move;\n; e \c;\l;turn\u cbot\turn;\n;. Para torná-lo mais curto, você pode usar um laço \c;\l;for\u cbot\for;\n;, que irá repetir as instruções \c;\l;move\u cbot\move;\n; e \c;\l;turn\u cbot\turn;\n; 4 vezes; no entanto, isso não é obrigatório.
+\c;
+\s;void object::Quadrado(float comprimento)
+\s;{
+\s;	for ( int i=0 ; i<4 ; i=i+1 )
+\s;	{
+\s;		move(comprimento);
+\s;		turn(90);
+\s;	}
+\s;}
+\n;
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

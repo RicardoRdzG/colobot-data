@@ -1,0 +1,11 @@
+\b;Vom Kontrollzentrum
+Holen Sie den Flugschreiber.
+
+In Bezug auf das sich intensivierende Gewitter sollten Sie wissen, dass Ihr Raumschiff wie ein Blitzableiter funktioniert. Unsere Ingenieure versichern uns ebenfalls, dass Ihr Raumanzug keine Blitze anzieht.
+
+Bitte beachten Sie, dass Sie Ihr Raumschiff auch wirkt natürlich als Blitzableiter, und unsere Ingenieure versichern uns, dass Sie Ihren Raumanzug nicht Blitz anziehen.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

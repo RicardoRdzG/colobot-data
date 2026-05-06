@@ -1,0 +1,10 @@
+\b;Tipo \c;void\n;
+Usa este tipo cuando quieres declarar una función que no regresa nada.
+
+Ejemplo:\c;\s;void MiFuncion(int a)
+\s;{
+\s;	...
+\s;}
+\n;
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

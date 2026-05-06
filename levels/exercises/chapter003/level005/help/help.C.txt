@@ -1,0 +1,36 @@
+\b;Cvičení
+\l;Komunikační stanice\u object\exchange; podél trasy v tomto cvičení obsahují směr a vzdálenost k další stanici. A předem nevíte, kolika komunikačních stanic se musíte dotázat na cestu k cíli.
+
+\b;Obecný postup
+	Neustále opakovat:
+	o  Načíst směrový úhel z \l;komunikační stanice\u object\exchange;.
+	o  Načíst vzdálenost z \l;komunikační stanice\u object\exchange;.
+	o  Pokud se informace nepodařilo načíst, ukončit program.
+	o  Otočit robota.
+	o  Dojet k další stanici.
+
+Pro neomezené opakování příkazů použijte cyklus \c;\l;while\u cbot\while; (true)\n;. Příkazy mezi složenými závorkami \c;{ }\n; se budou opakovat donekonečna, nebo dokud cyklus neukončí příkaz \c;\l;break\u cbot\break;\n;.
+\s;\c;	while ( true )
+\n;
+Tentokrát potřebujete dvě \l;proměnné\u cbot\var;, jednu pro směrový úhel, druhou pro vzdálenost. Například \c;dir\n; a \c;len\n;:
+\s;\c;	float  dir, len;
+\n;
+Pak můžete načíst informace:
+\s;\c;	dir = receive("Direction");
+\s;\c;	len = receive("Length");
+\n;
+Proměnná \l;typu\u cbot\type; \c;\l;float\u cbot\float;\n; může obsahovat speciální hodnotu nazvanou \c;\l;nan\u cbot\nan;\n;. Tato hodnota znamená, že proměnná neobsahuje žádné číslo (Not A Number).
+Když v dosahu nebude žádná \l;komunikační stanice\u object\exchange;, buď protože robot dorazil do cíle, nebo protože jel špatným směrem, obě proměnné \c;dir\n; i \c;len\n; budou obsahovat právě tuto hodnotu. To můžete zkontrolovat příkazem \c;\l;if\u cbot\if;\n; a případně ukončit cyklus příkazem \c;\l;break\u cbot\break;\n;:
+\s;\c;	if ( dir == nan )  break;
+\n;
+Pokud bylo načtení informací z \l;komunikační stanice\u object\exchange; úspěšné, otočte robota:
+\s;\c;	turn(dir);
+\n;
+A popojeďte vpřed:
+\s;\c;	move(len);
+\n;
+\b;Poznámky
+Když kliknete na \l;komunikační stanici\u object\exchange;, můžete se podívat, jaké informace obsahuje. Všechny komunikační stanice v tomto cvičení obsahují dvě hodnoty nazvané \c;"Direction"\n; a \c;"Length"\n;.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

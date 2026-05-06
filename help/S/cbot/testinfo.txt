@@ -1,0 +1,18 @@
+\b;Instrucción \c;testinfo\n;
+Sintaxis:
+\s;\c;testinfo ( nombre, potencia );\n;
+
+Comprueba si existe información en el \l;punto de intercambio de información\u object\exchange; más cercano.
+
+\t;nombre: \c;string\n;
+Nombre de la información que se va a comprobar en el puesto de intercambio. Este nombre es una cadena: debe escribirse entre comillas "".
+
+\t;potencia: \c;float\n;
+Potencia del transmisor, que corresponde a la distancia máxima entre el transmisor y el poste de intercambio. Si la distancia es mayor, la función devuelve falso (\c;false\n;). El valor predeterminado es 10 metros.
+
+\t;Retorno: \c;\l;bool\u cbot\bool;\n;
+Devuelve verdadero ( \c;true\n; ) si la información existe. Devuelve falso ( \c;false\n; ) si la información no existe o si el receptor está demasiado lejos del puesto de intercambio.
+
+\t;Ver también
+\c;\l;receive\u cbot\receive;\n;, \c;\l;send\u cbot\send;\n; y \c;\l;deleteinfo\u cbot\delinfo;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

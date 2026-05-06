@@ -1,0 +1,8 @@
+\b;Souboj programátorů (duel s jiným hráčem)
+Toto je mapa pro \l;souboj programátorů\u battles;, kde budete bojovat proti jinému programu, třeba napsanému dalším hráčem, abyste se procvičili ve střelbě.
+
+\b;Úkol
+Zničte druhý \l;kanón\u object\botfj; nacházející se na protějším břehu řeky.
+
+\b;Poznámky\m notes;
+o Na stránkách Mezinárodní komunity Colobotu (\c;http://colobot.info\n;) se můžete poohlédnout po programech od jiných hráčů, se kterými můžete změřit své síly.

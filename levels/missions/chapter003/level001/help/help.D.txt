@@ -1,0 +1,10 @@
+\b;Vom Kontrollzentrum
+Der Beobachtungssatellit hat einen neuen Sprengkörper entdeckt der scheinbar von der vorhergehenden Expedition entwickelt wurde. Sie müssen ihn finden und an Bord Ihres \l;Raumschiffes\u object\base; bringen.
+
+\b;Vorgehensweise
+Die Position des Sprengkörpers ist mit einem roten Kreuz auf der Mini-Karte markiert.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

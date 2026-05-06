@@ -1,0 +1,11 @@
+\b;Vom Kontrollzentrum
+Wie immer, Gratulation zu Ihrem Erfolg.
+
+Diese neue Waffe scheint eine weitere praktische Anwendung von dem zu sein, was wir das "grüne Gold" nennen, der von den Insekten produzierte \l;Orgastoff\u object\bullet;. Wir haben diesen Roboter auf den Namen \l;Orgashooter\u object\botoj; oder auch "Roboter mit Orgaballkanone" getauft.
+
+Er wird höchstwahrscheinlich nützlich sein, wenn Sie zu Ihrem \l;Raumschiff\u object\base; zurückkehren.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

@@ -1,0 +1,12 @@
+\b;\button 158; Bot de Práctica
+\image bottr 8 8;
+Bot con ruedas destinado únicamente para entrenamiento y práctica. Su único propósito es ayudarte a acostumbrarte a la programación de los diversos movimientos terrestres de los bots.
+
+\t;Instrucciones
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;PracticeBot\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

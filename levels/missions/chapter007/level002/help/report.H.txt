@@ -1,0 +1,15 @@
+\b;Műholdjelentés
+Jelenleg geostacionárius pályán a Centaury körül.
+\c;
+\s;-> FELSZÍN\c;
+\tab;Hőmérséklet:     25.4C
+\tab;Légkör:          oxigén, nitrogén, ammónia
+\tab;Szél:            1.2 m/s
+\tab;Titánérc:        nincs
+\tab;Uránérc:         nincs
+
+\s;-> ALTALAJ\c;
+\tab;Energiaforrás:    nincs
+\tab;Titánérc:         nincs
+\tab;Uránérc:          nincs
+\n;

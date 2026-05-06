@@ -1,0 +1,14 @@
+\b;Objectif
+Aller chercher un \l;minerai de titane\u object\titanore;, et le poser sur la \l;raffinerie\u object\convert; de manière à obtenir un \l;bloc de titane\u object\titan;.
+
+\t;Programme
+Vous aurez besoin d'une nouvelle instruction:
+\c;
+\s;move();\n;
+Apprendre au robot à avancer ou reculer. La distance du déplacement est transmise entre parenthèse en mètres: \c;move(10);\n; avance le robot de 10m en avant, \c;move(-1);\n; recule le robot d'un mètre en arrière.
+
+Les instructions \c;\l;turn\u cbot\turn;()\n;, \c;\l;grab\u cbot\grab;()\n; et \c;\l;drop\u cbot\drop;()\n; ont déjà été explicitées lors des exercices précédents. Si vous la moindre interrogation à propos de ces instructions, cliquez sur le nom de l'instruction qui est souligné en bleu, et une explication de l'instruction en question apparaîtra.
+
+Le \l;minerai de titane\u object\titanore; se trouve à 20 mètres devant le robot, et la \l;raffinerie\u object\convert; se trouve à 10 mètres derrière le robot. Après avoir posé le minerai sur la raffinerie, n'oubliez pas de reculer pour que la raffinerie puisse fermer les portes et se mettre au travail.
+
+\key;\key help;\norm; permet de revoir les instructions générales en tout temps. De même, \key;\key prog;\norm; donne accès aux explications du langage de programmation CBOT.

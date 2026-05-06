@@ -1,0 +1,31 @@
+\b;Ejercicio
+Varios \l;puestos de intercambio de información\u object\exchange; se encuentran en el medio de un campo de \l;minas\u object\mine;. Cuando el bot está lo suficientemente cerca de un puesto de intercambio, puede leer la información que contiene. Cada puesto de intercambio contiene el ángulo de rotación que debe realizarse para llegar al siguiente puesto de intercambio, sin tocar una \l;mina\u object\mine;.
+Los puestos de intercambio están a 20m de distancia entre sí.
+
+\b;Principio general
+Repite 5 veces:
+	o  Avanza 20m.
+	o  Lee la dirección del siguiente \l;puesto de intercambio de información\u object\exchange;.
+	o  Ejecuta la rotación necesaria.
+
+\image tinfo1 8 8;
+Para repetir los pasos anteriores, usa un bucle \c;\l;for\u cbot\for;\n;, como vimos antes.
+\s;\c;	for ( int i=0 ; i<5 ; i=i+1 )
+\n;
+Avanza con la instrucción \c;move(20);\n;.
+
+Usa la instrucción \c;\l;receive\u cbot\receive;("Direction");\n; para leer la información contenida en el \l;puesto de intercambio\u object\exchange;. Esto es, por supuesto, posible solo cuando el bot está lo suficientemente cerca del puesto de intercambio.
+Necesitarás una \l;variable\u cbot\var; para contener el valor recuperado del puesto de intercambio. Llamémosla \c;dir\n;; debes declararla con la siguiente línea:
+\s;\c;	float  dir;
+\n;
+Luego recupera el ángulo de rotación del puesto de intercambio, y ponlo en la variable:
+\s;\c;	dir = receive(...);
+\n;
+Luego puedes ejecutar la rotación:
+\s;\c;	turn(dir);
+\n;
+\b;Nota
+Puedes hacer clic en un \l;puesto de intercambio de información\u object\exchange; para leer qué información contiene. En este ejercicio, cada puesto de intercambio contiene solo un valor llamado \c;"Direction"\n;, pero puede contener hasta 10 valores diferentes, como verás en algunos de los siguientes ejercicios.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

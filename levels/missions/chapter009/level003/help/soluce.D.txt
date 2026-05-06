@@ -1,0 +1,6 @@
+\b;Schritt für Schritt
+Leider ist für diese Mission keine Schritt-für-Schritt-Anleitung verfügbar.
+Sie sind auf sich allein gestellt...
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

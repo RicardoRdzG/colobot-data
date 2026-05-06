@@ -1,0 +1,11 @@
+\b;\button 173; Bot Blanco
+\image bottarg 8 8;
+Bot con ruedas destinado únicamente para práctica de objetivos. Es autónomo y su trayectoria depende de la naturaleza del ejercicio.
+
+Ten en cuenta que los bots blancos, cargados con \l;TNT\u object\tnt;, son extremadamente sensibles a los impactos.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;TargetBot\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

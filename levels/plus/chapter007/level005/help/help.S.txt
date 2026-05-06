@@ -1,0 +1,9 @@
+\b;Del Control de Misiones
+Estás bajo ataque y este no es momento para la compasión...
+
+Tu nuevo \l;thumper\u object\bottump; podría ser muy útil. Sin embargo, enfatizamos que no debes arriesgar un despegue si hay hormigas aún vivas en las cercanías de la nave espacial.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

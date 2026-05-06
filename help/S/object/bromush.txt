@@ -1,0 +1,9 @@
+\b;Hongo Marrón
+\image bromush 8 8;
+El crecimiento de estos inofensivos hongos marrones signifies the presence of \l;mineral de uranio\u object\uranore; in the subsuelo. Usa un \l;detector\u object\botsr; para confirmar eso.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;BrownMushroom\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

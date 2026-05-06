@@ -1,0 +1,9 @@
+\b;Passo a passo
+Você encontrará um \l;radar\u object\radar;, um \l;captor de energia\u object\captor;, uma \l;célula de energia\u object\power; e um \l;atirador orgânico alado\u object\botoj; no vale ao sul da espaçonave. Isso permitirá que você mate as formigas perto da espaçonave e localize a \l;caixa preta\u object\bbox; no norte ao lado dos restos da primeira espaçonave de expedição.
+
+Construa uma sucessão de \l;captores de energia\u object\captor; ao longo do caminho natural oferecido pelos picos das montanhas do norte. 5 ou 6 captores devem oferecer proteção suficiente contra raios.
+
+Traga a caixa preta de volta a bordo de sua \l;espaçonave\u object\base; e decole.
+
+\t;Veja também
+\l;Controles\u command;.

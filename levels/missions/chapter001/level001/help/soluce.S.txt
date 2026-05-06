@@ -1,0 +1,11 @@
+\b;Guía Paso a Paso
+Para encontrar el kit de supervivencia desde tu punto de partida :
+
+1) Sigue el camino hacia el sur.
+2) Gira al este (izquierda) en el primer cruce.
+3) El kit de supervivencia está ubicado entre la pared norte del Control de Misiones y el primer árbol en el lado derecho del camino.
+
+Simplemente posiciónate cerca de él para completar exitosamente el ejercicio.
+
+\t;Ver también
+\l;Controles\u command;

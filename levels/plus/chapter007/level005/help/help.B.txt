@@ -1,0 +1,9 @@
+\b;Do Centro de Controle de Missões
+Você está sob ataque e não é hora de compaixão ...
+
+Seu novo \l;batedor\u object\bottump; pode ser muito útil. No entanto, enfatizamos que você não deve arriscar uma decolagem se houver alguma formiga ainda viva nas proximidades da espaçonave.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

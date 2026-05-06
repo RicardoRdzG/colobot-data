@@ -1,0 +1,32 @@
+\b;Del Centro de Entrenamiento de la NASA
+Nos complace informarte que has sido seleccionado para la misión de exploración espacial Colobot.
+
+Tu perfil psicológico ha sido establecido como más del 98.84% favorable, y tu aptitud durante el extenso período de pruebas fue incuestionable. Los resultados detallados están a tu disposición en la computadora central bajo el número de registro que se te asignó.
+
+Por favor, reporta al \l;Control de Misiones de Houston\u object\Huston; para recibir más directivas sobre tu próxima misión.
+
+\b;Del Control de Misiones de Houston
+Como sabes, la Tierra se dirige hacia un desastre inminente, debido a la creciente contaminación atmosférica.
+
+\l;Tu\u object\human; misión consiste en explorar galaxias vecinas con la esperanza de encontrar un planeta que sea adecuado para las necesidades humanas y que posiblemente sirva como refugio para la humanidad. Estarás solo durante toda la misión, pero tu nave espacial llevará algunos bots.
+
+Hace siete meses se envió una expedición compuesta enteramente de bots a través del cosmos con el mismo objetivo. Encontró una buena cantidad de obstáculos en el camino, aparentemente aterrizando en planetas que no eran adecuados para la colonización, posiblemente incluso abiertamente hostiles. Muy recientemente todas las comunicaciones fueron terminadas.
+
+Las razones del fracaso de la misión no están claras en esta fecha, principalmente debido a problemas recurrentes de transmisión. Es nuestra esperanza que podrás usar algunos de los datos que reunió en tu ventaja.
+
+El último ejercicio que te queda por realizar antes de embarcarte en tu viaje es equipar tu nave espacial con su \l;caja negra\u object\bbox;. Un bot encargado de traerla a la nave espacial espera tu señal. Necesitas construir un \l;punto de intercambio de información\u object\exchange; cerca de una \l;bandera\u object\flag; azul y \l;enviar\u cbot\send; una información, un \l;constructor con orugas\u object\botbc; puede ser útil para esta tarea.
+
+Desafortunadamente tu \l;fábrica de bots\u object\factory; aún no tiene la capacidad de ensamblar este tipo de bot. Necesitas solicitar a tu \l;centro de investigación\u object\research; que elabore un plano para este aparato en particular.
+
+\b;Procedimiento
+1) Realiza los \l;programas de investigación\u cbot\researches; necesarios.
+2) Deja caer un \l;cubo de titanio\u object\titan; en el centro de la \l;fábrica de bots\u object\factory; y construye un \l;constructor con orugas\u object\botbc;.
+3) Alcanza la cima de la montaña orientada al suroeste y construye un \l;punto de intercambio\u object\exchange; cerca de una \l;bandera\u object\flag; azul.
+4) \l;Envía\u cbot\send; una \l;información vacía\u cbot\string; para ordenar al portador que traiga la caja negra de vuelta a tu nave espacial.
+5) No olvides llevar tu \l;recolector\u object\botgr; y tu \l;constructor\u object\botbc;.
+6) Sube a la \l;nave espacial\u object\base; y despega \button 28;.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en cualquier momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command;

@@ -1,0 +1,21 @@
+\b;Guía Paso a Paso
+Aquí hay un desglose de los pasos a seguir para regresar a la nave espacial.
+
+1) Rodea el lago y dirígete hacia el globo fluorescente verde. Este globo es generado por una gravi-planta que hará imposible el vuelo dentro del globo.
+
+2) Sigue el flanco izquierdo del valle, pasando un estanque a tu derecha, y escala la pequeña pendiente. Arriba te enfrentarás a algunas hormigas gigantes: corre tan rápido como puedas hacia otra gravi-planta un poco más a tu derecha, tus heridas tendrán tiempo de sanar después.
+
+3) Usa tu reactor para volar sobre el lago antes de la gravi-planta a tu derecha.
+
+4) Cuando salgas de la gravi-planta, mantente en el lado izquierdo del lago y sigue la orilla hasta alcanzar una península adornada con plantas parecidas a helechos.
+
+5) Haz algunos saltos de isla a través del lago más grande. Apunta a los árboles para evitar caer al agua en el otro lado de la isla. La última isla está a 50 cm bajo el agua pero aún puedes aterrizar en ella sin tener la cabeza sumergida.
+
+6) El camino continúa hacia la izquierda. Una hormiga gigante te está esperando allí, pero no te hará mucho daño.
+
+7) Dale a tu reactor suficiente tiempo para enfriarse, luego cruza volando el pequeño lago. Intenta aterrizar lo más alto posible a la derecha, esta es la mejor manera de no caer en el segundo lago.
+
+8) Cruza el segundo lago, sube a bordo de la nave espacial y despega.
+
+\t;Ver también
+\l;Controles\u command;

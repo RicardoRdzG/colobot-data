@@ -1,0 +1,24 @@
+\b;Instrucción \c;buildingenabled\n; ( habilitada para la construcción )
+La instrucción \c;buildingenabled();\n; te permite saber si se puede construir un edificio de una \l;categoría\u cbot\category; determinada durante la misión actual.
+
+\b;Uso básico
+Es similar a la instrucción \c;\l;canbuild();\u cbot\canbuild;\n;. Sin embargo, no comprueba si se ha realizado la investigación necesaria.
+\c;
+\s; \l;if\u cbot\if; (buildingenabled(\l;BotFactory\u object\factory;))
+\s; {
+\s;	build(\l;BotFactory\u object\factory;);
+\s; }
+\n;
+\b;Para especialistas
+Sintaxis:
+\s;\c;buildingenabled (cat);\n;
+
+\t;cat: \c;\l;int\u cbot\int;\n;
+\l;Categoría\u cbot\category; de una construcción.
+
+\t;Valor de retorno: \c;\l;bool\u cbot\bool;\n;
+\c;true\n; (verdadero) si el edificio puede ser construido, \c;false\n; ( falso ) de otra manera.
+
+\t;Ver también
+\c;\l;build\u cbot\build;\n;, \c;\l;canbuild\u cbot\canbuild;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

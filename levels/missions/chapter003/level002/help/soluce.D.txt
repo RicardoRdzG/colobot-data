@@ -1,0 +1,21 @@
+\b;Schritt für Schritt
+Hier ist eine Liste der Arbeitsschritte, die Sie tun müssen, um zum Raumschiff zurückzukehren.
+
+1) Gehen Sie um den See herum auf die grüne fluoreszierende Kugel zu. Diese Kugel wird durch eine Gravi-Pflanze erzeugt, die das Fliegen innerhalb der Kugel unmöglich macht.
+
+2) Folgen Sie der linken Flanke des Tals, wobei Sie an einen Teich vorbei kommen. Steigen Sie den kleinen Hang hinauf. Dort oben werden Sie einigen Ameisen begegnen. Laufen Sie so schnell Sie können zu einer anderen Gravi-Pflanze, die sich ein wenig weiter weg, und rechterhand befindet. Ihre Verletzungen werden später heilen.
+
+3) Fliegen Sie mit Ihrem Jetpack über den See vor der Gravi-Pflanze rechts von Ihnen.
+
+4) Wenn Sie sich von der Gravi-Pflanze entfernen, bleiben Sie auf der linken Seite des Sees und folgen Sie dem Ufer, bis Sie eine Halbinsel erreichen, die mit farnähnlichen Pflanzen bewachsen ist.
+
+5) Fliegen Sie von Insel zu Insel über den größeren See. Richten Sie sich nach den Bäumen, um zu vermeiden, hinter der anvisierten Insel ins Wasser zu fallen. Die letzte Insel liegt 50 cm unter Wasser, aber Sie können trotzdem darauf landen, ohne dass Ihr Kopf unter Wasser gerät.
+
+6) Der Weg führt links weiter. Eine Riesenameise wartet dort auf Sie, aber sie wird Ihnen keinen bedrohlichen Schaden zufügen.
+
+7) Lassen Sie Ihr Jetpack abkühlen und fliegen Sie dann über den kleinen See. Versuchen Sie, rechts so weit oben wie möglich zu landen; das ist die beste Möglichkeit, nicht in den zweiten See zu fallen.
+
+8) Überqueren Sie den zweiten See, gehen Sie an Bord und heben Sie ab.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

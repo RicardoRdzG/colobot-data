@@ -1,0 +1,19 @@
+\b;Passo a passo
+1) Construa um conversor \button 162; com o único cubo de titânio disponível.
+
+2) Deposite um pedaço de minério de titânio por vez no centro da plataforma e deixe o conversor fazer o resto.
+
+3) Construa uma estação de energia \button 164; com um dos cubos de titânio recém-convertidos.
+
+4) Se você não quiser procurar a caixa preta, construa um radar \button 168; e a caixa aparecerá em seu mini-mapa em algum lugar ao norte da sua localização atual, no fundo de uma cratera, ao lado de algumas espaçonaves abandonadas e detritos da expedição anterior.
+
+5) Coloque os agarradores no centro da plataforma da estação de energia para recarregá-los. As células ainda devem ter um pouco de energia nelas, apenas o suficiente para controlar os robôs na plataforma.
+
+6) Radio-controle o agarrador alado para a caixa preta e traga-a de volta.
+
+7) Reúna os agarradores e a caixa preta na plataforma da espaçonave e suba a bordo.
+
+8) Decole.
+
+\t;Veja também
+\l;Controles\u command;

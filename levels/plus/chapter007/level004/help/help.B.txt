@@ -1,0 +1,19 @@
+\b;Uma palavra sobre novas políticas
+Lamentamos ter que trazer isso à sua atenção, mas este parece ser um bom momento para deixá-lo em uma pequena preocupação que estamos tendo no momento. Houve uma forte reação na opinião pública e no Congresso a respeito de seu término sistemático dos "habitantes indígenas" dos planetas que você visitou. O Congresso escolheu demonstrar sua sensibilidade às preocupações da população em geral.
+
+Por este meio, retransmitimos suas novas diretivas e essas diretivas para que você limite as baixas o quanto for humanamente possível. Em outras palavras, faça o seu melhor para poupar as formas de vida que você encontra a partir de agora. Sua missão não deve, naturalmente, se ver comprometida por esse novo curso de ação.
+
+\b;Do Centro de Controle de Missões
+Seus recursos energéticos parecem perigosamente limitados neste momento e assim é seu arsenal, mas você precisa localizar e recuperar a \l;caixa preta\u object\bbox; da expedição anterior para poder avançar para o próximo planeta.
+
+Recebemos uma informação de seus antecessores, via satélite de observação, sobre um novo tipo de armamento que eles desenvolveram precisamente para uma situação como essa.
+
+Esta arma oferecer-lhe-á a oportunidade de demonstrar a sua nova compaixão pelas \l;espécies indígenas\u object\ant;, pois não é uma arma de destruição em massa. O que ela oferece, pelo que sabemos, é uma opção para incapacitá-los, tornando-os, ainda que temporariamente, inofensivos. Se este for realmente o caso, você precisará agir rapidamente antes que eles tenham a chance de se tornarem hostis a você novamente.
+
+\b;Procedimento
+Realize o \l;programa de pesquisa\u object\research; e experimente você mesmo, mas não se esqueça de trazer de volta essa nova arma. Estamos muito curiosos para estudar seu funcionamento.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

@@ -1,0 +1,5 @@
+\b;Passo a passo
+Dirija o \l;atirador orgânico com pernas\u object\botos; para cada um dos blocos na frente dos alvos e acerte todos os alvos que você vir com apenas uma rajada, movendo o mouse durante a rajada. Com 4 rajadas, você deve conseguir acertar todos os alvos.
+
+\t;Veja também
+\l;Controles\u command;.

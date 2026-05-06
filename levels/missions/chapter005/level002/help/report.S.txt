@@ -1,0 +1,19 @@
+\b;Informe del Satélite
+Actualmente en una órbita geoestacionaria de Saari.
+\c;
+\s;-> SUPERFICIE\c;
+\tab;Temperatura:      38.4C
+\tab;Atmósfera:        CO2, oxígeno, nitrógeno
+\tab;Viento:           1.4 mps
+\tab;Mineral de titanio: algo
+\tab;Mineral de uranio:  ninguno
+
+\s;-> SUBSUELO\c;
+\tab;Fuente de energía: en todas partes
+\tab;Mineral de titanio: ninguno
+\tab;Mineral de uranio:  ninguno
+
+\s;-> INFORMACIÓN ADICIONAL\c;
+\tab;Detectado:        hormigas gigantes acercándose 
+\tab;  - Peligro:       sí, inmediato
+\n;

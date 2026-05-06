@@ -1,0 +1,5 @@
+\b;Guía Paso a Paso
+Sigue el camino mostrado en tu mini mapa. El dispositivo explosivo se encuentra en el fondo de un pequeño valle poblado por hormigas gigantes. Probablemente te atacarán y probablemente perderás el conocimiento. No hay mucho que puedas hacer al respecto.
+
+\t;Ver también
+\l;Controles\u command;

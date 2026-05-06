@@ -1,0 +1,10 @@
+\b;Cvičení
+Naprogramujte robota, aby projel přes čtyři modré kříže a zastavil na cílové značce.
+Modré kříže a startovní i cílová značka jsou od sebe vzdáleny 20m.
+
+\b;Užitečné příkazy
+\c;\l;move\u cbot\move;\n; pro popojetí s robotem
+\c;\l;turn\u cbot\turn;\n; pro otočení robota
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

@@ -1,0 +1,62 @@
+\b;Cvičení
+Naprogramujte robota, aby našel cestu skrz bludiště a nenarazil při tom do zdi. Předpokládejme, že neznáte přesnou mapu bludiště, ale nejsou v něm žádná rozcestí ani slepé uličky. Bludiště se skládá ze čtvercových polí o rozměrech 5x5 metrů.
+
+\b;Příkaz \c;radar\n;
+Příkaz \c;\l;radar\u cbot\radar;(Barrier, 0, 45, 0, 5)\n; najde libovolný \l;zátaras\u object\barrier;, který je blíže než 5 metrů před robotem. Proberme si všech pět parametrů podrobněji:
+
+\s;\c;Barrier\n;
+\l;Kategorie\u cbot\category; objektu, který má radar hledat, t.j. zátaras.
+
+\s;\c;0\n;
+Směrový úhel radaru. \c;0\n; znamená, že radar má mířit rovně dopředu.
+
+\s;\c;45\n;
+Zorný úhel ve stupních. Při úhlu 45 stupňů budou nalezeny zátarasy nacházející se až 22,5 stupně nalevo nebo 22,5 stupně napravo od směrové osy radaru.
+
+\s;\c;0\n;
+Minimální vzdálenost. \c;0\n; znamená, že radar najde i objekty těsně u robota.
+
+\s;\c;5\n;
+Maximální vzdálenost. Radar si nebude všímat zátarasů, které jsou dále než \c;5\n; metrů.
+
+Ukažme si další příklad. Příkaz \c;\l;radar\u cbot\radar;(Barrier, 90, 45, 0, 5);\n; namíří radar o 90 stupňů vlevo, aby program zjistil, jestli je cesta doleva volná.
+
+\image tlaby1 10 10;
+\b;Obecný postup
+Níže popsaný program dojede pouze na následující volné pole. Budete ho muset ručně spustit několikrát dokola, abyste dojeli až do cíle.
+o  Pokud je před robotem volno, popojeďte vpřed.
+o  Pokud je volno nalevo od robota, udělejte půlobrat vlevo a popojeďte vpřed.
+o  Pokud je volno napravo od robota, udělejte půlobrat vpravo a popojeďte vpřed.
+
+1) Nejprve deklarujte tři \l;proměnné\u cbot\var; typu \c;\l;object\u cbot\object;\n;, které nazveme \c;front\n;, \c;left\n; a \c;right\n;. Proměnné tohoto typu mohou obsahovat popis libovolného objektu, například zátarasu objeveného radarem.
+\s;\c;	object   front, left, right;\n;
+
+2) Hledejte zátarasy ve všech třech směrech a výsledky příkazu \c;radar\n; uložte do proměnných deklarovaných v kroku 1). Pokud radar nic nenajde, do příslušné proměnné se uloží hodnota \c;\l;null\u cbot\null;\n;.
+\s;\c;	front = radar(Barrier,   0, 45, 0, 5);
+\s;	left  = radar(Barrier,  90, 45, 0, 5);
+\s;	right = radar(Barrier, -90, 45, 0, 5);
+\n;
+3) Zkontrolujte příkazem \c;\l;if\u cbot\if;\n;, jestli je rovně před robotem volno. Když bude podmínka v příkazu \c;\l;if\u cbot\if;\n; platit, provedou se příkazy ve složených závorkách \c;{ }\n;, jinak bude program pokračovat až za pravou složenou závorkou \c;}\n;.
+Příkaz \c;return\n; ukončí program: úkol je splněn.
+\s;\c;if ( front == null )
+\s;{
+\s;	move(5);
+\s;	return;
+\s;}
+\n;
+4) Zkontrolujte, jestli je možno jet doleva; pokud ano, otočte doleva příkazem \c;\l;turn\u cbot\turn;\n; a popojeďte 5m vpřed.
+\s;\c;if ( left == null )
+\s;{
+\s;	turn(90);
+\s;	move(5);
+\s;	return;
+\s;}
+\n;
+5) Zkontrolujte, jestli je možno jet doprava.
+    ...
+
+\b;Pozor
+Za příkazem \c;if ( )\n; nikdy nesmíte napsat \l;středník\u cbot\term;.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

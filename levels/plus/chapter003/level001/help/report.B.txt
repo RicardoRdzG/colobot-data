@@ -1,0 +1,20 @@
+\b;Relatório de Satélite
+Atualmente em uma órbita geo-estacionária de Tropica.
+\c;
+\s;-> SUPERFÍCIE\c;
+\tab; Temperatura: 29,6C 
+\tab; Atmosfera: hélio, oxigênio 
+\tab; Vento: 1,5 mps 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> SUBSOLO\c;
+\tab; Fonte de energia: isolado (bandeira azul) 
+\tab; minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> INFORMAÇÕES ADICIONAIS \c;
+\tab; Detectado: formigas gigantes 
+\tab; - Perigo: não imediato 
+\tab; Detectado: abandonados reutilizáveis
+\n;

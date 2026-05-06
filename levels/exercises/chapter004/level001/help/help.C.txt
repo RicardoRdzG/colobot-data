@@ -1,0 +1,64 @@
+\b;Cvičení
+Co nejrychleji dojeďte na cílovou značku (25m před robotem) pomocí příkazu \c;motor( , )\n;. Na konci dráhy budete muset postupně zpomalovat, jinak robot najede na \l;miny\u object\mine; za cílem.
+
+Místo toho byste mohli napsat prostě jen \c;\l;move\u cbot\move;(25);\n;, to by fungovalo stejně dobře. Jenže cílem tohoto cvičení je naučit se používat příkaz \c;\l;motor\u cbot\motor;\n;.
+
+Tento příkaz vyžaduje dva parametry:
+1) Výkon levého motoru.
+2) Výkon pravého motoru.
+
+\s;\c;	motor( left, right );
+\n;
+Hodnoty musejí být v rozsahu -1 až 1:
+-1 = plnou rychlostí couvat
+ 0 = zastavit
+ 1 = plnou rychlostí vpřed
+
+Například \c;motor(0.5, 0.5);\n; spustí oba motory vpřed na poloviční výkon, dokud nezměníte výkon motorů jiným příkazem.
+
+Po příkazu \c;motor(0.5, 0.6);\n; pojede robot vpřed poloviční rychlostí a bude mírně zatáčet doleva: pravý motor poběží rychleji (\c;0.6\n;) než levý motor (\c;0.5\n;).
+
+\b;Obecný postup
+Abyste ujeli přesně 25 metrů a ne více, musíte jet plnou rychlostí jen prvních 23 metrů, a pak na posledních dvou metrech postupně snižovat rychlost.
+\l;Proměnná\u cbot\var; \l;position\u cbot\object; udává vždy aktuální polohu robota a příkaz \c;\l;distance\u cbot\dist;( , );\n; vrací vzdálenost mezi dvěma body. Jakou vzdálenost jste už ujeli můžete nejlépe zjistit tak, že si na začátku uložíte startovní polohu robota do \l;proměnné\u cbot\var;, kterou nazveme například \c;start\n;. Pak můžete spočítat vzdálenost mezi startovní polohou a aktuální polohou příkazem \c;distance(position, start)\n;.
+
+\b;Program
+1) Deklarujte proměnné
+\s;\c;	point start;
+\s;	float len;
+\n;
+2) Uložte si startovní polohu
+\s;\c;	start = position;
+\n;
+3) Rozjeďte se plnou rychlostí:
+\s;\c;	motor(1, 1);
+\n;
+4) Opakujte v nekonečném cyklu \c;\l;while\u cbot\while;\n;:
+\s;\c;	while ( true )
+\s;	{
+\s;		len = distance(position, start);
+\s;		if ( len > 25-2 )
+\s;		{
+\s;			motor( pomaleji než při minulém volání! );
+\s;		}
+\s;	}
+\n;
+Dokud bude vzdálenost od startovní pozice menší než 23 metrů, příkazy ve složených závorkách za příkazem \c;\l;if\u cbot\if;\n; se budou přeskakovat, takže motory poběží na plný výkon dle příkazu \c;\l;motor\u cbot\motor;(1,1);\n; na začátku programu.
+
+Abyste postupně zpomalovali, musíte výkon motorů snižovat přímo úměrně zbývající vzdálenosti:
+o  Když zbývají \c;2.0\n; metry -> rychlost = \c;1.00\n; (maximum)
+o  Když zbývá   \c;1.5\n; metru -> rychlost = \c;0.75\n;
+o  Když zbývá   \c;1.0\n; metr  -> rychlost = \c;0.50\n;
+o  Když zbývá   \c;0.5\n; metru -> rychlost = \c;0.25\n;
+o  Když zbývá   \c;0.0\n; metrů -> rychlost = \c;0.00\n;
+
+\image tdragst1_cs 12 6;
+Potřebný výkon motorů můžete vypočítat \l;výrazem\u cbot\expr; \c;(25-len)/2\n;.
+
+Sestavit celý program a vyzkoušet ho už je na Vás.
+
+\b;Poznámky
+Příkazu \c;\l;motor\u cbot\motor;();\n; můžete zadat i hodnoty větší než 1, ale robot nepojede o nic rychleji.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

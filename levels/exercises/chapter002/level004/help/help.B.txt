@@ -1,0 +1,10 @@
+\b;Objetivo
+Programe um \l;atirador alado\u object\botfj; para caçar todas as formigas na região.
+
+\t;Programa
+Neste pântano, um atirador com rodas ou esteiras é de pouca utilidade. E as formigas, em oposição às aranhas, continuam em movimento: você não pode simplesmente virar-se para a formiga mais próxima, seguir em frente e atirar.
+
+A maneira mais fácil de resolver o problema consiste em voar a uma altura de 10 metros, apontando para baixo com \c;aim(-20);\n;, e aproximando a formiga com um laço condicional enquanto a \l;distância\u cbot\dist; é maior que 20 metros. Neste laço condicional, você deve procurar a formiga mais próxima, girar em direção a ela, colocar os motores em velocidade máxima com \c;motor(1,1);\n; e esperar um pouco, por exemplo 0,2 segundos. Todas estas instruções devem ser repetidas até que a formiga esteja a menos de 20 metros. Então apenas atire nela.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

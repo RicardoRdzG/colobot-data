@@ -1,0 +1,11 @@
+\b;Vom Kontrollzentrum
+Finden Sie etwas \l;Orgastoff\u object\bullet; und starten Sie das entsprechende Forschungsprogramm in Ihrem \l;Autolab\u object\labo; damit \l;Sie\u object\human; in der Lage sind, Orgashooter herzustellen.
+
+Produzieren Sie einen \l;Krabbelorgashooter\u object\botos; und bringen Sie ihn auf Ihr \l;Raumschiff\u object\base;.
+
+Bitte vergessen Sie nicht, dass Ihnen auf diesem Planet nur wenige Energieresourcen zur Verfügung stehen.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

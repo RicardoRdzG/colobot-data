@@ -1,0 +1,16 @@
+\b;Del Control de Misiones
+Termina con todas las formas de vida hostiles.
+Realiza el \l;programa de investigación\u object\research; necesario para desarrollar un sistema de armas ofensivas.
+
+El satélite ha detectado una fuente de energía, en un lugar marcado por la expedición anterior con una bandera azul (cruz azul en el mini-mapa).
+
+No olvides echar un vistazo al informe satelital \button 186; antes de aventurarte más lejos en una misión; sospechamos que no siempre lo has hecho.
+
+Hemos mejorado el programa de recarga. Consulta la página \button 53;.
+
+Una nota de advertencia: los bots no pueden ser sumergidos. Si tienes dudas, prueba el agua tú mismo si planeas controlar por radio un bot sin alas a través de ella; el agua no debería ser más profunda que a nivel de la rodilla.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

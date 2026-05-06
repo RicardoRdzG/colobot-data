@@ -1,0 +1,16 @@
+\b;Instrucción \c;strright\n;
+Extrae los últimos caracteres (es decir, los que están más a la derecha) de una cadena.
+
+Sintaxis:
+\s;\c;strright (cadena, longitud);\n;
+
+\t;longitud: \c;\l;int\u cbot\int;\n;
+Número de caracteres que se extraerán.
+
+Ejemplos:
+\s;\c;	string s = strright("abcdef", 2);  // s es "ef"
+\s;	string s = strright("abc", 10);  // s es "abc"
+\n;
+\t;Ver también
+\c;\l;strlen\u cbot\strlen;\n;, \c;\l;strleft\u cbot\strleft;\n;, \c;\l;strmid\u cbot\strmid;\n;, \c;\l;strfind\u cbot\strfind;\n;, \c;\l;strval\u cbot\strval;\n;, \c;\l;strupper\u cbot\strupper;\n;, \c;\l;strlower\u cbot\strlower;\n;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

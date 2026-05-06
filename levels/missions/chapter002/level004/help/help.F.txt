@@ -1,0 +1,18 @@
+\b;Instructions de Houston
+Nous ne savons pas avec précision où la première expédition s'est dirigée après avoir quitté la lune, ni les raisons de ce choix.
+
+Trouvez et ramenez la \l;boîte noire\u object\bbox; qu'ils ont laissée avant de poursuivre votre exploration. Cette boîte noire contient les coordonnées de la planète vers laquelle l'expédition est partie.
+
+Les \l;batteries\u object\power; de vos robots sont presque déchargées. Il faudra donc en priorité les recharger. Le satellite d'observation \button 186; nous transmet que le sous-sol lunaire est très riche en énergie. Vous pouvez donc construire une \l;station de recharge\u object\station; sur n'importe quelle zone plane.
+
+Nous vous avons envoyé un petit programme très utile pour recharger la \l;batterie\u object\power; des robots. Consultez la page \button 53;.
+
+\b;Marche à suivre
+1) Construisez une \l;raffinerie\u object\convert; avec le seul \l;bloc de titane\u object\titan; disponible. Ce bâtiment transforme le \l;minerai de titane\u object\titanore; en \l;blocs de titane\u object\titan; utilisables pour construire des bâtiments ou des robots.
+2) Construisez une \l;station de recharge\u object\station;. Construisez un \l;radar\u object\radar; pour voir la boîte noire sur la mini-carte.
+3) Après avoir rechargé la \l;batterie\u object\power;, partez chercher la \l;boîte noire\u object\bbox; avec le \l;robot préhenseur volant\u object\botgj;. Ramenez la boîte noire sur le \l;vaisseau\u object\base; et décollez.
+
+\key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
+
+\t;Voir aussi
+\l;Commandes\u command;.

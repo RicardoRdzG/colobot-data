@@ -1,0 +1,17 @@
+\b;Depósito de Energía Subterránea
+\image enerspot 4 4;
+Cuando un \l;detector\u object\botsr; descubre una fuente de energía en el subsuelo, coloca una cruz verde. Los siguientes edificios pueden erigirse cerca:
+
+o  \l;Central eléctrica\u object\station;
+o  \l;Planta de energía\u object\energy;
+
+Para prospectar el subsuelo necesitas un \l;bot detector\u object\botsr;, que también puede descubrir depósitos de \l;mineral de titanio\u object\titanore; (indicados por una \l;cruz roja\u object\stonspot;) o depósitos de \l;mineral de uranio\u object\uranore; (indicados por un \l;círculo amarillo\u object\uranspot;).
+
+\t;Transporte
+Imposible.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;PowerSpot\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

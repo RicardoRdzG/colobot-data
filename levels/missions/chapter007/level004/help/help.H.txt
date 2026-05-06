@@ -1,0 +1,19 @@
+\b;Néhány szó az új irányelvekről
+Sajnáljuk, hogy ezt most kell közölnünk, de ez tűnik megfelelő időpontnak arra, hogy megosszuk jelenlegi aggodalmunkat. A közvélemény és a Kongresszus erőteljesen reagált azokra az esetekre, amikor Ön rendszerszerűen elpusztította a meglátogatott bolygók "őslakosait". A Kongresszus úgy döntött, hogy érzékenységet mutat a lakosság aggályai iránt.
+
+Ezúton továbbítjuk az új irányelveket, amelyek egyértelművé teszik, hogy az áldozatok számát a lehető legnagyobb mértékben csökkenteni kell. Más szavakkal: tegyen meg mindent annak érdekében, hogy a találkozott élőlények életben maradjanak. Természetesen a küldetésének ez nem szabad veszélybe kerülnie.
+
+\b;Az irányítóközponttól
+Energiatartalékai jelenleg veszélyesen alacsonyak, és a fegyverkészlete is szűkös. Meg kell találnia és vissza kell hoznia az előző expedíció \l;fekete dobozát\u object\bbox;, hogy továbbléphessen a következő bolygóra.
+
+Az elődjeitől kaptunk egy információt a megfigyelő műholdon keresztül egy új típusú fegyverről, amelyet kifejezetten az ilyen helyzetekre fejlesztettek ki.
+
+Ez a fegyver lehetőséget ad arra, hogy megmutassa újonnan felfedezett együttérzését az \l;őshonos fajok\u object\ant; iránt, mivel nem tömeges pusztításra szolgál. Tudomásunk szerint ez a fegyver arra alkalmas, hogy átmenetileg harcképtelenné tegye őket, így ideiglenesen ártalmatlanná válnak. Ha ez valóban így van, gyorsan kell cselekednie, mielőtt újra veszélyessé válhatnának.
+
+\b;Eljárás
+Végezze el a \l;kutatási programot\u object\research;, és próbálja ki saját maga is, de ne felejtse el a fegyvert visszahozni a fedélzetre. Nagyon kíváncsiak vagyunk a működésére.
+
+A \key;\key help;\norm; segítségével bármikor megtekintheti ezeket az utasításokat a saját SatCom készülékén \button 63;.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

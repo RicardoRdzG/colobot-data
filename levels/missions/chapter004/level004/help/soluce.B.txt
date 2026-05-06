@@ -1,0 +1,7 @@
+\b;Passo a passo
+Em algum lugar a nordeste do próprio vale, você deve se deparar com uma \l;estação de energia\u object\station; totalmente funcional. A noroeste você encontrará várias \l;células de energia\u object\power;.
+
+Alguns atiradores em condições de trabalho foram abandonados em torno da mesma área no vale; use-os para atirar em todas as formigas. Com o \l;agarrador alado\u object\botgj;, você pode recuperar a \l;caixa preta\u object\bbox; localizada atrás da espaçonave abandonada e decolar.
+
+\t;Veja também
+\l;Controles\u command;.

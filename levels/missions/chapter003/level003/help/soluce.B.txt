@@ -1,0 +1,13 @@
+\b;Passo a passo
+1) Há um \l;cubo de titânio\u object\titan; a oeste da sua localização atual, perto da cruz azul / bandeira azul no seu mini mapa. Você não precisa mover o cubo, basta construir uma \l;estação de energia\u object\station; ali mesmo no local.
+
+2) Com os cubos de titânio na espaçonave, construa um \l;centro de pesquisa\u object\research; e execute o  <shooter cannon research program> \button 67;.
+
+3) Construa uma \l;fábrica de robôs\u object\factory; e um \l;atirador alado\u object\botfj;. Se este robô for destruído pelo fogo inimigo, você encontrará alguns cubos de titânio \l;adicionais\u object\titan; em um pequeno vale nebuloso a noroeste da espaçonave. Você pode trazê-los de volta com o \l;agarrador alado\u object\botgj;\n;.
+
+4) Construa uma \l;estação de radar\u object\radar; para ver a localização das formigas no minimapa e deixe a caça começar. Tenha cuidado para não ficar sem energia e para não sobreaquecer o reator de um robô enquanto estiver sobre a água. Se um robô cair em águas profundas, ele explodirá.
+
+5) Depois de matar todas as formigas, embarque e decole.
+
+\t;Veja também
+\l;Controles\u command;.

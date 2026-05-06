@@ -1,0 +1,5 @@
+\b;Souboj programátorů (střelba na druhý kanón)
+Toto je mapa pro \l;souboj programátorů\u battles;, kde budete bojovat proti druhému kanónu s jednoduchým programem od vývojářů hry, abyste se procvičili ve střelbě.
+
+\b;Úkol
+Zničte druhý \l;kanón\u object\botfj; nacházející se na protějším břehu řeky.

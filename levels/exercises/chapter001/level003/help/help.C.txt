@@ -1,0 +1,14 @@
+\b;Úkol
+Napište program, který vezme hroudu \l;titanové rudy\u object\titanore; a položí ji do \l;konvertoru\u object\convert;, aby se vyrobila \l;kostka titanu\u object\titan;.
+
+\t;Program
+Budete potřebovat nový příkaz:
+\c;
+\s;move();\n;
+Přikazuje robotovi, aby popojel dopředu nebo dozadu. Číslo v závorkách určuje vzdálenost jízdy v metrech: \c;move(10);\n; pošle robota 10m kupředu, \c;move(-1);\n; pošle robota 1m dozadu.
+
+Příkazy \c;\l;turn\u cbot\turn;()\n;, \c;\l;grab\u cbot\grab;()\n; a \c;\l;drop\u cbot\drop;()\n; již byly vysvětleny v předchozích cvičeních. Pokud máte k těmto příkazům nějaké otázky, klikněte na jejich modře podtržený název a zobrazí se jejich podrobný popis.
+
+\l;Titanová ruda\u object\titanore; je 20m před robotem a \l;konvertor\u object\convert; je 10m za robotem. Po položení rudy do konvertoru nezapomeňte kousek zacouvat (například \c;move(-2.5);\n;), aby konvertor mohl začít pracovat. Desetinná čísla používají anglický zápis, tedy s tečkou jako oddělovačem desetinných míst.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst klávesou \key;\key help;\norm;.

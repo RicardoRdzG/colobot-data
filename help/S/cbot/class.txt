@@ -1,0 +1,122 @@
+\b;Instrucción \c;class\n; (clase)
+Esta palabra clave te permite crear una definición de clase utilizando la siguiente sintaxis:
+\c;
+\s;public class NombreClase
+\s;{
+\s;	declaraciones;
+\s;}
+\n;
+\t;Todas Las Clases Son Públicas
+Las clases solo pueden ser \l;públicas\u cbot\public;. Esto significa que pueden ser utilizadas por todos los bots en una misión.
+
+\b;Miembros de clase
+Los miembros de clase son campos (\l;variables\u cbot\var;) y métodos (\l;funciones\u cbot\function;).
+
+Por ejemplo, la siguiente clase llamada \c;MiClase\n; contiene 4 campos (\c;a\n;, \c;b\n;, \c;x\n; y \c;s\n;) y un método (\c;MiFuncion\n;).
+\c;
+\s;public class MiClase
+\s;{
+\s;	int     a, b;
+\s;	float   x = 3.33;
+\s;	string  s = "hola";
+\s;	float   MiFuncion(float value)
+\s;	{
+\s;		return (value * x) - 1;
+\s;	}
+\s;}
+\n;
+\b;Acceso A Los Miembros De La Clase
+Se puede acceder a los miembros de clase fuera de la definición de clase utilizando el operador \c;.\n; Ejemplo:
+\c;
+\s;public class MiClase
+\s;{
+\s;	int miCampo = 0;
+\s;	int MiFuncion()
+\s;	{
+\s;		return miCampo * 2;
+\s;	}
+\s;}
+\s;
+\s;extern void object::Test()
+\s;{
+\s;	MiClase miObjeto();
+\s;	miObject.miCampo = 10;
+\s;	message(miObject.MiFuncion()); // 20
+\s;	MiClase miSegundoObjeto();
+\s;	miSegundoObjeto.miCampo = miObject.miCampo - 2;
+\s;	message(miSegundoObjeto.MiFuncion()); // 16
+\s;}
+\n;
+Los miembros de clase son \l;públicos\u cbot\public; por defecto, lo que significa que son accesibles fuera de la definición de clase. También pueden declararse como \c;\l;privados\u cbot\private;\n; o \c;\l;protegidos\u cbot\protected;\n;. Solo se puede acceder a estos miembros dentro de la definición de clase.
+
+\t;Modificadores De Miembros De clase
+Los campos y métodos también pueden declararse como \c;\l;static\u cbot\static;\n;. Los métodos adicionalmente pueden declararse como \c;\l;synchronized\u cbot\synchro;\n;.
+
+\t;Inicialización de miembros
+Como se muestra en el ejemplo anterior, los miembros de la clase se pueden inicializar en la definición de la clase (\c;int x = 3.33;\n;).
+
+Otra forma de inicializar campos es definiendo un constructor, que es un método especial con el mismo nombre que la clase. Este método se llamará automáticamente en el momento \l;de la creación\u cbot\new; de una instancia de clase. Los constructores se pueden \l;sobrecargar\u cbot\function;.
+
+Ejemplo:\c;
+\s;public class MiClase
+\s;{
+\s;	int  a, b;
+\s;	void MiClase()
+\s;	{
+\s;		a = 2;  b = 3;
+\s;	}
+\s;	void MiClase(int a, int b)
+\s;	{
+\s;		this.a = a;  this.b = b;
+\s;	}
+\s;}
+\n;
+
+\t;Usando \c;\l;this\u cbot\this;\n; ( esto )
+Como los nombres de los parámetros del segundo constructor son los mismos que los nombres de los dos miembros \c;a\n; y \c;b\n;, debemos usar la \l;referencia\u cbot\pointer; \c;\l;this\u cbot\this;\n; para evitar confusiones con los nombres de los parámetros.
+
+\b;Creación de objetos
+Puedes crear objetos de tipo \c;TuClase\n; usando la palabra clave \c;\l;new\u cbot\new;\n;. Ejemplo:
+\c;
+\s;extern void object::Test()
+\s;{
+\s;	MiClase object1();       // Llama al constructor por defecto (sin parametros)
+\s;	MiClase object2(4, 5);   // Llama al constructor con dos  parametros int
+\s;	MiClase object3;         // Sin constructor llamado, object3 == null
+\s;	object3 = new MiClase(); // Llamamos al constructor ahora, object3 != null
+\s;}
+\n;
+
+\b;Destrucción De Objetos
+También puedes definir un destructor. Debe ser una función \c;\l;void\u cbot\void;\n; sin parámetros, con el mismo nombre que la clase pero precedida por el carácter \c;~\n;. El destructor se invoca automáticamente en cuanto la instancia de la clase deja de ser referenciada por nadie. Ejemplo:
+\c;
+\s;public class MiClase
+\s;{
+\s;	static private int contador = 0; // contador de instancia 
+\s;	void  MiClase( )
+\s;	{
+\s;		contador++;  // una instancia más
+\s;	}
+\s;	void ~MiClase( )
+\s;	{
+\s;		contador--;  // una instancia menos
+\s;	}
+\s;}
+\s;extern void object::Test()
+\s;{
+\s;	                   // contador == 0
+\s;	MiClase item1( );  // contador == 1
+\s;	MiClase item2( );  // contador == 2
+\s;	item1 = null;      // contador == 1
+\s;}
+\s;// contador == 0
+\n;
+\b;Pasar Objetos A Funciones
+Los objetos en CBOT se pasan por \l;referencia\u cbot\pointer;. Esto significa que cuando se pasa un objeto a una \l;función\u cbot\function;, la función recibe una copia de un puntero a la instancia, no una copia del objeto, por lo que cualquier modificación en el objeto será visible fuera de la función.
+
+\b;Herencia
+Una clase puede heredar miembros públicos y protegidos de otra clase utilizando la palabra clave \c;\l;extends\u cbot\extends;\n;.
+
+\t;Ver también
+\c;\l;public\u cbot\public;\n;, \c;\l;private\u cbot\private;\n;, \c;\l;protected\u cbot\protected;\n;, \c;\l;static\u cbot\static;\n;, \c;\l;synchronized\u cbot\synchro;\n;, \c;\l;new\u cbot\new;\n;, \c;\l;reference\u cbot\pointer;\n;, \c;\l;this\u cbot\this;\n;, \c;\l;super\u cbot\super;\n;, \c;\l;extends\u cbot\extends;\n;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

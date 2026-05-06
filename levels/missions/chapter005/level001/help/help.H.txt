@@ -1,0 +1,7 @@
+\b;Az irányítóközpontból
+A megfigyelő műhold egy darab \l;uránércet\u object\uranore; észlelt a fő hegycsúcson. Vissza kell hoznod az űrhajóhoz.
+
+A \key;\key help;\norm; segítségével bármikor újra megtekintheted ezeket az utasításokat a személyes SatCom-on \button 63;.
+
+\t;Lásd még
+\l;Irányítás\u command; és a \l;CBOT nyelv\u cbot;

@@ -1,0 +1,12 @@
+\b;Instrucción \c;openfile\n; (abrir archivo)
+\c;openfile();\n; abre un archivo de texto en la carpeta files/. No se trata de un método de la clase \c;\l;file\u cbot\file;\n;, sino que openfile devuelve una \l;referencia\u cbot\pointer; a una nueva instancia de la clase file. Debes proporcionar dos parámetros: el nombre del archivo y el modo de apertura.
+\c;
+\s;file handle = openfile("nombre_de_archivo", "r");
+\n;
+modo \c;"r"\n;: abrir para lectura.
+modo \c;"w"\n;: abrir para escritura.
+modo \c;"w"\n;: abrir para agregar.
+
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

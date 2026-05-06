@@ -1,0 +1,14 @@
+\b;Ziel
+Fahren Sie auf die Spinnen zu, die sich außerhalb der Schussreichweite befinden.
+
+\t;Programm
+Das Programm wird dem aus der letzten Übung ähneln. Sie müssen vor dem Schuss nur noch durch \c;\l;move\u cbot\move;();\n; nahe genug an die Spinne heranfahren.
+
+Die Frage ist nun, wie viele Meter der Roboter fahren muss. Die Anweisung \c;\l;distance\u cbot\dist;( , )\n; berechnet den Abstand zwischen zwei Punkten. In diesem Fall brauchen wir die Distanz zwischen dem Roboter und der Spinne. Die Position der Spinne ist gegeben durch \c;item.position\n; und die Position des Roboters ist gegeben durch \c;position\n;. Den Abstand zwischen Roboter und Spinne erhält man durch \c;\l;distance\u cbot\dist;(position, item.position)\n;. Die Reichweite eines Feuerballs ist 40 Meter. Um also nahe genug an die Spinne heranzukommen, muss sich der Roboter um \c;\l;distance\u cbot\dist;(position, item.position)-40\n; Meter bewegen. Folgende Zeile übernimmt das:
+\c;
+\s;	\l;move\u cbot\move;(\l;distance\u cbot\dist;(position, item.position)-40);
+\n;
+Fügen Sie diese Zeile einfach in Ihr Programm vor der Anweisung \c;fire(1);\n; ein und der Roboter wird beginnen, sich zu bewegen.
+
+\t;Der Debugger
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

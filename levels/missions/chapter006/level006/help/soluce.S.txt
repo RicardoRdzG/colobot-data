@@ -1,0 +1,9 @@
+\b;Guía Paso a Paso
+Es más seguro para \l;ti\u object\human; permanecer en la \l;nave espacial\u object\base;. Puedes recibir algunos golpes pero no serán fatales.
+
+Usa bien tu nuevo \l;disparador orga alado\u object\botoj; y no pierdas tiempo. Primero dispara a las hormigas a tu derecha, luego gira en el sentido de las agujas del reloj alrededor de la nave espacial, volando a baja altitud.
+
+Si no puedes hacerlo de esta manera, coloca el \l;disparador orga alado\u object\botoj; en un lugar seguro al norte de la nave espacial, luego escónete. Entonces podrás tomarte tu tiempo para disparar a las hormigas una por una; no pueden hacer daño a la nave espacial ni a la caja negra.
+
+\t;Ver también
+\l;Controles\u command;

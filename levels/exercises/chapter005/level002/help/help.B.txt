@@ -1,0 +1,35 @@
+\b;Exercício
+Este exercício é muito semelhante ao anterior. Existem agora três \l;cubos de titânio\u object\titan; que você deve mover para 3 blocos alvo. Aqui estão as coordenadas de cada bloco:
+\c;
+	x=10, y=-60
+	x=10, y=-65
+	x=10, y=-70
+\n;
+\b;Princípio geral
+Repita 3 vezes:
+o  Procure o cubo de titânio mais distante com \c;\l;radar\u cbot\radar;\n;.
+o  Pegue com \c;\l;grab\u cbot\grab;\n;.
+o  Vá para um dos blocos com \c;\l;goto\u cbot\goto;\n;.
+o  Largue o titânio com \c;\l;drop\u cbot\drop;\n;.
+
+Se você procurar o cubo de titânio mais próximo, o radar encontrará um que você já recuperou e deixou cair em um bloco. Portanto, você deve procurar o cubo de titânio mais distante.
+
+\b;O programa
+Use um laço \c;\l;for\u cbot\for;\n; para repetir 3 vezes todas as instruções necessárias para recuperar o cubo de titânio. Dentro do laço, a fim de encontrar o cubo de titânio mais distante, use a instrução \c;\l;radar\u cbot\radar;(Titanium, 0, 360, 0, 1000, -1);\n;. O último valor \c;-1\n; significa que, em vez de procurar o item mais próximo, o radar retornará o mais distante que puder encontrar.
+\c;
+\s;object  metal;
+\s;metal = radar(Titanium, 0, 360, 0, 1000, -1);
+\s;if ( metal == null )  return;
+\s;goto(metal.position);
+\n;
+A variável \c;metal\n; é do tipo \c;\l;object\u cbot\object;\n;. Para saber a posição do objeto descrito pela variável, você deve escrever \c;metal.position\n;.
+
+As coordenadas \c;x\n; dos 3 blocos são todas iguais a 10. As coordenadas \c;y\n; são respectivamente -60, -65 e -70. A maneira mais eficiente de obter as coordenadas dos blocos é usar o valor de \c;i\n; do laço \c;for\n;, que tomará sucessivamente os valores 0, 1 e 2:
+\c;
+\s;dest.x = 10;
+\s;dest.y = -60-5*i;
+\n;
+Cabe a você terminar o programa.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

@@ -1,0 +1,9 @@
+\b;Zpráva z řídícího střediska
+Váš satelit našel pozůstatky předchozí výpravy. V jejich blízkosti by se měla nacházet další \l;černá skříňka\u object\bbox;. Zjistíte z ní souřadnice další planety.
+
+Zlikvidujte několik zbývajících mravenců. Dostali jsme zprávu, že je Vaše neutronová pistole momentálně nefunkční, takže nebudete moci vyrábět nové roboty. Věříme ale, že si díky svým dosavadním zkušenostem dokážete poradit a vymyslíte nějaké řešení.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

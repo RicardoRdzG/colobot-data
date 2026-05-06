@@ -1,0 +1,82 @@
+\b;Instrucción \c;radar\n;
+Con la instrucción \c;radar();\n;, puedes buscar objetos como \l;enemigos\u object\mother;, bots, edificios o materias primas.
+
+\b;Uso básico
+Escribe entre paréntesis la \l;categoria del objeto\u cbot\category; que buscas. Pon el resultado en una variable de \l;tipo\u cbot\type; \c;object\n;. Aquí tienes un ejemplo que busca la hormiga más cercana:
+\c;
+\s;// Al principio del programa:
+\s;object  item; // declaración de variable
+\s;
+\s;// Busca a la hormiga más cercana
+\s;item = radar(AlienAnt);
+\n;
+\b;Para especialistas
+Sintaxis:
+\s;\c;radar ( cat, ángulo, enfoque, mín, máx, sens, filtro );\n;
+
+Detecta un objeto según varios parámetros. 
+
+\image radar1 8 8;
+Visto desde arriba, la zona violeta corresponde a la zona donde se detectarán los objetos. 
+
+\t;cat: \c;\l;int\u cbot\int;\n;
+o \l;Categoría\u cbot\category; de los objetos que deben detectarse. Por ejemplo, si buscas una hormiga, escribe \c;radar(AlienAnt)\n;. 
+o \l;Array\u cbot\array; de categorías de los objetos que deben detectarse. Por ejemplo, cuando solo buscas bots sujetadores:
+\c;\s;int bots[4];
+\s;bots[0] = WheeledGrabber;
+\s;bots[1] = TrackedGrabber;
+\s;bots[2] = WingedGrabber;
+\s;bots[3] = LeggedGrabber;
+\s;object sujetadorMasCercano = radar(bots);\n;
+o Palabra clave \const;Any\norm; si buscas cualquier objeto (incluidas plantas, etc.). Los filtros pueden resultar útiles con esta palabra clave.
+
+\t;ángulo: \c;\l;float\u cbot\float;\n; (valor predeterminado: \c;0\n;)
+Dirección a la que apunta el radar, en grados. 
+\c;  0\n; -> el radar apunta hacia adelante
+\c;-90\n; -> el radar apunta un cuarto de giro a la derecha
+\c; 90\n; -> el radar apunta un cuarto de giro a la izquierda
+
+\t;enfoque: \c;\l;float\u cbot\float;\n; (valor predeterminado: \c;360\n;)
+Ángulo de apertura del radar, en grados. 
+
+\t;mín: \c;\l;float\u cbot\float;\n; (valor predeterminado: \c;0\n;)
+Distancia mínima de detección, en metros. Los objetos que estén más cerca que la distancia mínima no se detectarán. 
+
+\t;máx: \c;\l;float\u cbot\float;\n; (valor predeterminado: \c;1000\n;)
+Distancia máxima de detección, en metros. Los objetos que estén más lejos que la distancia máxima no se detectarán. 
+
+\t;sens: \c;\l;float\u cbot\float;\n; (valor predeterminado: \c;1\n;)
+Determina de qué manera se detectan los objetos. Con el valor \c;1\n;, devuelve el objeto más cercano encontrado en la zona especificada. Con el valor \c;-1\n;, se devolverá el objeto más lejano en la zona. 
+
+\t;filtro: \c;\l;int\u cbot\int;\n; (valor predeterminado: \c;\const;FilterNone\norm;\n;)
+Determina qué tipo de objetos deben detectarse. Especialmente útil cuando se utiliza con un \l;array\u cbot\array; o \const;Any\norm;. Están disponibles los siguientes filtros:
+
+\c;\const;FilterNone\norm;        \n;Detecta todo (predeterminado)
+\c;\const;FilterOnlyLanding\norm; \n;Detecta solo objetos que estén en el suelo
+\c;\const;FilterOnlyFlying\norm;  \n;Detecta solo objetos que no estén en el suelo
+\c;\const;FilterFriendly\norm;    \n;Detecta solo aliados (objetos del mismo equipo)
+\c;\const;FilterEnemy\norm;       \n;Detecta solo enemigos (objetos en otro equipo excepto neutrales)
+\c;\const;FilterNeutral\norm;     \n;Detecta solo objetos neutrales (p. ej. recursos)
+
+Los tres últimos son útiles principalmente en \l;batallas de código\u battles;. También puedes pasar un ID de equipo para buscar solo objetos de un equipo específico. Atención: debes usar \const;FilterNeutral\norm; en lugar de \c;0\n; o no funcionará.
+
+Los filtros y los ID se pueden mezclar utilizando el operador OR bit a bit \c;|\n;, por ejemplo \c;radar(Any, 0, 360, 0, 1000, 1, 2 | FilterOnlyLanding);\n; solo detectará un objeto del equipo \c;2\n; que se encuentre en tierra. Atención: solo puedes especificar un ID de equipo a la vez, pero puedes especificar varios filtros a la vez.
+
+\t;Valor de retorno: \c;\l;object\u cbot\object;\n;
+Devuelve el primer objeto encontrado que se corresponde con la categoría especificada en la zona especificada. Si no se encuentra ningún objeto, devuelve el valor \c;\l;null\u cbot\null;\n;.
+
+\t;Observación
+No es necesario que indiques todos los parámetros. A continuación se muestran dos ejemplos de instrucciones equivalentes: 
+\c;
+\s;	radar(Titanium, 0, 360, 0, 1000);
+\s;	radar(Titanium);  // equivalente
+
+\s;	radar(Titanium, 0, 90, 0, 1000);
+\s;	radar(Titanium, 0, 90);  // equivalente
+\n;
+Cuando no se especifican uno o más parámetros, se utilizarán los valores predeterminados indicados anteriormente; solo el primer parámetro es obligatorio.
+Generalmente, solo se especifica el primer parámetro: p. ej. \c;radar (AlienAnt)\n; detecta la hormiga más cercana, dondequiera que esté. 
+
+\t;Ver también
+\c;\l;radarall\u cbot\radarall;();\n;, \l;programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.
+

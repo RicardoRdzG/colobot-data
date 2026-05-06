@@ -1,0 +1,15 @@
+\b;Cvičení
+Ubraňte se útoku vetřelců.
+
+\b;Obecný postup
+Dostřel Vašeho kanónu je 40m. Všichni nepřátelé jsou z kategorie \c;AlienAnt\n;. Otočte se vždy k nejbližšímu mravenci, i když je pořád ještě více než 40m daleko. Ale střílejte jen když je blíže než 40m, abyste neplýtvali energií.
+
+\b;Užitečné příkazy
+\c;\l;radar\u cbot\radar;\n; pro hledání nepřátel (kategorie \c;\l;AlienAnt\u object\ant;\n;)
+\c;\l;direction\u cbot\direct;\n; pro výpočet směrového úhlu
+\c;\l;distance\u cbot\dist;\n; pro výpočet vzdálenosti
+\c;\l;fire\u cbot\fire;\n; pro výstřel z kanónu
+\c;\l;wait\u cbot\wait;\n; pro čekání
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

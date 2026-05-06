@@ -1,0 +1,13 @@
+\b;Del Control de Misiones
+Necesitas recuperar un \l;dispositivo explosivo\u object\tnt; que ha sido detectado en un valle profundo junto a un lago de lava hirviendo.
+
+ debido a las altas temperaturas, los reactores ya no funcionan, es decir, volar es imposible. Es un camino largo y debes equipar a tus bots con \l;celdas de energía nuclear\u object\atomic;. Las celdas de energía nuclear se fabrican a partir de \l;mineral de uranio\u object\uranore;.
+
+Un programa más eficiente para la recolección de materias primas está adjuntado a este mensaje.
+
+Una nota de advertencia: el dispositivo explosivo es extremadamente volátil. Usa extrema precaución.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

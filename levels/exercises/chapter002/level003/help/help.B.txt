@@ -1,0 +1,40 @@
+\b;Objetivo
+Adapte o programa \c;Torre1\n; para evitar o desperdício de energia ao atirar em formigas que estejam fora do alcance.
+
+\t;Programa
+O programa \c;Torre1\n; dispara na direção da formiga mais próxima, mesmo que ela ainda esteja fora do alcance:
+\c;
+\s;extern void object::Torre1()
+\s;{
+\s;	object    item;
+\s;	
+\s;	jet(0.2);
+\s;	while(position.z < 20)
+\s;	{
+\s;		wait(0.2);
+\s;	}
+\s;	jet(0);
+\s;	
+\s;	while(true)
+\s;	{
+\s;		item = radar(AlienAnt);
+\s;		turn(direction(item.position));
+\s;		fire(1);
+\s;	}
+\s;}
+\n;
+Se o robô deve executar a mesma tarefa que antes, com apenas uma \l;célula de energia normal\u object\power;, você pode inserir um laço que aguarde até que a formiga esteja próxima o suficiente, ou seja, até que a formiga esteja abaixo de 40 metros. Apenas uma rajada será necessária para cada formiga.
+
+Você pode dar à instrução \c;\l;radar\u cbot\radar();\n; mais parâmetros (números) indicando onde o radar deve procurar as formigas. Por exemplo, \c;radar(AlienAnt,0,360,0,40);\n; só procurará formigas com menos de 40 metros. Os dois primeiros números dizem ao radar para procurar em todas as direções, os dois últimos números dizem ao radar para detectar apenas as formigas que estão a uma distância entre 0 e 40 metros. Se nenhuma formiga for encontrada a menos de 40 metros, a instrução \c;\l;radar\u cbot\radar();\n; retornará o valor \c;null\n;. Podemos, então, escrever um laço condicional semelhante ao que foi escrito no último exercício que aguarda, desde que não haja formigas a menos de 40 metros:
+\c;
+\s;		while (radar(AlienAnt, 0, 360, 0, 40) == null)
+\s;		{
+\s;			wait(0.2);
+\s;		}
+\n;
+Observe que dois sinais de igual "==" são necessários para realizar uma comparação de igualdade.
+
+Apenas insira estas linhas antes da instrução \c;fire(1);\n;, e o robô esperará antes de disparar até que a formiga esteja a menos de 40 metros. Assim, uma célula de energia regular será suficiente para matar todas as formigas.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

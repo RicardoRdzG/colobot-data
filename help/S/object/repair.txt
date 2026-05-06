@@ -1,0 +1,24 @@
+\b;\button 169; Centro de Reparación
+\image repair 8 8;
+El centro de reparación regenera el escudo en bots dañados. El escudo de un bot absorberá una cierta cantidad de golpes de \l;enemigos\u object\mother;. Si no queda escudo, significa que el bot mismo, cuando sea golpeado a continuación, será destruido.
+
+\t;Requisitos para construir
+Cualquier superficie plana de al menos 6 metros de ancho.
+
+\t;Entrada
+Bot dañado.
+
+\t;Salida
+Bot reparado con escudo regenerado.
+
+\t;Fuente de energía
+Ninguno.
+
+\t;Duración de operación
+Algunos segundos dependiendo del trabajo de reparación a realizar.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;RepairCenter\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

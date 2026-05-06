@@ -1,0 +1,11 @@
+\b;Vom Kontrollzentrum
+Säubern Sie die Umgebung von allen feindseligen Lebensformen. Wie Sie das erledigen, (\l;Geschützturm\u object\tower; oder \l;Jetshooter\u object\botfj;) liegt bei Ihnen.
+
+Das Radar scheint perfekt für die Ortung von Würmern geeignet zu sein. Vergessen Sie nicht, dass die Würmer nur zu entdecken sind, wenn sie sich an der Oberfläche befinden.
+
+Wir haben Ihrer \l;Roboterfabrik\u object\factory; die Anleitung zum Bau eines neuen Roboters übertragen. Dieser Roboter wurde entwickelt, um Rohmaterial im Boden aufzuspüren: Energiequellen, Erz. Wir nennen ihn \l;Schnüffler\u object\botsr;.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

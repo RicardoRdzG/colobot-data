@@ -1,0 +1,15 @@
+\b;Műholdjelentés
+Jelenleg geostacionárius pályán kering a Hold körül.
+\c;
+\s;-> Oberfläche\c;
+\tab;Temperature:      -51.0C
+\tab;Atmosphere:       none
+\tab;Wind:             0.0 mps
+\tab;Titanium ore:     none
+\tab;Uranium ore:      none
+
+\s;-> Untergrund\c;
+\tab;Energy source:    none
+\tab;Titanium ore:     none
+\tab;Uranium ore:      none
+\n;

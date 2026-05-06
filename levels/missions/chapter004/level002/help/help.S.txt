@@ -1,0 +1,11 @@
+\b;Del Control de Misiones
+Limpia el área de todos los organismos hostiles. La forma en que lo logres (\l;torre de defensa\u object\tower; o \l;disparador alado\u object\botfj;) depende de ti.
+
+El radar parece ser perfecto para la detección de gusanos. Sin embargo, ten en cuenta que solo aparecen cuando están en la superficie.
+
+Hemos transmitido a tu \l;fábrica de bots\u object\factory; información sobre un bot diseñado para detectar materias primas en el subsuelo: fuentes de energía, minerales. Lo llamamos \l;buscador\u object\botsr; para abreviar. El análisis preliminar nos lleva a creer que la presencia de mineral de titanio en Crystalium está estrechamente vinculada al crecimiento de grandes cristales azules. Si este es el caso, esta información debería permitirte ahorrar algo de tiempo precioso. Se requiere un \l;taladro\u object\derrick; para la extracción, por supuesto.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

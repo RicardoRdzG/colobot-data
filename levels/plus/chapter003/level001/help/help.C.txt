@@ -1,0 +1,16 @@
+\b;Zpráva z řídícího střediska
+Zlikvidujte všechny nepřátelské organizmy.
+Spusťte nezbytný \l;výzkumný program\u object\research; pro vývoj útočného zbraňového systému.
+
+Satelit objevil zdroj energie na místě, které předchozí výprava označila modrou vlajkou (modrý křížek na minimapě).
+
+Nezapomeňte se podívat na informace ze satelitu \button 186;, než se pustíte do plnění mise. Máme obavu, že toto zanedbáváte.
+
+Vylepšili jsme nabíjecí program. Podrobnosti najdete v seznamu programů \button 53;.
+
+Upozornění: Roboti se nemohou potápět. Pokud potřebujete zjistit, jestli pozemní robot dokáže bezpečně přebrodit vodu, vyzkoušejte hloubku sami - voda Vám nesmí sahat výše než po kolena.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

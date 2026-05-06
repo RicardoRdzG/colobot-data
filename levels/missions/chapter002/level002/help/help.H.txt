@@ -1,0 +1,17 @@
+\b;Az irányítóközponttól
+Ezt a berendezést az előző expedíció állította fel, hogy tesztelje és fejlessze a szárnyas robotok repülési képességeit.
+
+\b;Célkitűzés
+Használd ki ezeket a gyakorlatokat. A jövőbeli kritikus helyzetek túlélési esélye a most megszerzett ügyességeden is múlhat.
+
+\b;Eljárás
+Repülj át minél gyorsabban minden célponton. Próbáld ezt úgy végrehajtani, hogy ne melegedjen túl a hajtómű. Ha ez túl nehéz, szállj le és hagyd lehűlni.
+
+Használd a nyílbillentyűket a robot irányításához, de tartsd az egyik kezed az egéren. Ebben a gyakorlatban ugyan még nem szükséges, de később nélkülözhetetlen lesz.
+
+Hasznos lehet időnként visszatérni ezekhez a gyakorlatokhoz, ha tovább szeretnéd fejleszteni a reflexeidet.
+
+A \key;\key help;\norm; segítségével bármikor újra megnézheted ezeket az utasításokat a saját SatCom-odon \button 63;.
+
+\t;Lásd még
+\l;Irányítás\u command; és a \l;CBOT nyelv\u cbot;

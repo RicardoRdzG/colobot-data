@@ -1,0 +1,9 @@
+\b;Vom Kontrollzentrum
+Sie werden angegriffen und das ist kein guter Zeitpunkt für Nachsicht...
+
+Ihr neuer \l;Stampfer\u object\bottump; könnte sich als sehr nützlich erweisen. Wir müssen Sie darauf aufmerksam machen, dass Sie keinen Start riskieren sollten solange sich noch irgendwelche lebenden Ameisen in der Nähe des Raumschiffs befinden.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

@@ -1,0 +1,27 @@
+\b;A NASA kiképzőközpontból
+Örömmel értesítjük, hogy kiválasztották a Colobot űrkutatási küldetésre.
+
+Pszichológiai profilja több mint 98,84%-ban megfelel, és a tesztidőszak alatt nyújtott teljesítménye is kiválónak bizonyult. A részletes eredmények elérhetők az ön azonosítószámával a központi számítógépen.
+
+Kérjük, jelentkezzen a \l;houstoni irányítóközpontban\u object\Huston; a további utasításokért a küldetésével kapcsolatban.
+
+\b;A houstoni irányítóközpontból
+Mint tudja, a Földet közvetlen katasztrófa fenyegeti a fokozódó légszennyezés miatt.
+
+\l;Az ön\u object\human; küldetése a közeli galaxisok felfedezése, remélve, hogy találunk egy bolygót, amely alkalmas lehet az emberi életre és menedéket nyújthat a fajunknak. A teljes küldetést egyedül fogja végrehajtani, de néhány robot is lesz az űrhajón.
+
+Nyolc hónappal ezelőtt egy kizárólag robotokból álló expedíció indult ugyanezzel a céllal. Számos akadályba ütközött, és látszólag olyan bolygókon szállt le, amelyek alkalmatlanok voltak a kolonizálásra – sőt, talán egyenesen ellenségesek. Nemrég a kommunikáció megszakadt.
+
+A küldetés kudarcának okai jelenleg nem ismertek, főként az ismétlődő kommunikációs problémák miatt. Reméljük, hogy az általuk gyűjtött adatokat fel tudja majd használni.
+
+\b;Azonnali feladat
+A nevadai sivatagban már javában folyik az építkezés. A robotok egy olyan űrállomást építenek, amely kifejezetten az ön igényeihez igazodik.
+
+Hogy megismerkedhessen az űrruhájával és a felszereléssel, néhány gyakorló feladatot állítottunk össze.
+
+Az első gyakorlat során meg kell találnia a túlélőkészletét, amely tartalmazza az összes szükséges eszközt az űr hidegének elviseléséhez. Könnyű felismerni, mert narancssárga és kék tartály is van benne.
+
+A \key;\key help;\norm; billentyűvel bármikor újra megtekintheti ezeket az utasításokat a saját SatCom \button 63; készülékén.
+
+\t;Lásd még
+\l;Irányítás\u command;

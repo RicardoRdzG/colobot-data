@@ -1,0 +1,62 @@
+\b;Ejercicio
+Programa el bot para que encuentre su camino sin golpear las paredes del laberinto. Suponemos que no conoces la configuración del laberinto, pero no hay bifurcaciones ni callejones sin salida. El laberinto está compuesto por cuadrados de 5m cada uno.
+
+\b;La instrucción \c;radar\n;
+La instrucción \c;\l;radar\u cbot\radar;(Barrier, 0, 45, 0, 5);\n; encontrará cualquier \l;barrera\u object\barrier; frente al radar que esté a menos de 5m. Veamos más de cerca los cinco parámetros utilizados:
+
+\s;\c;Barrier\n;
+\l;Categoría\u cbot\category; del objeto que el radar debe buscar, es decir, una barrera.
+
+\s;\c;0\n;
+Dirección del radar. \c;0\n; significa que el radar debe buscar directamente hacia adelante.
+
+\s;\c;45\n;
+Ángulo de apertura en grados. Con un ángulo de apertura de 45 grados, se detectarán barreras situadas entre 22.5 grados a la izquierda y 22.5 grados a la derecha.
+
+\s;\c;0\n;
+Distancia mínima de detección. \c;0\n; significa que incluso objetos muy cercanos al bot serán detectados.
+
+\s;\c;5\n;
+Rango de detección máximo. Cualquier barrera situada más allá de \c;5\n; metros no será detectada.
+
+Para tomar otro ejemplo, \c;\l;radar\u cbot\radar;(Barrier, 90, 45, 0, 5);\n; dirigirá el radar 90 grados a la izquierda, para probar si el camino a la izquierda está libre.
+
+\image tlaby1 10 10;
+\b;Principio general
+El programa solo debe ocuparse de una porción cuadrada del laberinto. Tendrás que ejecutarlo varias veces para llegar a la plataforma de meta.
+o  Si no hay nada enfrente, avanza.
+o  Si no hay nada a la izquierda, gira 90 grados a la izquierda y avanza.
+o  Si no hay nada a la derecha, gira 90 grados a la derecha y avanza.
+
+1) Primero declara tres \l;variables\u cbot\var; de tipo \c;\l;object\u cbot\object;\n;, que llamamos \c;front\n;, \c;left\n; y \c;right\n;. Las variables de este tipo pueden contener la descripción de cualquier objeto, por ejemplo, una barrera encontrada por el radar.
+\s;\c;	object   front, left, right;\n;
+
+2) Busca barreras en las tres direcciones y coloca el resultado de la instrucción \c;radar\n; en las tres variables definidas en el punto 1). Si el radar no encuentra nada, la variable contendrá el valor \c;\l;null\u cbot\null;\n;.
+\s;\c;	front = radar(Barrier,   0, 45, 0, 5);
+\s;	left  = radar(Barrier,  90, 45, 0, 5);
+\s;	right = radar(Barrier, -90, 45, 0, 5);
+\n;
+3) Comprueba si el camino está libre frente al bot con la instrucción \c;\l;if\u cbot\if;\n;. Si la prueba es verdadera, se ejecutarán las instrucciones entre llaves \c;{ }\n;, de lo contrario la ejecución continuará después de la llave de cierre \c;}\n;.
+La instrucción \c;return\n; sale del programa: el trabajo está hecho.
+\s;\c;if ( front == null )
+\s;{
+\s;	move(5);
+\s;	return;
+\s;}
+\n;
+4) Comprueba si es posible girar a la izquierda; si es así, gira a la izquierda con la instrucción \c;\l;turn\u cbot\turn;\n; y avanza 5m.
+\s;\c;if ( left == null )
+\s;{
+\s;	turn(90);
+\s;	move(5);
+\s;	return;
+\s;}
+\n;
+5) Comprueba si es posible girar a la derecha.
+    ...
+
+\b;Atención
+La instrucción \c;if ( )\n; nunca debe ser seguida de un \l;punto y coma\u cbot\term;.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

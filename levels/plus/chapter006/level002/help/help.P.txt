@@ -1,0 +1,11 @@
+\b;Z Centrum Kontroli Misji
+Ustaliliśmy, że najlepsze miejsce na zbudowanie \l;radaru\u object\radar; na tej planecie znajduje się na najwyższej górze w tym rejonie. Niestety jest ono obecnie zajęte przez \l;zniszczony radar\u object\ruin;.
+
+Zbuduj \l;laboratorium\u object\labo; i użyj go do analizy zdobytego \l;ładunku wybuchowego\u object\tnt;, pozwoli to twojej \l;fabryce\u object\factory; odtworzyć \l;robota-cel\u object\bottarg; zaprojektowanego przez poprzednią ekspedycję.
+
+Użyj robota-cel do zniszczenia ruiny oraz zbuduj nowy radar na jej miejscu.
+
+Naciśnięcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeć te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+
+\t;Zobacz również
+\l;Sterowanie\u command; i \l;Język CBOT\u cbot;

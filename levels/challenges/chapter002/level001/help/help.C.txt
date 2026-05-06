@@ -1,0 +1,14 @@
+\b;Cvičení
+V tomto cvičení za sebou "pomatený robot" nechává na zemi spoustu \l;modrých křížků\u object\waypoint;. Prostě je všechny najděte.
+
+\b;Užitečné příkazy
+\c;\l;radar\u cbot\radar;\n; pro hledání modrých křížků (kategorie \c;\l;WayPoint\u object\waypoint;\n;)
+\c;\l;direction\u cbot\direct;\n; pro výpočet směrového úhlu
+\c;\l;if\u cbot\if;\n; pro testování podmínek
+\c;\l;motor\u cbot\motor;\n; pro nastavení výkonu motorů
+
+\t;Poznámky
+Zbytečně neotálejte, protože pomatený robot už začal řádit. Naštěstí se hra během psaní programu pozastaví.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

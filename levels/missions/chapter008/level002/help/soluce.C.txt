@@ -1,0 +1,9 @@
+\b;Návod
+V údolí na jih od rakety najdete \l;radar\u object\radar;, \l;hromosvod\u object\captor;, \l;baterii\u object\power; a \l;létající biokanón\u object\botoj;. Díky tomu budete moci zlikvidovat mravence v okolí své rakety a najít \l;černou skříňku\u object\bbox; na severu poblíž vraku rakety z první výpravy.
+
+Podél přírodní stezky tvořené náhorními plošinami na severu postavte sérii \l;hromosvodů\u object\captor;. 5 nebo 6 hromosvodů by mělo jako ochrana před blesky stačit.
+
+Přivezte černou skříňku zpět na palubu \l;rakety\u object\base; a odleťte.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

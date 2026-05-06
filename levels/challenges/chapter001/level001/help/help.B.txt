@@ -1,0 +1,10 @@
+\b;Exercício
+Programe o robô de tal forma que ele chegue ao finalizador, depois de passar pelas três cruzes azuis. 
+As plataformas e as cruzes estão todas distantes de 20m umas das outras.
+
+\b;Instruções úteis
+\c;\l;move\u cbot\move;\n; para mover o robô 
+\c;\l;turn\u cbot\turn;\n; para girar o robô
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

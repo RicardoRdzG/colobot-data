@@ -1,0 +1,13 @@
+\b;Az irányítóközpontból
+Ez egy újabb gyakorlópálya, amelyet elődeid állítottak fel a \l;szárnyas robotok\u object\botfj; tűzerejének tesztelésére és fejlesztésére. Használd arra, hogy megszokd a repülés és lövés egyidejű irányítását.
+
+Repülj gyorsan végig az összes célponton, és lődd ki a 10 szétszórt robbanószerkezetet. Próbáld meg a gyakorlatot leszállás nélkül teljesíteni. Figyelj a reaktorra: ha túlmelegszik, egyszerűen szállj le, és hagyd kihűlni.
+
+Használd az egyik kezed a billentyűzeten a robot irányítására, a másikat pedig az egéren a célzáshoz és lövéshez (bal gomb).
+
+Hasznos lehet időnként visszatérni ezekhez a gyakorlatokhoz, ha tovább szeretnéd fejleszteni a reflexeidet.
+
+A \key;\key help;\norm; segítségével bármikor újra megtekintheted ezeket az utasításokat a személyes SatCom \button 63;-on.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

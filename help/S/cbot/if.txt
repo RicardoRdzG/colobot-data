@@ -1,0 +1,40 @@
+\b;Instrucciones \c;if\n; y \c;else\n;
+Con la instrucción \c;if() {}\n; puedes ejecutar un conjunto de instrucciones solo si se cumple una determinada condición. Escribe la condición entre paréntesis \c;()\n; y las instrucciones entre corchetes \c;{}\n;.
+
+\b;Uso básico
+Aquí tienes un ejemplo concreto: el bot solo disparará si el objetivo está a menos de 40 metros:
+\c;
+\s;	item = \l;radar\u cbot\radar;(AlienAnt);
+\s;	if (\l;distance\u cbot\dist;(position, item.position) < 40)
+\s;	{
+\s;		fire(1);
+\s;	}
+\n;
+También puedes comprobar si un objeto existe. Si la instrucción \c;\l;radar\u cbot\radar;();\n; no encuentra el objeto solicitado, devuelve el valor \c;nulo\n;. Por lo tanto, puedes comprobar si un objeto no existe con la condición \c; (item == null)\n;, o comprobar si existe con \c; (item != null)\n;. Dos signos igual \c;==\n; comprueban la igualdad, un signo de exclamación seguido de un signo igual \c;!=\n; comprueba la desigualdad. Aquí hay una prueba que irá a recargar la \l;celda de energía\u object\power; solo si hay una \l;estación de energía\u object\station;:
+\c;
+\s;	item = \l;radar\u cbot\radar;(PowerStation);
+\s;	if (item != null)
+\s;	{
+\s;		\l;goto\u cbot\goto;(item.position);
+\s;		\l;wait\u cbot\wait;(5);
+\s;	}
+\n;
+\b;Para especialistas
+Sintaxis:
+\s;\c;if ( condición )
+\s;{
+\s;	\n;Instrucciones A ...\c;
+\s;}
+\s;else
+\s;{
+\s;	\n;Instrucciones B ...\c;
+\s;}
+\n;
+Con esta estructura condicional puedes ejecutar un \l;bloque\u cbot\bloc; A o un \l;bloque\u cbot\bloc; B dependiendo de una \l;condición\u cbot\cond;. Si la condición es verdadera, se ejecuta el bloque A. Si la condición es falsa, se ejecuta el bloque B.
+La parte \c;else { }\n; no es obligatoria. 
+
+\t;Atención
+No pongas un \l;punto y coma\u cbot\term; al final de la línea \c;if ( )\n;.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

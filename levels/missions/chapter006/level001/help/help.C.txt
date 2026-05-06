@@ -1,0 +1,13 @@
+\b;Zpráva z řídícího střediska
+Musíte vyzvednout \l;výbušninu\u object\tnt;, kterou jsme objevili v hlubokém údolí vedle jezera vroucí lávy.
+
+Kvůli vysoké teplotě prostředí přestaly fungovat tryskové motory, tedy nemůžete létat. Dnes Vás čeká dlouhá cesta, takže byste své roboty měli vybavit \l;jadernými bateriemi\u object\atomic;. Jaderné baterie se vyrábí z \l;uranové rudy\u object\uranore;.
+
+V příloze této zprávy je efektivnější program pro sběr surovin.
+
+Varování: Výbušnina je extrémně nestabilní. Zacházejte s ní velmi opatrně.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

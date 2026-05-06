@@ -1,0 +1,17 @@
+\b;Bataille de code (contre Aliens)
+Il s'agit d'un niveau d'entraînement à la bataille de code, dont l'objectif est de vous familiariser avec ce \l;mode de jeu\u battles;.
+
+\t;Introduction brève
+La bataille de code est un nouveau mode de jeu de Colobot: Gold édition. Il y a deux équipes ou plus et celle qui survit le plus longtemps est la gagnante. Comme le nom le suggère, vous ne pouvez qu'utiliser la progression pour ce mode de jeu.
+
+Il est recommandé de lire \l;la section des notes\u %lvl%/help/help.%lng% notes; ci-dessous.
+
+\b;Vos objectifs
+Tuer tous les aliens situés de l'autre côté de la rivière.
+
+\b;Notes\m notes;
+o Les \l;aliens\u object/ant; ne vous attaquerons pas, tant que vous ne vous approcherez pas trop prêt d'eux.
+o Il y a une \l;source d'énergie sous-terraine\u object/enerspot; uniquement sous la zone de démarrage.
+o The pre-built \l;Derrick\u object\derrick; and \l;RadarStation\u \object\radar; are indestructible.
+o \l;La documentation CBOT\u cbot; pourrait vous être utile.
+o Si vous n'avez pas encore joué à Colobot, il est conseillé de lire \l;les bases de la ligne de production\u battles production;.

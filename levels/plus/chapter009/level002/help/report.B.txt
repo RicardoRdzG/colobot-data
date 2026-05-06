@@ -1,0 +1,19 @@
+\b;Relatório do satélite
+Atualmente em uma órbita geo-estacionária de Terranova.
+\c;
+\s;-> SUPERFÍCIE\c;
+\tab; Temperatura: 24,3C 
+\tab; Atmosfera: oxigênio 
+\tab; Vento: 0,8 mps 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> SUBSOLO\c;
+\tab; Fonte de energia: nenhuma 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> INFORMAÇÃO ADICIONAL\c;
+\tab; Detectado: formigas gigantes 
+\tab; - Perigo: imediato
+\n;

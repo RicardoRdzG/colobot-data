@@ -1,0 +1,12 @@
+\b;Programas enviados por Houston
+No desarrollamos un programa específico para esta misión. Sin embargo, puedes desarrollar tus propios programas si crees que sería útil.
+
+\b;Archivos
+Índice de los programas enviados en misiones anteriores:
+
+o  \c;\l;MatarHormiga1\u programs/6_KillAnt1;\n;
+o  \c;\l;RecolectarTitanio2\u programs/5_CollectTitanium2;\n;
+o  \c;\l;RecolectarTitanio1\u programs/4_CollectTitanium1;\n;
+o  \c;\l;Recargar2\u programs/3_Recharge2;\n;
+o  \c;\l;Recargar1\u programs/2_Recharge1;\n;
+o  \c;\l;CambiarCelda1\u programs/1_SwitchCell1;\n;

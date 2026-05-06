@@ -1,0 +1,14 @@
+\b;Ejercicio
+En este ejercicio, un "bot loco" coloca muchas \l;cruces azules\u object\waypoint; en el suelo. Simplemente trata de encontrarlas todas.
+
+\b;Instrucciones útiles
+\c;\l;radar\u cbot\radar;\n; para detectar las cruces azules (categoría \c;\l;WayPoint\u object\waypoint;\n;)
+\c;\l;direction\u cbot\direct;\n; para calcular una dirección
+\c;\l;if\u cbot\if;\n; para probar una condición
+\c;\l;motor\u cbot\motor;\n; para establecer las velocidades del motor
+
+\t;Observación
+No esperes demasiado, porque el bot loco comienza a trabajar inmediatamente. Afortunadamente, mientras estés en el editor de programas, el juego se pausará.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

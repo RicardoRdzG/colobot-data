@@ -1,0 +1,18 @@
+\b;Zpráva z řídícího střediska
+Doufáme, že tuto zprávu dostanete.
+
+Zpráva z průzkumného satelitu nás před několika hodinami upozornila, že se znepokojivě motáte sem a tam. Váš SatKom přestal vysílat. Tryskový motor na Vašem skafandru se zdá být nějak poškozený a Vaše helma podle všeho leží na dně jezera. Pokud je to opravdu tak, nesnažte se ji vylovit, nechoďte do vody! Voda na Tropice je prudce jedovatá. Okamžitě by Vás zabila.
+
+Co nejrychleji se vraťte k raketě a pokuste se nám poslat informace o možné příčině této nehody. Informace ze satelitu jsou v tuto chvíli nesrozumitelné. Od okamžiku, kdy se ztratila první výprava, jsme uvažovali o nějakém neznámém vlivu. Zdá se, že jste na něj právě narazili.
+
+Nemůžeme Vám nijak pomoct s hledáním cesty, ale nezapomeňte, že jdete ve šlépějích předchozí výpravy. Pokud se jim stalo totéž, co Vám, možná za sebou nechali nějaké stopy během návratu k vlastní raketě, která přistála zhruba ve stejné oblasti jako Vy. Využijte tyto stopy.
+
+Také byste na vhodných místech mohli rozmístit vlajky. Vlají vždy po větru, takže se podle nich můžete orientovat.
+
+To je vše, co prozatím víme...
+Hodně štěstí...
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

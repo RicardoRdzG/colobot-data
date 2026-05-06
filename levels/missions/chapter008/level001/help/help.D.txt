@@ -1,0 +1,13 @@
+\b;Vom Kontrollzentrum
+Es sieht sehr danach aus, als wäre dieser Planet kein passender Zufluchtsort für die Menschheit.
+
+Bauen Sie ein Radar für zukunftige Übertragungen.
+
+Außerdem... bedauern wir sehr, Ihnen mitteilen zu müssen, dass es notwendig ist, alle feindlichen Lebensformen zu vernichten.
+
+Die erste Expedition hat unter der Oberfläche von Orpheon \l;Titanerz\u object\titanore; geortet. Die Stelle ist mit einer blauen \l;Fahne\u object\flag; markiert.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

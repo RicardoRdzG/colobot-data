@@ -1,0 +1,33 @@
+\b;Objetivo
+Como defensa contra las hormigas que atacan desde todos los lados, adapta el programa \c;Spider2\n; para volar a una altitud determinada.
+
+\t;Programa
+El programa necesario para esta tarea es algo similar al programa \c;Spider2\n; que busca la hormiga más cercana, gira hacia ella y dispara:
+\c;
+\s;extern void object::Spider2()
+\s;{	
+\s;	object    item;
+\s;	
+\s;	while (true)
+\s;	{
+\s;		item = radar(AlienSpider);
+\s;		turn(direction(item.position));
+\s;		fire(1);
+\s;	}
+\s;}
+\n;
+Puedes copiar y pegar esto en el editor y adaptarlo. Reemplaza \c;radar(AlienSpider);\n; por \c;radar(AlienAnt);\n;, y escribe antes del bucle \c;while\n; otro bucle que active el reactor (jet) debajo del \l;disparador alado\u object\botfj; hasta que el bot alcance una altitud de 20 metros.
+
+La instrucción \c;\l;jet\u cbot\jet;()\n; controla el reactor debajo de los bots alados. El número entre paréntesis debe estar entre \c;-1\n; y \c;1\n;.\c; jet(1);\n; mueve el bot hacia arriba a máxima velocidad.\c; jet(-1);\n; mueve el bot hacia abajo a máxima velocidad, y \c;jet(0);\n; estabiliza la altitud. Como el bot debe alcanzar una altitud precisa, muévelo hacia arriba lentamente con \c;jet(0.2);\n;, espera hasta que haya alcanzado la altura deseada, luego estabiliza la altitud con \c;jet(0);\n;.
+
+Para "esperar hasta que haya alcanzado la altura deseada", necesitamos un bucle condicional: las instrucciones dentro del bucle se repetirán solo mientras una cierta condición sea verdadera. La altitud del bot está dada por \c;position.z\n;. Ya vimos que \c;position\n; da la posición del bot. Y una posición está dada por las tres coordenadas x, y y z: el eje x es el eje oeste-este, el eje y es el eje sur-norte, y el eje z es el eje vertical. Por lo tanto, debemos esperar mientras \c;position.z\n; sea menor que 20:
+\c;
+\s;	while (position.z < 20)
+\s;	{
+\s;		wait(0.2);
+\s;	}
+\n;
+Después de esperar 0.2 segundos, el programa verificará si la altitud aún está por debajo de 20 metros. Si este es el caso, esperará un poco más; si no, el programa continúa después del bucle, es decir, después de la llave de cierre \c;}\n;. No olvides después del bucle estabilizar la altitud con \c;jet(0);\n;.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

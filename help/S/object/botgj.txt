@@ -1,0 +1,35 @@
+\b;\button 139; Recogedor Alado
+\image botgj 8 8;
+Bot volador propulsado por chorro equipado con un brazo operativo.
+
+\button 32; Agarra un objeto o lo vuelve a colocar en una posición determinada por una de las siguientes opciones:
+\button 33; El objeto está frente al bot, en el suelo o en la parte trasera de un segundo bot.
+\button 35; El objeto es la propia celda de energía del bot.
+\button 34; El objeto está detrás del bot, en el suelo.
+
+Los siguientes objetos pueden ser transportados:
+o  \l;Mineral de titanio\u object\titanore;.
+o  \l;Mineral de uranio\u object\uranore;.
+o  \l;Cubo de titanio\u object\titan;.
+o  \l;Célula de energía regular\u object\power;.
+o  \l;Célula de energía nuclear\u object\atomic;.
+o  \l;Caja negra\u object\bbox;.
+o  \l;Llaves A, B, C y D\u object\key;.
+o  \l;Materia orgánica\u object\bullet;.
+
+El indicador en la parte inferior de tu pantalla muestra la temperatura del reactor. Mantén un ojo en él. Si el reactor se sobrecalienta, el motor se detendrá y el bot caerá.
+
+Los bots alados pueden volar a través de obstáculos naturales como montañas o lagos pero su energía se agota rápidamente. Son lentos en el suelo. Para cubrir distancias cortas sin necesidad de volar, se recomienda usar un \l;recogedor con ruedas\u object\botgr; en su lugar.
+
+Un recogedor no funciona bajo el agua. Lo que necesitarás en su lugar es un \l;submersible\u object\botsub;.
+
+\t;Programación
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Para programar el brazo operativo, usa \c;\l;grab\u cbot\grab;\n; y \c;\l;drop\u cbot\drop;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;WingedGrabber\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

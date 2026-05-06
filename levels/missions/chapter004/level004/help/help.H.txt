@@ -1,0 +1,11 @@
+\b;A Küldetésirányítástól
+Ez a bolygó nagyon valószínűtlen jelöltnek bizonyult a kolonizációra. Jobb végleg elhagyni. Szerezd vissza az előző expedíció \l;fekete dobozát\u object\bbox;, és indulj a következő bolygó felé.
+
+A megfigyelő műhold szerint az aktuális helyzete egy völgy alján van. Azonban az elektromágneses szmog sűrű rétege megbízhatatlanná teheti az összes műholdas adatot.
+
+Légy éber.
+
+A \key;\key help;\norm; segítségével bármikor újra elolvashatod ezeket az utasításokat a személyes SatCom készülékeden \button 63;.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

@@ -1,0 +1,38 @@
+\b;Programas enviados por Houston
+A continuación se muestra uno de los programas desarrollados por nuestros ingenieros.
+Una mejora del programa anterior: el \l;bot agarrador\u object\botgr;, en su camino de regreso del convertidor, hace una parada, si es necesario, en la \l;estación de energía\u object\station; para recargar su celda de energía.
+
+Este programa también funciona en \l;bots agarradores alados\u object\botgj;, si la \l;torre de perforación\u object\derrick; está en otra isla que el \l;convertidor\u object\convert;.
+\c;
+\s;extern void object::CollectTitanium2()
+\s;{
+\s;	// 1) Definición de variables.
+\s;	\l;object\u cbot\type;  item;            // información sobre objetos
+\s;	
+\s;	// 2) Ir al mineral de titanio y agarrarlo.
+\s;	item = \l;radar\u cbot\radar;(\l;TitaniumOre\u cbot\category;);// buscar mineral de titanio
+\s;	\l;goto\u cbot\goto;(item.position);     // ir a la posición
+\s;	\l;grab\u cbot\grab;();                  // agarrar el titanio
+\s;	
+\s;	// 3) Ir al convertidor y soltarlo.
+\s;	item = \l;radar\u cbot\radar;(\l;Converter\u cbot\category;); // buscar convertidor
+\s;	\l;goto\u cbot\goto;(item.position);     // ir a la posición
+\s;	\l;drop\u cbot\drop;();                  // soltar el titanio
+\s;	\l;move\u cbot\move;(-2.5);              // retroceder 2.5 m
+\s;		
+\s;	// 4) Si la celda está medio vacía, recarga.
+\s;	if ( energyCell.energyLevel < 0.5 )
+\s;	{                               // si es así:
+\s;		item = \l;radar\u cbot\radar;(\l;PowerStation\u cbot\category;); // buscar estación
+\s;		\l;goto\u cbot\goto;(item.position);        // ir allí
+\s;		\l;wait\u cbot\wait;(5);                    // esperar
+\s;	}
+\s;}
+\n;
+\b;Archivos
+Índice de los programas enviados en misiones anteriores:
+
+o  \c;\l;RecolectarTitanio1\u programs/4_CollectTitanium1;\n;
+o  \c;\l;Recargar2\u programs/3_Recharge2;\n;
+o  \c;\l;Recargar1\u programs/2_Recharge1;\n;
+o  \c;\l;CambiarCelda1\u programs/1_SwitchCell1;\n;

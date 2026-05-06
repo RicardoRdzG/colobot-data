@@ -1,0 +1,19 @@
+\b;Ejercicio
+Varios \l;centros de intercambio de información\u object\exchange; están ubicados a lo largo del camino. Cuando el bot está lo suficientemente cerca de un poste, puede leer las instrucciones que contiene. Los \l;centros de intercambio de información\u object\exchange; a lo largo del camino contienen la dirección del siguiente poste y la distancia. Y no sabes cuántos centros de intercambio debes contactar antes de llegar a tu objetivo.
+
+\b;Principio general
+	Siempre repetir:
+	o  Recupera la dirección del \l;centro de intercambio\u object\exchange;.
+	o  Recupera la distancia del \l;centro de intercambio\u object\exchange;.
+	o  Si no se pudo recuperar información, detén el programa.
+	o  Ejecuta la rotación.
+	o  Avanza hacia el siguiente puesto.
+
+\b;Instrucciones útiles
+\c;\l;while\u cbot\while;\n; para repetir las instrucciones
+\c;\l;receive\u cbot\receive;\n; para obtener la información de un poste
+\c;\l;move\u cbot\move;\n; para mover el bot
+\c;\l;turn\u cbot\turn;\n; para girar el bot
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

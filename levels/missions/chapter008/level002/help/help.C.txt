@@ -1,0 +1,11 @@
+\b;Zpráva z řídícího střediska
+Vyzvedněte černou skříňku.
+
+Elektromagnetická bouře podle všeho zesílila a blýská se ještě víc než předtím. Své vybavení budete muset chránit.
+
+Pamatujte, že Vaše raketa také funguje jako hromosvod, a inženýři nás ujišťují, že Váš skafandr nepřitahuje blesky.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

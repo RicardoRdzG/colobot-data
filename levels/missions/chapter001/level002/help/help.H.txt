@@ -1,0 +1,14 @@
+\b;Az irányítóközpontból
+Ez a második gyakorlatod. \l;Most\u object\human; meg kell ismerkedned az alapfelszerelés használatával. Ez lehet a legmegbízhatóbb társad ezen az expedíción.
+
+Az építkezéshez és a robotok gyártásához \l;titánra\u object\titan; van szükség. A titán egy ásvány, amely a legtöbb csillagrendszerben előfordul az univerzumban.
+
+\b;Eljárás
+1) Állj az első \l;titánkocka\u object\titan; közelébe.
+2) Építs egy \l;kutatóközpontot\u object\research; \button 163;. Ne feledd, csak \l;te\u object\human; tudsz építeni; robot nem helyettesíthet.
+3) A második \l;titánkockából\u object\titan; építs egy \l;robotgyárat\u object\factory; \button 160;.
+
+A \key;\key help;\norm; segítségével bármikor újraolvashatod ezeket az utasításokat a személyes SatCom készülékeden \button 63;.
+
+\t;Lásd még
+\l;Irányítás\u command;

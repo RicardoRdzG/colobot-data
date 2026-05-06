@@ -1,0 +1,103 @@
+\b;Cvičení
+Ovládejte na dálku jiného robota bez použití \l;komunikační stanice\u object\exchange;. Robot má za úkol přejet přes 6 modrých křížků. Pro předání povelů dělníkovi musíte použít \l;textový řetězec\u cbot\string;. Tento řetězec bude obsahovat povely, které má dělník vykonat, například \c;"move(20)"\n;. Všimněte si, že se příkazy budou zapisovat ve stejné syntaxi jako v jazyce CBOT, ale mohli jsme zvolit i libovolný jiný formát, například něco jako \c;"advance=20"\n;. Velitel bude dělníkovi předávat řetězec s povely přes atribut třídy deklarovaný jako \c;\l;static\u cbot\static;\n;.
+
+Hlavní role v tomto cvičení hrají:
+1) \l;Pojízdné rameno\u object\botgr; bez baterie, tím pádem nepojízdné. To je velitel, kterého musíte naprogramovat, aby předával povely dělníkovi.
+2) \l;Cvičný robot\u object\bottr;, který už je naprogramovaný a jen čeká na povely od velitele.
+
+\b;Dělník
+Nejprve si musíme vysvětlit, jak funguje program dělníka. \l;Třída\u cbot\class; \c;exchange\n; poskytuje mechanismus pro předávání povelů. V ní je deklarovaný \l;statický\u cbot\static; atribut \c;m_order\n;, kam budeme povely ukládat. Klíčové slovo \c;static\n; znamená, že všechny instance \l;třídy\u cbot\class; \c;exchange\n; budou atribut \c;m_order\n; sdílet mezi sebou.
+
+\c;\s;\l;public\u cbot\public; \l;class\u cbot\class; exchange
+\s;{
+\s;	\l;static\u cbot\static; \l;private\u cbot\private; \l;string\u cbot\string; m_order = "";
+
+\n;Velitel bude pro předání povelu volat metodu \c;put\n;. Pokud atribut \c;m_order\n; nebude prázdný, dělník ještě nedokončil předchozí příkaz, takže metoda \c;put\n; vrátí hodnotu \c;false\n; a nebude nic dělat.
+
+\c;\s;	\l;synchronized\u cbot\synchro; \l;bool\u cbot\bool; put(string order)
+\s;	{
+\s;		if ( m_order == "" )
+\s;		{
+\s;			m_order = order;
+\s;			return true;
+\s;		}
+\s;		else
+\s;		{
+\s;			return false;
+\s;		}
+\s;	}
+\n;
+Dělník si pak povely přečte pomocí metody \c;get\n;. Tato metoda vrátí řetězec uložený v atributu \c;m_order\n; a vymaže ho, aby se do něj mohl uložit nový povel:
+
+\c;\s;	\l;synchronized\u cbot\synchro; string get()
+\s;	{
+\s;		string ret = m_order;
+\s;		m_order = "";
+\s;		return ret;
+\s;	}
+\s;}
+\n;
+Hlavní program dělníka obsahuje instanci třídy \c;exchange\n; nazvanou \c;list\n;.
+
+\c;\s;\l;extern\u cbot\extern; void object::Slave3( )
+\s;{
+\s;	exchange list();
+\s;	string   todo;
+\n;
+Vnější cyklus \c;while\n; se opakuje donekonečna. Vnitřní cyklus \c;while\n; čeká na povel a stále volá metodu \c;get\n; třídy \c;exchange\n;. Když metoda \c;get\n; vrátí neprázdný řetězec, vnitřní cyklus skončí.
+
+\c;\s;	\l;while\u cbot\while; ( true )
+\s;	{
+\s;		\l;while\u cbot\while; ( true )
+\s;		{
+\s;			todo = list.get();
+\s;			if ( todo != "" )  break;
+\s;			wait(1);
+\s;		}
+\n;
+Když máme povel uložený v proměnné \c;todo\n;, zbývá ho jen provést:
+
+\c;\s;		if ( \l;strfind\u cbot\strfind;(todo, "move") == 0 )
+\s;		{
+\s;			move(\l;strval\u cbot\strval;(\l;strmid\u cbot\strmid;(todo,5)));
+\s;		}
+\s;		if ( strfind(todo, "turn") == 0 )
+\s;		{
+\s;			turn(strval(strmid(todo,5)));
+\s;		}
+\s;	}
+\s;}
+\n;
+\b;Velitel
+Pro velitele napíšeme funkci \c;SendOrder\n;, která pošle povel dělníkovi:
+
+\c;\s;void object::SendOrder(string order)
+\s;{
+\s;	exchange list();
+\s;	
+\s;	while ( list.put(order) == false )
+\s;	{
+\s;		wait(1);
+\s;	}
+\s;}
+\n;
+Cyklus \c;while\n; bude čekat na přijetí předchozího povelu, tedy dokud dělník nedokončí volání metody \c;get\n;.
+Dál už bude hlavní program velitele celkem jednoduchý:
+
+\c;\s;extern void object::Ovladac3( )
+\s;{
+\s;	SendOrder("move(20)");
+\s;	SendOrder("turn(90)");
+\s;	SendOrder("move(20)");
+\s;	SendOrder("turn(90)");
+\s;	SendOrder("move(10)");
+\s;	SendOrder("turn(90)");
+\s;	SendOrder("move(10)");
+\s;	SendOrder("turn(-90)");
+\s;	SendOrder("move(10)");
+\s;}
+\n;
+Tyto instrukce si můžete kdykoliv znovu přečíst klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;programování\u cbot;.

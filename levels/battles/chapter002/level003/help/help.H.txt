@@ -1,0 +1,5 @@
+\b;Kódcsata (célpont lőése)
+Ez egy \l;a kódcsata\u battles; szint, ahol egy ártalmatlan célpontot kell eltalálnod, hogy megtanulj helyesen célozni.
+
+\b;Cél
+Törd össze a célt, amely a folyó túloldalán található.

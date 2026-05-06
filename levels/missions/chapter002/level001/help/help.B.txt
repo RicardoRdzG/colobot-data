@@ -1,0 +1,20 @@
+\b;Do Centro de Controle de Missões
+Colete 4 pedaços de \l;minério de titânio\u object\titanore; e traga-os de volta a bordo de sua \l;espaçonave\u object\base;. Construa o equipamento necessário para esta tarefa (\l;robôs alados\u object\botgj;).
+
+Antes de se aventurar mais, você deve sempre dar uma olhada no  relatório do satélite \button 186;.
+
+Nós transmitimos para sua \l;espaçonave\u object\base; um programa que pode  ajudá-lo nesta tarefa; por favor consulte a página correspondente do seu SatCom  com o botão \button 53;.
+
+\b;Procedimento
+1) Um novo \l;programa de pesquisa\u object\research; é necessário para robôs alados serem adicionados à lista de robôs que podem ser produzidos pela fábrica. Este programa de pesquisa também tornará operacional o reator de propulsão em seu kit pessoal de sobrevivência.
+2) Produza um \l;agarrador alado\u object\botgj; e colete os 4 pedaços de \l;minério de titânio\u object\titanore;.
+3) Pegue o \l;agarrador alado\u object\botgj; e o <a object\botgr>agarrador com rodas</ a> junto com você e decole.
+
+Tenha cuidado para que seu robô alado não fique sem energia quando você estiver longe da base. Se necessário, substitua a \l;célula de energia\u object\power; antes de sair da nave espacial. Você pode fazer isso manualmente ou executar o programa fornecido por Houston \button 53;.
+
+Para não se perder entre as numerosas crateras na superfície da Lua, use o minimapa no canto inferior direito da tela.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a todo o momento no seu SatCom pessoal.
+
+\t;Veja também
+\l;Controles\u command;.

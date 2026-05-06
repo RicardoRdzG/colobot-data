@@ -1,0 +1,15 @@
+\b;Passo a passo
+1) Comece recarregando uma \l;célula de energia regular\u object\power; e ligue o \l;centro de pesquisa\u object\research;. Use-o para pesquisar a tecnologia para a construção de uma \l;planta nuclear\u object\nuclear; \button 170;.
+
+2) Produza um \l;agarrador com rodas\u object\botgr;.
+
+3) Encontre algum \l;minério de urânio\u object\uranore; a noroeste da sua posição. A usina nuclear então a transformará em \l;células nucleares\u object\atomic; de maior duração.
+
+4) Alimente um \l;atirador com rodas\u object\botfr; com uma das suas novas células nucleares. Despache-o para matar todas as \l; aranhas\u object\spider; invasoras ao longo do caminho.
+
+5) Um \l;radar\u object\radar; é opcional, mas pode ser útil para marcar a posição das aranhas no seu mini-mapa.
+
+6) Um agarrador com rodas deve fazer parte da expedição. Ele irá limpar o caminho atravancado com o \l;minério de titânio\u object\titanore; e trazer o \l;dispositivo explosivo\u object\tnt; de volta.
+
+\t;Veja também
+\l;Controles\u command;.

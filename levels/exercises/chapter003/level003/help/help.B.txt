@@ -1,0 +1,57 @@
+\b;Exercício
+Destrua os seis \l;alvos\u object\bottarg; com um programa usando um laço. O robô deve mover 5 m para frente para ir de um alvo para o próximo.
+
+\b;Princípio geral
+O programa deve executar o seguinte esquema: 
+Repita 6 vezes:
+	o  Mova 5m para a frente
+	o  vire 90 graus à esquerda
+	o  atire
+	o  virar 90 graus para a direita
+
+\image tfor1 14 5;
+\b;Instrução \c;for ( )\n;
+A instrução \c;\l;for\u cbot\for;\n; pede 3 expressões:
+1) Inicialize a variável de contagem.
+2) A \l;condição\u cbot\cond; final.
+3) A \l;expressão\u cbot\expr; de contagem.
+
+Aqui está o laço, uma vez que é integrado ao quadro do programa:
+\s;\c;extern void object::Massacre( )
+\s;{
+\s;	for ( int i=0 ; i<6 ; i=i+1 )
+\s;	{
+\s;		\n;instruções repetidas 6 vezes.\c;
+\s;	}
+\s;}
+\n;
+ATENÇÃO: A linha \c;for ( )\n; não deve ser seguida por \l;ponto e vírgula\u cbot\term;!
+
+\b;Explicação da instrução \c;for ( )\n;
+1) \c;int i=0\n;
+A \l;variável\u cbot\var; i é definida como zero antes do início do laço.
+
+2) \c;i<6\n;
+O loop será executado enquanto i for menor que 6.
+
+3) \c;i=i+1\n;
+No final de cada laço, adicione 1 à variável i.
+
+\b;Blocos
+Use chaves \c;{ }</ code> para criar um \l;bloco\u cbot\bloc;. Todas as instruções que devem ser executadas no laço <code>for\n; são mantidas juntas por um bloco. Todo o programa em si é composto de um bloco:
+\c;
+\s;extern void object::Massacre( )
+\s;{
+\s;	\n;preencha aqui...\c;
+\s;}
+\n;
+Nunca mude esses personagens. Basta adicionar as instruções do programa entre as chaves. 
+Você pode colocar vários blocos um no outro. Por exemplo, o bloco <code>for</ code> é encaixado no bloco de todo o programa. Para melhorar a legibilidade, o editor alinha as chaves pertencentes aos diferentes blocos.
+
+\b;Lembre-se
+A instrução usada para avançar é  \c;\l;move\u cbot\move;();\n;.
+A instrução usada para ativar o bot é \c;\l;turn\u cbot\turn;();\n;. Um ângulo positivo vira à esquerda. 
+A instrução usada para disparar o canhão é \c;\l;fire\u cbot\fire;(1);\n;. Uma rajada de um segundo permite destruir todos os seis \l;alvos\u object\bottarg;.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

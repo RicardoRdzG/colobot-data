@@ -1,0 +1,26 @@
+\b;Übung
+Instruieren Sie den Roboter, alle \l;blauen Kreuze\u object\waypoint; auf dem Boden zu finden. Achten Sie darauf, nicht zu nahe an die \l;Minen\u object\mine; zu fahren. Wenn der Roboter über ein Kreuz fährt, wird es verschwinden. Hier ist die Vorgehensweise:
+
+	Wiederholen Sie immer:
+	o  Suchen Sie nach einer Mine
+	o  Haben Sie eine Mine gefunden, berechnen Sie die entgegengesetzte Richtung
+	o  Suchen Sie nach einem Kreuz
+	o  Wenn Sie keins finden, stoppen Sie das Programm
+	o  Berechnen Sie die Richtung des Kreuzes
+	o  Berechnen Sie den Durchschnitt der zwei Richtungen
+	o  Starten Sie den Motor so, dass der Roboter in die zuletzt berechnete Richtung fährt
+
+\b;Die Anweisung \c;radar\n;
+Um eine Mine mit dem \c;\l;Radar\u cbot\radar;\n; zu orten, empfehlen wir folgende Parameter:
+\c;\s;	radar(Mine, 0, 180, 0, 5);\n;
+Mit einem Öffnungswinkel von 180 Grad, werden Minen hinter dem Roboter nicht gefunden. Minen die weiter als 5 Meter entfernt sind, werden auch nicht beachtet.
+
+Um ein blaues Kreuz zu finden, schreiben Sie einfach:
+\c;\s;	radar(WayPoint);\n;
+Blaue Kreuze werden auf diese Weise überall gefunden.
+
+Um eine Richtung zu bestimmen, benutzen Sie \c;\l;direction\u cbot\direct;\n;.
+Um die Geschwindigkeit der Motoren einzustellen, benutzen Sie \c;\l;motor\u cbot\motor;\n;.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, \l;Variablentypen\u cbot\type; und \l;Kategorien\u cbot\category;.

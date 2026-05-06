@@ -1,0 +1,8 @@
+\b;Exercício
+Neste exercício, um "robô maluco" coloca muitas \l;cruzes azuis\u object\waypoint; no chão. Para encontrá-las, você pode reutilizar o programa escrito no exercício anterior. Isso pode mostrar a flexibilidade de um programa desse tipo: ele se adapta a qualquer ambiente que encontre.
+
+\t;Observação
+Não espere muito, porque o robô maluco começa a funcionar imediatamente. Felizmente, contanto que você esteja no editor do programa, o jogo fará uma pausa.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

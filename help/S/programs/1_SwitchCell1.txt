@@ -1,0 +1,17 @@
+\b;Programas enviados por Houston
+A continuación se muestra un programa desarrollado por nuestros ingenieros. Te permite cambiar las \l;celdas de energía\u object\power;. Se debe colocar una celda cargada en el suelo frente al bot.
+
+Para ejecutar este programa, selecciona el programa \c;SwitchCell1\n; en la lista de programas disponibles en el bot (en la esquina inferior izquierda de tu pantalla), y haz clic en el símbolo de flecha \button 21;.
+\c;
+\s;extern void object::SwitchCell1()
+\s;{
+\s;	\l;grab\u cbot\grab;(InFront);     // tomar la celda nueva al frente
+\s;	\l;drop\u cbot\drop;(Behind);      // y soltarla atrás
+\s;	
+\s;	\l;grab\u cbot\grab;(EnergyCell);  // tomar la celda del bot
+\s;	\l;drop\u cbot\drop;(InFront);     // y soltarla al frente
+\s;	
+\s;	\l;grab\u cbot\grab;(Behind);      // tomar la celda nueva
+\s;	\l;drop\u cbot\drop;(EnergyCell);  // y colocarla en el bot
+\s;}
+\n;

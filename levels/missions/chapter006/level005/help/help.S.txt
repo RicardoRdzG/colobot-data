@@ -1,0 +1,11 @@
+\b;Del Control de Misiones
+Felicitaciones por un trabajo excelente como siempre.
+
+Esta nueva arma parece ser otra aplicación práctica de lo que hemos llegado a llamar "oro verde", la \l;materia orgánica\u object\bullet; producida por los insectos. Hemos llamado a este bot el \l;disparador orga\u object\botoj; o bot equipado con un cañón de orgaballs.
+
+Seguramente te resultará útil en tu camino de regreso a tu \l;nave espacial\u object\base;.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

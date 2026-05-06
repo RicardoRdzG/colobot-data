@@ -1,0 +1,12 @@
+\b;Instrucción \c;cos\n;
+Sintaxis:
+\s;\c;cos ( ángulo );\n;
+
+\t;angulo: \c;\l;float\u cbot\float;\n;
+Ángulo en grados.
+
+\t;Valor de retorno: \c;\l;float\u cbot\float;\n;
+Coseno del ángulo.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;expresiones\u cbot\expr;.

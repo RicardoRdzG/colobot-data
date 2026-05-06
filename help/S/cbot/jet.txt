@@ -1,0 +1,16 @@
+\b;Instrucción \c;jet\n; ( propulsor )
+Sintaxis:
+\s;\c;jet ( potencia );\n;
+
+Control directo del reactor (jet) de un \l;bot alado\u object\botgj;. El reactor es lo que hace que el bot vuele. Usa esta instrucción para despegar, subir, bajar o aterrizar.
+
+\t;potencia: \c;\l;float\u cbot\float;\n;
+Potencia del reactor (jet), varía entre \c;-1\n; y \c;+1\n;. \c;jet(1);\n; instruye al bot a subir lo más rápido posible, \c;jet(-1);\n; baja lo más rápido posible, \c;jet(0);\n; estabiliza la altitud. Para obtener cambios de altitud más lentos, usa valores intermedios, por ejemplo \c;jet(0.3);\n;.
+
+
+\t;Valor de retorno: \c;\l;void\u cbot\void;\n;
+Ninguno.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.
+

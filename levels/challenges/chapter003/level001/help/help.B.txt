@@ -1,0 +1,35 @@
+\b;Exercício
+Converta algum \l;minério de titânio\u object\titanore; em \l;cubos de titânio\u object\titan;, depois derrube 2 cubos de titânio nos blocos cujas coordenadas são:
+\c;
+	x=10, y=-60
+	x=10, y=-65
+\n;
+\image extrator 8 8;
+A \l;extrator\u object\derrick; extrai o minério de titânio do subsolo; você só tem que pegá-lo.
+
+\image converter 8 8;
+O \l;conversor\u object\convert; converte minério de titânio em cubos de titânio. Basta soltar o minério de titânio na plataforma, recuar e esperar até que ele seja convertido.
+
+\b;Princípio geral
+Repita 2 vezes:
+o  Espere até que haja algum minério de titânio.
+o  Vá para o minério de titânio.
+o  Pegue-o.
+o  Vá para o conversor.
+o  Solte o minério de titânio.
+o  Volte 2,5 metros.
+o  Espere até que haja um cubo de titânio.
+o  Pegue o cubo de titânio.
+o  Vá para a plataforma.
+o  Solte o cubo de titânio.
+
+\b;Instruções úteis
+\c;\l;for\u cbot\for;\n; para repetir algumas instruções
+\c;\l;do - while\u cbot\do;\n; para repetir algumas instruções
+\c;\l;radar\u cbot\radar;\n; para procurar por objetos diferentes
+\c;\l;goto\u cbot\goto;\n; para mover o robô
+\c;\l;grab\u cbot\grab;\n; para pegar um objeto
+\c;\l;drop\u cbot\drop;\n; para largar um objeto
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

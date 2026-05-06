@@ -1,0 +1,9 @@
+\b;Vom Kontrollzentrum
+Bauen Sie auf einer der höchsten erreichbaren Stellen ein \l;Radar\u object\radar; und stellen Sie sicher, dass es von keinem Feind zerstört werden kann wenn \l;Sie\u object\human; weg sind.
+
+Die Zerstörung der Radarstation, die bei der ersten Expedition gebaut wurde, war vermutlich die Ursache für den Abriss der Verbindung, was zum kompletten Verlust des Kontaktes führte.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

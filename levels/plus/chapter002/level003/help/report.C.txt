@@ -1,0 +1,15 @@
+\b;Informace ze satelitu
+Aktuálně na stacionární oběžné dráze Měsíce.
+\c;
+\s;-> POVRCH\c;
+\tab;Teplota:           -38,2 °C
+\tab;Atmosféra:         žádná
+\tab;Vítr:              0,0 m/s
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+
+\s;-> PODZEMNÍ LOŽISKA\c;
+\tab;Zdroj energie:     všude
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+\n;

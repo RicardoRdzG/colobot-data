@@ -1,0 +1,129 @@
+\b;Exercise
+Steuern Sie einen Slave-Roboter ohne Verwendung eines \l;Infoservers\u object\exchange; fern. Der Roboter muss alle 6 blauen Kreuze passieren. Sie müssen eine \c;\l;statische\u cbot\static;\n; Variable verwenden, um den Slave Befehle zu erteilen.
+
+Die beiden Hauptakteure dieser Übung sind:
+1) Der \l;Radtransporter\u object\botgr;, der keine Batterie hat und dadurch unbeweglich ist. Dies ist der Master den Sie so programmieren sollen, dass er Befehle zum Slave sendet.
+2) Der Slave-\l;Übungsroboter\u object\bottr; ist schon mit einer Programmierung versehen und wartet auf Befehle vom Master.
+
+\b;Der Slave
+Zu allererst müssen wir klären, wie der Slave funktioniert. Die \l;Klasse\u cbot\class; \c;order\n; besitzt zwei Variablen: \c;m_type\n; ist der auszuführende Befehl (bewegen oder drehen) und \c;m_param\n; ist die Entfernung oder der Drehungswinkel:
+
+\c;\s;\l;public\u cbot\public; \l;class\u cbot\class; order
+\s;{
+\s;	\l;int\u cbot\int;    m_type = \l;nan\u cbot\nan;;
+\s;	\l;float\u cbot\float;  m_param;
+\s;}
+\n;
+Eine zweite \l;Klasse\u cbot\class;, \c;exchange\n;, enthält die Mechanismen zum Austausch von Befehlen. Wir deklarieren eine \c;\l;statische\u cbot\static;\n; Klassenvariable \c;m_order\n;, die den auszuführenden Befehl enthalten wird. Das Wort \c;static\n; stellt sicher, dass auf die Variable \c;m_order\n; von allen Instanzen der \l;Klasse\u cbot\class; \c;exchange\n; zugegriffen werden kann.
+
+\c;\s;\l;public\u cbot\public; \l;class\u cbot\class; exchange
+\s;{
+\s;	\l;static\u cbot\static; \l;private\u cbot\private; order m_order = new order;
+\n;
+\n;Die Methode \c;put\n; wird vom Master dazu verwendet, Befehle zu übermitteln. Solange \c;m_order\n; nicht \c;\l;nan\u cbot\nan;\n; ist, hat der Slave seinen Befehl noch nicht abgearbeitet und die Methode \c;put\n; gibt \c;false\n; zurück und tut sonst nichts:
+
+\c;\s;	\l;synchronized\u cbot\synchro; \l;bool\u cbot\bool; put(order a)
+\s;	{
+\s;		if ( m_order.m_type == nan )
+\s;		{
+\s;			m_order = a;
+\s;			return true;
+\s;		}
+\s;		else
+\s;		{
+\s;			return false;
+\s;		}
+\s;	}
+\n;
+Eine andere Methode, \c;get\n;, wird vom Slave dazu benutzt, Befehle abzuholen. Diese Methode gibt den Befehl zurück, der abgearbeitet werden soll:
+
+\c;\s;	\l;synchronized\u cbot\synchro; order get()
+\s;	{
+\s;		return m_order;
+\s;	}
+\n;
+Eine dritte Methode, \c;delete\n;, verwendet der Slave, um anzuzeigen, dass er den Befehl ausgeführt hat:
+
+\c;\s;	\l;synchronized\u cbot\synchro; void delete()
+\s;	{
+\s;		m_order.m_type = nan;
+\s;	}
+\s;}
+\n;
+Das Hauptprogramm des Slaves enthält eine Instanz der Klasse \c;exchange\n; namens \c;list\n;. Wir setzen Klammern () hinter das Wort \c;list\n;, um eine Instanz der Klasse \c;exchange\n; zu erzeugen.
+
+\c;\s;\l;extern\u cbot\extern; void object::Slave3( )
+\s;{
+\s;	exchange list();
+\s;	order    todo;
+\n;
+Die äußere \c;while\n;-Schleife wird nie verlassen. Die innere \c;while\n;-Schleife wartet auf einen Befehl, wobei die Methode \c;get\n; der Klasse \c;exchange\n; verwendet wird. Sobald \c;get\n; einen Wert zurückgibt, der nicht \c;nan\n; ist, wird die Schleife verlassen.
+
+\c;\s;	\l;while\u cbot\while; ( true )
+\s;	{
+\s;		\l;while\u cbot\while; ( true )
+\s;		{
+\s;			todo = list.get();
+\s;			if ( todo.m_type != nan )  break;
+\s;			wait(1);
+\s;		}
+\n;
+Nun haben wir einen Befehl empfangen, der in der Variablen \c;todo\n; steht. Wir müssen ihn nur noch ausführen:
+
+\c;\s;		if ( todo.m_type == 1 )
+\s;		{
+\s;			move(todo.m_param);
+\s;		}
+\s;		else if ( todo.m_type == 2 )
+\s;		{
+\s;			turn(todo.m_param);
+\s;		}
+\s;		else
+\s;		{
+\s;			message("Unbekannter Befehl");
+\s;		}
+\n;
+Wenn wir einen Befehl vollständig bearbeitet haben, müssen wir die Methode \c;delete\n; aufrufen, damit der Master weiß, dass er den nächsten Befehl senden kann:
+
+\c;\s;		list.delete();
+\s;	}
+\s;}
+\n;
+\b;Der Master
+Für den Master schreiben wir eine Funktion namens \c;SendOrder\n;, die einen Befehl zum Slave sendet:
+
+\c;\s;void object::SendOrder(float order, float param)
+\s;{
+\s;	exchange list();
+\s;	order    todo();
+\s;	
+\s;	todo.m_type = order;
+\s;	todo.m_param = param;
+\s;	
+\s;	while ( list.put(todo) == false )
+\s;	{
+\s;		wait(1);
+\s;	}
+\s;}
+\n;
+Die \c;while\n;-Schleife wartet ab, bis ein früher gesendeter Befehl bearbeitet wurde, der Slave also die Methode \c;get\n; verlassen und \c;delete\n; aufgerufen hat.
+Das Hauptprogramm für den Master ist nun sehr einfach:
+
+\c;\s;extern void object::Remote4( )
+\s;{
+\s;	SendOrder(1, 20);  // move(20);
+\s;	SendOrder(2, 90);  // turn(90);
+\s;	SendOrder(1, 20);  // move(20);
+\s;	SendOrder(2, 90);  // turn(90);
+\s;	SendOrder(1, 10);  // move(10);
+\s;	SendOrder(2, 90);  // turn(90);
+\s;	SendOrder(1, 10);  // move(10);
+\s;	SendOrder(2,-90);  // turn(-90);
+\s;	SendOrder(1, 10);  // move(10);
+\s;}
+\n;
+Mit \key;\key help;\norm; können Sie diese Anweisungen jederzeit einsehen.
+
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

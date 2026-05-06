@@ -1,0 +1,18 @@
+\b;Del Control de Misiones
+No tenemos forma de asegurarnos hacia dónde se dirigía la expedición anterior cuando dejó la superficie de la Luna ni por qué eligió ir adonde iba.
+
+Localiza la \l;caja negra\u object\bbox; que deben haber dejado atrás y tráela de vuelta a bordo de tu nave. La caja negra debe contener las coordenadas del próximo planeta que la expedición planeaba visitar.
+
+Las \l;celdas de energía\u object\power; de tu bot están casi completamente vacías. Recargarlas debería ser tu prioridad. El satélite de observación en órbita indica que el subsuelo en esta área particular está cargado de energía. Por lo tanto, deberías poder construir una \l;central eléctrica\u object\station; funcional en cualquier superficie plana.
+
+Hemos desarrollado un programa que recargará la \l;celda de energía\u object\power; de un bot. Consulta la página de programas de tu SatCom \button 53;.
+
+\b;Procedimiento
+1) Primero necesitas construir un \l;convertidor\u object\convert; que convierta los trozos de mineral de titanio que ya posees en \l;cubos de titanio\u object\titan; utilizables.
+2) Entonces debes construir tanto una \l;central eléctrica\u object\station; como un \l;radar\u object\radar; que indicará la ubicación de la caja negra en tu mini mapa.
+3) Con tus celdas de energía completamente cargadas, recupera la caja negra. Necesita ser colocada en la plataforma de la \l;nave espacial\u object\base; para que puedas despegar.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

@@ -1,0 +1,11 @@
+\b;Exercício
+Programe o robô para que ele encontre o caminho sem bater nas paredes do labirinto. Supomos que você não conheça a configuração do labirinto, mas não há bifurcações nem becos sem saída. O labirinto é feito de quadrados medindo 5m cada.
+
+\b;Instruções úteis
+\c;\l;radar\u cbot\radar;\n; para detectar obstáculos
+\c;\l;if\u cbot\if;\n; para testar uma condição
+\c;\l;move\u cbot\move;\n; para mover o robô
+\c;\l;turn\u cbot\turn;\n; para girar o robô
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

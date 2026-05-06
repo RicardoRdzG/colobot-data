@@ -1,0 +1,38 @@
+\b;Ejercicio
+Mueve el \l;cubo de titanio\u object\titan; a la plataforma de meta. No conoces la posición del titanio, pero podemos decirte la posición de la plataforma de meta x=10 y=-60.
+
+\b;La instrucción \c;goto\n;
+Para resolver este problema fácilmente, usaremos una nueva forma de mover el bot con la instrucción \c;\l;goto\u cbot\goto;\n;. Con esta instrucción puedes alcanzar muy fácilmente cualquier posición, si conoces la ubicación exacta en forma de coordenadas x e y. El bot girará hacia el objetivo, avanzará e incluso girará alrededor de cualquier obstáculo.
+
+Si resumimos, estas son las diferentes formas de mover un bot:
+
+\s;\c;motor(left, right)\n;
+Permite un control directo y preciso de los dos motores, y te permite mantener el control de los motores en cada fracción de segundo.
+
+\s;\c;move(distance)\n; y \c;turn(angle)\n;
+Usa estas instrucciones para avanzar una cierta distancia, o para realizar una rotación de un cierto ángulo. Todos los parámetros son relativos a la posición actual del bot.
+
+\s;\c;goto(position)\n;
+Te permite alcanzar fácilmente una posición absoluta dada.
+
+\b;El programa
+Usa la instrucción \c;\l;radar\u cbot\radar;(Titanium);\n; para encontrar el cubo de titanio. Luego prueba si realmente se ha encontrado un cubo de titanio. En este ejercicio, esta línea no es muy útil, porque sabemos que hay un cubo de titanio en algún lugar. Sin embargo, es mejor tomar la costumbre de probar lo que devuelve tu radar:
+\c;
+\s;object  item;
+\s;item = radar(Titanium);
+\s;if ( item == null )  return;
+\s;goto(item.position);
+\n;
+La variable \c;item\n; es de tipo \c;\l;object\u cbot\object;\n;. Para saber la ubicación exacta del objeto descrito por la variable, simplemente escribe \c;item.position\n;.
+
+Para tomar el cubo de titanio, usa la instrucción \c;\l;grab\u cbot\grab;()\n; sin ningún parámetro.
+
+Para soltar el titanio, usa la instrucción \c;\l;drop\u cbot\drop;()\n; sin ningún parámetro.
+
+Conocemos las coordenadas de la plataforma de meta: x=10 e y=-60. Debes declarar una \l;variable\u cbot\var; del tipo \l;point\u cbot\point;, luego llenarla con las coordenadas correctas. Entonces puedes dar esta variable como parámetro a la instrucción \c;\l;goto\u cbot\goto;\n;.
+Observación: No tienes que preocuparte por la coordenada \c;z\n; en el caso de un bot que no puede volar.
+
+Ahora te toca a ti terminar el programa...
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

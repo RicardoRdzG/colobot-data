@@ -1,0 +1,11 @@
+\b;Hormiga
+\image ant 8 8;
+Las hormigas disparan pequeñas bolas corrosivas que eventualmente corroen el escudo protector de los bots y edificios, haciéndolos explotar.
+
+\l;Tú\u object\human; puedes resistir sus ataques mucho más tiempo que la mayoría de edificios y bots, y tu escudo protector se restaurará a medida que tus heridas sanan. Sin embargo, si permaneces demasiado tiempo en su rango o si hay demasiados, tu vida está en gran peligro.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;AlienAnt\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

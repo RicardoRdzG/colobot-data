@@ -1,0 +1,43 @@
+\b;Objetivo
+Abata as vespas voadoras.
+
+\t;Programa
+Aqui está novamente o programa do exercício anterior que atira em todas as formigas e se adapta ao terreno:
+\c;
+\s;extern void object::AtiradorJato2()
+\s;{
+\s;	\l;object\u cbot\type; item;
+\s;	
+\s;	\l;aim\u cbot\aim;(-20);
+\s;	
+\s;	\l;while\u cbot\while; (true)
+\s;	{
+\s;		\l;while\u cbot\while; (\l;radar\u cbot\radar;(AlienAnt, 0, 360, 0, 20) == null)
+\s;		{
+\s;			item = \l;radar\u cbot\radar;(AlienAnt);
+\s;			\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;			\l;motor\u cbot\motor;(1,1);
+\s;			
+\s;			\l;jet\u cbot\jet;(0);
+\s;			\l;if\u cbot\if; (position.z-topo(position) < 6)
+\s;			{
+\s;				\l;jet\u cbot\jet;(1);
+\s;			}
+\s;			
+\s;			\l;if\u cbot\if; (position.z-topo(position) > 9)
+\s;			{
+\s;				\l;jet\u cbot\jet;(-1);
+\s;			}
+\s;			\l;wait\u cbot\wait;(0.2);
+\s;		}
+\s;		\l;fire\u cbot\fire;(1);
+\s;	}
+\s;}
+\n;
+A fim de adaptar o programa para atirar em vespas, você precisa fazer algumas alterações. Substitua todos os \c;radar(AlienAnt)\n; por \c;radar(AlienWasp)\n;. O canhão deve apontar para frente e não para baixo, substituir \c;aim(-20);\n; por \c;aim(0);\n;. E o robô deve voar na mesma altura da vespa. Para isso, você deve comparar a altitude do robô dada por \c;position.z\n; com a altitude da vespa dada por \c;item.position.z\n;: se \c;position.z > item.position.z\n;, desça lentamente com \c;jet(-0.3);\n;. Se \c;position.z < item.position.z-1\n;, suba lentamente com \c;jet(0.3);\n;. Um atirador alado é mais alto que uma vespa, portanto é melhor se a altitude do robô for um pouco menor que a altitude da vespa. Neste caso, admitimos que a altitude do robô varia entre a altitude da vespa e a altitude da vespa menos 1.
+
+\t;Melhoria adicional
+Vespas se movem muito rápido. Para aumentar suas chances de abatê-las, é melhor repetir logo antes do \c;fire(1);\n; um \c;radar\n; e um \c;turn\n; a fim de executar um último reajuste na direção antes do tiro.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

@@ -1,0 +1,11 @@
+\b;Végigjátszás
+A túlélőkészlet megtalálása a kezdőpozícióból:
+
+1) Kövesse az utat dél felé.
+2) Forduljon keletre (balra) az első kereszteződésnél.
+3) A túlélőkészlet a Küldetésirányítás és az út jobb oldalán álló első fa között található.
+
+Csak álljon közel hozzá, hogy sikeresen teljesítse a gyakorlatot.
+
+\t;Lásd még
+\l;Irányítás\u command;

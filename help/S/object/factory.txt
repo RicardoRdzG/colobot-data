@@ -1,0 +1,33 @@
+\b;\button 160; Fábrica de Robots
+\image factory 8 8;
+Este edificio está destinado a la fabricación de bots usando \l;titanio\u object\titan;.
+
+1) Coloca el cubo de titanio dentro de la fábrica.
+2) Retrocede.
+3) Selecciona la fábrica.
+4) Haz clic en el botón que muestra el diagrama del bot que quieres que la fábrica ensamble (por ejemplo, \button 137; para un \l;recogedor con ruedas\u object\botgr;).
+
+El bot terminado no incluye una \l;celda de energía\u object\power; incorporada. Deberás proporcionarle una para que pueda salir de la fábrica.
+
+La lista de bots factibles dependerá de la investigación que tu \l;centro de investigación\u object\research; haya completado hasta ahora.
+
+\t;Requisitos para construir
+Cualquier superficie plana de al menos 7,5 metros de ancho.
+
+\t;Entrada
+Titanio.
+
+\t;Salida
+Bot completado.
+
+\t;Fuente de energía
+Ninguno.
+
+\t;Duración de operación
+15 segundos.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;BotFactory\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

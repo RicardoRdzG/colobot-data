@@ -1,0 +1,11 @@
+\b;Guía Paso a Paso
+Todo está explotando a tu alrededor. Necesitas abandonar el antiguo campamento base lo más rápido posible. Simplemente retírate por el mismo camino que viniste.
+
+Las \l;hormigas\u object\ant; son bastante fáciles de evitar. Si te golpean fuertemente, encuentra un lugar tranquilo y espera hasta que tu escudo se haya regenerado.
+
+Las \l;arañas\u object\spider; son un poco más tough pero también más estúpidas. En cuanto te ven, explotan su abdomen, muriendo en el proceso. Si un fragmento te golpea, también morirás. Un método arriesgado pero eficiente para deshacerte de una araña consiste en acercarte peligrosamente y, cuando el abdomen de la araña comience a inflarse, volar rápidamente hacia atrás a un lugar seguro.
+
+Tan pronto como hayas llegado a una isla tranquila, puedes usar el \l;disparador orga alado\u object\botoj; para despejar tu camino de insectos hostiles. Ten cuidado de no perderlo, de lo contrario toda la misión sería en vano.
+
+\t;Ver también
+\l;Controles\u command;

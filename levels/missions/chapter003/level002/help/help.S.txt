@@ -1,0 +1,18 @@
+\b;Del Control de Misiones
+Es nuestra esperanza que este mensaje te alcance.
+
+Una transmisión del satélite de observación hace unas horas nos informó que parecías estar vagando de una manera espantosamente descoordinada. Tu SatCom ha dejado de transmitir. Tu reactor parece haber sufrido algún tipo de daño y tu casco fue visto en el fondo de un lago. Si este es realmente el caso, no intentes recuperarlo, no te metas al agua. El agua en Trópica es altamente tóxica. No sobrevivirías.
+
+Vuelve a tu nave lo más rápido posible e intenta transmitir información sobre las posibles causas de este desastre. La información del satélite sigue siendo indescifrable. Hemos estado especulando sobre un factor X desde que la primera expedición se perdió. Parece que acabas de encontrarlo.
+
+No hay mucho que podamos hacer para guiarte, pero no olvides que estás siguiendo los pasos de una expedición anterior. Si lo que te sucedió es lo que les sucedió a ellos, es posible que hayan dejado algunas pistas en el camino de regreso a su propia nave espacial que aterrizó en aproximadamente la misma área que la tuya. Usa esas pistas.
+
+También podrías considerar plantar banderas. Indican la dirección del viento para que puedas usarlas para orientarte.
+
+Esto es todo lo que podemos decir por ahora...
+Buena Suerte...
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command;

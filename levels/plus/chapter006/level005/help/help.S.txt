@@ -1,0 +1,9 @@
+\b;Una notificación urgente de Control de Misión
+Justo cuando estabas a punto de despegar, recibimos del satélite la siguiente información: se ha avistado un bot de un tipo aún desconocido en Volcano. Intenta traerlo de vuelta a tu nave espacial para su estudio.
+
+Nuestros ingenieros en la Tierra han desarrollado muy recientemente una fórmula que debería permitir que los reactores funcionen correctamente, al menos por un corto tiempo, a pesar de las altas temperaturas. Los datos te han sido transmitidos.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; e \l;Idioma CBOT\u cbot;

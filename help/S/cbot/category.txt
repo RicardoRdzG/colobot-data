@@ -1,0 +1,120 @@
+\b;Valor Categorías (\c;Categories\n;)
+Las categorías representan los nombres de los objetos en el lenguaje CBOT. Todo en COLOBOT es un objeto: robots, edificios, materias primas, etc., incluso tú mismo.
+
+En un programa, las categorías siempre se muestran así: \const;categoría\norm;. Si una categoría no está resaltada, significa que está mal escrita. Las mayúsculas y minúsculas deben mantenerse tal cual.
+
+A continuación se muestran las diferentes categorías disponibles:
+
+\t;Edificios:
+
+\button 176;   \c;\l;Houston\u object\huston;          \n;Control de Misión
+\button 171;   \c;\l;SpaceShip\u object\base;        \n;Nave espacial
+\button 160;   \c;\l;BotFactory\u object\factory;       \n;Fábrica de robots
+\button 163;   \c;\l;ResearchCenter\u object\research;   \n;Centro de investigación
+\button 168;   \c;\l;RadarStation\u object\radar;     \n;Radar
+\button 172;   \c;\l;ExchangePost\u object\exchange;     \n;Puesto de intercambio de información
+\button 169;   \c;\l;RepairCenter\u object\repair;     \n;Centro de reparación
+\button 165;   \c;\l;DefenseTower\u object\tower;     \n;Torreta defensiva
+\button 166;   \c;\l;AutoLab\u object\labo;          \n;Analizador de materia orgánica
+\button 164;   \c;\l;PowerStation\u object\station;     \n;Estación de energía
+\button 167;   \c;\l;PowerPlant\u object\energy;       \n;Fábrica de celdas de energía
+\button 170;   \c;\l;NuclearPlant\u object\nuclear;     \n;Central nuclear
+\button 162;   \c;\l;Converter\u object\convert;        \n;Convertidor de titanio
+\button 161;   \c;\l;Derrick\u object\derrick;          \n;Petróleo
+\button 174;   \c;\l;PowerCaptor\u object\captor;      \n;Conductor parabólico de rayos
+\button 175;   \c;\l;Vault\u object\safe;            \n;Bóveda
+       \c;\l;StartArea\u object\start;        \n;Plataforma de inicio
+       \c;\l;GoalArea\u object\goal;         \n;Plataforma de llegada
+       \c;\l;Target1\u object\target1;          \n;Objetivo volador
+       \c;\l;AlienNest\u object\nest;        \n;Nido alienígena
+
+
+\t;Objetos portátiles:
+
+       \c;\l;TitaniumOre\u object\titanore;           \n;Mineral de titanio
+       \c;\l;UraniumOre\u object\uranore;           \n;Mineral de uranio
+       \c;\l;Titanium\u object\titan;             \n;Cubo de titanio convertido
+       \c;\l;PowerCell\u object\power;            \n;Celda de energía regular
+       \c;\l;NuclearCell\u object\atomic;          \n;Celda de energía nuclear
+       \c;\l;OrgaMatter\u object\bullet;           \n;Materia orgánica
+       \c;\l;BlackBox\u object\bbox;             \n;Caja negra
+       \c;\l;TNT\u object\tnt;                  \n;Dispositivo explosivo
+       \c;\l;KeyA..D\u object\key;              \n;Llaves A, B, C y D
+
+
+\t;Robots:
+
+\button 158;   \c;\l;PracticeBot\u object\bottr;            \n;Bot de práctica
+\button 173;   \c;\l;TargetBot\u object\bottarg;              \n;Bot objetivo
+
+\button 137;   \c;\l;WheeledGrabber\u object\botgr;         \n;Sujetador con ruedas
+\button 138;   \c;\l;TrackedGrabber\u object\botgc;         \n;Sujetador con orugas
+\button 139;   \c;\l;WingedGrabber\u object\botgj;          \n;Sujetador alado
+\button 150;   \c;\l;LeggedGrabber\u object\botgs;          \n;Sujetador con patas
+
+\button 140;   \c;\l;WheeledSniffer\u object\botsr;         \n;Olfateador con ruedas
+\button 141;   \c;\l;TrackedSniffer\u object\botsc;         \n;Olfateador con orugas
+\button 142;   \c;\l;WingedSniffer\u object\botsj;          \n;Olfateador alado
+\button 152;   \c;\l;LeggedSniffer\u object\botss;          \n;Olfateador con patas
+
+\button 143;   \c;\l;WheeledShooter\u object\botfr;         \n;Disparador con ruedas
+\button 144;   \c;\l;TrackedShooter\u object\botfc;         \n;Disparador con orugas
+\button 145;   \c;\l;WingedShooter\u object\botfj;          \n;Disparador alado
+\button 151;   \c;\l;LeggedShooter\u object\botfs;          \n;Disparador con patas
+
+\button 153;   \c;\l;WheeledOrgaShooter\u object\botor;     \n;Disparador Orgánico con ruedas
+\button 154;   \c;\l;TrackedOrgaShooter\u object\botoc;     \n;Disparador Orgánico con orugas
+\button 155;   \c;\l;WingedOrgaShooter\u object\botoj;      \n;Disparador Orgánico alado
+\button 156;   \c;\l;LeggedOrgaShooter\u object\botos;      \n;Disparador Orgánico con patas
+
+\button 192;   \c;\l;WheeledBuilder\u object\botbr;         \n;Constructor con ruedas
+\button 193;   \c;\l;TrackedBuilder\u object\botbc;         \n;Constructor con orugas
+\button 194;   \c;\l;WingedBuilder\u object\botbj;          \n;Constructor alado
+\button 195;   \c;\l;LeggedBuilder\u object\botbs;          \n;Constructor con patas
+
+\button 149;   \c;\l;Subber\u object\botsub;                 \n;Sumergible
+\button 148;   \c;\l;Recycler\u object\botrecy;               \n;Reciclador
+\button 157;   \c;\l;Shielder\u object\botshld;               \n;Protector
+\button 146;   \c;\l;Thumper\u object\bottump;                \n;Golpeador
+\button 147;   \c;\l;PhazerShooter\u object\botphaz;          \n;Tirador Phazer
+
+
+\t;Enemigos:
+
+       \c;\l;AlienQueen\u object\mother;         \n;Reina alienígena
+       \c;\l;AlienEgg\u object\egg;           \n;Huevo alienígena
+       \c;\l;AlienAnt\u object\ant;           \n;Hormiga
+       \c;\l;AlienSpider\u object\spider;        \n;Araña
+       \c;\l;AlienWasp\u object\wasp;          \n;Avispa
+       \c;\l;AlienWorm\u object\worm;          \n;Gusano
+
+
+\t;Varios:
+
+\button 136;   \c;\l;Me\u object\human;              \n;¡Tú mismo!
+       \c;\l;Mine\u object\mine;            \n;Mina
+       \c;\l;Barrier\u object\barrier;         \n;Barrera
+       \c;\l;Wreck\u object\wreck;           \n;Bot abandonado
+       \c;\l;Ruin\u object\ruin;            \n;Edificio abandonado
+       \c;\l;Bush\u object\bush;            \n;Vegetación
+       \c;\l;GraviPlant\u object\gravi;      \n;GraviPlanta
+       \c;\l;Crystal\u object\crystal;         \n;Cristal
+       \c;\l;BrownMushroom\u object\bromush;   \n;Hongo marrón
+       \c;\l;GreenMushroom\u object\gremush;   \n;Hongo verde venenoso
+
+
+\t;Banderas y otros indicadores:
+
+       \c;\l;BlueFlag\u object\flag;          \n;Bandera azul
+       \c;\l;RedFlag\u object\flag;           \n;Bandera roja
+       \c;\l;GreenFlag\u object\flag;         \n;Bandera verde
+       \c;\l;YellowFlag\u object\flag;        \n;Bandera amarilla
+       \c;\l;VioletFlag\u object\flag;        \n;Bandera violeta
+       \c;\l;WayPoint\u object\waypoint;          \n;Punto de control
+       \c;\l;Target2\u object\target2;           \n;Punto de control volador
+       \c;\l;PowerSpot\u object\enerspot;        \n;Depósito subterráneo de energía
+       \c;\l;TitaniumSpot\u object\stonspot;      \n;Depósito subterráneo de titanio
+       \c;\l;UraniumSpot\u object\uranspot;       \n;Depósito subterráneo de uranio
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot; y \l;Variables\u cbot\type;.

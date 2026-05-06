@@ -1,0 +1,16 @@
+\b;Instrucción \c;takeoff\n; ( despegue )
+Sintaxis:
+\s;\c;takeoff (objeto);\n;
+
+Lanza una nave espacial.
+
+\t;\l;object\u cbot\object;
+Nave espacial (\l;SpaceShip\u object\base;), más cercana por defecto.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Normalmente un error detiene el programa. Puedes evitar que el programa se detenga en errores usando la instrucción \c;\l;errmode\u cbot\errmode;(0)\n;. Se devuelve un valor diferente de cero si ocurrió un error mediante \c;takeoff()\n;.
+\c;== 0 \n;La nave espacial despega
+\c;!= 0 \n;La nave espacial no pudo despegar (ej. la misión aún no ha terminado)
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

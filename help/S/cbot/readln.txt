@@ -1,0 +1,20 @@
+\b;Instrucción \c;readln\n;
+Leer una línea de un archivo abierto en la carpeta files/. Este es un método de la clase \c;\l;file\u cbot\file;\n;. Esta es la razón por la que siempre escribimos \c;handle.readln()\n;:
+\c;
+\s;	s = handle.readln();
+\n;
+El archivo debe haberse abierto para lectura (\c;"r"\n;) con la instrucción \c;\l;open\u cbot\open;\n;. \c;readln\n; devuelve la cadena que contiene toda la línea, pero sin los caracteres de fin de línea 0x0D (CR) y 0x0A (LF).
+
+Sintaxis:
+\s;\c;string = handle.readln ( );\n;
+
+Ejemplo:
+\c;
+\s;	string s;
+\s;	s = handle.readln();
+\s;	if ( s == "abc" )
+\s;	...
+\n;
+\t;Ver también
+\c;\l;file\u cbot\file;\n;, \c;\l;open\u cbot\open;\n;, \c;\l;close\u cbot\close;\n;, \c;\l;writeln\u cbot\writeln;\n; y \c;\l;eof\u cbot\eof;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

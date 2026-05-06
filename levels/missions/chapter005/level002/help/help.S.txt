@@ -1,0 +1,11 @@
+\b;Del Control de Misiones
+Elimina toda presencia hostil de la región.
+
+Tu situación actual nos preocupa enormemente. El satélite ha detectado una presencia enemiga extremadamente fuerte acercándose a tu nave espacial desde todas las direcciones. Usa tu mejor juicio y la defensa más rápida y eficiente: ya sea \l;torres\u object\tower; o \l;disparadores\u object\botfr;.
+
+Para aumentar tus posibilidades de supervivencia, hemos desarrollado un programa que protegerá tu flanco oeste si lo ejecutas en tu \l;disparador con ruedas\u object\botfr;; consulta la página del programa \button 53;.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

@@ -1,0 +1,20 @@
+\b;Műhold Jelentés
+Jelenleg geostacionárius pályán a Saari körül.
+\c;
+\s;-> FELÜLET\c;
+\tab;Hőmérséklet:     44.3C
+\tab;Atmoszféra:      CO2, oxigén, nitrogén
+\tab;Szél:            2.3 m/s
+\tab;Titanérc:        nincs
+\tab;Uranérc:         nincs
+
+\s;-> Földalatti\c;
+\tab;Energiaforrás:   nincs
+\tab;Titanérc:        nincs
+\tab;Uránérc:        nincs
+
+\s;-> További információk\c;
+\tab;Felfedezve:      újrahasznosítható roncsok 
+\tab;Felfedezve:      óriás hangyák
+\tab;  - Veszély:     ?
+\n;

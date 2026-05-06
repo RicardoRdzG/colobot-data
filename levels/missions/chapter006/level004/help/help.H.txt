@@ -1,0 +1,9 @@
+\b;Sürgős értesítés a Küldetésirányítótól
+Amikor éppen felszállni készült, a műholdtól a következő információt kaptuk: egy eddig ismeretlen típusú robotot észleltek a Volcano-n. Próbálja meg visszavinni a űrhajójára további tanulmányozás céljából.
+
+Földi mérnökeink nemrégiben kidolgoztak egy formulát, amely lehetővé teszi, hogy a reaktorok megfelelően működjenek, legalábbis rövid ideig, a magas hőmérsékletek ellenére. Az adatokat átküldtük önnek.
+
+\key;\key help;\norm; lehetővé teszi, hogy bármikor átnézze ezeket az utasításokat a személyes SatCom \button 63; eszközén.
+
+\t;Lásd még
+\l;Vezérlés\u command; és \l;CBOT nyelv\u cbot;

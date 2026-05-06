@@ -1,0 +1,11 @@
+\b;Übung
+Bringen Sie den \l;Titanwürfel\u object\titan; auf die Zielfläche. Sie wissen nicht wo sich der Würfel befindet, aber wir können Ihnen die Position der Zielfläche sagen; x=10 and y=-60.
+
+\b;Nützliche Anweisungen
+\c;\l;radar\u cbot\radar;\n; um den Titanwürfel zu finden (Kategorie \c;\l;Titanwürfel\u object\titan;\n;)
+\c;\l;goto\u cbot\goto;\n; um den Roboter zu bewegen
+\c;\l;grab\u cbot\grab;\n; um ein Objekt zu greifen
+\c;\l;drop\u cbot\drop;\n; um ein Objekt abzulegen
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, \l;Variablentypen\u cbot\type; und \l;Kategorien\u cbot\category;.

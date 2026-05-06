@@ -1,0 +1,12 @@
+\b;Lépésről lépésre
+1) Építsen egy \l;robotgyárat\u object\factory;.
+2) Termeljen egy \l;szárnyas fogót\u object\botgj;.
+3) Hozza el egy \l;titanium kockát\u object\titan; a legmagasabb pontra.
+4) Építsen egy \l;radart\u object\radar; a helyszínen.
+5) Építsen egy \l;kutatóközpontot\u object\research; az űrhajó mellett.
+6) Indítsa el a <védekező torony kutatási programot> \button 68;.
+7) Építsen egy \l;védelmi tornyot\u object\tower; a radar mellé.
+8) Amikor az összes féreg elpusztult, visszatérhetsz a hajódhoz és felszállhatsz.
+
+\t;Lásd még
+A \l;vezérlés\u command;

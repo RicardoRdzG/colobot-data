@@ -1,0 +1,20 @@
+\b;Instrucción \c;research\n;
+Sintaxis:
+\s;\c;research (tipo, objeto);\n;
+
+Inicia una \l;investigación\u cbot\researches; de un tipo determinado.
+
+\t;tipo: \c;\l;int\u cbot\int;\n;
+\l;Nombre de la investigación\u cbot\researches;.
+
+\t;\l;object\u cbot\object;
+\l;ResearchCenter\u object\research; o \l;AutoLab\u object\labo;. El centro de investigación más cercano por defecto.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Normalmente un error detiene el programa. Puedes evitar que el programa se detenga en errores usando la instrucción \c;\l;errmode\u cbot\errmode;(0)\n;. Se devuelve un valor diferente de cero si ocurrió un error. Se devuelve por \c;research()\n;.
+\c;== 0 \n;La investigación se inició correctamente
+\c;!= 0 \n;La investigación no se pudo iniciar (p. ej. la investigación está deshabilitada en el nivel, no hay celda de energía)
+
+\t;Ver también
+\l;Nombres de investigación\u cbot\researches;, \c;\l;canresearch\u cbot\canresearch;\n;, \c;\l;researched\u cbot\researched;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

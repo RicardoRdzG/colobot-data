@@ -1,0 +1,31 @@
+\b;Programas enviados por Houston
+Según los datos transmitidos por el satélite, nuestros ingenieros han desarrollado dos programas. El primero guía al \l;bot escudo\u object\botshld; a través del estrecho valle del norte cerca del lugar donde se ha ubicado la llave. Puedes seguirlo sin temer ningún ataque:
+\c;
+\s;extern void object::Outward()
+\s;{
+\s;	\l;shield\u cbot\shield;(1,15);   // activar el escudo
+\s;	\l;goto\u cbot\goto;(6,160);    // ir cerca de la llave
+\s;	\l;shield\u cbot\shield;(0,15);   // desactivar el escudo
+\s;}
+\n;
+El segundo programa guía al \l;bot escudo\u object\botshld; de regreso a la \l;nave espacial\u object\base;:
+\c;
+\s;extern void object::Return()
+\s;{
+\s;	\l;shield\u cbot\shield;(1,15);   // activar el escudo
+\s;	\l;goto\u cbot\goto;(8,60);     // ir a la nave espacial
+\s;	\l;shield\u cbot\shield;(0,15);   // desactivar el escudo
+\s;}
+\n;
+\b;Archivos
+Índice de los programas enviados en misiones anteriores:
+
+o  \c;\l;ServirTorre1\u programs/8_ServiceTower1;\n;
+o  \c;\l;RecolectarTitanio3\u programs/7_CollectTitanium3;\n;
+o  \c;\l;MatarHormiga1\u programs/6_KillAnt1;\n;
+o  \c;\l;RecolectarTitanio2\u programs/5_CollectTitanium2;\n;
+o  \c;\l;RecolectarTitanio1\u programs/4_CollectTitanium1;\n;
+o  \c;\l;Recargar2\u programs/3_Recharge2;\n;
+o  \c;\l;Recargar1\u programs/2_Recharge1;\n;
+o  \c;\l;CambiarCelda1\u programs/1_SwitchCell1;\n;
+

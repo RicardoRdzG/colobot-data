@@ -1,0 +1,15 @@
+\b;Instrucción \c;pow\n;
+Sintaxis:
+\s;\c;pow ( x, y );\n;
+
+\t;x: \c;\l;float\u cbot\float;\n;
+Base.
+
+\t;y: \c;\l;float\u cbot\float;\n;
+Exponente.
+
+\t;Valor de retorno: \c;\l;float\u cbot\float;\n;
+x elevado a y (x elevado a la potencia y).
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;expresiones\u cbot\expr;.

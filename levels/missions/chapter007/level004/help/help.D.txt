@@ -1,0 +1,19 @@
+\b;Eine Nachricht zur weiteren Vorgehensweise
+Wir bedauern, dass wir das an Sie herantragen müssen, aber wir haben im Augenblick ein kleines Problem, über das Sie Bescheid wissen sollten. Es gab heftige Reaktionen in der Öffentlichkeit und im Kongress wegen der systematischen Ausrottung der "Ureinwohner" auf den Planeten die Sie besuchen. Der Kongress hat entschieden, seine Aufgeschlossenheit gegenüber den Belangen der Bevölkerung zu demonstrieren.
+
+Wir informieren Sie hiermit über neue Anweisungen. Diese Anweisungen machen deutlich, dass Sie die Verluste auf ein Minimum reduzieren müssen. Mit anderen Worten, geben Sie ab sofort Ihr Bestes um einen Zusammenstoß mit den Lebensformen zu vermeiden. Ihre Mission darf durch diese neue Vorgehensweise jedoch unter keinen Umständen gefährdet werden.
+
+\b;Vom Kontrollzentrum
+Im Moment haben Sie bedrohlich wenig Energieresourcen und Waffen übrig. Um zum nächsten Planeten fliegen zu können, müssen Sie den \l;Flugschreiber\u object\bbox; der letzten Expedition finden.
+
+Wir haben durch den Beobachtungssatelliten Informationen über eine neue Waffe erhalten, die von Ihren Vorgängern für schwierige Situationen wie diese gebaut wurde.
+
+Diese Waffe gibt Ihnen die Gelegenheit, Ihre Rücksicht gegenüber den \l;Ureinwohnern\u object\ant; zu demonstrieren, denn es ist keine Massenvernichtungswaffe. Alles was wir wissen ist, dass sie die Möglichkeit bietet, diese Lebensformen vorübergehend unschädlich zu machen. Ist das tatsächlich der Fall dann sollten Sie sich beeilen bevor sie wieder in der Lage sind Sie anzugreifen.
+
+\b;Vorgehensweise
+Führen Sie das \l;Forschungsprogramm\u object\research; aus und finden Sie heraus, wie man mit der Waffe umgeht. Vergessen Sie nicht, die Waffe mit zurück an Bord zu nehmen. Wir sind sehr daran interessiert, ihre Funktionsweise zu studieren.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

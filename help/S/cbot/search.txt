@@ -1,0 +1,50 @@
+\b;Instrucción \c;search\n; ( buscar )
+Sintaxis:
+\s;\c;search ( categoría, centro, mín, máx, sens, filtro );\n;
+
+Detecta un objeto de la categoría dada en el radio indicado del radio proveído del centro indicado. Similar a \c;\l;radar();\u cbot\radar;\n;, pero puede buscar empezando desde el punto especificado en lugar de la posición actual del bot.
+
+\t;categoría: \c;\l;int\u cbot\int;\n;
+o \l;Categoría\u cbot\category; de los objetos que deben detectarse. Por ejemplo, si estás buscando una hormiga, escribe \c;search(AlienAnt)\n;. 
+o \l;Array\u cbot\array; de categorías de los objetos que deben detectarse. Por ejemplo, cuando solo buscas sujetadores, a partir de un punto determinado del nivel:
+\c;\s;int bots[4];
+\s;bots[0] = WheeledGrabber;
+\s;bots[1] = TrackedGrabber;
+\s;bots[2] = WingedGrabber;
+\s;bots[3] = LeggedGrabber;
+\s;punto p(50, 24, 0);
+\s;objeto sujetadorMasCercanoAlPunto = search(bots, p);\n;
+o Palabra clave \const;Any\norm; ( Cualquiera ), si estás buscando cualquier objeto (incluidas incluso plantas, etc.).
+
+\t;centro: \c;\l;point\u cbot\point;\n; (default value: \c;\l;this\u cbot\this;.\l;posición\u cbot\object;\n;)
+El centro del área de búsqueda.
+
+\t;mín: \c;\l;float\u cbot\float;\n; (valor predeterminado: \c;0\n;)
+Distancia mínima de detección, en metros. Los objetos que estén más cerca del centro que la distancia mínima no serán detectados.
+
+\t;máx: \c;\l;float\u cbot\float;\n; (valor predeterminado: \c;1000\n;)
+Distancia máxima de detección, en metros. Los objetos que se encuentren más lejos del centro que la distancia máxima no serán detectados.
+
+\t;sens: \c;\l;float\u cbot\float;\n; (valor predeterminado: \c;1\n;)
+Determina la forma en que se detectan los objetos. Con el valor \c;1\n;, devuelve el objeto más cercano al centro. Con el valor \c;-1\n;, se devolverá el objeto más lejano del área.
+
+\t;filtro: \c;\l;int\u cbot\int;\n; (valor predeterminado: \c;\const;FilterNone\norm;\n;)
+Determina qué tipo de objetos deben detectarse. Especialmente útil cuando se utiliza con un \l;array\u cbot\array; o \const;Any\norm;. Están disponibles los siguientes filtros:
+
+\c;\const;FilterNone\norm;        \n;Detecta todo (predeterminado)
+\c;\const;FilterOnlyLanding\norm; \n;Detecta solo objetos que estén en el suelo
+\c;\const;FilterOnlyFlying\norm;  \n;Detecta solo objetos que no estén en el suelo
+\c;\const;FilterFriendly\norm;    \n;Detecta solo aliados (objetos del mismo equipo)
+\c;\const;FilterEnemy\norm;       \n;Detecta solo enemigos (objetos en otro equipo excepto neutrales)
+\c;\const;FilterNeutral\norm;     \n;Detecta solo objetos neutrales (p. ej. recursos)
+
+Los tres últimos son útiles principalmente en \l;batallas de código\u battles;. También puedes pasar un ID de equipo para buscar solo objetos de un equipo específico. Atención: debes usar \const;FilterNeutral\norm; en lugar de \c;0\n; o no funcionará.
+
+Los filtros y los ID se pueden mezclar utilizando el operador OR bit a bit \c;|\n;, por ejemplo: \c;search(Any, position, 0, 1000, 1, 2 | FilterOnlyLanding);\n; solo detectará un objeto del equipo \c;2\n; que esté en el suelo. Atención: solo puedes especificar un ID de equipo a la vez, pero puedes especificar varios filtros a la vez.
+
+\t;Valor de retorno: \c;\l;object\u cbot\object;\n;
+Características del objeto que se ha encontrado. El valor \c;\l;null\u cbot\null;\n; significa que no se ha encontrado ningún objeto de esta categoría. 
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.
+

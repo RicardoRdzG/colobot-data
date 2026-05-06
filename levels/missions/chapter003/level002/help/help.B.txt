@@ -1,0 +1,18 @@
+\b;Do Centro de Controle de Missões
+É nossa esperança que esta mensagem chegue até você.
+
+Uma transmissão do satélite de observação algumas horas atrás nos informou que você parecia estar vagando de uma maneira assustadoramente descoordenada. Seu SatCom cessou a transmissão. Seu reator parece ter sofrido algum tipo de dano e seu capacete foi visto no fundo de um lago. Se este é realmente o caso, não tente recuperá-lo, não vá para a água! A água em Tropica é altamente tóxica. Você não sobreviveria.
+
+Volte a sua espaçonave o mais rápido possível e tente transmitir informações sobre as possíveis causas deste desastre. A informação do satélite permanece indecifrável. Temos especulado sobre um fator-X desde que a primeira expedição se perdeu. Parece que você acabou de encontrá-lo.
+
+Não há nada que possamos realmente fazer para guiá-lo, mas não se esqueça de que você está seguindo os passos de uma expedição anterior. Se o que aconteceu com você é o que aconteceu com eles, é provável que eles tenham deixado algumas pistas no caminho de volta para sua própria espaçonave que pousou aproximadamente na mesma área que a sua. Use essas pistas.
+
+Você também pode querer considerar o plantio de bandeiras. Eles indicam a direção do vento para que você possa usá-lo para se orientar.
+
+Isso é tudo que podemos dizer por enquanto ... 
+Boa sorte...
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command;

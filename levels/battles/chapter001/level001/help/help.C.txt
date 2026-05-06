@@ -1,0 +1,10 @@
+\b;Souboj programátorů (proti jinému hráči)
+Toto je mapa pro \l;souboj programátorů\u battles;, kde budete bojovat proti jinému programu, třeba napsanému dalším hráčem.
+
+\b;Úkol
+Zničte druhý tým nacházející se na protějším břehu řeky.
+
+\b;Poznámky\m notes;
+o V malém okruhu kolem počátečních základen jsou jediné \l;podzemní zdroje energie\u object\enerspot;.
+o \l;Vrtné věže\u object\derrick; a \l;radary\u object\radar; stojící na mapě od začátku jsou nezničitelné.
+o Na stránkách Mezinárodní komunity Colobotu (\c;http://colobot.info\n;) se můžete poohlédnout po programech od jiných hráčů, se kterými můžete změřit své síly.

@@ -1,0 +1,17 @@
+\b;Guía Paso a Paso
+1) Construye una \l;fábrica de bots\u object\factory;.
+2) Produce un \l;buscador alado\u object\botsj;.
+3) Huele el suelo cerca de los grandes cristales hasta obtener una \l;cruz roja\u object\stonspot;.
+4) Construye un \l;taladro\u object\derrick; cerca de la cruz roja.
+5) Construye un \l;convertidor\u object\convert;.
+
+El emparejamiento de un taladro y un convertidor permite un suministro ilimitado de \l;titanio\u object\titan;. Para dejar esta tarea a un bot, ejecuta el programa \c;CollectTitanium2\n;.
+
+6) Huele el área al pie de la nave espacial. Una \l;cruz verde\u object\enerspot; significa que puedes construir una \l;central eléctrica\u object\station; en el lugar.
+7) Construye un \l;radar\u object\radar;.
+8) Produce un \l;disparador alado\u object\botfj;.
+9) Elimina todos los gusanos.
+10) Regresa a tu nave y despega.
+
+\t;Ver también
+\l;Controles\u command;

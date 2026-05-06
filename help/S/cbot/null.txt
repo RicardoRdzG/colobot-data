@@ -1,0 +1,7 @@
+\b;Tipo \c;null\n; ( nulo )
+Este valor especial indica que la variable que lo contiene no hace referencia a una instancia.
+
+\t;Ver también
+\l;Referencias\u cbot\pointer;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.
+

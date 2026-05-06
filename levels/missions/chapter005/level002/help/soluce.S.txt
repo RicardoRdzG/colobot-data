@@ -1,0 +1,9 @@
+\b;Guía Paso a Paso
+Ejecuta inmediatamente el programa \c;KillAnt1\n; en el \l;disparador con ruedas\u object\botfr;; se ocupará de la primera ola de ataque que viene del oeste.
+
+Luego construye dos \l;torres de defensa\u object\tower; una al norte de la \l;nave espacial\u object\base; y otra al sur (debes hacer esto MUY rápido). Mientras \l;tú\u object\human; construyes, usa el \l;recogedor\u object\botgr; para obtener una \l;celda de energía\u object\power;.
+
+Tan pronto como las sucesivas olas de ataque, compuestas por unas quince \l;hormigas\u object\ant;, hayan pasado, tendrás tiempo para ocuparte de las hormigas que no atacaron. Construye un \l;radar\u object\radar; para localizarlas, y un \l;convertidor\u object\convert;, una \l;fábrica de bots\u object\factory;, una \l;central eléctrica\u object\station; y un \l;disparador alado\u object\botfj; para deshacerte de ellas...
+
+\t;Ver también
+\l;Controles\u command;

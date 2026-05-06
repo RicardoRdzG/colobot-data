@@ -1,0 +1,15 @@
+\b;Schritt für Schritt
+1) Bauen Sie schnell einen \l;Blitzableiter\u object\captor; neben der blauen Markierung.
+Alle folgenden Gebäude sollten innerhalb der <Reichweite> \button 41; des Blitzableiters errichtet werden.
+2) Holen Sie einige leere \l;Batterien\u object\power; unter den Blitzableiter. Wenn ein Blitz einschlägt, werden sie aufgeladen.
+3) Errichten Sie einen \l;Bohrturm\u object\derrick;.
+4) Errichten Sie einen \l;Konverter\u object\convert;.
+5) Führen Sie das Programm \c;CollectTitanium3\n; aus, um \l;Titan\u object\titan; zu produzieren.
+6) Bauen Sie eine \l;Roboterfabrik\u object\factory;
+7) und einen \l;Jetorgashooter\u object\botoj;.
+8) Bauen Sie ein \l;Radar\u object\radar;.
+9) Finden und vernichten Sie alle \l;Ameisen\u object\ant;.
+10) Kehren Sie zum  \l;Raumschiff\u object\base; zurück und heben Sie ab.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

@@ -1,0 +1,15 @@
+\b;Instrucción \c;eof\n;
+Comprueba si un archivo abierto ha llegado al final. Se trata de un método de la clase \c;\l;file\u cbot\file;\n;; por lo tanto, no puedes escribir \c; eof()\n;, sino solo \c;handle.eof()\n;:
+\c;
+\s;	if ( handle.eof() ) 
+\n;
+Ejemplo:
+\c;
+\s;	while (no handle.eof() )
+\s;	{
+\s;		s = handle.readln();
+\s;	}
+\n;
+\t;Ver también
+\c;\l;file\u cbot\file;\n;, \c;\l;open\u cbot\open;\n;, \c;\l;close\u cbot\close;\n;, \c;\l;readln\u cbot\readln;\n; y \c;\l;writeln\u cbot\writeln;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

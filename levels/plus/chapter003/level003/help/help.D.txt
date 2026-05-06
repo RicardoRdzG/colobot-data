@@ -1,0 +1,9 @@
+\b;Vom Kontrollzentrum
+Suchen und bergen Sie einen weiteren \l;Flugschreiber\u object\bbox; von der vorhergehenden Mission.
+
+Der Beobachtungssatellit scheint ihn unter Wasser lokalisiert zu haben. Das Wasser ist für Sie harmlos, solange Sie Ihre Kleidung und den Helm tragen. Denken Sie daran, dass Sie unter Wasser keine Gegenstände tragen können. Ein \l;Kettentaucher\u object\botsub; wäre da sehr hilfreich.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

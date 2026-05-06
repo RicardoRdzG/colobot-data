@@ -1,0 +1,17 @@
+\b;Del Control de Misiones
+La expedición anterior nos proporcionó información sobre cierta \l;materia orgánica\u object\bullet;, que parece ser producida por las \l;hormigas\u object\ant;, y que abrió nuevas posibilidades asombrosas. Aparentemente permite la creación de un nuevo tipo de bot mutante con rendimiento mejorado mediante el uso de partes de insectos.
+
+Tu misión es experimentar con la primera aplicación práctica de este "oro verde". Construye un \l;robot recogedor con patas\u object\botgs;, cárgalo en la nave espacial y despega.
+
+\b;Procedimiento
+Toma una muestra de materia orgánica de un nido de hormigas gigantes. El análisis será realizado por un \l;autolab\u object\labo;, que también realizará la investigación necesaria para permitir una aplicación práctica.
+
+Para mejorar tu capacidad de defensa, hemos transmitido a tus \l;robots recogedores\u object\botgr; un programa que se encarga de recargar la celda de energía de una \l;torre de defensa\u object\tower; (ver \button 53; ).
+
+\b;Nota
+La temperatura ha bajado significativamente, por lo que debería ser posible volar.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

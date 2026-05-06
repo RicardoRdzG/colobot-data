@@ -1,0 +1,20 @@
+\b;Informace ze satelitu
+Aktuálně na stacionární oběžné dráze Orfeonu.
+\c;
+\s;-> POVRCH\c;
+\tab;Teplota:           -64,7 °C
+\tab;Atmosféra:         žádná
+\tab;Vítr:              0,0 m/s
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+
+\s;-> PODZEMNÍ LOŽISKA\c;
+\tab;Zdroj energie:     žádný
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+
+\s;-> DOPLŇUJÍCÍ INFORMACE\c;
+\tab;Nalezeno:          obří mravenci
+\tab;  - Nebezpečí:     není bezprostřední
+\tab;Nalezeno:          silné elektromagnetické bouře
+\n;

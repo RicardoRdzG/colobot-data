@@ -1,0 +1,10 @@
+\b;Úkol
+Naprogramujte \l;létající kanón\u object\botfj;, aby našel a zlikvidoval všechny mravence v okolí.
+
+\t;Program
+V této bažině jsou pojízdné nebo pásové kanóny k ničemu. A mravenci se narozdíl od pavouků neustále pohybují. Nestačí jen otočit se směrem k nejbližšímu mravenci, popojet vpřed a vystřelit.
+
+Nejjednodušší řešení je letět ve výšce 10 metrů, namířit dolů příkazem \c;aim(-20);\n; a přiblížit se k nejbližšímu mravenci podmíněným cyklem až na \l;vzdálenost\u cbot\dist; 20 metrů. V tomto podmíněném cyklu musíte najít nejbližšího mravence, otočit se k němu, spustit motory naplno příkazem \c;motor(1,1);\n; a chviličku počkat, například 0,2 sekundy. Tyto příkazy je třeba opakovat, dokud je mravenec dále než 20 metrů. Pak stačí jen vystřelit.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

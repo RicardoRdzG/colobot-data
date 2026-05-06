@@ -1,0 +1,7 @@
+\b;Del Control de Misiones
+Es hora de que \l;tú\u object\human; mejores tus habilidades de disparo nuevamente. En el siguiente ejercicio, golpea todos los \l;dispositivos explosivos\u object\tnt; pero ten cuidado: tu \l;disparador de orgánica\u object\botoj; tiene muy poca energía restante, apenas suficiente para completar el ejercicio.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

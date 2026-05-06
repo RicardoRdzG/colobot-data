@@ -1,0 +1,20 @@
+\b;\button 140; Detector con Ruedas
+\image botsr 8 8;
+Bot con ruedas equipado para prospectar la estructura geológica del subsuelo. Cuando localiza algo útil, el detector marca las siguientes señales:
+
+- una \l;cruz roja\u object\stonspot;       -> \l;mineral de titanio\u object\titanore;.
+- un \l;círculo amarillo\u object\uranspot;  -> \l;mineral de uranio\u object\uranore;.
+- una \l;cruz verde\u object\enerspot;   -> depósito de energía, útil para una \l;central eléctrica\u object\station; o una \l;fábrica de energía\u object\energy;.
+
+Las ruedas constituyen un modo de propulsión estándar, rápido y que ahorra energía, que es perfectamente adaptado para terrenos relativamente planos. Cuando el terreno tiene pendiente, se recomienda usar un \l;detector alado\u object\botsj; en su lugar, o si esto es imposible, un \l;detector con orugas\u object\botsc;.
+
+\t;Programación
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Para programar el brazo detector, usa \c;\l;sniff\u cbot\sniff;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;WheeledSniffer\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

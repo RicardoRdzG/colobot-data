@@ -1,0 +1,7 @@
+\b;A küldetésirányítástól
+Először vissza kell verned egy utolsó pillanatban érkező hangyainváziót, mielőtt felszállsz.
+
+\key;\key help;\norm; lehetőséget ad arra, hogy bármikor átnézd ezeket az utasításokat a személyes SatCom \button 63; eszközödön.
+
+\t;Lásd még
+\l;Vezérlés\u command; és \l;CBOT nyelv\u cbot;

@@ -1,0 +1,11 @@
+\b;Del Control de Misiones
+Este planeta ha resultado ser un candidato muy improbable para la colonización. Mejor abandonarlo para siempre. Recupera la \l;caja negra\u object\bbox; de la expedición anterior y dirígete hacia el próximo planeta.
+
+El satélite de observación ha indicado que su ubicación actual está en el fondo de un valle. Sin embargo, el stratum persistente de smog electromagnético podría hacer que toda la información satelital sea bastante poco confiable.
+
+Mantente alerta.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

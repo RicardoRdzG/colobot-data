@@ -1,0 +1,11 @@
+\b;Guía Paso a Paso
+1) Alimenta un \l;disparador con patas\u object\botfs;. Incluso hay una \l;celda nuclear\u object\atomic; dejada detrás de la \l;fábrica de bots\u object\factory;.
+
+2) Escala el acantilado del norte y mata a algunas \l;hormigas\u object\ant;. El mejor acceso es desde el este.
+
+3) Continúa hasta que todas las hormigas estén fuera del camino.
+
+4) Escala el acantilado del norte con un \l;recogedor con patas\u object\botgs; y recupera la \l;caja negra\u object\bbox; que encontrarás en la fábrica de bots abandonada.
+
+\t;Ver también
+\l;Controles\u command;

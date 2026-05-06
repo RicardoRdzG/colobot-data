@@ -1,0 +1,51 @@
+\b;Objetivo
+Toma un trozo de \l;mineral de titanio\u object\titanore; cuya ubicación exacta desconocemos. Usa el radar del bot para encontrarlo. Lleva el mineral de titanio al \l;convertidor\u object\convert;.
+
+\t;Programa
+Como habrás notado, los programas escritos en los ejercicios anteriores eran completamente "ciegos": si el mineral de titanio, la celda de energía o las arañas hubieran estado en otro lugar, el bot no los habría encontrado.
+
+El radar representa los "ojos" del bot. Con el radar, puede detectar los objetos que lo rodean. Por ejemplo, la instrucción \c;\l;radar\u cbot\radar;(TitaniumOre);\n; devolverá información sobre el trozo más cercano de \l;mineral de titanio\u object\titanore;. Sin embargo, necesitaremos "almacenar" la información devuelta por la instrucción \c;\l;radar\u cbot\radar;(TitaniumOre);\n; en algún lugar. Para esta tarea necesitaremos una \l;variable\u cbot\var;.
+
+Una \l;variable\u cbot\var; es como una pequeña caja con un nombre donde puedes poner información, recuperarla, cambiarla, etc. Antes de poder usar una variable, debes declararla. Primero debes indicar el \l;tipo\u cbot\type; de la variable, en este caso \c;object\n;. Una variable de este tipo puede contener toda la información que describe un objeto como un trozo de mineral de titanio, una araña, una hormiga, un bot, una celda de energía, etc. Luego debes escribir el nombre que quieras dar a la variable, por ejemplo \c;item\n;. Si juntamos todo esto, obtenemos la siguiente línea:
+\c;
+\s;\l;object\u cbot\type; item;
+\n;
+Entonces debemos poner la información devuelta por la instrucción \c;\l;radar\u cbot\radar;(TitaniumOre)\n; en esta variable:
+\c;
+\s;item = \l;radar\u cbot\radar;(TitaniumOre);
+\n;
+La variable \c;item\n; contiene muchos tipos diferentes de información: contiene la posición, la orientación, la inclinación, etc. Para obtener la posición del trozo de mineral de titanio, escribe \c;item.position\n;. Luego usamos la instrucción \c;goto();\n; para mover el bot a esta posición. Aquí hay una línea que lo combina todo:
+\c;
+\s;\l;goto\u cbot\goto;(item.position);
+\n;
+Si "traducimos" esto al español, significaría: ve a la posición del objeto descrito por la variable \c;item\n;.
+
+Entonces puedes recoger lo que esté en esa posición con la instrucción \c;\l;grab\u cbot\grab;();\n;.
+
+Si juntamos todo esto, obtenemos el siguiente programa:
+\c;
+\s;extern void object::Titanium2( )
+\s;{
+\s;	
+\s;	\l;object\u cbot\type; item;
+\s;	item = \l;radar\u cbot\radar;(TitaniumOre);
+\s;	\l;goto\u cbot\goto;(item.position);
+\s;	grab();
+\s;	
+\s;}
+\n;
+Entonces debes buscar el \l;convertidor\u cbot\convert; y poner la información sobre el convertidor en la variable \c;item\n;:
+\c;
+\s;item = \l;radar\u cbot\radar;(Converter);
+\n;
+Ve al convertidor con la misma instrucción \c;\l;goto\u cbot\goto;(item.position);\n; que antes, suelta el titanio y da un paso atrás. El convertidor se encargará del resto.
+
+Si quieres saber más sobre los "nombres" de los diferentes objetos en el lenguaje de programación, consulta el \l;texto sobre categorías\u cbot\category;.
+
+\t;Observaciones
+¡Una \l;variable\u cbot\var; debe declararse solo una vez al principio del programa! Luego puedes usarla tantas veces como quieras.
+
+Para evitar volver a escribir las instrucciones explicadas arriba, puedes seleccionarlas con el mouse y copiarlas y pegarlas \button 61; en tu programa.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

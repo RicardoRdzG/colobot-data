@@ -1,0 +1,28 @@
+\b;Instrucción \c;detect\n;
+Con la instrucción \c;detect();\n;, puedes buscar objetos como \l;enemigos\u object\mother;, bots, edificios o materias primas que se encuentren delante del bot. Es una versión más sencilla de \c;\l;radar\u cbot\radar;();\n;.
+
+\b;Para especialistas
+Sintaxis:
+\s;\c;detect ( cat );\n;
+
+Detecta el objeto más cercano de la \l;categoría\u cbot\category; especificada que se encuentra delante del bot. Es similar a la siguiente instrucción:
+\s;\c;radar(cat, 0, 45, 0, 20);\n;
+
+\t;cat: \c;\l;int\u cbot\int;\n;
+o \l;Categoría\u cbot\category; de los objetos que deben detectarse. Por ejemplo, si buscas una hormiga, escribe \c;radar(AlienAnt)\n;. 
+o \l;Array\u cbot\array; de categorías de los objetos que deben detectarse. Por ejemplo, cuando solo buscas bots sujetadores:\c;
+\s;int bots[4];
+\s;bots[0] = WheeledGrabber;
+\s;bots[1] = TrackedGrabber;
+\s;bots[2] = WingedGrabber;
+\s;bots[3] = LeggedGrabber;
+\s;object sujetadorMasCercano = radar(bots);
+\n;
+o Palabra clave \const;Any\norm; ( Cualquiera ), si estás buscando cualquier objeto (incluidas incluso plantas, etc.).
+
+\t;Valor de retorno: \c;\l;bool\u cbot\bool;\n;
+\const;true\norm; si se encontró el objeto
+\const;false\norm; si no se encontró el objeto
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

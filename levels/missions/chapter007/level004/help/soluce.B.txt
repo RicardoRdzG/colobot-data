@@ -1,0 +1,12 @@
+\b;Passo a passo
+1) Pesquise na área por \l;titânio\u object\titan;.
+2) Construa um \l;conversor\u object\convert;.
+3) Construa um \l;centro de pesquisa\u object\research;.
+4) Execute o <thumper research program> \button 66;.
+5) Fabrique um \l;batedor\u object\bottump;.
+6) Posicione o batedor perto da nave abandonada e "bata" no chão.
+7) Recupere rapidamente a \l;caixa preta\u object\bbox; e traga-a de volta em sua \l;espaçonave\u object\base;.
+8) Traga o batedor e decole.
+
+\t;Veja também
+\l;Controles\u command;.

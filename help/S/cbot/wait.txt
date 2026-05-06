@@ -1,0 +1,22 @@
+\b;Instrucción \c;wait\n; ( espera )
+La instrucción \c;wait();\n; indica al bot que espere unos segundos, según el valor escrito entre paréntesis.
+
+\b;Uso básico
+Para esperar hasta que la \l;batería\u object\power; se recargue en una estación de energía, espera 5 segundos con \c;wait(5);\n;.
+
+Para esperar a que el \l;convertidor\u object\convert; termine de transformar \l;mineral de titanio\u object\titanore; en un \l;cubo de titanio\u object\titan;, espera 15 segundos con \c;wait(15);\n;.
+
+\b;Para especialistas
+Sintaxis:
+\s;\c;wait (tiempo);\n;
+
+Espera un momento.
+
+\t;tiempo: \c;\l;float\u cbot\float;\n;
+Especifica el tiempo que el bot debe esperar.
+
+\t;Valor de retorno: \c;\l;void\u cbot\void;\n;
+Ninguno.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,9 @@
+\b;Do Centro de Controle de Missões
+Seu satélite localizou os restos da expedição anterior. Você deve encontrar uma \l;caixa preta\u object\bbox; não muito longe dali. Ele lhe dará as coordenadas do seu próximo destino.
+
+Extermine as poucas formigas restantes. Fomos notificados de que sua arma de nêutrons está fora de ordem, então você não poderá construir novos robôs. Estamos convencidos de que você é engenhoso o suficiente para chegar a uma solução.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

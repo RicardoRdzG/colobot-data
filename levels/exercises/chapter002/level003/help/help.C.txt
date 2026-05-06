@@ -1,0 +1,40 @@
+\b;Úkol
+Upravte program \c;Obrana1\n;, aby zbytečně neplýtval energií palbou na mravence mimo dostřel.
+
+\t;Program
+Program \c;Obrana1\n; střílí na nejbližšího mravence, i když je mimo dostřel:
+\c;
+\s;extern void object::Obrana1()
+\s;{
+\s;	object    item;
+\s;	
+\s;	jet(0.2);
+\s;	while(position.z < 20)
+\s;	{
+\s;		wait(0.2);
+\s;	}
+\s;	jet(0);
+\s;	
+\s;	while(true)
+\s;	{
+\s;		item = radar(AlienAnt);
+\s;		turn(direction(item.position));
+\s;		fire(1);
+\s;	}
+\s;}
+\n;
+Tentokrát musí robot splnit stejný úkol pouze s \l;obyčejnou baterií\u object\power;. Musíte tedy přidat cyklus, který bude čekat, až se mravenec dostatečně přiblíží, t.j. dokud nebude blíže než 40 metrů. Pak bude na každého mravence stačit jediná dávka.
+
+Příkazu \c;\l;radar\u cbot\radar;()\n; můžete zadat více parametrů (čísel) vymezujících, kde má radar hledat mravence. Například \c;radar(AlienAnt,0,360,0,40);\n; bude hledat mravence pouze do vzdálenosti 40 metrů. První dvě čísla říkají radaru, aby hledal ve všech směrech, další dvě čísla říkají, aby hledal pouze mravence ve vzdálenosti od 0 do 40 metrů. Pokud žádný mravenec není blíže než 40 metrů, příkaz \c;\l;radar\u cbot\radar;()\n; vrátí hodnotu \c;null\n;. Můžeme tedy podobně jako v předchozím cvičení napsat cyklus, který bude čekat, dokud se některý mravenec nepřiblíží na méně než 40 metrů:
+\c;
+\s;		while (radar(AlienAnt, 0, 360, 0, 40) == null)
+\s;		{
+\s;			wait(0.2);
+\s;		}
+\n;
+Všimněte si, že porovnání na rovnost se zapisuje dvěma rovnítky za sebou: "=="
+
+Jednoduše vložte výše uvedený kód před příkaz \c;fire(1);\n; a robot bude před výstřelem čekat, až se mravenec přiblíží na méně než 40 metrů. Pak bude na likvidaci mravenců stačit i obyčejná baterie. 
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

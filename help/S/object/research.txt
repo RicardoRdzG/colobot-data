@@ -1,0 +1,27 @@
+\b;\button 163; Centro de Investigación
+\image research 8 8;
+El centro de investigación es una enorme computadora. Su característica más útil es su capacidad de crear nuevas tecnologías, así como mejoras a las existentes relacionadas con edificios y bots en particular.
+
+Los 65'536 procesadores que contiene consumen una gran cantidad de energía.
+Cada programa de investigación requiere una \l;celda de energía\u object\power; nueva y completamente cargada
+
+\t;Requisitos para construir
+Cualquier superficie plana de al menos 5 metros de ancho.
+
+\t;Entrada
+Solicitud de investigación.
+
+\t;Salida
+Tecnologías nuevas y mejoradas.
+
+\t;Fuente de energía
+Celda de energía regular o nuclear.
+
+\t;Duración de operación
+Entre 9 segundos y 1 minuto dependiendo de la investigación.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;ResearchCenter\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

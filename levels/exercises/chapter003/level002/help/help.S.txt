@@ -1,0 +1,66 @@
+\b;Ejercicio
+Este ejercicio es muy similar al anterior. El bot debe moverse exactamente de la misma manera, pero al escribir el programa, debes usar un nuevo concepto extremadamente importante en programación: \l;variables\u cbot\var;.
+Vimos que todas las plataformas están a una distancia de 20 metros entre sí. Y todas las rotaciones consisten en ángulos de 90 grados. En lugar de escribir los mismos valores una y otra vez en el programa, podemos almacenarlos en una variable:
+
+En lugar de:
+\c;\s;	move(20);
+\s;	turn(90);
+\s;	move(20);
+\s;	turn(-90);
+\s;	...
+\n;
+Escribimos:
+\c;\s;	dist = 20;
+\s;	dir = 90;
+\s;	move(dist);
+\s;	turn(dir);
+\s;	move(dist);
+\s;	turn(-dir);
+\s;	...
+\n;
+\b;Variables
+Una \l;variable\u cbot\var; se compone de tres elementos:
+1) El nombre,
+2) El tipo de contenido,
+3) El contenido.
+
+\t;El nombre
+Usa el nombre para referirte a una variable. Por ejemplo, en lugar de escribir \c;move(20);\n;, escribe \c;move(dist);\n;: "dist" es el nombre de la variable. Puedes elegir casi cualquier nombre para una variable, por ejemplo \c;dist\n;, \c;dir\n;, \c;p2\n;, \c;a\n;, \c;x\n;, \c;nothing_2_grab\n;, etc.
+
+\t;El tipo
+El tipo de una variable determina qué tipo de información puede contener la variable. Según el tipo, una variable puede contener un número entero, un número real, una cadena de caracteres, las coordenadas de un punto, etc. Aquí hay una lista con los tipos de variables más comunes:
+  o  \c;\l;int\u cbot\int;\n; para un número entero (12, -500, etc.)
+  o  \c;\l;float\u cbot\float;\n; para un número real (3.14, 0.2, -99.98, etc.)
+  o  \c;\l;string\u cbot\string;\n; para una cadena de caracteres ("¡Hola!", "Nada que recoger", etc.)
+  o  \c;\l;point\u cbot\point;\n; para las coordenadas x,y,z de un punto en el espacio
+  o  \c;\l;object\u cbot\object;\n; para información sobre un objeto (bot, edificio, etc.)
+
+\t;El contenido
+El contenido de una variable puede ser un número, una cadena, coordenadas, etc., según el tipo de la variable. El contenido de una variable puede cambiar muchas veces durante la ejecución de un programa.
+
+Antes de poder usar una variable, debes declararla. Por ejemplo, antes de usar las dos variables \c;dist\n; y \c;dir\n;, debes declararlas con las siguientes líneas:
+\c;
+\s;	float  dist;
+\s;	float  dir;
+\n;
+Ahora puedes usar las dos variables. Para poner el valor 20 en \c;dist\n; y 90 en \c;dir\n;, escribe:
+\c;
+\s;	dist = 20;
+\s;	dir = 90;
+\n;
+Ahora puedes mover y girar el bot con las instrucciones \c;\l;move\u cbot\move;\n; y \c;\l;turn\n;\u cbot\turn;:
+\c;
+\s;	move(dist);
+\s;	turn(dir);
+\n;
+También puedes usar una \l;expresión matemática\u cbot\expr; completa en lugar de solo la variable:
+\c;
+\s;	move(dist+100);
+\s;	turn(-dir);
+\n;
+Esta última instrucción será necesaria para girar el bot a la derecha.
+
+Ahora, reescribe el programa del ejercicio anterior, pero usa una variable para la distancia y otra variable para el ángulo de rotación.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

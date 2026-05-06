@@ -1,0 +1,7 @@
+\b;Vom Kontrollzentrum
+Dieser Planet ist offensichtlich ungeeignet für eine länger dauernde Kolonisierung. Holen Sie den \l;Flugschreiber\u object\bbox; der letzten Expedition und heben Sie wieder ab.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT Sprache\u cbot;

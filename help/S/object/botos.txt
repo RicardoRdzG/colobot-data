@@ -1,0 +1,18 @@
+\b;\button 156; Disparador Orga con Patas
+\image botos 8 8;
+Bot rastrero con patas de hormiga equipado con un cañón de orgabola.
+
+El cañón de orgabola es más efectivo que el \l;cañón de bolas de fuego\u object\botfs;. Dispara pequeñas esferas de \l;materia orgánica\u object\bullet; corrosiva. Una \l;celda de energía regular\u object\power; te permitirá disparar 11 ráfagas de orgabola.
+
+Un disparador orga con patas en movimiento consume la mitad de energía que un \l;disparador orga con ruedas\u object\botor;. Un bot con patas también está perfectamente adaptado para subir las pendientes más pronunciadas.
+
+\t;Programación
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Para programar el cañón de orgabola, usa \c;\l;fire\u cbot\fire;\n;. Para elevar o bajar la puntería, usa \c;\l;aim\u cbot\aim;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;LeggedOrgaShooter\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

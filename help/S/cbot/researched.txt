@@ -1,0 +1,16 @@
+\b;Instrucción \c;researched\n;
+Sintaxis:
+\s;\c;researched (investigación);\n;
+
+Comprueba si se ha realizado una \l;investigación\u cbot\researches;.
+
+\t;investigación: \c;\l;int\u cbot\int;\n;
+\l;Nombre de la investigación\u cbot\researches;.
+
+\t;Valor de retorno: \c;\l;bool\u cbot\bool;\n;
+\const;true\norm; si la investigación está hecha
+\const;false\norm; si la investigación no está hecha
+
+\t;Ver también
+\l;Nombres de investigación\u cbot\researches;, \c;\l;research\u cbot\research;\n;, \c;\l;canresearch\u cbot\canresearch;\n;, \c;\l;canbuild\u cbot\canbuild;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

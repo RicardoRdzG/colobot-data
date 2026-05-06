@@ -1,0 +1,14 @@
+\b;Mineral de Titanio
+\image titanore 4 4;
+El \l;titanio\u object\titan; es indispensable para la construcción de edificios, \l;bots\u object\factory; y \l;celdas de energía regulares\u object\energy;. El titanio que \l;tú\u object\human; ves en su forma utilizable en forma de cubo ha sido \l;convertido\u object\convert; de trozos brutos de mineral de titanio.
+
+El mineral de titanio puede encontrarse directamente en la superficie o en el subsuelo. En este último caso, primero necesita ser localizado e identificado por un \l;detector\u object\botsr;, luego extraído usando un \l;derrick\u object\derrick;. Si un detector identifica un depósito de mineral de titanio, coloca una \l;cruz roja\u object\stonspot;.
+
+\t;Transporte
+Todos los \l;recogedores\u object\botgr; y el \l;astronauta\u object\human;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;TitaniumOre\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

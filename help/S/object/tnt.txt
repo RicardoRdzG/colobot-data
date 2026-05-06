@@ -1,0 +1,12 @@
+\b;Explosivo (TNT)
+\image tnt 4 4;
+Una carga de TNT es extremadamente sensible. Deberías acercarte con cuidado para no golpearlo o darle cualquier tipo de shock. El riesgo se minimiza una vez que el explosivo está en la garra de un \l;recogedor\u object\botgr;.
+
+\t;Transporte
+Todos los \l;recogedores\u object\botgr; y el \l;astronauta\u object\human;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;TNT\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

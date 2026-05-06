@@ -1,0 +1,5 @@
+\b;Tipo \c;bool\n;
+En una variable de este tipo puedes poner un valor booleano, es decir, un valor que solo puede tomar dos estados: verdadero o falso. 
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

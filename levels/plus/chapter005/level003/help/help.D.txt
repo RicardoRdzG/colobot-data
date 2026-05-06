@@ -1,0 +1,9 @@
+\b;Vom Kontrollzentrum
+Der Satellit hat die Überreste der letzten Expedition lokalisiert. Sie sollten nicht weit davon einen \l;Flugschreiber\u object\bbox; finden. Er wird Ihnen die Koordinaten für Ihr nächstes Ziel geben.
+
+Vernichten Sie die restlichen Ameisen. Wir erhielten die Meldung, dass Ihre Neutronenkanone im Augenblick nicht funktioniert; deswegen sind Sie nicht in der Lage neue Roboter zu bauen. Wir sind davon überzeugt, dass Sie genug Ideen haben, um eine Lösung zu finden.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

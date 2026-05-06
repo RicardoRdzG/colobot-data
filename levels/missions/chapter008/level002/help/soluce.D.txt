@@ -1,0 +1,9 @@
+\b;Schritt für Schritt
+Ein \l;Radar\u object\radar;, einen \l;Blitzableiter\u object\captor;, eine \l;Batterie\u object\power; und einen \l;Jetorgashooter\u object\botoj; können Sie in dem Tal südlich des Raumschiffes finden. Dies ermöglicht Ihnen, die Ameisen, die sich nahe beim Raumschiff befinden,  zu töten und den \l;Flugschreiber\u object\bbox; im Norden, neben den Überresten des Raumschiffes der ersten Expedition, zu finden.
+
+Bauen Sie eine Kette von \l;Blitzableitern\u object\captor; entlang dem natürlichen Pfad, der sich durch die Bergspitzen im Norden anbietet. 5 oder 6 Blitzableiter sollten ausreichenden Schutz gegen Blitze gewähren.
+
+Bringen Sie den Flugschreiber an Bord des \l;Raumschiffes\u object\base; und heben Sie ab.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

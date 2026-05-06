@@ -1,0 +1,8 @@
+\b;Batalla de Código (disparando a otro jugador)
+Este es un nivel de \l;batalla de código\u battles;, donde fightes contra otro programa, presumiblemente escrito por otro jugador, para mejorar tu puntería.
+
+\b;Objetivo
+Destruye al otro \l;Shooter\u object/botfj; ubicado en el lado opuesto del río.
+
+\b;Notas\m notas;
+o Puedes intentar encontrar un programa para fightir en la Comunidad Internacional Colobot (\c;http://colobot.info\n;).

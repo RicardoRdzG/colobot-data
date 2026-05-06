@@ -1,0 +1,66 @@
+\b;Úkol
+Napište krátký program na likvidaci tří pavouků.
+
+\t;Postup
+1) Vyberte robota, abyste mu mohli zadat program.
+2) V levém dolním rohu obrazovky uvidíte čísla 1 až 4 odpovídající programům, které má robot načtené. Vyberte první řádek.
+3) Klikněte na tlačítko se složenými závorkami \button 22; a otevře se editor, ve kterém můžete psát programy.
+4) Během psaní programu si můžete znovu přečíst tento text stisknutím klávesy \key;\key help;\norm;. Až dopíšete program, klikněte na tlačítko "OK".
+5) Pro spuštění programu klikněte na tlačítko se šipkou \button 21;.
+
+\t;Program
+Robotovi musíte říct přesně krok za krokem, co musí udělat, aby ty tři pavouky zlikvidoval. Robot rozumí pouze jasným příkazům a bude je vykonávat jeden po druhém.
+
+Až kliknete na tlačítko se složenými závorkami \button 22;, abyste začali psát program, část programu už tam najdete připravenou:
+\c;
+\s;extern void object::Pavouk1( )
+\s;{
+\s;	
+\s;	\n;sem napište svůj program...\c;
+\s;	
+\s;}
+\n;
+Předepsaný kód nijak neupravujte. Pouze přidejte další příkazy na konec.
+
+Budete potřebovat následující příkazy:
+\c;
+\s;aim(0);\n;
+\n;Namíří kanón rovně před sebe.
+\c;
+\s;turn();\n;
+Otočí robota o úhel zadaný v závorkách (ve stupních). Například \c;turn(90);\n; otočí robota o 90 stupňů doleva, tj. půlobrat doleva. \c;turn(-90);\n; otočí robota o 90 stupňů doprava (půlobrat doprava). Kladné hodnoty otáčejí doleva, záporné doprava. \c;turn(180);\n; otočí robota čelem vzad.
+\c;
+\s;fire(1);
+\n;Vystřelí z kanónu. Číslo v závorkách určuje dobu střelby. Ve většině případů střílejte dávku dlouhou 1 sekundu.
+
+Podívejme se na základ programu:
+o  namiřte kanón rovně příkazem \c;aim(0);\n;
+o  zlikvidujte pavouka přímo před sebou příkazem \c;fire(1);\n;
+o  otočte o 90 stupňů doleva příkazem \c;turn(90)\n;
+o  vystřelte příkazem \c;fire(1);\n;
+o  atd.
+
+Zde je program, který provede výše popsané:
+\c;
+\s;extern void object::Pavouk1( )
+\s;{
+\s;	
+\s;	aim(0);
+\s;	fire(1);
+\s;	turn(90);
+\s;	fire(1);
+\s;	
+\s;}
+\n;
+Dopsat zbytek programu už je na Vás!
+
+Pokud se Vám nedaří, můžete se kdykoliv podívat na řešení: vyberte program \c;Řešení\n; v levém dolním rohu obrazovky a klikněte na tlačítko se složenými závorkami \button 22;. Vzorové řešení navíc můžete spustit tlačítkem se šipkou \button 21;.
+
+\t;Poznámky
+Dávejte pozor, abyste příkazy psali přesně a správně. Dodržujte i velká a malá písmena.
+
+Na každý řádek pište jen jeden příkaz a zakončete ho středníkem.
+
+Pokud Váš program dělá něco jiného, než jste chtěli, můžete robota vrátit na startovní pozici tlačítkem \button 59;. Dále můžete cvičení spustit úplně od začátku (stiskněte klávesu "Esc" a klikněte na "Restartovat"). O svůj program tím nepřijdete.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst klávesou \key;\key help;\norm;.

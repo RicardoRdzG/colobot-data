@@ -1,0 +1,21 @@
+\b;Instrucción \c;private\n; (para especialistas)
+Este es un modificador de acceso para miembros \l;de clase\u cbot\class;. No se puede acceder a los miembros privados fuera de la definición de clase.
+
+\t;Ejemplo
+\c;
+\s;public class MiClase
+\s;{
+\s;	int    b;                // publica por defecto
+\s;	public int a;            // tambien publica 
+\s;	private point position;  // privada
+\s;}
+\s;void Test()
+\s;{
+\s;	MiClase item;
+\s;	item.a = item.b = 12;      // ok
+\s;	message( item.position );  // this is an error
+\s;}
+\n;
+\t;Ver también
+\c;\l;class\u cbot\class;\n;, \c;\l;public\u cbot\public;\n;, \c;\l;protected\u cbot\protected;\n;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

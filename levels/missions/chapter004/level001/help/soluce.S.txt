@@ -1,0 +1,12 @@
+\b;Guía paso a paso
+1) Construye una \l;fábrica de bots\u object\factory;.
+2) Produce un \l;recogedor alado\u object\botgj;.
+3) Lleva un \l;cubo de titanio\u object\titan; al punto más alto.
+4) Construye un \l;radar\u object\radar; en el lugar.
+5) Construye un \l;centro de investigación\u object\research; junto a la nave espacial.
+6) Inicia el <defense tower research program>programa de investigación de torre de defensa</button 68/>.
+7) Construye la \l;torre de defensa\u object\tower; junto al radar.
+8) Cuando todos los gusanos sean destruidos, puedes volver a tu nave y despegar.
+
+\t;Ver también
+\l;Controles\u command;

@@ -1,0 +1,7 @@
+\b;Guía Paso a Paso
+En algún lugar al noreste en el mismo valle deberías encontrar una \l;central eléctrica\u object\station; completamente funcional. Al noroeste encontrarás varias \l;celdas de energía\u object\power;.
+
+Algunos disparadores en condiciones de trabajo han sido abandonados en y alrededor del misma área en el valle; úsalos para disparar a todas las hormigas. Con el \l;recogedor alado\u object\botgj;, puedes entonces recuperar la \l;caja negra\u object\bbox; que se encuentra detrás de la nave espacial abandonada y despegar.
+
+\t;Ver también
+\l;Controles\u command;

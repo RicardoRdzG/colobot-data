@@ -1,0 +1,13 @@
+\b;Del Control de Misiones
+Con la ayuda de la cuarta \l;llave\u object\key; (D) ubicada cerca, finalmente podrás acceder a la \l;bóveda\u object\safe;. El bot innovador que encontrarás dentro fue llamado "\l;phazer\u object\botphaz;".
+
+Se ha adjuntado un programa que permite la colaboración entre un \l;phazer\u object\botphaz; y un \l;shielder\u object\botshld;.
+
+Deberías verte pronto en posición de probar tu nueva arma. Tu última misión es deshacerte de la \l;Reina Alienígena\u object\mother;, la pusieron huevos responsable del creciente número de insectos en Terranova. El phazer podría muy bien ser el único bot capaz de hacer el trabajo.
+
+Entonces no habrá más obstáculo para la colonización humana de este magnificent planeta y pronto podrás notificar a la Tierra del éxito de tu misión.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

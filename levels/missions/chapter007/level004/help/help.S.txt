@@ -1,0 +1,19 @@
+\b;Una Palabra sobre Nuevas Políticas
+Lamentamos tener que llamar tu atención, pero este parece un buen momento para informarte sobre una pequeña preocupación que tenemos actualmente. Ha habido una fuerte reacción en la opinión pública y en el Congreso respecto a tu terminación sistemática de los "habitantes indígenas" de los planetas que has estado visitando. El Congreso ha elegido demostrar su sensibilidad a las preocupaciones de la población general.
+
+Por la presente transmitimos sus nuevas directivas y estas directivas te intiman a limitar las bajas lo más humanamente posible. En otras palabras, haz todo lo posible para ahorrar las formas de vida que encuentres de ahora en adelante. Tu misión, por supuesto, de ninguna manera debe verse comprometida por este nuevo curso de acción.
+
+\b;Del Control de Misiones
+Tus recursos energéticos parecen peligrosamente limitados en este momento y también tu arsenal, pero necesitas localizar y recuperar la \l;caja negra\u object\bbox; de la expedición anterior para que puedas proceder al siguiente planeta.
+
+Recibimos una información de tus predecesores, a través del satélite de observación, sobre un nuevo tipo de armamento que desarrollaron precisamente para una situación como esta.
+
+Esta arma te ofrecerá una oportunidad para demostrar tu reciente compasión hacia las \l;especies indígenas\u object\ant; ya que no es un arma de destrucción masiva. Lo que ofrece, según nuestro conocimiento, es una opción para incapacitarlas, haciéndolas, aunque sea temporalmente, inofensivas. Si este es efectivamente el caso, necesitarás actuar rápidamente antes de que tengan la oportunidad de volverse hostiles hacia ti de nuevo.
+
+\b;Procedimiento
+Realiza el \l;programa de investigación\u object\research; y experimenta por ti mismo, pero no olvides traer esta nueva arma de vuelta a bordo. Tenemos mucha curiosidad por estudiar su funcionamiento.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

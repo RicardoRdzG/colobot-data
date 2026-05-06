@@ -1,0 +1,50 @@
+\b;Instrucción \c;continue\n; ( continuar )
+Sintaxis :
+\s;\c;while ( condición )
+\s;{
+\s;	continue;
+\s;}
+\n;
+Con esta instrucción, puedes saltarte el resto de instrucciones del \c;\l;bloque\u cbot\bloc;\n; de un bucle \c;\l;while\u cbot\while;\n; o \c;\l;for\u cbot\for;\n;: la ejecución se reanudará al principio del bloque la próxima vez que se repita el bucle.
+ 
+Aquí tienes un ejemplo:
+\s;\c;int i = 0;
+\s;while ( i < 5 )
+\s;{
+\s;	i = i+1;
+\s;	if ( i == 3 )
+\s;	{
+\s;		continue;
+\s;	}
+\s;	\n;Instrucciones ...\c;
+\s;}
+\n;
+Las instrucciones solo se ejecutarán para los valores de \c;i\n; 1, 2, 4 y 5.
+
+Puedes asignar una etiqueta a un bucle de la siguiente manera:
+\s;\c;esta_es_una_etiqueta: while ( true )
+\s;{
+\s;	\n;Instrucciones ...\c;
+\s;}
+\n;
+De forma predeterminada, cuando hay varios bucles anidados unos dentro de otros, esta instrucción afecta al bucle más interno. Si no es esto lo que deseas, puedes utilizar una etiqueta para indicar a esta instrucción a qué bucle debe afectar:
+\s;\c;string result = "";
+\s;foo: for(int outer = 0; outer < 3; ++outer)
+\s;{
+\s;	result += "A";
+\s;	for(int inner = 0; inner < 2; ++inner)
+\s;	{
+\s;		result += "B";
+\s;		if(inner == outer)
+\s;		{
+\s;			result += "*";
+\s;			continue foo;
+\s;		}
+\s;		result += "C";
+\s;	}
+\s;	result += "D";
+\s;}
+\s;message(result);  // Imprime: AB*ABCB*ABCBCD
+\n;
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

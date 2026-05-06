@@ -1,0 +1,13 @@
+\b;Do Centro de Controle de Missões
+Com a ajuda da quarta chave \l;(D)\u object\key; localizada nas proximidades, você finalmente terá acesso ao \l;cofre\u object\safe;. O robô inovador que você encontrará lá dentro foi chamado de "\l;phazer\u object\botphaz;".
+
+Um programa que permite a colaboração entre um \l;phazer\u object\botphaz; e um \l; defensor \u object\botshld; foi anexado.
+
+Você deve em breve encontrar-se em posição de testar sua nova arma. Sua última missão é se livrar da \l;Rainha Alienígena\u object\mother;, uma botadora de ovos responsável pelo crescente número de insetos em Terranova. O phazer pode muito bem ser o único robô capaz de fazer o trabalho.
+
+Não haverá mais nenhum obstáculo para a colonização humana deste magnífico planeta e em breve você será capaz de notificar a Terra sobre o sucesso de sua missão.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

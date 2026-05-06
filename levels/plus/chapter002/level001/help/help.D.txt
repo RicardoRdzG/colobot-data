@@ -1,0 +1,20 @@
+\b;Vom Kontrollzentrum
+Sammeln Sie 4 Einheiten \l;Titanerz\u object\titanore; und bringen Sie sie an Bord Ihres \l;Raumschiffs\u object\base;. Bauen Sie die nötige Ausrüstung für diese Aufgabe (\l;Jettransporter\u object\botgj;).
+
+Bevor Sie beginnen, sollten Sie immer einen Blick auf den Satellitenbericht \button 186; werfen.
+
+Wir haben an Ihr \l;Raumschiff\u object\base; ein Programm übermittelt, das Ihnen dabei helfen könnte; bitte sehen Sie sich dazu die entsprechende Seite auf Ihrem SatCom an \button 53;.
+
+\b;Vorgehensweise
+1) Ein neues \l;Forschungsprogramm\u object\research; ist notwendig, um Jettransporter zur Liste der produzierbaren Roboter hinzuzufügen. Dieses Forschungsprogramm wird unter anderem den Antrieb in Ihrem Raumanzug verfügbar machen.
+2) Stellen Sie einen \l;Jettransporter\u object\botgj; her und sammeln Sie 4 Einheiten \l;Titanerz\u object\titanore;.
+3) Nehmen Sie den \l;Jettransporter\u object\botgj; und den \l;Radtransporter\u object\botgr; mit auf das Raumschiff und starten Sie. 
+
+Be careful that your winged bot does not run out of power when you are far from base. If necessary, replace the \l;power cell\u object\power; before leaving the spaceship. You can either do this manually or you can execute the enclosed program provided by Houston \button 53;.
+
+Um sich nicht zwischen den vielen Kratern zu verlaufen, benutzen Sie die Mini-Karte rechts unten auf Ihrem Bildschirm.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

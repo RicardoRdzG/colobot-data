@@ -1,0 +1,13 @@
+\b;Instrucción \c;ceil\n;
+Sintaxis:
+\s;\c;ceil (valor);\n;
+Redondea un número.
+
+\t;valor: \c;\l;float\u cbot\float;\n;
+Número.
+
+\t;Valor de retorno: \c;\l;float\u cbot\float;\n;
+Límite superior del valor, es decir, el entero más pequeño que no sea inferior al \c;valor\n;. Por ejemplo, \c;ceil(2,1)\n; es \c;3.0\n;.
+
+\t;Ver también
+\l;round\u cbot\round;, \l;programación\u cbot;, \l;tipos\u cbot\type; y \l;expresiones\u cbot\expr;.

@@ -1,0 +1,38 @@
+\b;Das Ziel
+Programmieren Sie den \l;Transporter\u object\botgr;, um die \l;Batterie\u object\power; des \l;Jetshooters\u object\botfj; zu wechseln. Dieser kann dann die Spinnen eliminieren.
+
+\t;Das Vorgehen
+1) Programmieren Sie den \l;Transporter\u object\botgr;.
+2) Führen Sie das Programm mit der Schaltfläche \button 21; aus.
+Der \l;Jetshooter\u object\botfj; ist schon programmiert und wird seinen Job tun sobald er eine neue Batterie hat.
+
+\t;Programm
+Folgende Anweisungen benötigen Sie:
+\c;
+\s;grab();\n;
+\n;Nimmt den Gegenstand auf, der vor dem Roboter liegt.
+\c;
+\s;drop();\n;
+\n;Legt den Gegenstand ab, der gerade transportiert wird.
+\c;
+\s;turn();\n;
+\n;Diese Anweisung kennen wir schon aus der letzten Übung: Sie bewirkt eine Drehung um einen bestimmten Winkel, der in Grad angegeben wird.
+
+Schauen wir uns den Anfang des Programmes an:
+o  Leere Batterie aufnehmen mittels \c;grab();\n;
+o  Um 90 Grad nach links drehen (Viertel Drehung) mittels \c;turn(90);\n;
+o  Leere Battrie ablegen mittels \c;drop();\n;
+o  usw.
+
+Es ist nun Ihre Aufgabe, den Rest des Programmes zu schreiben!
+
+Falls Sie nicht weiter kommen, können Sie sich jederzeit die Lösung anschauen: Wählen Sie das Programm \c;Lösung\n; aus, und klicken Sie auf die Schaltfläche \button 22;.
+
+\t;Hinweise
+Achten Sie darauf, die Anweisungen korrekt zu schreiben. Nehmen Sie auf Groß- und Kleinschreibung Rücksicht.
+
+Schreiben Sie immer nur eine Anweisung pro Zeile und schließen Sie jede Zeile mit einem Strichpunkt ab.
+
+Tut Ihr Programm nicht das, was Sie erreichen wollten, können Sie den Roboter an seine Startposition zurückbefördern, indem Sie die Schaltfläche \button 59; betätigen. Sie können auch ganz von vorn beginnen ("Esc" drücken, dann auf "Neu Starten" klicken). Das Programm, das Sie geschrieben haben, geht dabei nicht verloren.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen jederzeit einsehen.

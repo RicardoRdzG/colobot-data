@@ -1,0 +1,31 @@
+\b;Instrucción \c;return\n;
+Devuelve el resultado de una función. Sintaxis:
+\c;
+\s;void funcion ( )
+\s;{
+\s;	return;
+\s;}
+\n;
+\b;Para especialistas
+Si la \l;función\u cbot\function; tiene un tipo de retorno, la instrucción \c;return\n; debe ir seguida del valor que se va a devolver:
+\c;
+\s;float Pi ( )
+\s;{
+\s;	return 3.1415;
+\s;}
+
+\s;float Media (float a, float b)
+\s;{
+\s;	return (a+b)/2;
+\s; }
+
+\s;string Signo (float a)
+\s;{
+\s;	if ( a > 0 )  return "positivo";
+\s;	if ( a < 0 )  return "negativo";
+\s;	return "nulo";
+\s;}
+\n;
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.
+

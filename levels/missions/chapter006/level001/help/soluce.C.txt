@@ -1,0 +1,15 @@
+\b;Návod
+1) Nejprve nabijte jednu \l;běžnou baterii\u object\power; a vložte ji do \l;výzkumné stanice\u object\research;. Vyzkoumejte technologii pro stavbu \l;jaderných elektráren\u object\nuclear; \button 170;. 
+
+2) Vyrobte \l;pojízdné rameno\u object\botgr;.
+
+3) Na severozápad od Vaší pozice najdete trochu \l;uranové rudy\u object\uranore;. Jaderná elektrárna z ní vyrobí \l;jadernou baterii\u object\atomic; s větší kapacitou.
+
+4) Jednu jadernou baterii dejte \l;pojízdnému kanónu\u object\botfr; a pošlete ho zlikvidovat všechny \l;pavouky\u object\spider; číhající na cestě.
+
+5) Jestli postavíte \l;radar\u object\radar; je čistě na Vás, ale mohlo by se Vám hodit, že pavouky uvidíte na minimapě.
+
+6) Na výpravu byste dále měli poslat i pojízdné rameno. Uvolněte s ním cestu zasypanou \l;titanovou rudou\u object\titanore; a přivezte zpět \l;výbušninu\u object\tnt;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

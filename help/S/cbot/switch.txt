@@ -1,0 +1,71 @@
+\b;Instrucciones \c;switch\n;, \c;case\n; y \c;default\n;
+Con la instrucción \c;switch() {}\n; puedes ejecutar un conjunto adecuado de instrucciones (un caso) basándote en algún valor.
+
+\b;Uso básico
+Nota: en este caso, puede ser mucho mejor utilizar la instrucción \l;isbusy\u cbot\isbusy;.
+
+Observa la siguiente \l;función\u cbot\function;: el bot \l;esperará\u cbot\wait; el tiempo necesario para que se complete una determinada tarea:
+\c;
+\s;public void EsperaTareaCompletada(object building)
+\s;{
+\s;	int cat = building.category;
+\s;	\l;if\u cbot\if; (cat == Converter) wait(15);
+\s;	else if (cat == BotFactory) wait(15);
+\s;	else if (cat == PowerPlant) wait(12);
+\s;	else message("Tiempo de espera indefinido", DisplayError);
+\s;}
+\n;
+Esta función también se puede escribir utilizando la instrucción \c;switch() {}\n;:
+\c;
+\s;public void EsperaTareaCompletada(object building)
+\s;{
+\s;	switch (building.category)
+\s;	{
+\s;		case Converter: wait(15); break;
+\s;		case BotFactory: wait(15); break;
+\s;		case PowerPlant: wait(12); break;
+\s;		default: message("Tiempo de espera indefinido", DisplayError);
+\s;	}
+\s;}
+\n;
+La forma de escribir este tipo de estructuras de elección es cuestión de gustos.
+
+También puedes hacer casos como este:
+\c;
+\s;switch (building.category)
+\s;{
+\s;	case Converter:
+\s;	case BotFactory:
+\s;		wait(15); break;
+\s;	case PowerPlant: wait(12); break;
+\s;	default: message("Tiempo de espera indefinido", DisplayError)
+\s;}
+\n;
+\l;El convertidor\u object\convert; y \l;la fábrica de bots\u object\factory; tienen el mismo tiempo de espera, por lo que, para no escribir las mismas instrucciones dos veces, hicimos que varios casos ejecutaran el mismo código. De hecho, todo el código posterior al caso más alto utilizado se ejecutará si no lo interrumpimos con \c;\l;break\u cbot\break;\n;.
+
+\b;Para especialistas
+Sintaxis:
+\s;\c;switch ( valor )
+\s;{
+\s;	case valor1: instrucciones1
+\s;	case valor2: instrucciones2
+\s;	...
+\s;	case valorN: instruccionesN
+\s;	default: instruccionesNDefault
+\s;}
+\n;
+Con esta estructura condicional puedes ejecutar \c;instrucciones1\n; o \c;instrucciones2\n; ... o \c;instruccionesN\n; o \c;instruccionesNDefault\n; dependiendo del \c;valor\n;.
+
+Si el \c;valor\n; es igual a \c;valor1\n;, se ejecutan \c;instrucciones1\n; a \c;N\n; (incluyendo \c;instructionsDefault\n;).
+Si el \c;valor\n; es igual a \c;valor2\n;, se ejecutan \c;instrucciones2\n; a \c;N\n; (incluyendo \c;instructionsDefault\n;).
+Y así sucesivamente.
+Si el \c;valor\n; es igual a \c;valorN\n;, se ejecutan \c;instruccionesN\n; y \c;instruccionesDefault\n;.
+Si el \c;valor\n; no es igual a ningún valor en los casos dados, se ejecutan \c;instruccionesDefault\n;.
+
+Puedes salir de la instrucción \c;switch() {}\n; utilizando \c;\l;break\u cbot\break;\n;.
+
+\t;Atención
+No pongas un \l;punto y coma\u cbot\term; al final de la instrucción \c;switch ( ) { }\n;.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

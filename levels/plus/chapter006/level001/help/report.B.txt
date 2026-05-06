@@ -1,0 +1,20 @@
+\b;Relatório do satélite
+Atualmente em uma órbita geo-estacionária de Volcano.
+\c;
+\s;-> SUPERFÍCIE\c;
+\tab;Temperatura:      84.6C
+\tab;Atmosfera:       CO2, SO2, HCN, HS, CH4, NH3
+\tab;Vento:             2.2 mps
+\tab;Minério de titânio:     em todo lugar
+\tab;Minério de urânio:      alguns
+
+\s;-> SUBSOLO\c;
+\tab; Fonte de energia: em todos os lugares 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> INFORMAÇÃO ADICIONAL\c;
+\tab; Detectado: abandonados reutilizáveis 
+\tab; Detectado: organismos desconhecidos 
+\tab; - Perigo: ?
+\n;

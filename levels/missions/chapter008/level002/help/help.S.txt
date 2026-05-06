@@ -1,0 +1,11 @@
+\b;Del Control de Misiones
+Recupera la caja negra.
+
+Los rayos electromagnéticos parecen golpear con mayor frecuencia ahora que antes. Necesitas proteger tu equipo.
+
+Ten en cuenta que tu nave espacial también actúa naturalmente como un pararrayos, y nuestros ingenieros nos aseguran que tu traje espacial no atrae los rayos.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

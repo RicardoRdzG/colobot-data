@@ -1,0 +1,62 @@
+\b;Cvičení
+Držte se blízko \l;cvičného cíle\u object\bottarg; naloženého výbušninami, ale nesmíte se ho dotknout, jinak vybuchne. Pokaždé, když se cvičný cíl zastaví, musíte k němu být blíže než 10 metrů. Když s ním udržíte krok 10 zastávek po sobě, zavede Vás na cílovou značku a cvičení skončí. Cvičný cíl při každé zastávce kontroluje, kde jste. Pokud budete moc daleko, budete muset začít znovu od začátku.
+
+\b;Obecný postup
+Opakovat stále dokola:
+o  Najít cvičný cíl.
+o  Vypočítat vzdálenost k cíli.
+o  Pokud je vzdálenost menší než 5m, zacouvat.
+o  Jinak spočítat směrový úhel a popojet k cvičnému cíli.
+
+Stejně jako mnohokrát předtím, použijte cyklus \c;\l;while\u cbot\while; (true)\n; k vytvoření nekonečné smyčky:
+\s;\c;while (true)
+\s;{
+\s;	\n;příkazy, které se mají opakovat...\c;
+\s;}
+\n;
+Cvičný cíl najděte příkazem \c;\l;radar\u cbot\radar;\n;:
+\s;\c;	target = radar(TargetBot);
+\n;
+Nemusíte kontrolovat, jestli radar něco našel, protože jeden cvičný cíl v tomto cvičení být musí.
+
+Pro výpočet vzdálenosti mezi dvěma body použijte příkaz \c;\l;distance\u cbot\dist;( , )\n;. První bod bude poloha vašeho robota daná výrazem \c;position\n;. Druhý bod bude poloha cvičného cíle daná výrazem \c;target.position\n;.
+\s;\c;len = distance(position, target.position);
+\n;
+Pokud jste od cvičného cíle méně než 5m daleko, couvejte rychlostí nepřímo úměrnou vzdálenosti: čím blíže k němu jste, tím rychleji musíte couvat.
+	Vzdálenost = 5.0 metrů -> výkon =  0.0
+	Vzdálenost = 2.5 metru -> výkon = -0.5
+	Vzdálenost = 0.0 metrů -> výkon = -1.0
+Vhodný výkon motorů můžete vypočítat \l;výrazem\u cbot\expr; \c;distance/5-1\n; a vzdálenost od cvičného cíle kontrolujte příkazem \c;\l;if\u cbot\if;\n;:
+\s;\c;if ( len < 5 )  // moc blízko?
+\s;{
+\s;	motor(len/5-1, len/5-1);  // zacouvat
+\s;}
+\n;
+Pokud je vzdálenost od cvičného cíle větší než 5m, jeďte k němu. Nejprve příkazem \c;\l;direction\u cbot\direct;\n; spočítejte směrový úhel, o který se k němu musíte otočit. Pak můžete nastavit výkon motorů a vyjet k cíli:
+\s;\c;else
+\s;{
+\s;	dir = direction(target.position);
+\s;	if ( dir >= 0 )  // cíl je nalevo?
+\s;	{
+\s;		motor(1-dir/90, 1);
+\s;	}
+\s;	else  // cíl je napravo?
+\s;	{
+\s;		\n;zbytek dopište sami\c;
+\s;	}
+\s;}
+\n;
+Když bude cíl nalevo od robota, proměnná \c;dir\n; bude obsahovat kladnou hodnotu od 0 do 180. \l;Výraz\u cbot\expr; \c;1-dir/90\n; vrátí hodnotu výkonu od -1 do 1 v závislosti na směrovém úhlu:
+	úhel =   0 -> výkon =  1.0
+	úhel =  45 -> výkon =  0.5
+	úhel =  90 -> výkon =  0.0
+	úhel = 135 -> výkon = -0.5
+	úhel = 180 -> výkon = -1.0
+
+\image radar2_cs 14 10;
+Když bude cíl napravo od robota, \c;dir\n; bude obsahovat zápornou hodnotu od 0 do -180.
+
+Dále už musíte jen deklarovat \l;proměnné\u cbot\var;, které budete v programu používat. Proměnná \c;target\n; je typu \c;object\n;, zatímco proměnné \c;dir\n; a \c;len\n; jsou typu \c;float\n;.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

@@ -1,0 +1,16 @@
+\b;\button 149; Submersible
+\image botsub 8 8;
+Bot anfibio con orugas equipado con una garra operativa. El submersible es el único bot capaz de moverse y realizar operaciones bajo el agua.
+
+Es mejor verificar los niveles de la \l;celda de energía\u object\power; antes de sumergirse ya que reemplazarla o recargarla bajo el agua es imposible. El submersible solo puede recoger objetos del suelo, a diferencia de, por ejemplo, una batería de la parte trasera de otro bot.
+
+\t;Programación
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Para programar la garra operativa, usa \c;\l;grab\u cbot\grab;\n; y \c;\l;drop\u cbot\drop;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Subber\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

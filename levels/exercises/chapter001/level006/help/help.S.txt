@@ -1,0 +1,16 @@
+\b;Objetivo
+Elimina varias arañas cuya ubicación exacta desconocemos. Usa el radar del bot para encontrarlas.
+
+\t;Programa
+Encuentra la araña más cercana con la instrucción \c;\l;radar\u cbot\radar;(AlienSpider);\n;, como lo hicimos en los ejercicios anteriores con mineral de titanio y celdas de energía. Pero no vayas a la posición de la araña, el bot sería destruido antes de llegar allí. Solo gira hacia la araña. La instrucción \c;\l;dirección\u cbot\direct;(item.position)\n; calcula el ángulo de rotación que el bot debe realizar para apuntar a la araña. Para realmente apuntar a la araña, simplemente escribe:
+\c;
+\s;	\l;gira\u cbot\turn;(\l;dirección\u cbot\direct;(item.position));
+\n;
+Observa los dos corchetes de cierre al final de la línea, antes del punto y coma. Hay dos corchetes de apertura, así que debe haber dos corchetes de cierre.
+
+Luego dispara con la instrucción \c;\l;fuego\u cbot\fire;(1);\n;.
+
+Aquí también, puedes usar un bucle con \c;\l;mientras\u cbot\while; (true)\n; para no tener que ejecutar el programa de nuevo para cada araña, como hicimos en el ejercicio anterior.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

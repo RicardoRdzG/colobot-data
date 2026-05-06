@@ -1,0 +1,17 @@
+\b;Do Centro de Controle de Missões
+A expedição anterior nos forneceu uma informação sobre uma \l;matéria orgânica\u object\bullet;, que parece ser produzida pelas \l; formigas\u object\ant;, e que abriu novas possibilidades surpreendentes . Aparentemente, permite a criação de um novo tipo de robô mutante com melhor desempenho através do uso de partes de insetos.
+
+Sua missão é experimentar a primeira aplicação prática deste "ouro verde". Construa um \l;agarrador com pernas\u object\botgs;, carregue-o na espaçonave e decole.
+
+\b;Procedimento
+Pegue uma amostra de matéria orgânica de um ninho de formigas gigantes. A análise será realizada por um \l;autolab\u object\labo;, que também realizará a pesquisa necessária para permitir uma aplicação prática.
+
+A fim de melhorar sua capacidade de defesa, nós transmitimos um programa para seus \l;robôs agarradores\u object\botgr; que se encarrega de recarregar a célula de energia de uma \l;torre de defesa\u object\tower; ( veja <botão 53/>).
+
+\b;Nota
+A temperatura caiu significativamente, portanto, deve ser possível voar.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

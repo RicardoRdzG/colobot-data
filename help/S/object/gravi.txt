@@ -1,0 +1,9 @@
+\b;Planta Gravitacional
+\image gravi 8 8;
+Las plantas gravitacionales generan un campo de energía verde de 25 metros de radio que empuja hacia abajo a \l;tú\u object\human; y tus bots, haciendo imposible el vuelo.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;PlantaGravitacional\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

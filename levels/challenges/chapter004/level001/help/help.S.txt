@@ -1,0 +1,20 @@
+\b;Ejercicio
+El \l;bot\u object\bottr; debe pasar sobre todas las \l;cruces azules\u object\waypoint; en el suelo. El camino que debe recorrer está formado por dos cuadrados. El primero mide 15 metros, el segundo 25 metros.
+
+\image tproc1a 8 8;
+\b;Principio general
+Para resolver este problema, la solución más eficiente consiste en crear una \l;función\u cbot\function; que instruya al bot para moverse en forma de cuadrado de un cierto tamaño. El programa principal se vuelve entonces muy simple:\c;
+\c;
+\s;	extern void object::Function3( )
+\s;	{
+\s;		Square(15);
+\s;		Square(25);
+\s;	}
+\n;
+\b;Instrucciones útiles
+\c;\l;for\u cbot\for;\n; bucle para repetir algunas instrucciones
+\c;\l;move\u cbot\move;\n; para mover el bot
+\c;\l;turn\u cbot\turn;\n; para girar el bot
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

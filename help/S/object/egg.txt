@@ -1,0 +1,8 @@
+\b;Huevo Alienígena
+Los huevos alienígenas son puestos por la \l;Reina Alienígena\u object\mother;. Después de un tiempo, eclosionarán y saldrá una \l;hormiga\u object\ant;, una \l;avispa\u object\wasp;, una \l;araña\u object\spider; o un \l;gusano\u object\worm;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;AlienEgg\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

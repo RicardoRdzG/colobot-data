@@ -1,0 +1,11 @@
+\b;Zpráva z řídícího střediska
+Tato planeta se ukázala být pro kolonizaci nevhodná. Je na čase ji definitivně opustit. Vyzvedněte \l;černou skříňku\u object\bbox; po předchozí výpravě a pokračujte na další planetu.
+
+Průzkumný satelit hlásí, že se černá skříňka aktuálně nachází na dně údolí. Jenže informace ze satelitu mohou být kvůli rozsáhlé vrstvě elektromagnetického smogu poněkud nespolehlivé.
+
+Dávejte si pozor.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

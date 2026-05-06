@@ -1,0 +1,74 @@
+\b;Ejercicio
+Deja que el bot encuentre todas las \l;cruces azules\u object\waypoint; en el suelo. Tan pronto como el bot pase sobre una de las cruces, desaparecerá. Aquí está el principio general que aplicarás:
+
+Repite para siempre:
+	o  Busca una cruz
+	o  Si no hay ninguna, detén el programa.
+	o  Calcula la dirección de la cruz.
+	o  Ajusta la velocidad de los motores de manera que encuentren el camino hacia la cruz.
+
+\b;El programa
+Usa un bucle \c;\l;mientras\u cbot\while;\n; para repetir varias instrucciones una y otra vez:
+\s;\c;mientras ( true )
+\s;{
+\s;	\n;instrucciones...\c;
+\s;}\c;mientras ( true )
+\s;{
+\s;	\n;instrucciones...\c;
+\s;}
+\n;
+La instrucción \c;\l;radar\u cbot\radar;\n; detectará las cruces azules y guardará su descripción en una variable, por ejemplo \c;spot\n;. En este caso, \c;\l;radar\u cbot\radar;()\n; necesita solo un parámetro, es decir, la categoría del objeto que debe buscar:
+\s;\c;spot = radar(WayPoint);
+\n;
+Una vez que se han encontrado todas las cruces, \c;radar\n; devolverá el valor \c;\l;null\u cbot\null;\n;. Tendrás que probar este caso y reaccionar en consecuencia con la instrucción \c;\l;si\u cbot\if;\n;:
+\s;\c;if ( spot == null )  // no more ?
+\s;{
+\s;	motor(0, 0);  // detén los motores
+\s;	break;        // detiene el bucle
+\s;}\c;si ( spot == null )  // ¿no hay más?
+\s;{
+\s;	motor(0, 0);  // detén los motores
+\s;	romper;       // detiene el bucle
+\s;}
+\n;La instrucción \c;\l;romper\u cbot\break;\n; detendrá el bucle infinito \c;mientras (true)\n;.
+
+Usa la instrucción \c;\l;dirección\u cbot\direct;()\n; para calcular el ángulo de rotación que el bot debe realizar para girarse hacia la cruz azul. Las coordenadas del objeto están dadas por \c;spot.position\n;. La siguiente línea colocará el ángulo de rotación necesaria en la \l;variable\u cbot\var; \c;dir\n;:
+\s;\c;dir = dirección(spot.position);
+\n;
+El valor del ángulo es positivo si la cruz azul está en tu mano izquierda, y negativo si está en tu mano derecha. Si la cruz a alcanzar está en tu mano izquierda, debes configurar el motor derecho a máxima velocidad y configurar el motor izquierdo a una velocidad menor, según el ángulo:
+
+    direction = \c;  0\n; -> speed = \c; 1.0\n;
+    direction = \c; 45\n; -> speed = \c; 0.5\n;
+    direction = \c; 90\n; -> speed = \c; 0.0\n;
+    direction = \c;135\n; -> speed = \c;-0.5\n;
+    direction = \c;180\n; -> speed = \c;-1.0\n;    dirección = \c;  0\n; -> velocidad = \c; 1.0\n;
+    dirección = \c; 45\n; -> velocidad = \c; 0.5\n;
+    dirección = \c; 90\n; -> velocidad = \c; 0.0\n;
+    dirección = \c;135\n; -> velocidad = \c;-0.5\n;
+    dirección = \c;180\n; -> velocidad = \c;-1.0\n;
+
+El gráfico de abajo muestra la velocidad del motor izquierdo y derecho según la instrucción \c;\l;motor\u cbot\motor;\n;, según el ángulo:
+
+\image radar2 14 10;
+Si la cruz está directamente adelante, el ángulo es 0 grados. Los motores recibirán las velocidades 1 y 1, lo que significa máxima velocidad adelante. Si la cruz está detrás, el motor derecho se configurará a velocidad -1: girará. Puedes usar la \l;expresión\u cbot\expr; \c;1+dir/90\n; para calcular la velocidad necesaria de los motores:
+\s;\c;if ( dir < 0 )  // on the right side?
+\s;{
+\s;	motor(1, 1+dir/90);  // turns more or less
+\s;}\c;si ( dir < 0 )  // ¿en el lado derecho?
+\s;{
+\s;	motor(1, 1+dir/90);  // gira más o menos
+\s;}
+\n;
+Usa el mismo principio si el ángulo tiene un valor positivo, entre 0 y 180 grados. Depende de ti determinar las instrucciones exactas a realizar:
+\s;\c;else  // on the left side?
+\s;{
+\s;	\n;up to you to fill in here...\c;
+\s;}\c;si_no  // ¿en el lado izquierdo?
+\s;{
+\s;	\n;¡a ti decidir!...\c;
+\s;}
+\n;
+Al principio del programa, todavía debes declarar todas las variables. \c;spot\n; es de tipo \c;\l;object\u cbot\object;\n;, mientras que \c;dir\n; es de tipo \c;\l;float\u cbot\float;\n;.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

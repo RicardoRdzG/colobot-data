@@ -1,0 +1,11 @@
+\b;Az irányítóközpontból
+Szerezd meg a feketedobozt.
+
+Az elektromágneses villámok gyakrabban csapnak le, mint korábban. Meg kell védened a felszerelésedet.
+
+Felhívjuk a figyelmedet, hogy az űrhajód természetes villámhárítóként működik, de mérnökeink biztosítanak arról, hogy az űrruhád nem vonzza a villámokat.
+
+A \key;\key help;\norm; megnyomásával bármikor újra megtekintheted ezeket az utasításokat a saját SatCom-odon \button 63;.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

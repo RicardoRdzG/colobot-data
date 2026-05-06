@@ -1,0 +1,21 @@
+\b;Passo a passo
+Aqui está uma análise dos passos a seguir para voltar à nave espacial.
+
+1) Contorne o lago e siga em direção ao globo fluorescente verde. Este globo é gerado por uma gravi-planta que tornará o voo impossível dentro do globo.
+
+2) Siga o flanco esquerdo do vale, passando por um lago à sua direita e suba a pequena encosta. No topo você estará enfrentando algumas formigas gigantes: corra o mais rápido que puder para outra gravi-planta um pouco mais à sua direita, suas feridas terão tempo para curar mais tarde.
+
+3) Use seu reator para voar pelo lago antes da gravi-planta à sua direita.
+
+4) Quando você deixar a gravi-planta, mantenha-se no lado esquerdo do lago e siga a margem até chegar a uma península adornada com plantas semelhantes a samambaias.
+
+5) Faça um passeio de ilha pelo lago maior. Aponte para as árvores, a fim de evitar cair na água do outro lado da ilha. A última ilha está 50 cm abaixo d'água, mas você ainda pode pousar nela sem ter sua cabeça submersa.
+
+6) O caminho continua para a esquerda. Uma formiga gigante está esperando por você lá, mas não fará muito mal a você.
+
+7) Dê ao seu reator tempo suficiente para esfriar e depois vôe pelo pequeno lago. Tente pousar o mais alto que puder, essa é a melhor maneira de não cair no segundo lago.
+
+8) Atravesse o segundo lago, suba a bordo da espaçonave e decole.
+
+\t;Veja também
+\l;Controles\u command;

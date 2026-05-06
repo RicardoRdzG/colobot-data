@@ -1,0 +1,20 @@
+\b;Informace ze satelitu
+Aktuálně na stacionární oběžné dráze Tropiky.
+\c;
+\s;-> POVRCH\c;
+\tab;Teplota:           29,6 °C
+\tab;Atmosféra:         helium, kyslík
+\tab;Vítr:              1,5 m/s
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+
+\s;-> PODZEMNÍ LOŽISKA\c;
+\tab;Zdroj energie:     lokální (modrá vlajka)
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+
+\s;-> DOPLŇUJÍCÍ INFORMACE\c;
+\tab;Nalezeno:          obří mravenci
+\tab;  - Nebezpečí:     není bezprostřední
+\tab;Nalezeno:          recyklovatelné vraky
+\n;

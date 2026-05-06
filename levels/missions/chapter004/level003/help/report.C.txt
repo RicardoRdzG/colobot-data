@@ -1,0 +1,21 @@
+\b;Informace ze satelitu
+Aktuálně na stacionární oběžné dráze Krystalia.
+\c;
+\s;-> POVRCH\c;
+\tab;Teplota:           4,3 °C
+\tab;Atmosféra:         dusík
+\tab;Vítr:              0,0 m/s
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+
+\s;-> PODZEMNÍ LOŽISKA\c;
+\tab;Zdroj energie:     žádný
+\tab;Titanová ruda:     žádná
+\tab;Uranová ruda:      žádná
+
+\s;-> DOPLŇUJÍCÍ INFORMACE\c;
+\tab;Nalezeno:          obří mravenci
+\tab;  - Nebezpečí:     není bezprostřední
+\tab;Nalezeno:          neznámé organizmy
+\tab;  - Nebezpečí:     ?
+\n;

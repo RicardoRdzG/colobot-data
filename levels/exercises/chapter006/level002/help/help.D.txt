@@ -1,0 +1,34 @@
+\b;Übung
+Folgen Sie dem spiralförmigen Weg. Der Roboter muss sich 2 mal um 25m nach vorn bewegen und sich anschließend drehen, dann 2 mal 20m vorwärts und drehen, usw.
+\image tproc2 8 8;
+\b;Die Funktion
+Sie werden bemerkt haben, dass der Weg aus L-förmigen Teilen besteht, die ineinander passen. Das erste (dunkelblau) misst zwei mal 25 Meter. Das zweite (hellblau) misst 5 Meter weniger. Fangen wir damit an, die \l;Funktion\u cbot\function; zu schreiben, die den Roboter auf einem L-förmigen Teil entlang bewegt, dessen Länge als Parameter übergeben wird:
+\c;
+\s;void object::Part(\l;float\u cbot\type; length)
+\s;{
+\s;	\l;for\u cbot\for; ( int i=0 ; i<2 ; i=i+1 )
+\s;	{
+\s;		\l;move\u cbot\move;(length);
+\s;		\l;turn\u cbot\turn;(90);
+\s;	}
+\s;}
+\n;
+Nun müssen Sie nur noch die Hauptfunktion schreiben, welche einfach die Funktion \c;Part\n; aufruft. Zu Beginn setzen wir die Variable \c;rest\n; auf 25m. Die \c;\l;while\u cbot\while;\n;-Schleife wiederholt die Anweisungen innerhalb des Blockes, solange \c;rest\n; größer als Null ist. Innerhalb der Schleife wird zunächst die Funktion \c;Part\n; (siehe oben), aufgerufen und von \c;rest\n; werden 5m subtrahiert.
+\c;
+\s;extern void object::Function2( )
+\s;{
+\s;	float	rest = 25;
+\s;	while ( rest > 0 )
+\s;	{
+\s;		Part(rest);
+\s;		rest = rest-5;
+\s;	}
+\s;}
+\n;
+Die Funktion \c;Part\n; wird zuletzt mit dem Wert \c;5\n; aufgerufen. Danach setzt der Ausdruck \c;rest-5\n; den Wert der Variablen \c;rest\n; auf Null, und die \c;\l;while\u cbot\while;\n;-Schleife wird beendet.
+
+\b;Hinweis
+Sie werden bemerkt haben, dass in der vorhergehenden Übung die Hauptfunktion ganz am Anfang des Programmes stand, wogegen sie sich in diesem Beispiel am Ende befindet; hinter der Funktion \c;Part\n;. Die Reihenfolge der Funktionen im Programm ist gleichgültig. Sie können ein Programm anordnen, wie Sie wollen.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

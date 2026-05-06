@@ -1,0 +1,13 @@
+\b;Del Control de Misiones
+Construye un \l;radar\u object\radar; en el punto más alto del área. Asegúrate de que el radar funcionará de manera segura incluso después de tu partida a otros planetas. Tu \l;centro de investigación\u object\research; debería poder proporcionar una solución.
+
+Es posible que los organismos detectados sean de hecho los \l;gusanos\u object\worm; a los que aludió la primera expedición. Si este es efectivamente el caso, no te alarmes excesivamente: parecen bastante inofensivos para los organismos vivos pero podrían hacer que los programas de los bots y edificios funcionen mal mediante la emisión de virus.
+
+Los radares no solo te proporcionan información valiosa sobre objetos y organismos presentes en la región, también transmiten información hacia y desde la Tierra una vez que hayas despegado hacia otros planetas. Es altamente probable que problemas con las estaciones de radar construidas por la primera expedición causaran los problemas de transmisión de los que somos conscientes.
+
+Para ayudarte con la tediosa tarea de recopilar la materia prima necesaria, hemos desarrollado un programa que instruye al \l;recogedor con ruedas\u object\botgr; a buscar \l;mineral de titanio\u object\titanore; por su cuenta (ver la página de programación \button 53;).
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

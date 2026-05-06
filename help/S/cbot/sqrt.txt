@@ -1,0 +1,12 @@
+\b;Instrucción \c;sqrt\n;
+Sintaxis:
+\s;\c;sqrt ( valor );\n;
+
+\t;valor: \c;\l;float\u cbot\float;\n;
+Número no negativo.
+
+\t;Valor de retorno: \c;\l;float\u cbot\float;\n;
+Raíz cuadrada del valor.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;expresiones\u cbot\expr;.

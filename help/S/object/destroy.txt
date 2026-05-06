@@ -1,0 +1,24 @@
+\b;\button 169; Destructor
+\image destroy 8 8;
+Este edificio fue diseñado para destruir objetos. El objeto solo necesita colocarse en el centro de la plataforma y se puede presionar el botón. El destructor se encarga del resto.
+
+\t;Requisitos para construir
+Cualquier superficie plana de al menos 10 metros de ancho.
+
+\t;Entrada
+Objeto que ya no se necesita.
+
+\t;Salida
+Satisfacción.
+
+\t;Fuente de energía
+Ninguno.
+
+\t;Duración de operación
+5 segundos.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Destroyer\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;variables\u cbot\type; y \l;categorías\u cbot\category;.

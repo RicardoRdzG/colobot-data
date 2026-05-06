@@ -1,0 +1,43 @@
+\b;Objetivo
+Derriba a las avispas voladoras.
+
+\t;Programa
+Aquí está nuevamente el programa del ejercicio anterior que dispara a todas las hormigas y se adapta al terreno:
+\c;
+\s;extern void object::JetFighter2()
+\s;{
+\s;	\l;object\u cbot\type; item;
+\s;	
+\s;	\l;aim\u cbot\aim;(-20);
+\s;	
+\s;	\l;while\u cbot\while; (true)
+\s;	{
+\s;		\l;while\u cbot\while; (\l;radar\u cbot\radar;(AlienAnt, 0, 360, 0, 20) == null)
+\s;		{
+\s;			item = \l;radar\u cbot\radar;(AlienAnt);
+\s;			\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;			\l;motor\u cbot\motor;(1,1);
+\s;			
+\s;			\l;jet\u cbot\jet;(0);
+\s;			\l;if\u cbot\if; (position.z-topo(position) < 6)
+\s;			{
+\s;				\l;jet\u cbot\jet;(1);
+\s;			}
+\s;			
+\s;			\l;if\u cbot\if; (position.z-topo(position) > 9)
+\s;			{
+\s;				\l;jet\u cbot\jet;(-1);
+\s;			}
+\s;			\l;wait\u cbot\wait;(0.2);
+\s;		}
+\s;		\l;fire\u cbot\fire;(1);
+\s;	}
+\s;}
+\n;
+Para adaptar el programa a disparar avispas, necesitas hacer algunos cambios. Reemplaza todos los \c;radar(AlienAnt)\n; con \c;radar(AlienWasp)\n;. El cañón debe apuntar hacia adelante y no hacia abajo, reemplaza \c;aim(-20);\n; con \c;aim(0);\n;. Y el bot debe volar a la misma altura que la avispa. Para esto, debes comparar la altitud del bot dada por \c;position.z\n; con la altitud de la avispa dada por \c;item.position.z\n;: si \c;position.z > item.position.z\n;, baja lentamente con \c;jet(-0.3);\n;. Si \c;position.z < item.position.z-1\n;, sube lentamente con \c;jet(0.3);\n;. Un disparador alado está más alto que una avispa, por lo tanto es mejor si la altitud del bot es un poco más baja que la altitud de la avispa. En este caso, admitimos que la altitud del bot oscila entre la altitud de la avispa y la altitud de la avispa menos 1.
+
+\t;Mejora adicional
+Las avispas se mueven muy rápido. Para aumentar tus posibilidades de alcanzarlas, es mejor repetir justo antes del \c;fire(1);\n; un \c;radar\n; y un \c;turn\n; para realizar un último reajuste de la dirección antes del disparo.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,129 @@
+\b;Exercício
+Controle remotamente um robô escravo sem usar um \l;posto de troca de informações\u object\exchange;. O robô deve passar pelas 6 cruzes azuis. Você deve usar uma variável \c;\l;estática\u cbot\static;\n; para passar as ordens para o robô escravo.
+
+Os dois principais atores deste exercício são:
+1) O \l;agarrador com rodas\u object\botgr; sem uma célula de energia e, portanto, imóvel. Este é o mestre que você deve programar para transmitir ordens ao escravo.
+2) O \l;robô de prática\u object\bottr; escravo que já está programado e apenas aguarda ordens do mestre.
+
+\b;O escravo
+Primeiro de tudo, devemos entender como funciona o programa do escravo. A classe \l;classe\u cbot\class; \c;ordem\n; contém dois membros: \c;m_tipo\n; é a ordem para executar (mover ou girar) e <code>m_param</code > é a distância para se mover ou o ângulo de rotação:
+
+\c;\s;\l;public\u cbot\public; \l;class\u cbot\class; ordem
+\s;{
+\s;	\l;int\u cbot\int;    m_tipo = \l;nan\u cbot\nan;;
+\s;	\l;float\u cbot\float;  m_param;
+\s;}
+\n;
+Uma segunda \l;classe\u cbot\class; \c;troca</ code> contém o mecanismo para trocar as ordens. Nós declaramos um membro de classe <code>\l;estático\u cbot\static;\n; \c;m_ordem\n; que conterá a ordem a ser executada. A palavra \c;static\n; assegura que o membro \c;m_ordem\n; seja compartilhado entre todas as instâncias da classe \l;troca\u cbot\class;.
+
+\c;\s;\l;public\u cbot\public; \l;class\u cbot\class; troca
+\s;{
+\s;	\l;static\u cbot\static; \l;private\u cbot\private; ordem m_ordem = new ordem;
+\n;
+<n /> O método \c;colocar\n; será usado pelo robô mestre para transmitir um pedido. Enquanto \c;m_ordem\n; é diferente de \c;\l;nan\u cbot\nan;\n;, o escravo não finalizou o pedido e o método \c;colocar</ code> retornará <code> false \n; e não fará nada:
+
+\c;\s;	\l;synchronized\u cbot\synchro; \l;bool\u cbot\bool; colocar(ordem a)
+\s;	{
+\s;		if ( m_ordem.m_tipo == nan )
+\s;		{
+\s;			m_ordem = a;
+\s;			return true;
+\s;		}
+\s;		else
+\s;		{
+\s;			return false;
+\s;		}
+\s;	}
+\n;
+Outro método \c;pegar\n; será usado pelo escravo para recuperar as ordens. Este método retorna o pedido a ser executado:
+
+\c;\s;	\l;synchronized\u cbot\synchro; order pegar()
+\s;	{
+\s;		return m_ordem;
+\s;	}
+\n;
+Um terceiro método \c;excluir\n; será usado pelo escravo para indicar que o pedido foi executado:
+
+\c;\s;	\l;synchronized\u cbot\synchro; void excluir()
+\s;	{
+\s;		m_ordem.m_tipo = nan;
+\s;	}
+\s;}
+\n;
+O programa principal do escravo contém uma instância da classe \c;troca\n; chamada \c;lista\n;. Nós colocamos () depois da palavra \c;lista\n; para criar uma instância da classe \c;troca\n;.
+
+\c;\s;\l;extern\u cbot\extern; void object::Escravo3( )
+\s;{
+\s;	troca lista();
+\s;	ordem    para_fazer;
+\n;
+O laço externo \c;while\n; dura para sempre. O laço interno \c;while\n; espera por uma ordem usando o método \c;pegar\n; da classe \c;troca\n;. Assim que \c;pegar\n; retorna um valor diferente de \c;nan\n;, o laço while para.
+
+\c;\s;	\l;while\u cbot\while; ( true )
+\s;	{
+\s;		\l;while\u cbot\while; ( true )
+\s;		{
+\s;			para_fazer = lista.pegar();
+\s;			if ( para_fazer.m_tipo != nan )  break;
+\s;			wait(1);
+\s;		}
+\n;
+Agora recebemos a ordem na variável \c;para_fazer\n;. Tudo o que temos a fazer é executá-la:
+
+\c;\s;		if ( para_fazer.m_tipo == 1 )
+\s;		{
+\s;			move(para_fazer.m_param);
+\s;		}
+\s;		else if ( para_fazer.m_tipo == 2 )
+\s;		{
+\s;			turn(para_fazer.m_param);
+\s;		}
+\s;		else
+\s;		{
+\s;			message("Ordem desconhecida");
+\s;		}
+\n;
+Assim que a execução do pedido estiver concluída, devemos chamar o método \c;excluir\n; para que o mestre saiba que outro pedido pode ser enviado:
+
+\c;\s;		lista.excluir();
+\s;	}
+\s;}
+\n;
+\b;O mestre
+No mestre nós escrevemos uma função chamada \c;EnviarOrdem\n; que irá enviar um pedido para o escravo:
+
+\c;\s;void object::EnviarOrdem(float ordem, float param)
+\s;{
+\s;	troca lista();
+\s;	ordem    para_fazer();
+\s;	
+\s;	para_fazer.m_tipo = ordem;
+\s;	para_fazer.m_param = param;
+\s;	
+\s;	while ( lista.colocar(para_fazer) == false )
+\s;	{
+\s;		wait(1);
+\s;	}
+\s;}
+\n;
+O laço \c;while\n; aguarda até que uma ordem pendente seja finalizada, ou seja, o escravo tenha saído do método \c;pegar</ code> e o método <code>excluir\n; tenha sido chamado . 
+Agora o programa principal do mestre é muito simples:
+
+\c;\s;extern void object::Remoto4( )
+\s;{
+\s;	EnviarOrdem(1, 20);  // move(20);
+\s;	EnviarOrdem(2, 90);  // turn(90);
+\s;	EnviarOrdem(1, 20);  // move(20);
+\s;	EnviarOrdem(2, 90);  // turn(90);
+\s;	EnviarOrdem(1, 10);  // move(10);
+\s;	EnviarOrdem(2, 90);  // turn(90);
+\s;	EnviarOrdem(1, 10);  // move(10);
+\s;	EnviarOrdem(2,-90);  // turn(-90);
+\s;	EnviarOrdem(1, 10);  // move(10);
+\s;}
+\n;
+\key;\key help;\norm; mostra essas instruções a qualquer momento.
+
+
+\t;Veja também
+\l;Controles e <a cbot>Linguagem CBOT\u command;

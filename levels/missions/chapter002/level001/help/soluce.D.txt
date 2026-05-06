@@ -1,0 +1,15 @@
+\b;Schritt für Schritt
+Um ein \l;Forschungszentrum\u object\research; zu bauen, legen Sie einen \l;Titanwürfel\u object\titan; auf eine ebene Fläche in der Nähe des Raumschiffes. \l;Sie\u object\human; können den Würfel selbst tragen oder den bereitgestellten \l;Transporter\u object\botgr; benutzen.
+
+Falls Sie den Roboter benutzt haben, bewegen Sie ihn weg vom Würfel, damit er den Bau des Gebäudes nicht stört. Um sich selbst auszuwählen (nur Sie können Gebäude bauen), benutzen Sie \key;\key human;\norm;.
+
+Gehen Sie zum \l;Titanwürfel\u object\titan; und bauen Sie ein \l;Forschungszentrum\u object\research; \button 163;. Setzen Sie eine \l;Batterie\u object\power; in das \l;Forschungszentrum\u object\research;, selektieren Sie das Gebäude und klicken Sie auf das Symbol \button 65;, um das <Forschungsprogramm Jetantrieb> auszuführen.
+
+Bauen Sie nun eine \l;Roboterfabrik\u object\factory; indem Sie genauso vorgehen und legen Sie einen \l;Titanwürfel\u object\titan; in die Mitte des Gebäudes. Produzieren Sie einen \l;Jettransporter\u object\botgj; mit dem \button 139; Symbol und laden Sie ihn mit einer \l;Batterie\u object\power;.
+
+Es ist sinnvoll, wenn Sie die Gegend selbst erkunden, denn das spart Energie. Sie finden die Titanerzbrocken auf dem Grund einiger Krater nördlich des Raumschiffes. Eine \l;Markierung\u object\flag; kann Ihnen helfen, diese Orte bei weiteren Flügen wiederzufinden.
+
+Sammeln Sie 4 Brocken \l;Titanerz\u object\titanore; und bringen Sie sie an Bord Ihres \l;Raumschiffes\u object\base;. Nehmen Sie den \l;Jettransporter\u object\botgj; und den \l;Radtransporter\u object\botgr; mit, wenn Sie abheben \button 28;.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

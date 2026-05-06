@@ -1,0 +1,166 @@
+\b;Funciones
+La función, en pocas palabras, es una instrucción creada por ti.
+
+\b;Función principal
+Probablemente ya sabes cómo crear una función. Todos los programas en CBOT deben tener una función principal, que tiene este aspecto:
+\c;
+\s;extern void object::NombrePrograma()
+\s;{
+\s;	
+\s;	// instrucciones
+\s;	
+\s;}
+\n;
+En la función principal solo se puede cambiar el nombre. La palabra clave \c;\l;extern\u cbot\extern;\n; distingue la función principal de las demás.
+
+\b;Uso básico
+Con las funciones puedes dividir tu programa en varias partes. Cada una de ellas ejecutará una tarea específica. Por ejemplo, observa el siguiente programa:
+\c;
+\s;extern void object::Remote()
+\s;{
+\s;	send("orden", 1, 100);
+\s;	wait(5);
+\s;	send("orden", 3, 100);
+\s;	wait(5);
+\s;	send("orden", 2, 100);
+\s;	wait(5);
+\s;	send("orden", 4, 100);
+\s;	wait(5);
+\s;}
+\n;
+\c;\l;send\u cbot\send;\n;( Enviar ) y \c;\l;wait\u cbot\wait;( esperar )\n; se repiten varias veces. Por lo tanto, sería conveniente crear una función que ejecute estas dos instrucciones:
+\c;
+\s;void SendToPost(float op)
+\s;{
+\s;	send("orden", op, 100);
+\s;	wait(5);
+\s;}
+\s;
+\s;extern void object::Remote()
+\s;{
+\s;	SendToPost(1);
+\s;	SendToPost(3);
+\s;	SendToPost(2);
+\s;	SendToPost(4);
+\s;}
+\n;
+Ahora el programa es mucho más fácil de leer. Es una buena práctica dividir el programa en varias funciones con nombres descriptivos.
+
+\b;Sintaxis
+\c;
+\s;tipo_resultado NombreFuncion(parametros_opcionales)
+\s;{
+\s;	cuerpo
+\s;}
+\n;
+\l;El tipo\u cbot\type; de resultado debe ser \l;void\u cbot\void; si la función no devuelve ninguno. El cuerpo es simplemente un conjunto de instrucciones. El nombre de la función debe crearse siguiendo exactamente las mismas reglas que se aplican a \l;las variables\u cbot\var;.
+
+\t;Parámetros
+Una función puede tener parámetros:
+\c;
+\s;void Ejemplo(int a, float x, string s)
+\s;{
+\s;	message(a);
+\s;	message(x);
+\s;	message(s);
+\s;}
+\n;
+La función \c;Ejemplo\n; recibirá un \l;entero\u cbot\int; \c;a\n;, un \l;número de punto flotante\u cbot\float; \c;x\n; y una \l;cadena de caracteres\u cbot\string;  \c;s\n;. Los parámetros se "pasan por valor", es decir, los valores de las variables de parámetro en una función son copias de los valores que el llamador especificó como variables. Si pasas un \c;\l;int\u cbot\int;\n; a una función, su parámetro es una copia de cualquier valor que se pasara como argumento, y la función puede cambiar su valor de parámetro sin afectar los valores en el código que invocó la función.
+
+Si pasas una instancia \l;de clase\u cbot\class; o un \l;array\u cbot\array; como parámetro a una función, la función solo recibe una \l;referencia\u cbot\pointer; a la instancia o el array. Eso significa que si modificas la instancia o el array en la función, la instancia o el array que ha sido especificada por quien realiza la llamada se modificará realmente.
+
+\t;Resultado
+Una función también puede devolver un resultado con la instrucción \c;\l;return\u cbot\return;\n;. Por lo tanto, la función debe declararse ya no como \c;\l;void\u cbot\void;\n; sino como otro \l;tipo\u cbot\type;:
+\c;
+\s;float Promedio(float a, float b)
+\s;{
+\s;	return (a+b)/2;
+\s;}
+\s;
+\s;extern void object::Test( )
+\s;{
+\s;	float valor;
+\s;	valor = Promedio(2, 6);
+\s;	message(valor);  // mostrará 4
+\s;}
+\n;
+Otros ejemplos:
+\c;
+\s;float Pi()
+\s;{
+\s;	return 3.1415;
+\s;}
+\s;
+\s;string Sign(float a)
+\s;{
+\s;	if (a > 0)  return "positivo";
+\s;	if (a < 0)  return "negativo";
+\s;	return "nulo";
+\s;}
+\n;
+
+\b;Sobrecarga (Overloading)
+Puedes declarar varias funciones con el mismo nombre pero con parámetros diferentes:
+\c;
+\s;float Pitagoras(float a, float b)
+\s;{
+\s;	return sqrt((a*a)+(b*b));
+\s;}
+\s;
+\s;float Pitagoras(float a, float b, float c)
+\s;{
+\s;	return sqrt((a*a)+(b*b)+(c*c));
+\s;}
+\n;
+CBOT llamará a una u otra función dependiendo de los parámetros pasados. Deben ser distinguibles, es decir, no puedes declarar dos funciones con el mismo nombre y tipos de parámetros en el mismo orden exacto, por ejemplo, declarar \c;int Pitagoras(float b, float a)\n; dará lugar a un error. Ten en cuenta que el tipo de resultado no importa.
+
+\b;Funciones públicas
+También puedes declarar una función \l;public\u cbot\public; para que pueda ser usada por otros bots.
+
+\b;object::
+Declarar una función como parte del espacio de nombres \l;object\u cbot\object; le da acceso la \l;referencia\u cbot\pointer; \c;\l;this\u cbot\this;\n; ( esto ), en otras palabras, a todas las propiedades disponibles del robot en el que se ejecuta el programa.
+\c;
+\s;void object::Ejemplo()
+\s;{
+\s;	message(this.category);
+\s;}
+\n;
+
+\b;Parámetros Predeterminados
+Los últimos parámetros de la función pueden tener valores predeterminados que pueden omitirse al llamar.
+\c;
+\s;float Suma(float a = 0.0, float b = 0.0)
+\s;{
+\s;	return a + b;
+\s;}
+\s;
+\s;// Alguna parte del programa principal...
+\s;Suma(); // Regresará 0.0
+\s;Suma(2.0); // Regresará 2.0
+\s;Suma(2.0, 3.0); // Regresará 5.0
+\s;// ...
+\n;
+
+\t;Parámetros Predeterminados y Sobrecarga
+Las funciones con parámetros predeterminados también se pueden sobrecargar, solo asegúrate que las llamadas a la función no sean ambiguas. Por ejemplo, considera el siguiente código:
+\c;
+\s;float Suma(float a = 0.0, float b = 0.0)
+\s;{
+\s;	return a + b;
+\s;}
+\s;
+\s;string Suma(string a = "", string b = "")
+\s;{
+\s;	return a + b;
+\s;}
+\s;
+\s;// Alguna parte del programa principal...
+\s;Suma(); // Error de compilation: llamada ambigua
+\s;Suma(""); // Ok
+\s;Suma(0.0); // Ok
+\s;// ...
+\n;
+Ten en cuenta que, en el ejemplo anterior, la sobrecarga hace que el primer parámetro predeterminado sea inútil, ya que el autor de la llamada tiene que pasarlo de todos modos para distinguir entre las dos funciones.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,20 @@
+\b;Instrucción \c;strfind\n;
+Encuentra una subcadena en una cadena y devuelve la posición de la primera subcadena encontrada o \l;nan\u cbot\nan;si la subcadena no ha sido encontrada.
+
+Sintaxis:
+\s;\c;strfind (cadena, sub);\n;
+
+\t;cadena: \c;\l;string\u cbot\string;\n;
+Cadena en la que estamos buscando.
+
+\t;sub: \c;\l;string\u cbot\string;\n;
+Subcadena que estamos buscando.
+
+Ejemplos:
+\s;\c;	int pos = strfind("abcdef", "ab"); // pos sera 0
+\s;	int pos = strfind("abcdef", "de"); // pos sera 3
+\s;	int pos = strfind("abcdef", "xy"); // pos sera \l;nan\u cbot\nan;
+\n;
+\t;Ver también
+\c;\l;strlen\u cbot\strlen;\n;, \c;\l;strleft\u cbot\strleft;\n;, \c;\l;strright\u cbot\strright;\n;, \c;\l;strmid\u cbot\strmid;\n;, \c;\l;strval\u cbot\strval;\n;, \c;\l;strupper\u cbot\strupper;\n;, \c;\l;strlower\u cbot\strlower;\n;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

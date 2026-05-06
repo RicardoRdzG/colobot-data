@@ -1,0 +1,9 @@
+\b;Guía Paso a Paso
+Encontrarás un \l;radar\u object\radar;, un \l;captor de energía\u object\captor;, una \l;celda de energía\u object\power; y un \l;disparador de orgánica alado\u object\botoj; en el valle al sur de la nave espacial. Esto te permitirá matar a las hormigas cerca de la nave espacial y localizar la \l;caja negra\u object\bbox; en el norte junto a los restos de la nave espacial de la primera expedición.
+
+Construye una sucesión de \l;captores de energía\u object\captor; a lo largo del camino natural ofrecido por las cumbres de las montañas del norte. 5 o 6 captores deberían ofrecer suficiente protección contra los rayos.
+
+Lleva la caja negra de vuelta a bordo de tu \l;nave espacial\u object\base; y despega.
+
+\t;Ver también
+\l;Controles\u command;

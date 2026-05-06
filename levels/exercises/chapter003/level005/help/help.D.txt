@@ -1,0 +1,36 @@
+\b;Übung
+In dieser Übung enthalten die \l;Infoserver\u object\exchange; auf Ihrem Weg die Richtung und die Entfernung des nächsten Infoservers. Außerdem kennen Sie nicht die Anzahl der Infoserver mit denen Sie in Kontakt treten müssen, bevor Sie Ihr Ziel erreicht haben werden.
+
+\b;Vorgehensweise
+	Wiederhole immer wieder:
+	o  Empfange die Richtung vom \l;Infoserver\u object\exchange;.
+	o  Empfange die Entfernung vom \l;Infoserver\u object\exchange;.
+	o  Falls keine Information vorhanden war, Programm anhalten.
+	o  Drehung ausführen.
+	o  Vorwärts zum nächsten Infoserver bewegen.
+
+Benutzen Sie eine \c;\l;while\u cbot\while; (\l;true\u cbot\true;)\n; - Schleife, um die ständige Wiederholung zu realisieren. Die Anweisungen zwischen den geschweiften Klammern \c;{ }\n; werden immer und immer wieder ausgeführt, bis eine \c;\l;break\u cbot\break;\n;-Anweisung ausgeführt wird.
+\s;\c;	\l;while\u cbot\while; (\l;true\u cbot\true;)
+\n;
+Dieses Mal benötigen Sie 2 \l;Variablen\u cbot\var;: eine für den Drehungswinkel und eine für die Entfernung. Diese könnten \c;dir\n; und \c;len\n; heißen:
+\s;\c;	\l;float\u cbot\type;  dir, len;
+\n;
+Nun können Sie die Informationen empfangen:
+\s;\c;	dir = \l;receive\u cbot\receive;("Direction");
+\s;\c;	len = \l;receive\u cbot\receive;("Length");
+\n;
+Eine Variable des \l;Typs\u cbot\type; \c;\l;float\u cbot\float;\n; kann einen speziellen Wert namens \c;\l;nan\u cbot\nan;\n; enthalten. Dieser Wert zeigt an, dass die Variable keine Zahl enthält (Not A Number).
+Befindet sich kein \l;Infoserver\u object\exchange; in der Nähe, weil der Roboter entweder das Ziel erreicht oder den falschen Weg eingeschlagen hat, so enthalten die Variablen \c;dir\n; und \c;len\n; diesen Wert. Sie können das mit einer \c;\l;if\u cbot\if;\n;-Anweisung prüfen und das Programm wenn nötig mittels \c;\l;break\u cbot\break;\n; beenden:
+\s;\c;	\l;if\u cbot\if; ( dir == \l;nan\u cbot\nan; )  \l;break\u cbot\break;;
+\n;
+Verlief der Empfang der Information vom \l;Infoserver\u object\exchange; erfolgreich, so führen Sie die Drehung aus:
+\s;\c;	\l;turn\u cbot\turn;(dir);
+\n;
+Und fahren Sie nach vorn:
+\s;\c;	move(len);
+\n;
+\b;Hinweis
+Sie können einen \l;Infoserver\u object\exchange; anklicken, um in Erfahrung zu bringen, welche Informationen er enthält. In dieser Übung enthält jeder Server nur die beiden Werte mit den Namen \c;"Direction"\n; und \c;"Length"\n;.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

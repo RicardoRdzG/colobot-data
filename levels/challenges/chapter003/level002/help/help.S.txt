@@ -1,0 +1,11 @@
+\b;Ejercicio
+Mueve el \l;cubo de titanio\u object\titan; a la plataforma de meta. No sabes la posición del titanio, pero te podemos decir la posición de la plataforma de meta x=10 e y=-60.
+
+\b;Instrucciones útiles
+\c;\l;radar\u cbot\radar;\n; para encontrar el cubo de titanio (categoría \c;\l;Titanium\u object\titan;\n;)
+\c;\l;goto\u cbot\goto;\n; para mover el bot
+\c;\l;grab\u cbot\grab;\n; para agarrar un objeto
+\c;\l;drop\u cbot\drop;\n; para soltar un objeto
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,113 @@
+\b;Exercício
+Controle remotamente um robô escravo sem usar um \l;posto de troca de informações\u object\exchange;. O robô deve passar pelas 6 cruzes azuis.
+
+Os dois principais atores deste exercício são:
+1) O \l;agarrador com rodas\u object\botgr; sem uma célula de energia e, portanto, imóvel. Este é o mestre que você deve programar para transmitir ordens ao escravo.
+2) O \l;robô de prática\u object\bottr; escravo que já está programado e apenas aguarda ordens do mestre.
+
+As ordens devem ser armazenadas, para que o mestre possa transmitir várias ordens sem esperar que cada pedido seja processado. Usamos uma \l;matriz\u cbot\array; para essa finalidade.
+
+\b;O escravo
+Primeiro de tudo, devemos entender como funciona o programa do escravo. A classe \l;classe\u cbot\class; \c;ordem\n; contém dois membros: \c;m_tipo\n; é a ordem para executar (mover ou girar) e <code>m_param</code > é a distância para se mover ou o ângulo de rotação:
+
+\c;\s;\l;public\u cbot\public; \l;class\u cbot\class; ordem
+\s;{
+\s;	\l;int\u cbot\int;    m_tipo;
+\s;	\l;float\u cbot\float;  m_param;
+\s;}
+\n;
+Uma segunda \l;classe\u cbot\class; \c;troca</ code> contém o mecanismo para trocar as ordens. Nós declaramos um membro de classe <code>\l;estático\u cbot\static;\n;  \c;m_fila\n; que conterá a lista de ordens a serem executadas. A palavra \c;static\n; assegura que o membro \c;m_fila\n; seja compartilhado entre todas as instâncias da classe \l;troca\u cbot\class;.
+
+\c;\s;{
+\s;	\l;static\u cbot\static; \l;private\u cbot\private; ordem m_fila[] = null;
+\n;
+O método \c;colocar\n; será usado pelo robô mestre para transmitir um pedido. A ordem será simplesmente adicionada no final da matriz \c;m_fila\n;:
+
+\c;\s;	\l;synchronized\u cbot\synchro; void colocar(ordem a)
+\s;	{
+\s;		m_fila[sizeof(m_fila)] = a;
+\s;	}
+\n;
+Outro método \c;pegar\n; será usado pelo escravo para recuperar as ordens. Este método retorna o pedido a ser executado. Se a lista estiver vazia, \c;null\n; será retornado e o robô deve esperar por mais pedidos. Caso contrário, o primeiro pedido na lista deve ser retornado e os pedidos restantes devem ser "rolados para cima". Como uma matriz não pode ser "encurtada", usamos uma matriz temporário \c;copia\n;:
+
+\c;\s;	\l;synchronized\u cbot\synchro; ordem pegar()
+\s;	{
+\s;		if ( sizeof(m_fila) == 0 )  return null;
+\s;
+\s;		ordem a = m_fila[0];
+\s;		ordem copia[] = null;
+\s;		for ( int i=1 ; i<sizeof(m_fila) ; i++ )
+\s;		{
+\s;			copia[i-1] = m_fila[i];
+\s;		}
+\s;		m_fila = copia;
+\s;		return a;
+\s;	}
+\n;
+O programa principal do escravo contém uma instância da classe \c;troca\n; chamada \c;lista\n;. Nós colocamos () depois da palavra \c;lista\n; para criar uma instância da classe \c;troca\n;.
+
+\c;\s;\l;extern\u cbot\extern; void object::Escravo5( )
+\s;{
+\s;	troca lista();
+\s;	ordem    para_fazer;
+\n;
+O laço externo \c;while\n; dura para sempre. O laço interno \c;while\n; espera por uma ordem usando o método \c;pegar</ code> da classe <code>troca\n;. Assim que \c;pegar\n; retorna um valor diferente de \c;null\n;, o laço while para	.
+
+\c;\s;	\l;while\u cbot\while; ( true )
+\s;	{
+\s;		\l;while\u cbot\while; ( true )
+\s;		{
+\s;			para_fazer = lista.pegar();
+\s;			if ( para_fazer != null )  break;
+\s;			wait(1);
+\s;		}
+\n;
+Agora recebemos a ordem na variável \c;para_fazer\n;. Tudo o que temos a fazer é executá-la:
+
+\c;\s;		if ( para_fazer.m_tipo == 1 )
+\s;		{
+\s;			move(para_fazer.m_param);
+\s;		}
+\s;		else if ( para_fazer.m_tipo == 2 )
+\s;		{
+\s;			turn(para_fazer.m_param);
+\s;		}
+\s;		else
+\s;		{
+\s;			message("Ordem desconhecida");
+\s;		}
+\s;	}
+\s;}
+\n;
+\b;O mestre
+No mestre nós escrevemos uma função chamada \c;EnviarOrdem\n; que irá enviar uma ordem para o escravo:
+
+\c;\s;void object::EnviarOrdem(float ordem, float param)
+\s;{
+\s;	troca lista();
+\s;	ordem    para_fazer();
+\s;	
+\s;	para_fazer.m_tipo = ordem;
+\s;	para_fazer.m_param = param;
+\s;	lista.colocar(para_fazer);
+\s;}
+\n;
+Agora o programa principal do mestre é muito simples:
+
+\c;\s;extern void object::Remoto5( )
+\s;{
+\s;	EnviarOrdem(1, 20);  // move(20);
+\s;	EnviarOrdem(2, 90);  // turn(90);
+\s;	EnviarOrdem(1, 20);  // move(20);
+\s;	EnviarOrdem(2, 90);  // turn(90);
+\s;	EnviarOrdem(1, 10);  // move(10);
+\s;	EnviarOrdem(2, 90);  // turn(90);
+\s;	EnviarOrdem(1, 10);  // move(10);
+\s;	EnviarOrdem(2,-90);  // turn(-90);
+\s;	EnviarOrdem(1, 10);  // move(10);
+\s;}
+\n;
+\key;\key help;\norm; mostra essas instruções a qualquer momento.
+
+\t;Veja também
+\l;Controles e <a cbot>Linguagem CBOT\u command;

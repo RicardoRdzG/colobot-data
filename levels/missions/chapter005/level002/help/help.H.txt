@@ -1,0 +1,11 @@
+\b;Az irányítóközpontból
+Számolj fel minden ellenséges jelenlétet a térségben.
+
+A jelenlegi helyzeted nagyon aggaszt minket. A műhold rendkívül erős ellenséges jelenlétet észlelt, amely minden irányból az űrhajód felé tart. Használd a legjobb ítélőképességedet, és alkalmazd a leggyorsabb és leghatékonyabb védelmet: \l;tornyokat\u object\tower; vagy \l;lövegeket\u object\botfr;.
+
+A túlélési esélyeid növelése érdekében kifejlesztettünk egy programot, amely megvédi a nyugati oldalt, ha lefuttatod a \l;kerekes lövegeden\u object\botfr;; lásd a programoldalt \button 53;.
+
+A \key;\key help;\norm; lehetővé teszi, hogy bármikor újra megtekinthesd ezeket az utasításokat a személyes SatCom készülékeden \button 63;.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

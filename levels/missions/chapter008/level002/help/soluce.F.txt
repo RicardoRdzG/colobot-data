@@ -1,0 +1,9 @@
+\b;Solution
+Vous trouverez un \l;radar\u object\radar;, un \l;parafoudre\u object\captor;, une \l; batterie\u object\power; et un \l;tireur organique volant\u object\botoj; dans la vallée sud du vaisseau spatial. Cela vous permettra de tuer les fourmis près du vaisseau spatial et de localiser la \l;boîte noire\u object\bbox; au nord à côté des restes du premier vaisseau de l'expédition.
+
+Construisez un "chemin" de \l;paratonnerres\u object\captor; sur les montagnes, qui vous amène au nord. Normalement, 5 ou 6 paratonnerres devraient suffire. La \l;boîte noire\u object\bbox; est à côté de l'épave du vaisseau spatial de la première expédition.
+
+Ramenez la \l;boîte noire\u object\bbox; sur votre \l;vaisseau\u object\base; puis décollez.
+
+\t;Voir aussi
+\l;Commandes\u command;.

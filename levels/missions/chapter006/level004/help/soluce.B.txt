@@ -1,0 +1,13 @@
+\b;Passo a passo
+Uma lacuna na montanha noroeste leva a um lago de lava fervente.
+
+Apenas pule de uma ilha rochosa para a próxima. Continue verificando o reator, deixe esfriar completamente antes de decolar novamente. O mini mapa irá ajudá-lo a descobrir onde fica a ilha mais próxima.
+
+No caso de um ataque de formiga, não se preocupe muito. Reserve um tempo para o seu reator esfriar, sem demorar mais do que o necessário, e seu escudo embutido deve cumprir seu dever. No entanto, aconselhamos que você salve o jogo de tempos em tempos (tecla Esc e "Salvar"), assim você não terá que começar do começo no caso de um pouso no lago de lava.
+
+O robô está no ponto mais ocidental do seu mapa, mas você terá que pegar uma rota para alcançá-lo. Uma \l;célula de energia nuclear\u object\atomic; está próxima.
+
+Você não precisa controlar por rádio o robô de volta à nave espacial pelo mesmo caminho que você veio, pois o reator tem um alcance maior que o seu. Uma ou duas paradas ainda podem ser necessárias e atente para essas formigas.
+
+\t;Veja também
+\l;Controles\u command;.

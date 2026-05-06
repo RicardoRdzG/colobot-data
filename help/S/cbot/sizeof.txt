@@ -1,0 +1,22 @@
+\b;Instrucción \c;sizeof\n;
+La función sizeof te permite conocer el número de elementos contenidos en un \l;array\u cbot\array;.
+Ese es el índice del último elemento más uno (los elementos "vacíos" se cuentan).
+\c;
+\s;{
+\s;	int a[12];
+\s;	a[5] = 345;
+\s;	message( sizeof(a) );   // mostrará 6
+\s;}
+\n;
+En este ejemplo, tenemos 6 elementos en el array después \c;de a[5]=345\n;. Se contarán los elementos no inicializados \c;[0]\n;, \c;[1]\n;, \c;[2]\n;, \c;[3]\n; y \c;[4]\n;.
+
+Con los arrays multidimensionales puedes obtener el tamaño de un subarray:
+\c;
+\s;float xy[][];  //  array de 2 dimensiones
+\s;xy[5][10] = 67;
+\s;message( sizeof(xy)    );  // mostrara 6
+\s;message( sizeof(xy[5]) );  //  mostrara 11
+\s;
+\n;
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

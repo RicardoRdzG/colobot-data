@@ -1,0 +1,20 @@
+\b;\button 144; Disparador con Oruga
+\image botfc 8 8;
+Bot con orugas equipado con un cañón de bolas de fuego.
+
+El cañón de bolas de fuego es un arma eficiente contra la mayoría de \l;enemigos\u object\mother;. úsalo con moderación ya que consume gran cantidad de energía. Una \l;celda de energía regular\u object\power; solo te permitirá disparar 4 ráfagas de bolas de fuego.
+
+Consejo: es posible mover el ratón mientras disparas para abarcar una zona más amplia.
+
+Los bots con orugas pueden ascender pendientes pronunciadas pero son bastante lentos y consumen mucha energía. En terreno plano para distancias cortas, un \l;disparador con ruedas\u object\botfr; es una mejor opción. Cuando sea posible construir \l;bots alados\u object\botfj;, estos representan la mejor solución para largas distancias.
+
+\t;Programación
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Para programar el cañón de bolas de fuego, usa \c;\l;fire\u cbot\fire;\n;. Para elevar o bajar la puntería, usa \c;\l;aim\u cbot\aim;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;TrackedShooter\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

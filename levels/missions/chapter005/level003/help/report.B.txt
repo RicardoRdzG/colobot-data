@@ -1,0 +1,20 @@
+\b;Relatório do satélite
+Atualmente em uma órbita geo-estacionária de Saari.
+\c;
+\s;-> SUPERFÍCIE\c;
+\tab; Temperatura: 44.3C 
+\tab; Atmosfera: CO2, oxigênio, nitrogênio 
+\tab; Vento: 2.3 mps 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> SUBSOLO\c;
+\tab; Fonte de energia: nenhuma 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> INFORMAÇÃO ADICIONAL\c;
+\tab; Detectado: abandonados reutilizáveis 
+\tab; Detectado: formigas gigantes 
+\tab; - Perigo: ?
+\n;

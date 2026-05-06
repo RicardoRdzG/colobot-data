@@ -1,0 +1,38 @@
+\b;Cvičení
+Odvezte \l;kostku titanu\u object\titan; na cílovou značku. Přesnou polohu titanu neznáte, ale prozradíme Vám polohu cílové značky: x=10 a y=-60.
+
+\b;Příkaz \c;goto\n;
+Pro jednodušší vyřešení tohoto úkolu budeme robota řídit novým příkazem \c;\l;goto\u cbot\goto;\n;. Tímto příkazem můžete snadno dojet na libovolné místo, pokud znáte jeho přesnou polohu ve formě souřadnic x a y. Robot se sám otočí k cíli, vyjede kupředu a dokonce objede i všechny překážky.
+
+Zde je přehled různých možností, jak robota ovládat:
+
+\s;\c;motor(levy, pravy)\n;
+Umožňuje přesné přímé ovládání obou motorů a umožňuje pokračovat v pohybu i během provádění jiných příkazů.
+
+\s;\c;move(vzdalenost)\n; a \c;turn(uhel)\n;
+Pomocí těchto příkazů můžete popojet o určitou vzdálenost nebo otočit o určitý úhel. Parametry obou příkazů se počítají od aktuální polohy robota.
+
+\s;\c;goto(misto)\n;
+Umožňuje Vám snadno dojet na zadané místo.
+
+\b;Program
+Najdět kostku titanu pomocí příkazu \c;\l;radar\u cbot\radar;(Titanium);\n;. Pak zkontrolujte, jestli radar opravdu něco našel. V tomto cvičení je to sice zbytečné, protože předem víme, že tu někde titan je. Ale je lepší si pěstovat zvyk, že výstupy radaru je třeba kontrolovat:
+\c;
+\s;object  item;
+\s;item = radar(Titanium);
+\s;if ( item == null )  return;
+\s;goto(item.position);
+\n;
+Proměnná \c;item\n; je typu \c;\l;object\u cbot\object;\n;. Přesnou polohu objektu popsaného touto proměnnou získáte výrazem \c;item.position\n;.
+
+Pro zvednutí kostky titanu použijte příkaz \c;\l;grab\u cbot\grab;()\n; bez parametrů.
+
+Pro položení titanu použijte příkaz \c;\l;drop\u cbot\drop;()\n; bez parametrů.
+
+Známe polohu cílové značky: x=10; y=-60. Musíte deklarovat \l;proměnnou\u cbot\var; typu \l;point\u cbot\point; a tyto souřadnice do ní uložit. Pak můžete tuto proměnnou předat jako argument příkazu \c;\l;goto\u cbot\goto;\n;.
+Poznámka: Pokud robot neumí létat, nemusíte se starat o souřadnici \c;z\n;.
+
+Dopsat zbytek programu už je na Vás...
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

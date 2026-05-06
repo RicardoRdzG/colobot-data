@@ -1,0 +1,113 @@
+\b;Übung
+Steuern Sie einen Slave-Roboter ohne Verwendung eines \l;Infoservers\u object\exchange; fern. Der Roboter muss alle 6 blauen Kreuze passieren. 
+
+Die beiden Hauptakteure dieser Übung sind:
+1) Der \l;Radtransporter\u object\botgr;, der keine Batterie hat und dadurch unbeweglich ist. Dies ist der Master den Sie so programmieren sollen, dass er Befehle zum Slave sendet.
+2) Der Slave-\l;Übungsroboter\u object\bottr; ist schon mit einer Programmierung versehen und wartet auf Befehle vom Master.
+
+Die Befehle sollen so gespeichert werden, sodass der Master in die Lage versetzt wird, mehrere Befehle hintereinander zu senden, ohne nach jedem Befehl auf seine Bearbeitung warten zu müssen. Wir benutzen zu diesem Zweck ein \l;Array\u cbot\array;.
+
+\b;Der Slave
+Zu allererst müssen wir klären, wie der Slave funktioniert. Die \l;Klasse\u cbot\class; \c;order\n; besitzt zwei Variablen: \c;m_type\n; ist der auszuführende Befehl (bewegen oder drehen) und \c;m_param\n; ist die Entfernung oder der Drehungswinkel:
+
+\c;\s;\l;public\u cbot\public; \l;class\u cbot\class; order
+\s;{
+\s;	\l;int\u cbot\int;    m_type;
+\s;	\l;float\u cbot\float;  m_param;
+\s;}
+\n;
+Eine zweite \l;Klasse\u cbot\class;, \c;exchange\n;, enthält die Mechanismen zum Austausch von Befehlen. Wir deklarieren eine \c;\l;statische\u cbot\static;\n; Klassenvariable \c;m_fifo\n;, welche die Liste der auszuführenden Befehle aufnehmen soll. Das Wort \c;static\n; stellt sicher, dass auf die Variable \c;m_fifo\n; von allen Instanzen der \l;Klasse\u cbot\class; \c;exchange\n; zugegriffen werden kann.
+
+\c;\s;{
+\s;	\l;static\u cbot\static; \l;private\u cbot\private; order m_fifo[] = null;
+\n;
+Die Methode \c;put\n; wird vom Master dazu verwendet, Befehle zu übermitteln. Der Befehl wird einfach zum Array \c;m_fifo\n; hinzugefügt:
+
+\c;\s;	\l;synchronized\u cbot\synchro; void put(order a)
+\s;	{
+\s;		m_fifo[sizeof(m_fifo)] = a;
+\s;	}
+\n;
+Eine andere Methode, \c;get\n;, wird vom Slave dazu benutzt, Befehle abzuholen. Die Methode gibt den abzuarbeitenden Befehl zurück. Ist die Liste leer, wird \c;null\n; zurückgegeben und der Roboter muss auf neue Befehle warten. Andernfalls wird der erste Befehl in der Liste zurückgegeben und die verbleibenden Befehle müssen "nachrücken". Da ein Array nicht "verkürzt" werden kann, verwenden wir eine temporäre Arrayvariable namens \c;copy\n;:
+
+\c;\s;	\l;synchronized\u cbot\synchro; order get()
+\s;	{
+\s;		if ( sizeof(m_fifo) == 0 )  return null;
+\s;
+\s;		order a = m_fifo[0];
+\s;		order copy[] = null;
+\s;		for ( int i=1 ; i<sizeof(m_fifo) ; i++ )
+\s;		{
+\s;			copy[i-1] = m_fifo[i];
+\s;		}
+\s;		m_fifo = copy;
+\s;		return a;
+\s;	}
+\n;
+Das Hauptprogramm des Slaves beinhaltet eine Instanz der Klasse \c;exchange\n; namens \c;list\n;. Wir setzen Klammern () hinter das Wort \c;list\n;,  um eine Instanz der Klasse \c;exchange\n; zu erzeugen.
+
+\c;\s;\l;extern\u cbot\extern; void object::Slave5( )
+\s;{
+\s;	exchange list();
+\s;	order    todo;
+\n;
+Die äußere \c;while\n;-Schleife wird nie verlassen. Die innere \c;while\n;-Schleife wartet auf einen Befehl, wobei die Methode \c;get\n; der Klasse \c;exchange\n; verwendet wird. Sobald \c;get\n; einen Wert zurückgibt, der nicht \c;null\n; ist, wird die Schleife verlassen.
+
+\c;\s;	\l;while\u cbot\while; ( true )
+\s;	{
+\s;		\l;while\u cbot\while; ( true )
+\s;		{
+\s;			todo = list.get();
+\s;			if ( todo != null )  break;
+\s;			wait(1);
+\s;		}
+\n;
+Wir haben nun einen Befehl empfangen, der in der Variablen \c;todo\n; steht. Wir müssen ihn nur noch ausführen:
+
+\c;\s;		if ( todo.m_type == 1 )
+\s;		{
+\s;			move(todo.m_param);
+\s;		}
+\s;		else if ( todo.m_type == 2 )
+\s;		{
+\s;			turn(todo.m_param);
+\s;		}
+\s;		else
+\s;		{
+\s;			message("Unbekannter Befehl");
+\s;		}
+\s;	}
+\s;}
+\n;
+\b;Der Master
+Für den Master schreiben wir eine Funktion namens \c;SendOrder\n;, die einen Befehl zum Slave sendet:
+
+\c;\s;void object::SendOrder(float order, float param)
+\s;{
+\s;	exchange list();
+\s;	order    todo();
+\s;	
+\s;	todo.m_type = order;
+\s;	todo.m_param = param;
+\s;	list.put(todo);
+\s;}
+\n;
+Das Hauptprogramm für den Master ist nun sehr einfach:
+
+\c;\s;extern void object::Remote5( )
+\s;{
+\s;	SendOrder(1, 20);  // move(20);
+\s;	SendOrder(2, 90);  // turn(90);
+\s;	SendOrder(1, 20);  // move(20);
+\s;	SendOrder(2, 90);  // turn(90);
+\s;	SendOrder(1, 10);  // move(10);
+\s;	SendOrder(2, 90);  // turn(90);
+\s;	SendOrder(1, 10);  // move(10);
+\s;	SendOrder(2,-90);  // turn(-90);
+\s;	SendOrder(1, 10);  // move(10);
+\s;}
+\n;
+Mit \key;\key help;\norm; können Sie diese Anweisungen jederzeit einsehen.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

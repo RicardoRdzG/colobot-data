@@ -1,0 +1,11 @@
+\b;Exercício
+Destrua todos os quatro \l;alvos\u object\bottarg; com um programa usando um laço \c;for\n;. Você deve mover 10 m para ir de um alvo para outro.
+
+\b;Instruções úteis
+\c;\l;for\u cbot\for;\n; para repetir as instruções 
+\c;\l;move\u cbot\move;\n; para mover o robô 
+\c;\l;turn\u cbot\turn;\n; para girar o robô 
+\c;\l;fire\u cbot\fire;\n; para disparar o canhão
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

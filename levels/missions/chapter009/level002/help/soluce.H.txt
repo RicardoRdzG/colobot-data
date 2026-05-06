@@ -1,0 +1,6 @@
+\b;Végigjátszás
+Sajnos ehhez a küldetéshez nem áll rendelkezésre végigjátszás.
+Egyedül kell boldogulnod...
+
+\t;Lásd még
+\l;Irányítás\u command;

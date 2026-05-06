@@ -1,0 +1,39 @@
+\b;Ejercicio
+Controla remotamente un robot usando un \l;puesto de intercambio de información\u object\exchange;, para que transporte \l;mineral de uranio\u object\uranore;.
+Los actores principales de este ejercicio son:
+
+1) Un \l;olfateador\u object\botsr; (no puede cargar nada).
+2) Un \l;puesto de intercambio de información\u object\exchange; que recibe información de un transmisor y luego la transmite a un receptor.
+3) Un \l;recolector\u object\botgr; que espera órdenes del puesto de intercambio. No tienes forma de controlar este robot directamente.
+
+\image tremot1a 16 8;
+Un puesto de intercambio de información almacena parejas "nombre/valor". Para controlar el robot "esclavo" usamos solo una pareja:
+
+    name="order", valuer=número de orden
+
+El robot esclavo entiende las siguientes órdenes:
+\c;
+    1 -> grab();     // tomar un objeto
+    2 -> drop();     // soltar un objeto
+    3 -> move(10);   // avanzar 10 metros
+    4 -> move(-10);  // retroceder 10 metros
+\n;
+Para indicar al esclavo que avance 10 metros todo lo que tienes que hacer es:
+\c;\s;	\l;send\u cbot\send;("order", 3, 100);  // orden 3 -> "move(10)"
+\n;
+Después de la instrucción send esperamos 5 segundos para asegurarnos de que el movimiento se ha realizado.
+\c;\s;	\l;wait\u cbot\wait;(5);
+\n;
+Observación: Hay una mejor forma de esperar a que se ejecute la orden, pero lo veremos más adelante en el ejercicio "Control Remoto #2".
+
+Para terminar el ejercicio debes:
+
+1) Tomar el mineral de uranio
+2) Avanzar 10 metros
+3) Soltar el mineral de uranio
+4) Retroceder 10 metros
+
+Te toca a ti escribir el programa.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

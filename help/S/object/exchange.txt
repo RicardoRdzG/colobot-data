@@ -1,0 +1,31 @@
+\b;\button 172; Centro de Intercambio de Información
+\image info 8 8;
+Este edificio almacena información digital. Un poste puede contener hasta 10 piezas de información, cada una referenciada por un nombre.
+Por ejemplo, un poste puede contener 3 información:\c;
+\tab;"Posición.x"  23.45
+\tab;"Posición.y"  -102.70
+\tab;"Cantidad"    3.00
+\n;
+Para poner nueva información, debes ejecutar el comando \c;\l;send\u cbot\send;\n;.
+Para leer información de un poste, debes ejecutar el comando \c;\l;receive\u cbot\receive;\n;.
+
+\t;Requisitos para construir
+Cualquier superficie plana de al menos 2,5 metros de ancho.
+
+\t;Entrada
+Ninguno.
+
+\t;Salida
+Información digital.
+
+\t;Fuente de energía
+Ninguno.
+
+\t;Duración de operación
+1 segundo.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;ExchangePost\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

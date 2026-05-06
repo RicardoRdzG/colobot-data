@@ -1,0 +1,22 @@
+\b;Instrucción \c;move\n; (mover)
+La instrucción \c;move();\n; instruye al bot para que se mueva hacia adelante o hacia atrás mientras mantiene la misma orientación. Entre paréntesis debes especificar la longitud del movimiento en metros.
+
+\b;Uso básico
+Si quieres que el bot se mueva hacia adelante 30 metros, escribe \c;move(30);\n;. Para que el bot se mueva hacia atrás después de dejar un trozo de \l;mineral de titanio\u object\titanore; en el \l;convertidor\u object\convert;, escribe \c;move(-2.5);\n;.
+
+\b;Para especialistas
+Sintaxis:
+\s;\c;move ( longitud );\n;
+
+Se mueve hacia adelante o hacia atrás una distancia dada, manteniendo siempre la orientación actual del bot. 
+
+\t;longitud: \c;\l;float\u cbot\float;\n;
+Longitud del movimiento, en metros. Un valor negativo hace que el bot se mueva hacia atrás. 
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Normalmente un error detiene el programa. Puedes evitar que el programa se detenga ante errores usando la instrucción \c;\l;errmode\u cbot\errmode;(0)\n;. Se devuelve un valor diferente de cero si se produjo un error mediante \c;move()\n;.
+\c;== 0 \n;Movimiento ejecutado
+\c;!= 0 \n;error, la instrucción no se realizó correctamente
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

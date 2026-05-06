@@ -1,0 +1,7 @@
+\b;A küldetésirányítástól
+Itt az idő, hogy \l;te\u object\human; újra fejleszd a lövéskészségedet. A következő gyakorlatban találd el az összes \l;robbanószert\u object\tnt;, de vigyázz: a \l;orga lövődben\u object\botoj; alig maradt energia – éppen csak elegendő a feladat teljesítéséhez.
+
+A \key;\key help;\norm; segítségével bármikor újra megtekintheted ezeket az utasításokat a saját SatCom készülékeden \button 63;.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

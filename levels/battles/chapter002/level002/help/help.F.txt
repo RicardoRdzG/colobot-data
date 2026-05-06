@@ -1,0 +1,9 @@
+\b;Bataille de code (contre l'ordinateur)
+Il s'agit d'un niveau de \l;bataille de codes\u battles;, où vous luttez contre un programme simple, écrit par les développeurs du jeu.
+
+\b;Vos objectifs
+Détruisez l'équipe rouge située de l'autre côté de la rivière.
+
+\b;Notes\m notes;
+o Il y a une \l;source d'énergie sous-terraine\u object/enerspot; uniquement sous la zone de démarrage.
+o Les éléments initiaux (\l;derrick\u object\derrick; et \l;station radar\u object\radar; sont indestructibles.

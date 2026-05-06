@@ -1,0 +1,5 @@
+\b;Objetivo
+Aquí puedes jugar sin ningún objetivo definido. Puedes hacer lo que quieras, explorar la región, construir un campamento base y varios bots, ejecutar diferentes programas de investigación, eliminar insectos si encuentras alguno, etc.
+
+\t;Ver también
+\l;Controles\u command;.

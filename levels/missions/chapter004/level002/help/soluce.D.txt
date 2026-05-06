@@ -1,0 +1,17 @@
+\b;Schritt für Schritt
+1) Bauen Sie eine \l;Roboterfabrik\u object\factory;.
+2) Produzieren Sie einen \l;Jetschnüffler\u object\botsj;.
+3) Untersuchen Sie den Boden bei den großen Kristallen, bis Sie ein \l;rotes Kreuz\u object\stonspot; erhalten.
+4) Errichten Sie einen \l;Bohrturm\u object\derrick; in der Nähe dieses Kreuzes.
+5) Bauen Sie einen \l;Konverter\u object\convert;.
+
+Die Kombination eines Bohrturms mit einem Konverter versorgt Sie mit unendlich viel \l;Titan\u object\titan;. Um diese Aufgabe einem Roboter zu übertragen, lassen Sie ihn das Programm \c;CollectTitanium2\n; ausführen.
+
+6) Untersuchen Sie mit dem Schnüffler nun den Boden in der Nähe des Raumschiffes. Ein \l;grünes Kreuz\u object\enerspot; signalisiert, dass Sie dort ein \l;Kraftwerk\u object\station; bauen können.
+7) Bauen Sie ein \l;Radar\u object\radar;.
+8) Produzieren Sie einen \l;Jetshooter\u object\botfj;.
+9) Vernichten Sie alle Würmer.
+10) Kehren Sie zum Raumschiff zurück und heben Sie ab.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

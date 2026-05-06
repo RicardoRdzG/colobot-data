@@ -1,0 +1,15 @@
+\b;Návod
+1) Sami najděte \l;černou skříňku\u object\bbox;. Můžete ji hledat ze vzduchu díky tryskovému motoru nebo se potopit pod vodu.
+2) Vedle kusů titanové rudy postavte \l;konvertor\u object\convert;. Najdete je poblíž rakety směrem na západ.
+3) Vyrobte dvě \l;kostky titanu\u object\titan;.
+4) Nedaleko černé skříňky postavte \l;továrnu na roboty\u object\factory;.
+5) Vyrobte \l;ponorku\u object\botsub;.
+6) Přivezte černou skříňku zpět na palubu.
+7) Odleťte.
+
+Černá skříňka leží na dně malého jezírka severovýchodně od rakety.
+
+Továrnu na roboty můžete postavit hned vedle jezírka na jižním břehu.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

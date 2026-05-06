@@ -1,0 +1,9 @@
+\b;Nido
+\image nest 8 8;
+El nido alienígena es una estructura extraña de la cual \l;materia orgánica\u object\bullet; erupciona regularmente. Las \l;avispas\u object\wasp; visitan los nidos regularmente para recolectar munición que usarán para bombardear tus bots, edificios y a ti mismo.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;AlienNest\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

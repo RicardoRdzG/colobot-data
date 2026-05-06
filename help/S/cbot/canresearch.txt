@@ -1,0 +1,16 @@
+\b;Instrucción: \c;canresearch\n;
+Sintaxis:
+\s;\c;canresearch (investigación);\n;
+
+Comprueba si se puede realizar una \l;investigación\u cbot\researches; durante la misión actual.
+
+\t;investigación: \c;\l;int\u cbot\int;\n;
+\l;Nombre de la investigación\u cbot\researches;.
+
+\t;Valor de retorno: \c;\l;bool\u cbot\bool;\n;
+\const;verdadero\norm; si se puede realizar la investigación (incluso si ya está realizada, para comprobarlo usa la instrucción \l;researched\u cbot\researched;)
+\const;falso\norm; si no se puede realizar la investigación
+
+\t;Ver también
+\l;Nombres de investigaciones\u cbot\researches;, \c;\l;research\u cbot\research;\n;, \c;\l;researched\u cbot\researched;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

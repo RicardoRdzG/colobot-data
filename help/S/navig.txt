@@ -1,0 +1,21 @@
+\b;Navegación
+Los tres botones en la esquina superior izquierda de la pantalla te permiten navegar por los diferentes textos del archivo de ayuda:
+
+\button 30; Inicio
+Vuelve a la página de inicio, es decir, la primera página que se mostró, por ejemplo cuando pulsas la tecla \key;\key help;\norm; o \key;\key prog;\norm;.
+
+\button 55; Anterior
+Vuelve a la página anterior, es decir, la página que se mostró antes de que hicieras clic en un enlace.
+
+\button 48; Siguiente
+Avanza a la página siguiente, después de haber usado el botón "Inicio" o "Anterior".
+
+\t;Nota
+Cuando un botón está gris, significa que no se puede usar en este momento. Por ejemplo, cuando estás en la página de inicio, el botón "Inicio" está gris porque no tiene sentido usarlo.
+Esta nota es válida para todos los botones en COLOBOT.
+
+\t;Desplazamiento de texto
+Si tu ratón tiene rueda, puedes usarla para desplazar el texto hacia arriba y abajo. De lo contrario, usa las teclas de dirección y la barra de desplazamiento en el lado derecho de la pantalla.
+
+\t;Tamaño de fuente
+El cursor en la parte superior de la pantalla te permite cambiar el tamaño de fuente del texto.

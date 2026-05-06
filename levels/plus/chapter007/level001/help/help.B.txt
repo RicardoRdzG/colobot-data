@@ -1,0 +1,11 @@
+\b;Do Centro de Controle de Missões
+Encontre um pouco mais de \l;matéria orgânica\u object\bullet; e, dado um programa de pesquisa apropriado realizado pelo seu \l;autolab\u object\labo;, \l;você\u object\human; deve ser capaz de fabricar atiradores orgânicos sozinho.
+
+Produza um \l;atirador orgânico com pernas\u object\botos; e traga-o de volta a bordo de sua \l;espaçonave\u object\base;.
+
+Por favor, tenha em mente que os recursos de baixa energia são uma grande preocupação neste planeta.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

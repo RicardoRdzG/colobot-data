@@ -1,0 +1,9 @@
+\b;Passo a passo
+É mais seguro que \l;você\u object\human; permaneça na \l;espaçonave\u object\base;. Você pode ser atingido algumas vezes, mas não fatalmente.
+
+Coloque o seu novo \l;atirador orgânico alado\u object\botoj; em bom uso e não perca tempo. Primeiro atire nas formigas à sua direita, depois gire no sentido horário em torno da nave espacial, voando a baixa altitude.
+
+Se você não pode fazer desta forma, coloque o \l;atirador orgânico alado\u object\botoj; em um local seguro ao norte da espaçonave e salve-se. Você pode então tomar seu tempo para atirar nas formigas uma após a outra; elas não podem fazer mal à nave espacial e à caixa preta.
+
+\t;Veja também
+\l;Controles\u command;.

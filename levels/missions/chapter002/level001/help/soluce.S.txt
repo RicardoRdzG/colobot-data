@@ -1,0 +1,15 @@
+\b;Guía Paso a Paso
+Para construir el \l;centro de investigación\u object\research;, coloca un \l;cubo de titanio\u object\titan; en una superficie plana no muy lejos de la nave espacial. \l;Tú\u object\human; puedes cargar el cubo tú mismo, o usar el \l;recogedor\u object\botgr; disponible.
+
+Si usaste el bot, muévelo lejos del cubo para no interferir con la construcción. Para cambiar la selección del bot a ti mismo (recuerda que solo tú puedes construir), usa \key;\key human;\norm;.
+
+Posiciónate cerca del \l;cubo de titanio\u object\titan; y construye un \l;centro de investigación\u object\research; \button 163;. Coloca una \l;celda de energía\u object\power; en el \l;centro de investigación\u object\research;, selecciona el edificio y haz clic en el símbolo \button 65; para realizar el <programa de investigación de bots alados>.
+
+Construye una \l;fábrica de bots\u object\factory; de la misma manera, y coloca un \l;cubo de titanio\u object\titan; en el centro. Construye un \l;recogedor alado\u object\botgj; con el símbolo \button 139;, y aliméntalo con una \l;celda de energía\u object\power;.
+
+Puede ser preferible explorar el área tú mismo para ahorrar energía. Encontrarás los trozos de mineral de titanio en el fondo de algunos cráteres ubicados al norte de la nave espacial. Una \l;bandera\u object\flag; puede ayudarte a localizar el lugar más rápido en viajes posteriores.
+
+Recoge 4 trozos de \l;mineral de titanio\u object\titanore; y tráelos de vuelta a bordo de tu \l;nave espacial\u object\base;. Llévate contigo el \l;recogedor alado\u object\botgj; y el \l;recogedor con ruedas\u object\botgr; y despega \button 28;.
+
+\t;Ver también
+\l;Controles\u command;

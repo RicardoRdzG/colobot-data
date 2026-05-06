@@ -1,0 +1,17 @@
+\b;Kód Csata (szemben az idegenekkel)
+Ez egy edző kód csata szint, amelynek célja, hogy megismertessen téged ezzel a \l;játékmóddal\u battles;.
+
+\t;Rövid bemutatás
+A kód csata egy teljesen új játékmód, amely a Colobot: Gold Edition-ben található. Két vagy több csapat van, és az a csapat nyer, amelyik a leghosszabb ideig életben marad. Ahogy a neve is sugallja, csak programozást használhatsz ebben a játékmódban.
+
+Ajánlott elolvasni a \l;a megjegyzések szekciót\u %lvl%/help/help.%lng% notes; alább.
+
+\b;A célod
+Öld meg az összes idegent a folyó túloldalán.
+
+\b;Megjegyzések\m megjegyzések;
+o Az \l;idegenek\u object/ant; nem fognak támadni, hacsak túl közel nem mész hozzájuk.
+o Csak az alap kezdő területek alatt található \l;alatti energiaforrás\u object/enerspot;.
+o A már előre felépített \l;Derrick\u object\derrick; és \l;RadarÁllomás\u \object\radar; elpusztíthatatlanok.
+o A \l;CBOT dokumentáció\u cbot; hasznos lehet.
+o Ha még nem játszottál a Colobottal, ajánlott elolvasni a \l;termelési vonal alapjait\u battles production;.

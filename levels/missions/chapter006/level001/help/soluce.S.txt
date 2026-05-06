@@ -1,0 +1,15 @@
+\b;Guía Paso a Paso
+1) Comienza recargando una \l;celda de energía regular\u object\power; y enciende el \l;centro de investigación\u object\research;. Úsalo para investigar la tecnología para la construcción de una \l;planta nuclear\u object\nuclear; \button 170;.
+
+2) Produce un \l;robot recogedor con ruedas\u object\botgr;.
+
+3) Encuentra algo de \l;mineral de uranio\u object\uranore; al noroeste de tu posición. La planta nuclear lo transformará entonces en \l;celdas de energía nuclear\u object\atomic; de mayor duración.
+
+4) Equipa un \l;robot disparador con ruedas\u object\botfr; con una de tus nuevas células nucleares. Envíalo para matar a todas las \l;arañas\u object\spider; intrusas que haya en el camino.
+
+5) Un \l;radar\u object\radar; es opcional pero podría resultar útil para marcar la posición de las arañas en tu mini mapa.
+
+6) Un bot recogedor con ruedas debería ser parte de la expedición. Limpiará el camino lleno de \l;mineral de titanio\u object\titanore; y traerá de vuelta el \l;dispositivo explosivo\u object\tnt;.
+
+\t;Ver también
+\l;Controles\u command;

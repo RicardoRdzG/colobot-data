@@ -1,0 +1,5 @@
+\b;Bataille de code (tirer sur une cible)
+Il s'agit d'un niveau de \l;bataille de codes\u battles;, où vous devez dégommer une cible désarmée, afin d'apprendre à viser correctement.
+
+\b;Vos objectifs
+Détruisez l'objectif situé de l'autre côté de la rivière.

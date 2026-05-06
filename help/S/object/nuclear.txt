@@ -1,0 +1,24 @@
+\b;\button 170; Planta Nuclear
+\image nuclear 8 8;
+La planta nuclear es una fábrica de \l;celdas de energía nuclear\u object\atomic;. Transforma un trozo de \l;mineral de uranio\u object\uranore; en una \l;celda de energía nuclear\u object\atomic; completamente cargada y lista para usar.
+
+\t;Requisitos para construir
+Cualquier superficie plana de al menos 10 metros de ancho.
+
+\t;Entrada
+Mineral de uranio.
+
+\t;Salida
+Celda de energía nuclear.
+
+\t;Fuente de energía
+Ninguno.
+
+\t;Duración de operación
+30 segundos.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;NuclearPlant\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

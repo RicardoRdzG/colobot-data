@@ -1,0 +1,20 @@
+\b;Exercício
+Você deve seguir o \l;robô alvo\u object\bottr; com o dispositivo explosivo, mas sem tocá-lo, caso contrário ele explodirá. Toda vez que o robô alvo parar, você deve estar perto dele (menos de 10m). Depois que você conseguir ficar perto do robô de destino em 10 paradas sucessivas, ele o levará até o finalizador e o exercício terminará. A cada parada, o robô de destino verifica se você está lá. Se você não está lá, você deve começar de novo.
+
+\b;Princípio geral
+Repita para sempre:
+o  Procure o robô alvo:
+o  Calcule a distância para o robô.
+o  se a distância ao robô alvo for menor que 5m, mova-se para trás.
+o  Caso contrário, calcule a direção do robô alvo e mova-se em direção a ele.
+
+\b;Instruções úteis
+\c;\l;radar\u cbot\radar;\n; para procurar pelo robô (categoria \c;\l;TargetBot\u object\bottarg;\n;)
+\c;\l;radar\u cbot\radar;\n; para detectar obstáculos
+\c;\l;distance\u cbot\dist;\n; para calcular a distância
+\c;\l;direction\u cbot\direct;\n; para calcular a direção
+\c;\l;if\u cbot\if;\n; para testar uma condição
+\c;\l;motor\u cbot\motor;\n; para definir a velocidade dos motores
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

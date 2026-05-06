@@ -1,0 +1,11 @@
+\b;Végigjátszás
+Sétálj végig az utcán, ami a \l;irányítóközpont\u object\Huston; mellett fut. Az úttest bal oldalán találsz egy \l;titánkockát\u object\titan;, közvetlenül a \l;szállítórobot\u object\botgr; után.
+
+1) Fordulj a kocka felé. Kattints a képernyő bal alsó sarkában lévő első gombra: \button 163; <építs egy \l;kutatóközpontot\u object\research;>.
+2) Menj tovább az úton. A második kocka jobb oldalon van, a négy zöld \l;energiaforrás\u object\power; után.
+3) Ismételd meg az 1) lépést, de most kattints a második gombra: \button 160; <építs egy \l;robotgyárat\u object\factory;>.
+
+Amint mindkét épület elkészül, a küldetés véget ér.
+
+\t;Lásd még
+\l;Irányítás\u command;

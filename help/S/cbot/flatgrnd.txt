@@ -1,0 +1,17 @@
+\b;Instrucción \c;flatground\n;
+Sintaxis:
+\s;\c;flatground (centro, rmax);\n;
+
+Calcula el radio máximo de una zona plana en la que se puede construir un edificio.
+
+\t;centro: \c;\l;point\u cbot\point;\n;
+Centro de la zona circular.
+
+\t;rmax: \c;\l;float\u cbot\float;\n;
+Radio máximo.
+
+\t;Valor de retorno: \c;\l;float\u cbot\float;\n;
+Radio de la zona plana (siempre entre 0 y rmax).
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

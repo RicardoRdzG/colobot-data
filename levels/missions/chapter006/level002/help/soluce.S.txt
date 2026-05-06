@@ -1,0 +1,19 @@
+\b;Guía Paso a Paso
+1) Construye rápidamente una \l;torre de defensa\u object\tower; al norte de tu nave espacial. Después de \l;encenderla\u object\power;, ejecuta el programa \c;ServiceTower1\n; en uno de los \l;recogedores\u object\botgr; que recargará la celda de energía cuando esté vacía. Coloca otra celda de energía 2m al norte de la torre como primer objetivo para las avispas atacantes.
+
+2) Construye una \l;estación de energía\u object\station; cerca de la torre de defensa.
+
+3) Construye un \l;convertidor\u object\convert; al sur de la nave espacial y ejecuta el programa \c;CollectTitanium3\n; en el segundo \l;recogedor\u object\botgr; para producir algo de \l;titanio\u object\titan;.
+
+4) Construye una \l;fábrica de bots\u object\factory; y un \l;disparador alado\u object\botfj; para eliminar a las \l;hormigas\u object\ant;.
+
+5) Usa un \l;recogedor alado\u object\botgj; para traer de vuelta algo de \l;materia orgánica\u object\bullet; de la isla en medio del lago de lava.
+
+6) Construye un \l;autolab\u object\labo;, deposita la \l;materia orgánica\u object\bullet; en la plataforma y haz clic en el botón \button 109; para desarrollar los planos para bots con patas.
+
+7) Tan pronto como la materia orgánica haya sido analizada, produce un \l;robot recogedor con patas\u object\botgs; y llévalo a bordo de la nave espacial.
+
+8) Despega.
+
+\t;Ver también
+\l;Controles\u command;

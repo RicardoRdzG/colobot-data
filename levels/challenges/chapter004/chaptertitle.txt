@@ -1,1 +1,8 @@
 Title.E text="Functions" resume="Functions"
+Title.C text="Funkce" resume="Funkce"
+Title.D text="Funktionen" resume="Funktionen"
+Title.S text="Funciones" resume="Funciones"
+Title.F text="Fonctions" resume="Fonctions"
+Title.P text="Funkcje" resume="Funkcje"
+Title.B text="Funções" resume="Funções"
+Title.R text="Функции" resume="Функции"

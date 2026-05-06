@@ -1,0 +1,7 @@
+\b;Do Centro de Controle de Missões
+Você precisa repelir um ataque de formiga de última hora antes de decolar.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

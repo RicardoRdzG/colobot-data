@@ -1,0 +1,19 @@
+\b;Műholdjelentés
+Jelenleg geostacionárius pályán a Crystalium körül.
+\c;
+\s;-> FELÜLET\c;
+\tab;Hőmérséklet:     5.4C
+\tab;Atmoszféra:      nitrogén
+\tab;Szél:            0.0 m/s
+\tab;Titanium érce:   néhány
+\tab;Uranium érce:    nincs
+
+\s;-> Földalatti\c;
+\tab;Energiaforrás:   nincs
+\tab;Titanium érce:   nincsenek adatok
+\tab;Uranium érce:    nincs
+
+\s;-> További információk\c;
+\tab;Felfedezve:      azonosítatlan élőlények
+\tab;  - Veszély:     ?
+\n;

@@ -1,0 +1,18 @@
+\b;Ejercicio
+Debes encontrar una manera de destruir los cuatro \l;bots objetivo\u object\bottarg; en movimiento sin desperdiciar ningún disparo. Observa que después de cada movimiento, los objetivos permanecerán inmóviles durante un segundo.
+
+\b;Principio general
+1) Detecta un objetivo con la instrucción \c;\l;radar\u cbot\radar;(TargetBot);\n;.
+2) Gira hacia el objetivo con \c;\l;turn\u cbot\turn;(direction());\n;.
+3) Después de la rotación, verifica si el objetivo no se movió.
+4) Si no se movió, espera 0.2 segundos con \c;\l;wait\u cbot\wait;(0.2);\n;.
+5) Vuelve a verificar si el objetivo no se movió.
+6) Si no se movió, dispara con \c;\l;fire\u cbot\fire;(2);\n; y espera 2 segundos para que el objetivo sea golpeado por las balas y destruido.
+
+Por supuesto, hay otras formas de lograr el objetivo.
+
+\b;Nota
+Para aumentar la eficiencia de tus disparos, apunta un poco hacia abajo con \c;\l;aim\u cbot\aim;(-3);\n;.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

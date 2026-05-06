@@ -1,0 +1,17 @@
+\b;Llaves A, B, C y D
+\image key 4 4;
+Las llaves \l;te\u object\human; dan acceso a la \l;bóveda\u object\safe;. Necesitarás 4 de ellas.
+
+o  Llave A, azul y con forma de triángulo
+o  Llave B, roja y con forma de pentágono
+o  Llave C, verde y con forma de estrella de 6 puntas
+o  Llave D, amarilla y circular
+
+\t;Transporte
+Todos los \l;recogedores\u object\botgr; y el \l;astronauta\u object\human;.
+
+\t;\l;Categoría\u cbot\category; de Objetos
+\c;KeyA\n;, \c;KeyB\n;, \c;KeyC\n; y \c;KeyD\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

@@ -1,0 +1,29 @@
+\b;Instrucción \c;drop\n; (soltar)
+La instrucción \c;drop();\n; indica al bot que deje caer lo que esté transportando el brazo operativo en el suelo, en la plataforma de un edificio o en la ubicación de la celda de energía de un bot.
+
+\b;Uso básico
+La instrucción \c;drop();\n; escrita de esta forma suelta el objeto delante del bot. Aquí tienes un programa corto que agarra un objeto delante del bot y lo suelta 5 metros más adelante:
+\c;
+\s;	\l;grab\u cbot\grab;();
+\s;	\l;move\u cbot\move;(5);
+\s;	drop();
+\n;
+\b;Para especialistas
+Sintaxis:
+\s;\c;drop ( oper );\n;
+
+Esta instrucción se dirige al brazo operativo de un \l;bot agarrador\u object\botgr; para que suelte lo que está sujetando.
+
+\t;oper: \c;\l;int\u cbot\int;\n; (valor predeterminado \c;InFront\n;)
+Oper indica dónde el robot debe soltar el objeto. Si no se indica nada, el objeto se suelta delante del bot. 
+\c;InFront   \n;  Suelta delante (valor predeterminado).
+\c;Behind    \n;  Suelta detrás.
+\c;EnergyCell\n;  Suelta en la ubicación de la celda de energía del propio bot.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Normalmente un error detiene el programa. Puedes evitar que el programa se detenga en errores usando la instrucción \c;\l;errmode\u cbot\errmode;(0)\n;. Si un error ocurren entonces un valor diferente de cero es devuelto por \c;drop();\n;.
+\c;== 0 \n;el objeto se soltó
+\c;!= 0 \n;error, no se soltó ningún objeto
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

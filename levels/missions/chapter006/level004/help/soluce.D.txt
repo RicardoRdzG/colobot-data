@@ -1,0 +1,13 @@
+\b;Schritt für Schritt
+Ein Spalt im nordwestlichen Berg führt zu einem See aus kochender Lava.
+
+Bewegen Sie sich "springend" von einer Insel zur nächsten. Achten Sie auf Ihr Triebwerk; lassen Sie ihn vollständig abkühlen, bevor Sie das nächste Mal abheben. Die Mini-Karte hilft Ihnen dabei, die nächste Insel zu finden.
+
+Machen Sie sich im Falle eines Angriffes von Ameisen keine Sorgen. Nehmen Sie sich einfach die Zeit, um Ihr Triebwerk abkühlen zu lassen ohne länger als nötig am Boden zu bleiben. Ihr eingebauter Schild wird seine Aufgabe erfüllen. Wir raten Ihnen jedoch, das Spiel von Zeit zu Zeit zu speichern (Esc-Taste, dann "Speichern"), damit Sie die Mission nicht von vorn beginnen müssen, falls Sie versehentlich im Lavasee landen.
+
+Der Roboter steht am westlichsten Punkt auf der Karte. Sie müssen also einen Umweg machen, um ihn zu erreichen. Eine \l;Brennstoffzelle\u object\fuelcell; steht gleich daneben.
+
+Sie müssen den Roboter nicht auf dem selben Weg zurück zum Raumschiff steuern, den Sie gegangen sind, denn die Reichweite seines Triebwerks, bevor es überhitzt, ist größer als die Ihres Triebwerks. Eine oder zwei Landungen werden dennoch nötig sein und passen Sie auf die Ameisen auf.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

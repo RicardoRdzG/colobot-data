@@ -1,0 +1,9 @@
+\b;Guía Paso a Paso
+Primero deberías construir un \l;radar\u object\radar;.
+
+Las \l;hormigas\u object\ant; parecen estar huyendo de ti. Intenta rodear a cada una de ellas hasta que se encuentren atrapadas entre tú y una \l;mina\u object\mine;. Optarán por la mina y se harán explotar.
+
+Luego lleva la \l;caja negra\u object\bbox; a bordo de tu nave. Está junto a la nave espacial abandonada.
+
+\t;Ver también
+\l;Controles\u command;

@@ -1,0 +1,21 @@
+\b;Műholdjelentés
+Jelenleg geostacionárius pályán kering a Tropica felett.
+\c;
+\s;-> FELSZÍN\c;
+\tab;Hőmérséklet:      32.4°C
+\tab;Légkör:           hélium, oxigén
+\tab;Szél:             1.2 m/s
+\tab;Titánérc:         nincs
+\tab;Uránérc:          nincs
+
+\s;-> ALTALAJ\c;
+\tab;Energiaforrás:    nincs
+\tab;Titánérc:         nincs
+\tab;Uránérc:          nincs
+
+\s;-> TOVÁBBI INFORMÁCIÓK\c;
+\tab;Észlelve:         robbanószer
+\tab;  - Típus:        ismeretlen
+\tab;Észlelve:         azonosítatlan élőlények
+\tab;  - Veszély:      ?
+\n;

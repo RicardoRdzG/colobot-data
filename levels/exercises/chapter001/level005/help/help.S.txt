@@ -1,0 +1,48 @@
+\b;Objetivo
+Alimenta los \l;disparadores alados\u object\botfj; con \l;celdas de energía\u object\power;, para que puedan matar a las hormigas en el hormiguero situado en un agujero al norte de tu posición.
+
+\t;Programa
+El \l;recolector con ruedas\u object\botgr; debe ir a una \l;celda de energía\u object\power;, tomarla, ir a un \l;disparador alado\u object\botfj; y dejar la celda. Esta tarea es muy similar a la realizada en el ejercicio anterior. Aquí está nuevamente este programa:
+\c;
+\s;extern void object::Titanium2()
+\s;{
+\s;	object    item;
+\s;	
+\s;	item = radar(TitaniumOre);
+\s;	goto(item.position);
+\s;	grab();
+\s;	
+\s;	item = radar(Converter);
+\s;	goto(item.position);
+\s;	drop();
+\s;}
+\n;
+La mejor manera de resolver este ejercicio es copiar \button 61; el programa anterior en el portapapeles (desde \c;object\n; hasta \c;drop();\n;), y pegarlo \button 62; en el editor de programas. Luego solo tienes que hacer los cambios necesarios para adaptarlo a la nueva tarea.
+
+En lugar de buscar mineral de titanio (\c;TitaniumOre\n;), busca una celda de energía (\c;PowerCell\n;). En lugar de ir a un convertidor (\c;Converter\n;), ve a un disparador alado (\c;WingedShooter\n;). En cuanto el disparador alado tenga una nueva celda de energía, comenzará a trabajar.
+
+Si quieres saber más sobre los "nombres" de los diferentes objetos en el lenguaje de programación, consulta el \l;texto sobre categorías\u cbot\category;.
+
+\t;Mejora adicional: bucles
+Una vez que el programa explicado arriba funcione correctamente, puedes mejorarlo para repetir la tarea una y otra vez. De esta manera no tendrás que ejecutar el programa varias veces para alimentar varios bots.
+
+Todos los programas escritos hasta ahora ejecutan todas las instrucciones solo una vez, una tras otra, desde el principio hasta el final del programa. También puedes ordenarle al bot que repita algunas instrucciones: simplemente escribe \c;while (true)\n;, una llave abierta, las instrucciones a repetir, y una llave cerrando. Repetir algunas instrucciones varias veces de esta manera se llama un bucle. Aquí hay un ejemplo de un programa que repite una y otra vez las instrucciones que buscan una celda de energía, la toman y la dejan en un disparador alado:
+\c;
+\s;	while (true)
+\s;	{
+\s;		item = radar(PowerCell);
+\s;		goto(item.position);
+\s;		grab();
+\s;		
+\s;		item = radar(WingedShooter);
+\s;		goto(item.position);
+\s;		drop();
+\s;	}
+\n;
+Por supuesto, la declaración de variable \c;object item;\n; no debe estar dentro del bucle, sino justo antes: declara una variable solo una vez.
+
+\t;Nota
+Un bot puede ejecutar un programa perfectamente por sí mismo. Mientras tanto, puedes por ejemplo seleccionar al astronauta y ver lo que está sucediendo en el hormiguero, el espectáculo vale la pena. ¡Pero ten cuidado de no ser disparado por tus propios bots...
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

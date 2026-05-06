@@ -1,0 +1,10 @@
+\b;Programobitwa (przeciwko graczowi)
+To jest \l;programobitwa\u battles;, w której walczysz przeciwko innemu programowi, prawdopodobnie napisanemu przez innego gracza.
+
+\b;Twój cel
+Zniszczyć drużynę zlokalizowaną po przeciwnej stronie rzeki.
+
+\b;Notatki\m notes;
+o \l;Podziemne złoże energii\u object/enerspot; znajduje się tylko na początkowych obszarach baz.
+o Początkowo zbudowana \l;kopalnia\u object\derrick; i \l;radar\u \object\radar; są niezniszczalne.
+o Możesz poszukać programu dla przeciwnika w International Colobot Community (\c;http://colobot.info\n;).

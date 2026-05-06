@@ -1,0 +1,38 @@
+\b;Úkol
+Naprogramujte \l;pojízdné rameno\u object\botgr;, aby vyměnilo \l;baterii\u object\power; \l;létajícímu kanónu\u object\botfj;. Létající kanón pak zlikviduje pavouky.
+
+\t;Postup
+1) Naprogramujte \l;pojízdné rameno\u object\botgr;.
+2) Spusťte program tlačítkem se šipkou \button 21;.
+\l;Létající kanón\u object\botfj; už je naprogramovaný, čeká jen na novou baterii.
+
+\t;Program
+Budete potřebovat následující příkazy:
+\c;
+\s;grab();\n;
+\n;Zvedne libovolný předmět před robotem.
+\c;
+\s;drop();\n;
+\n;Položí před sebe předmět, který robot drží.
+\c;
+\s;turn();\n;
+\n;Tento příkaz už jsme viděli v předchozím cvičení: otočí robota o úhel zadaný ve stupních.
+
+Podívejme se na základ programu:
+o  zvedněte prázdnou baterii příkazem \c;grab();\n;
+o  otočte doleva o 90 stupňů (půlobrat) příkazem \c;turn(90)\n;
+o  položte prázdnou baterii příkazem \c;drop();\n;
+o  atd.
+
+Dopsat zbytek programu už je na Vás!
+
+Pokud se Vám nedaří, můžete se kdykoliv podívat na řešení: vyberte program \c;Řešení\n; a klikněte na tlačítko se složenými závorkami \button 22;.
+
+\t;Poznámky
+Dávejte pozor, abyste příkazy psali přesně a správně. Dodržujte i velká a malá písmena.
+
+Na každý řádek pište jen jeden příkaz a zakončete ho středníkem.
+
+Pokud Váš program dělá něco jiného, než jste chtěli, můžete robota vrátit na startovní pozici tlačítkem \button 59;. Nebo můžete cvičení spustit úplně od začátku (stiskněte klávesu "Esc" a klikněte na "Restartovat"). O svůj program tím nepřijdete.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst klávesou \key;\key help;\norm;.

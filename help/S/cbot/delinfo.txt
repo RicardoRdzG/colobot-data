@@ -1,0 +1,15 @@
+\b;Instrucción \c;deleteinfo\n;
+Sintaxis:
+\s;\c;deleteinfo (nombre, potencia );\n;
+
+Elimina la información existente en el \l;puesto de intercambio de información\u object\exchange; más cercano.
+
+\t;nombre: \c;string\n;
+Nombre de la información que se va a eliminar. Este nombre es una cadena: debe escribirse entre comillas "".
+
+\t;potencia: \c;float\n;
+Potencia del transmisor, que corresponde a la distancia máxima entre el emisor y el poste de intercambio. Si la distancia es mayor, la información no se borrará. El valor predeterminado es 10 metros.
+
+\t;Ver también
+\c;\l;receive\u cbot\receive;\n;, \c;\l;send\u cbot\send;\n; y \c;\l;testinfo\u cbot\testinfo;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

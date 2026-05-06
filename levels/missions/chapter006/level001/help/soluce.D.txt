@@ -1,0 +1,15 @@
+\b;Schritt für Schritt
+1) Beginnen Sie, indem Sie eine \l;Batterie\u object\power; aufladen und das \l;Forschungszentrum\u object\research; damit bestücken. Benutzen Sie dieses zur Erforschung der Technologie für den Bau einer \l;Brennstoffzellenfabrik\u object\fuelplan; \button 170;.
+
+2) Bauen Sie einen \l;Radtransporter\u object\botgr;.
+
+3) Sie finden ein wenig \l;Platinerz\u object\platore; nordwestlich von Ihrer Position. Die Brennstoffzellenfabrik wandelt das Erz in eine \l;katalytische Brennstoffzelle\u object\fuelcell; um, die eine längere Lebensdauer besitzt.
+
+4) Bestücken Sie einen \l;Radshooter\u object\botfr; mit einer der Brennstoffzellen. Schicken Sie ihn los, um alle aufdringlichen \l;Spinnen\u object\spider; entlang des Weges zu zerstören.
+
+5) Ein \l;Radar\u object\radar; kann sich als nützlich herausstellen, um die Spinnen auf der Mini-Karte zu markieren.
+
+6) Ein Radtransporter sollte zu Ihrer Ausrüstung gehören. Er wird sowohl den Weg von verstreutem \l;Titanerz\u object\titanore; frei räumen, als auch den \l;Sprengstoff\u object\tnt; holen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

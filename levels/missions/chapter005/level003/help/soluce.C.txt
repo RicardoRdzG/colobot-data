@@ -1,0 +1,9 @@
+\b;Návod
+Nejprve byste měli postavit \l;radar\u object\radar;.
+
+\l;Mravenci\u object\ant; podle všeho před Vámi prchají. Pokuste se každého z nich obejít, aby se ocitl mezi Vámi a \l;minou\u object\mine;. Mravenci pak naběhnou na minu a vyletí do vzduchu.
+
+Pak naložte \l;černou skříňku\u object\bbox; do své rakety. Najdete ji vedle vraku staré rakety.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

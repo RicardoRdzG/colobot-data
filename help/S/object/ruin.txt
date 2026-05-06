@@ -1,0 +1,11 @@
+\b;Ruina
+\image ruin 8 8;
+Una ruina es lo que queda de un edificio después de que ha sido incapacitado por una \l;araña\u object\spider; o por fuego amigo.
+
+No puede convertirse de nuevo en un \l;cubo de titanio\u object\titan; reutilizable.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Ruin\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

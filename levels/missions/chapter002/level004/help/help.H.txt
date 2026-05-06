@@ -1,0 +1,18 @@
+\b;Az irányítóközpontból
+Nem tudjuk biztosan, merre tartott az előző expedíció, amikor elhagyta a Hold felszínét, és azt sem, miért választotta ezt az irányt.
+
+Találd meg az általuk hátrahagyott \l;fekete dobozt\u object\bbox;, és hozd vissza a hajódra. A fekete dobozban benne kell lennie a következő célbolygó koordinátáinak.
+
+A robotod \l;energiacellái\u object\power; szinte teljesen lemerültek. Az elsődleges feladat ezek feltöltése. A megfigyelő műhold szerint ezen a területen az altalaj tele van energiával, így működőképes \l;erőművet\u object\station; építhetsz bármilyen sík felszínen.
+
+Kifejlesztettünk egy programot, amely feltölti a robot \l;energiacelláját\u object\power;. Lásd a SatCom-on a program oldalt \button 53;.
+
+\b;Eljárás
+1) Először építs egy \l;átalakítót\u object\convert;, amely a nálad lévő titánércet felhasználható \l;titánkockává\u object\titan; alakítja.
+2) Ezután építs egy \l;erőművet\u object\station; és egy \l;radart\u object\radar;, amely megmutatja a fekete doboz helyét a mini térképen.
+3) Miután az energiacellák feltöltődtek, szerezd vissza a fekete dobozt. A \l;űrhajó\u object\base; platformjára kell helyezned, hogy felszállhass.
+
+A \key;\key help;\norm; billentyűvel bármikor újra megtekintheted ezeket az utasításokat a SatCom \button 63; eszközön.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

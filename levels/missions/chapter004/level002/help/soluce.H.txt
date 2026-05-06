@@ -1,0 +1,17 @@
+\b;Végigjátszás
+1) Építs egy \l;robotgyárat\u object\factory;.
+2) Gyárts egy \l;szárnyas szimatolót\u object\botsj;.
+3) Szimatold meg a földet a nagy kristályok közelében, amíg egy \l;piros kereszt\u object\stonspot; meg nem jelenik.
+4) Építs egy \l;fúrótornyot\u object\derrick; a piros kereszt közelében.
+5) Építs egy \l;átalakítót\u object\convert;.
+
+A fúrótorony és az átalakító együttműködése korlátlan \l;titán\u object\titan; ellátást biztosít. Hogy ezt a feladatot egy robot végezze el, futtasd a \c;CollectTitanium2\n; programot.
+
+6) Szimatold meg a talajt az űrhajó lábánál. Egy \l;zöld kereszt\u object\enerspot; azt jelzi, hogy ott építhetsz egy \l;erőművet\u object\station;.
+7) Építs egy \l;radart\u object\radar;.
+8) Gyárts egy \l;szárnyas lövőt\u object\botfj;.
+9) Semmisítsd meg az összes férget.
+10) Térj vissza az űrhajódhoz, és szállj fel.
+
+\t;Lásd még
+\l;Irányítás\u command;

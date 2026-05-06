@@ -1,0 +1,8 @@
+\b;Guía Paso a Paso
+1) Golpea la cubierta de la \l;nave espacial\u object\base;. No necesitas mover el \l;thumper\u object\bottump; a ningún lugar.
+2) Localiza el \l;disparador de orgánica\u object\botoj; aproximadamente 70 metros al este.
+3) Termina con las \l;hormigas\u object\ant; mientras todavía están boca arriba.
+4) Despega.
+
+\t;Ver también
+\l;Controles\u command;

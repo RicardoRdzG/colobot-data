@@ -1,1 +1,8 @@
 Title.E text="Spiders and supply" resume="Supply problems and fight against motionless targets"
+Title.C text="Pavouci a zásobování" resume="Zásobovací úkoly a boj proti nehybným cílům"
+Title.D text="Spinnen und Transport" resume="Supply problems and fight against motionless targets"
+Title.S text="Arañas y suministros" resume="Problemas de suministro y combate contra objetivos inmóviles"
+Title.F text="Araignées et logistique" resume="Problèmes de logistique et combat contre des cibles immobiles"
+Title.P text="Pająki i zaopatrzenie" resume="Problemy z zaopatrzeniem i walka z nieruchomymi celami"
+Title.B text="Aranhas e suprimento" resume="Problemas de suprimento e luta contra alvos sem movimento"
+Title.R text="Пауки и еда" resume="Проблемы с продовольствием и битва с ужасными тварями"

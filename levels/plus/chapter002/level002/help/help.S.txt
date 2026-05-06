@@ -1,0 +1,17 @@
+\b;Del Control de Misiones
+Este aparato fue establecido por la expedición anterior para probar y entrenar la capacidad de vuelo de los bots alados.
+
+\b;Objetivo
+Aprovecha estos ejercicios. Tu capacidad para sobrevivir situaciones críticas futuras puede depender de la destreza que te ayuden a desarrollar.
+
+\b;Procedimiento
+Vuela lo más rápido posible a través de cada objetivo. Intenta lograr esto sin hacer que el motor se sobrecaliente. Si esto parece demasiado difícil, simplemente aterriza y deja que el motor se enfríe.
+
+Debes usar las teclas de flecha en el teclado para pilotar el bot, pero mantén una mano en el mouse. El mouse es inútil en este ejercicio, pero será esencial en misiones posteriores.
+
+Puede ser útil volver a estos ejercicios de vez en cuando si deseas mejorar aún más tus reflejos.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en cualquier momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

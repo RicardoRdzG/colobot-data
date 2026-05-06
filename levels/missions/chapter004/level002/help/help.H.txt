@@ -1,0 +1,11 @@
+\b;A küldetésirányítástól
+Tisztítsa meg a területet minden ellenséges organizmustól. Az, hogy hogyan végzi el ezt (\l;védőtorony\u object\tower; vagy \l;szárnyas lövész\u object\botfj;), önön múlik.
+
+A radar úgy tűnik, tökéletesen alkalmas a férgek detektálására. Ne feledje azonban, hogy csak akkor jelennek meg, amikor a felszínen vannak.
+
+Átadtunk egy üzenetet a \l;robotgyárának\u object\factory;. Ez egy olyan robotot érint, amelyet arra terveztek, hogy nyersanyagokat találjon a föld alatt: energiaforrások, érc. Röviden \l;szimatolónak\u object\botsr; nevezzük. Az előzetes elemzés arra a következtetésre juttatott minket, hogy a titánium érc jelenléte a Crystaliumon szorosan összefügg a nagy kék kristályok növekedésével. Ha ez valóban így van, ez az információ segíthet időt megtakarítani. A kitermeléshez természetesen szükséges egy \l;olajfúró\u object\derrick;.
+
+\key;\key help;\norm; lehetővé teszi, hogy bármikor átnézze ezeket az utasításokat a személyes SatComján \button 63;.
+
+\t;Lásd még
+\l;Vezérlés\u command; és \l;CBOT nyelv\u cbot;

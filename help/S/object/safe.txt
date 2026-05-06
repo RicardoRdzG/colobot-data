@@ -1,0 +1,9 @@
+\b;\button 175; Bóveda
+\image safe 8 8;
+Este edificio en forma de cúpula fue concebido por la primera expedición. Su propósito era ofrecer protección a un nuevo tipo de bot avanzado. Para protegerlo de ataques de insectos, la bóveda fue bloqueada por 4 \l;llaves\u object\key;. Solo después de que encuentres las 4 llaves y coloques cada una en sus correspondientes ranuras, se te dará acceso al bot.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Vault\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

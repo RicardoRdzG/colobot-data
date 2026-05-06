@@ -1,0 +1,32 @@
+\b;\button 193; Constructor con Oruga
+\image botbc 8 8;
+Bot con orugas equipado con un cañón de neutrones.
+
+\button 196; Abre un menú de construcción con las siguientes opciones :
+\button 160;   \c;\l;BotFactory\u object\factory;       \n;Fábrica de Bots
+\button 163;   \c;\l;ResearchCenter\u object\research;   \n;Centro de Investigación
+\button 168;   \c;\l;RadarStation\u object\radar;     \n;Radar
+\button 172;   \c;\l;ExchangePost\u object\exchange;     \n;Puesto de Intercambio de Información
+\button 169;   \c;\l;RepairCenter\u object\repair;     \n;Centro de Reparación
+\button 165;   \c;\l;DefenseTower\u object\tower;     \n;Torre de Defensa
+\button 166;   \c;\l;AutoLab\u object\labo;          \n;Analizador de Materia Orgánica 
+\button 164;   \c;\l;PowerStation\u object\station;     \n;Estación de Energía
+\button 167;   \c;\l;PowerPlant\u object\energy;       \n;Fábrica de Celdas de Energía
+\button 170;   \c;\l;NuclearPlant\u object\nuclear;     \n;Planta Nuclear
+\button 162;   \c;\l;Converter\u object\convert;        \n;Convertidor de Titanio
+\button 161;   \c;\l;Derrick\u object\derrick;          \n;Torre de Perforación
+\button 174;   \c;\l;PowerCaptor\u object\captor;      \n;Captador de Energía Parabólico
+\button 175;   \c;\l;Vault\u object\safe;            \n;Bóveda
+
+Los bots con orugas pueden ascender pendientes pronunciadas pero son bastante lentos y consumen mucha energía. En terreno plano para distancias cortas, un \l;constructor con ruedas\u object\botbr; es una mejor opción. Cuando sea posible construir \l;bots alados\u object\botbj;, estos representan la mejor solución para largas distancias.
+
+\t;Programación
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Para programar el cañón de neutrones, usa \c;\l;build\u cbot\build;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;TrackedBuilder\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

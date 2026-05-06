@@ -1,0 +1,15 @@
+\b;Passo a passo
+1) Construa rapidamente um \l;captor de energia\u object\captor; perto da bandeira azul.
+Todos os edifícios subsequentes devem ser erguidos dentro do <alcance> \button 41; coberto pelo captor de energia.
+2) Carregue algumas \l;células de energia\u object\power; vazias sob o captor de energia. Quando um raio atinge, eles serão recarregadas.
+3) Construa um \l;extrator\u object\derrick;.
+4) Construa um \l;conversor\u object\convert;.
+5) Execute o programa <code>ColetarTitanio3</ code> para produzir \l;titânio\u object\titan;.
+6) Construa uma \l;fábrica de robôs\u object\factory;.
+7) Fabrique um \l;atirador orgânico alado\u object\botoj;.
+8) Construa um \l;radar\u object\radar;.
+9) Localize e extermine todas as \l;formigas\u object\ant;.
+10) Volte para a sua \l;espaçonave\u object\base; e decole.
+
+\t;Veja também
+\l;Controles\u command;.

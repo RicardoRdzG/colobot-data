@@ -1,0 +1,23 @@
+\b;Instrucción \c;space\n; ( espacio )
+Sintaxis:
+\s;\c;space (centro, rmin, rmax, dist);\n;
+
+Determina la posición del espacio libre más cercano alrededor de una posición determinada.
+
+\t;centro: \c;\l;point\u cbot\point;\n; (por defecto: posición del robot)
+Posición deseada del espacio libre.
+
+\t;rmin: \c;\l;float\u cbot\float;\n; (valor predeterminado: \c;8\n;)
+Distancia mínima desde la posición deseada.
+
+\t;rmax: \c;\l;float\u cbot\float;\n; (valor predeterminado: \c;50\n;)
+Distancia máxima desde la posición deseada.
+
+\t;dist: \c;\l;float\u cbot\float;\n; (valor predeterminado: \c;4.0\n;)
+Distancia requerida entre dos espacios libres.
+
+\t;Devuelve: \c;\l;point\u cbot\point;\n;
+Posición del espacio libre.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

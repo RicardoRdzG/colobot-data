@@ -1,0 +1,62 @@
+\b;Übung
+Folgen Sie der \l;mobilen Zielscheibe\u object\bottr; mit dem Sprengkörper, ohne sie zu berühren, denn andernfalls geht sie in die Luft. Jedes Mal, wenn der Ziel-Roboter stoppt, müssen Sie sich in seiner Nähe befinden (weniger als 10m Abstand). Wenn Sie es geschafft haben, 10 mal hintereinander bei einem Stopp nahe genug am Ziel-Roboter zu sein, wird er Sie zur Zielfläche führen und die Übung ist bestanden. Bei jedem Stopp prüft der Ziel-Roboter, ob Sie in der Nähe sind. Falls nicht, müssen Sie von vorn beginnen.
+
+\b;Vorgehensweise:
+Wiederhole immer wieder :
+o  Suche nach Zielscheibe.
+o  Berechne den Abstand zu diesem Roboter.
+o  Falls der Abstand kleiner ist als 5m, fahre rückwärts.
+o  Ansonsten berechne die Richtung und bewege dich darauf zu.
+
+Wie schon so häufig zuvor benutzen Sie auch hier ein \c;\l;while\u cbot\while; (\l;true\u cbot\true;)\n;, um die Endlosschleife zu realisieren:
+\s;\c;\l;while\u cbot\while; (\l;true\u cbot\true;)
+\s;{
+\s;	\n;zu wiederholende Anweisungen ...\c;
+\s;}
+\n;
+Suchen Sie mit der \c;\l;radar\u cbot\radar;\n;-Anweisung nach der Zielscheibe:
+\s;\c;	target = \l;radar\u cbot\radar;(\l;TargetBot\u cbot\category;);
+\n;
+Sie müssen nicht testen, ob das Radar einen Ziel-Roboter gefunden hat: es muss einen geben.
+
+Benutzen Sie die Anweisung \c;\l;distance\u cbot\dist;( , )\n;, um den Abstand zwischen zwei Punkten zu berechnen. Der erste Punkt ist hierbei die Position Ihres eigenen Roboters, gegeben durch \c;\l;position\u cbot\object;\n;. Der zweite Punkt ist die Position des Ziel-Roboters, \c;target.\l;position\u cbot\object;\n;.
+\s;\c;len = \l;distance\u cbot\dist;(\l;position\u cbot\object;, target.\l;position\u cbot\object;);
+\n;
+Falls der Abstand zum Ziel-Roboter kleiner als 5m ist, bewegen Sie sich mit einer vom Abstand abhängigen Geschwindigkeit rückwärts: je näher Sie am Ziel-Roboter sind, umso schneller müssen Sie sich zurückbewegen.
+	Abstand = 5.0 Meter -> Geschw. =  0.0
+	Abstand = 2.5 Meter -> Geschw. = -0.5
+	Abstand = 0.0 Meter -> Geschw. = -1.0
+Sie können den \l;Ausdruck\u cbot\expr; \c;distance/5-1\n; verwenden, um dies zu erreichen. Zusammen mit der \c;\l;if\u cbot\if;\n;-Anweisung für den Test, ob der Abstand kleiner ist als 5m sollte es so aussehen:
+\s;\c;if ( len < 5 )  // zu dicht ?
+\s;{
+\s;	motor(len/5-1, len/5-1);  // rückwärts fahren
+\s;}
+\n;
+Wenn der Abstand zur Zielscheibe größer ist als 5m, bewegen Sie sich auf sie zu. Berechnen Sie hierzu zunächst den Winkel mit der Anweisung \c;\l;direction\u cbot\direct;\n;. Sie können dann die Geschwindigkeiten des linken und des rechten Motors so anpassen, dass sich der Roboter auf das Ziel zubewegt:
+\s;\c;\l;else\u cbot\if;
+\s;{
+\s;	dir = \l;direction\u cbot\direct;(target.\l;position\u cbot\object;);
+\s;	\l;if\u cbot\if; ( dir >= 0 )  // Ziel auf linker Seite?
+\s;	{
+\s;		\l;motor\u cbot\motor;(1-dir/90, 1);
+\s;	}
+\s;	\l;else\u cbot\if;  // Ziel auf rechter Seite?
+\s;	{
+\s;		\n;Ihre Aufgabe, dies auszufüllen\c;
+\s;	}
+\s;}
+\n;
+Wenn der Zielroboter sich links von Ihrer Bewegungsrichtung befindet, enthält \c;dir\n; einen positiven Wert zwischen 0 und 180. Der \l;Ausdruck\u cbot\expr; \c;1-dir/90\n; ergibt eine Geschwindigkeit zwischen 1 und -1, abhängig von der Richtung:
+	Richtung =   0 -> Geschw. =  1.0
+	Richtung =  45 -> Geschw. =  0.5
+	Richtung =  90 -> Geschw. =  0.0
+	Richtung = 135 -> Geschw. = -0.5
+	Richtung = 180 -> Geschw. = -1.0
+
+\image radar2 14 10;
+Ist der Zielroboter auf der linken Seite, dann ist \c;dir\n; negativ und liegt zwischen 0 und -180.
+
+Die einzige Aufgabe, die Ihnen noch bleibt, ist die Deklaration der \l;Variablen\u cbot\var; die Sie im Programm benutzen. \c;target\n; ist vom Typ \c;\l;object\u cbot\object;\n;, wogegen \c;dir\n; und \c;len\n; vom Typ \c;\l;float\u cbot\float;\n; sind.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

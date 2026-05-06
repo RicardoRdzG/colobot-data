@@ -1,0 +1,59 @@
+\b;Übung
+Der \l;Roboter\u object\bottr; soll alle \l;blauen Kreuze\u object\waypoint; auf dem Boden passieren. Der Weg, der genommen werden muss, besteht aus zwei Quadraten. Das erste misst 15 Meter, das zweite 25 Meter.
+
+\image tproc1a 8 8;
+\b;Vorgehensweise
+Der effizienteste Weg, dieses Problem zu lösen, besteht darin, eine \l;Funktion\u cbot\function; zu erzeugen, die den Roboter anweist, ein Quadrat mit einer bestimmten Kantenlänge zu fahren. Das Hauptprogramm wird dann ziemlich einfach:
+\s;extern void object::Funktion1( )
+\s;{
+\s;	Square(15);
+\s;	Square(25);
+\s;}
+\n;
+Sie müssen immer noch die Funktion namens \c;Square\n; definieren. Um dies zu tun, müssen Sie einige Anweisungen außerhalb des \l;Blocks\u cbot\bloc; schreiben, der bis jetzt immer den Rahmen aller Ihrer Programme gebildet hat. Ganz am Ende des Programmes, hinter der letzten schließenden Klammer werden wir die Funktion \c;Square\n; definieren. Das Programm nimmt folgende Form an:
+\c;
+\s;extern void object::Funktion1( )
+\s;{
+\s;	\n;Haupt-Funktion ...\c;
+\s;}
+\s;
+\s;void object::Square(\l;float\u cbot\type; length)
+\s;{
+\s;	\n;neue Funktion ...\c;
+\s;}
+\n;
+Nehmen wir einmal die verschiedenen Elemente der Deklaration der Funktion \c;Square\n; unter die Lupe:
+
+\c;\l;void\u cbot\void;\n;
+Dies bedeutet, dass die Funktion kein Ergebnis zurückliefert.
+
+\c;\l;object\u cbot\object;::\n;
+Wenn Sie dies vor den Namen der Funktion schreiben, dann haben Sie innerhalb der Funktion Zugriff auf alle Eigenschaften des Roboters wie zum Beispiel \c;\l;position\u cbot\object;\n;, \c;\l;orientation\u cbot\object;\n;, usw. In dieser Übung ist dieses Element nicht zwingend notwendig, da wir diese Eigenschaften des Roboters nicht benötigen werden.
+
+\c;Square (  )\n;
+Dies ist der Name der Funktion. Sie können sie "Square" nennen, oder auch ganz anders.
+
+\c;\l;float\u cbot\float; length\n;
+Hier definieren Sie die Parameter, die die Funktion erhält, wenn sie aufgerufen wird. Wenn die Funktion das erste mal mit \c;Square(15)\n; wirklich aufgerufen wird, enthält die Variable \c;length\n; den Wert \c;15\n;. Beim zweiten Mal enthält \c;length\n; den Wert \c;25\n;.
+
+Im Detail passiert folgendes, wenn das Programm ausgeführt wird:
+- Zuerst wird die Hauptfunktion \c;Funktion1\n; ausgeführt.
+- In der Zeile \c;Square(15)\n; folgt das Programm dem roten Pfeil und beginnt erstmalig mit der Ausführung der Funktion \c;Square\n;; \c;length\n; enthält dabei \c;15\n;.
+- Am Ende der Funktion \c;Square\n; folgt das Programm dem orangen Pfeil und kehrt so zur Hauptfunktion zurück. 
+- In der Zeile \c;Square(25)\n; folgt das Programm dem blauen Pfeil und beginnt zum zweiten Mal mit der Ausführung der Funktion \c;Square\n;.
+- Am Ende der Funktion \c;Square\n; folgt das Programm dem orangen Pfeil und kehrt so zur Hauptfunktion zurück. 
+
+\image tproc1b 17 12;
+Benutzen Sie in der Funktion \c;Square\n; die Anweisungen \c;\l;move\u cbot\move;\n; und \c;\l;turn\u cbot\turn;\n;. Um sie kürzer zu gestalten, können Sie eine \c;\l;for\u cbot\for;\n;-Schleife benutzen, welche die Anweisungen \c;\l;move\u cbot\move;\n; und \c;\l;turn\u cbot\turn;\n; jeweils 4 mal ausführt; aber auch das ist nicht zwingend notwendig.
+\c;
+\s;void object::Square(\l;float\u cbot\type; length)
+\s;{
+\s;	\l;for\u cbot\for; ( int i=0 ; i<4 ; i=i+1 )
+\s;	{
+\s;		\l;move\u cbot\move;(length);
+\s;		\l;turn\u cbot\turn;(90);
+\s;	}
+\s;}
+\n;
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

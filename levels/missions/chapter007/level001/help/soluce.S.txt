@@ -1,0 +1,20 @@
+\b;Guía Paso a Paso
+Encontrarás algunos objetos útiles en un pequeño valle al noreste.
+o  Un \l;reciclador\u object\botrecy; que te permitirá hacer tu primer \l;cubo de titanio\u object\titan;.
+o  Un \l;recogedor con patas\u object\botgs; que es muy bueno para subir pendientes pronunciadas.
+o  Una \l;celda de energía nuclear\u object\atomic; casi cargada.
+
+1) Equipa el \l;recogedor con patas\u object\botgs; con la \l;celda de energía nuclear\u object\atomic;, y úsalo para llevar un \l;cubo de titanio\u object\titan; a la \l;nave espacial\u object\base;. Elige el camino directo sobre las montañas.
+
+2) Usa el titanio para construir un \l;convertidor\u object\convert;. Ejecuta el programa \c;CollectTitanium3\n; en el \l;recogedor con patas\u object\botgs; y tendrás mucho titanio.
+
+3) Detén el programa, y usa el recogedor para recoger algo de \l;mineral de uranio\u object\uranore; en un segundo pequeño valle al este. De nuevo, no tomes el camino del valle que está Infestado de hormigas, sino el camino directo sobre las montañas.
+
+4) Construye un \l;disparador alado\u object\botfj; y equípalo con una \l;celda de energía nuclear\u object\atomic;. Si tomas el paso al sudeste, llegarás inmediatamente al hormiguero. Mata a todas las hormigas, y trae de vuelta una bola de \l;materia orgánica\u object\bullet; a la \l;nave espacial\u object\base;.
+
+5) Construye un \l;auto-lab\u object\labo;, deja caer la \l;materia orgánica\u object\bullet; en la plataforma y haz clic en el botón \button 110; para desarrollar los planos para el cañón orgaShooter.
+
+6) Construye un \l;disparador de orgánica con patas\u object\botos;, llévalo a bordo y despega.
+
+\t;Ver también
+\l;Controles\u command;

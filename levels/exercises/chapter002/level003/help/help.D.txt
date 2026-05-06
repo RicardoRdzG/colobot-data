@@ -1,0 +1,40 @@
+\b;Das Ziel
+Passen Sie das Program \c;Turm1\n; so an, dass Energieverschwendung verhindert wird, die dadurch entstehen kann, dass auf Ameisen geschossen wird, die außer Reichweite sind.
+
+\t;Programm
+Das Programm \c;Turm1\n; schießt auf die Ameise mit der geringsten Entfernung, auch wenn sie noch außer Reichweite ist:
+\c;
+\s;extern void object::Turm1()
+\s;{
+\s;	\l;object\u cbot\type;    item;
+\s;	
+\s;	\l;jet\u cbot\jet;(0.2);
+\s;	\l;while\u cbot\while;(\l;position.z\u cbot\object; < 20)
+\s;	{
+\s;		\l;wait\u cbot\wait;(0.2);
+\s;	}
+\s;	\l;jet\u cbot\jet;(0);
+\s;	
+\s;	\l;while\u cbot\while;(true)
+\s;	{
+\s;		item = \l;radar\u cbot\radar;(\l;AlienAnt\u cbot\category;);
+\s;		\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.\l;position\u cbot\object;));
+\s;		\l;fire\u cbot\fire;(1);
+\s;	}
+\s;}
+\n;
+Wenn der Roboter die gleiche Aufgabe wie zuvor übernehmen soll, aber nur mit einer \l;elektrolytischen Batterie\u object\power; bestückt ist, dann können Sie eine Schleife einfügen, die so lange wartet, bis die Ameise nahe genug herangekommen ist, die Entfernung also zum Beispiel weniger als 40 Meter beträgt. Ein einziger Schuss für jede Ameise wird dann ausreichend sein.
+
+Sie können der Anweisung \c;\l;radar\u cbot\radar;();\n; mehr Parameter (Zahlen) übergeben, um genauer zu bestimmen, wo das Radar nach Ameisen suchen soll. Zum Beispiel sucht \c;\l;radar\u cbot\radar;(\l;AlienAnt\u cbot\category;,0,360,0,40);\n; nur nach Ameisen, die näher sind als 40 Meter. Die ersten beiden Zahlen weisen das Radar an, in alle Richtungen Ausschau zu halten und die letzten beiden weisen es an, nur nach Ameisen zu suchen, die sich in einer Entfernung von 0 bis 40 Metern befinden. Falls keine Ameise gefunden wird, die sich in dieser Entfernung aufhält, gibt die Anweisung \c;\l;radar\u cbot\radar;();\n; den Wert \c;\l;null\u cbot\null;\n; zurück. Wir können nun eine bedingte Schleife programmieren, die der aus der letzten Übung ähnelt, aber so lange wartet, wie sich keine Ameise in einer Entferung von unter 40 Metern befindet:
+\c;
+\s;		while (radar(AlienAnt, 0, 360, 0, 40) == null)
+\s;		{
+\s;			wait(0.2);
+\s;		}
+\n;
+Beachten Sie, dass zwei Gleichheitsszeichen "==" für einen Test auf Gleichheit verwendet werden müssen.
+
+Fügen Sie diese Zeilen einfach vor der \c;\l;fire\u cbot\fire;(1);\n;-Anweisung ein und der Roboter wird vor dem Schießen so lange warten, bis die Ameise näher als 40 Meter ist. Auf diese Art reicht eine normale Batterie aus, um alle Ameisen zu töten.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

@@ -1,0 +1,49 @@
+\b;Instrucción \c;public\n; (para especialistas)
+Esta instrucción tiene dos propósitos distintos:
+
+1) Pone una función a disposición de otros bots.
+2) Haz que un miembro de clase sea accesible desde fuera de la definición de clase.
+
+\b;Instrucción \c;public\n; para funciones
+Si colocas \c;public\n; antes de la definición \l;de una función\u cbot\function;, podrás hacer que la función esté disponible para programas de otros bots en la misma misión.
+
+Por ejemplo, en el primer bot tendríamos:
+\c;
+\s;público vacío objeto::Segmento(float dist, float angulo) {
+\s;	move(dist);
+\s;	turn(angulo);
+\s;}
+\n;
+Y en otro bot tendríamos:
+\c;
+\s;extern void objeto::Cuadrado( )
+\s; {
+\s;	for ( int i=0 ; i<4 ; i++ ) {
+\s;		 Segmento(10, 90); 
+\s;		fire(1);
+\s;	}
+\s;}
+\n;
+Si has declarado una función como \c;public\n; (pública), no puedes definir una función con el mismo nombre y los mismos argumentos en otro bot de la misma misión.
+
+Si se destruye un bot que contiene una función \c;pública\n;, los demás bots que utilicen esta función se detendrán con un error.
+
+\b;Instrucción \c;public\n; para clases
+\c;public\n; también es un modificador de acceso para los miembros \l;de clase\u cbot\class;, que es el predeterminado. Se puede acceder a los miembros públicos desde fuera de la definición de clase.
+\c;
+\s;public class MiClase
+\s;{
+\s;	int    b;                // publica por default
+\s;	public int a;            // también publica 
+\s;	private point posicion;  // privado
+\s;}
+\s;void Test()
+\s;{
+\s;	MiClase item;
+\s;	item.a = item.b = 12;      // ok
+\s;	message( item.posicion );  // esto es un error
+\s;}
+\n;
+\t;Ver también
+\c;\l;clas\u cbot\class;\n;, \c;\l;private\u cbot\private;\n;, \c;\l;protected\u cbot\protected;\n;, \c;\l;funciones\u cbot\function;\n;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

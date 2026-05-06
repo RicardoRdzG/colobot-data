@@ -1,0 +1,8 @@
+\b;Barrera
+La barrera no es más que un obstáculo utilizado en los ejercicios.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Barrier\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

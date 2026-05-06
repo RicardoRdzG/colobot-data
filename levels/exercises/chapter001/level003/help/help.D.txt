@@ -1,0 +1,14 @@
+\b;Ziel
+Schreiben Sie ein Programm, das einen Brocken \l;Titanerz\u object\titanore; aufnimmt und ihn auf einem \l;Konverter\u object\convert; ablegt, damit daraus ein \l;Titanwürfel\u object\titan; hergestellt wird.
+
+\t;Programm
+Sie benötigen folgende neue Anweisung:
+\c;
+\s;move();\n;
+Weist den Roboter an, sich vorwärts oder rückwärts zu bewegen. Die gewünschte Streckenlänge wird in Klammern und in Metern angegeben: \c;move(10);\n; bewegt den Roboter um 10m nach vorn, \c;move(-1);\n; bewegt ihn um einen Meter nach hinten.
+
+Die Anweisungen \c;\l;turn\u cbot\turn;()\n;, \c;\l;grab\u cbot\grab;()\n; und \c;\l;drop\u cbot\drop;()\n; wurden in früheren Übungen schon besprochen. Falls Sie Fragen zu diesen Anweisungen haben, klicken Sie auf den blau unterstrichenen Namen der Anweisungen und lesen Sie die dann erscheinende Erklärung.
+
+Das \l;Titanerz\u object\titanore; liegt 20m vor dem Roboter, der \l;Konverter\u object\convert; liegt 10m hinter dem Roboter. Vergessen Sie nicht, den Roboter ein Stück zurück zu bewegen (zum Beispiel \c;move(-2.5);\n;), nachdem Sie einen Brocken Titanerz darauf gelegt haben. Der Konverter kann sonst nicht arbeiten.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen jederzeit einsehen.

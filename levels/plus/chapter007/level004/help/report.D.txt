@@ -1,0 +1,20 @@
+\b;Satellitenbericht
+Gegenwärtig in einer geostationären Umlaufbahn um Centaury.
+\c;
+\s;-> Oberfläche\c;
+\tab;Temperatur:     21.3C
+\tab;Atmosphäre:     Sauerstoff, Stickstoff, Ammoniak
+\tab;Wind:           1.9 m/s
+\tab;Titanerz:       vereinzelt
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Untergrund\c;
+\tab;Energy source:    none
+\tab;Titanium ore:     none
+\tab;Uranium ore:      none
+
+\s;-> Zusätzliche Informationen\c;
+\tab;Entdeckt:       Riesenameisen
+\tab;  - Gefahr:     nicht unmittelbar
+\tab;Entdeckt:       nicht wiederverwertbare Roboterwracks
+\n;

@@ -1,0 +1,55 @@
+\b;Ejercicio
+Este ejercicio es muy similar al anterior. Esta vez el bot debería encontrar su camino solo desde el inicio hasta la meta; solo tendrás que ejecutar el programa una vez.
+
+\b;Nota
+El laberinto no es exactamente igual, pero esto no debería tener importancia, ya que el programa se adapta a lo que "ve".
+
+\image tlaby1 10 10;
+\b;Principio general
+Usa un bucle \c;\l;while\u cbot\while;\n; infinito para ejecutar el programa anterior varias veces:
+\s;\c;while ( true )
+\s;{
+\s;	\n;Si no hay nada adelante, avanzar\c;
+\s;	\n;Si no hay nada a tu izquierda, girar a la izquierda\c;
+\s;	\n;Si no hay nada a tu derecha, girar a la derecha\c;
+\s;}
+\n;
+Dentro de este bucle \c;while\n;, reemplaza las instrucciones \c;return\n; por instrucciones \c;\l;continue\u cbot\continue;\n;. \c;return\n; saldría del programa, lo cual no es lo que queremos aquí. \c;continue\n; simplemente reanudará la ejecución al principio del bucle \c;\l;while\u cbot\while;\n;:
+\s;\c;if ( front == null )
+\s;{
+\s;	move(5);
+\s;	continue;
+\s;}
+\n;
+\b;Recuerda
+Aquí está de nuevo el programa del ejercicio anterior:
+\c;
+\s;object   front, left, right;
+\s;
+\s;front = radar(Barrier,   0, 45, 0, 5);
+\s;left  = radar(Barrier,  90, 45, 0, 5);
+\s;right = radar(Barrier, -90, 45, 0, 5);
+\s;
+\s;if ( front == null )
+\s;{
+\s;	move(5);
+\s;	return;
+\s;}
+\s;if ( left == null )
+\s;{
+\s;	turn(90);
+\s;	move(5);
+\s;	return;
+\s;}
+\s;if ( right == null )
+\s;{
+\s;	turn(-90);
+\s;	move(5);
+\s;	return;
+\s;}
+\n;
+\b;Ayuda
+Si necesitas ayuda, simplemente haz clic en los hipervínculos de las instrucciones \c;\l;radar\u cbot\radar;\n;, \c;\l;if\u cbot\if;\n;, \c;\l;move\u cbot\move;\n; o \c;\l;turn\u cbot\turn;\n;.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

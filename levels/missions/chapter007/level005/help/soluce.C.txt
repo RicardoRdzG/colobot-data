@@ -1,0 +1,8 @@
+\b;Návod
+1) Udeřte do paluby \l;rakety\u object\base;. Nemusíte s \l;bucharem\u object\bottump; nikam popojíždět.
+2) Najděte \l;biokanón\u object\botoj; vzdálený asi 70 metrů na východ.
+3) Zlikvidujte všechny \l;mravence\u object\ant;, dokud stále leží na zádech.
+4) Odleťte.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

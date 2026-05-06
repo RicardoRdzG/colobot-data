@@ -1,0 +1,5 @@
+\b;Návod
+Jděte po cestě zobrazené na minimapě. Výbušnina leží na dně malého údolí obsazeného obřími mravenci. Nejspíše Vás napadnou a ztratíte při tom vědomí. Nemůžete proti tomu nic moc dělat.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

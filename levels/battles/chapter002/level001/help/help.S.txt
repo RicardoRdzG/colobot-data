@@ -1,0 +1,17 @@
+\b;Batalla de Código (vs Alienígenas)
+Este es un nivel de entrenamiento de batalla de código, cuyo propósito es familiarizarte con este \l;modo de juego\u battles;.
+
+\t;Breve introducción
+La batalla de código es un modo de juego completamente nuevo incluido en Colobot: Gold Edition. Hay dos o más equipos y el que sobrevive más tiempo es el ganador. Como sugiere el nombre, solo puedes usar programación en este modo de juego.
+
+Se recomienda leer \l;la sección de notas\u %lvl%/help/help.%lng% notes; a continuación.
+
+\b;Tu objetivo
+Mata a todos los alienígenas ubicados en el otro lado del río.
+
+\b;Notas\m notas;
+o Los \l;alienígenas\u object/ant; no te atacarán a menos que te acerques demasiado a ellos.
+o Solo hay \l;una fuente de energía subterránea\u object/enerspot; debajo de las áreas de la base inicial.
+o El \l;Derrick\u object\derrick; y el \l;RadarStation\u \object\radar; pre-construidos son indestructibles.
+o La \l;documentación de CBOT\u cbot; puede ser útil.
+o Si no has jugado Colobot antes, se recomienda leer sobre \l;los conceptos básicos de la línea de producción\u battles production;.

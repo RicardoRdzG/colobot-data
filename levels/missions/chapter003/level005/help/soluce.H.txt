@@ -1,0 +1,15 @@
+\b;Végigjátszás
+1) Keresd meg magad a \l;fekete dobozt\u object\bbox;. Megpróbálhatod kiszúrni a magasból, a hajtóműved segítségével, vagy lemerülhetsz érte a víz alá.
+2) Építs egy \l;konvertert\u object\convert; a titánérc-darabok közelében. Ezeket a hajótól keletre találod meg.
+3) Készíts két \l;kockát\u object\titan;.
+4) Építs egy \l;robotgyárat\u object\factory; nem túl messze a feketedoboztól.
+5) Gyárts egy \l;búvárrobotot\u object\botsub;.
+6) Hozd vissza a feketedobozt a fedélzetre.
+7) Indulj el.
+
+A feketedoboz egy kis tó fenekén fekszik, a űrhajótól északkeletre.
+
+A robotgyárat közvetlenül a tó mellett, a déli parton építheted fel.
+
+\t;Lásd még
+\l;Irányítás\u command;

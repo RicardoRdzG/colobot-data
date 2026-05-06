@@ -1,0 +1,11 @@
+\b;Del Control de Misiones
+Hemos determinado que el mejor lugar para construir un \l;radar\u object\radar; en este planeta está ubicado en la montaña más alta de esta región. Desafortunadamente ya está ocupado por un \l;radar en ruinas\u object\ruin;.
+
+Construye un \l;autolaboratorio\u object\labo; y úsalo para analizar el \l;dispositivo explosivo\u object\tnt; que adquiriste, esto permitirá a tu \l;fábrica de bots\u object\factory; replicar el \l;bot objetivo\u object\bottarg; diseñado por la expedición anterior.
+
+Utiliza el bot objetivo para eliminar la ruina y construir un nuevo radar en su lugar.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

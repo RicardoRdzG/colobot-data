@@ -1,0 +1,24 @@
+\b;Instrucción \c;aim\n;
+Sintaxis:
+\s;\c;aim ( y, x );\n;
+
+Esta instrucción establece el ángulo vertical y horizontal del cañón. Los siguientes robots están equipados con un cañón: 
+o  \l;Disparador\u object\botfr;
+o  \l;Disparador orgánico\u object\botor;
+o  \l;Disparador phazer\u object\botphaz;
+
+Cuando controlas el robot mediante programación, también puedes girar el arma hacia la izquierda o hacia la derecha girando todo el robot con la instrucción \c;\l;turn\u cbot\turn;\n;.
+
+\t;y: \c;\l;float\u cbot\float;\n;
+Ángulo en grados del arma relativo al robot. Un valor positivo el arma hacia arriba. Para tiradores y tiradores orga, el ángulo debe estar dentro del rango \c;-20\n; a \c;+20\n; grados. Para tiradores phazer, el ángulo debe estar dentro del rango \c;-20\n; a \c;45\n; grados.
+
+\t;x: \c;\l;float\u cbot\float;\n; (valor predeterminado: \c;0\n;)
+Ángulo en grados del arma con respecto al robot. Un valor positivo orienta el arma hacia la derecha. El ángulo debe estar comprendido entre \c;-40\n; y \c;+40\n; grados para todos los disparadores.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Cero si todo esta bien, un valor diferente de cero si la rotación no se pudo llevar acabo : 
+\c;== 0 \n;El arma ahora tiene la orientación deseada
+\c;!= 0 \n;rotación imposible
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

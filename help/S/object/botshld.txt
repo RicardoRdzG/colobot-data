@@ -1,0 +1,18 @@
+\b;\button 157; Escudo
+\image botshld 8 8;
+Bot con orugas diseñado para proteger y defenderse de todos los ataques de \l;enemigos\u object\mother; dentro de un perímetro de 10 a 25 metros. Los escudos individuales de bots y edificios se recargan a través de las acciones defensivas del escudo. Este bot es la única forma de pasar por pasajes estrechos adornados con hongos verdes venenosos.
+
+Una \l;celda de energía regular\u object\power; permite una actividad de 20 segundos con un radio de 25 metros, demasiado corta en la mayoría de los casos. Una \l;celda de energía nuclear\u object\atomic; es por supuesto más adecuada para este bot.
+
+El consumo de energía es proporcional al radio de la esfera protectora. Con un radio de 10 metros, el bot puede trabajar 2,5 veces más que con el radio máximo de 25 metros.
+
+\t;Programación
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Para programar el despliegue del escudo, usa \c;\l;shield\u cbot\shield;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Shielder\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

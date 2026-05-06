@@ -1,0 +1,9 @@
+\b;Eine dringende Nachricht vom Kontrollzentrum
+Gerade, als Sie abheben wollten, haben wir vom Satelliten folgende Information erhalten: ein Roboter bisher unbekannten Typs ist auf Volcano gesichtet worden. Versuchen Sie, ihn auf Ihr Schiff zu bringen, um weitere Studien vornehmen zu können.
+
+Unsere Ingenieure auf der Erde haben vor kurzem eine Formel gefunden, die es den Triebwerken trotz der hohen Temperaturen erlaubt, wenigstens für kurze Zeit einwandfrei zu funktionieren. Die Daten wurden Ihnen übermittelt.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

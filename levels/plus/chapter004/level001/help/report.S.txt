@@ -1,0 +1,19 @@
+\b;Informe Satelital
+Actualmente en órbita geoestacionaria de Crystalium.
+\c;
+\s;-> SUPERFICIE\c;
+\tab;Temperatura:      5.4C
+\tab;Atmósfera:       nitrógeno
+\tab;Viento:             0.0 mps
+\tab;Mineral de titanio:     algo
+\tab;Mineral de uranio:      ninguno
+
+\s;-> SUBSUELO\c;
+\tab;Fuente de energía:    ninguna
+\tab;Mineral de titanio:     datos no disponibles
+\tab;Mineral de uranio:      ninguno
+
+\s;-> INFORMACIÓN ADICIONAL\c;
+\tab;Detectado:         organismos no identificados
+\tab;  - Peligro:       ?
+\n;

@@ -1,0 +1,11 @@
+\b;Guía Paso a Paso
+Para matar a todas las hormigas y arañas en esta región grande y montañosa, necesitarás un \l;disparador de orgánica alado\u object\botfj; equipado con \l;celdas de energía nuclear\u object\atomic;. En un pequeño valle al sudeste encontrarás todo lo que necesitas: \l;cubos de titanio\u object\titan;, \l;celdas de energía\u object\power; e incluso un \l;recogedor alado\u object\botgj; en condiciones de funcionamiento.
+
+1)  Construye un \l;radar\u object\radar; y un \l;disparador alado\u object\botfj; y equípalo. Mata a la hormiga que vigila el \l;mineral de uranio\u object\uranore; más al norte.
+
+2)  Usa la \l;planta nuclear\u object\nuclear; abandonada en la colina arriba y el \l;recogedor alado\u object\botgj; para producir varias \l;celdas de energía nuclear\u object\atomic;, y usa una para equipar el \l;disparador alado\u object\botfj;.
+
+3)  Extermina todos los insectos de la región. Hay una hormiga aislada en el noroeste escondida en un agujero: un acercamiento desde el oeste a través del valle profundo facilitará golpearla.
+
+\t;Ver también
+\l;Controles\u command;

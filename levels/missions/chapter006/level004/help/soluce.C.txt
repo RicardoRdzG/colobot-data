@@ -1,0 +1,13 @@
+\b;Návod
+Průsmyk v severozápadních horách vede k jezeru vroucí lávy.
+
+Jednoduše skákejte z jednoho skalnatého ostrůvku na druhý. Hlídejte si tryskový motor, před každým vzletem ho nechte úplně vychladnout. Minimapa Vám vždy pomůže najít nejbližší další ostrov.
+
+V případě útoku mravenců se příliš nelekejte. Po vychladnutí tryskového motoru zbytečně neotálejte, a Váš osobní štít by Vás měl spolehlivě ochránit. Přesto ale doporučujeme občas uložit hru (klávesa Esc, a pak "Uložit"), ať v případě pádu do lávového jezera nemusíte začínat úplně od začátku.
+
+Robot se nachází na nejzápadnějším místě mapy, ale budete se k němu muset dostat oklikou. Kousek od něj leží \l;jaderná baterie\u object\atomic;.
+
+Robota nemusíte zpět k raketě řídit stejnou cestou, kterou jste k němu doletěli, protože jeho tryskový motor se zahřívá pomaleji než ten Váš. Jedna nebo dvě zastávky by měly stačit a pozor na mravence.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

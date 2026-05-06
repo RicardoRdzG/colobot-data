@@ -1,0 +1,50 @@
+\b;Exercício
+Comande remotamente um robô usando uma \l;posto de troca de informações\u object\exchange;, para que ele passe pelos 6 pontos de referência azuis. 
+Os principais atores deste exercício são:
+ 
+1) Um robô \l;agarrador com rodas\u object\botgr; sem uma célula de energia. Este é o mestre que você tem que programar.
+2) Um \l;posto de troca de informações\u object\exchange; que recebe informações do mestre e as transmite para o escravo.
+3) Um \l;robô de prática\u object\bottr; que aguarda ordens do posto de troca. Este robô já foi programado.
+
+\image tremot2a 16 8;
+Um posto de troca de informações armazena casais de "nome / valor". Para controlar o robô "escravo", usamos dois pares:
+
+1) nome="order", valor=número da ordem
+2) nome="param", valor=parâmetro para a operação
+
+A ordem nº 1 significa "move" e a ordem nº 2 significa "turn". O parâmetro é a distância a ser movida ou o ângulo de giro. Por exemplo, para fazer o escravo se mover 20 metros, escreva: 
+\c;\s;	\l;send\u cbot\send;("order",  1, 100);  // ordem "move"
+\s;	\l;send\u cbot\send;("param", 20, 100);  // distância de 20 metros
+\n;
+Essas duas instruções são enviadas após duas informações para o posto de troca: 
+\c;    order=1
+    param=20
+\n;
+O robô escravo espera por uma ordem e a executa. Uma vez que o pedido foi executado pelo escravo, ele remove o pedido do posto de troca. Uma vez enviado um pedido, o mestre deve aguardar o escravo concluir o pedido antes de enviar o próximo pedido. Isso é feito testando se o pedido ainda está dentro do posto de troca. Apenas escreva: 
+\c;\s;	while ( \l;testinfo\u cbot\testinfo;("order", 100) )  // espera pelo fim do trabalho
+\s;	{
+\s;		wait(1);
+\s;	}
+\n;
+Como devemos dar mais de um pedido, é mais conveniente escrever uma \l;função\u cbot\function; <code>EnviarParaPosto</ code>, que envia o pedido e aguarda sua conclusão: 
+\c;\s;void object::EnviarParaPosto(float ordem, float parametro)
+\s;{
+\s;	send("param", parametro, 100);  // envia o parâmetro
+\s;	send("order", ordem, 100);  // envia a ordem
+\s;
+\s;	while ( testinfo("ordem", 100) )  // espera pelo fim do trabalho
+\s;	{
+\s;		wait(1);
+\s;	}
+\s;}
+\n;
+Para avançar 20 metros, você deve escrever no programa principal: 
+\c;\s;	EnviarParaPosto(1, 20);  // move(20);
+\n;
+Esta é a rota pela qual o robô deve viajar:
+
+\image tremot2b 8 8;
+Cabe a você terminar o programa.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

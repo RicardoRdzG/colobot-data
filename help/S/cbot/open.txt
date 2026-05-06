@@ -1,0 +1,21 @@
+\b;Instrucción \c;open\n; (abrir)
+Abre un archivo de texto en la carpeta files/. Este es un método de la clase \c;\l;file\u cbot\file;\n;. Por eso siempre escribimos \c;handle.open()\n;:
+\c;
+\s;	handle.open("test.txt", "w");
+\n;
+Para abrir un archivo, procede de la siguiente manera:
+\c;
+\s;	file handle();
+\s;	handle.open("nombre_de_archivo", "w");
+\s;	handle.writeln("abc");
+\s;	handle.close();
+\n;
+\c;"r"\n;: abrir para lectura.
+\c;"w"\n;: abrir para escritura.
+\c;"a"\n;: abrir para agregar.
+
+Los archivos solo se pueden crear y abrir en la carpeta files/ que se encuentra dentro de la carpeta del directorio de guardado de Colobot. No puedes crear ni abrir archivos que se encuentren en otra ubicación que no sea la carpeta files/.
+
+\t;Ver también
+\c;\l;file\u cbot\file;\n;, \c;\l;close\u cbot\close;\n;, \c;\l;readln\u cbot\readln;\n;, \c;\l;writeln\u cbot\writeln;\n; y \c;\l;eof\u cbot\eof;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

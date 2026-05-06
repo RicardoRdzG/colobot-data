@@ -1,0 +1,13 @@
+\b;Vom Kontrollzentrum
+Mit der Hilfe des vierten \l;Schlüssels\u object\key; (D), den Sie ganz in der Nähe finden, bekommen Sie nun Zugang zum \l;Bunker\u object\safe;. Der bahnbrechende Roboter, den Sie darin finden werden, wird "\l;Phazershooter\u object\botphaz;" genannt.
+
+Ein Programm für die Zusammenarbeit zwischen einem \l;Phazershooter\u object\botphaz; und einem \l;Schutzschild\u object\botshld; wurde beigefügt.
+
+Sie werden sich bald in einer Lage befinden, in der Sie Ihre neue Waffe testen können. Ihre letzte Mission ist die Eliminierung der \l;Insektenkönigin\u object\mother;. Mit den Eiern die sie legt ist sie für die wachsende Anzahl von Insekten auf Terranova verantwortlich. Der Phazershooter ist wahrscheinlich der einzige Roboter der fähig ist, diese Aufgabe zu erledigen.
+
+Es wird dann keine weiteren Hindernisse für die Besiedlung durch Menschen auf diesem beeindruckenden Planeten geben und Sie können schon bald eine Nachricht über den Erfolg Ihrer Mission zur Erde schicken.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

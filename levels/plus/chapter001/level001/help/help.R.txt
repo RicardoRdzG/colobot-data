@@ -1,0 +1,32 @@
+\b;Центр подготовки NASA
+Мы очень рады сообщить вам о том, что вы были выбраны для проведения миссии, направленной на изучение космоса, которая называется Колобот.
+
+Ваши психичесике данные были признаны пригодными на 98.84%, а ваши способности, проявленные во время всестороннеей проверки, оказались неоспоримыми. Детальные результаты вы можете прочитать в центральном компьютере под регистрационным номером, который был вам дан.
+
+Пожалуйста обратитесь в \l;Центр управления Хьюстон\u object\Huston; за дальнешими указаниями, относящимися к вашей миссии.
+
+\b;Из Центр управления Хьюстон
+Как вам известно, Земле грозит большой катаклизм, который разразится из-за все увеличивающегося загрязнения атмосферы.
+
+\l;Ваша\u object\human; миссия состоит из исследования ближайших галактик в надежде найти планету, которая может оказаться подходящей для людей и сможет стать приютом для всего человечества. Выполнять миссию вы будете в одиночку, но на вашем космическом корабле будет несколько ботов, которые могут вам пригодиться.
+
+Seven months ago an expedition composed entirely of robots was sent across the cosmos with the same objective. It encountered a fair share of obstacles along the way, apparently landing on planets that were unsuitable for colonization, even possibly outright hostile. Very recently all communications were terminated.
+
+К этому моменту мы все еще не знаем, что стало причиной провала миссии. Возможно, это случилось из-за постоянных проблем со связью. Мы надеемся, что вы сможете использовать те данные, которыми мы располагаем.
+
+The last drill left for you to perform before embarking on your journey is to equip your spaceship with its \l;black box\u object\bbox;. A bot tasked with bringing it to the spaceship awaits your signal. You need to build an \l;information exchange post\u object\exchange; near a blue \l;flag\u object\flag; and \l;send\u cbot\send; an information, a \l;tracked builder\u object\botbc; may prove useful for this task.
+
+Unfortunately your \l;bot factory\u object\factory; hasn't yet got the capacity to assemble this type of bot. You need to request your \l;research center\u object\research; to come up with a blueprint for this particular apparatus.
+
+\b;Procedure
+1) Perform the necessary \l;research programs\u cbot\researches;.
+2) Drop a \l;titanium cube\u object\titan; in the center of the \l;bot factory\u object\factory; and build a \l;tracked builder\u object\botbc;.
+3) Reach the top of the southwest-oriented mountain and build an \l;exchange post\u object\exchange; near a blue \l;flag\u object\flag;.
+4) \l;Send\u cbot\send; an \l;empty information\u cbot\string; to instruct the carrier to bring the black box back aboard your spaceship.
+5) Don't forget to take your \l;grabber\u object\botgr; and \l;builder\u object\botbc; along.
+6) Climb aboard the \l;spaceship\u object\base; and take off \button 28;.
+
+\key;\key help;\norm; позволяет вам просмотреть эти инструкции в любое время с помощью вашего личного Саткома \button 63;.
+
+\t;См. также
+\l;Управление\u command;

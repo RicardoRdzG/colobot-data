@@ -1,0 +1,20 @@
+\b;Passo a passo
+Você encontrará alguns itens úteis em um pequeno vale a nordeste.
+o  Um \l;reciclador\u object\botrecy; que permitirá que você faça o seu primeiro \l;cubo de titânio\u object\titan;.
+o  Um \l;agarrador com pernas\u object\botgs; é muito bom para subir encostas íngremes.
+o  Uma \l;célula de energia nuclear\u object\atomic; quase carregada.
+
+1) Energize o \l;agarrador com pernas\u object\botgs; com a \l;célula de energia nuclear\u object\atomic;, e use-o para transportar um \l;cubo de titânio\u object\titan; para a \l;nave espacial\u object\base;. Escolha o caminho direto sobre as montanhas.
+
+2) Use o titânio para construir um \l;conversor\u object\convert;. Execute o programa \c;ColetarTitanio3\n; no \l;agarrador com pernas\u object\botgs; e você terá bastante titânio.
+
+3) Pare o programa, e use o agarrador para coletar algum \l;minério de urânio\u object\uranore; em um segundo vale a leste. Novamente, não tome o caminho do vale que está cheio de formigas, mas siga o caminho direto sobre as montanhas.
+
+4) Construa um \l;atirador alado \u object\botfj; e energize-o com uma \l;célula de energia nuclear\u object\atomic;. Se você tomar a passagem para o sudeste, você chegará imediatamente ao ninho da formiga. Mate todas as formigas e traga de volta uma bola de \l;matéria orgânica\u object\bullet; para a \l;espaçonave\u object\base;.
+
+5) Construa um \l;auto-laboratório\u object\labo;, solte a \l;matéria orgânica\u object\bullet; na plataforma e clique no botão \button 110; para desenvolver os diagramas para o canhão orgânico.
+
+6) Construa um \l;atirador orgânico com pernas\u object\botos;, traga-o a bordo e decole.
+
+\t;Veja também
+\l;Controles\u command;.

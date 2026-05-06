@@ -1,0 +1,5 @@
+\b;Schritt für Schritt
+Folgen Sie dem Pfad, den Sie auf der Mini-Karte sehen. Der Sprengstoff liegt in einem kleinen, mit Riesenameisen bevölkerten Tal. Die Ameisen werden Sie möglicherweise angreifen und Sie können dabei das Bewusstsein verlieren. Dies ist jedoch weiter nicht schlimm.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

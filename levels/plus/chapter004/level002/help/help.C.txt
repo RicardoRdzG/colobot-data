@@ -1,0 +1,11 @@
+\b;Zpráva z řídícího střediska
+Vyčistěte oblast od všech nepřátelských organizmů. Jak toho dosáhnete (\l;obrannými věžemi\u object\tower; nebo \l;létajícími kanóny\u object\botfj;) je čistě na Vás.
+
+Radar se zdá být pro hledání červů zvláště vhodný. Pamatujte ale, že je lze zaměřit pouze když vylezou na povrch.
+
+Vaší \l;továrně na roboty\u object\factory; jsme poslali plány robota vytvořeného pro hledání podzemních zdrojů: rudy nebo zdrojů energie. Zkráceně mu říkáme \l;detektor\u object\botsr;. Předběžná analýza naznačuje, že přítomnost titanové rudy na Krystaliu úzce souvisí s růstem velkých modrých krystalů. Pokud je to skutečně tak, tato informace by Vám měla ušetřit trochu cenného času. Pro těžbu je samozřejmě potřeba \l;vrtná věž\u object\derrick;.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

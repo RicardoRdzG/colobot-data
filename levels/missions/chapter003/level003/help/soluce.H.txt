@@ -1,0 +1,13 @@
+\b;Végigjátszás
+1) Egy \l;titánkocka\u object\titan; található jelenlegi pozíciódtól nyugatra, a kék zászló/kék kereszt közelében a mini-térképen. Nem kell mozgatnod a kockát, csak építs ott egy \l;erőművet\u object\station;.
+
+2) Használd fel a titánkockákat az űrhajón, hogy építs egy \l;kutatóközpontot\u object\research;, majd futtasd le a <shooter cannon research program> \button 67; kutatást.
+
+3) Építs egy \l;robotgyárat\u object\factory; és egy \l;szárnyas lövőt\u object\botfj;. Ha ez a robot megsemmisül, találsz néhány további \l;titánkockát\u object\titan; egy ködös völgyben, az űrhajótól északnyugatra. Ezeket visszahozhatod a \l;szárnyas szállítóval\u object\botgj;\n;.
+
+4) Építs egy \l;radarállomást\u object\radar;, hogy lásd az amik helyét a mini-térképen, és kezdődhet a vadászat. Vigyázz, hogy ne fogyjon ki az energiád, és ne melegedjen túl a robot reaktora víz felett. Ha mély vízbe esik, felrobban.
+
+5) Miután minden hangyát elpusztítottál, szállj be a hajóba, és indulj el.
+
+\t;Lásd még
+\l;Vezérlés\u command;

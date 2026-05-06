@@ -1,0 +1,20 @@
+\b;\button 141; Detector con Oruga
+\image botsc 8 8;
+Bot con orugas equipado para prospectar la estructura geológica del subsuelo. Cuando localiza algo útil, el detector marca las siguientes señales:
+
+- una \l;cruz roja\u object\stonspot;       -> \l;mineral de titanio\u object\titanore;.
+- un \l;círculo amarillo\u object\uranspot;  -> \l;mineral de uranio\u object\uranore;.
+- una \l;cruz verde\u object\enerspot;   -> depósito de energía, útil para una \l;central eléctrica\u object\station; o una \l;fábrica de energía\u object\energy;.
+
+Los bots con orugas pueden ascender pendientes pronunciadas pero son bastante lentos y consumen mucha energía. En terreno plano para distancias cortas, un \l;detector con ruedas\u object\botsr; es una mejor opción. Cuando sea posible construir \l;bots alados\u object\botsj;, estos representan la mejor solución para largas distancias.
+
+\t;Programación
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Para programar el brazo detector, usa \c;\l;sniff\u cbot\sniff;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;TrackedSniffer\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

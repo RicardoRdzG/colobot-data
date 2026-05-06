@@ -1,0 +1,15 @@
+\b;Instrucción \c;pencolor\n; (color lápiz)
+Sintaxis:
+\s;\c;pencolor ( color );\n;
+La instrucción \c;pencolor();\n; indica al bot que cambie el color del lápiz.
+
+\t;color: \c;\l;int\u cbot\int;\n; (valor predeterminado: \c;Black\n; (negro))
+\l;Nombre del color\u cbot\colors;.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Normalmente un error detiene el programa. Puedes evitar que el programa se detenga ante errores usando la instrucción \c;\l;errmode\u cbot\errmode;(0)\n;. Se devuelve un valor diferente de cero si se produjo un error mediante \c;pencolor();\n;.
+\c;== 0 \n;El color se cambió
+\c;!= 0 \n;La instrucción no funcionó
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

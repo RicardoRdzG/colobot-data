@@ -1,0 +1,7 @@
+\b;Guía Paso a Paso
+Si tu bot explota repentinamente, significa que has golpeado las estructuras de acero con demasiada frecuencia. Conduce más lentamente, para que tu bot no se dañe incluso si choc contra un obstáculo.
+
+Si no puedes despegar después de haber completado el entrenamiento, significa que no pasaste por todos los objetivos. Da una vuelta más y pasa por los objetivos donde la cruz se deja en el centro.
+
+\t;Ver también
+\l;Controles\u command;

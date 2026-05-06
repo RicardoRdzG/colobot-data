@@ -1,1 +1,8 @@
 Title.E text="Fundamentals" resume="Fundamentals"
+Title.C text="Základy" resume="Základy"
+Title.D text="Grundlagen" resume="Grundlagen"
+Title.S text="Fundamentos" resume="Fundamentos"
+Title.F text="Base" resume="Base"
+Title.P text="Podstawy" resume="Podstawy"
+Title.B text="Fundamentos" resume="Fundamentos"
+Title.R text="Основы" resume="Основы"

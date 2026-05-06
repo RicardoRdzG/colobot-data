@@ -1,0 +1,15 @@
+\b;Desde Control de Misión
+Acabamos de recibir información de que la primera expedición diseñó un arma completamente nueva para usar en Terranova. Fue almacenada de forma segura lejos del alcance del enemigo posible, dentro de una \l;bóveda\u object\safe; a la que solo se puede acceder usando cuatro \l;llaves\u object\key;. Las llaves están dispersas en o bajo la superficie del planeta.
+
+El satélite de observación ha localizado una de estas llaves (A) al norte de tu posición actual.
+
+De conformidad con las directivas del Congreso, nuestros ingenieros han desarrollado otro bot estrictamente "defensivo": se llama \l;shielder\u object\botshld; y ofrecerá protección adecuada dentro de un perímetro determinado. Los datos han sido transmitidos a tu \l;centro de investigación\u object\research; junto con un par de programas relevantes.
+
+Como quizás sepas, el mineral de uranio en el subsuelo es un poderoso fertilizante, favoreciendo el crecimiento de una variedad de hongos. También ten en cuenta que el \l;mineral de titanio\u object\titanore; suele encontrarse en el fondo de los lagos de este planeta.
+
+Cuando tu misión esté completada y antes de despegar, trae tanto un \l;shielder\u object\botshld; como un \l;subber\u object\botsub; a bordo de tu nave espacial.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

@@ -1,0 +1,13 @@
+\b;A Küldetésirányítástól
+Nyilvánvalónak tűnik, hogy ez a bolygó nem lesz menedék az emberiség számára.
+
+Építs egy radart a jövőbeli adások továbbításához.
+
+Továbbá... sajnálattal közöljük, hogy előfordulhat, minden ellenséges élőlényt el kell pusztítanod.
+
+Az első expedíció \l;titánércet\u object\titanore; talált Orpheon felszíne alatt. A helyet egy kék \l;zászló\u object\flag; jelöli.
+
+\key;\key help;\norm; segítségével bármikor újra megtekintheted ezeket az utasításokat a személyes SatCom készülékeden \button 63;.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

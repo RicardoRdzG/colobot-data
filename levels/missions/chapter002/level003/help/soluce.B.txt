@@ -1,0 +1,7 @@
+\b;Passo a passo
+Se o seu robô explodir de repente, isso significa que você bateu nas estruturas de aço com muita frequência. Dirija mais devagar, para que seu robô não seja danificado, mesmo se você bater em um obstáculo.
+
+Se você não pode decolar depois de ter concluído o treinamento, isso significa que você não passou por todos os alvos. Volte mais uma vez e passe pelos alvos onde a cruz é deixada no centro.
+
+\t;Veja também
+\l;Controles\u command;

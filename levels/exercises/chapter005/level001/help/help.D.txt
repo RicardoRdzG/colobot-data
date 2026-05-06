@@ -1,0 +1,38 @@
+\b;Übung
+Transportieren Sie den \l;Titanwürfel\u object\titan; auf die Zielfläche. Sie kennen die Position des Titans nicht, aber wir können Ihnen sagen, wo sich die Zielfläche befindet: x=10 und y=-60.
+
+\b;Die Anweisung \c;goto\n;
+Um dieses Problem auf einfache Weise zu lösen, werden wir eine neue Anweisung verwenden, um den Roboter in Bewegung zu setzen: die \c;\l;goto\u cbot\goto;\n;-Anweisung. Mit ihr können Sie jede beliebige Position leicht erreichen, wenn Sie ihre exakte Position in Form der x- und y-Koordinaten kennen. Der Roboter wird sich in die Richtung dieses Ziels drehen, sich vorwärts bewegen und sogar Hindernissen ausweichen.
+
+Hier ist eine Zusammenfassung der verschieden Wege, den Roboter fortzubewegen:
+
+\s;\c;\l;motor\u cbot\motor;(links, rechts)\n;
+Gibt Ihnen direkte und präzise Kontrolle über die beiden Motoren und erlaubt Ihnen, in Bruchteilen von Sekunden die Einstellungen zu verändern.
+
+\s;\c;\l;move\u cbot\move;(entfernung)\n; und \c;\l;turn\u cbot\turn;(winkel)\n;
+Verwenden Sie diese Anweisungen, um den Roboter um eine bestimmte Strecke nach vorn zu bewegen, oder ihn um einen bestimmten Winkel zu drehen. Alle Parameter sind relativ zur aktuellen Position des Roboters.
+
+\s;\c;\l;goto\u cbot\goto;(position)\n;
+Macht es möglich, eine gegebene absolute Position auf einfache Art zu erreichen.
+
+\b;Das Programm
+Benutzen Sie die Anweisung \c;\l;radar\u cbot\radar;(Titanium);\n;, um den Titanwürfel zu finden. Prüfen Sie dann, ob ein solcher Würfel gefunden wurde. In dieser Übung ist diese Zeile nicht sehr sinnvoll, denn wir wissen, dass wir einen Titanwürfel finden werden. Es ist jedoch besser, sich anzugewöhnen, alles zu prüfen, was Ihnen Ihr Radar zurückgibt:
+\c;
+\s;\l;object\u cbot\type;  item;
+\s;item = \l;radar\u cbot\radar;(\l;Titanium\u cbot\category;);
+\s;\l;if\u cbot\if; ( item == \l;null\u cbot\null; )  \l;return\u cbot\return;;
+\s;\l;goto\u cbot\goto;(item.\l;position\u cbot\object;);
+\n;
+Die Variable \c;item\n; ist vom Typ \c;\l;object\u cbot\object;\n;. Die exakte Position des durch die Variable beschriebenen Objekts können Sie durch \c;item.\l;position\u cbot\object;\n; ermitteln.
+
+Um den Titanwürfel aufzunehmen, verwenden Sie die Anweisung \c;\l;grab\u cbot\grab;()\n; ohne Parameter.
+
+Um den Titanwürfel abzulegen, verwenden Sie die Anweisung \c;\l;drop\u cbot\drop;()\n; ohne Parameter.
+
+Wir kennen die Koordinaten der Zielfläche: x=10 und y=-60. Sie müssen eine \l;Variable\u cbot\var; des Typs \l;point\u cbot\point; deklarieren und sie mit diesen Koordinaten füllen. Diese Variable können Sie dann an \c;\l;goto\u cbot\goto;\n; als Parameter übergeben.
+Hinweis: Sie brauchen sich nicht um die \c;z\n;-Koordinate zu kümmern, wenn der Roboter nicht fliegen kann.
+
+Es ist nun Ihre Aufgabe, das Programm fertigzustellen...
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

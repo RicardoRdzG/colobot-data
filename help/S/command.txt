@@ -1,0 +1,47 @@
+\b;Controles
+Se recomienda jugar con una mano en las teclas de dirección y la otra en el ratón.
+
+\t;Bots
+\key;\key left;\norm; = girar izquierda
+\key;\key right;\norm; = girar derecha
+\key;\key up;\norm; = avanzar
+\key;\key down;\norm; = retroceder
+Estos controles no están disponibles al trabajar con los \l;bots de práctica\u object\bottr;.
+
+\key;\key gup;\norm; = despegar y ascender \button 28;
+\key;\key gdown;\norm; = descender y aterrizar \button 29;
+Estos controles están restringidos al \l;astronauta\u object\human; y a los \l;bots alados\u object\botgj;, solo en misiones seleccionadas.
+
+ratón adelante = apuntar más alto
+ratón atrás = apuntar más bajo
+ratón derecha = apuntar derecha
+ratón izquierda = apuntar izquierda
+Estos controles solo están disponibles para los \l;bots disparadores\u object\botfr;, los \l;disparadores organicos\u object\botor; y el \l;disparador phazer\u object\botphaz;.
+
+\key;\key action;\norm; = acción principal para la selección (humano o bot)
+Este control, por ejemplo, acciona el brazo de un \l;transportador\u object\botgr; o dispara un \l;disparador\u object\botfr; \button 42;.
+
+\t;Selecciones
+\key;\key next;\norm; = selecciona objeto siguiente
+\key;\key human;\norm; = selecciona astronauta
+\key;\key desel;\norm; = selección anterior \button 10;
+
+\t;Cámara
+\key;\key camera;\norm; = alterna entre cámaras embarcadas y de seguimiento \button 13;
+\key;\key near;\norm; = acercar
+\key;\key away;\norm; = alejar
+\key;\key visit;\norm; = pausa el juego y muestra el origen del último mensaje. Pulsa de nuevo para ver el origen del mensaje anterior.
+
+\t;Ayuda
+\key;\key help;\norm; = instrucciones de misión
+\key;\key prog;\norm; = ayuda de programación
+
+\t;Juego
+\key;\key speed_dec;\norm; = reducir velocidad a la mitad
+\key;\key speed_reset;\norm; = velocidad normal x1
+\key;\key speed_inc;\norm; = aumentar velocidad al doble
+\key;\key quicksave;\norm; = guardado rápido
+\key;\key quickload;\norm; = carga rápida
+\key;\key quit;\norm; = salir de misión \button 11;
+
+Todos estos comandos se pueden redefinir en el menú opciones/controles.

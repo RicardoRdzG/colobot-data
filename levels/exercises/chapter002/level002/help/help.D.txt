@@ -1,0 +1,33 @@
+\b;Das Ziel
+Passen Sie das Programm \c;Spider2\n; zur Verteidigung gegen den Angriff der Ameisen, die aus allen Richtungen kommen, für einen Flug in einer bestimmten Höhe an.
+
+\t;Programm
+Das für diese Aufgabe benötigte Programm ähnelt sehr dem Programm \c;Spider2\n;, welches nach der Spinne mit der geringsten Entfernung sucht, den Roboter in ihre Richtung dreht und feuert:
+\c;
+\s;extern void object::Spinne2()
+\s;{	
+\s;	\l;object\u cbot\type;    item;
+\s;	
+\s;	\l;while\u cbot\while; (true)
+\s;	{
+\s;		item = \l;radar\u cbot\radar;(AlienSpider);
+\s;		\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;		\l;fire\u cbot\fire;(1);
+\s;	}
+\s;}
+\n;
+Sie können es kopieren, im Editor einfügen und es anpassen. Ersetzen Sie \c;\l;radar\u cbot\radar;(\l;AlienSpider\u cbot\category;);\n; durch \c;\l;radar\u cbot\radar;(\l;AlienAnt\u cbot\category;);\n; und setzen Sie vor die \c;\l;while\u cbot\while;\n;-Schleife eine weitere Schleife, die den Jetantrieb unter dem \l;Jetshooter\u object\botfj; solange aktiviert, bis eine Höhe von 20 Metern erreicht ist.
+
+Die Anweisung \c;\l;jet\u cbot\jet;()\n; steuert den Antrieb von Jetrobotern. Die Zahl in den Klammern muss zwischen \c;-1\n; und \c;1\n; liegen. \c;\l;jet\u cbot\jet;(1);\n; lässt den Roboter mit maximaler Geschwindigkeit steigen.\c; \l;jet\u cbot\jet;(-1);\n; lässt den Roboter mit maximaler Geschwindigkeit sinken und \c;\l;jet\u cbot\jet;(0);\n; lässt ihn die Höhe stabilisieren. Da der Roboter eine präzise Höhe erreichen muss, bewegen Sie ihn mittels \c;\l;jet\u cbot\jet;(0.2);\n; ganz langsam nach oben und warten Sie, bis die gewünschte Höhe erreicht ist. Stabilisieren Sie dann die Höhe mit \c;\l;jet\u cbot\jet;(0);\n;.
+
+Um zu "warten, bis die gewünschte Höhe erreicht ist", benötigen wir eine Schleife mit Bedingung: die Anweisungen innerhalb der Schleife sollen nur solange wiederholt werden, wie eine bestimmte Bedingung wahr ist. Die Höhe des Roboters ist gegeben durch \c;position.z\n;. Wir wissen schon, dass \c;position\n; die Position des Roboters angibt. Eine Position wiederum wird durch die drei Koordinaten x, y und z bestimmt: die x-Achse ist die Ost-West-Achse, die y-Achse ist die Nord-Süd-Achse und die z-Achse ist die vertikale Achse. Daher müssen wir so lange warten, wie \c;position.z\n; kleiner als 20 ist:
+\c;
+\s;	while (position.z < 20)
+\s;	{
+\s;		wait(0.2);
+\s;	}
+\n;
+Nachdem es 0.2 Sekunden lang gewartet hat, prüft das Programm, ob die Höhe noch immer unter 20 Metern liegt. Ist dies der Fall, wartet es weiterhin; falls nicht, so wird das Programm hinter der Schleife fortgesetzt, d.h. hinter der schließenden geschweiften Klammer \c;}\n;. Vergessen Sie nicht, durch ein \c;\l;jet\u cbot\jet;(0);\n; hinter der Schleife die Höhe zu stabilisieren.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

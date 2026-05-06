@@ -1,0 +1,48 @@
+\b;Objectif
+Équipez-les \l;robots tireur\u object\botfj; de \l;batteries\u object\power;, pour que ceux-ci puissent assainir le nid de \l;fourmis\u object\ant; qui se trouve dans un cratère au nord de votre position.
+
+\t;Programme
+Le robot préhenseur doit aller vers une batterie, prendre celle-ci, aller vers un robot, et poser la batterie. Voici un programme d'un exercice précédent qui accomplit une tâche semblable:
+\c;
+\s;extern void object::Titane2()
+\s;{
+\s;	object    chose;
+\s;	
+\s;	chose = radar(TitaniumOre);
+\s;	goto(chose.position);
+\s;	\l;grab\u cbot\grab;();
+\s;	
+\s;	chose = radar(Converter);
+\s;	goto(chose.position);
+\s;	\l;drop\u cbot\drop;();
+\s;}
+\n;
+La meilleure façon de résoudre cet exercice est de copier le programme ci-dessus dans le presse-papiers (de \c;object\n; à \c;\l;drop\u cbot\drop;();\n;), et de le coller \button 62; dans l'éditeur de programme. Il ne vous reste plus qu'à effectuer les modifications nécessaires pour l'adapter à la nouvelle tâche.
+
+Vous pouvez reprendre ce programme avec couper-coller, et apporter les changements nécessaires. Au lieu de chercher un minerai de titane (\c;TitaniumOre\n;), cherchez une batterie (\c;\l;PowerCell\u object\power;\n;). Au lieu d'aller ensuite vers une \l;raffinerie\u object\convert; (\c;Converter\n;), allez vers un robot tireur (\c;\l;WingedShooter\u object\botfj;\n;). Le tireur fera ensuite son travail.
+
+Pour savoir comment s'appellent les différents objets dans le langage de programmation, reportez-vous au \l;texte décrivant les catégories\u cbot\category;.
+
+\t;Améliorations : les boucles
+Une fois que le programme expliqué ci-dessus fonctionne, vous pouvez l'améliorer de manière à ce qu'il répète les actions nécessaires tout seul. Vous n'aurez plus à exécuter le programme plusieurs fois pour qu'il équipe plusieurs robots.
+
+Ajoutez simplement une instruction \c;\l;while\u cbot\while;(true)\n; au début du programme, avec toutes les instructions à répéter entre les accolades \c;{}\n;:
+\c;
+\s;	while (true)
+\s;	{
+\s;		chose = radar(PowerCell);
+\s;		goto(chose.position);
+\s;		\l;grab\u cbot\grab;();
+\s;		
+\s;		chose = radar(WingedShooter);
+\s;		goto(chose.position);
+\s;		\l;drop\u cbot\drop;();
+\s;	}
+\n;
+N'oubliez pas de déclarer la variable \c;object chose;\n; avant de l'utiliser la première fois.
+
+\t;Remarque
+Un robot peut exécuter un programme tout seul: pendant ce temps, vous pouvez sélectionner le \l;cosmonaute\u object\human; et aller observer ce qui se passe vers le nid, en faisant cependant attention de ne pas vous mettre dans la ligne de tir. Les touches \key;\key gup;\norm; et \key;\key gdown;\norm; permettent de voler. Cliquez \l;ici\u command; pour voir le détail des commandes de déplacement.
+
+\t;Voir aussi
+\l;Exercice précédent\u tlaby2;, \l;programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

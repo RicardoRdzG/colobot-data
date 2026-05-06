@@ -1,0 +1,18 @@
+\b;Vom Kontrollzentrum
+Wir hoffen, dass diese Nachricht Sie erreichen wird.
+
+Eine Übertragung des Beobachtungssatelliten hat uns vor einigen Stunden davon in Kenntnis gesetzt, dass Sie sich beängstigend unkoordiniert durch die Gegend bewegen. Ihr SatCom hat aufgehört zu senden. Ihr Triebwerk scheint eine Beschädigung davon getragen zu haben und Ihr Helm wurde am Grund eines Sees ausgemacht. Falls dies wirklich der Fall ist, versuchen Sie nicht, ihn herauszuholen. Gehen Sie auf keinen Fall in tieferes Wasser, denn es ist hochgradig giftig! Sie würden es nicht überleben.
+
+Gehen Sie so schnell wie möglich zu Ihrem Schiff zurück, um uns mögliche Gründe für dieses Desaster zu übermitteln. Die Information, die wir vom Satelliten erhalten, bleiben unverständlich. Seit die erste Expedition verloren ging, haben wir über ein unvorhersehbares Phänomen spekuliert, dem Sie nun scheinbar ebenfalls begegnet sind.
+
+Es gibt nichts, was wir für Sie tun können, um Ihnen zu helfen, aber vergessen Sie nicht, dass Sie den Spuren einer vorhergehenden Expedition folgen, die auch ungefähr dort landete, wo sich Ihr Raumschiff jetzt befindet. Auch enthält Ihr Überlebenskit mehrere kleine Fahnen, die Sie als Orientierungshilfe benutzen können, da sie auch die Windrichtung anzeigen.
+
+Sie können auch nachdenken es zu prüfen, Fahnen zu absetzen. Sie zeigen die Richtung des Windes, so dass Sie sie verwenden können, um sich zu orientieren.
+
+Das ist alles, was wir an dieser Stelle sagen können...
+Viel Glück...
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

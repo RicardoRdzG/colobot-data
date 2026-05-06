@@ -1,0 +1,14 @@
+\b;Exercício
+Neste exercício, um "robô maluco" coloca muitas \l;cruzes azuis\u object\waypoint; no chão. Apenas tente encontrar todos elas.
+
+\b;Instruções úteis
+\c;\l;radar\u cbot\radar;\n; para detectar as cruzes azuis (categoria \c;\l;WayPoint\u object\waypoint;\n;)
+\c;\l;direction\u cbot\direct;\n; para calcular a direção
+\c;\l;if\u cbot\if;\n; para testar uma condição
+\c;\l;motor\u cbot\motor;\n; para definir a velocidade do motor
+
+\t;Observação
+Não espere muito, porque o robô maluco começa a funcionar imediatamente. Felizmente, contanto que você esteja no editor do programa, o jogo fará uma pausa.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

@@ -1,0 +1,22 @@
+\b;Guía Paso a Paso
+1) Encontrarás un \l;cubo de titanio\u object\titan; dejado en una fábrica de bots destrozada. Úsalo para construir una \l;central eléctrica\u object\station;.
+
+2) El \l;reciclador\u object\botrecy; está diseñado para convertir derelicts de nuevo en cubos de titanio utilizables.
+
+3) Construye tanto un \l;centro de reparación\u object\repair; como un \l;radar\u object\radar;.
+
+4) Recarga una de las \l;celdas de energía\u object\power; disponibles y alimenta un \l;disparador alado\u object\botfj;.
+
+5) Elimina todas las \l;hormigas\u object\ant;. Ten en cuenta que debes recargar y reparar el disparador regularmente. Revisa tus niveles.
+
+6) Carga completamente la celda de energía del \l;recogedor\u object\botgr;, luego contrólalo por radio hasta la cima...
+      a) Accede al primer nivel por la rampa al oeste;
+      b) En el primer nivel viaja al este para encontrar la segunda rampa;
+      c) En el segundo nivel viaja al sur para encontrar la tercera rampa;
+      d) En el tercer nivel viaja al oeste para acceder a la cima;
+...luego, con el trozo, vuelve directamente a la nave espacial por la ruta más directa para ahorrar la energía restante.
+
+7) Sube a la nave y despega.
+
+\t;Ver también
+\l;Controles\u command;

@@ -1,0 +1,20 @@
+\b;Übung
+Der \l;Roboter\u object\bottr; muss über alle \l;blauen Kreuze\u object\waypoint; fahren. Der Weg, der zurückgelegt werden muss, besteht aus zwei Quadraten. Das erste misst 15 Meter und das zweite 25 Meter.
+
+\image tproc1a 8 8;
+\b;Vorgehensweise
+Um dieses Problem am effizientesten zu lösen, sollten Sie eine \l;Funktion\u cbot\function; schreiben, die den Roboter anweist, in Form eines Rechtecks beliebiger Größe zu fahren. Das Hauptprogramm wird dann sehr einfach.\c;
+\c;
+\s;	extern void object::Function3( )
+\s;	{
+\s;		Square(15);
+\s;		Square(25);
+\s;	}
+\n;
+\b;Nützliche Anweisungen
+\c;\l;for\u cbot\for;\n;-Schleife um einige Anweisungen zu wiederholen
+\c;\l;move\u cbot\move;\n; um den Roboter zu bewegen
+\c;\l;turn\u cbot\turn;\n; um den Roboter zu drehen
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, \l;Variablentypen\u cbot\type; und \l;Kategorien\u cbot\category;.

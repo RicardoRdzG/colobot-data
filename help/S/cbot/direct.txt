@@ -1,0 +1,15 @@
+\b;Instrucción \c;direction\n;
+Sintaxis :
+\s;\c;direction ( posición );\n;
+
+Calcula la rotación que debe realizar un robot para apuntar hacia una posición dada. 
+
+\t;posición: \c;\l;point\u cbot\point;\n;
+Posición hacia la que debe apuntar el robot.
+
+\t;Valor de retorno: \c;\l;float\u cbot\float;\n;
+Ángulo de la rotación que se debe realizar. -90 significa, por ejemplo, una rotación de 90 grados hacia la derecha. 
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.
+

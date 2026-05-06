@@ -1,0 +1,24 @@
+\b;Instrucción \c;canbuild\n;
+La instrucción \c;canbuild();\n; te permite saber si \l;los constructores\u object\botbr;, \l;tú\u object\human; o \l;los técnicos\u object\human; pueden construir un edificio de una \l;categoría\u cbot\category; determinada.
+
+\b;Uso básico
+Ayuda a prevenir errores en programas que utilizan la instrucción \c;\l;build();\u cbot\build;\n;. Aquí tienes un ejemplo:
+\c;
+\s; \l;if\u cbot\if; (canbuild(\l;BotFactory\u object\factory;))
+\s; {
+\s;	build(\l;BotFactory\u object\factory;);
+\s; }
+\n;
+\b;Para especialistas
+Sintaxis:
+\s;\c;canbuild ( cat );\n;
+
+\t;cat: \c;\l;int\u cbot\int;\n;
+\l;Categoría\u cbot\category; de una construcción.
+
+\t;Valor de retorno: \c;\l;bool\u cbot\bool;\n;
+\c;true\n; (verdadero) si el edificio puede ser construido, \c;false\n; ( falso ) de otra manera.
+
+\t;Ver también
+\c;\l;build\u cbot\build;\n;, \c;\l;buildingenabled\u cbot\buildingenabled;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

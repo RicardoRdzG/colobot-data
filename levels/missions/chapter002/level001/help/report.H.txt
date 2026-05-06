@@ -1,0 +1,18 @@
+\b;Műholdjelentés
+Jelenleg geostacionárius pályán kering a Hold körül.
+\c;
+\s;-> FELSZÍN\c;
+\tab;Hőmérséklet:     -53.1C
+\tab;Légkör:          nincs
+\tab;Szél:            0.0 m/s
+\tab;Titánérc:        néhol
+\tab;Uránérc:         nincs
+
+\s;-> ALTALAJ\c;
+\tab;Energiaforrás:   nincs
+\tab;Titánérc:        nincs
+\tab;Uránérc:         nincs
+
+\s;-> TOVÁBBI INFORMÁCIÓK\c;
+\tab;A terep néhol túl egyenetlen a kerekes robotok számára.
+\n;

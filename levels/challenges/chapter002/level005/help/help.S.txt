@@ -1,0 +1,7 @@
+\b;Ejercicio
+Instruye a tu \l;bot\u object\bottr; para que encuentre todas las \l;cruces azules\u object\waypoint; en el suelo, pero no te acerques demasiado a las \l;minas\u object\mine;.
+
+Si un bot se acerca a menos de 2m del centro de una mina (que es la posición devuelta por la instrucción radar), explotará. Sin embargo, debes tener en cuenta la inercia del bot. Probablemente una distancia de seguridad de 3 a 3.5m sería más apropiada.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

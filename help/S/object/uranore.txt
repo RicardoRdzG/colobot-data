@@ -1,0 +1,16 @@
+\b;Mineral de Uranio
+\image uranore 4 4;
+El mineral de uranio es esencial para la producción de \l;celdas de energía nuclear\u object\atomic;.
+
+Se puede encontrar en la superficie o en el subsuelo. En este último caso, primero necesita ser localizado e identificado por un \l;detector\u object\botsr;, luego extraído usando un \l;derrick\u object\derrick;. Si un detector identifica un depósito de mineral de uranio, coloca un \l;círculo amarillo\u object\uranspot;.
+
+Una \l;planta nuclear\u object\nuclear; se encargará de convertir el trozo en una nueva y completamente cargada \l;celda de energía nuclear\u object\atomic;.
+
+\t;Transporte
+Todos los \l;recogedores\u object\botgr;. Debido a su radioactividad, el \l;astronauta\u object\human; no puede transportarlo.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;UraniumOre\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

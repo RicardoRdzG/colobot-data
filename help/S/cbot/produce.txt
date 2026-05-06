@@ -1,0 +1,31 @@
+\b;Instrucción \c;produce\n;
+Sintaxis:
+\s;\c;produce ( posición, orientación, categoría, programa, potencia );\n;
+or
+\s;\c;produce ( categoría, potencia );\n;
+
+Crea inmediatamente un \l;objeto\u cbot\category;.
+
+\t;posición: \c;\l;point\u cbot\point;\n;
+Dónde se creará el objeto. La segunda sintaxis crea el objeto en la posición actual del bot.
+
+\t;orientación: \c;\l;float\u cbot\float;\n;
+Orientación (ángulo) del objeto.
+
+\t;categoría: \c;\l;int\u cbot\int;\n;
+\l;Categoría\u cbot\category; del objeto.
+
+\t;programa: \c;\l;string\u cbot\string;\n;
+Programa para el objeto. Solo tendrá efecto en objetos programables, como robots o alienígenas.
+
+\t;potencia: \c;\l;float\u cbot\float;\n;
+Nivel de energía.
+
+\t;Devolución: \c;\l;void\u cbot\void;\n;
+Nada.
+
+\b;Ejemplo de uso
+Lo utiliza a la reina alíen ( \l;AlienQueen\u object\mother; ) para producir huevos alíen ( \l;AlienEggs\u object\egg; ).
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

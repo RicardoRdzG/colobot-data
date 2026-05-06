@@ -1,0 +1,9 @@
+\b;Návod
+Pro \l;Vás\u object\human; osobně bude bezpečnější zůstat v \l;raketě\u object\base;. Možná utržíte nějaká zranění, ale přežijete.
+
+Neztrácejte čas a pošlete svůj nový \l;létající biokanón\u object\botoj; do boje. Nejprve zlikvidujte mravence napravo, a pak v nízké výšce obleťte raketu po směru hodinových ručiček.
+
+Pokud to nezvládnete, odleťte s \l;létajícím biokanónem\u object\botoj; na bezpečné místo na sever od rakety, a pak sami utečte. Potom budete mít dost času zlikvidovat mravence v klidu jednoho po druhém; raketu ani černou skříňku totiž poškodit nemohou.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

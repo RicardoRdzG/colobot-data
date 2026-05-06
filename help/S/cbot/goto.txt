@@ -1,0 +1,35 @@
+\b;Instrucción \c;goto\n; (ir a)
+La instrucción \c; goto();\n; indica al bot que se desplace a una posición determinada.
+
+\b;Uso básico
+El uso más habitual consiste en mover el bot hacia un objeto localizado con la instrucción \c;\l;radar\u cbot\radar;();\n;. Si la información devuelta por \c;\l;radar\u cbot\radar;();\n; se ha almacenado en una variable determinada, escribe el nombre de la variable seguido de \c;.position\n; para obtener la posición del objeto. A continuación se muestra un ejemplo de un programa que busca un \l;cubo de titanio\u object\titan;, se desplaza hasta su posición y lo recoge:
+\c;
+\s;	item = \l;radar\u cbot\radar;(Titanium);
+\s;	goto(item.position);
+\s;	\l;grab\u cbot\grab;();
+\n;
+\b;Para especialistas
+Sintaxis:
+\s;\c;goto ( posición, altitud, objetivo );\n;
+
+Indica al robot que vaya a la posición dada, evitando todos los obstáculos si esto es posible. 
+
+\t;posición: \c;\l;point\u cbot\point;\n;
+Coordenadas de la posición del objetivo.
+
+\t;altitud: \c;\l;float\u cbot\float;\n;
+Altitud de vuelo para los \l;bots alados\u object\botgj;. La altitud solo es útil para los \l;bots alados\u object\botgj;. Desde la altitud inicial, el bot sube más alto hasta que alcanza la altura especificada. Al llegar cerca del destino, baja para tocar el suelo en la posición dada. Si no se da ningún valor, una altitud de 10 metros es el valor predeterminado. En movimientos muy cortos, incluso los bots alados se mantienen en el suelo. Para todos los bots excepto los bots alados, este parámetro se ignora. 
+
+\t;objetivo: \c;\l;int\u cbot\int;\n; (valor predeterminado \c;0\n;)
+Este parámetro indica al bot cómo debe alcanzar el objetivo: 
+\c;0\n;  se detiene exactamente en la posición objetivo
+\c;1\n;  se acerca a la posición objetivo, sin detenerse.
+Si no se da ningún valor, \c;0\n; (precisión) es el valor predeterminado.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Normalmente un error detiene el programa. Puedes evitar que el programa se detenga ante errores usando la instrucción \c;\l;errmode\u cbot\errmode;(0)\n;. Se devuelve entonces un valor diferente de cero si se produjo un error mediante \c;goto()\n;.
+\c;== 0 \n;Posición objetivo alcanzada
+\c;!= 0 \n;Posición objetivo imposible de alcanzar
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,19 @@
+\b;Exercício
+Vários \l;postos de troca de informações\u object\exchange; estão no caminho. Quando o robô está perto o suficiente de um posto, ele pode ler as instruções nele contidas. Os \l;postos de troca de informações\u object\exchange; ao longo do caminho contêm a direção do próximo posto e a distância. E você não sabe com quantos postos de troca você deve entrar em contato antes de chegar ao seu objetivo.
+
+\b;Princípio geral
+	Sempre repita:
+	o  Recupere a direção do \l;posto de troca\u object\exchange;.
+	o  Recupere a distância do \l;posto de troca\u object\exchange;.
+	o  Se nenhuma informação puder ser recuperada, pare o programa.
+	o  Execute a rotação.
+	o  Avançe para o próximo posto.
+
+\b;Instruções úteis
+\c;\l;while\u cbot\while;\n; para repetir instruções
+\c;\l;receive\u cbot\receive;\n; para pegar informação de um posto
+\c;\l;move\u cbot\move;\n; para mover o robô
+\c;\l;turn\u cbot\turn;\n; para girar o robô
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

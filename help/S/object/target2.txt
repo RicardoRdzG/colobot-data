@@ -1,0 +1,12 @@
+\b;Objetivo2
+\image target2 4 4;
+En las misiones de ejercicio de vuelo, las cruces marrones indican posiciones que deben ser cruzadas por un bot alado. Desaparecen tan pronto como un bot vuela a través de ellas. Se colocan en el centro del edificio \l;Target1\u object\target1;.
+
+\t;Transporte
+Imposible.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Target2\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

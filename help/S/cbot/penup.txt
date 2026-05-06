@@ -1,0 +1,12 @@
+\b;Instrucción \c;penup\n; (lápiz arriba)
+Sintaxis:
+\s;\c;penup ( );\n;
+La instrucción \c;penup();\n; indica al bot que levante el lápiz, por lo que deja de dibujar. El lápiz está levantado por defecto, por lo que solo debe utilizarse después de usar \c;\l;pendown\u cbot\pendown;\n;.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Normalmente un error detiene el programa. Puedes evitar que el programa se detenga ante errores usando la instrucción \c;\l;errmode\u cbot\errmode;(0)\n;. Se devuelve un valor diferente de cero si se produjo un error mediante \c;penup();\n;.
+\c;== 0 \n;El lápiz está ahora arriba
+\c;!= 0 \n;La instrucción no funcionó
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

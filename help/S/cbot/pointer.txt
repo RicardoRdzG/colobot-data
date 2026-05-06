@@ -1,0 +1,53 @@
+\b;Referencias (para especialistas)
+CBOT utiliza referencias para \l;clases\u cbot\class; y \l;arrays\u cbot\array;. Cualquier variable de clase contiene en realidad una referencia a la instancia. La instancia contiene en realidad los campos de clase. Varias referencias pueden hacer referencia a la misma instancia. Una referencia nula (\c;\l;null\u cbot\null;\n;) no hace referencia a nada. Puedes comparar una instancia con una maleta y una referencia con un transportista. Cada vez que necesitamos una maleta nueva, creamos una nueva instancia con un transportista. Pero una maleta puede ser transportada por más de un transportista. Un transportista que no transporta ninguna maleta es una referencia \c;\l;nula\u cbot\null;\n;.
+
+Ejemplo:
+\c;\s;{
+\s;	MiClase item1(); // crea una nueva instancia
+\s;	                 // referenciads por item1
+\s;	MiClase item2;   // crea una referencia nula
+\s;	item2 = item1;   // copia la referencia,
+\s;	                 // item2 e item1 ahora referencian
+\s;	                 // la misma = instancia
+\s;	item1.a = 12;    // modifica la instancia 
+\s;	                 // referenciado por  item1 (e item2)
+\s;	message(item2.a);// muestra 12
+\s;}
+\n;
+Si pasas una instancia \l;de clase\u cbot\class; como parámetro a una función, la función solo recibe una referencia a la instancia. Eso significa que si modificas la instancia en la función, la instancia que ha sido especificada por quien realiza la llamada será modificada realmente.
+
+\c;\s;void Test( MiClase item )
+\s;{
+\s;	item.a = 12;          // modifica la instancia original
+\s;	item = new MiClase(); // nueva instancia local
+\s;	item.a = 33;          // modifica la instancia local
+\s;}
+\n;
+Llamando la función \c;Test()\n;:
+\c;\s;{
+\s;	MiClase toto();
+\s;	Test(toto);
+\s;	message(toto.a);  // muestra 12
+\s;}
+\n;
+La instancia que contiene el campo \c;a = 33\n; solo es referenciada por el \c;item\n; de instancia recién creado dentro de la función \c;Test\n;. Al final de \c;Test\n;, esta instancia recién creada referenciada por \c;item\n; se elimina automáticamente.
+
+Una función puede retornar una instancia:
+\c;\s;MiClase Test2( )
+\s;{
+\s;	MiClase item = new MiClase();
+\s;	item.a = 33;
+\s;	return item;
+\s;}
+\n;
+Llama la función así:
+\c;\s;{
+\s;	MiClase toto;
+\s;	toto = Test2(); // toto contendra una referencia a
+\s;	                // la instancia creada por Test2()
+\s;	message(toto.a); // muestra 33
+\s;}
+\n;
+\t;Ver también
+\c;\l;class\u cbot\class;\n;, \c;\l;new\u cbot\new;\n;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

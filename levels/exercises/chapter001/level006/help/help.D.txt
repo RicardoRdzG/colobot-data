@@ -1,0 +1,16 @@
+\b;Ziel
+Töten Sie einige Spinnen, deren exakte Position wir nicht kennen. Benutzen Sie das Radar des Roboters, um sie zu finden.
+
+\t;Programm
+Mit der Anweisung \c;\l;radar\u cbot\radar;(AlienSpider);\n; finden Sie die nächste Spinne. Das funktioniert auf die gleiche Weise wie in den früheren Übungen mit den Batterien und dem Titanerz. Lassen Sie den Roboter jedoch nicht zur Spinne fahren. Er würde zerstört werden, bevor er ankommt. Drehen Sie ihn stattdessen in Richtung der Spinne. Die Anweisung \c;\l;direction\u cbot\direct;(item.position)\n; berechnet den Winkel der Drehung, die der Roboter machen muss, um mit der Kanone auf die Spinne zu zielen. Um nun auf die Spinne zu zielen, geben Sie folgendes ein:
+\c;
+\s;	\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\n;
+Beachten Sie die zwei schließenden Klammern am Ende der Zeile. Es gibt zwei öffnende Klammern, also muss es auch zwei schließende geben.
+
+Schießen Sie dann mit \c;\l;fire\u cbot\fire;(1);\n;.
+
+Auch hier können Sie eine Schleife mit \c;\l;while\u cbot\while; (true)\n; benutzen, um das Programm nicht für jede Spinne neu starten zu müssen.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

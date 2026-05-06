@@ -1,0 +1,31 @@
+\b;Programas enviados por Houston
+Ejecuta el programa \c;KillAnt1\n; inmediatamente en tu \l;bot tirador con ruedas\u object\botfr;, protegerá tu flanco oeste. Mientras tanto puedes elaborar tu estrategia de defensa.
+\c;
+\s;extern void object::KillAnt1()
+\s;{
+\s;	\l;object\u cbot\type; item;             // información sobre objeto
+\s;	
+\s;	\l;goto\u cbot\goto;(-30, 0);            // ir al oeste
+\s;	\l;aim\u cbot\aim;(0);                  // apuntar recto
+\s;	
+\s;	\l;while\u cbot\while; ( true )           // repetir siempre:
+\s;	{
+\s;		item = \l;radar\u cbot\radar;(\l;AlienAnt\u cbot\category;, 0, 360, 0, 40);
+\s;		\l;if\u cbot\if; ( item != null )  // ¿hormiga detectada?
+\s;		{
+\s;			\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
+\s;			\l;fire\u cbot\fire;(0.5);       // disparar 0.5 s
+\s;		}
+\s;		\l;wait\u cbot\wait;(1);             // esperar 1 segundo
+\s;	}
+\s;}
+\n;
+\b;Archivos
+Índice de los programas enviados en misiones anteriores:
+
+o  \c;\l;RecolectarTitanio2\u programs/5_CollectTitanium2;\n;
+o  \c;\l;RecolectarTitanio1\u programs/4_CollectTitanium1;\n;
+o  \c;\l;Recargar2\u programs/3_Recharge2;\n;
+o  \c;\l;Recargar1\u programs/2_Recharge1;\n;
+o  \c;\l;CambiarCelda1\u programs/1_SwitchCell1;\n;
+

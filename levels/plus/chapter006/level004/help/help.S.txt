@@ -1,0 +1,7 @@
+\b;Del Control de Misiones
+Este planeta obviamente no es adecuado para una colonización duradera. Recupera la \l;caja negra\u object\bbox; de la expedición anterior y luego despega.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

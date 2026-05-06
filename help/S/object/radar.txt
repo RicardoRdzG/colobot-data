@@ -1,0 +1,26 @@
+\b;\button 168; Radar
+\image radar 8 8;
+El radar indica la dirección del \l;enemigo\u object\mother; más cercano. Además, la información dada por el radar permite que el mini-mapa en la esquina inferior derecha de tu pantalla muestre la posición de todos los bots, edificios y enemigos como pequeños cuadrados y triángulos de diferentes colores.
+
+Las estaciones de radar también actúan como relevos para la comunicación con la Tierra desde planetas distantes.
+
+\t;Requisitos para construir
+Cualquier superficie plana de al menos 2,5 metros de ancho.
+
+\t;Entrada
+Ninguno.
+
+\t;Salida
+Información para el mini-mapa.
+
+\t;Fuente de energía
+Ninguno.
+
+\t;Duración de operación
+Constante.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;RadarStation\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

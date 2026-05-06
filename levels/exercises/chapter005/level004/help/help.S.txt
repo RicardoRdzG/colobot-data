@@ -1,0 +1,34 @@
+\b;Ejercicio
+Mueve el \l;cubo de titanio\u object\titan; a la plataforma de meta. No conoces la posición del titanio, pero podemos decirte la posición de la plataforma de meta x=10 y=-60.
+
+\b;La instrucción \c;goto\n;
+El bot alado puede superar obstáculos. La instrucción \c;\l;goto\u cbot\goto;\n;, si se realiza en un bot alado, realizará automáticamente un movimiento volador, con un despegue al principio y un aterrizaje al final.
+Esta instrucción puede recibir un segundo parámetro, que no es obligatorio: la altitud de vuelo. Si no se da ningún segundo parámetro, la altitud de vuelo se establecerá en el valor predeterminado de 10m.
+
+Por lo tanto, la instrucción:
+\c;\s;goto(item.position);\n;
+
+Es equivalente a:
+\c;\s;goto(item.position, 10);\n;
+
+\b;El programa
+Usa la instrucción \c;\l;radar\u cbot\radar;(Titanium);\n; para encontrar el cubo de titanio. Luego prueba si realmente se ha encontrado un cubo de titanio. En este ejercicio, esta línea no es muy útil, porque sabemos que hay un cubo de titanio en algún lugar. Sin embargo, es mejor tomar el hábito de probar lo que devuelve tu radar:
+\c;
+\s;object  item;
+\s;item = radar(Titanium);
+\s;if ( item == null )  return;
+\s;goto(item.position);
+\n;
+La variable \c;item\n; es de tipo \c;\l;object\u cbot\object;\n;. Para conocer la ubicación exacta del objeto descrito por la variable, simplemente escribe \c;item.position\n;.
+
+Para tomar el cubo de titanio, usa la instrucción \c;\l;grab\u cbot\grab;()\n; sin ningún parámetro.
+
+Para soltar el titanio, usa la instrucción \c;\l;drop\u cbot\drop;()\n; sin ningún parámetro.
+
+Conocemos las coordenadas de la plataforma de meta: x=10 e y=-60. Debes declarar una \l;variable\u cbot\var; de tipo \l;point\u cbot\point;, luego llenarla con las coordenadas correctas. Luego puedes dar esta variable como parámetro a la instrucción \c;\l;goto\u cbot\goto;\n;.
+Nota: No tienes que preocuparte por la coordenada \c;z\n; en el caso de un bot que no puede volar.
+
+Ahora depende de ti terminar el programa...
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

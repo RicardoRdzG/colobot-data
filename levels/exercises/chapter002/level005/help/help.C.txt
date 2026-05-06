@@ -1,0 +1,52 @@
+\b;Úkol
+Přizpůsobte letovou výšku \l;létajícího kanónu\u object\botfj; okolnímu terénu.
+
+\t;Program
+Zde je opět program na likvidaci mravenců z předchozího cvičení:
+\c;
+\s;extern void object::Stihacka1()
+\s;{
+\s;	object    item;
+\s;	
+\s;	aim(-20);
+\s;	jet(0.2);
+\s;	while (position.z < 10)
+\s;	{
+\s;		wait(0.2);
+\s;	}
+\s;	jet(0);
+\s;	
+\s;	while (true)
+\s;	{
+\s;		while (radar(AlienAnt, 0, 360, 0, 20) == null)
+\s;		{
+\s;			item = radar(AlienAnt);
+\s;			turn(direction(item.position));
+\s;			motor(1,1);
+\s;			wait(0.2);
+\s;		}
+\s;		fire(1);
+\s;	}
+\s;}
+\n;
+Robot celou dobu poletí v nadmořské výšce 10 metrů. Kopcovitý terén v tomto cvičení ale neumožňuje let v této výšce, takže se robot musí terénu přizpůsobit. Nejjednodušší řešení je vložit před příkaz \c;wait(0.2);\n; kontrolu, jestli robot neletí příliš nízko nebo vysoko, a podle toho ovládat tryskový motor.
+
+Už jsme probírali, že \c;position.z\n; udává nadmořskou výšku robota. \c;\l;topo\u cbot\topo;(position)\n; udává nadmořskou výšku terénu přímo pod robotem. Pokud chceme, aby robot létal ve výšce 6 až 9 metrů nad zemí, musíme ošetřit následující případy: pokud je \c;position.z-topo(position)\n; menší než 6, robot musí stoupat příkazem \c;jet(1);\n;. Pokud je \c;position.z-topo(position)\n; větší než 9, robot musí klesat příkazem \c;jet(-1);\n;. Pro naprogramování těchto podmínek použijte příkaz \c;\l;if\u cbot\if;\n;, který provede příkazy ve složených závorkách pouze jednou, pokud platí daná podmínka:
+\c;
+\s;	jet(0);
+\s;	if (position.z-topo(position) < 6)
+\s;	{
+\s;		jet(1);
+\s;	}
+\s;	
+\s;	if (position.z-topo(position) > 9)
+\s;	{
+\s;		jet(-1);
+\s;	}
+\n;
+Před oběma podmínkami vyrovnejte výšku příkazem \c;jet(0);\n;: pokud je aktuální výška mezi 6 a 9 metry nad zemí, robot nesmí stoupat ani klesat. Když se hned poté provede příkaz \c;jet(1);\n; nebo \c;jet(-1);\n;, předchozí příkaz \c;jet(0);\n; se tím zruší.
+
+Jednoduše vložte výše uvedený kód před příkaz \c;wait(0.2)\n; a robot bude za letu kopírovat terén. Pak můžete smazat cyklus na začátku programu, který robotovi přikazuje vystoupat do výšky 10m.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

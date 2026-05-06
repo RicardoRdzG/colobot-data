@@ -1,0 +1,20 @@
+\b;Informe Satelital
+Actualmente en órbita geoestacionaria de Trópica.
+\c;
+\s;-> SUPERFICIE\c;
+\tab;Temperatura:      29.6C
+\tab;Atmósfera:       helio, oxígeno
+\tab;Viento:           1.5 mps
+\tab;Mineral de titanio: ninguno
+\tab;Mineral de uranio:  ninguno
+
+\s;-> SUBSUELO\c;
+\tab;Fuente de energía:  aislada (bandera azul)
+\tab;Mineral de titanio: ninguno
+\tab;Mineral de uranio:  ninguno
+
+\s;-> INFORMACIÓN ADICIONAL\c;
+\tab;Detectado:       hormigas gigantes
+\tab;  - Peligro:      no inmediato
+\tab;Detectado:       restos reutilizables
+\n;

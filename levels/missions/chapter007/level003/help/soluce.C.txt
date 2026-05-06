@@ -1,0 +1,11 @@
+\b;Návod
+Na likvidaci všech mravenců a pavouků v této rozlehlé hornaté oblasti budete potřebovat \l;létající biokanón\u object\botoj; napájený \l;jadernou baterií\u object\atomic;. V malém údolí na jihovýchodě najdete vše potřebné: \l;Kostky titanu\u object\titan;, \l;baterie\u object\power; a dokonce i plně funkční \l;létající rameno\u object\botgj;.
+
+1)  Postavte \l;radar\u object\radar;, vyrobte \l;létající biokanón\u object\botoj; a vložte do něj baterii. Zlikvidujte mravence, který hlídá \l;uranovou rudu\u object\uranore; kousek na sever.
+
+2)  Pošlete \l;létající rameno\u object\botgj; vyrobit několik \l;jaderných baterií\u object\atomic; v opuštěné \l;jaderné elektrárně\u object\nuclear; na kopci nad rudou a jednu novou baterii vložte do \l;létajícího biokanónu\u object\botoj;.
+
+3)  Zlikvidujte veškerý hmyz v oblasti. Na severozápadě se jeden osamělý mravenec ukrývá v díře: Když k němu poletíte ze západu skrz hluboké údolí, bude jednodušší ho trefit.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

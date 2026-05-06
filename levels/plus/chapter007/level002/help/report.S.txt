@@ -1,0 +1,15 @@
+\b;Informe del Satélite
+Actualmente en órbita geoestacionaria de Centaury.
+\c;
+\s;-> SUPERFICIE\c;
+\tab;Temperatura:      25.4C
+\tab;Atmósfera:        oxígeno, nitrógeno, amoníaco
+\tab;Viento:           1.2 mps
+\tab;Mineral de titanio: ninguno
+\tab;Mineral de uranio: ninguno
+
+\s;-> SUBSUELO\c;
+\tab;Fuente de energía: ninguna
+\tab;Mineral de titanio: ninguno
+\tab;Mineral de uranio: ninguno
+\n;

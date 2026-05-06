@@ -1,0 +1,14 @@
+\b;Objetivo
+Escribe un programa que tome un trozo de \l;mineral de titanio\u object\titanore; y lo deje en el \l;convertidor\u object\convert; para producir un \l;cubo de titanio\u object\titan;.
+
+\t;Programa
+Necesitarás una nueva instrucción:
+\c;
+\s;move();\n;
+Ordena al bot moverse hacia adelante o hacia atrás. La distancia del movimiento se indica entre paréntesis en metros: \c;move(10);\n; mueve el bot 10m hacia adelante, \c;move(-1);\n; mueve el bot 1m hacia atrás.
+
+Las instrucciones \c;\l;turn\u cbot\turn;()\n;, \c;\l;grab\u cbot\grab;()\n; y \c;\l;drop\u cbot\drop;()\n; ya han sido explicadas en los ejercicios anteriores. Si tiene alguna pregunta sobre estas instrucciones, haga clic en el nombre de la instrucción subrayada en azul y aparecerá una explicación de la instrucción.
+
+El \l;mineral de titanio\u object\titanore; está 20m delante del bot, el \l;convertidor\u object\convert; está 10m detrás del bot. Después de dejar el mineral de titanio en el convertidor, no olvides moverte hacia atrás (por ejemplo \c;move(-2.5);\n;) para permitir que el convertidor comience a trabajar.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en cualquier momento.

@@ -1,0 +1,7 @@
+\b;Übung
+Programmieren Sie Ihren \l;Roboter\u object\bottr; so, dass er alle \l;blauen Kreuze\u object\waypoint; auf dem Boden findet. Kommen Sie aber nicht zu nah an die \l;Minen\u object\mine;.
+
+Befindet sich der Roboter näher als 2m am Mittelpunkt einer Mine (was die Position ist, die die \c;\l;radar\u cbot\radar;\n;-Anweisung zurückgibt), wird sie explodieren. Sie sollten die Trägheit des Roboters mit einberechnen. Ein Sicherheitsabstand von 3 bis 3.5m wäre wahrscheinlich angebracht.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, \l;Variablentypen\u cbot\type; und \l;Kategorien\u cbot\category;.

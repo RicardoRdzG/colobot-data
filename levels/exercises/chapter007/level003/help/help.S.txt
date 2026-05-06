@@ -1,0 +1,113 @@
+\b;Ejercicio
+Controla remotamente un robot esclavo sin usar un \l;puesto de intercambio de información\u object\exchange;. El robot debe pasar sobre las 6 cruces azules. 
+
+Los dos actores principales de este ejercicio son:
+1) El \l;recolector con ruedas\u object\botgr; sin paquete de energía y por lo tanto inmóvil. Este es el maestro que debes programar para que transmita órdenes al esclavo.
+2) El esclavo \l;bot de práctica\u object\bottr; que ya está programado y simplemente espera órdenes del maestro.
+
+Las órdenes deben almacenarse, para que el maestro pueda transmitir varias órdenes sin esperar a que cada orden sea procesada. Usamos un \l;arreglo\u cbot\array; para este propósito.
+
+\b;El esclavo
+Primero debemos entender cómo funciona el programa del esclavo. La \l;clase\u cbot\class; \c;order\n; contiene dos miembros: \c;m_type\n; es la orden a ejecutar (mover o girar) y \c;m_param\n; es la distancia a mover o el ángulo de rotación:
+
+\c;\s;\l;public\u cbot\public; \l;class\u cbot\class; order
+\s;{
+\s;	\l;int\u cbot\int;    m_type;
+\s;	\l;float\u cbot\float;  m_param;
+\s;}
+\n;
+Una segunda \l;clase\u cbot\class; \c;exchange\n; contiene el mecanismo para intercambiar las órdenes. Declaramos un miembro de clase \c;\l;static\u cbot\static;\n; \c;m_fifo\n; que contendrá la lista de órdenes a ejecutar. La palabra \c;static\n; asegura que el miembro \c;m_fifo\n; se comparta entre todas las instancias de la \l;clase\u cbot\class; exchange.
+
+\c;\s;{
+\s;	\l;static\u cbot\static; \l;private\u cbot\private; order m_fifo[] = null;
+\n;
+El método \c;put\n; será usado por el robot maestro para transmitir una orden. La orden simplemente se añadirá al final del arreglo \c;m_fifo\n;:
+
+\c;\s;	\l;synchronized\u cbot\synchro; void put(order a)
+\s;	{
+\s;		m_fifo[sizeof(m_fifo)] = a;
+\s;	}
+\n;
+Otro método \c;get\n; será usado por el esclavo para recuperar las órdenes. Este método devuelve la orden a ejecutar. Si la lista está vacía, se devolverá \c;null\n; y el robot debe esperar más órdenes. De lo contrario, se debe devolver la primera orden de la lista y las órdenes restantes deben "desplazarse hacia arriba". Como un arreglo no se puede "acortar", usamos un arreglo temporal \c;copy\n;:
+
+\c;\s;	\l;synchronized\u cbot\synchro; order get()
+\s;	{
+\s;		if ( sizeof(m_fifo) == 0 )  return null;
+\s;
+\s;		order a = m_fifo[0];
+\s;		order copy[] = null;
+\s;		for ( int i=1 ; i<sizeof(m_fifo) ; i++ )
+\s;		{
+\s;			copy[i-1] = m_fifo[i];
+\s;		}
+\s;		m_fifo = copy;
+\s;		return a;
+\s;	}
+\n;
+El programa principal del esclavo contiene una instancia de la clase \c;exchange\n; llamada \c;list\n;. Ponemos () después de la palabra \c;list\n; para crear una instancia de la clase \c;exchange\n;.
+
+\c;\s;\l;extern\u cbot\extern; void object::Slave5( )
+\s;{
+\s;	exchange list();
+\s;	order    todo;
+\n;
+El bucle \c;while\n; exterior dura para siempre. El bucle \c;while\n; interior espera una orden usando el método \c;get\n; de la clase \c;exchange\n;. Tan pronto como \c;get\n; devuelve un valor diferente de \c;null\n;, el bucle while se detiene.
+
+\c;\s;	\l;while\u cbot\while; ( true )
+\s;	{
+\s;		\l;while\u cbot\while; ( true )
+\s;		{
+\s;			todo = list.get();
+\s;			if ( todo != null )  break;
+\s;			wait(1);
+\s;		}
+\n;
+Ahora hemos recibido la orden en la variable \c;todo\n;. Todo lo que tenemos que hacer es ejecutarla:
+
+\c;\s;		if ( todo.m_type == 1 )
+\s;		{
+\s;			move(todo.m_param);
+\s;		}
+\s;		else if ( todo.m_type == 2 )
+\s;		{
+\s;			turn(todo.m_param);
+\s;		}
+\s;		else
+\s;		{
+\s;			message("Orden desconocida");
+\s;		}
+\s;	}
+\s;}
+\n;
+\b;El maestro
+En el maestro escribimos una función llamada \c;SendOrder\n; que enviará una orden al esclavo:
+
+\c;\s;void object::SendOrder(float order, float param)
+\s;{
+\s;	exchange list();
+\s;	order    todo();
+\s;	
+\s;	todo.m_type = order;
+\s;	todo.m_param = param;
+\s;	list.put(todo);
+\s;}
+\n;
+Ahora el programa principal del maestro es muy simple:
+
+\c;\s;extern void object::Remote5( )
+\s;{
+\s;	SendOrder(1, 20);  // move(20);
+\s;	SendOrder(2, 90);  // turn(90);
+\s;	SendOrder(1, 20);  // move(20);
+\s;	SendOrder(2, 90);  // turn(90);
+\s;	SendOrder(1, 10);  // move(10);
+\s;	SendOrder(2, 90);  // turn(90);
+\s;	SendOrder(1, 10);  // move(10);
+\s;	SendOrder(2,-90);  // turn(-90);
+\s;	SendOrder(1, 10);  // move(10);
+\s;}
+\n;
+\key;\key help;\norm; muestra estas instrucciones en cualquier momento.
+
+\t;Ver también
+\l;Controles\u command; y \l;programación\u cbot;.

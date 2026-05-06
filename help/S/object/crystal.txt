@@ -1,0 +1,9 @@
+\b;Cristal
+\image crystal 8 8;
+El crecimiento de estos grandes cristales azules indica la presencia de \l;mineral de titanio\u object\titanore; en el subsuelo. Usa un \l;detector\u object\botsr; para confirmar esto.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Cristal\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

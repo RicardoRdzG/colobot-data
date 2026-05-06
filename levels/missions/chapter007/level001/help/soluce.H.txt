@@ -1,0 +1,20 @@
+\b;Játék végigjátszása
+Hasznos tárgyakat találsz egy kis völgyben északkeleten.
+o  Egy \l;újrahasznosítót\u object\botrecy;, amivel elkészítheted az első \l;titán kockát\u object\titan;.
+o  Egy \l;lábas emelő\u object\botgs;, ami nagyon jól mászik meredek lejtőkön.
+o  Egy majdnem feltöltött \l;atomenergia cella\u object\atomic;.
+
+1) Töltsd fel a \l;lábas emelőt\u object\botgs; a \l;atomenergia cellával\u object\atomic;, és használd, hogy egy \l;titán kockát\u object\titan; szállíts a \l;űrhajóhoz\u object\base;. Válaszd a közvetlen utat a hegyeken keresztül.
+
+2) Használd a titánt egy \l;konverter\u object\convert; építésére. Futtasd a \c;CollectTitanium3\n; programot a \l;lábas emelőn\u object\botgs;, és lesz elég titánod.
+
+3) Állítsd le a programot, és használd az emelőt, hogy összegyűjts néhány \l;uránércet\u object\uranore; egy második kis völgyben keleten. Ismét, ne válaszd a hangyákkal teli völgyet, hanem a közvetlen utat a hegyeken.
+
+4) Építs egy \l;szárnyas lövőt\u object\botfj;, és töltsd fel egy \l;atomenergia cellával\u object\atomic;. Ha délkelet felé veszed az irányt, rögtön elérsz a hangyafészekhez. Öld meg az összes hangyát, és hozd vissza egy golyónyi \l;organikus anyagot\u object\bullet; a \l;űrhajóhoz\u object\base;.
+
+5) Építs egy \l;autolab\u object\labo;-ot, tedd az \l;organikus anyagot\u object\bullet; a platformra, és kattints a \button 110; gombra, hogy kifejleszd az orgaShooter ágyú terveit.
+
+6) Építs egy \l;lábas orga lövőt\u object\botos;, hozd fel a fedélzetre és emelkedj fel.
+
+\t;Lásd még
+\l;Vezérlés\u command;

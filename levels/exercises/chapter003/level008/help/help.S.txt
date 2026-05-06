@@ -1,0 +1,43 @@
+\b;Ejercicio
+Busca toda la zona dentro de las barreras con el \l;bot explorador\u object\botsr; para encontrar ubicaciones adecuadas para un derrick. Cuando el bot explore el subsuelo y descubra una ubicación adecuada para un derrick, la marcará con una cruz roja.
+
+\b;Descripción
+La zona dentro de las barreras es un cuadrado de 25 metros. La forma más eficiente es verificar cada 5 metros.
+
+\image sniff1 12 12;
+Una forma de lograr esto es encajar dos bucles \c;\l;for\u cbot\for;\n; uno dentro de otro:
+\c;
+\s;for ( int y=0 ; y<6 ; y=y+1 )
+\s;{
+\s;	for ( int x=0 ; x<5 ; x=x+1 )
+\s;	{
+\s;		\n;explorar el subsuelo\c;
+\s;		\n;avanzar 5m\c;
+\s;	}
+\s;	\n;explorar el subsuelo\c;
+\s;	\n;cuarto de vuelta a la izquierda\c;
+\s;	\n;avanzar 5m\c;
+\s;	\n;cuarto de vuelta a la izquierda\c;
+\s;}
+\n;
+Este programa funciona bien solo al principio. Después de la primera línea, el bot gira correctamente a la izquierda y explora la segunda línea. ¡Pero después de la segunda línea, debe girar a la derecha!
+Habrás notado que si \c;y\n; es par, el bot debe girar a la izquierda, y si \c;y\n; es impar, el bot debe girar a la derecha.
+La \l;expresión\u cbot\expr; \c;y%2\n; devuelve el resto de la división de \c;y\n; por \c;2\n;. Por ejemplo, si \c;y=3\n;, la expresión devuelve \c;1\n;.
+La prueba \c;\l;if\u cbot\if; { }\n; puede ir seguida de un \c;else { }\n;. Si la prueba es verdadera, se ejecutará el primer \l;bloque\u cbot\bloc; \c;{ }\n;. De lo contrario, se ejecutará el segundo bloque \c;{ }\n;.
+\c;
+\s;if ( y%2 == 0 )
+\s;{
+\s;	y \n;es par\c;
+\s;}
+\s;else
+\s;{
+\s;	y \n;es impar\c;
+\s;}
+\n;
+Depende de ti terminar el programa.
+
+\b;Nota
+Usa la instrucción \c;\l;sniff\u cbot\sniff;( )\n; para explorar el subsuelo, y \c;\l;move\u cbot\move;( )\n; y \c;\l;turn\u cbot\turn;( )\n; para mover el bot.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

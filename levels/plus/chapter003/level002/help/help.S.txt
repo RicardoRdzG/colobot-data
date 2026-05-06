@@ -1,0 +1,13 @@
+\b;Desde Control de Misión
+Este es otro curso de entrenamiento establecido por tus predecesores y destinado esta vez a probar y entrenar la capacidad de disparo de los \l;bots alados\u object\botfj;. Úsalo para familiarizarte con las dos acciones simultáneas de disparar mientras vuelas.
+
+Vuela rápidamente a través de todos los objetivos y dispara los 10 dispositivos explosivos dispersos a lo largo del camino. Intenta completar el ejercicio sin aterrizar. Pero vigila tu reactor: si se sobrecalienta, simplemente posa el bot y déjalo enfriar.
+
+Usa una mano en el teclado para pilotar el bot, y la otra mano en el ratón para apuntar y disparar (botón izquierdo).
+
+Puede ser útil volver a estos ejercicios de vez en cuando si deseas mejorar tus reflejos aún más.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

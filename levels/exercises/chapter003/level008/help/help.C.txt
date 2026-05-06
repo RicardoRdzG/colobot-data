@@ -1,0 +1,43 @@
+\b;Cvičení
+Prozkoumejte celou oblast mezi zátarasy pomocí \l;pojízdného detektoru\u object\botsr; a najděte vhodná místa pro vrtnou věž. Když robot během zkoumání podzemí objeví vhodné místo pro vrtnou věž, označí ho červeným křížkem.
+
+\b;Popis
+Oblast mezi zátarasy je čtverec 25x25 metrů. Nejefektivnější postup je prozkoumávat vždy po 5 metrech.
+
+\image sniff1 12 12;
+Jednou z možností je vnořit do sebe dva \c;\l;for\u cbot\for;\n; cykly:
+\c;
+\s;for ( int y=0 ; y<6 ; y=y+1 )
+\s;{
+\s;	for ( int x=0 ; x<5 ; x=x+1 )
+\s;	{
+\s;		\n;prozkoumat podzemí\c;
+\s;		\n;popojet 5 metrů vpřed\c;
+\s;	}
+\s;	\n;prozkoumat podzemí\c;
+\s;	\n;půlobrat doleva\c;
+\s;	\n;popojet 5 metrů vpřed\c;
+\s;	\n;půlobrat doleva\c;
+\s;}
+\n;
+Tento program bude fungovat správně jen zezačátku. Na konci prvního řádku se robot správně otočí doleva a začne prozkoumávat druhý řádek. Jenže na konci druhého řádku se musí otočit doprava!
+Určitě jste si všimli, že když je \c;y\n; sudé, robot se musít otočit doleva, a když je \c;y\n; liché, robot se musí otočit doprava.
+\l;Výraz\u cbot\expr; \c;y%2\n; vrací zbytek po dělení \c;y\n; dvěmi. Například pokud \c;y=3\n;, zmíněný výraz vrátí \c;1\n;.
+Za podmínkou \c;\l;if\u cbot\if; { }\n; může následovat příkaz \c;else { }\n;. Pokud podmínka platí, provede se první \l;blok\u cbot\bloc; \c;{ }\n;. Jinak se provede druhý blok \c;{ }\n;.
+\c;
+\s;if ( y%2 == 0 )
+\s;{
+\s;	y \n;je sudé\c;
+\s;}
+\s;else
+\s;{
+\s;	y \n;je liché\c;
+\s;}
+\n;
+Dopsat zbytek programu už je na Vás.
+
+\b;Poznámky
+Použijte příkaz \c;\l;sniff\u cbot\sniff;( )\n; k prozkoumání podzemí a příkazy \c;\l;move\u cbot\move;( )\n; a \c;\l;turn\u cbot\turn;( )\n; k ovládání robota.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

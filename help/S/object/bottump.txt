@@ -1,0 +1,18 @@
+\b;\button 146; Martillador
+\image bottump 8 8;
+Bot con orugas diseñado para golpear el suelo con una fuerza enorme. El propósito del martilleo es voltear \l;hormigas\u object\ant; y \l;arañas\u object\spider; boca arriba dentro de un radio de 100 metros. Un insecto boca arriba no está muerto pero luchará por voltearse nuevamente. Después de aproximadamente 60 segundos de esfuerzo, generalmente lo logrará.
+
+Para visualizar la zona de impacto, presiona el botón <range> \button 41;. Pequeños puntos rojos delimitarán la zona circular durante 20 segundos.
+
+El bot consume gran cantidad de energía. Un golpe agotará 2/5 de una \l;celda de energía regular\u object\power;.
+
+\t;Instrucciones
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Para programar el martilleo, usa \c;\l;thump\u cbot\thump;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Thumper\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

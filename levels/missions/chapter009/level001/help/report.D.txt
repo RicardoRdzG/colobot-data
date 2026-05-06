@@ -1,0 +1,22 @@
+\b;Satellite Report
+Gegenwärtig in einer geostationären Umlaufbahn um Terranova.
+\c;
+\s;-> Oberfläche\c;
+\tab;Temperatur:     24.8C
+\tab;Atmosphäre:     Sauerstoff
+\tab;Wind:           0.7 m/s
+\tab;Titanerz:       unter Wasser
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Untergrund\c;
+\tab;Energiefelder:  stellenweise
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      vereinzelt
+
+\s;-> Zusätzliche Informationen\c;
+\tab;Entdeckt:       Riesenameisen
+\tab;  - Gefahr:     unmittelbar
+\tab;Entdeckt:       Wespen
+\tab;  - Gefahr:     nicht unmittelbar
+\tab;Entdeckt:       wiederverwertbare Roboterwracks
+\n;

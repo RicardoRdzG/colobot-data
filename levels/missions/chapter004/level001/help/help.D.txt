@@ -1,0 +1,13 @@
+\b;Vom Kontrollzentrum
+Bauen Sie ein \l;Radar\u object\radar; auf der höchsten Stelle in der Umgebung. Stellen Sie sicher, dass das Radar nach Ihrem Abflug zu anderen Planeten weiterhin gesichert ist und arbeiten kann. Ihr \l;Forschungszentrum\u object\research; sollte in der Lage sein, eine passende Lösung zu finden.
+
+Es ist möglich, dass die entdeckten Lebensformen tatsächlich die \l;Würmer\u object\worm; sind, die wir schon von der ersten Expedition kennen. Ist es tatsächlich so, dann sollten Sie nicht übermäßig beunruhigt sein: sie sind für organische Lebensformen scheinbar völlig harmlos, können aber durch die Verbreitung von Viren Fehlfunktionen in den Programmen von Robotern und Gebäuden hervorrufen.
+
+Radare können nicht nur Informationen über Objekte und Lebensformen in der Umgebung liefern, sondern auch Informationen von und zur Erde übertragen, wenn Sie schon zu anderen Planeten aufgebrochen sind. Es ist sehr wahrscheinlich, dass Probleme mit den Radarstationen, die von der ersten Expedition gebaut wurden, Ursache für die Übertragungsschwierigkeiten waren.
+
+Um Ihnen die eintönige Aufgabe Rohmaterial zu sammeln abzunehmen, haben wir ein Programm entwickelt, um den \l;Radtransporter\u object\botgr; von allein nach \l;Titanerz\u object\titanore; suchen zu lassen (siehe Programmieren; Schaltfläche \button 53;).
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

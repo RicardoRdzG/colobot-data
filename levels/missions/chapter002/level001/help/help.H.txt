@@ -1,0 +1,20 @@
+\b;A küldetésirányítástól
+Gyűjts össze 4 egység \l;titánércet\u object\titanore;, és juttasd vissza az \l;űrhajódra\u object\base;. Építsd meg a szükséges felszerelést a feladathoz (\l;repülő robotok\u object\botgj;).
+
+Mielőtt továbbmennél, mindig nézd meg a műholdjelentést \button 186;.
+
+Átküldtünk egy programot az \l;űrhajódra\u object\base;, ami segíthet ebben a feladatban; nézd meg a SatCom megfelelő oldalán a \button 53; gombbal.
+
+\b;Eljárás
+1) Egy új \l;kutatási program\u object\research; szükséges ahhoz, hogy a repülő robotok bekerüljenek a gyárban előállítható egységek listájába. Ez a program aktiválja az egyéni túlélőfelszerelésed hajtóművét is.
+2) Gyárts egy \l;repülő szállítót\u object\botgj;, és gyűjtsd be a 4 egység \l;titánércet\u object\titanore;.
+3) Vidd magaddal a \l;repülő szállítót\u object\botgj; és a \l;kerekes szállítót\u object\botgr;, majd szállj fel.
+
+Ügyelj arra, hogy a repülő robotod ne merüljön le, amikor távol vagy a bázistól. Ha szükséges, cseréld ki az \l;energiacellát\u object\power; mielőtt elhagyod az űrhajót. Ezt megteheted kézzel, vagy futtathatod a Houston által mellékelt programot \button 53;.
+
+Hogy ne tévedj el a Hold felszínén lévő számtalan kráter között, használd a képernyő jobb alsó sarkában lévő mini térképet.
+
+\key;\key help;\norm; segítségével ezeket az utasításokat bármikor újra megtekintheted a saját SatCom készülékeden.
+
+\t;Lásd még
+\l;Irányítás\u command;

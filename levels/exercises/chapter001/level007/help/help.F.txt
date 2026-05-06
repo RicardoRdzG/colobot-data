@@ -1,0 +1,14 @@
+\b;Objectif
+Déplacement au devant des araignées qui sont hors de portée de tir
+
+\t;Programme
+Le programme ressemblera au précédent, mais avant de pouvoir tirer, il faut utiliser l'instruction \c;\l;move\u cbot\move;();\n; afin de se rapprocher suffisemment.
+
+La question est juste de savoir de combien de mètres le robot doit s'avancer. L'instruction \c;\l;distance\u cbot\dist;( , )\n; permet de calculer la distance entre deux positions. Dans ce cas, nous devons connaître la distance entre le robot et son objectif. La position de l'Objectif est fournie par \c;item.position\n;, la position du robot est donnée par \c;position\n; (this.position pour les avancés). La distance entre le robot et l'objectif est fournie par \c;\l;distance\u cbot\dist;(position, item.position)\n;. La portée de tir du canon est de 40 mètres. Afin d'aller suffisamment prêt, le robot doit avancer \c;\l;distance\u cbot\dist;(position, item.position)-40\n; mètres. La ligne suivante permet d'effectuer cela:
+\c;
+\s;	\l;move\u cbot\move;(\l;distance\u cbot\dist;(position, item.position)-40);
+\n;
+Inserez cette ligne dans le programme avant l'instruction \c;fire(1);\n;, et le robot commencera à se déplacer.
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

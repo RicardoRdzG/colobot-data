@@ -1,0 +1,20 @@
+\b;\button 143; Disparador con Ruedas
+\image botfr 8 8;
+Bot con ruedas equipado con un cañón de bolas de fuego.
+
+El cañón de bolas de fuego es un arma eficiente contra la mayoría de \l;enemigos\u object\mother;. úsalo con moderación ya que consume gran cantidad de energía. Una \l;celda de energía regular\u object\power; solo te permitirá disparar 4 ráfagas de bolas de fuego.
+
+Consejo: es posible mover el ratón mientras disparas para abarcar una zona más amplia.
+
+Las ruedas constituyen un modo de propulsión estándar, rápido y que ahorra energía, que es perfectamente adaptando para terrenos relativamente planos. Cuando el terreno tiene pendiente, se recomienda usar un \l;disparador alado\u object\botfj; en su lugar, o si esto es imposible, un \l;disparador con orugas\u object\botfc;.
+
+\t;Programación
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Para programar el cañón de bolas de fuego, usa \c;\l;fire\u cbot\fire;\n;. Para elevar o bajar la puntería, usa \c;\l;aim\u cbot\aim;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;WheeledShooter\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

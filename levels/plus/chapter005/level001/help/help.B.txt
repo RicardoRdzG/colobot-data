@@ -1,0 +1,7 @@
+\b;Do Centro de Controle de Missões
+O satélite de observação detectou um pedaço do minério de urânio no cume da montanha principal. Você precisa trazê-lo de volta para sua nave espacial.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

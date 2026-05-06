@@ -1,0 +1,47 @@
+\b;Instruccion \c;while\n; ( mientras )
+La instrucción \c;while () {}\n; se utiliza para repetir varias veces un conjunto de instrucciones.
+
+\b;Uso básico
+El uso más frecuente de \c;while\n; consiste en repetir un conjunto de instrucciones una y otra vez. Para lograrlo, escribe \c;while (true) {}\n; y coloca las instrucciones que se van a repetir entre llaves \c;{}\n;. A modo de ejemplo, aquí tienes un programa que repite una y otra vez las siguientes acciones:
+o  buscar una araña,
+o  gira hacia ella,
+o  dispara.
+\c;
+\s;	while (true)
+\s;	{
+\s;		item = \l;radar\u cbot\radar;(AlienSpider);
+\s;		\l;turn\u cbot\turn;(direction(item.position));
+\s;		\l;fire\u cbot\fire;(1);
+\s;	}
+\n;
+Solo tienes que ejecutar este programa una vez y eliminará todas las arañas que haya alrededor.
+
+\b;Para especialistas
+Sintaxis :
+\s;\c;while ( condition )
+\s;{
+\s;	\n;Instrucciones ...\c;
+\s;}
+\n;
+Esta instrucción te permite ejecutar las instrucciones dentro del \l;bloque\u cbot\bloc; varias veces.
+
+Ten cuidado de no confundir la instrucción \c;while( ) { }\n; con la instrucción \c;\l;do\u cbot\do; { } while( );\n;; esta último prueba la condición solo después de que las instrucciones en el bloque se han realizado por primera vez. 
+
+\t;\c;condición\n;
+Las instrucciones del bloque se ejecutan una y otra vez, siempre y cuando la \l;condición\u cbot\cond; sea verdadera. 
+
+Aquí tienes un ejemplo:
+\s;\c;int i = 0;
+\s;while ( i < 10 )
+\s;{
+\s;	\n;Instrucciones ...\c;
+\s;	i = i+1;
+\s;}
+\n;
+\t;Atención
+No pongas un \l;punto y coma\u cbot\term; al final de la línea \c;while ( )\n;.
+
+Las instrucciones \c;\l;break\u cbot\break;\n; y \c;\l;continue\u cbot\continue;\n; pueden ser útiles dentro de un bloque que sigue a la instrucción \c;while { }\n;.
+
+\t;Ver también
+\l;Instrucciones\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,11 @@
+\b;Játszmod
+Minden felrobban körülötted. El kell hagynod a régi táborhelyet a lehető leggyorsabban. Csak térj vissza ugyanazon az úton, amin érkeztél.
+
+Az \l;hangyákat\u object\ant; elég könnyű elkerülni. Ha súlyosan megsérülsz, keress egy csendes helyet, és várj, amíg a pajzsod regenerálódik.
+
+\l;Pókok\u object\spider; egy kicsit keményebbek, de egyben ostobábbak is. Amint meglátnak, felrobbantják a hasukat, és közben meghalnak. Ha egy darab eltalál, te is meghalsz. Egy kockázatos, de hatékony módszer a pókok megszabadítására, ha veszélyesen közel mész hozzájuk, és amikor a hasuk elkezd felfúvódni, gyorsan hátrarepülsz a biztonságba.
+
+Amint elérsz egy csendes szigetet, használhatod a \l;szárnyas orga lövőt\u object\botoj;, hogy megtisztítsd az utadat az ellenséges rovaroktól. Légy óvatos, hogy ne veszítsd el, különben az egész küldetés kárba vész.
+
+\t;Lásd még
+\l;Irányítás\u command;

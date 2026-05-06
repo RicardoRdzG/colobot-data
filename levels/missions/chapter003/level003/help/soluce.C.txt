@@ -1,0 +1,13 @@
+\b;Návod
+1) Na západ od Vaší startovní pozice je \l;kostka titanu\u object\titan;, poblíž modré vlajky/modrého křížku na minimapě. Nemusíte ji nikam nosit, prostě přímo na místě postavte \l;nabíječku\u object\station;.
+
+2) Z kostek titanu na palubě rakety postavte \l;výzkumnou stanici\u object\research; a spusťte výzkum kanónů \button 67;.
+
+3) Postavte \l;továrnu na roboty\u object\factory; a vyrobte \l;létající kanón\u object\botfj;. Kdyby Vám nepřátelé první kanón zničili, v malém mlžném údolí na severozápad od rakety najdete další \l;kostky titanu\u object\titan;. \l;Létající rameno\u object\botgj; je může posbírat a přivézt k raketě\n;.
+
+4) Postavte \l;radar\u object\radar;, abyste polohu mravenců viděli na minimapě, a vydejte se na lov. Dávejte pozor, aby robotu nedošla energie nebo se nepřehřál tryskový motor nad vodou. Když robot spadne do hluboké vody, vybuchne.
+
+5) Až zlikvidujete všechny mravence, nastupte do rakety a odleťte.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

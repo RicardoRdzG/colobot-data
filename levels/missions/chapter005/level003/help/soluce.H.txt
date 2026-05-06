@@ -1,0 +1,9 @@
+\b;Játéksegédlet
+Először egy \l;radart\u object\radar; kell építenie.
+
+The \l;ants\u object\ant; appear to be running away from you. Try to circle around each one of them until they find themselves trapped between you and a \l;mine\u object\mine;. They'll opt for the mine and blow themselves up.
+
+Ezután hozza a \l;fekete dobozt\u object\bbox; a hajóra. Az a roncs űrhajó mellett található.
+
+\t;Lásd még
+\l;Szabályok\u command;

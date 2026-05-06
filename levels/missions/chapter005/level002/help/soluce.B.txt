@@ -1,0 +1,9 @@
+\b;Passo a passo
+Execute imediatamente o programa <code>MatarFormiga1</ code> no \l;atirador com rodas \u object\botfr;; ele cuidará da primeira onda de ataque vinda do oeste.
+
+Em seguida, construa duas \l;torres de defesa\u object\tower; no norte da \l;espaçonave\u object\base;, a outra no sul (você precisa fazer isso muito rapidamente). Enquanto \l;você\u object\human; estiver construindo, use o \l;agarrador\u object\botgr; para obter uma \l;célula de energia\u object\power;.
+
+Assim que as sucessivas ondas de ataque, formadas por cerca de quinze formigas, se forem, você terá tempo de cuidar das formigas que não atacaram. Construa um \l;radar\u object\radar; para localizá-las, um \l;conversor\u object\convert;, uma \l;fábrica de robôs\u object\factory;, uma \l;estação de energia\u object\station; e um \l;atirador alado\u object\botfj; para livrar-se delas...
+
+\t;Veja também
+\l;Controles\u command;.

@@ -1,0 +1,14 @@
+\b;\button 147; Disparador Phazer
+\image botphaz 8 8;
+Bot con orugas equipado con un cañón phazer muy poderoso, eficiente contra la mayoría de tipos de enemigos. Cuando apuntas hacia arriba, puede disparar hasta 60 metros. Es la única arma que puede matar a la \l;Reina Alienígena\u object\mother;.
+
+\t;Programación
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Para programar el cañón phazer, usa \c;\l;fire\u cbot\fire;\n;. Para elevar o bajar la puntería, usa \c;\l;aim\u cbot\aim;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;PhazerShooter\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

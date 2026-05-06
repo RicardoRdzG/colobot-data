@@ -1,0 +1,52 @@
+\b;Objetivo
+Adapte a altura de vôo do \l;atirador alado\u object\botfj; de acordo com o terreno.
+
+\t;Programa
+Aqui está mais uma vez o programa do exercício anterior que caça formigas:
+\c;
+\s;extern void object::LutadorJato1()
+\s;{
+\s;	object    item;
+\s;	
+\s;	aim(-20);
+\s;	jet(0.2);
+\s;	while (position.z < 10)
+\s;	{
+\s;		wait(0.2);
+\s;	}
+\s;	jet(0);
+\s;	
+\s;	while (true)
+\s;	{
+\s;		while (radar(AlienAnt, 0, 360, 0, 20) == null)
+\s;		{
+\s;			item = radar(AlienAnt);
+\s;			turn(direction(item.position));
+\s;			motor(1,1);
+\s;			wait(0.2);
+\s;		}
+\s;		fire(1);
+\s;	}
+\s;}
+\n;
+O robô sempre fica a uma altitude de 10m acima do nível do mar. Isto não está adaptado ao terreno montanhoso do presente exercício, o robô tem que se adaptar ao terreno. A melhor maneira de fazer isso é inserir antes do  \c;wait(0.2);\n; um teste para ver se a altura acima do solo é muito baixa ou muito alta, e reagir de acordo.
+
+Nós já vimos que \c;position.z\n; dá a altitude acima do nível do mar. \c;\l;topo\u cbot\topo;(position)\n; dá a altitude do solo na posição do robô. Se quisermos que o robô permaneça a uma altitude entre 6 e 9m acima do solo, devemos tratar os seguintes casos: se \c;position.z-topo(position)\n; for menor que 6, o robô deve subir com  \c;jet(1);\n;. Se \c;position.z-topo(position)\n; for maior que 9, o robô deve descer com \c;jet(-1);\n;. Para programar esses testes, use a instrução \c;\l;if\u cbot\if;\n;, que executa as instruções entre chaves apenas uma vez se a condição for verdadeira:
+\c;
+\s;	jet(0);
+\s;	if (position.z-topo(position) < 6)
+\s;	{
+\s;		jet(1);
+\s;	}
+\s;	
+\s;	if (position.z-topo(position) > 9)
+\s;	{
+\s;		jet(-1);
+\s;	}
+\n;
+Antes de iniciar o teste, estabilize a altitude com \c;jet(0);\n;: no caso de a altura acima do solo ficar entre 6 e 9m, o robô não deve nem subir nem descer. Se depois \c;jet(1);\n; ou \c;jet(-1);\n; for executado, ele cancelará a instrução \c;jet(0);\n; anterior.
+
+Apenas insira estas linhas antes do \c;wait(0.2)\n;, e o robô irá se adaptar ao terreno. Você pode então excluir as primeiras linhas do programa que definem a altitude inicial em 10m.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

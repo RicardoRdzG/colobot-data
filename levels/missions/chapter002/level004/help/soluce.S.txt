@@ -1,0 +1,19 @@
+\b;Guía Paso a Paso
+1) Construye un convertidor \button 162; con el único cubo de titanio disponible.
+
+2) Deposita un trozo de mineral de titanio a la vez en el centro de la plataforma y deja que el convertidor haga el resto.
+
+3) Construye una central eléctrica \button 164; con uno de los cubos de titanio recién convertidos.
+
+4) Si no tienes ganas de buscar la caja negra tú mismo, construye un radar \button 168; y la caja aparecerá en tu mini mapa en algún lugar al norte de tu ubicación actual, en el fondo de un cráter, junto a algunas naves espaciales abandonadas y escombros de la expedición anterior.
+
+5) Coloca los recogedores en el centro de la plataforma de la central eléctrica para recargarlos. Las células aún deberían tener un poco de energía restantes, solo suficiente para controlar por radio los bots hasta la plataforma.
+
+6) Controla por radio el recogedor alado hasta la caja negra y de regreso.
+
+7) Reúne ambos recogedores y la caja negra en la plataforma de la nave espacial y sube a bordo tú mismo.
+
+8) Despega.
+
+\t;Ver también
+\l;Controles\u command;

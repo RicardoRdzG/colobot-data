@@ -1,0 +1,12 @@
+\b;Materia Orgánica
+\image bullet 4 4;
+La materia orgánica es la secreción de los insectos. Las \l;avispas\u object\wasp; suelen usar bolas de materia orgánica para bombardearte. Deberías intentar obtener algo ya que, con el necesario \l;análisis\u object\labo;, podría permitirte descubrir tecnologías nuevas y extrañas que mejorarán la eficiencia de tus bots.
+
+\t;Transporte
+Todos los \l;recogedores\u object\botgr; y el \l;astronauta\u object\human;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;OrgaMatter\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

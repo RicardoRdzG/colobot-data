@@ -1,0 +1,14 @@
+\b;Mina
+\image mine 8 8;
+Las minas eran un sistema de armas defensivas usado por la primera expedición. Debido a los peligros que este sistema causa para la misión misma, ya no se usan en tu expedición. En algunos ejercicios, las minas se usan para aprender a evitar obstáculos. No hay forma de quitarlas ni de crear nuevas.
+
+Con un \l;robot de práctica\u object\bottr;, no te acerques a menos de 2 metros de la posición dada por la instrucción \l;radar\u cbot\radar;.
+
+\t;Transporte
+Imposible.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Mine\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

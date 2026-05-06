@@ -1,0 +1,8 @@
+\b;Kód csata (egy másik játékos lelövéséhez)
+Ez egy \l;kód csata\u battles; szint, ahol egy másik program ellen küzdesz, amit valószínűleg egy másik játékos írt, hogy fejleszd a célzási képességed.
+
+\b;Cél
+Zúzd szét a másik \l;Shooter\u object/botfj;-t, ami a folyó túloldalán található.
+
+\b;Megjegyzések\m megjegyzések;
+o Próbálhatsz találni egy programot, amivel küzdhetsz a Nemzetközi Colobot Közösségben (\c;http://colobot.info\n;).

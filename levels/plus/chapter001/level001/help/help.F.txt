@@ -1,0 +1,32 @@
+\b;Centre d'entraînement de la NASA
+Nous avons le plaisir de vous informer que vous avez été sélectionné pour la mission d'exploration spatiale Colobot.
+
+Votre profil psychologique a été établi à plus de 98,84 % favorable, et votre aptitude au cours de la longue période de tests était indéniable. Les résultats détaillés sont à votre disposition dans l'ordinateur central sous le numéro d'enregistrement qui vous a été attribué.
+
+Veuillez vous rendre au centre de contrôle de la mission de Houston pour obtenir d'autres directives au sujet de votre prochaine mission.
+
+\b;Instructions de Houston
+\l;Vous\u object\human; avez été sélectionné suite à votre profil psychologique et aux résultats obtenus lors des tests des derniers mois pour diriger la mission Colobot.
+
+Cette mission consiste à explorer les planètes des étoiles voisines pour évaluer leur potentiel à servir de refuge à l'humanité. Comme vous le savez, notre survie sur terre est menacée par un cataclysme écologique imminent dû à la pollution atmosphérique.
+
+Seven months ago an expedition composed entirely of robots was sent across the cosmos with the same objective. It encountered a fair share of obstacles along the way, apparently landing on planets that were unsuitable for colonization, even possibly outright hostile. Very recently all communications were terminated.
+
+Il y a huit mois, une expédition d'observation composée uniquement de robots est partie explorer le cosmos, également à la recherche d'une autre planète habitable. Elle a connu plusieurs échecs sur des planètes apparemment peu propices à une colonisation durable. Mais, à cause de problèmes de transmission de données, les raisons en sont inconnues. Peut-être pourrez-vous quand même tirer profit des acquis de cette expédition lorsque vous serez sur place.
+
+The last drill left for you to perform before embarking on your journey is to equip your spaceship with its \l;black box\u object\bbox;. A bot tasked with bringing it to the spaceship awaits your signal. You need to build an \l;information exchange post\u object\exchange; near a blue \l;flag\u object\flag; and \l;send\u cbot\send; an information, a \l;tracked builder\u object\botbc; may prove useful for this task.
+
+Unfortunately your \l;bot factory\u object\factory; hasn't yet got the capacity to assemble this type of bot. You need to request your \l;research center\u object\research; to come up with a blueprint for this particular apparatus.
+
+\b;Procedure
+1) Perform the necessary \l;research programs\u cbot\researches;.
+2) Drop a \l;titanium cube\u object\titan; in the center of the \l;bot factory\u object\factory; and build a \l;tracked builder\u object\botbc;.
+3) Reach the top of the southwest-oriented mountain and build an \l;exchange post\u object\exchange; near a blue \l;flag\u object\flag;.
+4) \l;Send\u cbot\send; an \l;empty information\u cbot\string; to instruct the carrier to bring the black box back aboard your spaceship.
+5) Don't forget to take your \l;grabber\u object\botgr; and \l;builder\u object\botbc; along.
+6) Climb aboard the \l;spaceship\u object\base; and take off \button 28;.
+
+\key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
+
+\t;Voir aussi
+\l;Commandes\u command;.

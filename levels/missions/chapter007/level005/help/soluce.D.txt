@@ -1,0 +1,8 @@
+\b;Schritt für Schritt
+1) Stampfen Sie auf das Deck des \l;Raumschiffes\u object\base;. Sie brauchen den \l;Stampfer\u object\bottump; dazu nicht zu bewegen.
+2) Finden Sie den \l;Orgashooter\u object\botoj; ungefähr 70 Meter weit östlich.
+3) Zerstören Sie die \l;Ameisen\u object\ant; solange sie noch auf dem Rücken liegen.
+4) Heben Sie ab.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

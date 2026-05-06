@@ -1,0 +1,7 @@
+\b;Schritt für Schritt
+Im Nordosten, im Tal, werden Sie ein voll funktionsfähiges \l;Kraftwerk\u object\station; vorfinden. \l;Batterien\u object\power; finden Sie im Nordwesten.
+
+Einige betriebsbereite Shooter wurden in der gleichen Gegend im Tal zurückgelassen. Benutzen Sie diese, um die Ameisen zu töten. Mit dem \l;Jettransporter\u object\botgj; können Sie den \l;Flugschreiber\u object\bbox; herbeischaffen, der sich hinter dem zerstörten Raumschiff befindet.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

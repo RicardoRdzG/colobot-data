@@ -1,0 +1,14 @@
+\b;Caja Negra
+\image bbox 4 4;
+Una caja negra es en realidad naranja para que sea más fácil de identificar y localizar. Cada \l;nave espacial\u object\base; está equipada con una caja negra que registra y almacena información sobre el vuelo.
+
+Una caja negra también puede usarse para dejar información importante. En cada planeta, la primera expedición ha dejado una caja negra que contiene las coordenadas del próximo planeta al que se dirigía.
+
+\t;Transporte
+Todos los \l;recogedores\u object\botgr; y el \l;astronauta\u object\human;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;BlackBox\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

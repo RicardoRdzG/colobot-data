@@ -1,0 +1,14 @@
+\b;Objetivo
+Muévete hacia las arañas que están fuera del alcance de disparo.
+
+\t;Programa
+El programa será similar al anterior, pero antes de disparar, usa la instrucción \c;\l;mover\u cbot\move;();\n; para acercarte lo suficiente.
+
+La cuestión es cuántos metros debe moverse el bot. La instrucción \c;\l;distance\u cbot\dist;( , )\n; calcula la distancia entre dos posiciones. En este caso, necesitamos saber la distancia entre el bot y el objetivo. La posición del objetivo viene dada por \c;item.position\n;, la posición del bot viene dada por \c;position\n;. La distancia entre el bot y el objetivo viene dada por \c;\l;distance\u cbot\dist;(position, item.position)\n;. El alcance de un cañón de bolas de fuego es de 40 metros. Para acercarse lo suficiente, el bot debe avanzar \c;\l;distance\u cbot\dist;(position, item.position)-40\n; metros. La siguiente línea hará esto:
+\c;
+\s;	\l;mover\u cbot\move;(\l;distancia\u cbot\dist;(position, item.position)-40);
+\n;
+Simplemente inserta esta línea en el programa antes de la instrucción \c;fire(1);\n;, y el bot comenzará a moverse.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

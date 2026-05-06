@@ -1,0 +1,11 @@
+\b;Del Control de Misiones
+Encuentra más \l;materia orgánica\u object\bullet; y, dado un programa de investigación apropiado realizado por tu \l;autolab\u object\labo;, \l;tú\u object\human; deberías ser capaz de fabricar disparadores de orgánica tú mismo.
+
+Produce un \l;disparador de orgánica con patas\u object\botos; y llévalo de vuelta a bordo de tu \l;nave espacial\u object\base;.
+
+Ten en cuenta que los recursos energéticos bajos son una preocupación importante en este planeta.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en todo momento en tu SatCom personal \button 63;.
+
+\t;Ver también
+\l;Controles\u command; y \l;Lenguaje CBOT\u cbot;

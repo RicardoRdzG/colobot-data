@@ -1,0 +1,14 @@
+\b;\button 148; Reciclador
+\image botrecy 8 8;
+Bot con orugas diseñado para convertir un \l;robot abandonado\u object\wreck; de nuevo en un \l;cubo de titanio\u object\titan; reutilizable.
+
+\t;Programación
+Para programar los movimientos del bot, usa los siguientes comandos: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+
+Para programar el reciclaje de un bot abandonado, usa \c;\l;recycle\u cbot\recycle;\n;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;RecyclerBot\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

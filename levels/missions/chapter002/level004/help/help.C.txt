@@ -1,0 +1,18 @@
+\b;Zpráva z řídícího střediska
+Nedokážeme s jistotou určit, kam předchozí výprava po opuštění Měsíce zamířila, ani proč se vydala právě tím směrem.
+
+Najděte \l;černou skříňku\u object\bbox;, kterou tu určitě zanechali, a přineste ji zpět na palubu rakety. Černá skříňka by měla obsahovat souřadnice další planety, kterou se předchozí výprava chystala prozkoumat.
+
+\l;Baterie\u object\power; Vašich robotů jsou téměř zcela vybité. Dobít je by mělo být Vaším prvořadým cílem. Průzkumný satelit na oběžné dráze hlásí, že geologické podloží v této oblasti je plné energie. Na kterékoliv rovné ploše proto můžete postavit funkční \l;nabíječku\u object\station;.
+
+Vyvinuli jsme program, který robotovi nabije \l;baterii\u object\power;. Podrobnosti najdete v seznamu programů ve svém SatKomu \button 53;.
+
+\b;Postup
+1) Nejprve musíte postavit \l;konvertor\u object\convert;, který z dříve nasbíraných kusů titanové rudy vyrobí použitelné \l;kostky titanu\u object\titan;.
+2) Pak byste měli postavit \l;nabíječku\u object\station; a \l;radar\u object\radar;, který označí polohu černé skříňky na Vaší minimapě.
+3) Po nabití baterií vyražte pro černou skříňku. Než budete moci odstartovat, musíte ji položit na palubu \l;rakety\u object\base;.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

@@ -1,0 +1,16 @@
+\b;Celda de Energía Regular
+\image power 4 4;
+Una celda de energía alimenta a los bots y algunos edificios con energía.
+
+Una celda de energía completamente roja está vacía. La sección verde indica la capacidad restante. Una celda de energía puede recargarse usando una \l;central eléctrica\u object\station;. Se necesita una \l;planta de energía\u object\energy; para producir una nueva celda de energía completamente cargada.
+
+La capacidad de una celda de energía regular es 100 veces menor que la de una \l;celda de energía nuclear\u object\atomic; producida por una \l;planta nuclear\u object\nuclear; usando \l;mineral de uranio\u object\uranore;.
+
+\t;Transporte
+Todos los \l;recogedores\u object\botgr; y el \l;astronauta\u object\human;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;PowerCell\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

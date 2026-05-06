@@ -1,0 +1,36 @@
+\b;Exercício
+Neste exercício, os \l;postos de troca de informações\u object\exchange; ao longo do caminho contêm a direção do próximo posto e a distância. E você não sabe com quantos postos de troca você deve entrar em contato antes de chegar ao seu objetivo.
+
+\b;Princípio geral
+	Repita para sempre:
+	o  Recupere a direção do \l;posto de troca\u object\exchange;.
+	o  Recupere a distância do \l;posto de troca\u object\exchange;.
+	o  Se nenhuma informação puder ser recuperada, pare o programa.
+	o  Execute a rotação.
+	o  Avançe para o próximo posto.
+
+Para repetir sempre, use um laço \c;\l;while\u cbot\while; (true)\n;. As instruções entre as chaves \c;{ }</ code> serão repetidas repetidamente, ou até que uma instrução <code>\l;break\u cbot\break;\n; seja executada.
+\s;\c;	while ( true )
+\n;
+Desta vez você precisa de 2 \l;variáveis\u cbot\var;, uma para o ângulo de rotação, uma para a distância, por exemplo \c;dir\n; e <code>dist</ code>:
+\s;\c;	float  dir, dist;
+\n;
+Então você pode recuperar as informações:
+\s;\c;	dir = receive("Direction");
+\s;\c;	dist = receive("Length");
+\n;
+Uma variável do \l;tipo\u cbot\type; \c;\l;float\u cbot\float; pode ter um valor especial chamado <code>\l;nan\u cbot\nan;\n;. Este valor significa que a variável não contém nenhum número (Not An Number - Não Um Número). 
+Quando não há \l;postos de troca\u object\exchange; por perto, seja porque o robô alcançou o objetivo, ou porque tomou o caminho errado, as duas variáveis \c;dir</ code> e <code>dist</ code> contém este valor. Você pode testar isso com a instrução <code>\l;if\u cbot\if;\n;, e parar o programa se necessário com a instrução \c;\l;break\u cbot\break;\n;:
+\s;\c;	if ( dir == nan )  break;
+\n;
+Se a recuperação de informações do \l;posto de troca\u object\exchange; tiver sido executada com sucesso, execute a rotação:
+\s;\c;	turn(dir);
+\n;
+E siga em frente:
+\s;\c;	move(dist);
+\n;
+\b;Observação
+Você pode clicar em um \l;posto de troca de informações\u object\exchange; para ler quais informações ele contém. Neste exercício, todos os postos de troca contêm dois valores chamados \c;"Direction"\n; e \c;"Length"\n;.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

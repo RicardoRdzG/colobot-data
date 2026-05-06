@@ -1,0 +1,9 @@
+\b;Souboj programátorů (proti počítači)
+Toto je mapa pro \l;souboj programátorů\u battles;, kde budete bojovat proti jednoduchému programu od vývojářů hry.
+
+\b;Váš úkol
+Zničte červený tým nacházející se na protějším břehu řeky.
+
+\b;Poznámky\m notes;
+o V malém okruhu kolem počátečních základen jsou jediné \l;podzemní zdroje energie\u object\enerspot;.
+o \l;Vrtné věže\u object\derrick; a \l;radary\u object\radar; stojící na mapě od začátku jsou nezničitelné.

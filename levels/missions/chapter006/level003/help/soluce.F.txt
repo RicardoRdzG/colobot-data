@@ -1,0 +1,11 @@
+\b;Solution
+1) Plusieurs \l;robots tireur\u object\botfs; et plusieurs \l;batteries\u object\power; ont été abandonnées par la première expédition. Il reste même une \l;pile atomique\u object\atomic; derrière l'\l;usine de robots\u object\factory;.
+
+2) Equipez les \l;robots tireur\u object\botfs; de piles et éliminez toutes les fourmis.
+
+3) Contournez les fourmis par l'est pour avoir un meilleur angle de tir.
+
+4) Une fois que toutes les fourmis sont anéanties, ramenez la \l;boîte noire\u object\bbox; avec le \l;robot préhenseur\u object\botgs; et décollez.
+
+\t;Voir aussi
+\l;Commandes\u command;.

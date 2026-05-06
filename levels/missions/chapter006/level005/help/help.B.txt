@@ -1,0 +1,11 @@
+\b;Do Centro de Controle de Missões
+Parabéns pelo bom trabalho, como de costume.
+
+Esta nova arma parece ser mais uma aplicação prática daquilo a que nos referimos como "ouro verde", a \l;matéria orgânica\u object\bullet; produzida pelos insetos. Nós batizamos este robô de \l;atirador orgânico\u object\botoj; ou robô equipado com um canhão orgânico.
+
+Ele certamente será útil quando você voltar para sua \l;espaçonave\u object\base;.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

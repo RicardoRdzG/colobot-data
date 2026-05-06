@@ -1,0 +1,15 @@
+\b;Guía Paso a Paso
+1) Construye rápidamente un \l; captor de energía\u object\captor; cerca de la bandera azul.
+Todos los edificios posteriores deben erigirse dentro del <range> \button 41; cubierto por el captor de energía.
+2) Lleva algunas \l;celdas de energía\u object\power; vacías bajo el captor de energía. Cuando caiga un rayo, serán recargadas.
+3) Construye una \l;torre de perforación\u object\derrick;.
+4) Construye un \l;convertidor\u object\convert;.
+5) Ejecuta el programa \c;CollectTitanium3\n; para producir \l;titanio\u object\titan;.
+6) Construye una \l;fábrica de bots\u object\factory;.
+7) Fabrica un \l;disparador de orgánica alado\u object\botoj;.
+8) Construye un \l;radar\u object\radar;.
+9) Localiza y termina con todas las \l;hormigas\u object\ant;.
+10) Regresa a tu \l;nave espacial\u object\base; y despega.
+
+\t;Ver también
+\l;Controles\u command;

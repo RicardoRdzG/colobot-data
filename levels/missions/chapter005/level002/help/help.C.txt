@@ -1,0 +1,11 @@
+\b;Zpráva z řídícího střediska
+Zlikvidujte všechny nepřátelské organizmy v okolí.
+
+Vaše současná situace nás značně znepokojuje. Satelit objevil velký počet nepřátel postupujících k Vaší raketě ze všech směrů. Rychle zvažte všechny možnosti a zvolte nejrychlejší a nejúčinnější způsob obrany: buď \l;věže\u object\tower;, nebo \l;kanóny\u object\botfr;.
+
+Abychom Vám pomohli přežít, vyvinuli jsme program pro Váš \l;pojízdný kanón\u object\botfr;, který bude hlídat západní stranu rakety. Podrobnosti najdete v seznamu programů \button 53;.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

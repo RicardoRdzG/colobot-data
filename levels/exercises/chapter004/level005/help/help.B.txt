@@ -1,0 +1,62 @@
+\b;Exercício
+Você deve seguir o \l;robô alvo\u object\bottr; com o dispositivo explosivo, mas sem tocá-lo, caso contrário ele explodirá. Toda vez que o robô alvo parar, você deve estar perto dele (menos de 10m). Depois que você conseguir ficar perto do robô de destino em 10 paradas sucessivas, ele o levará até o finalizador e o exercício terminará. A cada parada, o robô de destino verifica se você está lá. Se você não está lá, você deve começar de novo.
+
+\b;Princípio geral
+Repita para sempre:
+o  Procure o robô alvo:
+o  Calcule a distância para o robô.
+o  se a distância ao robô alvo for menor que 5m, mova-se para trás.
+o  Caso contrário, calcule a direção do robô alvo e mova-se em direção a ele.
+
+Como muitas vezes antes, use \c;\l;while\u cbot\while; (true)\n; para executar um laço infinito:
+\s;\c;while (true)
+\s;{
+\s;	\n;instruções a serem repetidas...\c;
+\s;}
+\n;
+Procure o robô alvo com a instrução \c;\l;radar\u cbot\radar;\n;:
+\s;\c;	alvo = radar(TargetBot);
+\n;
+Você não precisa testar se o radar encontrou um robô de destino: deve haver um.
+
+Use a instrução \c;\l;distance\u cbot\dist;( , )\n; para calcular a distância entre dois pontos. O primeiro ponto será a posição do seu próprio robô, dada por \c;position\n;. O segundo ponto é a posição do robô alvo, dada por \c;alvo.position\n;.
+\s;\c;dist = distance(position, alvo.position);
+\n;
+Se a distância até o robô alvo for menor que 5m, mova-se para trás com uma velocidade inversamente proporcional à distância: quanto mais próximo estiver do robô, mais rápido você deve se mover para trás. 
+	Distância = 5,0 metros -> velocidade = 0,0 
+	Distância = 2,5 metros -> velocidade = -0,5 
+	Distância = 0,0 metros -> velocidade = -1,0 
+Você pode usar a \l;expressão\u cbot\expr; \c;dist/5-1\n; para conseguir isso, junto com o \c;\l;if\u cbot\if;\n; para testar se o alvo está a menos de 5m:
+\s;\c;if ( dist < 5 )  // muito perto?
+\s;{
+\s;	motor(dist/5-1, dist/5-1);  // move para trás
+\s;}
+\n;
+Se a distância até o alvo for maior que 5m, mova-se em direção ao alvo. Primeiro calcule o ângulo necessário para enfrentar o alvo com a instrução \c;\l;direction\u cbot\direct;\n;. Você pode então ajustar a velocidade do motor direito e esquerdo para seguir o alvo:
+\s;\c;else
+\s;{
+\s;	dir = direction(alvo.position);
+\s;	if ( dir >= 0 )  // alvo no lado esquerdo?
+\s;	{
+\s;		motor(1-dir/90, 1);
+\s;	}
+\s;	else  // alvo no lado direito?
+\s;	{
+\s;		\n;cabe a você preencher\c;
+\s;	}
+\s;}
+\n;
+Quando o alvo está à sua esquerda, \c;dir\n; recebe um valor positivo, variando entre 0 e 180. A \l;expressão\u cbot\expr; \c;1-dir/90\n; retorna uma velocidade que varia entre 1 e -1, de acordo com a direção: 
+	direção = 0 -> velocidade = 1,0 
+	direção = 45 -> velocidade = 0,5 
+	direção = 90 -> velocidade = 0.0 
+	direção = 135 -> velocidade = -0,5 
+	direção = 180 -> velocidade = -1.0
+
+\image radar2 14 10;
+Quando o alvo está no lado direito, \c;dir\n; é negativo, variando entre 0 e -180.
+
+A única tarefa que resta agora é declarar as \l;variáveis\u cbot\var; que você usa no programa. \c;alvo\n; é do tipo \c;object\n;, enquanto \c;dir\n; e \c;dist\n; são do tipo \c;float\n;.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

@@ -1,0 +1,13 @@
+\b;Guía Paso a Paso
+Una abertura en la montaña del noroeste conduce a un lago de lava hirviendo.
+
+Simplemente salta de una isla rocosa a la siguiente. Sigue revisando tu reactor, déjalo enfriar completamente antes de despegar nuevamente. El mini mapa te ayudará a determinar dónde está la isla más cercana.
+
+En caso de un ataque de hormigas, no te preocupes demasiado. Simplemente tómate el tiempo para que tu reactor se enfríe, sin quedarte más tiempo del necesario, y tu escudo integrado debería hacer su trabajo. Sin embargo, te aconsejamos guardar el juego de vez en cuando (tecla Esc, y "Guardar"), para que no tengas que empezar desde el principio en caso de un aterrizaje en el lago de lava.
+
+El bot está en el punto más occidental de tu mapa, aunque tendrás que tomar una ruta roundabout para llegar a él. Una \l;celda de energía nuclear\u object\atomic; está cerca.
+
+No tienes que controlar por radio el bot de regreso a la nave espacial por el mismo camino que viniste porque su reactor tiene un mayor alcance que el tuyo. Puede que aún se necesiten una o dos paradas y cuidado con esas hormigas.
+
+\t;Ver también
+\l;Controles\u command;

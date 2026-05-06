@@ -1,0 +1,6 @@
+\b;Guía Paso a Paso
+Desafortunadamente no se ha proporcionado una guía para esta misión.
+Estás por tu cuenta...
+
+\t;Ver también
+\l;Controles\u command;

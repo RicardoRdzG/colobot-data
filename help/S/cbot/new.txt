@@ -1,0 +1,22 @@
+\b;Instrucción \c;new\n; (para especialistas)
+El operador \c;new\n; crea una instancia de \l;clase\u cbot\class;:
+\c;\s;	MiClase item;    // ahora item es una referencia nula
+\s;	item = new MiClase(); // ahora item es una referencia
+\s;	                      // a una nueva instancia de clase
+\n;
+Si deseas crear una nueva instancia en el momento de la declaración, puedes omitir el nuevo operador \c;new\n; colocando () después de la declaración:
+
+En lugar de:
+\c;\s;	MiClase item = new MiClase();
+\n;puedes escribir:
+\c;\s;	MiClase item();
+\n;
+Si tu clase tiene un constructor con parámetros, puedes escribir:
+\c;\s;	MiClase item = new MiClase(2, 3);
+\n;o:
+\c;\s;	MiClase item(2, 3);
+\n;
+
+\t;Ver también
+\c;\l;class\u cbot\class;\n;, \c;\l;referencia\u cbot\pointer;\n;
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,35 @@
+\b;Ejercicio
+Convierte algo de \l;mineral de titanio\u object\titanore; en \l;cubos de titanio\u object\titan;, luego deja 2 cubos de titanio en las plataformas cuyas coordenadas son:
+\c;
+	x=10, y=-60
+	x=10, y=-65
+\n;
+\image torreExtractor 8 8;
+La \l;torre extractor\u object\derrick; extrae mineral de titanio del subsuelo; solo tienes que recogerlo.
+
+\image convertidor 8 8;
+El \l;convertidor\u object\convert; convierte mineral de titanio en cubos de titanio. Simplemente deja el mineral de titanio en la plataforma, retrocede y espera hasta que se haya convertido.
+
+\b;Principio general
+Repetir dos veces:
+o  Espera hasta que haya mineral de titanio.
+o  Ve al mineral de titanio.
+o  Recógelo.
+o  Ve al convertidor.
+o  Deja el mineral de titanio.
+o  Retrocede 2.5 metros.
+o  Espera hasta que haya un cubo de titanio.
+o  Recoge el cubo de titanio.
+o  Ve a la plataforma.
+o  Deja el cubo de titanio.
+
+\b;Instrucciones útiles
+\c;\l;for\u cbot\for;\n; para repetir instrucciones
+\c;\l;do - while\u cbot\do;\n; para repetir instrucciones
+\c;\l;radar\u cbot\radar;\n; para buscar diferentes objetos
+\c;\l;goto\u cbot\goto;\n; para mover el bot
+\c;\l;grab\u cbot\grab;\n; para recoger un objeto
+\c;\l;drop\u cbot\drop;\n; para dejar un objeto
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

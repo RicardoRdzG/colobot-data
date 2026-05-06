@@ -1,0 +1,40 @@
+\b;Objetivo
+Adapta el programa \c;Tower1\n; para evitar desperdiciar energía cuando dispares a hormigas que están fuera de alcance.
+
+\t;Programa
+El programa \c;Tower1\n; dispara en dirección de la hormiga más cercana, incluso si aún está fuera de alcance:
+\c;
+\s;extern void object::Tower1()
+\s;{
+\s;	object    item;
+\s;	
+\s;	jet(0.2);
+\s;	while(position.z < 20)
+\s;	{
+\s;		wait(0.2);
+\s;	}
+\s;	jet(0);
+\s;	
+\s;	while(true)
+\s;	{
+\s;		item = radar(AlienAnt);
+\s;		turn(direction(item.position));
+\s;		fire(1);
+\s;	}
+\s;}
+\n;
+Si el bot debe realizar la misma tarea que antes con solo una \l;celda de energía regular\u object\power;, puedes insertar un bucle que espere hasta que la hormiga esté lo suficientemente cerca, es decir, hasta que la hormiga esté a menos de 40 metros. Solo se necesitará una ráfaga para cada hormiga entonces.
+
+Puedes dar a la instrucción \c;\l;radar\u cbot\radar();\n; más parámetros (números) indicando dónde debe buscar el radar las hormigas. Por ejemplo \c;radar(AlienAnt,0,360,0,40);\n; solo buscará hormigas que estén a menos de 40 metros. Los dos primeros números le dicen al radar que busque en todas direcciones, los dos últimos números le dicen al radar que detecte solo hormigas que estén a una distancia entre 0 y 40 metros. Si no se encuentra ninguna hormiga que esté a menos de 40 metros, la instrucción \c;\l;radar\u cbot\radar();\n; devuelve el valor \c;null\n;. Entonces podemos escribir un bucle condicional similar al escrito en el último ejercicio que espera mientras no haya ninguna hormiga a menos de 40 metros:
+\c;
+\s;		while (radar(AlienAnt, 0, 360, 0, 40) == null)
+\s;		{
+\s;			wait(0.2);
+\s;		}
+\n;
+Nota que se necesitan dos signos iguales "==" para realizar una comparación de igualdad.
+
+Simplemente inserta estas líneas antes de la instrucción \c;fire(1);\n;, y el bot esperará antes de disparar hasta que la hormiga esté a menos de 40 metros. De esta manera una celda de energía regular es suficiente para matar todas las hormigas. 
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,19 @@
+\b;Műholdjelentés
+Jelenleg geostacionárius pályán kering a Crystalium körül.
+\c;
+\s;-> FELSZÍN\c;
+\tab;Hőmérséklet:     1.2C
+\tab;Légkör:          nitrogén
+\tab;Szél:            0.0 m/s
+\tab;Titánérc:        nincs
+\tab;Uránérc:         nincs
+
+\s;-> ALTALAJ\c;
+\tab;Energiaforrás:   nincs
+\tab;Titánérc:        nincs
+\tab;Uránérc:         nincs
+
+\s;-> TOVÁBBI INFORMÁCIÓK\c;
+\tab;Észlelve:         elektromágneses szmog
+\tab;Észlelve:         újrahasznosítható roncsok
+\n;

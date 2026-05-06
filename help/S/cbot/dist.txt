@@ -1,0 +1,30 @@
+\b;Instrucción \c;distance\n;
+Con la instrucción \c;distance( , )\n; puedes calcular la distancia entre dos posiciones.
+
+\b;Uso básico
+Si escribes solo \c;position\n;, obtendrás la posición del bot que ejecuta el programa. Si escribes el nombre de una variable seguido de \c; .position\n;, obtendrás la posición del objeto descrito en la variable.
+
+Aquí hay un programa que avanza, cubriendo exactamente la distancia entre el bot y la hormiga más cercana:
+\c;
+\s;	item = \l;radar\u cbot\radar;(AlienAnt);
+\s;	\l;move\u cbot\move;(distance(position, item.position));
+\n;
+Por supuesto, esto es un auténtico suicidio. Es mejor detenerse 40 metros antes, para estar a distancia de tiro:
+\c;
+\s;	item = radar(AlienAnt);
+\s;	move(distance(position, item.position) - 40);
+\n;
+\b;Para especialistas
+Sintaxis:
+\s;\c;distance ( pos1, pos2 );\n;
+
+Calcula la distancia entre dos posiciones. 
+
+\t;pos1, pos2: \c;\l;point\u cbot\point;\n;
+Coordenadas de las dos posiciones. 
+
+\t;Valor de retorno: \c;\l;float\u cbot\float;\n;
+Distancia entre las dos posiciones.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

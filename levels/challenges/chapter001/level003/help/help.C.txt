@@ -1,0 +1,19 @@
+\b;Cvičení
+Podél cvičné trasy stojí několik \l;komunikačních stanic\u object\exchange;. Když je robot ke stanici dost blízko, může si přečíst pokyny v ní uložené. \l;Komunikační stanice\u object\exchange; podél trasy v tomto cvičení obsahují směr a vzdálenost k další stanici. A předem nevíte, kolika komunikačních stanic se musíte dotázat na cestu k cíli.
+
+\b;Obecný postup
+	Opakovat stále dokola:
+	o  Načíst směrový úhel z \l;komunikační stanice\u object\exchange;.
+	o  Načíst vzdálenost z \l;komunikační stanice\u object\exchange;.
+	o  Pokud se informace nepodařilo načíst, ukončit program.
+	o  Otočit robota.
+	o  Dojet k další stanici.
+
+\b;Užitečné příkazy
+\c;\l;while\u cbot\while;\n; pro opakování příkazů
+\c;\l;receive\u cbot\receive;\n; pro načtení informace ze stanice
+\c;\l;move\u cbot\move;\n; pro popojetí s robotem
+\c;\l;turn\u cbot\turn;\n; pro otočení robota
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

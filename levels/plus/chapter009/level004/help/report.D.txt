@@ -1,0 +1,21 @@
+\b;Satellitenbericht
+Gegenwärtig in einer geostationären Umlaufbahn um Terranova.
+\c;
+\s;-> Oberfläche\c;
+\tab;Temperatur:     23.7C
+\tab;Atmosphäre:     Sauerstoff
+\tab;Wind:           0.5 m/s
+\tab;Titanerz:       vereinzelt
+\tab;Platinerz:      vereinzelt
+
+\s;-> Untergrund\c;
+\tab;Energiefelder:  an einigen Stellen (Raumschiff)
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Zusätzliche Informationen\c;
+\tab;Entdeckt:       Riesenameisen
+\tab;  - Gefahr:     unmittelbar
+\tab;Entdeckt:       Insektenkönigin
+\tab;  - Gefahr:     ?
+\n;

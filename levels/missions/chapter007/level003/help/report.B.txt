@@ -1,0 +1,22 @@
+\b;Relatório do satélite
+Atualmente em uma órbita geo-estacionária de Centaury.
+\c;
+\s;-> SUPERFÍCIE\c;
+\tab; Temperatura: 25.4C 
+\tab; Atmosfera: oxigênio, nitrogênio, amônia 
+\tab; Vento: 0.7 mps 
+\tab; Minério de titânio: alguns 
+\tab; Minério de urânio: alguns
+
+\s;-> SUBSOLO\c;
+\tab; Fonte de energia: nenhuma 
+\tab; Minério de titânio: nenhum 
+\tab; Minério de urânio: nenhum
+
+\s;-> INFORMAÇÃO ADICIONAL\c;
+\tab; Detectado: formigas gigantes 
+\tab; - Perigo: não imediato 
+\tab; Detectado: aranhas 
+\tab; - Perigo: não imediato 
+\tab; Detectado: abandonados reutilizáveis
+\n;

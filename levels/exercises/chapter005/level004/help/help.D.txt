@@ -1,0 +1,33 @@
+\b;Übung
+Transportieren Sie den \l;Titanwürfel\u object\titan; auf die Zielfläche. Sie kennen die Position des Titans nicht, aber wir können Ihnen die Position der Zielfläche mitteilen: x=10 und y=-60.
+
+\b;Die Anweisung \c;goto\n;
+Der Jetroboter kann Hindernisse überfliegen. Wenn die \c;\l;goto\u cbot\goto;\n;-Anweisung auf einem Jetroboter ausgeführt wird, dann nimmt dieser einen Luftweg - mit einem Start am Anfang und einer Landung am Ende.
+Diese Anweisung hat einen zweiten Parameter, der normalerweise weggelassen werden kann. Er bestimmt die Flughöhe. Geben Sie bei einem flugfähigen Roboter keine Flughöhe an, so wird der Standardwert 10m angenommen.
+
+Daher ist die Anweisung:
+\c;\s;\l;goto\u cbot\goto;(item.\l;position\u cbot\object;);\n;
+
+Gleichwertig mit:
+\c;\s;\l;goto\u cbot\goto;(item.\l;position\u cbot\object;, 10);\n;
+
+\b;Das Programm
+Benutzen Sie die Anweisung \c;\l;radar\u cbot\radar;(\l;Titanium\u cbot\category;);\n;, um den Titanwürfel zu finden. Prüfen Sie dann, ob wirklich ein Titanwürfel gefunden wurde. In dieser Übung ist diese Zeile nicht sehr sinnvoll, denn wir wissen, dass wir einen Titanwürfel finden werden. Es ist jedoch besser, sich anzugewöhnen, alles zu prüfen, was Ihnen Ihr Radar zurückgibt:
+\c;
+\s;\l;object\u cbot\type;  item;
+\s;item = \l;radar\u cbot\radar;(\l;Titanium\u cbot\category;);
+\s;\l;if\u cbot\if; ( item == \l;null\u cbot\null; )  \l;return\u cbot\return;;
+\s;\l;goto\u cbot\goto;(item.\l;position\u cbot\object;);
+\n;
+Die Variable \c;item\n; ist vom Typ \c;\l;object\u cbot\object;\n;. Die exakte Position des durch die Variable beschriebenen Objekts können Sie durch \c;item.\l;position\u cbot\object;\n; ermitteln.
+
+Um den Titanwürfel aufzunehmen, verwenden Sie die Anweisung \c;\l;grab\u cbot\grab;()\n; ohne Parameter.
+
+Um den Titanwürfel abzulegen, verwenden Sie die Anweisung \c;\l;drop\u cbot\drop;()\n; ohne Parameter.
+
+Wir kennen die Koordinaten der Zielfläche: x=10 und y=-60. Sie müssen eine \l;Variable\u cbot\var; des Typs \l;point\u cbot\point; deklarieren und sie mit diesen Koordinaten füllen. Diese Variable können Sie dann an \c;\l;goto\u cbot\goto;\n; als Parameter übergeben.
+
+Es ist nun Ihre Aufgabe, das Programm fertigzustellen...
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

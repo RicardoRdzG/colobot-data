@@ -1,0 +1,21 @@
+\b;Informe del Satélite
+Actualmente en órbita geoestacionaria de Volcano.
+\c;
+\s;-> SUPERFICIE\c;
+\tab;Temperatura:      96.6C
+\tab;Atmósfera:        CO2, SO2, HCN, HS, CH4, NH3
+\tab;Viento:           2.7 mps
+\tab;Mineral titanio:  ninguno
+\tab;Mineral uranio:   ninguno
+
+\s;-> SUBSUELO\c;
+\tab;Fuente energía:   ninguna
+\tab;Mineral titanio:  ninguno
+\tab;Mineral uranio:   ninguno
+
+\s;-> INFORMACIÓN ADICIONAL\c;
+\tab;Detectado:        hormigas gigantes
+\tab;  - Peligro:       inmediato
+\tab;Detectado:        arañas gigantes
+\tab;  - Peligro:       no inmediato
+\n;

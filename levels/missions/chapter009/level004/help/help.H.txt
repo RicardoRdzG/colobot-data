@@ -1,0 +1,13 @@
+\b;Az Irányítóközpontból
+A közelben található negyedik \l;kulcs\u object\key; (D) segítségével végre hozzáférést nyersz a \l;széfhez\u object\safe;. A benne található forradalmi robot neve: "\l;phazer\u object\botphaz;".
+
+Csatoltunk egy programot, amely lehetővé teszi a \l;phazer\u object\botphaz; és a \l;védő\u object\botshld; együttműködését.
+
+Hamarosan lehetőséged lesz kipróbálni az új fegyvered. Az utolsó küldetésed az, hogy megsemmisítsd az \l;Idegen Királynőt\u object\mother;, aki a tojások lerakásával felelős a Terranova-n elszaporodott rovarokért. Lehet, hogy a phazer az egyetlen robot, amely képes elvégezni ezt a feladatot.
+
+Ezután semmi sem állhat az emberek által történő gyarmatosítás útjába ezen a csodálatos bolygón, és hamarosan értesítheted a Földet a küldetésed sikeréről.
+
+A \key;\key help;\norm; segítségével bármikor újra megtekintheted ezeket az utasításokat a saját SatCom \button 63; eszközödön.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

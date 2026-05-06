@@ -1,0 +1,13 @@
+\b;Vom Kontrollzentrum
+Sie sollen einen \l;Sprengstoffkörper\u object\tnt;, der in einem tiefen Tal in der Nähe eines brodelnden Lavasees geortet wurde, holen.
+
+Wegen den hohen Temperaturen funktionieren die Triebwerke nicht mehr; deswegen ist Fliegen unmöglich. Es ist ein langer Weg dort hin und Sie sollten Ihre Roboter mit \l;katalytischen Brennstoffzellen\u object\fuelcell; ausstatten. Brennstoffzellen werden aus \l;Platinerz\u object\platore; hergestellt.
+
+Ein effizienteres Programm zum Sammeln von Rohmaterial wurde mit dieser Nachricht mitgeschickt.
+
+Ein Hinweis zur Warnung: der Sprengstoffkörper ist extrem instabil. Seien Sie sehr vorsichtig.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

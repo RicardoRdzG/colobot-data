@@ -1,0 +1,5 @@
+\b;Kódharc (másik lövöldöző lelövése)
+Ez egy \l;kódharc\u battles; szint, ahol a játék fejlesztői által írt egyszerű lövöldöző programmal harcolsz, hogy fejleszd a célzási képességed.
+
+\b;Cél
+Zúzd szét a másik \l;Lövöldözőt\u object/botfj;, amely a folyó túlsó oldalán található.

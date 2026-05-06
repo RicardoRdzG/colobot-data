@@ -1,0 +1,11 @@
+\b;Cvičení
+Zničte všechny čtyři \l;cíle\u object\bottarg; pomocí programu s cyklem \c;for\n;. Robot musí od jednoho cíle k dalšímu popojet vždy o 10 metrů.
+
+\b;Užitečné příkazy
+\c;\l;for\u cbot\for;\n; cyklus pro opakování příkazů
+\c;\l;move\u cbot\move;\n; pro popojetí s robotem
+\c;\l;turn\u cbot\turn;\n; pro otočení robota
+\c;\l;fire\u cbot\fire;\n; pro výstřel z kanónu
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

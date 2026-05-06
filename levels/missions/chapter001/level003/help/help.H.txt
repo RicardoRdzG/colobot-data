@@ -1,0 +1,24 @@
+\b;Az irányítóközponttól
+A \l;űrhajód\u object\base; most az indítóálláson áll, készen a felszállásra.
+
+Az utolsó gyakorlat, amit még el kell végezned az indulás előtt, hogy felszereld az űrhajódat a \l;fekete dobozzal\u object\bbox;. Ehhez egy meredek ösvényen kell feljutni, amit csak egy \l;lánctalpas szállító\u object\botgc; tud megmászni — ezt neked kell megépítened.
+
+Sajnos a \l;robotgyáradnak\u object\factory; még nincs kapacitása ilyen robotot összeszerelni. Kérned kell a \l;kutatóközpontot\u object\research;, hogy dolgozza ki ennek a meghajtásnak a tervrajzát.
+
+\b;Folyamat
+1) Lásd el energiával a kutatóközpontot az egyik zöld \l;energia cellával\u object\power;.
+2) Kattints a <lánctalpas robot kutatási program> gombra \button 64;.
+3) Helyezz egy \l;titánkockát\u object\titan; a \l;robotgyár\u object\factory; közepébe, és építs egy \l;lánctalpas szállítót\u object\botgc;.
+4) Lásd el energiával, és irányítsd rádióval a \l;lánctalpas szállítót\u object\botgc; a délnyugati hegycsúcsra.
+5) Hozd vissza a fekete dobozt az űrhajód fedélzetére.
+6) Ne felejtsd el magaddal vinni a \l;kerekes szállítót\u object\botgr; sem. Ezek a robotok a jövőben még nagyon hasznosak lehetnek.
+7) Szállj be az \l;űrhajóba\u object\base;.
+8) Válaszd ki a \l;űrhajót\u object\base;, és szállj fel \button 28;.
+
+
+Figyelem: Hatékonyabb munkavégzéshez használhatod a \l;kerekes fogót\u object\botgr;.
+
+A \key;\key help;\norm; segítségével bármikor újra megtekintheted ezeket az utasításokat a személyes SatCom készülékeden \button 63;.
+
+\t;Lásd még
+\l;Irányítás\u command;

@@ -1,0 +1,11 @@
+\b;\button 171; Nave Espacial
+\image base 8 8;
+\l;Tu\u object\human; medio de transporte de un planeta a otro, la única forma de viajar de forma segura por el cosmos y completar tus misiones.
+
+Además de ti mismo, la nave espacial puede transportar bots y materias primas. Cuando se completa una misión, debes seleccionar la nave espacial y luego hacer clic en el comando <takeoff> \button 28;.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;SpaceShip\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

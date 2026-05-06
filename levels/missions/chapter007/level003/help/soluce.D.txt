@@ -1,0 +1,11 @@
+\b;Schritt für Schritt
+Um alle Ameisen und Spinnen in dieser großen, bergigen Gegend zu töten, werden Sie einen \l;Jetorgashooter\u object\botoj; benötigen, der mit einer \l;Brennstoffzelle\u object\fuelcell; beladen ist. Sie werden alles, was Sie brauchen, in einem kleinen Tal im Südosten finden: \l;Titanwürfel\u object\titan;, \l;Batterien\u object\power; und sogar einen \l;Jettransporter\u object\botgj; in funktionstüchtigem Zustand.
+
+1)  Bauen Sie ein \l;Radar\u object\radar; und einen \l;Jetshooter\u object\botoj;, laden Sie ihn auf. Vernichten Sie die Ameise, die das \l;Platinerz\u object\platore; weiter nördlich bewacht.
+
+2)  Benutzen Sie die verlassene \l;Brennstoffzellenfabrik\u object\fuelplan; oben auf dem Hügel und den \l;Jettransporter\u object\botgj;, um einige \l;Brennstoffzellen\u object\fuelcell; herzustellen. Geben Sie dem \l;Jetshooter\u object\botoj; eine der Batterien.
+
+3)  Löschen Sie nun alle Ameisen in der Gegend aus. Eine vereinzelte Ameise befindet sich im Nordwesten, in einem Loch versteckt. Eine Annäherung von Westen, durch das tiefe Tal gibt Ihnen bessere Zielmöglichkeiten.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

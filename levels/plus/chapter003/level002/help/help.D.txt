@@ -1,0 +1,13 @@
+\b;Vom Kontrollzentrum
+Hier ist ein Trainingskurs der von Ihren Vorgängern gebaut wurde, um die Fähigkeiten von \l;fliegenden Robotern\u object\botfj; beim Schießen zu trainieren und zu testen. Benutzen Sie ihn, damit Sie lernen, gleichzeitig zu schießen und zu fliegen.
+
+Fliegen Sie durch alle Ringe und schießen Sie die 10 Sprengkörper, die auf dem Weg verteilt sind, ab. Versuchen Sie, die Übung zu absolvieren ohne aufzusetzen. Achten Sie trotzdem auf Ihr Triebwerk: wenn es überhitzt dann landen Sie einfach und lassen es abkühlen.
+
+Nutzen Sie eine Hand, um mit der Tatstatur den Roboter zu steuern und die andere, um mit der Maus zu zielen und zu schießen (linker Mausknopf).
+
+Es wäre vielleicht ratsam, wenn Sie später noch einmal zurück kommen und diese Übung wiederholen, um Ihre Reaktion weiter zu verbessern.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

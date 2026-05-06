@@ -1,0 +1,59 @@
+\b;Cvičení
+\l;Robot\u object\bottr; musí projet přes všechny \l;modré křížky\u object\waypoint; na zemi. Trasa se skládá ze dvou čtverců. První čtverec měří 15 metrů, druhý 25 metrů.
+
+\image tproc1a 8 8;
+\b;Obecný postup
+Nejjednodušším řešením tohoto úkolu je vytvořit \l;funkci\u cbot\function;, která robota pošle objet čtverec o zadané délce. Hlavní program pak bude velmi jednoduchý:\c;
+\s;extern void object::Trasa( )
+\s;{
+\s;	Square(15);
+\s;	Square(25);
+\s;}
+\n;
+Teď ještě musíte naprogramovat funkci nazvanou \c;Square\n;. Pro vytvoření nové funkce musíte napsat několik příkazů mimo \l;blok\u cbot\bloc;, který až doteď obsahoval celý Váš program. Úplně na konci programu, až za poslední složenou závorkou, definujeme funkci \c;Square\n;. Program pak bude vypadat takto:
+\c;
+\s;extern void object::Trasa( )
+\s;{
+\s;	\n;hlavní funkce...\c;
+\s;}
+\s;
+\s;void object::Square(float length)
+\s;{
+\s;	\n;nová funkce...\c;
+\s;}
+\n;
+Podívejme se podrobně na jednotlivé prvky definice funkce \c;Square\n;:
+
+\c;\l;void\u cbot\void;\n;
+Toto znamená, že funkce nebude vracet žádnou hodnotu.
+
+\c;\l;object\u cbot\object;::\n;
+Když toto napíšete před název funkce, budete mít uvnitř funkce přístup ke všem vlastnostem robota, například k proměnným \c;position\n;, \c;orientation\n;, atd. V tomto cvičení můžete tento prvek vynechat, protože ve funkci \c;Square\n; nebudeme vlastnosti robota potřebovat.
+
+\c;Square (  )\n;
+Toto je název funkce. Můžete ji nazvat Square, nebo i libovolně jinak.
+
+\c;\l;float\u cbot\float; length\n;
+Zde definujete parametry, které funkci musíte předat, když ji voláte. Poprvé budeme funkci volat jako \c;Square(15)\n;, takže proměnná \c;length\n; dostane hodnotu \c;15\n;. Podruhé dostane proměnná \c;length\n; hodnotu \c;25\n;.
+
+Program bude po spuštění fungovat takto:
+- Nejprve se spustí hlavní funkce \c;Trasa\n;.
+- Na řádku \c;Square(15)\n; program poprvé zavolá funkci \c;Square\n; s hodnotou \c;15\n; v proměnné \c;length\n;, jak znázorňuje červená šipka.
+- Na konci funkce \c;Square\n; se program vrátí po oranžové šipce zpět do hlavní funkce.
+- Na řádku \c;Square(25)\n; program zavolá funkci \c;Square\n; podruhé, jak znázorňuje modrá šipka.
+- Na konci funkce \c;Square\n; se program opět vrátí do hlavní funkce po světle modré šipce.
+
+\image tproc1b_cs 17 12;
+Ve funkci \c;Square\n; použijte příkazy \c;\l;move\u cbot\move;\n; a \c;\l;turn\u cbot\turn;\n;. Pro zjednodušení můžete použít i cyklus \c;\l;for\u cbot\for;\n;, abyste příkazy \c;\l;move\u cbot\move;\n; a \c;\l;turn\u cbot\turn;\n; zopakovali čtyřikrát. Ale pokud nechcete, nemusíte.
+\c;
+\s;void object::Square(float length)
+\s;{
+\s;	for ( int i=0 ; i<4 ; i=i+1 )
+\s;	{
+\s;		move(length);
+\s;		turn(90);
+\s;	}
+\s;}
+\n;
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

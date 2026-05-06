@@ -1,0 +1,27 @@
+\b;Programas enviados por Houston
+Hemos mejorado el programa de recarga. Cuando llega a la \l;estación de energía\u object\station;, el bot no espera exactamente 5 segundos, sino solo hasta que la \l;celda de energía\u object\power; esté completamente cargada. Después de que el bot regresa a la posición inicial, muestra un mensaje en la pantalla.
+\c;
+\s;extern void object::Recharge2()
+\s;{
+\s;	\l;point\u cbot\type;  start;          // variable para pos. inicial
+\s;	\l;object\u cbot\type; item;           // información sobre estación
+\s;	
+\s;	start = position;      // guardar posición inicial
+\s;	
+\s;	item = \l;radar\u cbot\radar;(\l;PowerStation\u cbot\category;); // buscar estación
+\s;	\l;goto\u cbot\goto;(item.position);   // ir a la estación de energía
+\s;	
+\s;	\l;while\u cbot\while; ( \l;energyCell.energyLevel\u cbot\object; < 1 )
+\s;	{
+\s;		\l;wait\u cbot\wait;(1);           // esperar hasta recargar
+\s;	}
+\s;	
+\s;	\l;goto\u cbot\goto;(start);           // volver a pos. inicial
+\s;	\l;message\u cbot\message;("Recarga completada");
+\s;}
+\n;
+\b;Archivos
+Índice de los programas enviados en misiones anteriores:
+
+o  \c;\l;CambiarCelda1\u programs/1_SwitchCell1;\n;
+o  \c;\l;Recargar1\u programs/2_Recharge1;\n;

@@ -1,0 +1,25 @@
+\b;Instrucción \c;message\n; ( mensaje )
+Sintaxis:
+\s;\c;message (texto, tipo);\n;
+
+Imprime un mensaje en la parte superior de la pantalla. Después de unos segundos, el mensaje desaparece automáticamente. 
+
+\t;texto: \c;\l;string\u cbot\string;\n;
+Texto que se va a mostrar. Es posible unir varios textos y/o valores con el operador \c;+\n;:
+\c;message("No encontrado");\n; 
+\c;message(angulo);\n; 
+\c;message(n + " objeto(s) encontrado(s)");\n; 
+\c;message("Distancia = " + dist + " metros");\n; 
+
+\t;tipo: \c;\l;int\u cbot\int;\n; (valor predeterminado \c;DisplayMessage\n;)
+Tipo del mensaje, que determina el color de fondo. 
+o  \c;DisplayMessage\n;  Mensaje estándar sobre fondo amarillo.
+o  \c;DisplayInfo   \n;  Información sobre fondo verde.
+o  \c;DisplayWarning\n;  Advertencia sobre fondo azul.
+o  \c;DisplayError  \n;  Error sobre fondo rojo.
+
+\t;Valor de retorno: \c;\l;void\u cbot\void;\n;
+Ninguno.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,62 @@
+\b;Übung
+Programmieren Sie den Roboter so, dass er seinen Weg findet, ohne die Mauern des Labyrinths zu berühren. Wir nehmen an, dass Sie den Aufbau des Labyrinths nicht kennen, aber es gibt keine Verzweigungen und keine Sackgassen. Das Labyrinth besteht aus Quadraten mit einer Seitenlänge von 5m.
+
+\b;Die Anweisung \c;radar\n;
+Die Anweisung \c;\l;radar\u cbot\radar;(\l;Barrier\u object\barrier;, 0, 45, 0, 5);\n; findet jede \l;Abschrankung\u object\barrier;, die sich in einem Abstand von höchstens 5m vor dem Roboter befindet. Lassen Sie uns einen näheren Blick auf die 5 verwendeten Parameter werfen:
+
+\s;\c;Barrier\n;
+\l;Kategorie\u cbot\category; des Objekts nach dem das Radar suchen soll, hier: Abschrankung.
+
+\s;\c;0\n;
+Richtung der Suche. \c;0\n; bedeutet, dass das Radar geradeaus in Fahrtrichtung suchen soll.
+
+\s;\c;45\n;
+Öffnungswinkel in Grad. Mit einem Öffnungswinkel von 45 Grad wird jede Abschrankung gefunden, die sich in einem Winkel zwischen 22,5 Grad nach links und 22,5 Grad nach rechts befindet.
+
+\s;\c;0\n;
+Minimalabstand. \c;0\n; bedeutet, dass auch Objekte, die sich sehr nah am Roboter befinden, gefunden werden.
+
+\s;\c;5\n;
+Maximalabstand. Keine Abschrankung, deren Entfernung größer als \c;5\n; Meter ist, wird entdeckt.
+
+In einem anderen Beispiel, \c;\l;radar\u cbot\radar;(\l;Barrier\u object\barrier;, 90, 45, 0, 5);\n;, wird das Radar angewiesen, um 90 Grad nach links gedreht nach Abschrankungen zu suchen, um zu testen, ob der Weg nach links frei ist.
+
+\image tlaby1 10 10;
+\b;Vorgehensweise
+Das Programm muss sich immer nur um einen einzigen quadratischen Teil des Labyrinths kümmern. Sie werden es mehrere Male ausführen müssen, um die Zielfläche zu erreichen.
+o  Falls in Fahrtrichtung kein Hindernis, vorwärts bewegen.
+o  Falls links kein Hindernis, eine viertel Drehung nach links, vorwärts bewegen.
+o  Falls rechts kein Hindernis, eine viertel Drehung nach rechts, vorwärts bewegen.
+
+1) Deklarieren Sie zuerst drei \l;Variablen\u cbot\var; des Typs \c;\l;object\u cbot\object;\n;, die wir \c;front\n;, \c;left\n; und \c;right\n; nennen. Variablen dieses Typs können Beschreibungen eines jeden Objektes enthalten, so auch die einer vom Radar gefundenen Abschrankung.
+\s;\c;	object   front, left, right;\n;
+
+2) Lassen Sie nach Abschrankungen suchen und legen Sie die Resultate der \c;\l;radar\u cbot\radar;\n;-Anweisung in die drei Variablen ab, die Sie in Schritt 1) deklariert haben. Findet das Radar nichts, so wird die Variable den Wert \c;\l;null\u cbot\null;\n; enthalten.
+\s;\c;	front = \l;radar\u cbot\radar;(\l;Barrier\u object\barrier;,   0, 45, 0, 5);
+\s;	left  = \l;radar\u cbot\radar;(\l;Barrier\u object\barrier;,  90, 45, 0, 5);
+\s;	right = \l;radar\u cbot\radar;(\l;Barrier\u object\barrier;, -90, 45, 0, 5);
+\n;
+3) Prüfen Sie, ob der Weg in Fahrtrichtung frei ist. Verwenden Sie hierzu eine \c;\l;if\u cbot\if;\n;-Anweisung. Fällt der Test positiv aus, werden die Anweisungen in den geschweiften Klammern \c;{ }\n; ausgeführt, andernfalls wird die Ausführung nach der schließenden Klammer \c;}\n; fortgesetzt.
+Die Anweisung \c;\l;return\u cbot\return;\n; verlässt das Programm: Sie haben den Job erledigt.
+\s;\c;if ( front == null )
+\s;{
+\s;	move(5);
+\s;	return;
+\s;}
+\n;
+4) Prüfen Sie, ob eine Drehung nach links möglich ist. Ist sie möglich, verwenden Sie die Anweisung \c;\l;turn\u cbot\turn;\n; und fahren Sie 5m nach vorn.
+\s;\c;if ( left == null )
+\s;{
+\s;	turn(90);
+\s;	move(5);
+\s;	return;
+\s;}
+\n;
+5) Prüfen Sie, ob eine Drehung nach rechts möglich ist.
+    ...
+
+\b;Achtung
+Die \c;\l;if\u cbot\if; ( )\n;-Anweisung darf nicht mit einem \l;Strichpunkt\u cbot\term; beendet werden.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

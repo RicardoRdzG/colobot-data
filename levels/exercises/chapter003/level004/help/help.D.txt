@@ -1,0 +1,31 @@
+\b;Übung
+Einige \l;Infoserver\u object\exchange; stehen inmitten eines \l;Minen\u object\mine;feldes. Wenn der Roboter nahe genug an einen Infoserver herankommt, kann er die Information auslesen, die er enthält. Jeder Infoserver enthält den Winkel, um den sich der Roboter drehen muss, um ohne eine \l;Mine\u object\mine; zu berühren den nächsten Infoserver zu erreichen.
+Die Infoserver haben jeweils einen Abstand von 20m zueinander.
+
+\b;Vorgehensweise
+5 mal wiederholen :
+	o  20m vorwärts bewegen.
+	o  Richtung des nächsten \l;Infoservers\u object\exchange; auslesen.
+	o  Notwendige Drehung ausführen.
+
+\image tinfo1 8 8;
+Um die oben stehenden Schritte auszuführen, benutzen Sie eine \c;\l;for\u cbot\for;\n;-Schleife, wie wir sie schon gesehen haben.
+\s;\c;	for ( int i=0 ; i<5 ; i=i+1 )
+\n;
+Die Vorwärtsbewegung erfolgt mit \c;move(20);\n;.
+
+Verwenden Sie die Anweisung \c;\l;receive\u cbot\receive;("Direction");\n;, um die Information zu lesen, die der \l;Infoserver\u object\exchange; enthält. Dies ist natürlich nur möglich, wenn Sie sich nahe genug am Infoserver befinden.
+Sie werden eine \l;Variable\u cbot\var; benötigen, die den vom Infoserver empfangenen Wert aufnimmt. Nennen wir sie \c;dir\n;. Mit folgender Zeile ist sie zu deklarieren:
+\s;\c;	\l;float\u cbot\type;  dir;
+\n;
+Holen Sie dann den Rotationswinkel vom Infoserver und legen Sie Ihn in der Variablen ab:
+\s;\c;	dir = \l;receive\u cbot\receive;(...);
+\n;
+Dann können Sie die Drehung ausführen:
+\s;\c;	\l;turn\u cbot\turn;(dir);
+\n;
+\b;Hinweis
+Sie können auf einen \l;Infoserver\u object\exchange; klicken, um in Erfahrung zu bringen, welche Informationen er enthält. In dieser Übung enthält jeder Infoserver nur eine Information namens \c;"Direction"\n;, aber ein Infoserver kann bis zu 10 verschiedene Werte aufnehmen, wie Sie in den nächsten Übungen noch sehen werden.
+
+\t;Siehe auch
+Die \l;CBOT-Sprache\u cbot;, die \l;Variablentypen\u cbot\type; und die \l;Kategorien\u cbot\category;.

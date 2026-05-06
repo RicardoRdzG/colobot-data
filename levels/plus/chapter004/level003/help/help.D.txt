@@ -1,0 +1,9 @@
+\b;Vom Kontrollzentrum
+Wir haben gerade eine Warnung von unserem Beobachtungssatelliten erhalten: ein defekter Roboter von der vorhergehenden Expedition hat den Flugschreiber Ihres Raumschiffes entwendet.
+ 
+Wir werden diesen Zwischenfall untersuchen, für Sie ist es jedenfalls lebenswichtig, dass Sie in der Zwischenzeit Ihren Flugschreiber wiederfinden.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

@@ -1,0 +1,7 @@
+\b;Végigjátszás
+Ha a robotod hirtelen felrobban, az azt jelenti, hogy túl gyakran ütköztél az acélszerkezeteknek. Repülj lassabban, így nem sérül meg, ha akadálynak ütközöl.
+
+Ha nem tudsz felszállni a gyakorlat végén, az azt jelenti, hogy nem semmisítetted meg az összes célt. Menj még egy kört, és nézd meg, maradt-e robbanószerkezet vagy kereszt az acélszerkezetek közepén.
+
+\t;Lásd még
+\l;Irányítás\u command;

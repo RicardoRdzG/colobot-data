@@ -1,0 +1,20 @@
+\b;Instrucción \c;flag\n;
+Sintaxis:
+\s;\c;flag (color);\n;
+
+Planta una \l;bandera de color\u object\flag; delante del \l;rastreador\u object\botsr;.
+
+\t;color: \c;\l;int\u cbot\int;\n; (valor predeterminado: \c;Blue\n; ( Azul ))
+\c;Blue\n;(Azul)
+\c;Red\n;(Rojo)
+\c;Green\n;(Verde)
+\c;Yellow\n;(Amarillo)
+\c;Violet\n;(Violeta)
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Normalmente un error detiene el programa. Puedes evitar que el programa se detenga en errores usando la instrucción \c;\l;errmode\u cbot\errmode;(0)\n;. Se devuelve un valor diferente de cero si ocurrió un error. Se devuelve por \c;flag();\n;.
+\c;== 0 \n;se plantó una bandera
+\c;!= 0 \n;no se pudo plantar una bandera
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

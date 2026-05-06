@@ -1,0 +1,30 @@
+\b;Valor \c;Nombres de investigación\n;
+Los nombres de investigación representan los tipos de investigaciones disponibles en el lenguaje CBOT. Puedes utilizarlos para controlar el \l;centro de investigación (ResearchCenter)\u object\research; pasándolos a las instrucciones adecuadas (por ejemplo, \l;research (investigación)\u cbot\research;, \l;canresearch ( puede investigar )\u cbot\canresearch;, \l;researched (investigado )\u cbot\researched;).
+
+En un programa, los nombres de las investigaciones siempre se muestran sobre un \const;fondo rojo\norm;. Si el nombre de una investigación no aparece resaltado en rojo, significa que está mal escrito. Las mayúsculas y minúsculas deben mantenerse tal cual.
+
+A continuación se muestran los diferentes nombres de investigación disponibles.
+
+\t;Realizado por \l;centro de investigación ( ResearchCenter )\u object\research;:
+\c;\const;ResearchTracked\norm;       \n;Bots con orugas (p. ej. \l;sujetador con orugas\u object\botgc;)
+\c;\const;ResearchWinged\norm;        \n;Bots alados (p. ej. \l;sujetador alado\u object\botgj;)
+\c;\const;ResearchShooter\norm;       \n;\l;Cañón de bola de fuego\u object\botfr;
+\c;\const;ResearchDefenseTower\norm;  \n;\l;Torre de defensa\u object\tower;
+\c;\const;ResearchNuclearPlant\norm;  \n;\l;Planta nuclear\u object\nuclear;
+\c;\const;ResearchThumper\norm;       \n;\l;Martillador\u object\bottump;
+\c;\const;ResearchShielder\norm;      \n;\l;Protector\u object\botshld;
+\c;\const;ResearchPhazerShooter\norm; \n;\l;Cañón Phazer\u object\botphaz;
+\c;\const;ResearchBuilder\norm;       \n;\l;Arma de neutrones\u object\botbr;
+
+\t;Realizado por \l;AutoLab\u object\labo;:
+\c;\const;ResearchTarget\norm;        \n;\l;Bot objetivo\u object\bottarg;
+\c;\const;ResearchLegged\norm;        \n;Bots con patas (p. ej. \l;con patas\u object\botgs;)
+\c;\const;ResearchOrgaShooter\norm;   \n;\l;Cañón de bola orgánico\u object\botor;
+
+\t;Imposible de investigar:
+\c;\const;ResearchSniffer\norm;       \n;\l;Rastreador\u object\botsr;
+\c;\const;ResearchSubber\norm;        \n;\l;Sumergible\u object\botsub;
+\c;\const;ResearchRecycler\norm;      \n;\l;Reciclador\u object\botrecy;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

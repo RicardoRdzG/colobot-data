@@ -1,0 +1,34 @@
+\b;Cvičení
+Odvezte \l;kostku titanu\u object\titan; na cílovou značku. Přesnou polohu titanu neznáte, ale prozradíme Vám polohu cílové značky: x=10 a y=-60.
+
+\b;Příkaz \c;goto\n;
+Létající roboti mohou létat přes překážky. Pokud na létajícím robotu zavoláte příkaz \c;\l;goto\u cbot\goto;\n;, robot při přesunu na delší vzdálenost na začátku automaticky vzlétne a na konci přistane.
+Tento příkaz navíc přijímá i druhý parametr, který není povinný: letovou výšku. Pokud příkaz zavoláte bez druhého parametru, letová výška se nastaví na výchozí hodnotu 10m.
+
+Tedy následující příkaz:
+\c;\s;goto(item.position);\n;
+
+Je totožný jako:
+\c;\s;goto(item.position, 10);\n;
+
+\b;Program
+Najdět kostku titanu pomocí příkazu \c;\l;radar\u cbot\radar;(Titanium);\n;. Pak zkontrolujte, jestli radar opravdu něco našel. V tomto cvičení je to sice zbytečné, protože předem víme, že tu někde titan je. Ale je lepší si pěstovat zvyk, že výstupy radaru je třeba kontrolovat:
+\c;
+\s;object  item;
+\s;item = radar(Titanium);
+\s;if ( item == null )  return;
+\s;goto(item.position);
+\n;
+Proměnná \c;item\n; je typu \c;\l;object\u cbot\object;\n;. Přesnou polohu objektu popsaného touto proměnnou získáte výrazem \c;item.position\n;.
+
+Pro zvednutí kostky titanu použijte příkaz \c;\l;grab\u cbot\grab;()\n; bez parametrů.
+
+Pro položení titanu použijte příkaz \c;\l;drop\u cbot\drop;()\n; bez parametrů.
+
+Známe polohu cílové značky: x=10; y=-60. Musíte deklarovat \l;proměnnou\u cbot\var; typu \l;point\u cbot\point; a tyto souřadnice do ní uložit. Pak můžete tuto proměnnou předat jako argument příkazu \c;\l;goto\u cbot\goto;\n;.
+Poznámka: Pokud robot neumí létat, nemusíte se starat o souřadnici \c;z\n;.
+
+Dopsat zbytek programu už je na Vás...
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

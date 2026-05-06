@@ -1,0 +1,9 @@
+\b;Zpráva z řídícího střediska
+Třetí \l;klíč\u object\key; (C) je zakopaný v oblasti zarostlé houbami. \l;Detektor\u object\botss; by ho měl snadno najít a \l;vrtná věž\u object\derrick; ho dokáže vykopat.
+
+Po dokončení mise naložte před odletem do rakety také \l;mobilní štít\u object\botshld; a \l;ponorku\u object\botsub;.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

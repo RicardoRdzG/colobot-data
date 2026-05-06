@@ -1,0 +1,26 @@
+\b;Cvičení
+Pošlete robota najít všechny \l;modré křížky\u object\waypoint; na zemi, ale nepřibližujte se k \l;minám\u object\mine;. Každý křížek zmizí, když přes něj robot přejede. Zde je obecný postup:
+
+	Opakovat stále dokola:
+	o  Najít minu
+	o  Pokud jste minu našli, vypočítat směr pryč od ní
+	o  Najít křížek
+	o  Pokud jste křížek nenašli, ukončit program
+	o  Vypočítat směr ke křížku
+	o  Vypočítat průměr obou směrů
+	o  Nastavit výkon motorů, aby robot vyrazil zprůměrovaným směrem
+
+\b;Příkaz \c;radar\n;
+Pro hledání min doporučujeme volat příkaz \c;\l;radar\u cbot\radar;\n; s následujícími parametry:
+\c;\s;	radar(Mine, 0, 180, 0, 5);\n;
+Při šířce zorného pole 180 stupňů si robot nebude všímat min, které jsou za ním. Stejně tak si nebude všímat min vzdálených více než 5 metrů.
+
+Pro hledání modrých křížků napište prostě:
+\c;\s;	radar(WayPoint);\n;
+Modré křížky budete hledat kdekoliv na mapě.
+
+Pro výpočet směrového úhlu použijte příkaz \c;\l;direction\u cbot\direct;\n;.
+Pro nastavení výkonu motorů použijte příkaz \c;\l;motor\u cbot\motor;\n;.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

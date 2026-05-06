@@ -1,0 +1,20 @@
+\b;Informe Satelital
+Actualmente en órbita geoestacionaria de Centaury.
+\c;
+\s;-> SUPERFICIE\c;
+\tab;Temperatura:      23.4C
+\tab;Atmósfera:       oxígeno, nitrógeno, amoníaco
+\tab;Viento:             1.2 mps
+\tab;Mineral de titanio:     algo
+\tab;Mineral de uranio:      algo
+
+\s;-> SUBSUELO\c;
+\tab;Fuente de energía:    ninguna
+\tab;Mineral de titanio:     ninguno
+\tab;Mineral de uranio:      ninguno
+
+\s;-> INFORMACIÓN ADICIONAL\c;
+\tab;Detectado:         hormigas gigantes
+\tab;  - Peligro:       no inmediato
+\tab;Detectado:         restos reutilizables
+\n;

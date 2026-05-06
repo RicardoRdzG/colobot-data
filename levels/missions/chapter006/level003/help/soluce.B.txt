@@ -1,0 +1,11 @@
+\b;Passo a passo
+1) Energize um \l;atirador com pernas\u object\botfs;. Existe até uma \l;célula nuclear\u object\atomic; deixada atrás da \l;fábrica de robôs\u object\factory;.
+
+2) Suba o penhasco ao norte e mate algumas \l;formigas\u object\ant;. O melhor acesso é a partir do leste.
+
+3) Continue até que todas as formigas estejam fora do caminho.
+
+4) Suba o penhasco ao norte com um \l;agarrador com pernas\u object\botgs; e recupere a \l;caixa preta\u object\bbox; que você encontrará na fábrica de robôs abandonada.
+
+\t;Veja também
+\l;Controles\u command;.

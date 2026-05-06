@@ -1,0 +1,56 @@
+\b;Exercice
+Détruire les six \l;cibles\u object\bottarg; avec un programme utilisant une boucle. Le robot doit avancer de 5m pour passer d'une cible à l'autre.
+
+\b;Idée générale
+Le programme doit suivre ce schéma général:
+Répéter 6 fois :
+	o  Avancer de 5 mètres
+	o  Rotation à gauche de 90°
+	o  tirer
+	o  Rotation à droite de 90°
+
+\image tfor1 14 5;
+\b;Instruction \c;for( )\n;
+Cette instruction \c;\l;for\u cbot\for;\n; demande trois valeurs :
+1) Initialisation de la variable servant pour compter.
+2) La \l;condition\u cbot\cond; de fin de boucle.
+3) L'\l;expression\u cbot\expr; de comptage.
+
+Voici la boucle une fois qu'elle est intégrée dans le cadre du programme :
+\s;\c;extern void object::massacre( )
+\s;{
+\s;	for ( int i=0 ; i<6 ; i=i+1 )
+\s;	{
+\s;		\n;//instructions répétées 6 fois...
+\s;	}
+\s;}\c;
+\n;
+ATTENTION: La ligne \c;for ( )\n; ne doit pas être suivie d'un \l;point-virgule\u cbot\term; !
+
+\b;Explication de l'instruction \c;for ( )\n;
+1) \c;int i=0\n;
+    La \l;variable\u cbot\var; i est créée et initialisée à zéro avant le début de la boucle.
+
+2) \c;i<6\n;
+    La boucle est exécutée tant que i est plus petit que 6.
+
+3) \c;i=i+1\n;   ou    \c;i+=1\n;    ou     \c;i++\n;   ou     \c;++i\n;
+     A la fin de chaque tour de boucle, ajouter 1 à la variable i. (les 4 formes précisées ici sont équivalentes)
+
+\b;Les blocs
+Utilisez des accolades \c;{ }\n; afin de définir un \l;bloc d'instructions\u cbot\bloc;. Toutes les instructions qui doivent être exécutées à chaque boucle \c;for\n; sont regroupées grâce au bloc. Tout programme est constitué d'un bloc :
+\c;
+\s;extern void object::massacre( )
+\s;{
+\s;	\n;// contenu du bloc fonction à compléter ...\c;
+\s;}
+\n;
+Ne modifiez pas ces caractères sans savoir au début, votre programme risque de ne plus compiler. Ajoutez juste les instructions du programme entre les accolades.Vous pouvez insérer plusieurs blocs les uns dans les autres. Par exemple, le bloc \c;for\n; est inséré dans le bloc du programme entier. Afin d'améliorer la lisibilité, l'éditeur aligne les accolades appartenant aux différents blocs.
+
+\b;Bien se rappeler :
+L'instruction utilisée pour avancer est \c;\l;move\u cbot\move;();\n; en précisant la distances en mètres.
+L'instruction utilisée pour tourner est \c;\l;turn\u cbot\turn;();\n;, en précisant l'angle en degré (positif ou négatif).
+L'instruction utilisée pour tirer avec le canon est \c;\l;fire\u cbot\fire;(1);\n;, en précisant une durée en secondes. Un tir d'une seconde suffit pour détruire les 6 \l;objectifs\u object\bottarg;.
+
+\t;Voir aussi
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.

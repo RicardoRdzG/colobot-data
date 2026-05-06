@@ -1,0 +1,12 @@
+\b;Schritt für Schritt
+1) Bauen Sie eine \l;Roboterfabrik\u object\factory;.
+2) Produzieren Sie einen \l;Jettransporter\u object\botgj;.
+3) Bewegen Sie einen \l;Titanwürfel\u object\titan; zum höchsten Punkt hinauf.
+4) Bauen Sie dort ein \l;Radar\u object\radar;.
+5) Errichten Sie ein \l;Forschungszentrum\u object\research; neben dem Raumschiff.
+6) Starten Sie das <Forschungsprogramm Geschützturm> \button 68;.
+7) Bauen Sie den \l;Geschützturm\u object\tower; neben das Radar, und rüsten Sie ihn mit einer \l;Batterie\u object\power; aus.
+8) Sobald alle Würmer zerstört sind, können Sie zu Ihrem Schiff zurückkehren und abheben.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

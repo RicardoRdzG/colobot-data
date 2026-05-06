@@ -1,0 +1,20 @@
+\b;Schritt für Schritt
+Sie werden einige nützliche Dinge in einem kleinen Tal im Nordosten finden.
+o  Einen \l;Recycler\u object\botrecy; der den ersten \l;Würfel aus metallischem Titan\u object\titan; herstellt.
+o  Einen \l;Krabbeltransporter\u object\botgs; der steile Hänge erklimmen kann.
+o  A nearly charged \l;nuclear power cell\u object\atomic;.
+
+1) Bestücken Sie den \l;Krabbeltransporter\u object\botgs; mit der \l;Brennstoffzelle\u object\fuelcell;, und transportieren Sie mit ihm einen \l;Titanwürfel\u object\titan; zum \l;Raumschiff\u object\base;. Wählen Sie den direkten Weg über die Berge.
+
+2) Bauen Sie einen \l;Titankonverter\u object\convert;. Führen Sie das Programm \c;CollectTitanium3\n; auf dem \l;Krabbeltransporter\u object\botgs; aus und Sie werden genügend Titan haben.
+
+3) Stoppen Sie das Programm und benutzen Sie den Transporter, um etwas \l;Platinerz\u object\platore; aus einem zweiten kleinen Tal im Osten zu sammeln. Benutzen Sie auch hier den direkten Weg über die Berge.
+
+4) Bauen Sie nun einen \l;Jetshooter\u object\botfj; und laden Sie ihn mit einer \l;Brennstoffzelle\u object\fuelcell;. Wenn Sie den Pass im Südosten durchqueren, kommen Sie sofort bei der Orgastoffquelle an. Vernichten Sie die Insekten und bringen Sie einen Klumpen \l;Orgastoff\u object\bullet; zum \l;Raumschiff\u object\base;.
+
+5) Errichten Sie ein \l;Autolab\u object\labo;, legen Sie den \l;Orgastoff\u object\bullet; auf die Plattform und klicken Sie auf die Schaltfläche \button 110;, um die Baupläne für eine Orgashooter-Kanone zu entwickeln.
+
+6) Bauen Sie einen \l;Krabbelorgashooter\u object\botos;, schaffen Sie ihn an Bord und heben Sie ab.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

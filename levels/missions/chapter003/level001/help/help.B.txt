@@ -1,0 +1,10 @@
+\b;Do Centro de Controle de Missões
+O satélite de observação detectou um novo tipo de explosivo aparentemente projetado pela expedição anterior. Você deve localizá-lo e trazê-lo de volta para sua \l;espaçonave\u object\base;.
+
+\b;Procedimento
+A localização do explosivo é marcada por uma cruz vermelha no seu mini mapa.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command;.

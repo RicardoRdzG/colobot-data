@@ -1,0 +1,9 @@
+\b;A küldetésirányításból
+Figyelmeztetést kaptunk a megfigyelő műholdtól: az előző expedíció egyik elszabadult robotja megszerezte az űrhajód feketedobozát.
+ 
+Tovább vizsgáljuk az esetet, de rendkívül fontos, hogy azonnal visszaszerezd a feketedobozt.
+
+A \key;\key help;\norm; segítségével bármikor újra megtekintheted ezeket az utasításokat a saját SatCom-odon \button 63;.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

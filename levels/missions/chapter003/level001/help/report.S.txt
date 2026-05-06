@@ -1,0 +1,21 @@
+\b;Informe Satelital
+Actualmente en órbita geoestacionaria de Trópica.
+\c;
+\s;-> SUPERFICIE\c;
+\tab;Temperatura:      32.4C
+\tab;Atmósfera:       helio, oxígeno
+\tab;Viento:           1.2 mps
+\tab;Mineral de titanio: ninguno
+\tab;Mineral de uranio:  ninguno
+
+\s;-> SUBSUELO\c;
+\tab;Fuente de energía:  ninguna
+\tab;Mineral de titanio: ninguno
+\tab;Mineral de uranio:  ninguno
+
+\s;-> INFORMACIÓN ADICIONAL\c;
+\tab;Detectado:       explosivo
+\tab;  - Tipo:         desconocido
+\tab;Detectado:       organismos no identificados
+\tab;  - Peligro:      ?
+\n;

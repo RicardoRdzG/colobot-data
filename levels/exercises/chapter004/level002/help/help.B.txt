@@ -1,0 +1,57 @@
+\b;Exercício
+Deixe o robô encontrar todos as \l;cruzes azuis\u object\waypoint; no chão. Assim que o robô passar por cima de uma das cruzes, ela desaparecerá. Aqui está o princípio geral que você aplicará:
+
+Repita para sempre:
+	o  Procure uma cruz
+	o  Se não houver nenhum, pare o programa.
+	o  Calcule a direção da cruz.
+	o  Defina a velocidade dos motores de tal forma que eles encontrem seu caminho para a cruz.
+
+\b;O programa
+Use um laço \c;\l;while\u cbot\while;\n; para repetir várias instruções várias vezes:
+\s;\c;while ( true )
+\s;{
+\s;	\n;instruções...\c;
+\s;}
+\n;
+A instrução \c;\l;radar\u cbot\radar;\n; irá detectar as cruzes azuis e colocar sua descrição em uma variável, por exemplo \c;local\n;. Neste caso, \c;\l;radar\u cbot\radar;()\n; precisa de apenas um parâmetro, ou seja, a categoria do objeto que ele deve procurar:
+\s;\c;local = radar(WayPoint);
+\n;
+Uma vez que todas as cruzes tenham sido encontradas, \c;radar\n; retornará o valor \c;\l;null\u cbot\null;\n;. Você terá que testar este caso e reagir de acordo com a instrução \c;\l;if\u cbot\if;\n;:
+\s;\c;if ( local == null )  // acabou?
+\s;{
+\s;	motor(0, 0);  // para os motores
+\s;	break;        // para o laço
+\s;}
+\n; A instrução \c;\l;break\u cbot\break;\n; irá parar o laço infinito  \c;while (true)\n;.
+
+Use a instrução \c;\l;direction\u cbot\direct;()\n; para calcular o ângulo da rotação que o robô deve realizar para virar na direção da cruz azul. As coordenadas do objeto são dadas por \c;local.position\n;. A linha a seguir colocará o ângulo da rotação necessária na \l;variável\u cbot\var; \c;dir\n;:
+\s;\c;dir = direction(local.position);
+\n;
+O valor do ângulo é positivo se a cruz azul estiver na sua mão esquerda e negativa se estiver na sua mão direita. Se a cruz a ser alcançada estiver à sua esquerda, você deve ajustar o motor do lado direito para a velocidade máxima e ajustar o motor do lado esquerdo para uma velocidade menor, de acordo com o ângulo:
+
+     direção = \c; 0 \n; -> velocidade = \c; 1.0 \n; 
+     direção = \c; 45 \n; -> velocidade = \c; 0.5 \n; 
+     direção = \c; 90 \n; -> velocidade = \c; 0.0 \n; 
+     direção = \c; 135 \n; -> velocidade = \c; -0.5 \n; 
+     direção = \c; 180 \n; -> velocidade = \c; -1.0 \n;
+
+O gráfico abaixo mostra a velocidade do motor do lado esquerdo e do lado direito, conforme definido pela instrução \c;\l;motor\u cbot\motor;\n;, de acordo com o ângulo:
+
+\image radar2 14 10;
+Se a cruz estiver em frente, o ângulo é 0 graus. Os motores terão as velocidades 1 e 1, o que significa velocidade total à frente. Se a cruz estiver atrás, o motor direito será ajustado para a velocidade -1: ele girará. Você pode usar a \l;expressão\u cbot\expr; \c;1+dir/90\n; para calcular a velocidade necessária dos motores:
+\s;\c;if ( dir < 0 )  // no lado direito?
+\s;{
+\s;	motor(1, 1+dir/90);  // gira mais ou menos
+\s;}
+\n;
+Use o mesmo princípio se o ângulo tiver um valor positivo, variando entre 0 e 180 graus. Cabe a você descobrir as instruções exatas a serem executadas:
+\s;\c;else  // no lado esquerdo?
+\s;{
+\s;	\n;cabe a você preencher aqui...\c;
+\s;}
+\n;
+No início do programa, você ainda deve declarar todas as variáveis. \c;local\n; é do tipo \c; <code>\l;object\u cbot\object;\n;, enquanto \c;dir\n; é do tipo \c;\l;float\u cbot\float;\n;.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

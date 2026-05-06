@@ -1,0 +1,7 @@
+\b;Schritt für Schritt
+Wenn Sie den Roboter verlieren, wird er den Flugschreiber irgendwo südwestlich von Ihrem Raumschiff ablegen. Dieser Ort ist umgeben von Kristallen.
+
+Falls die Energie nicht ausreicht, um den Flugschreiber zurückzubringen, benutzen Sie den zweiten Transporter, der sich noch auf dem Raumschiff befindet.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

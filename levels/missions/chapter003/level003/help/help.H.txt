@@ -1,0 +1,16 @@
+\b;A Küldetésirányítástól
+Semmisíts meg minden ellenséges élőlényt.
+Hajtsd végre a szükséges \l;kutatási programot\u object\research; egy támadó fegyverrendszer kifejlesztéséhez.
+
+A műhold energiaforrást észlelt egy olyan helyen, amelyet az előző expedíció kék zászlóval jelölt meg (kék kereszt a mini-térképen).
+
+Ne felejts el belenézni a műholdjelentésbe \button 186;, mielőtt továbbhaladsz a küldetésben; gyanítjuk, hogy ezt nem mindig tetted meg.
+
+Fejlesztettük a töltési programot. Kérlek, nézd meg az \button 53; oldalt.
+
+Figyelmeztetés: a robotok nem tudnak víz alá merülni. Ha bizonytalan vagy, próbáld ki a vizet magad, mielőtt egy szárny nélküli robotot küldenél át – a víz nem lehet térdnél mélyebb.
+
+A \key;\key help;\norm; segítségével bármikor újra megtekintheted ezeket az utasításokat a saját SatCom készülékeden \button 63;.
+
+\t;Lásd még
+\l;Vezérlés\u command; és \l;CBOT nyelv\u cbot;

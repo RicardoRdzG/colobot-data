@@ -1,0 +1,18 @@
+\b;Az irányítóközpontból
+Reméljük, hogy ez az üzenet eljut hozzád.
+
+Egy néhány órával ezelőtti műholdas adás arról tájékoztatott minket, hogy ijesztően koordinálatlanul bolyongsz. A SatCom-od megszűnt sugározni. Úgy tűnik, a reaktorod megsérült, és a sisakodat egy tó alján látták. Ha ez igaz, ne próbáld meg visszaszerezni, ne menj a vízbe! A Tropica vize rendkívül mérgező. Nem élnéd túl.
+
+Térj vissza az űrhajódhoz a lehető leggyorsabban, és próbálj információt küldeni a katasztrófa lehetséges okairól. A műhold adatai értelmezhetetlenek. Az első expedíció eltűnése óta egy X-tényezőről spekulálunk. Úgy tűnik, most te is találkoztál vele.
+
+Sajnos nem tudunk igazán segíteni neked, de ne feledd, hogy egy korábbi expedíció nyomában jársz. Ha ugyanaz történt veled, mint velük, lehet, hogy hátrahagytak nyomokat az útjuk során, hogy visszataláljanak az űrhajójukhoz, amely körülbelül ugyanott landolt, mint a tiéd. Használd ezeket a nyomokat.
+
+Érdemes lehet zászlókat is elhelyezned. Megmutatják a szél irányát, így tájékozódhatsz velük.
+
+Egyelőre ennyit tudunk mondani...
+Sok szerencsét...
+
+\key;\key help;\norm; megnyomásával bármikor újraolvashatod ezeket az utasításokat a saját SatCom készülékeden \button 63;.
+
+\t;Lásd még
+\l;Irányítás\u command;

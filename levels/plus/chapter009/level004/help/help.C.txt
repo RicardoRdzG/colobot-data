@@ -1,0 +1,13 @@
+\b;Zpráva z řídícího střediska
+Díky čtvrtému \l;klíči\u object\key; (D), který se nachází poblíž, budete konečně moci otevřít \l;trezor\u object\safe;. Převratného robota ukrytého uvnitř jsme nazvali "\l;fázové dělo\u object\botphaz;."
+
+V příloze najdete program umožňující spolupráci \l;fázového děla\u object\botphaz; a \l;mobilního štítu\u object\botshld;.
+
+Hned budete mít i příležitost vyzkoušet svou novou zbraň. Vaší poslední misí je zlikvidovat \l;královnu vetřelců\u object\mother;, která klade vejce a je tedy příčinou rostoucího množství hmyzu na Terranově. Fázové dělo je možná jediná zbraň schopná tento úkol splnit.
+
+Kolonizaci této skvostné planety lidmi pak už nebude nic bránit a brzy budete moci Zemi oznámit úspěch své mise.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

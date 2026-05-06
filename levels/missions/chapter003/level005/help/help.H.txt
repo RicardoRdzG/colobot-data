@@ -1,0 +1,9 @@
+\b;A Küldetésirányító Központtól
+Keress meg és hozz vissza egy újabb \l;fekete dobozt\u object\bbox; az előző expedícióból.
+
+Úgy tűnik, a megfigyelő műhold észlelte a víz alatt. A víz nem árt neked, amíg viseled a sisakodat, de ne feledd, hogy a víz alatt nem tudsz tárgyakat szállítani. Egy \l;búvárrobot\u object\botsub; hasznos lehet.
+
+\key;\key help;\norm; segítségével bármikor újra megtekintheted ezeket az utasításokat a személyes SatCom-odon \button 63;.
+
+\t;Lásd még
+\l;Irányítás\u command; és \l;CBOT nyelv\u cbot;

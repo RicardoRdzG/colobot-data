@@ -1,0 +1,11 @@
+\b;A Misszióirányítástól
+Gratulálunk a szokásos remek munkádhoz.
+
+Ez az új fegyver úgy tűnik, hogy egy újabb praktikus alkalmazása annak, amit mi "zöld aranynak" hívunk, az \l;organikus anyag\u object\bullet;, amelyet a rovarok termelnek. Ezt a robotot \l;Orgashooter\u object\botoj;-nek vagy orgaball ágyús robottá nevezhettük el.
+
+Biztosan hasznos lesz, miközben visszajutsz a \l;űrhajódhoz\u object\base;.
+
+\key;\key help;\norm; lehetővé teszi, hogy bármikor áttekintsd ezeket az utasításokat a személyes SatCom-on \button 63;.
+
+\t;Lásd még
+\l;Vezérlés\u command; és \l;CBOT Nyelv\u cbot;

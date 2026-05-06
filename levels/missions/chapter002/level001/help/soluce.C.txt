@@ -1,0 +1,15 @@
+\b;Návod
+Pro stavbu \l;výzkumné stanice\u object\research; položte \l;kostku titanu\u object\titan; na rovný terén nedaleko rakety. Titan můžete odnést \l;sami\u object\human; nebo využít \l;robotické rameno\u object\botgr;.
+
+Pokud jste využili robota, popojeďte s ním stranou, aby nepřekážel při stavbě. Pro přepnutí z robota na sebe (pamatujte, že pouze Vy můžete stavět) stiskněte klávesu \key;\key human;\norm;.
+
+Stoupněte si ke \l;kostce titanu\u object\titan; a postavte \l;výzkumnou stanici\u object\research; \button 163;. Vložte \l;baterii\u object\power; do \l;výzkumné stanice\u object\research;, vyberte stanici a klikněte na tlačítko \button 65;, abyste spustili výzkum létajících robotů.
+
+Stejným způsobem postavte \l;továrnu na roboty\u object\factory; a dovnitř položte \l;kostku titanu\u object\titan;. Vyrobte \l;létající rameno\u object\botgj; tlačítkem \button 139; a vložte mu do zdířky \l;baterii\u object\power;.
+
+Okolí můžete prozkoumat raději sami, abyste šetřili baterie. Hromádky titanové rudy najdete na dně několika kráterů na sever od rakety. Můžete si je označit \l;vlajkou\u object\flag;, abyste je pak rychleji znovu našli.
+
+Nasbírejte 4 hroudy \l;titanové rudy\u object\titanore; a přivezte je na palubu \l;rakety\u object\base;. Nastupte spolu s \l;létajícím ramenem\u object\botgj; a \l;pojízdným ramenem\u object\botgr; do rakety a odleťte \button 28;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

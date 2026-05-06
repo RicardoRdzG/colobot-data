@@ -1,0 +1,11 @@
+\b;Vom Kontrollzentrum
+Vernichten Sie alle feindlichen Lebensformen in der Umgebung.
+
+Ihre derzeitige Situation ist besorgniserregend. Der Satellit hat eine große Menge an feindlichen Lebensformen ausgemacht, die sich aus allen Richtungen auf Ihr Raumschiff zu bewegen. Schätzen Sie die Lage gut ein und nutzen Sie die schnellste und effizienteste Verteidigung: entweder \l;Geschütztürme\u object\tower; oder \l;Shooter\u object\botfr;.
+
+Um Ihre Überlebenschancen zu erhöhen, haben wir ein Programm entwickelt, das Ihre westliche Flanke schützen soll, wenn Sie es auf Ihrem \l;Radshooter\u object\botfr; ausführen; siehe Programmseite \button 53;.
+
+Mit \key;\key help;\norm; können Sie diese Anweisungen zu jeder Zeit noch einmal auf Ihrem SatCom \button 63; einsehen.
+
+\t;Siehe auch
+Die \l;Steuerung\u command; und die \l;CBOT-Sprache\u cbot;

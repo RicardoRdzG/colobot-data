@@ -1,0 +1,11 @@
+\b;Ejercicio
+Destruye los cuatro \l;objetivos\u object\bottarg; con un programa usando un bucle \c;for\n;. Debes moverte 10m para pasar de un objetivo a otro.
+
+\b;Instrucciones útiles
+\c;\l;for\u cbot\for;\n; bucle para repetir las instrucciones
+\c;\l;move\u cbot\move;\n; para mover el bot
+\c;\l;turn\u cbot\turn;\n; para girar el bot
+\c;\l;fire\u cbot\fire;\n; para disparar el cañón
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

@@ -1,0 +1,15 @@
+\b;Műholdjelentés
+Jelenleg geostacionárius pályán a Hold körül.
+\c;
+\s;-> Felszín\c;
+\tab;Hőmérséklet:      -58.9C
+\tab;Légkör:           nincs
+\tab;Szél:             0.0 m/s
+\tab;Titanit érc:     nincs
+\tab;Urán érc:        nincs
+
+\s;-> Alapkőzet\c;
+\tab;Energiaforrás:    nincs
+\tab;Titanit érc:     nincs
+\tab;Urán érc:        nincs
+\n;

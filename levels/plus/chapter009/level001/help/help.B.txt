@@ -1,0 +1,15 @@
+\b;Do Centro de Controle de Missões
+Acabamos de receber informações de que a primeira expedição projetou uma nova arma para ser usada em Terranova. Ela foi armazenada com segurança longe de um possível alcance inimigo, dentro de um \l;cofre\u object\safe;, que pode ser acessado somente com o uso de quatro \l;chaves\u object\key;. As chaves estão espalhadas sobre ou sob a superfície do planeta.
+
+O satélite de observação localizou uma dessas chaves (A) ao norte da sua posição atual.
+
+Em conformidade com as diretrizes do Congresso, nossos engenheiros desenvolveram outro robô estritamente "defensivo": ele é chamado de \l;defensor\u object\botshld; e oferecerá proteção adequada dentro de um dado perímetro. Os dados foram transmitidos para o seu \l;centro de pesquisa\u object\research;, juntamente com alguns programas relevantes.
+
+Como você deve saber, o minério de urânio no subsolo é um fertilizante poderoso, promovendo o crescimento de uma variedade de cogumelos. Observe também que os \l;minérios de titânio\u object\titanore; estão frequentemente localizados no fundo dos lagos deste planeta.
+
+Quando sua missão estiver concluída e antes de decolar, traga tanto um \l;defensor\u object\botshld; quanto um \l;mergulhador\u object\botsub; a bordo de sua espaçonave.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

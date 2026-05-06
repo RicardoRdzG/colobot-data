@@ -1,0 +1,61 @@
+\b;Programas enviados por Houston
+Como necesitarás mucho titanio para esta misión, hemos hecho el programa \c;CollectTitanium\n; aún más eficiente. Recoge toda una serie de cubos de titanio en una superficie libre, para que puedas dejarlo trabajar solo. También se recarga en la \l;estación de energía\u object\station; si es necesario.
+\c;
+\s;extern void object::CollectTitanium3()
+\s;{
+\s;	// 1) Definición de variables.
+\s;	\l;object\u cbot\type;  item;            // información sobre objetos
+\s;	
+\s;	\l;while\u cbot\while; (true)             // repetir siempre
+\s;	{
+\s;		
+\s;		// 2) Ir al mineral de titanio y agarrarlo.
+\s;		item = \l;radar\u cbot\radar;(\l;TitaniumOre\u cbot\category;);// buscar titanio
+\s;		\l;goto\u cbot\goto;(item.position);     // ir a la posición
+\s;		\l;grab\u cbot\grab;();                  // agarrar el titanio
+\s;		
+\s;		// 3) Ir al convertidor y soltarlo.
+\s;		item = \l;radar\u cbot\radar;(\l;Converter\u cbot\category;); // buscar convertidor
+\s;		\l;goto\u cbot\goto;(item.position);     // ir a la posición
+\s;		\l;drop\u cbot\drop;();                  // soltar el titanio
+\s;		\l;move\u cbot\move;(-2.5);              // retroceder 2.5 m
+\s;		
+\s;		// 4) Esperar hasta que el titanio se convierta y agarrarlo
+\s;		\l;do\u cbot\do;
+\s;		{
+\s;			\l;wait\u cbot\wait;(1);              // esperar el cubo
+\s;			item = \l;radar\u cbot\radar;(\l;Titanium\u cbot\category;, 0, 45, 0, 5);
+\s;		}
+\s;		\l;while\u cbot\while; ( item == null );
+\s;		\l;goto\u cbot\goto;(item.position);
+\s;		\l;grab\u cbot\grab;();                   // agarrarlo
+\s;		
+\s;		// 5) Soltar en un espacio libre
+\s;		\l;goto\u cbot\goto;(\l;space\u cbot\space;(position));    // ir a espacio libre
+\s;		\l;drop\u cbot\drop;();                   // soltar titanio
+\s;		
+\s;		// 6) Si la celda está medio vacía, recarga.
+\s;		\l;if\u cbot\if; ( energyCell.energyLevel < 0.5 )
+\s;		{                         // si es así:
+\s;			item = \l;radar\u cbot\radar;(\l;PowerStation\u cbot\category;);
+\s;			\l;if\u cbot\if; ( item != null )   // ¿estación encontrada?
+\s;			{
+\s;				\l;goto\u cbot\goto;(item.position); // ir allí
+\s;				\l;while\u cbot\while; ( energyCell.energyLevel < 1 )
+\s;				{                 // hasta recargar:
+\s;					\l;wait\u cbot\wait;(1);      // esperar
+\s;				}
+\s;			}
+\s;		}
+\s;	}
+\s;}
+\n;
+\b;Archivos
+Índice de los programas enviados en misiones anteriores:
+
+o  \c;\l;MatarHormiga1\u programs/6_KillAnt1;\n;
+o  \c;\l;RecolectarTitanio2\u programs/5_CollectTitanium2;\n;
+o  \c;\l;RecolectarTitanio1\u programs/4_CollectTitanium1;\n;
+o  \c;\l;Recargar2\u programs/3_Recharge2;\n;
+o  \c;\l;Recargar1\u programs/2_Recharge1;\n;
+o  \c;\l;CambiarCelda1\u programs/1_SwitchCell1;\n;

@@ -1,0 +1,31 @@
+\b;Instrucción \c;fire\n; ( disparar )
+La instrucción \c;fire();\n; dispara el cañón integrado del bot.
+
+\b;Uso básico
+Por lo general, esta instrucción se utiliza para disparar ráfagas de un segundo:
+\c;
+\s;	fire(1);
+\n;
+\b;Para especialistas
+Sintaxis:
+\s;\c;fire ( tiempo );\n;
+
+Dispara el arma con una ráfaga que dura un tiempo determinado. Cuanto más larga sea la ráfaga, más energía necesitará. Esta instrucción se puede utilizar con los siguientes tipos de bots: 
+o  \l;Disparador\u object\botfr;
+o  \l;Disparador orgánico\u object\botor;
+o  \l;Disparador phazer\u object\botphaz;
+
+Al controlar el robot a través de la programación, la única forma de girar el arma a la izquierda o a la derecha es girar todo el robot con la instrucción \c;\l;turn\u cbot\turn;\n;.
+
+Para mover el arma hacia arriba o hacia abajo, utiliza la instrucción \c;\l;aim\u cbot\aim;\n;.
+
+\t;tiempo: \c;\l;float\u cbot\float;\n;
+Duración de la ráfaga. Por lo general, el valor indicado es 1. También se pueden realizar ráfagas más cortas para ahorrar tiempo y energía.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Cero si todo está bien, o un valor diferente de cero si ocurrió un error.
+\c;== 0 \n;el cañón se ha disparado
+\c;!= 0 \n;error, el cañón no pudo ser dispararo
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

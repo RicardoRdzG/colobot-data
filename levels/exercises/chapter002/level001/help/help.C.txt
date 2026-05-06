@@ -1,0 +1,16 @@
+\b;Úkol
+Ze severu se blíží roj obřích mravenců. Otáčejte robotem během palby, abyste je všechny pokropili.
+
+\t;Program
+Když robota ovládáte ručně, můžete během palby otáčet kanónem, abyste pokropili větší oblast. Totéž můžete udělat i v programu, ale v tom případě musíte otáčet celého robota příkazem \c;\l;motor\u cbot\motor;( , )\n;. Tento příkaz vyžaduje dvě čísla: rychlost levého motoru a rychlost pravého motoru. Obě čísla musejí být v rozsahu -1 až +1. \c;motor(1,1);\n; rozjede robota kupředu plnou rychlostí (oba motory na plný výkon). \c;motor(-1,-1);\n; rozjede robota vzad plnou rychlostí. \c;motor(1,0.9);\n; rozjede robota vpřed a bude mírně točit doprava: levý motor běží trochu rychleji než pravý. A \c;motor(1,-1);\n; bude robota otáčet na místě po směru hodinových ručiček: levý motor běží vpřed, pravý motor vzad.
+
+Po příkazu \l;motor\u cbot\motor; poběží motory dál danou rychlostí až do dalšího zavolání příkazu \c;motor\n;, \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n; nebo \c;\l;goto\u cbot\goto;\n;. Například pokud robota začnete otáčet příkazem \c;motor(1,-1);\n;, a pak začnete střílet příkazem \c;fire(1);\n;, robot se bude otáčet dál během palby a pokropí celé okolí.
+
+Mravenci útočí ze severu. Abyste pokropili celou oblast na sever od robota, nejprve se otočte o 90 stupňů vlevo příkazem \c;turn(90);\n; a pak cyklem \c;\l;while\u cbot\while; (true)\n; opakujte následující příkazy:
+o  začněte otáčet po směru hodinových ručiček příkazem \c; motor(1,-1);\n;
+o  vystřelte dvousekundovou dávku příkazem \c;fire(2);\n;
+o  začněte otáčet proti směru hodinových ručiček příkazem \c; motor(-1,1);\n;
+o  vystřelte další dvousekundovou dávku.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

@@ -1,1 +1,8 @@
 Title.E text="Classes" resume="Classes"
+Title.C text="Třídy" resume="Třídy"
+Title.D text="Klassen" resume="Klassen"
+Title.S text="Clases" resume="Clases"
+Title.F text="Classes" resume="Classes"
+Title.P text="Klasy" resume="Klasy"
+Title.B text="Classes" resume="Classes"
+Title.R text="Классы" resume="Классы"

@@ -1,0 +1,13 @@
+\b;Schritt für Schritt
+1) Westlich von Ihrer momentanen Position, in der Nähe der blauen Markierung (dem blauen Kreuz auf der Mini-Karte) befindet sich ein \l;Titanwürfel\u object\titan;. Sie müssen den Würfel nicht bewegen. Errichten Sie einfach genau dort ein \l;Kraftwerk\u object\station;.
+
+2) Bauen Sie ein \l;Forschungszentrum\u object\research; mit dem Titanwürfel auf dem Schiff und führen Sie das <Forschungsprogramm Shooterkanone> \button 67; aus.
+
+3) Bauen Sie eine \l;Roboterfabrik\u object\factory; und einen \l;Jetshooter\u object\botfj;. Falls dieser Roboter durch Feindbeschuss zerstört wird, finden Sie zusätzliche \l;Titanwürfel\u object\titan; in einem kleinen nebligen Tal nordwestlich ihres Raumschiffes. Sie können sie mit Hilfe des \l;Jettransporters\u object\botgj;\n; zur Fabrik transportieren.
+
+4) Bauen Sie eine \l;Radarstation\u object\radar;, um auf der Mini-Karte zu sehen, wo sich die Ameisen befinden, und lassen Sie die Jagd beginnen. Achten Sie darauf, dass Ihnen die Energie nicht ausgeht und dass Sie das Triebwerk eines Roboters nicht überhitzen, wenn er über dem Wasser fliegt. Wenn ein Roboter in tiefes Wasser fällt, explodiert er sofort.
+
+5) Haben Sie alle Ameisen getötet, gehen Sie an Bord und heben ab.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

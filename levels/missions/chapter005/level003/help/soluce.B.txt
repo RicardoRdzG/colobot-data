@@ -1,0 +1,9 @@
+\b;Passo a passo
+Você deve construir um \l;radar\u object\radar; primeiro.
+
+As \l;formigas\u object\ant; parecem estar fugindo de você. Tente circular em torno de cada uma delas até que elas se encontrem presas entre você e uma \l;mina\u object\mine;. Eles vão optar pela mina e se explodir.
+
+Em seguida, traga a \l;caixa preta\u object\bbox; a bordo da sua nave. Está ao lado da nave espacial abandonada.
+
+\t;Veja também
+\l;Controles\u command;.

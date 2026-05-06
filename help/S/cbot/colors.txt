@@ -1,0 +1,28 @@
+\b;Valor \c;Colors\n;
+Los nombres de colores se utilizan para definir un color específico que se va a utilizar. Se pueden pasar a funciones como \l;pendown\u cbot\pendown; o \l;pencolor\u cbot\pencolor;.
+
+En un programa, los colores siempre se muestran en un \const;fondo rojo\norm;. Si un color no aparece resaltado en rojo, está mal escrito. Las mayúsculas y minúsculas deben mantenerse tal como están.
+
+A continuación se muestran los diferentes colores disponibles:
+
+\c;\const;White\norm;\n;(Blanco)
+\c;\const;Black\norm;\n;(Negro)
+\c;\const;Gray\norm;\n;(Gris)
+\c;\const;LightGray\norm;\n;(Gris Claro)
+\c;\const;Red\norm;\n;(Rojo)
+\c;\const;Pink\norm;\n;(Rosa)
+\c;\const;Purple\norm;\n;(Purpura)
+\c;\const;Orange\norm;\n;(Naranja)
+\c;\const;Yellow\norm;\n;(Amarillo)
+\c;\const;Beige\norm;\n;
+\c;\const;Brown\norm;\n;(Marrón)
+\c;\const;Skin\norm;\n;(Piel)
+\c;\const;Green\norm;\n;(Verde)
+\c;\const;LightGreen\norm;\n;(Verde Claro)
+\c;\const;Blue\norm;\n;(Azul)
+\c;\const;LightBlue\norm;\n;(Azul Claro)
+
+También puedes dibujar símbolos de colores:
+
+\c;\const;BlackArrow\norm;\n; (Flecha negra)
+\c;\const;RedArrow\norm;\n; (Flecha roja)

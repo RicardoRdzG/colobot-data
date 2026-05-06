@@ -1,0 +1,17 @@
+\b;Zpráva z řídícího střediska
+Předchozí výprava nám poskytla několik informací o jakési \l;organické hmotě\u object\bullet;, kterou zřejmě produkují \l;mravenci\u object\ant; a která otevírá nové nečekané možnosti. Podle všeho umožňuje výrobu nových výkonnějších robotů s organickými částmi.
+
+Vaším úkolem je provést experiment s prvním praktickým využitím tohoto "zeleného zlata." Vyrobte \l;chodící rameno\u object\botgs;, naložte ho do rakety a odleťte.
+
+\b;Postup
+Získejte vzorek organické hmoty z hnízda obřích mravenců. \l;Laboratoř\u object\labo; pak provede jeho analýzu včetně výzkumu nezbytného pro praktické využití.
+
+Abychom zlepšili Vaši obranyschopnost, poslali jsme Vám program pro \l;robotická ramena\u object\botgr;, který se postará o dobíjení baterií \l;obranných věží\u object\tower; (viz \button 53;).
+
+\b;Poznámka
+Teplota značně klesla, mělo by tedy být možné opět létat.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command; a \l;jazyk CBOT\u cbot;

@@ -1,0 +1,33 @@
+\b;Úkol
+Na obranu proti mravencům útočícím ze všech stran upravte program \c;Pavouk2\n;, aby létal v zadané výšce.
+
+\t;Program
+Program vhodný pro tento úkol je z části podobný jako \c;Pavouk2\n;, který najde nejbližšího mravence, otočí se k němu a vystřelí:
+\c;
+\s;extern void object::Pavouk2()
+\s;{	
+\s;	object    item;
+\s;	
+\s;	while (true)
+\s;	{
+\s;		item = radar(AlienSpider);
+\s;		turn(direction(item.position));
+\s;		fire(1);
+\s;	}
+\s;}
+\n;
+Můžete si ho zkopírovat do editoru a upravit ho. Přepište \c;radar(AlienSpider);\n; na \c;radar(AlienAnt);\n; a před cyklus \c;while\n; přidejte další cyklus, který zapne tryskový motor \l;létajícího kanónu\u object\botfj;, dokud robot nevystoupá do výšky 20 metrů.
+
+Příkaz \c;\l;jet\u cbot\jet;()\n; ovládá tryskový motor létajících robotů. Číslo v závorkách musí být v rozsahu \c;-1\n; až \c;+1\n;. \c;jet(1);\n; přikazuje robotovi plnou rychlostí stoupat. \c;jet(-1);\n; přikazuje robotovi padat volným pádem a \c;jet(0);\n; znamená udržovat aktuální výšku. Protože chcete robota poslat do přesné výšky, nechte ho stoupat pomalu příkazem \c;jet(0.2);\n;, počkejte na dosažení zadané výšky, a pak zastavte stoupání příkazem \c;jet(0);\n;.
+
+Abyste "počkali na dosažení zadané výšky," budete potřebovat podmíněný cyklus: příkazy uvnitř cyklu se budou opakovat pouze dokud platí určitá podmínka. Nadmořskou výšku robota udává výraz \c;position.z\n;. Už jsme probírali, že výraz \c;position\n; udává polohu robota. A poloha se skládá ze tří složek: x, y, z. Osa X leží ve směru západ-východ, osa Y leží ve směru jih-sever a Z je svislá osa. Tedy musíme čekat, dokud \c;position.z\n; je menší než 20:
+\c;
+\s;	while (position.z < 20)
+\s;	{
+\s;		wait(0.2);
+\s;	}
+\n;
+Program počká 0,2 sekundy a znovu se podívá, jestli je výška stále menší než 20 metrů. Pokud ano, počká ještě chvíli. Pokud ne, ukončí cyklus, t.j. začne vykonávat příkazy za pravou složenou závorkou: \c;}\n;. Nezapomeňte po skončení cyklu zastavit stoupání příkazem \c;jet(0);\n;.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

@@ -1,0 +1,62 @@
+\b;Exercício
+Programe o robô para que ele encontre o caminho sem bater nas paredes do labirinto. Supomos que você não conheça a configuração do labirinto, mas não há bifurcações nem becos sem saída. O labirinto é feito de quadrados medindo 5m cada.
+
+\b;A instrução \c;radar\n;
+A instrução \c;\l;radar\u cbot\radar;(Barrier, 0, 45, 0, 5);\n;  encontrará qualquer \l;barreira\u object\barrier; na frente do radar que está mais perto do que 5m. Vamos dar uma olhada mais de perto nos cinco parâmetros usados:
+
+\s;\c;Barrier\n;
+\l;Categoria\u cbot\category; do objeto que o radar deve procurar, ou seja, uma barreira.
+
+\s;\c;0\n;
+Direção do radar. <code>0</ code> significa que o radar deve procurar diretamente a frente.
+
+\s;\c;45\n;
+Ângulo de abertura em graus. Com um ângulo de abertura de 45 graus, serão detectadas barreiras situadas entre 22,5 graus para a esquerda e 22,5 graus para a direita.
+
+\s;\c;0\n;
+Distância mínima de detecção <code> 0 </ code> significa que mesmo objetos muito próximos do robô serão detectados.
+
+\s;\c;5\n;
+Faixa máxima de detecção. Qualquer barreira situada além de \c;5\n; metros não será detectada.
+
+Para dar outro exemplo, \c;\l;radar\u cbot\radar;(Barrier, 90, 45, 0, 5);\n; direcionará o radar 90 graus para a esquerda, a fim de testar se o caminho para a esquerda está livre.
+
+\image tlaby1 10 10;
+\b;Princípio geral
+O programa deve cuidar apenas de uma parte quadrada do labirinto. Você terá que executá-lo várias vezes para chegar ao bloco de acabamento.
+o  Se não houver nada na frente, avance.
+o  Se não houver nada no lado esquerdo, vire à esquerda, avance.
+o  Se não houver nada do lado direito, vire à direita, avance.
+
+1) Primeiro de tudo, declare três \l;variáveis\u cbot\var; do tipo \c;\l;object\u cbot\object;\n;, que chamamos de \c;frente\n;, \c;esquerda\n; e \c;direita\n;. Variáveis desse tipo podem conter a descrição de qualquer objeto, por exemplo, de uma barreira encontrada pelo radar.
+\s;\c;	object   frente, esquerda, direita;\n;
+
+2) Procure barreiras nas três direções e coloque o resultado da instrução \c;radar\n; nas três variáveis definidas no ponto 1). Se o radar não encontrar nada, a variável conterá o valor \c;\l;null\u cbot\null;\n;.
+\s;\c;	frente = radar(Barrier,   0, 45, 0, 5);
+\s;	esquerda  = radar(Barrier,  90, 45, 0, 5);
+\s;	direita = radar(Barrier, -90, 45, 0, 5);
+\n;
+3) Teste se o caminho está livre na frente do robô com a instrução \c;\l;if\u cbot\if;\n;. Se o teste for verdadeiro, as instruções em chaves \c;{ }\n; serão executadas, caso contrário a execução será retomada após a chave de fechamento \c;}\n;.
+A instrução \c;return\n; sai do programa: o trabalho está feito.
+\s;\c;if ( frente == null )
+\s;{
+\s;	move(5);
+\s;	return;
+\s;}
+\n;
+4) Teste se é possível virar à esquerda; Se assim for, vire à esquerda com a instrução \c;\l;turn\u cbot\turn;\n; e mova 5m para a frente.
+\s;\c;if ( esquerda == null )
+\s;{
+\s;	turn(90);
+\s;	move(5);
+\s;	return;
+\s;}
+\n;
+5) Teste se é possível virar à direita.
+    ...
+
+\b;Atenção
+A instrução <code>if ( )</ code> nunca deve ser seguida por \l;ponto e vírgula\u cbot\term;.
+
+\t;Veja também
+\l;Programação\u cbot;, \l;tipos\u cbot\type; e \l;categorias\u cbot\category;.

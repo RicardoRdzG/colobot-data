@@ -1,0 +1,11 @@
+\b;Schritt für Schritt
+Alles um Sie herum geht in die Luft. Sie müssen die alte Basis so schnell Sie können verlassen. Ziehen Sie sich auf demselben Weg zurück, auf dem Sie gekommen sind.
+
+Sie können den \l;Ameisen\u object\ant; leicht aus dem Weg gehen. Werden Sie schwer getroffen, suchen Sie ein ruhiges Plätzchen und warten Sie, bis Ihr Schild sich regeneriert hat.
+
+\l;Spinnen\u object\spider; sind ein wenig schwieriger, aber auch dümmer. Sobald sie Sie sehen, krabbeln sie näher, blähen sich auf und explodieren. Wenn Sie ein Stück davon trifft, werden Sie ebenfalls sterben. Eine riskante, aber effiziente Methode, die Spinnen loszuwerden, besteht darin, sich gefährlich nah an die Spinne heranzuwagen und, wenn der Hinterleib anfängt sich aufzublähen, schnell rückwärts in Sicherheit zu fliegen.
+
+Wenn Sie eine ruhige Insel erreicht haben, können Sie den \l;Jetorgashooter\u object\botoj; dazu verwenden, den Weg von feindlichen Insekten freizumachen. Sie dürfen ihn jedoch nicht verlieren, denn sonst ist die ganze Mission gescheitert.
+
+\t;Siehe auch
+Die \l;Steuerung\u command;

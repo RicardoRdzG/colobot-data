@@ -1,1 +1,8 @@
 Title.E text="Motors" resume="Motor"
+Title.C text="Motory" resume="Motor"
+Title.D text="Motoren" resume="Motor"
+Title.S text="Motores" resume="Motor"
+Title.F text="Moteurs" resume="Moteur"
+Title.P text="Silniki" resume="Silnik"
+Title.B text="Motores" resume="Motor"
+Title.R text="Моторы" resume="Мотор"

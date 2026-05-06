@@ -1,0 +1,14 @@
+\b;Ejercicio
+Sigue el camino en forma de espiral. El bot debe moverse 2 veces 25m hacia adelante y girar, luego moverse 2 veces 20m hacia adelante y girar, y así sucesivamente.
+\image tproc2 8 8;
+
+\b;Función
+Habrás notado que el camino está formado por partes en forma de "L" que encajan una en otra. La primera (azul oscuro) mide dos veces 25 metros. La segunda (azul claro) mide 5 metros menos. Empecemos escribiendo la \l;función\u cbot\function; que moverá el bot en una parte en forma de "L" cuya longitud se dará como parámetro.
+
+\b;Instrucciones útiles
+\c;\l;for\u cbot\for;\n; bucle para repetir algunas instrucciones
+\c;\l;move\u cbot\move;\n; para mover el bot
+\c;\l;turn\u cbot\turn;\n; para girar el bot
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

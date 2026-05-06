@@ -1,0 +1,32 @@
+\b;Zpráva z výcvikového střediska NASA
+S radostí Vám oznamujeme, že jste byli vybráni na vesmírnou průzkumnou misi Colobot.
+
+Váš psychologický profil vyhovuje z 98,84 % a během dlouhých a náročných zkoušek jste prokázali neobyčejnou zdatnost. Podrobné výsledky máte k dispozici v centrálním počítači pod Vaším osobním číslem.
+
+Hlaste se prosím v \l;řídícím středisku Houston\u object\huston; pro další rozkazy ohledně Vaší nadcházející mise.
+
+\b;Zpráva z řídícího střediska Houston
+Jak jistě víte, Zemi hrozí důsledkem znečištění ovzduší neodvratná katastrofa.
+
+\l;Vaše\u object\human; mise sestává z průzkumu sousedních galaxií v naději, že naleznete planetu vhodnou pro lidský život a snad i nový domov pro lidstvo. Po celou misi budete úplně sami, ale na palubě rakety s sebou povezete několik robotů.
+
+Před sedmi měsíci jsme do vesmíru vyslali výpravu složenou výhradně z robotů se stejným úkolem. Ta po cestě narazila na řadu překážek a přistála na několika planetách nevhodných pro kolonizaci, některých přímo smrtelně nebezpečných. Nedávno pak bylo spojení s výpravou zcela přerušeno.
+
+Příčina neúspěchu výpravy v tuto chvíli není jasná, především kvůli opakovaným výpadkům spojení. Doufáme, že dokážete data shromážděná předchozí výpravou nějak zužitkovat.
+
+Vaše poslední cvičení před zahájením výpravy je vybavit raketu \l;černou skříňkou\u object\bbox;. Robot naprogramovaný naložit ji do rakety čeká na Váš pokyn. Poblíž modré \l;vlajky\u object\flag; musíte postavit \l;komunikační stanici\u object\exchange; a příkazem \l;send\u cbot\send; poslat signál. K tomuto úkolu se Vám může hodit \l;pásový stavitel\u object\botbc;.
+
+Bohužel, Vaše \l;továrna na roboty\u object\factory; zatím nedokáže tento typ robota vyrábět. Nejprve musíte zadat \l;výzkumné stanici\u object\research; příkaz, aby vytvořila výrobní plány pro tento druh zařízení.
+
+\b;Postup
+1) Proveďte výzkum nezbytných \l;technologií\u cbot\researches;.
+2) Doprostřed \l;továrny na roboty\u object\factory; položte \l;kostku titanu\u object\titan; a vyrobte \l;pásového stavitele\u object\botgc;.
+3) Dojeďte na vrchol hory na jihozápadě a postavte \l;komunikační stanici\u object\exchange; poblíž modré \l;vlajky\u object\flag;.
+4) Příkazem \l;send\u cbot\send; pošlete \l;prázdnou informaci\u cbot\string;, abyste robotu nesoucímu černou skříňku dali signál naložit ji do rakety.
+5) Nezapomeňte naložit \l;pojízdné rameno\u object\botgr; a \l;stavitele\u object\botbc;.
+6) Nastupte do \l;rakety\u object\base; a odleťte \button 28;.
+
+Tyto instrukce si můžete kdykoliv znovu přečíst na svém osobním SatKomu \button 63; klávesou \key;\key help;\norm;.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

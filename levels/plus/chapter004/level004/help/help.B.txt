@@ -1,0 +1,11 @@
+\b;Do Centro de Controle de Missões
+Este planeta acabou por ser um candidato muito improvável para a colonização. Melhor deixar para o bem. Recupere a \l;caixa preta\u object\bbox; da expedição anterior e siga em direção ao próximo planeta. 
+
+O satélite de observação indicou que sua localização atual está no fundo de um vale. No entanto, o estrato difuso da poluição eletromagnética poderia tornar toda a informação sobre satélites pouco confiável.
+
+Fique alerta.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

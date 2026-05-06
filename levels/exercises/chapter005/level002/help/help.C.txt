@@ -1,0 +1,35 @@
+\b;Cvičení
+Toto cvičení je velmi podobné jako to předchozí. Tentokrát musíte odvézt tři \l;kostky titanu\u object\titan; na tři cílové značky. Zde jsou souřadnice cílových značek:
+\c;
+	x=10, y=-60
+	x=10, y=-65
+	x=10, y=-70
+\n;
+\b;Obecný postup
+Opakovat třikrát:
+o  Najít nejvzdálenější kostku titanu příkazem \c;\l;radar\u cbot\radar;\n;.
+o  Zvednout ji příkazem \c;\l;grab\u cbot\grab;\n;.
+o  Dojet k jedné z cílových značek příkazem \c;\l;goto\u cbot\goto;\n;.
+o  Položit titan příkazem \c;\l;drop\u cbot\drop;\n;.
+
+Pokud byste hledali nejbližší kostku titanu, radar najde tu, kterou už jste přivezli a položili na značku. Proto musíte hledat nejvzdálenější kostku titanu.
+
+\b;Program
+Všechny příkazy pro přivezení kostky titanu opakujte třikrát pomocí cyklu \c;\l;for\u cbot\for;\n;. Uvnitř cyklu hledejte nejvzdálenější kostku titanu příkazem \c;\l;radar\u cbot\radar;(Titanium, 0, 360, 0, 1000, -1);\n;. Poslední hodnota \c;-1\n; znamená, že radar má místo nejbližšího objektu hledat ten nejvzdálenější.
+\c;
+\s;object  metal;
+\s;metal = radar(Titanium, 0, 360, 0, 1000, -1);
+\s;if ( metal == null )  return;
+\s;goto(metal.position);
+\n;
+Proměnná \c;metal\n; je typu \c;\l;object\u cbot\object;\n;. Polohu objektu popsaného touto proměnnou zjistíte výrazem \c;metal.position\n;.
+
+Všechny cílové značky mají souřadnici \c;x\n; rovnu 10. Souřadnice \c;y\n; mají hodnoty -60, -65 a -70. Nejpohodlnější způsob, jak získat souřadnice další cílové značky, je využít řídící proměnnou \c;for\n; cyklu "\c;i\n;", která bude v jednotlivých opakováních cyklu postupně nabývat hodnot 0, 1 a 2:
+\c;
+\s;dest.x = 10;
+\s;dest.y = -60-5*i;
+\n;
+Dopsat zbytek programu už je na Vás.
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

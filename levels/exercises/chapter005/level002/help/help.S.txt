@@ -1,0 +1,35 @@
+\b;Ejercicio
+Este ejercicio es muy similar al anterior. Ahora hay tres \l;cubos de titanio\u object\titan; que debes mover a 3 plataformas de meta. Aquí están las coordenadas de las plataformas de meta:
+\c;
+	x=10, y=-60
+	x=10, y=-65
+	x=10, y=-70
+\n;
+\b;Principio general
+Repite 3 veces:
+o  Busca el cubo de titanio más lejano con \c;\l;radar\u cbot\radar;\n;.
+o  Recógelo con \c;\l;grab\u cbot\grab;\n;.
+o  Ve a una de las plataformas con \c;\l;goto\u cbot\goto;\n;.
+o  Deja el titanio con \c;\l;drop\u cbot\drop;\n;.
+
+Si buscas el cubo de titanio más cercano, el radar encontraría uno que ya recogiste y dejaste en una plataforma. Por lo tanto, debes buscar el cubo de titanio más lejano.
+
+\b;El programa
+Usa un bucle \c;\l;for\u cbot\for;\n; para repetir 3 veces todas las instrucciones necesarias para recuperar el cubo de titanio. Dentro del bucle, para encontrar el cubo de titanio más lejano, usa la instrucción \c;\l;radar\u cbot\radar;(Titanium, 0, 360, 0, 1000, -1);\n;. El último valor \c;-1\n; significa que en lugar de buscar el objeto más cercano, el radar devolverá el más lejano que pueda encontrar.
+\c;
+\s;object  metal;
+\s;metal = radar(Titanium, 0, 360, 0, 1000, -1);
+\s;if ( metal == null )  return;
+\s;goto(metal.position);
+\n;
+La variable \c;metal\n; es de tipo \c;\l;object\u cbot\object;\n;. Para conocer la posición del objeto descrito por la variable, debes escribir \c;metal.position\n;.
+
+Las coordenadas \c;x\n; de las 3 plataformas son todas iguales a 10. Las coordenadas \c;y\n; son respectivamente -60, -65 y -70. La forma más eficiente de obtener las coordenadas de las plataformas es usar el valor de \c;i\n; del bucle \c;for\n; que tomará sucesivamente los valores 0, 1 y 2:
+\c;
+\s;dest.x = 10;
+\s;dest.y = -60-5*i;
+\n;
+Ahora depende de ti terminar el programa.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

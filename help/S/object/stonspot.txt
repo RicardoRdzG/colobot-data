@@ -1,0 +1,14 @@
+\b;Depósito de Titanio Subterráneo
+\image stonspot 4 4;
+Una cruz roja revela la presencia de un estrato de \l;mineral de titanio\u object\titanore; en el subsuelo. Será posible extraerlo usando un \l;derrick\u object\derrick;.
+
+Un \l;detector\u object\botsr; colocará una cruz roja cada vez que descubra un depósito. Los \l;bots detectores\u object\botsr; también pueden detectar la presencia de \l;mineral de uranio\u object\uranore; como indica un \l;círculo amarillo\u object\uranspot; y de energía como indica una \l;cruz verde\u object\enerspot;.
+
+\t;Transporte
+Imposible.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;TitaniumSpot\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

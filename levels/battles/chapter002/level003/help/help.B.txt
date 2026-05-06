@@ -1,0 +1,5 @@
+\b;Batalha de Código (tiro de um alvo)
+Este é um nível de \l;batalhas de código\u battles; onde você precisa atirar em um alvo inofensivo, a fim de aprender como mirar corretamente.
+
+\b;Objetivo
+Destrua o alvo localizado no lado oposto do rio.

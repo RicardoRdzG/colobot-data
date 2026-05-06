@@ -1,0 +1,22 @@
+\b;Bandera de Colores
+\image flag 4 4;
+Las banderas de colores son útiles para marcar ubicaciones estratégicas o posiciones que \l;tú\u object\human; necesitarás encontrar de nuevo. Las banderas aparecen en el mini-mapa en forma de cruz del mismo color que la bandera.
+
+Usa los botones \button 118; y \button 119; para plantar y quitar banderas, cuyos colores puedes elegir con los botones de arriba.
+
+Cuando tu mini-mapa no funcione, el hecho de que las banderas sigan la dirección del viento puede ayudarte a encontrar tu camino y no caminar en círculos.
+
+Al programar, puedes usar banderas para darle a un bot una referencia a cierta posición: la instrucción \c;\l;radar\u cbot\radar;\n; permite a los bots conocer la posición exacta de una bandera de un color dado.
+
+\t;Transporte
+Imposible.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;BanderaAzul\n;
+\c;BanderaRoja\n;
+\c;BanderaVerde\n;
+\c;BanderaAmarilla\n;
+\c;BanderaVioleta\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

@@ -1,0 +1,38 @@
+\b;Objetivo
+Programa el \l;bot recolector\u object\botgr; para cambiar la \l;celda de energía\u object\power; del \l;disparador alado\u object\botfj;. El disparador alado podrá entonces disparar a las arañas.
+
+\t;Procedimiento
+1) Programa el \l;bot recolector\u object\botgr;.
+2) Ejecuta el programa con el botón de flecha \button 21;.
+El \l;disparador alado\u object\botfj; ya está programado, hará su trabajo en cuanto tenga una nueva celda de energía.
+
+\t;Programa
+Necesitarás las siguientes instrucciones:
+\c;
+\s;grab();\n;
+\n;Toma lo que esté delante del bot.
+\c;
+\s;drop();\n;
+\n;Suelta lo que el bot lleva delante.
+\c;
+\s;turn();\n;
+\n;Ya vimos esta instrucción en el ejercicio anterior: realiza una rotación de un ángulo dado en grados.
+
+Veamos el comienzo del programa:
+o  recoger la celda de energía vacía con \c;grab();\n;
+o  girar 90 grados a la izquierda (un cuarto de vuelta) con \c;turn(90)\n;
+o  soltar la celda vacía con \c;drop();\n;
+o  etc.
+
+¡Ahora te toca escribir el resto del programa!
+
+Si tienes un problema, siempre puedes ver la solución: selecciona el programa \c;Solution\n; y haz clic en el botón de llaves \button 22;.
+
+\t;Observaciones
+Ten cuidado de escribir las instrucciones con precisión, respetando las mayúsculas y minúsculas.
+
+Escribe siempre una instrucción por línea, terminando cada línea con un punto y coma.
+
+En caso de que tu programa no haga exactamente lo que quieres, puedes volver a poner el bot en el punto de partida con el botón \button 59;. También puedes empezar de nuevo desde el principio (pulsa la tecla "Esc", luego haz clic en "Restart"). El programa que has escrito no se perderá.
+
+\key;\key help;\norm; te permite revisar estas instrucciones en cualquier momento.

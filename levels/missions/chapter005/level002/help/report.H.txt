@@ -1,0 +1,19 @@
+\b;Műholdjelentés
+Jelenleg geostacionárius pályán kering a Saari körül.
+\c;
+\s;-> FELSZÍN\c;
+\tab;Hőmérséklet:     38.4C
+\tab;Légkör:          CO2, oxigén, nitrogén
+\tab;Szél:            1.4 m/s
+\tab;Titánérc:        néhány
+\tab;Uranérc:         nincs
+
+\s;-> Földalatti\c;
+\tab;Energiaforrás:   mindenhol
+\tab;Titánérc:        nincs
+\tab;Uranérc:         nincs
+
+\s;-> További információk\c;
+\tab;Felfedezve:      hatalmas hangyák közelednek 
+\tab;  - Veszély:     igen, azonnali
+\n;

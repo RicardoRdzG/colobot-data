@@ -1,0 +1,13 @@
+\b;Guía Paso a Paso
+1) Hay un \l;cubo de titanio\u object\titan; al oeste de tu ubicación actual, cerca de la bandera azul/cruz azul en tu mini mapa. No necesitas mover el cubo, simplemente construye una \l;central eléctrica\u object\station; justo ahí en el lugar.
+
+2) Con los cubos de titanio en la nave espacial, construye un \l;centro de investigación\u object\research; y ejecuta el <programa de investigación de cañón lanzador> \button 67;.
+
+3) Construye una \l;fábrica de bots\u object\factory; y un \l;disparador alado\u object\botfj;. Si este bot es destruido por fuego enemigo, encontrarás algunos \l;cubos de titanio\u object\titan; adicionales en un pequeño valle brumoso al noroeste de la nave espacial. Puedes traerlos de vuelta con el \l;recogedor alado\u object\botgj;\n;.
+
+4) Construye una \l;estación de radar\u object\radar; para ver la ubicación de las hormigas en el mini-mapa, y que comience la caza. Ten cuidado de no quedarte sin energía y de no sobrecalentar el reactor de un bot mientras estés sobre el agua. Si un bot cae en agua profunda, explota.
+
+5) Una vez que hayas matado a todas las hormigas, sube a bordo y despega.
+
+\t;Ver también
+\l;Controles\u command;

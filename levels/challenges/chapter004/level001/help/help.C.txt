@@ -1,0 +1,20 @@
+\b;Cvičení
+\l;Robot\u object\bottr; musí projet přes všechny \l;modré křížky\u object\waypoint; na zemi. Trasa se skládá ze dvou čtverců. První čtverec měří 15 metrů, druhý 25 metrů.
+
+\image tproc1a 8 8;
+\b;Obecný postup
+Nejjednodušším řešením tohoto úkolu je vytvořit \l;funkci\u cbot\function;, která robota pošle objet čtverec o zadané délce. Hlavní program pak bude velmi jednoduchý:\c;
+\c;
+\s;	extern void object::Trasa( )
+\s;	{
+\s;		Square(15);
+\s;		Square(25);
+\s;	}
+\n;
+\b;Užitečné příkazy
+\c;\l;for\u cbot\for;\n; cyklus pro opakování několika příkazů
+\c;\l;move\u cbot\move;\n; pro popojetí s robotem
+\c;\l;turn\u cbot\turn;\n; pro otočení robota
+
+\t;Užitečné odkazy
+\l;Programování\u cbot;, \l;datové typy\u cbot\type; a \l;kategorie\u cbot\category;.

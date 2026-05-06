@@ -1,0 +1,20 @@
+\b;Satellitenbericht
+Gegenwärtig in einer geostationären Umlaufbahn um Orpheon.
+\c;
+\s;-> Oberfläche\c;
+\tab;Temperatur:     -72.8C
+\tab;Atmosphäre:     nicht vorhanden
+\tab;Wind:           0.0 m/s
+\tab;Titanerz:       nicht vorhanden
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Untergrund\c;
+\tab;Energiefelder:  nicht vorhanden
+\tab;Titanerz:       vereinzelt (blaue Fahne)
+\tab;Platinerz:      nicht vorhanden
+
+\s;-> Zusätzliche Informationen\c;
+\tab;Entdeckt:       Riesenameisen
+\tab;  - Gefahr:     nicht unmittelbar
+\tab;Entdeckt:       starke elektromagnetische Stürme
+\n;

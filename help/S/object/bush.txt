@@ -1,0 +1,9 @@
+\b;Arbusto
+\image bush 8 8;
+Un arbusto es un tipo de vegetación que puede ser aplanado por \l;robots pesados con oruga\u object\botrecy;, permitiendo que otros bots y \l;tú\u object\human; pasen a través de él.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;Arbusto\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

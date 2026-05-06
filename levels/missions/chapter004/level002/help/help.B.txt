@@ -1,0 +1,11 @@
+\b;Do Centro de Controle de Missões
+Limpe a área de todos os organismos hostis. A maneira como você faz isso (\l;torre de defesa\u object\tower; ou \l;atirador alado\u object\botfj;) é com você.
+
+O radar parece ser perfeitamente adequado para a detecção de vermes. Tenha em mente que eles só aparecem quando estão na superfície.
+
+Nós retransmitimos uma transmissão para sua \l;fábrica de robôs\u object\factory;. Trata-se de um robô projetado para detectar matérias-primas no subsolo: fontes de energia, minério. Nós chamamos de \l;farejador\u object\botsr;. A análise preliminar nos leva a acreditar que a presença de minério de titânio em Crystalium está intimamente ligada ao crescimento de grandes cristais azuis. Se este for realmente o caso, esta informação deve permitir-lhe poupar algum tempo precioso. Um \l;extrator\u object\derrick; é necessário para a extração.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

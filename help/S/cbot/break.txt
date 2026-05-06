@@ -1,0 +1,50 @@
+\b;Instrucción \c;break\n;
+Sintaxis :
+\s;\c;while ( condición )
+\s;{
+\s;	break;
+\s;}
+\n;
+Con esta instrucción, puedes salir inmediatamente de un bucle \c;\l;while\u cbot\while;\n; o \c;\l;for\u cbot\for;\n;.
+
+Aquí tienes un ejemplo:
+\s;\c;int i = 0;
+\s;while ( true )
+\s;{
+\s;	\n;Instrucciones ...\c;
+\s;	i = i+1;
+\s;	if ( i >= 10 )
+\s;	{
+\s;		break;
+\s;	}
+\s;	\n;más instrucciones ...\c;
+\s;}
+\n;
+Puedes asignar una etiqueta a un bucle de la siguiente manera:
+\s;\c;esta_es_una_etiqueta: while ( true )
+\s;{
+\s;	\n;Instrucciones ...\c;
+\s;}
+\n;
+De forma predeterminada, cuando hay varios bucles anidados unos dentro de otros, esta instrucción afecta al bucle más interno. Si no es esto lo que deseas, puedes utilizar una etiqueta para indicar a esta instrucción a qué bucle debe afectar:
+\s;\c;string result = "";
+\s;foo: for(int outer = 0; true; ++outer)
+\s;{
+\s;	result += "A";
+\s;	for(int inner = 1; inner < 3; ++inner)
+\s;	{
+\s;		result += "B";
+\s;		if(inner == outer)
+\s;		{
+\s;			result += "*";
+\s;			break foo;
+\s;		}
+\s;		result += "C";
+\s;	}
+\s;	result += "D";
+\s;}
+\s;result += "E";
+\s;message(result);  // Imprime: ABCBCDAB*E
+\n;
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

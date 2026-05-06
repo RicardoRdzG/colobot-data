@@ -1,0 +1,22 @@
+\b;Návod
+1) V rozbořené továrně na roboty najdete \l;kostku titanu\u object\titan;. Postavte z ní \l;nabíječku\u object\station;.
+
+2) \l;Recyklátor\u object\botrecy; dokáže zrecyklovat vraky na znovu použitelné kostky titanu.
+
+3) Postavte \l;opravnu\u object\repair; a \l;radar\u object\radar;.
+
+4) Nabijte jednu z dostupných \l;baterií\u object\power; a vložte ji do zdířky \l;létajícího kanónu\u object\botfj;.
+
+5) Zlikvidujte všechny \l;mravence\u object\ant;. Pamatujte, že byste měli kanón pravidelně nabíjet a opravovat. Hlídejte si štít a baterii.
+
+6) Plně nabijte baterii \l;pojízdného ramena\u object\botgr; a dojeďte s ním na vrchol hory...
+      a) Na první patro vyjeďte po nájezdu na západě;
+      b) Na prvním patře jeďte na východ k druhému nájezdu;
+      c) Na druhém patře jeďte na jih k třetímu nájezdu;
+      d) Z třetího patra se na vrchol dostanete ze západu;
+...pak seberte rudu a vyražte přímou čarou k raketě, ať neplýtváte zbývající energií.
+
+7) Sami nastupte do rakety a odleťte.
+
+\t;Užitečné odkazy
+\l;Ovládání\u command;

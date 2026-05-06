@@ -1,0 +1,8 @@
+\b;Passo a passo
+1) Bata no deck da \l;espaçonave\u object\base;. Você não precisa mover o \l;batedor\u object\bottump; para qualquer lugar.
+2) Localize o \l;atirador orgânico\u object\botoj; a aproximadamente 70 metros para o leste.
+3) Extermine as \l;formigas\u object\ant; enquanto elas ainda estiverem em suas costas.
+4) Decole.
+
+\t;Veja também
+\l;Controles\u command;.

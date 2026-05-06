@@ -1,0 +1,14 @@
+\b;Instrucción \c;recycle\n; ( reciclar )
+Sintaxis:
+\s;\c;recycle ( );\n;
+
+Recicla el robot abandonado que se encuentra delante del \l;reciclador\u object\botrecy; y lo convierte en un \l;cubo de titanio\u object\titan;.
+
+\t;Valor devuelto: \c;\l;int\u cbot\int;\n;
+Cero si todo está bien, o un valor diferente de cero si ocurrió un error.
+\c;== 0 \n;el bot abandonado ha sido reciclado
+\c;!= 0 \n;error, no se pudo reciclar ningún bot abandonado
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.
+

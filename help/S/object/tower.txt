@@ -1,0 +1,22 @@
+\b;\button 165; Torre de Defensa
+\image tower 8 8;
+La torre constituye la mejor defensa contra ataques de \l;enemigos\u object\mother;, ya sea que se originen en el suelo o desde los cielos.
+
+La torre requiere una celda de energía \l;regular\u object\power; o \l;nuclear\u object\atomic;. Una celda de energía regular proporciona capacidad para 8 disparos. Una celda de energía nuclear es por supuesto preferible. La torre comienza a parpadear cuando se queda sin energía.
+
+El alcance es de 40 metros. Para visualizarlo, selecciona la torre y presiona el botón <range> \button 41;. Puntos rojos delimitarán la zona circular durante 20 segundos.
+
+\t;Requisitos para construir
+Cualquier superficie plana de al menos 3,5 metros de ancho.
+
+\t;Fuente de energía
+Celda de energía regular o nuclear.
+
+\t;Duración de operación
+1 segundo.
+
+\t;\l;Categoría\u cbot\category; del Objeto
+\c;DefenseTower\n;
+
+\t;Ver también
+\l;Lenguaje CBOT\u cbot;, \l;Variables\u cbot\type; y \l;Categorías\u cbot\category;.

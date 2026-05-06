@@ -1,0 +1,13 @@
+\b;Instrucción \c;trunc\n; ( truncar )
+Sintaxis:
+\s;\c;trunc (valor);\n;
+El truncamiento es un método para aproximar un número decimal omitiendo todos los decimales a partir de un determinado punto sin redondear. Para los números positivos, funciona como la función \c;\l;floor();\u cbot\floor;\n;, y para los números negativos, funciona como la función \c;\l;ceil();\u cbot\ceil;\n;. Se puede decir que redondea hacia cero.
+
+\t;valor: \c;\l;float\u cbot\float;\n;
+Número.
+
+\t;Valor de retorno: \c;\l;float\u cbot\float;\n;
+\c;valor\n; truncado. Por ejemplo, \c;trunc(-2.5)\n; es \c;-2.00\n;.
+
+\t;Ver también
+\l;round\u cbot\round;, \l;programación\u cbot;, \l;tipos\u cbot\type; y \l;expresiones\u cbot\expr;.

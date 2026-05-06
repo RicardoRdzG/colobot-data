@@ -1,0 +1,15 @@
+\b;Játékmenet
+1) Kezdje azzal, hogy feltölti a \l;normál energia cellát\u object\power;, és ellátja vele a \l;kutató központot\u object\research;. Használja ezt a technológia kutatásához, ami szükséges egy \l;atom erőmű\u object\nuclear; felépítéséhez \button 170;.
+
+2) Készítsen egy \l;kerekes markolót\u object\botgr;.
+
+3) Találjon néhány \l;uraniumércet\u object\uranore; a pozíciója északnyugati részén. Az atom erőmű ezután átalakítja azt \l;nukleáris energia cellákká\u object\atomic;, amelyek hosszabb ideig tartanak.
+
+4) Töltse fel az egyik új nukleáris cellájával a \l;kerekes lövőt\u object\botfr;. Küldje el, hogy megölje az összes betolakodó \l;pókot\u object\spider; az útján.
+
+5) Egy \l;radar\u object\radar; opcionális, de hasznos lehet a pókok pozíciójának megjelölésére a minimapján.
+
+6) A kerekes markolónak része kell, hogy legyen az expedíciónak. Tisztítja az utat, amely tele van \l;titánérccel\u object\titanore;, és visszahozza a \l;robbanószert\u object\tnt;.
+
+\t;Lásd még
+\l;Parancsok\u command;

@@ -1,0 +1,6 @@
+\b;Tipo \c;false\n; (falso)
+Este valor significa que una condición no es verdadera; es uno de los dos valores que puede tomar una \l;variable\u cbot\var; \l;booleana\u cbot\bool;.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.
+

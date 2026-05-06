@@ -1,0 +1,19 @@
+\b;Instrucción \c;shield\n; ( escudo )
+Sintaxis:
+\s;\c;shield (oper, radio);\n;
+
+Activa o desactiva el escudo del \l;protector\u object\botshld;. Por supuesto, puedes mover al protector cuando el escudo está activo. Protege todos los objetos que se encuentran dentro de la esfera protegida del fuego enemigo. El radio de la esfera puede oscilar entre 10 y 25 metros.
+ 
+\t;oper: \c;\l;float\u cbot\float;\n;
+\c;1\n; activa el escudo.
+\c;0\n; desactiva el escudo
+Una  \l;celda de poder\u object\power; normal completamente cargada puede mantener el escudo activo durante 20 segundos. Cuando la celda esta vacía, el escudo se desactiva.
+ 
+\t;radio: \c;\l;float\u cbot\float;\n;
+Radio del escudo, entre 10 y 25 metros.
+
+\t;Valor de retorno: \c;\l;void\u cbot\void;\n;
+Ninguno.
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

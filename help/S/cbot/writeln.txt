@@ -1,0 +1,21 @@
+\b;Instrucción \c;writeln\n;
+Escribe una línea de texto en un archivo abierto en la carpeta files/. Este es un método de la clase \c;\l;file\u cbot\file;\n;. Por eso siempre escribimos \c;handle.writeln()\n;:
+\c;
+\s;	handle.writeln("abc");
+\n;
+El archivo debe haberse abierto para escritura (\c;"w"\n;) con la instrucción \c;\l;open\u cbot\open;\n;. La línea terminará automáticamente con los caracteres de fin de línea 0x0D (CR) y 0x0A (LF).
+
+Sintaxis:
+\s;\c;handle.writeln ( cadena );\n;
+
+Ejemplos:
+\c;
+\s;	writeln("Linea de texto");
+
+\s;	string s1 = "abc";
+\s;	string s2 = "def";
+\s;	writeln(s1 + " " + s2);
+\n;
+\t;Ver también
+\c;\l;file\u cbot\file;\n;, \c;\l;open\u cbot\open;\n;, \c;\l;close\u cbot\close;\n;, \c;\l;readln\u cbot\readln;\n; y \c;\l;eof\u cbot\eof;\n;.
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

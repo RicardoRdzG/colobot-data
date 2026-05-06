@@ -1,0 +1,13 @@
+\b;Do Centro de Controle de Missões
+Você precisa recuperar um \l;dispositivo explosivo\u object\tnt; que foi visto em um vale profundo próximo a um lago de lava fervente.
+
+Por causa das altas temperaturas, os reatores não funcionam mais, ou seja, voar é impossível. É um longo caminho até lá e você deve equipar seus robôs com \l;células de energia nuclear\u object\atomic;. Células de energia nuclear são fabricadas a partir de \l;minério de urânio\u object\uranore;.
+
+Um programa mais eficiente para a coleta de matérias-primas está anexado a esta mensagem.
+
+Uma nota de aviso: o dispositivo explosivo é extremamente volátil. Use extrema cautela.
+
+\key;\key help;\norm; permite-lhe rever estas instruções a qualquer momento no seu SatCom pessoal \button 63;.
+
+\t;Veja também
+\l;Controles\u command; e \l;Linguagem CBOT\u cbot;

@@ -1,0 +1,9 @@
+\b;A Küldetésirányítótól
+A műholdad megtalálta az előző expedíció maradványait. Nem messze onnan találni fogsz egy \l;fekete dobozt\u object\bbox;. Az megadja a következő célállomásod koordinátáit.
+
+Írd ki a még hátralévő hangyákat. Értesítettek, hogy a neutronfegyvered jelenleg nem működik, ezért nem fogsz tudni új robotokat építeni. Meg vagyunk győződve róla, hogy elég találékony vagy ahhoz, hogy megoldást találj.
+
+\key;\key help;\norm; lehetőséget biztosít arra, hogy bármikor újra megnézd ezeket az utasításokat a saját SatCom-odon \button 63;.
+
+\t;Lásd még
+\l;Vezérlés\u command; és \l;CBOT Nyelv\u cbot;

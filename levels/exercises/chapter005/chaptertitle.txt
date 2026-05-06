@@ -1,1 +1,8 @@
 Title.E text="Mover" resume="Move"
+Title.C text="Přeprava" resume="Přeprava"
+Title.D text="Transport" resume="Transport"
+Title.S text="Mover" resume="Movimiento"
+Title.F text="Déplacements" resume="Déplace"
+Title.P text="Poruszanie się" resume="Poruszanie się"
+Title.B text="Mover" resume="Mover"
+Title.R text="Переселенец" resume="Переселение"

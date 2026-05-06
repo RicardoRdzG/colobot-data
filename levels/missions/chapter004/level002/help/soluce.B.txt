@@ -1,0 +1,17 @@
+\b;Passo a passo
+1) Construa uma \l;fábrica de robôs\u object\factory;.
+2) Produza um \l;farejador alado\u object\botsj;.
+3) Cheire o chão perto dos grandes cristais até obter uma \l;cruz vermelha\u object\stonspot;.
+4) Construa um \l;extrator\u object\derrick; perto da cruz vermelha.
+5) Construa um \l;conversor\u object\convert;.
+
+O emparelhamento de um extrator e um conversor permite um fornecimento ilimitado de \l;titânio\u object\titan;. Para deixar esta tarefa para um robô, execute o programa <code>ColetarTitanio2</ code>.
+
+6) Cheire a área ao pé da nave espacial. Uma \l;cruz verde\u object\enerspot; significa que você pode construir uma \l; estação de energia\u object\station; no local.
+7) Construa um \l;radar\u object\radar;.
+8) Produza um \l;atirador alado\u object\botfj;.
+9) Elimine todos os vermes.
+10) Volte para o sua nave e decole.
+
+\t;Veja também
+\l;Controles\u command;.

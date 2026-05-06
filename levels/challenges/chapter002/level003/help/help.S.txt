@@ -1,0 +1,15 @@
+\b;Ejercicio
+Defiéndete de todos los ataques enemigos
+
+\b;Idea general
+El alcance de tu cañón es de unos 40m. La categoría de los enemigos es \c;AlienAnt\n;. Gira hacia la hormiga más cercana, incluso si está a más de 40m. Pero dispara solo cuando esté a menos de 40m, para no desperdiciar tu energía.
+
+\b;Instrucciones útiles
+\c;\l;radar\u cbot\radar;\n; para detectar tus enemigos (categoría \c;\l;AlienAnt\u object\ant;\n;)
+\c;\l;direction\u cbot\direct;\n; para calcular una dirección
+\c;\l;distance\u cbot\dist;\n; para calcular una distancia
+\c;\l;fire\u cbot\fire;\n; para disparar tu cañón
+\c;\l;wait\u cbot\wait;\n; para esperar
+
+\t;Ver también
+\l;Programación\u cbot;, \l;tipos\u cbot\type; y \l;categorías\u cbot\category;.

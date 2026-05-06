@@ -1,0 +1,21 @@
+\b;Műholdjelentés
+Jelenleg egy geostacionárius pályán a Volcano körül.
+\c;
+\s;-> FELÜLET\c;
+\tab;Hőmérséklet:     96.6C
+\tab;Légkör:          CO2, SO2, HCN, HS, CH4, NH3
+\tab;Szél:            2.7 m/s
+\tab;Titánérc:        nincs
+\tab;Uránérc:         nincs
+
+\s;-> Földréteg\c;
+\tab;Energiforrás:    nincs
+\tab;Titánérc:        nincs
+\tab;Uránérc:         nincs
+
+\s;-> További információk\c;
+\tab;Felfedezve:      óriás hangyák
+\tab;  - Veszély:      azonnali
+\tab;Felfedezve:      óriás pókok
+\tab;  - Veszély:      nem azonnali
+\n;
